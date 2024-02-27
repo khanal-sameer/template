@@ -1,0 +1,326 @@
+{
+  "color": {
+    "body": " #000000",
+    "primary": "#7eb1d6",
+    "bg": "#f6f7f9",
+    "white": "#ffffff"
+  },
+  "title": "Redox Clay Mask",
+  "product": "7551",
+  "slider": {
+    "items": [
+      {
+        "img": "https://cdn.fluid.app/asea/redoxclay/slider_1.jpg",
+        "video": "https://cdn.fluid.app/asea/redoxclay/slider_video.mp4"
+      },
+      {
+        "img": "https://cdn.fluid.app/asea/redoxclay/slider_2.jpg"
+      },
+      {
+        "img": "https://cdn.fluid.app/asea/redoxclay/slider_3.jpg"
+      },
+      {
+        "img": "https://cdn.fluid.app/asea/redoxclay/slider_4.jpg"
+      },
+      {
+        "img": "https://cdn.fluid.app/asea/redoxclay/slider_5.jpg"
+      },
+      {
+        "img": "https://cdn.fluid.app/asea/redoxclay/slider_6.jpg"
+      },
+      {
+        "img": "https://cdn.fluid.app/asea/redoxclay/slider_7.png"
+      }
+    ]
+  },
+  "content": {
+    "header": {
+      "title": "Redox Clay Mask",
+      "subtitle": "Cell signaling clay mask for healthy, beautiful skin.",
+      "rating": 5,
+      "review": "7 Reviews"
+    },
+    "body": {
+      "variant": {},
+      "quantity": "Select quantity:",
+      "subscribe": {
+        "title": "Subscribe",
+        "items": [
+          { "body": "Save 20% with wholesale pricing" },
+          { "body": "30-day money-back guarantee" },
+          { "body": "Earn Loyalty Rewards for free products" },
+          { "body": "Change your subscription anytime" }
+        ],
+        "onetime": "One-time order",
+        "button": " Add to cart"
+      },
+      "description": {
+        "body": "ASEA® Redox Clay Mask combines the ancient healing properties of bentonite clay with our cutting edge redox cell signaling technology. The results? You, looking and feeling refreshed with smooth, refined, youthful skin.*",
+        "items": [
+          { "body": "Made with natural ingredients" },
+          { "body": "Feel the difference with the very first application" },
+          { "body": "Refined pores for visibly smoother skin" },
+          { "body": "Skin that looks and feels tighter" },
+          {
+            "link": "https://cdn.fluid.app/asea/redoxclay/redoxclay.pdf",
+            "body": "View more information"
+          }
+        ]
+      }
+    }
+  },
+  "asseenon": {
+    "header": "As seen on"
+  },
+  "soldinfo": {
+    "header1": "Over",
+    "count": "11,000",
+    "header2": "tubes sold worldwide"
+  },
+  "tab": {
+    "tab1": "Video reviews <span>(3)</span>",
+    "tab2": "Written reviews <span>(4)</span>",
+    "videoReview": {
+      "items": [
+        {
+          "img": "https://cdn.fluid.app/asea/redoxclay/ClayMask-Kaycee.jpg",
+          "video": "https://cdn.fluid.app/asea/redoxclay/ClayMask-Kaycee.mp4"
+        },
+        {
+          "img": "https://cdn.fluid.app/asea/redoxclay/ClayMask-Liz.jpg",
+          "video": "https://cdn.fluid.app/asea/redoxclay/ClayMask-Liz.mp4"
+        },
+        {
+          "img": "https://cdn.fluid.app/asea/redoxclay/ClayMask-Ester.jpg",
+          "video": "https://cdn.fluid.app/asea/redoxclay/ClayMask-Ester.mp4"
+        }
+      ]
+    },
+    "writtenReview": {
+      "average": "5 Star Rating",
+      "rating": 5,
+      "count": "4 Reviews",
+      "items": [
+        {
+          "header": "Amy S.",
+          "rating": 5,
+          "body": " The ASEA Clay Mask is a game-changer! In just 7 minutes, it delivers a refreshing cleanse that leaves my skin feeling rejuvenated and balanced. The tightening effect is incredible – my pores appear smaller, and my skin feels lifted. The natural ingredients give me confidence, knowing I'm treating my skin with care. Its smooth application and easy rinse-off make it a go-to in my skincare routine. For anyone seeking a quick, effective, and tightening clay mask, ASEA gets it right every time!"
+        },
+        {
+          "header": "Danielle M.",
+          "rating": 5,
+          "body": "One application and I was hooked! Could literally feel it tightening and love that it has simple ingredients with intentional impact: redox to help turn over my skin cells faster for more youthful looking skin and bentonite to help draw out impurities."
+        },
+        {
+          "header": "Jamie R.",
+          "rating": 5,
+          "body": "I love how clean and fresh my face feels after I use the Clay Mask. And I love knowing that it has Redox signaling molecules so my cells are being activated at the same time I’m cleansing all the dirt and junk out of my pores. I also love that it gently exfoliates my face. Such an amazing product!"
+        },
+        {
+          "header": "Eric R.",
+          "rating": 5,
+          "body": "The first time I used the clay mask, I was like “Woah!” My skin felt the cleanest/freshest it's probably ever felt. This stuff works like magic!"
+        }
+      ]
+    }
+  },
+  "collagen": {
+    "header": "Experience smooth, refined, youthful skin",
+    "items1": [
+      {
+        "header": "Visible results",
+        "body": "Improve both the texture and appearance of your skin."
+      },
+      {
+        "header": "Firms and tightens",
+        "body": "Feel and see tighter, more refined, youthful skin with the very first application."
+      }
+    ],
+    "img": "https://cdn.fluid.app/asea/redoxclay/youthfull_skin.png",
+    "items2": [
+      {
+        "header": "Purifies",
+        "body": "Draws out dirt, oil, and dead skin and reduces pore size."
+      },
+      {
+        "header": "Boosts skin cell turnover",
+        "body": "Signals surface skin cell renewal for a healthy, clarified appearance."
+      }
+    ]
+  },
+  "performance": {
+    "img": "https://cdn.fluid.app/asea/redoxclay/beauty_bio_mask.jpg",
+    "header": "A beauty bio-switch",
+    "body": "ASEA has created the world’s first-ever cell-signaling clay mask on the foundation of our proprietary redox technology for healthy skin cell turnover, protection, and renewal. ASEA® cell signaling redox molecules help surface skin cells to communicate, rejuvenate, and refresh to support skin surface health. Combine this technology with the purity of earth’s volcanic clay and you hold the recipe for a highly refined complexion in your hands."
+  },
+  "confidence": {
+    "img": "https://cdn.fluid.app/asea/redoxclay/video_bg.png",
+    "video": "https://cdn.fluid.app/asea/redoxclay/redoxclay_video.mp4",
+    "header": "ASEA® Redox Clay Mask",
+    "body": "Healthy, beautiful skin starts with a clean slate. We’ve combined the age-old power of the earth’s volcanic clay with the innovative power of redox signaling to create the world’s first ever cell signaling clay mask."
+  },
+  "checkout": {
+    "img": "https://cdn.fluid.app/asea/redoxclay/cofidence.jpg",
+    "header": "Checkout with confidence",
+    "items": [
+      {
+        "body": "100% 30-day risk free <span class='fw-600'>money-back guarantee</span>"
+      },
+      { "body": "<span class='fw-600'>Secure and encrypted </span>checkout" },
+      { "body": "It only takes <span class='fw-600'>2 minutes</span></" }
+    ],
+    "button": "Buy now"
+  },
+  "howtouse": {
+    "img": "https://cdn.fluid.app/asea/redoxclay/howtouse.png",
+    "video": "https://cdn.fluid.app/asea/redoxclay/howtouse_video.mp4",
+    "header": "How to use",
+    "items": [
+      { "body": "Apply an even layer on clean, dry skin.", "sn": 1 },
+      {
+        "body": "Let sit for 5-10 minutes, depending on comfort and skin type.",
+        "sn": 2
+      },
+      { "body": "Rinse thoroughly with warm water", "sn": 3 },
+      {
+        "body": "   For best results, use 2-3 times a week on non-consecutive days.",
+        "images": {
+          "name": "briefcase",
+          "img": "https://cdn.fluid.app/asea/redoxclay/briefcase.png"
+        }
+      },
+      {
+        "body": "Use as a full mask or to spot-treat imperfections.",
+        "images": {
+          "name": "briefcase",
+          "img": "https://cdn.fluid.app/asea/redoxclay/mask.png"
+        }
+      }
+    ]
+  },
+  "ingredient": {
+    "header": "Key ingredients",
+    "items1": [
+      {
+        "img": "https://cdn.fluid.app/asea/redoxclay/bentonite_icon.png",
+        "header": "Bentonite clay",
+        "body": " Responsibly sourced bentonite clay to helps detoxify skin and reduce pore size."
+      },
+      {
+        "img": "https://cdn.fluid.app/asea/redoxclay/curelty_icon.png",
+        "header": "Cruelty-free",
+        "body": "Does not include animal-based ingredients and is not tested on animals."
+      }
+    ],
+    "img": "https://cdn.fluid.app/asea/redoxclay/ingredient.jpg",
+    "items2": [
+      {
+        "img": "https://cdn.fluid.app/asea/redoxclay/comedogenic_icon.png",
+        "header": "Non-comedogenic",
+        "body": "Won’t clog pores and is suited for all skin types."
+      },
+      {
+        "img": "https://cdn.fluid.app/asea/redoxclay/pure_simple_icon.png",
+        "header": "Pure and simple",
+        "body": "Free of parabens, sulfates, artificial colors, phthalates, and propylene glycol."
+      }
+    ]
+  },
+  "feelthedifference": {
+    "header": "Feel the difference or it’s free",
+    "body": "We put our money where our benefits are. That’s how much we believe in the power of redox. And if you’re not into it, totally fine. More for us.",
+    "items": [
+      {
+        "img": "https://cdn.fluid.app/asea/money_back.svg",
+        "body": "100% 30-day risk-free <span class='fw-600'>money-back guarantee</span>"
+      },
+      {
+        "img": "https://cdn.fluid.app/asea/flexible_icon.svg",
+        "body": "<span class='fw-600'>Flexible</span> delivery dates"
+      },
+      {
+        "img": "https://cdn.fluid.app/asea/cancel_icon.svg",
+        "body": "Pause or cancel <span class='fw-600'>anytime</span>"
+      }
+    ],
+    "button": "Subscribe now",
+    "img": "https://cdn.fluid.app/asea/redoxclay/itsfree.png"
+  },
+  "faq": {
+    "header": "Frequently asked questions",
+    "items": [
+      {
+        "header": " How often should I use the ASEA Redox Clay Mask?",
+        "body": "Directions for use are included on the label, and we recommend using 2-3 times per week on non-consecutive days."
+      },
+      {
+        "header": "How many applications are there in each tube of the Redox Clay Mask?",
+        "body": "There are approximately 4 to 5 applications per tube. This range can vary depending on the thickness of application."
+      },
+      {
+        "header": "How long does the firming and tightening last after application?",
+        "body": "As the Redox Clay Mask dries, you will feel a firming and tightening sensation. Once taken off, you will see those results immediately. And those firming benefits will improve further as you keep using the mask over time."
+      },
+      {
+        "header": "Will the Redox Clay Mask exfoliate dead skin cells and eliminate blemishes?",
+        "body": "Yes. Our Redox Clay Mask works by its negative charge that attracts impurities in the skin such as dead skin cells."
+      },
+      {
+        "header": "Can the Redox Clay Mask be used by teens with blemishes?",
+        "body": "Yes. We formulated the Redox Clay Mask for every skin type, and it can be used to absorb excess oils and reduce the look of enlarged pores for an improved appearance."
+      },
+      {
+        "header": "Since this mask is so effective for drawing out oil, what about dry or older skin?",
+        "body": " We conducted a clinical sensitivity test and the Redox Clay Mask was approved for all skin types. For individuals with dry skin, we recommend starting with 5 minutes (or less) to see how your skin reacts."
+      },
+      {
+        "header": "If someone has fillers in their face, will the Redox Clay Mask remove the fillers?",
+        "body": "Our Redox Clay Mask uses bentonite clay to remove impurities from your skin—pulling out dirt and oil from the superficial layers of your skin—but it will not negatively impact fillers."
+      },
+      {
+        "header": "Can the Redox Clay Mask be used on other areas of your body, such as neck and arms?",
+        "body": "The Redox Clay Mask has been formulated for facial application, but several consumers have seen benefits when applying to their neck, arms, elbows, and even their back and knees."
+      },
+      {
+        "header": "What about applying the mask on the sensitive area under my eye?",
+        "body": "The Redox Clay Mask can be applied to your entire face, but care must be taken to ensure the mask avoids contact with your eye."
+      },
+      {
+        "header": "What’s the difference between using the ASEA Redox Clay Mask (which contains redox signaling molecules) and another 100% bentonite clay mask in conjunction with ASEA’s RENU28® Gel (which also contains redox signaling molecules)?",
+        "body": "No 100% bentonite clay mask on the market contains redox signaling molecules, which supports communication at the surface skin cellular level. In addition, our Redox Clay Mask is not 100% bentonite clay. It is a proprietary mix of bentonite, sodium magnesium fluorosilicate, and other ingredients. It is also pH-adjusted to maximize the redox cell signaling molecules while maintaining the stability of these molecules. Traditional clay masks focus on cleansing the skin only. The ASEA Redox Clay Mask both cleanses and rejuvenates simultaneously because of the redox molecules in our mask, and there is a synergistic effect on skin surface cells when these steps happen in tandem. The Redox Clay Mask also prepares skin to more effectively receive RENU28."
+      },
+      {
+        "header": "What is sodium magnesium used for?",
+        "body": " We use sodium magnesium fluorosilicate in our formula. This ingredient is another type of clay and is used as a thickening agent in our Redox Clay Mask."
+      },
+      {
+        "header": "Where does ASEA source its bentonite clay?",
+        "body": "We source our ultra-pure and pristine bentonite—which is a volcanic ash—from a large deposit in Wyoming (US)."
+      },
+      {
+        "header": "Where do I incorporate ASEA® Redox Clay Mask into my routine?",
+        "body": "You can use ASEA® Redox Clay Mask as a stand-alone product on a clean, dry face 2-3 times a week on non-consecutive days. <p class='my-12'>It can also be incorporated into your regular weekly skin regimen with ASEA’s RENUAdvanced® Skin Care System and RENU28® Revitalizing Redox Gel and the Intensive Redox Serum to cleanse, tone, hydrate, and beautify your skin. On days the mask is used:</p> <ul class='list-disc'> <li> RENUAdvanced® Foaming Cleanser </li> <li>Redox Clay Mask (Use 2 – 3 times per week, rinse off completely after 5-10 minutes.)</li> <li>RENU28® (Let it absorb and dry completely.)</li> <li>RENUAdvanced® Balancing Toner</li> <li>RENUAdvanced® Glow Serum</li> <li>RENUAdvanced® Hydrating Cream</li>"
+      },
+      {
+        "header": "How much of the formula should I use?",
+        "body": "Apply a quarter size amount evenly across face."
+      },
+      {
+        "header": "How does ASEA® Redox Clay Mask clean skin without drying it out?",
+        "body": "ASEA® Redox Clay Mask has a clay-based formula balanced with sodium magnesium fluorosilicate, sodium phosphate, and sodium chloride to help replenish skin. The mask tightens the skin as it dries, but the blend of ingredients helps achieve a desirable pH—leading to soft and smooth skin without the excessive drying that can occur with other clay masks. <p class='mt-12'>The mask can also be complemented with ASEA’s RENUAdvanced® Skin Care System and RENU28® Revitalizing Redox Gel and Intensive Redox Serum for targeted hydration as needed.</p>"
+      },
+      {
+        "header": "Is this product okay to use on dry skin?",
+        "body": "Yes, the product is suitable for all skin types and was specifically formulated to be non-drying. If you have really dry skin, you can reduce the application time of the ASEA® Redox Clay Mask. This product can also be used in conjunction with the RENUAdvanced® Skin Care System to balance out hydration."
+      }
+    ],
+    "button": "Show more"
+  },
+  "support": {
+    "header": "Experience smooth, refined,</br> and younger-looking skin",
+    "button1": "Add to one-time purchase",
+    "button2": "Add to subscription",
+    "img": "https://cdn.fluid.app/asea/redoxclay/experience_smooth.png",
+    "banner": "*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+  }
+}

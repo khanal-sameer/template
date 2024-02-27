@@ -1,0 +1,19 @@
+{
+  "name": "asea-static-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "asea-static.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init-lang": "node ./generate.js init",
+    "generate": "node ./generate.js populate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^10.3.10",
+    "mustache": "^4.2.0"
+  }
+}
