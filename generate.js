@@ -19,16 +19,15 @@ const replaceIterableInt = (nestedString = "", key) => {
 };
 
 const populateHTML = (lang, page, base = "base/template.html") => {
-  const template = readFile(base);
+  const template = readFile(...base);
   const data = readFile(lang);
   const partials = readDir("partials");
 
   const replaceData = replaceIterableInt(data, "rating");
   const parsedData = JSON.parse(replaceData);
-
   if (!data || !template) return;
 
-  const rendered = Mustache.render(template, parsedData, partials);
+  const rendered = Mustache.render(template, parsedData, partials)
 
   writeFile(page, rendered);
 
