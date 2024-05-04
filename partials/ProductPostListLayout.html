@@ -1,0 +1,26 @@
+{{#product_post_list}}
+  <section class="product-post product-style-1 is-flex is-wrap overlay-animation">
+    <div class="col-12 col-lg-6  desc clr-bg-700_bg {{desc_ordering_class}}">
+      <div class="wrapper">
+        <h2>{{title}}</h2>
+        <p class="mt-32 clr-body">{{{desc}}}</p>
+        <div class="btn-section mt-32">
+          <button
+            class="btn w-full text-center btn-primary btn-rounded"
+            data-fluid-checkout="{{product_id}}"
+            id="add_to_cart"
+          >
+            {{>CartSvg}}
+            {{add_to_cart_text}}
+          </button>
+        </div>
+      </div>
+    </div><!--.desc-->
+    <div class="col-12 col-lg-6 {{image_ordering_class}}">
+      <div class="image-section">
+        <img src="{{image}}" alt="product">
+        <div class="overlay overlay-{{image_position}}"></div>
+      </div>
+    </div>
+  </section>
+{{/product_post_list}}

@@ -1,0 +1,24 @@
+{{#how_to_use}}
+  <section class="page-section page-section_howtouse clr-bg-700_bg how-to-use-section">
+    <div class="container">
+      <div class="row">
+
+        <div class="col col-12 col-lg-6">
+          <div class="image-section bg-image" {{{bg_image}}}></div>
+        </div>
+
+        <div class="col col-lg-6 pt-44 pt-lg-0">
+          <div class="desc items-center h-full">
+            <h2>{{title}}</h2>
+            <ul class="item-list list-disc mt-24">
+              {{#steps}}
+                <li>{{caption}}</li>
+              {{/steps}}
+            </ul>
+          </div>
+        </div>
+
+      </div><!-- .row -->
+    </div><!-- .container -->
+  </section>
+{{/how_to_use}}

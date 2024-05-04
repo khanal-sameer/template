@@ -1,0 +1,48 @@
+{{#product_benefits}}
+<section class="page-section key-ingredients">
+    <div class="container">
+
+      <div class="section-title text-center">
+        <h2>{{title}}</h2>
+        <p class="w-820 m-auto clr-body mt-32">{{{desc}}}</p>
+      </div>
+
+      <div class="feature-section-layout-1 pt-60 secondary-font">
+        <div class="row is-align-center">
+          <div class="col col-12 col-lg-6">
+            <div class="image-section mt-50">
+              <img
+                src="{{image}}"
+                alt="{{alt_text}}"
+                class="m-auto mr-lg-0"
+              />
+            </div>
+          </div>
+
+          <div class="col col-12 col-lg-6">
+            <div class="feature-item-list">
+              <div class="row">
+                {{#items}}
+                  <div class="col col-12 col-sm-6 col-lg-12">
+                    <div class="product-feature-item product-feature-item-style-1 mt-50">
+                      <div class="icon-section">
+                        {{{icon}}}
+                      </div><!--.icon-section-->
+
+                      <div class="desc pl-24">
+                        <h4>{{title}}</h4>
+                        <p class="mt-24">{{desc}}</p>
+                      </div>
+                    </div><!--.product-feature-item-style-1-->
+                  </div><!--.col-->
+                {{/items}}
+              </div><!--.row-->
+            </div><!--.feature-item-list-->
+          </div><!--.col-->
+
+        </div><!--.row-->
+      </div><!--.feature-section-layout-1-->
+
+    </div><!--.container-->
+  </section>
+{{/product_benefits}}

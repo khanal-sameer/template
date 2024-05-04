@@ -1,41 +1,26 @@
-<div id="as-seen_slider" class="splide">
-    <div class="splide__track">
-        <ul class="splide__list">
-            <li class="splide__slide">
-                <div class="as-seen_image">
-                    <img src="https://cdn.fluid.app/asea/as_seen_1.svg" alt="as seen logo" />
-                </div>
-            </li>
-            <li class="splide__slide">
-                <div class="as-seen_image">
-                    <img src="https://cdn.fluid.app/asea/as_seen_2.svg" alt="as seen logo" />
-                </div>
-            </li>
-            <li class="splide__slide">
-                <div class="as-seen_image">
-                    <img src="https://cdn.fluid.app/asea/as_seen_3.svg" alt="as seen logo" />
-                </div>
-            </li>
-            <li class="splide__slide">
-                <div class="as-seen_image">
-                    <img src="https://cdn.fluid.app/asea/as_seen_4.svg" alt="as seen logo" />
-                </div>
-            </li>
-            <li class="splide__slide">
-                <div class="as-seen_image">
-                    <img src="https://cdn.fluid.app/asea/as_seen_5.svg" alt="as seen logo" />
-                </div>
-            </li>
-            <li class="splide__slide">
-                <div class="as-seen_image">
-                    <img src="https://cdn.fluid.app/asea/as_seen_6.svg" alt="as seen logo" />
-                </div>
-            </li>
-            <li class="splide__slide">
-                <div class="as-seen_image">
-                    <img src="https://cdn.fluid.app/asea/as_seen_7.svg" alt="as seen logo" />
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
+ <!--As seen section-->
+{{#asSeenOn}}
+    <div class="as-seen pt-50 pb-50">
+        <div class="container">
+        <h4 class="text-center fw-600 mb-32">As seen on</h4>
+
+        <div id="as-seen_slider" class="splide">
+            <div class="splide__track">
+            <ul class="splide__list">
+                {{#items}}
+                    <li class="splide__slide">
+                        <div class="as-seen_image">
+                            <img
+                                src="{{image}}"
+                                alt="as seen logo"
+                            />
+                        </div>
+                    </li>
+                {{/items}}
+            </ul>
+            </div>
+        </div><!--#as-seen_slider-->
+
+        </div><!--.container---->
+    </div><!--/as-seen-->
+{{/asSeenOn}}

@@ -5,328 +5,257 @@
     "bg": "#f6f7f9",
     "white": "#ffffff"
   },
-  "title": "Redox Clay Mask",
-  "product": "7551",
-  "innovation":{
-    "image":"https://cdn.fluid.app/neumi/hers/images/innovative.png",
-    "title":"en Innovative science",
-    "paragraph": "en Glutathione is the protector and detoxifier of the cell.",
-    "paragraph_bold":"en It’s the key to the life, health, performance, protection and longevity of every human cell."
-  },
-  "slider": {
-    "items": [
+  "title": "Hers",
+  "product_id": "9410",
+  "ratingSvgColor": "#b484bb",
+  "product_title": "Hers",
+  "total_product_review": "2 Reviews",
+  "product_desc":  "<span class=fw-600>A premium nutritional supplement meticulously designed for women, </span> featuring pioneering Hydrastat Nano Technology for optimal absorption.",
+  "add_to_cart_text": "Add to cart",
+  "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
+  "productSlider":{
+    "items":[
       {
-        "img": "https://cdn.fluid.app/asea/redoxclay/slider_1.jpg",
-        "video": "https://cdn.fluid.app/asea/redoxclay/slider_video.mp4"
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_1.png"
       },
       {
-        "img": "https://cdn.fluid.app/asea/redoxclay/slider_2.jpg"
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_2.png"
       },
       {
-        "img": "https://cdn.fluid.app/asea/redoxclay/slider_3.jpg"
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_3.png"
       },
       {
-        "img": "https://cdn.fluid.app/asea/redoxclay/slider_4.jpg"
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_4.png"
       },
       {
-        "img": "https://cdn.fluid.app/asea/redoxclay/slider_5.jpg"
-      },
-      {
-        "img": "https://cdn.fluid.app/asea/redoxclay/slider_6.jpg"
-      },
-      {
-        "img": "https://cdn.fluid.app/asea/redoxclay/slider_7.png"
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_5.png"
       }
     ]
   },
-  "content": {
-    "header": {
-      "title": "Redox Clay Mask",
-      "subtitle": "Cell signaling clay mask for healthy, beautiful skin.",
-      "rating": 5,
-      "review": "7 Reviews"
-    },
-    "body": {
-      "variant": {},
-      "quantity": "Select quantity:",
-      "subscribe": {
-        "title": "Subscribe",
-        "items": [
-          { "body": "Save 20% with wholesale pricing" },
-          { "body": "30-day money-back guarantee" },
-          { "body": "Earn Loyalty Rewards for free products" },
-          { "body": "Change your subscription anytime" }
-        ],
-        "onetime": "One-time order",
-        "button": " Add to cart"
+  "subscribe": {
+    "subscribe_text":"Subscribe",
+    "frequency_text": "Select Frequency",
+    "actual_price" : "65.00",
+    "discounted_price": "50.00",
+    "checklist_items":[
+      {
+        "caption": "Subscribe and save $15"
       },
-      "description": {
-        "body": "ASEA® Redox Clay Mask combines the ancient healing properties of bentonite clay with our cutting edge redox cell signaling technology. The results? You, looking and feeling refreshed with smooth, refined, youthful skin.*",
-        "items": [
-          { "body": "Made with natural ingredients" },
-          { "body": "Feel the difference with the very first application" },
-          { "body": "Refined pores for visibly smoother skin" },
-          { "body": "Skin that looks and feels tighter" },
+      {
+        "caption": "Earn Neumi Reward Points"
+      },
+      {
+        "caption": "30-day money-back guarantee"
+      },
+      {
+        "caption": "Update your subscription anytime"
+      }
+    ],
+    "one_time_purchase_text":"One-time purchase"
+  },
+  "free_shipping_desc": "Free U.S. shipping for orders over $200+",
+  "benefits":{
+    "title": "Benefits",
+    "items":[
+      {
+        "caption":"Key ingredients to balance and support your hormone health, daily."
+      },
+      {
+        "caption":"For every season in life–active menstruation, pre/active/post menopause"
+      },
+      {
+        "caption": "Increase significant relief of hot flashes or cramps within just 20 minutes of consumption"
+      }
+    ]
+  },
+  "asSeenOn": {
+    "items": [
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_2.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_3.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_5.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
+      }
+    ]
+  },
+  "video":{
+    "image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/video_cover_image.png)",
+    "video_url": "https://vimeo.com/877308482"
+  },
+  "tab":{
+    "title": "See how Hers is changing lives",
+    "video_review_title": "Video Reviews <span>(5)</span>",
+    "written_review_title": "Written Reviews <span>(2)</span>",
+    "rating_text": "5 Star Rating",
+    "video_list":[
+      {
+        "image": "https://cdn.fluid.app/newulife/somaderm/review_1.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/video1.mp4"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/somaderm/review_2.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/video2.mp4"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/somaderm/review_3.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/video3.mp4"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/somaderm/review_4.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/video4.mp4"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/somaderm/review_5.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/video5.mp4"
+      }
+
+    ],
+    "review_list": [
+      {
+          "reviewer": "Aidan D..",
+          "address": "Salt Lake City, UT",
+          "time": "2 hour ago",
+          "review_text": "Hers has been a game-changer for me! I've been using it for a few months now, and I've noticed a significant improvement in my energy levels and overall vitality. It's amazing how something so simple can have such profound effects. Highly recommend!"
+      },
+      {
+          "reviewer": "Lola P..",
+          "address": "Laie, HI",
+          "time": "2 hour ago",
+          "review_text": "I've struggled with maintaining hormone balance for years, but Hers has made a world of difference. Not only do I feel more balanced and energized, but I've also noticed improvements in my skin tone and muscle tone. It's truly remarkable!"
+      }
+    ]
+  },
+  "product_benefits":{
+    "title": "Benefits of using Hers",
+    "desc": "<span class='fw-600'>Every woman knows about the inconveniences that cycles and hormone changes can bring into life.</span>Experience rapid results through our HydraStat™ Nanotechnology. Our nano-sized ingredients, wrapped in water clusters, are small enough to be absorbed fully by the human cell, which is right where you need them!",
+    "image": "https://cdn.fluid.app/neumi/hers/images/benefits.png",
+    "alt_text": "hers product",
+    "items": [
+      {
+          "icon": "<svg width=\"42\" height=\"52\" viewBox=\"0 0 42 52\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.5 24.8259L18.5 29.878L29.75 18.5107M41 26.0889C41 38.488 27.6151 47.5059 22.745 50.3767C22.1915 50.703 21.9148 50.8661 21.5242 50.9507C21.2211 51.0164 20.7789 51.0164 20.4758 50.9507C20.0852 50.8661 19.8085 50.703 19.255 50.3767C14.3849 47.5059 1 38.488 1 26.0889V14.0082C1 11.9886 1 10.9788 1.3269 10.1108C1.61569 9.34395 2.08496 8.65974 2.69415 8.11727C3.38374 7.5032 4.3195 7.14864 6.19101 6.4395L19.5955 1.3604C20.1152 1.16347 20.3751 1.065 20.6425 1.02597C20.8796 0.991344 21.1204 0.991344 21.3575 1.02597C21.6249 1.065 21.8848 1.16347 22.4045 1.3604L35.809 6.4395C37.6805 7.14864 38.6163 7.5032 39.3059 8.11727C39.915 8.65974 40.3843 9.34395 40.6731 10.1108C41 10.9788 41 11.9886 41 14.0082V26.0889Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>",
+          "title": "Ingredients You Can Trust",
+          "desc": "Hers uses our HydraStat™ nano-delivery system to maximize absorption and effectiveness of the following ingredients: white peony extract, chaste berry, dong quai, maca root, ashwagandha and other nutrients."
+      },
+      {
+          "icon": "<svg width=\"42\" height=\"44\" viewBox=\"0 0 42 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.2544 43V19.9M1 24.1V38.8C1 41.1196 2.83642 43 5.10176 43H32.6374C35.6742 43 38.2567 40.7313 38.7185 37.658L40.9271 22.958C41.5005 19.1417 38.6169 15.7 34.846 15.7H27.6615C26.5288 15.7 25.6106 14.7598 25.6106 13.6V6.17826C25.6106 3.31839 23.3464 1 20.5534 1C19.8873 1 19.2836 1.40172 19.013 2.02506L11.7957 18.6529C11.4665 19.4113 10.7321 19.9 9.92159 19.9H5.10176C2.83642 19.9 1 21.7804 1 24.1Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>",
+          "title": "Results You Can Count On",
+          "desc": "We conducted a double-blind clinical trial, and 80% of participants, spanning from active menstruation to post-menopause, saw a marked improvement in their symptoms. Notably some experiencing hot flashes or cramps reported significant relief within just 20 minutes of consumption."
+      },
+      {
+          "icon": "<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M40.8752 23.1005C40.2221 29.2404 36.7452 34.994 30.9921 38.3176C21.4336 43.8395 9.21128 40.5626 3.69271 30.9984L3.10493 29.9797M1.12461 18.8995C1.77776 12.7596 5.25457 7.00597 11.0077 3.68238C20.5662 -1.83953 32.7885 1.43741 38.3071 11.0016L38.8949 12.0203M1 35.2704L2.72114 28.8431L9.14452 30.5653M32.8555 11.4346L39.2789 13.1567L41 6.72948M21 10.4135V20.9999L26.8778 24.5288\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>",
+          "title": "For Every Season Of Life",
+          "desc": "Hers is designed for all women, in every season of life. Every ingredient in our botanical formula was carefully selected to create a well-rounded blend of benefits. With Hers, every woman can flourish."
+      }
+    ]
+  },
+  "product_post_list":[
+    {
+      "title": "Innovative science",
+      "desc": "Glutathione is the protector and detoxifier of the cell.<span class=fw-600 highlight-text>It’s the key to the life, health, performance, protection and longevity of every human cell.</span>",
+      "image": "https://cdn.fluid.app/neumi/hers/images/innovative.png",
+      "image_position": "right",
+      "desc_ordering_class": "",
+      "image_ordering_class": ""
+    },
+    {
+      "title": "HydraStat™ nanotechnology",
+      "desc": "<span class=fw-600>Nano-sized particles protected by ultra-pure water clusters.</span>Our nanosized ingredients are small enough to be fully absorbed into the human cell.",
+      "image": "https://cdn.fluid.app/neumi/hers/images/nano.png",
+      "image_position": "left",
+      "desc_ordering_class": " order-lg-2",
+      "image_ordering_class": " order-lg-1"
+    },
+    {
+      "title": "Quality over quantity",
+      "desc": " A supplement is only as good as its bioavailability, which is its ability to be absorbed and used by the body.<span class=fw-600 highlight-text>The correct delivery system delivers ingredients to your body in a way that your body can absorb and use.</span>",
+      "image": "https://cdn.fluid.app/neumi/hers/images/quality.png",
+      "image_position": "right",
+      "desc_ordering_class": "",
+      "image_ordering_class": ""
+    }
+  ],
+  "key_ingredients":{
+    "title": "Hers key ingredients",
+    "ingredients": "<span class=fw-600>Active Ingredients:</span> ULTRA-PURE WATER, B6, B12, POTASSIUM SORBATE, SODIUM BENZOATE, SPEARMINT EXTRACT.",
+    "items_list":[
+      {
+        "item":[
           {
-            "link": "https://cdn.fluid.app/asea/redoxclay/redoxclay.pdf",
-            "body": "View more information"
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/damiana.png)",
+            "item_name": "Damiana"
+          },
+          {
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/dong-quai-root.png)",
+            "item_name": "Dong Quai Root"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/ginger.webp)",
+            "item_name": "Ginger"
+          },
+          {
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/Chasteberry.png)",
+            "item_name": "Chasteberry Extract"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/maca-root.png)",
+            "item_name": "Maca Root"
+          },
+          {
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/black-cohosh.png)",
+            "item_name": "Black Cohosh"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/Ashwagandharoot.webp)",
+            "item_name": "Ashwagandh"
+          },
+          {
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/peony-white-root.webp)",
+            "item_name": "Peony White Root"
           }
         ]
       }
-    }
-  },
-  "asseenon": {
-    "header": "As seen on"
-  },
-  "soldinfo": {
-    "header1": "Over",
-    "count": "11,000",
-    "header2": "tubes sold worldwide"
-  },
-  "tab": {
-    "tab1": "Video reviews <span>(3)</span>",
-    "tab2": "Written reviews <span>(4)</span>",
-    "videoReview": {
-      "items": [
-        {
-          "img": "https://cdn.fluid.app/asea/redoxclay/ClayMask-Kaycee.jpg",
-          "video": "https://cdn.fluid.app/asea/redoxclay/ClayMask-Kaycee.mp4"
-        },
-        {
-          "img": "https://cdn.fluid.app/asea/redoxclay/ClayMask-Liz.jpg",
-          "video": "https://cdn.fluid.app/asea/redoxclay/ClayMask-Liz.mp4"
-        },
-        {
-          "img": "https://cdn.fluid.app/asea/redoxclay/ClayMask-Ester.jpg",
-          "video": "https://cdn.fluid.app/asea/redoxclay/ClayMask-Ester.mp4"
-        }
-      ]
-    },
-    "writtenReview": {
-      "average": "5 Star Rating",
-      "rating": 5,
-      "count": "4 Reviews",
-      "items": [
-        {
-          "header": "Amy S.",
-          "rating": 5,
-          "body": " The ASEA Clay Mask is a game-changer! In just 7 minutes, it delivers a refreshing cleanse that leaves my skin feeling rejuvenated and balanced. The tightening effect is incredible – my pores appear smaller, and my skin feels lifted. The natural ingredients give me confidence, knowing I'm treating my skin with care. Its smooth application and easy rinse-off make it a go-to in my skincare routine. For anyone seeking a quick, effective, and tightening clay mask, ASEA gets it right every time!"
-        },
-        {
-          "header": "Danielle M.",
-          "rating": 5,
-          "body": "One application and I was hooked! Could literally feel it tightening and love that it has simple ingredients with intentional impact: redox to help turn over my skin cells faster for more youthful looking skin and bentonite to help draw out impurities."
-        },
-        {
-          "header": "Jamie R.",
-          "rating": 5,
-          "body": "I love how clean and fresh my face feels after I use the Clay Mask. And I love knowing that it has Redox signaling molecules so my cells are being activated at the same time I’m cleansing all the dirt and junk out of my pores. I also love that it gently exfoliates my face. Such an amazing product!"
-        },
-        {
-          "header": "Eric R.",
-          "rating": 5,
-          "body": "The first time I used the clay mask, I was like “Woah!” My skin felt the cleanest/freshest it's probably ever felt. This stuff works like magic!"
-        }
-      ]
-    }
-  },
-  "collagen": {
-    "header": "Experience smooth, refined, youthful skin",
-    "items1": [
-      {
-        "header": "Visible results",
-        "body": "Improve both the texture and appearance of your skin."
-      },
-      {
-        "header": "Firms and tightens",
-        "body": "Feel and see tighter, more refined, youthful skin with the very first application."
-      }
-    ],
-    "img": "https://cdn.fluid.app/asea/redoxclay/youthfull_skin.png",
-    "items2": [
-      {
-        "header": "Purifies",
-        "body": "Draws out dirt, oil, and dead skin and reduces pore size."
-      },
-      {
-        "header": "Boosts skin cell turnover",
-        "body": "Signals surface skin cell renewal for a healthy, clarified appearance."
-      }
     ]
   },
-  "performance": {
-    "img": "https://cdn.fluid.app/asea/redoxclay/beauty_bio_mask.jpg",
-    "header": "A beauty bio-switch",
-    "body": "ASEA has created the world’s first-ever cell-signaling clay mask on the foundation of our proprietary redox technology for healthy skin cell turnover, protection, and renewal. ASEA® cell signaling redox molecules help surface skin cells to communicate, rejuvenate, and refresh to support skin surface health. Combine this technology with the purity of earth’s volcanic clay and you hold the recipe for a highly refined complexion in your hands."
-  },
-  "confidence": {
-    "img": "https://cdn.fluid.app/asea/redoxclay/video_bg.png",
-    "video": "https://cdn.fluid.app/asea/redoxclay/redoxclay_video.mp4",
-    "header": "ASEA® Redox Clay Mask",
-    "body": "Healthy, beautiful skin starts with a clean slate. We’ve combined the age-old power of the earth’s volcanic clay with the innovative power of redox signaling to create the world’s first ever cell signaling clay mask."
-  },
-  "checkout": {
-    "img": "https://cdn.fluid.app/asea/redoxclay/cofidence.jpg",
-    "header": "Checkout with confidence",
-    "items": [
+  "how_to_use":{
+    "title": "How to intake",
+    "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/intake.png)",
+    "steps": [
       {
-        "body": "100% 30-day risk free <span class='fw-600'>money-back guarantee</span>"
-      },
-      { "body": "<span class='fw-600'>Secure and encrypted </span>checkout" },
-      { "body": "It only takes <span class='fw-600'>2 minutes</span></" }
-    ],
-    "button": "Buy now"
-  },
-  "howtouse": {
-    "img": "https://cdn.fluid.app/asea/redoxclay/howtouse.png",
-    "video": "https://cdn.fluid.app/asea/redoxclay/howtouse_video.mp4",
-    "header": "How to use",
-    "items": [
-      { "body": "Apply an even layer on clean, dry skin.", "sn": 1 },
-      {
-        "body": "Let sit for 5-10 minutes, depending on comfort and skin type.",
-        "sn": 2
-      },
-      { "body": "Rinse thoroughly with warm water", "sn": 3 },
-      {
-        "body": "   For best results, use 2-3 times a week on non-consecutive days.",
-        "images": {
-          "name": "briefcase",
-          "img": "https://cdn.fluid.app/asea/redoxclay/briefcase.png"
-        }
+        "caption": "Measure two (2) teaspoons of product. One capful = teaspoon."
       },
       {
-        "body": "Use as a full mask or to spot-treat imperfections.",
-        "images": {
-          "name": "briefcase",
-          "img": "https://cdn.fluid.app/asea/redoxclay/mask.png"
-        }
+        "caption": "Swish in your mouth for 30 seconds or more."
+      },
+      {
+        "caption": "Unlike mouthwash, you can swallow Hers. You can also spit it out, if you prefer."
+      },
+      {
+        "caption": "Repeat these steps twice a day. Feel free to use Hers  more often, if desired."
       }
     ]
-  },
-  "ingredient": {
-    "header": "Key ingredients",
-    "items1": [
-      {
-        "img": "https://cdn.fluid.app/asea/redoxclay/bentonite_icon.png",
-        "header": "Bentonite clay",
-        "body": " Responsibly sourced bentonite clay to helps detoxify skin and reduce pore size."
-      },
-      {
-        "img": "https://cdn.fluid.app/asea/redoxclay/curelty_icon.png",
-        "header": "Cruelty-free",
-        "body": "Does not include animal-based ingredients and is not tested on animals."
-      }
-    ],
-    "img": "https://cdn.fluid.app/asea/redoxclay/ingredient.jpg",
-    "items2": [
-      {
-        "img": "https://cdn.fluid.app/asea/redoxclay/comedogenic_icon.png",
-        "header": "Non-comedogenic",
-        "body": "Won’t clog pores and is suited for all skin types."
-      },
-      {
-        "img": "https://cdn.fluid.app/asea/redoxclay/pure_simple_icon.png",
-        "header": "Pure and simple",
-        "body": "Free of parabens, sulfates, artificial colors, phthalates, and propylene glycol."
-      }
-    ]
-  },
-  "feelthedifference": {
-    "header": "Feel the difference or it’s free",
-    "body": "We put our money where our benefits are. That’s how much we believe in the power of redox. And if you’re not into it, totally fine. More for us.",
-    "items": [
-      {
-        "img": "https://cdn.fluid.app/asea/money_back.svg",
-        "body": "100% 30-day risk-free <span class='fw-600'>money-back guarantee</span>"
-      },
-      {
-        "img": "https://cdn.fluid.app/asea/flexible_icon.svg",
-        "body": "<span class='fw-600'>Flexible</span> delivery dates"
-      },
-      {
-        "img": "https://cdn.fluid.app/asea/cancel_icon.svg",
-        "body": "Pause or cancel <span class='fw-600'>anytime</span>"
-      }
-    ],
-    "button": "Subscribe now",
-    "img": "https://cdn.fluid.app/asea/redoxclay/itsfree.png"
-  },
-  "faq": {
-    "header": "Frequently asked questions",
-    "items": [
-      {
-        "header": " How often should I use the ASEA Redox Clay Mask?",
-        "body": "Directions for use are included on the label, and we recommend using 2-3 times per week on non-consecutive days."
-      },
-      {
-        "header": "How many applications are there in each tube of the Redox Clay Mask?",
-        "body": "There are approximately 4 to 5 applications per tube. This range can vary depending on the thickness of application."
-      },
-      {
-        "header": "How long does the firming and tightening last after application?",
-        "body": "As the Redox Clay Mask dries, you will feel a firming and tightening sensation. Once taken off, you will see those results immediately. And those firming benefits will improve further as you keep using the mask over time."
-      },
-      {
-        "header": "Will the Redox Clay Mask exfoliate dead skin cells and eliminate blemishes?",
-        "body": "Yes. Our Redox Clay Mask works by its negative charge that attracts impurities in the skin such as dead skin cells."
-      },
-      {
-        "header": "Can the Redox Clay Mask be used by teens with blemishes?",
-        "body": "Yes. We formulated the Redox Clay Mask for every skin type, and it can be used to absorb excess oils and reduce the look of enlarged pores for an improved appearance."
-      },
-      {
-        "header": "Since this mask is so effective for drawing out oil, what about dry or older skin?",
-        "body": " We conducted a clinical sensitivity test and the Redox Clay Mask was approved for all skin types. For individuals with dry skin, we recommend starting with 5 minutes (or less) to see how your skin reacts."
-      },
-      {
-        "header": "If someone has fillers in their face, will the Redox Clay Mask remove the fillers?",
-        "body": "Our Redox Clay Mask uses bentonite clay to remove impurities from your skin—pulling out dirt and oil from the superficial layers of your skin—but it will not negatively impact fillers."
-      },
-      {
-        "header": "Can the Redox Clay Mask be used on other areas of your body, such as neck and arms?",
-        "body": "The Redox Clay Mask has been formulated for facial application, but several consumers have seen benefits when applying to their neck, arms, elbows, and even their back and knees."
-      },
-      {
-        "header": "What about applying the mask on the sensitive area under my eye?",
-        "body": "The Redox Clay Mask can be applied to your entire face, but care must be taken to ensure the mask avoids contact with your eye."
-      },
-      {
-        "header": "What’s the difference between using the ASEA Redox Clay Mask (which contains redox signaling molecules) and another 100% bentonite clay mask in conjunction with ASEA’s RENU28® Gel (which also contains redox signaling molecules)?",
-        "body": "No 100% bentonite clay mask on the market contains redox signaling molecules, which supports communication at the surface skin cellular level. In addition, our Redox Clay Mask is not 100% bentonite clay. It is a proprietary mix of bentonite, sodium magnesium fluorosilicate, and other ingredients. It is also pH-adjusted to maximize the redox cell signaling molecules while maintaining the stability of these molecules. Traditional clay masks focus on cleansing the skin only. The ASEA Redox Clay Mask both cleanses and rejuvenates simultaneously because of the redox molecules in our mask, and there is a synergistic effect on skin surface cells when these steps happen in tandem. The Redox Clay Mask also prepares skin to more effectively receive RENU28."
-      },
-      {
-        "header": "What is sodium magnesium used for?",
-        "body": " We use sodium magnesium fluorosilicate in our formula. This ingredient is another type of clay and is used as a thickening agent in our Redox Clay Mask."
-      },
-      {
-        "header": "Where does ASEA source its bentonite clay?",
-        "body": "We source our ultra-pure and pristine bentonite—which is a volcanic ash—from a large deposit in Wyoming (US)."
-      },
-      {
-        "header": "Where do I incorporate ASEA® Redox Clay Mask into my routine?",
-        "body": "You can use ASEA® Redox Clay Mask as a stand-alone product on a clean, dry face 2-3 times a week on non-consecutive days. <p class='my-12'>It can also be incorporated into your regular weekly skin regimen with ASEA’s RENUAdvanced® Skin Care System and RENU28® Revitalizing Redox Gel and the Intensive Redox Serum to cleanse, tone, hydrate, and beautify your skin. On days the mask is used:</p> <ul class='list-disc'> <li> RENUAdvanced® Foaming Cleanser </li> <li>Redox Clay Mask (Use 2 – 3 times per week, rinse off completely after 5-10 minutes.)</li> <li>RENU28® (Let it absorb and dry completely.)</li> <li>RENUAdvanced® Balancing Toner</li> <li>RENUAdvanced® Glow Serum</li> <li>RENUAdvanced® Hydrating Cream</li>"
-      },
-      {
-        "header": "How much of the formula should I use?",
-        "body": "Apply a quarter size amount evenly across face."
-      },
-      {
-        "header": "How does ASEA® Redox Clay Mask clean skin without drying it out?",
-        "body": "ASEA® Redox Clay Mask has a clay-based formula balanced with sodium magnesium fluorosilicate, sodium phosphate, and sodium chloride to help replenish skin. The mask tightens the skin as it dries, but the blend of ingredients helps achieve a desirable pH—leading to soft and smooth skin without the excessive drying that can occur with other clay masks. <p class='mt-12'>The mask can also be complemented with ASEA’s RENUAdvanced® Skin Care System and RENU28® Revitalizing Redox Gel and Intensive Redox Serum for targeted hydration as needed.</p>"
-      },
-      {
-        "header": "Is this product okay to use on dry skin?",
-        "body": "Yes, the product is suitable for all skin types and was specifically formulated to be non-drying. If you have really dry skin, you can reduce the application time of the ASEA® Redox Clay Mask. This product can also be used in conjunction with the RENUAdvanced® Skin Care System to balance out hydration."
-      }
-    ],
-    "button": "Show more"
-  },
-  "support": {
-    "header": "Experience smooth, refined,</br> and younger-looking skin",
-    "button1": "Add to one-time purchase",
-    "button2": "Add to subscription",
-    "img": "https://cdn.fluid.app/asea/redoxclay/experience_smooth.png",
-    "banner": "*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
   }
 }

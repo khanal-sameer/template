@@ -1,0 +1,29 @@
+{{#key_ingredients}}
+  <section class="page-section key-ingredients-section ingredients">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>{{title}}</h2>
+      </div>
+
+      <div id="key-ingredients-slider" class="splide key-ingredients-slider">
+        {{>PrevNext}}
+        <div class="splide__track">
+          <ul class="splide__list">
+            {{#items_list}}
+              <li class="splide__slide">
+                {{#item}}
+                  <div class="item mt-32">
+                    <div class="image-section" {{{bg_image}}}></div>
+                    <div class="ingredient-name text-center clr-body">{{item_name}}</div>
+                  </div>
+                {{/item}}
+              </li>
+
+            {{/items_list}}
+          </ul>
+        </div>
+      </div><!-- .key-ingredients-slider -->
+
+      <div class="key-note fs-sm text-center pt-60">{{{ingredients}}}</div>
+  </section>
+{{/key_ingredients}}
