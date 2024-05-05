@@ -1,0 +1,23 @@
+{{#faq}}
+  <section class="page-section page-section_accordion">
+    <div class="container">
+      <h2>{{title}}</h2>
+      <div class="acc mt-32" id="acc">
+        {{#items}}
+          <div class="acc-item {{class}}">
+
+            <div class="acc-item_header is-flex is-between col-gap-12">
+              <h4 class="flex-1">{{header}}</h4>
+              <div class="is-flex is-end acc-item_toggle {{icon_class}}">
+                {{>AccordionIcon}}
+              </div>
+            </div>
+
+            <div class="acc-item_body">{{desc}}</div>
+
+          </div>
+        {{/items}}
+      </div><!-- .acc -->
+    </div> <!-- .container -->
+  </section>
+{{/faq}}

@@ -1,10 +1,4 @@
 {
-  "color": {
-    "body": " #000000",
-    "primary": "#7eb1d6",
-    "bg": "#f6f7f9",
-    "white": "#ffffff"
-  },
   "title": "Hers",
   "product_id": "9410",
   "ratingSvgColor": "#b484bb",
@@ -13,6 +7,7 @@
   "product_desc":  "<span class=fw-600>A premium nutritional supplement meticulously designed for women, </span> featuring pioneering Hydrastat Nano Technology for optimal absorption.",
   "add_to_cart_text": "Add to cart",
   "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
+  "select_quantity_text": "Select Quantity",
   "productSlider":{
     "items":[
       {
@@ -257,5 +252,35 @@
         "caption": "Repeat these steps twice a day. Feel free to use Hers  more often, if desired."
       }
     ]
+  },
+  "faq":{
+    "title": "Benefits of Glutathione",
+    "icon_class": "clr-primary",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "Strengthened Immune System",
+        "desc": "Glutathione is able to neutralize free radicals and protect the body from their harmful effects.It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
+      },
+      {
+        "class": "",
+        "header": "Increased Energy",
+        "desc": "It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
+      },
+      {
+        "class": "",
+        "header": "Enhanced Stamina and Endurance",
+        "desc": "It also helps to reduce inflammation, and supports the body's natural ability to fight off infection. In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
+      }
+      
+    ]
+
+  },
+  "cta":{
+    "title": "A new you starts with Neumi",
+    "subscription_text": "Add to subscription",
+    "purchase_text": " Purchase one-time",
+    "image": "https://cdn.fluid.app/neumi/hers/images/cta.png",
+    "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration.These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
   }
 }
