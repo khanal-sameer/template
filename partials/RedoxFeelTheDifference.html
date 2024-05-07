@@ -1,0 +1,40 @@
+{{#feel_the_difference}}
+  <section class="page-section page-section_howtouse">
+    <div class="container">
+      <div class="is-grid two-cols">
+
+        <div class="col-item is-flex is-align-center order-1">
+          <div class="content-list pr-84">
+
+            <h3 class="mb-16 clr-body">{{title}}</h3>
+            <p class="clr-body clr-body">{{desc}}</p>
+            <ul class="fs-md features-list mt-16">
+              {{#items}}
+                <li class="is-flex is-start is-align-center col-gap-12 mb-8">
+                  <span class="features-list_icon">
+                    <img src="{{icon}}" alt="{{alt_text}}" />
+                  </span>
+                  <p>{{{caption}}}</p>
+                </li>
+              {{/items}}
+            </ul>
+
+            <div class="feature-susbscribe_button mt-32">
+              <button  class="btn w-full text-center btn-black fw-600"  data-fluid-subscription-checkout="{{product_id}}">
+                {{button_text}}
+              </button>
+            </div>
+
+          </div><!-- .content-list -->
+        </div><!-- .col-item -->
+
+        <div class="col-item order-2">
+          <div class="video-image is-relative">
+            <img src="{{image}}" alt="{{alt_text}}" />
+          </div>
+        </div><!-- .col-item -->
+
+      </div>
+    </div>
+  </section>
+{{/feel_the_difference}}

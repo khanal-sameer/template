@@ -1,0 +1,32 @@
+{{#how_to_use}}
+  <section class="page-section page-section_howtouse">
+    <div class="container">
+      <div class="is-grid two-cols">
+        <div class="col-item">
+          <div class="video-image is-relative">
+            <img src="{{image}}" alt="video image" />
+
+            <a data-fancybox href="{{video}}" class="play-icon">
+              <img src="{{play_icon}}" alt="{{play_alt_text}}"/>
+            </a>
+          </div>
+        </div>
+        <div class="col-item is-flex is-align-center">
+          <div class="content-list max-510">
+            <h2 class="mb-32 clr-body">{{title}}</h2>
+            <ul class="clr-body howtouse-list pr-100">
+              {{#steps}}
+                <li class="is-flex is-start is-align-center col-gap-16">
+                  <span class="howtouse-list_icon">
+                    <img src="{{image}}" alt="{{alt_text}}"/>
+                  </span>
+                  <p>{{caption}}</p>
+                </li>
+              {{/steps}}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{/how_to_use}}

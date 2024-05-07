@@ -1,281 +1,427 @@
 {
-  "title": "NutriSwish",
-  "product_id": "9474",
+  "title": "REDOXMind",
+  "lang": "en",
+  "product_id": "7595",
   "ratingSvgColor": "#294DE2;",
-  "product_title": "NutriSwish",
-  "total_product_review": "2 Reviews",
-  "product_desc":  "<span class=fw-600>The groundbreaking health supplement powered by HydraStat Nano-Technology for instant absorption,</span> delivering immune support, joint health.",
+  "product_title": "REDOXMind®",
+  "total_product_review": "22 Reviews",
+  "product_desc": "Recharge your mental A-game.*",
   "add_to_cart_text": "Add to cart",
-  "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
-  "select_quantity_text": "Select Quantity",
-  "productSlider":{
-    "items":[
+  "arrow_icon": "https://cdn.fluid.app/asea/arrow_icon.svg",
+  "play_icon": "https://cdn.fluid.app/asea/play.png",
+  "play_alt_text": "play icon",
+  "check_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14.775\" height=\"10.346\" viewBox=\"0 0 14.775 10.346\">\n  <path id=\"Path_4862\" data-name=\"Path 4862\" d=\"M767.9,561l-9.734,9.268L754,566.1\" transform=\"translate(-753.558 -560.547)\" fill=\"none\" stroke=\"rgba(0,0,0,0.8)\" stroke-linejoin=\"round\" stroke-width=\"1.25\" />\n</svg>\n</span>",
+  "select_quantity_text": "Select quantity:",
+  "productSlider": {
+    "slider_items1_image": "https://cdn.fluid.app/asea/redoxmind/slider_1.png",
+    "video": "https://cdn.fluid.app/asea/redoxmind/slider_video_en.mp4",
+    "alt_text": "product",
+    "items": [
       {
-        "image": "https://cdn.fluid.app/neumi/nutriswish/slider_1.png"
+        "image": "https://cdn.fluid.app/asea/redoxmind/slider_2.png"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/nutriswish/slider_2.png"
+        "image": "https://cdn.fluid.app/asea/redoxmind/slider_3.png"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/nutriswish/slider_3.png"
+        "image": "https://cdn.fluid.app/asea/redoxmind/slider_4_en.png"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/nutriswish/slider_4.png"
+        "image": "https://cdn.fluid.app/asea/redoxmind/slider_5.png"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/nutriswish/slider_5.png"
+        "image": "https://cdn.fluid.app/asea/redoxmind/slider_6.png"
       }
     ]
   },
   "subscribe": {
-    "subscribe_text":"Subscribe",
-    "frequency_text": "Select Frequency",
-    "actual_price" : "65.00",
-    "discounted_price": "50.00",
-    "checklist_items":[
+    "subscribe_text": "Subscribe",
+    "actual_price": "62.50",
+    "discounted_price": "50.00/mo",
+    "checklist_items": [
       {
-        "caption": "Subscribe and save $15"
-      },
-      {
-        "caption": "Earn Neumi Reward Points"
+        "caption": "Save 20% with wholesale pricing"
       },
       {
         "caption": "30-day money-back guarantee"
       },
       {
-        "caption": "Update your subscription anytime"
+        "caption": "Earn Loyalty Rewards for free products"
+      },
+      {
+        "caption": "Change your subscription anytime"
       }
     ],
-    "one_time_purchase_text":"One-time purchase"
+    "one_time_order_text": "One-time order"
   },
-  "free_shipping_desc": "Free U.S. shipping for orders over $200+",
-  "benefits":{
-    "title": "Benefits",
-    "items":[
+  "benefits": {
+    "desc": "Experience peak cognitive performance with REDOXMind—your solution to distractions and information overload. Elevate focus, memory, clarity, sharpness, and overall brain health.",
+    "view_more_text": "View more information",
+    "pdf_url": "https://cdn.fluid.app/asea/redoxmind/cell_performance_en.pdf",
+    "items": [
       {
-        "caption":"Key ingredients to maximize absorption and effectiveness, daily."
+        "caption": "Achieve heightened motivation and stay in your groove."
       },
       {
-        "caption":"Every batch undergoes rigorous third-party testing to ensure commitment to purity and safety."
+        "caption": "Combat brain fog by enhancing cognitive clarity."
       },
       {
-        "caption": "We offer a 30-day money-back guarantee, no questions asked."
+        "caption": "Support brain health over the long term."
+      },
+      {
+        "caption": "Maintain cohesive thinking even in high-stress situations."
       }
     ]
   },
   "asSeenOn": {
+    "title": "As seen on",
     "items": [
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
+        "image": "https://cdn.fluid.app/asea/as_seen_1.svg"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_2.png"
+        "image": "https://cdn.fluid.app/asea/as_seen_2.svg"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_3.png"
+        "image": "https://cdn.fluid.app/asea/as_seen_3.svg"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
+        "image": "https://cdn.fluid.app/asea/as_seen_4.svg"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_5.png"
+        "image": "https://cdn.fluid.app/asea/as_seen_5.svg"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
+        "image": "https://cdn.fluid.app/asea/as_seen_6.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_7.svg"
       }
     ]
   },
-  "video":{
-    "image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/video_cover_image.jpeg)",
-    "video_url": "https://www.youtube.com/watch?v=pdn3__eU4Hw"
+  "soldInfo": {
+    "image": "style=background-image:url(https://cdn.fluid.app/asea/redoxmind/sold_bg.png)",
+    "title": "Over",
+    "count": "40,000",
+    "desc": "cartons sold worldwide"
   },
-  "tab":{
-    "title": "See how NutriSwish  is changing lives",
-    "video_review_title": "Video Reviews <span>(5)</span>",
-    "written_review_title": "Written Reviews <span>(2)</span>",
+  "tab": {
+    "video_review_title": "Video reviews <span>(5)</span>",
+    "written_review_title": "Written reviews <span>(7)</span>",
     "rating_text": "5 Star Rating",
-    "video_list":[
+    "total_written_review": "7 Reviews",
+    "video_list": [
       {
-        "image": "https://cdn.fluid.app/newulife/somaderm/review_1.png",
-        "video": "https://cdn.fluid.app/neumi/nutrswish/videos/video1.mp4"
+        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Darrell.png",
+        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Darrell.mp4"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/somaderm/review_2.png",
-        "video": "https://cdn.fluid.app/neumi/nutrswish/videos/video2.mp4"
+        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Eric.png",
+        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Eric.mp4"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/somaderm/review_3.png",
-        "video": "https://cdn.fluid.app/neumi/nutrswish/videos/video3.mp4"
+        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Guenther.png",
+        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Guenther.mp4"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/somaderm/review_4.png",
-        "video": "https://cdn.fluid.app/neumi/nutrswish/videos/video4.mp4"
+        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Jamie.png",
+        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Jamie.mp4"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/somaderm/review_5.png",
-        "video": "https://cdn.fluid.app/neumi/nutrswish/videos/video5.mp4"
+        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Lilliana.png",
+        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Lilliana.mp4"
       }
-
     ],
     "review_list": [
       {
-          "reviewer": "Aidan D..",
-          "address": "Salt Lake City, UT",
-          "time": "2 hour ago",
-          "review_text": "Nutriswish has been a game-changer for me! I've been using it for a few months now, and I've noticed a significant improvement in my energy levels and overall vitality. It's amazing how something so simple can have such profound effects. Highly recommend!"
+        "reviewer": "Adela H.",
+        "address": "Tarawa Terrace II, United States",
+        "review_text": "I started using the Redox Mind in April. I tried other collagen brands, but I wasn't impressed and I could not see any results. I love how easy it is to use, on the go and the dosage is smaller than other collagen based products that are on the market, I loved that it's vegan and I can share it with my vegan friends. Now it's August and I can see a huge improvement, my hair, nails and skin feel and look much better."
       },
       {
-          "reviewer": "Lola P..",
-          "address": "Laie, HI",
-          "time": "2 hour ago",
-          "review_text": "I've struggled with maintaining hormone balance for years, but Nutriswish has made a world of difference. Not only do I feel more balanced and energized, but I've also noticed improvements in my skin tone and muscle tone. It's truly remarkable!"
+        "reviewer": "Eric R.",
+        "address": "Tarawa Terrace II, United States",
+        "review_text": "Although I haven’t used REDOX Mind for very long, there is one positive sign it’s actually working. My nails are growing thicker and faster than they ever have before. I’ve also noticed that the slightly sagging skin under my chin has been firming up! With results like this, REDOX Mind is going to be something I’ll be using indefinitely going forward!"
+      },
+      {
+        "reviewer": "Jamie R.",
+        "address": "Tarawa Terrace II, United States",
+        "review_text": "I’ve struggled with collagen supplements in the past because they upset my stomach, but I’ve never had one issue with REDOX Mind. My stomach feels great after taking it but even better, my hair, nails and skin have never looked better. My nails are growing faster and stronger than they ever have and my hair is so shiny and smooth."
+      },
+      {
+        "reviewer": "Chelsi A.",
+        "address": "Tarawa Terrace II, United States",
+        "review_text": "REDOX Mind tastes delicious and is easy to drink. I love that I can drink it in the morning with breakfast or while I'm working at my desk. It's helped my nails feel much stronger and less brittle. I love how my hair feels thicker and healthier, too!"
+      },
+      {
+        "reviewer": "Steve R.",
+        "address": "Tarawa Terrace II, United States",
+        "review_text": "I began using REDOX Mind daily approximately 4 months ago. The biggest differences I have noticed is clearer and softer skin. My skin texture appears smoother and dries out much less. It mixes easily and the flavor is nice."
+      },
+      {
+        "reviewer": "Junko B.",
+        "address": "Tarawa Terrace II, United States",
+        "review_text": "REDOX Mind not only tastes great but also helps my skin feel supple and glow. It dissolves instantly in the water, and it doesn’t feel heavy in my stomach, unlike other collagen support supplements I've tried in the past. It is also conveniently packaged, it can easily fit in my tiny purse. So when I am out and about, I can take it wherever or whenever."
+      },
+      {
+        "reviewer": "Amy S.",
+        "address": "Tarawa Terrace II, United States",
+        "review_text": "I'm thrilled to have found REDOX Mind! As someone who battled hangnails for ages, I'm amazed at the transformation in my skin and nails. This vegan collagen supporter is a game-changer. Not only have my nails become stronger and more resilient, but my skin is also radiating with health. The convenience of the stick packs makes it easy to maintain my routine, and the results speak for themselves. Radiance is my secret to saying goodbye to hangnails for good!"
       }
     ]
   },
-  "product_benefits":{
-    "title": "Benefits of using NutriSwish",
+  "collagen_support": {
+    "title": "Discover heightened focus and clarity",
     "desc": "To maintain optimal levels, frequent and costly IV treatments are required, which can be impractical for many individuals.<span class='fw-600'>In contrast, NutriSwish utilizes nano glutathione, which offers several distinct advantages over IV treatments.</span>",
-    "image": "https://cdn.fluid.app/neumi/nutriswish/benefits.png",
-    "alt_text": "nutriswish product",
+    "image": "https://cdn.fluid.app/asea/redoxmind/collgen_support.png",
+    "alt_text": "collagen support",
     "items_left": [
       {
-        "icon": "<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M41 29C41 35.6274 35.6274 41 29 41C22.3726 41 17 35.6274 17 29C17 20.3726 29 1 29 1C29 1 41 20.3726 41 29Z\" stroke=\"#294DE2\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M13 15C13 18.3137 10.3137 21 7 21C3.68629 21 1 18.3137 1 15C1 10.6863 7 1 7 1C7 1 13 10.6863 13 15Z\" stroke=\"#294DE2\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>",
-        "title": "Enhanced Bioavailability",
-        "desc": "Nano-sized glutathione particles mean a greater proportion of glutathione is utilized, maximizing its antioxidant benefits."
+        "title": "Gives you an edge",
+        "desc": "Unparalleled focus empowers you to work with precision."
       },
       {
-        "icon": "<svg width=\"42\" height=\"41\" viewBox=\"0 0 42 41\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M9 36.2562H14.2206C14.9013 36.2562 15.5778 36.3355 16.2376 36.494L21.7538 37.8058C22.9507 38.0911 24.1976 38.1189 25.4069 37.889L31.5059 36.7278C33.1171 36.4207 34.5992 35.6657 35.7607 34.56L40.0758 30.4523C41.3081 29.2812 41.3081 27.381 40.0758 26.2079C38.9663 25.1517 37.2095 25.0329 35.9543 25.9285L30.9252 29.519C30.205 30.0342 29.3286 30.3116 28.4273 30.3116H23.571L26.6621 30.3115C28.4044 30.3115 29.8157 28.968 29.8157 27.3095V26.7091C29.8157 25.3319 28.8311 24.1311 27.4282 23.7982L22.6572 22.6628C21.8808 22.4785 21.0856 22.3854 20.2863 22.3854C18.3567 22.3854 14.8638 23.9488 14.8638 23.9488L9 26.3485M1 25.5169L1 36.8685C1 37.9646 1 38.5127 1.21799 38.9314C1.40973 39.2996 1.71569 39.599 2.09202 39.7867C2.51984 40 3.07989 40 4.2 40H5.8C6.9201 40 7.48016 40 7.90798 39.7867C8.2843 39.599 8.59027 39.2996 8.78201 38.9314C9 38.5127 9 37.9646 9 36.8685V25.5169C9 24.4208 9 23.8727 8.78201 23.454C8.59027 23.0858 8.28431 22.7864 7.90798 22.5987C7.48016 22.3854 6.92011 22.3854 5.8 22.3854H4.2C3.0799 22.3854 2.51984 22.3854 2.09202 22.5987C1.7157 22.7864 1.40973 23.0858 1.21799 23.454C1 23.8727 1 24.4208 1 25.5169ZM31.3827 3.97277C30.1891 1.52854 27.4372 0.233643 24.7609 1.48347C22.0846 2.7333 20.9444 5.69729 22.0649 8.29925C22.7574 9.90734 24.7415 13.0301 26.1562 15.1811C26.6789 15.9759 26.9402 16.3732 27.322 16.6057C27.6494 16.8051 28.0593 16.9126 28.4448 16.9001C28.8942 16.8856 29.3235 16.6693 30.1823 16.2368C32.5065 15.0662 35.8203 13.3326 37.2416 12.2788C39.5415 10.5737 40.1112 7.43956 38.3893 5.05702C36.6675 2.67448 33.6653 2.44004 31.3827 3.97277Z\" stroke=\"#294DE2\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>",
-        "title": "Sustained Release",
-        "desc": "Oral administration allows for a more consistent and sustained release of glutathione into the bloodstream."
+        "title": "Sharpens memory",
+        "desc": "Heightens spatial and recognition memory, elevating recall, attention, and cognitive prowess."
       }
     ],
     "items_right": [
       {
-        "icon": "<svg width=\"42\" height=\"30\" viewBox=\"0 0 42 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25 9H20C18.3431 9 17 10.3431 17 12C17 13.6569 18.3431 15 20 15H22C23.6569 15 25 16.3431 25 18C25 19.6569 23.6569 21 22 21H17M21 7V9M21 21V23M33 15H33.02M9 15H9.02M1 7.4L1 22.6C1 24.8402 1 25.9603 1.43597 26.816C1.81947 27.5686 2.43139 28.1805 3.18404 28.564C4.03968 29 5.15979 29 7.4 29L34.6 29C36.8402 29 37.9603 29 38.816 28.564C39.5686 28.1805 40.1805 27.5686 40.564 26.816C41 25.9603 41 24.8402 41 22.6V7.4C41 5.15979 41 4.03969 40.564 3.18404C40.1805 2.43139 39.5686 1.81947 38.816 1.43598C37.9603 1 36.8402 1 34.6 1L7.4 1C5.15979 1 4.03969 1 3.18404 1.43597C2.43139 1.81947 1.81947 2.43139 1.43597 3.18404C1 4.03968 1 5.15979 1 7.4ZM34 15C34 15.5523 33.5523 16 33 16C32.4477 16 32 15.5523 32 15C32 14.4477 32.4477 14 33 14C33.5523 14 34 14.4477 34 15ZM10 15C10 15.5523 9.55228 16 9 16C8.44772 16 8 15.5523 8 15C8 14.4477 8.44772 14 9 14C9.55228 14 10 14.4477 10 15Z\" stroke=\"#294DE2\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>",
-        "title": "Cost-Effectiveness",
-        "desc": "A more affordable alternative to regular IV glutathione treatments. Eliminate the need for frequent clinic visits, reducing overall costs."
+        "title": "Fortifies brain aging",
+        "desc": "Promotes brain health and cognitive function over the long term."
       },
       {
-        "icon": "<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M27 15H27.02M15 15H15.02M41 21C41 32.0457 32.0457 41 21 41C9.9543 41 1 32.0457 1 21C1 9.9543 9.9543 1 21 1C32.0457 1 41 9.9543 41 21ZM28 15C28 15.5523 27.5523 16 27 16C26.4477 16 26 15.5523 26 15C26 14.4477 26.4477 14 27 14C27.5523 14 28 14.4477 28 15ZM16 15C16 15.5523 15.5523 16 15 16C14.4477 16 14 15.5523 14 15C14 14.4477 14.4477 14 15 14C15.5523 14 16 14.4477 16 15ZM21 32C26.001 32 30 28.334 30 25H12C12 28.334 15.999 32 21 32Z\" stroke=\"#294DE2\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>",
-        "title": "Convenience",
-        "desc": "Unparalleled convenience compared to the more invasive and time-consuming IV treatments."
+        "title": "Gets you in the zone",
+        "desc": "Alleviates stress-induced interference, while staying in the groove."
       }
     ]
   },
-  "product_post_list":[
-    {
-      "title": "Innovative science",
-      "desc": "Glutathione is the protector and detoxifier of the cell.<span class=fw-600 highlight-text>It’s the key to the life, health, performance, protection and longevity of every human cell.</span>",
-      "image": "https://cdn.fluid.app/neumi/nutriswish/innovative.png",
-      "image_position": "right",
-      "desc_ordering_class": "",
-      "image_ordering_class": ""
-    },
-    {
-      "title": "HydraStat™ nanotechnology",
-      "desc": "<span class=fw-600>Nano-sized particles protected by ultra-pure water clusters.</span>Our nanosized ingredients are small enough to be fully absorbed into the human cell.",
-      "image": "https://cdn.fluid.app/neumi/nutriswish/nano.png",
-      "image_position": "left",
-      "desc_ordering_class": " order-lg-2",
-      "image_ordering_class": " order-lg-1"
-    },
-    {
-      "title": "Quality over quantity",
-      "desc": " A supplement is only as good as its bioavailability, which is its ability to be absorbed and used by the body.<span class=fw-600 highlight-text>The correct delivery system delivers ingredients to your body in a way that your body can absorb and use.</span>",
-      "image": "https://cdn.fluid.app/neumi/nutriswish/quality.png",
-      "image_position": "right",
-      "desc_ordering_class": "",
-      "image_ordering_class": ""
-    }
-  ],
-  "key_ingredients":{
-    "title": "NutriSwish key ingredients",
-    "ingredients": "<span class=fw-600>Active Ingredients:</span>ULTRA-PURE WATER, GLUTATHIONE, L-CYSTEINE, CALCIUM ASCORBATE, CURCUMIN, TARTARIC ACID, POTASSIUM SORBATE, PEPPERMINT EXTRACT. *IMAGE SHOWS A PLANT/FOOD IN WHICH THE ACTIVE INGREDIENT IS FOUND AND NOT NECESSARILY WHERE IT IS EXTRACTED FROM.",
-    "items_list":[
+  "performance": {
+    "title": "The science of clarity behind REDOXMind",
+    "alt_text": "performance",
+    "image": "https://cdn.fluid.app/asea/redoxmind/performance.png",
+    "desc": "Tap into improved cognitive health with nootropics and minerals that defend against oxidative stress and aid in your brain’s overall well-being, keeping your mind sharp.",
+    "items": [
       {
-        "item":[
-          {
-            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/avocado.webp)",
-            "item_name": "Glutathione*"
-          },
-          {
-            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/grapes.webp)",
-            "item_name": "Tartaric Acid*"
-          }
-        ]
+        "caption": "86% experienced increased focus on the task at hand."
       },
       {
-        "item":[
-          {
-            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/calcium_ascorbate.png)",
-            "item_name": "Calcium Ascorbate*"
-          },
-          {
-            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/curcumin.png)",
-            "item_name": "Curcumin"
-          }
-        ]
+        "caption": "84% experienced enhanced cognitive performance."
       },
       {
-        "item":[
-          {
-            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/cysteine.webp)",
-            "item_name": "L-Cysteine*"
-          },
-          {
-            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/potaassium.png)",
-            "item_name": "Potassium Sorbate*"
-          }
-        ]
+        "caption": "82% experienced increased focus and accomplished more."
+      },
+      {
+        "caption": "80% experienced improved mental clarity."
+      }
+    ],
+    "note": "Three-week consumer study conducted by Kantar Group 2022."
+  },
+  "radiant_confidence": {
+    "title": "Triumph over daily challenges with REDOXMind.",
+    "alt_text": "rediance confidence",
+    "image": "https://cdn.fluid.app/asea/redoxmind/video_bg.png",
+    "video": "https://cdn.fluid.app/asea/redoxmind/rediance_confidence_video_en.mp4",
+    "desc": "Collagen is an important, structural protein. However, it decreases as we age. That’s why we designed our easy-to-use collagen support drink mix to promote your natural beauty, by supporting the best building blocks for healthy skin, full-volume hair, and stronger nails. Simply mix, sip, and glow!"
+  },
+  "confidence": {
+    "title": "Checkout with confidence",
+    "button_text": "Buy now",
+    "image": "https://cdn.fluid.app/asea/redoxmind/confidence.png",
+    "alt_text": "confidence",
+    "items": [
+      {
+        "caption": "100% 30-day risk-free <span class=fw-600>money-back guarantee</span>"
+      },
+      {
+        "caption": "<span class=fw-600>Secure and encrypted </span>checkout"
+      },
+      {
+        "caption": "It only takes <span class=fw-600>2 minutes</span>"
       }
     ]
   },
-  "how_to_use":{
-    "title": "How to intake",
-    "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/intake.png)",
+  "how_to_use": {
+    "title": "How to use",
+    "image": "https://cdn.fluid.app/asea/redoxmind/houtouse.png",
+    "video": "https://cdn.fluid.app/asea/redoxmind/howtouse_video_en.mp4",
     "steps": [
       {
-        "caption": "Measure two (2) teaspoons of product. One capful = teaspoon."
+        "image": "https://cdn.fluid.app/asea/redoxmind/empty_bottle.svg",
+        "alt_text": "powder",
+        "caption": "Our powdered mix is easy to travel with and simple to use"
       },
       {
-        "caption": "Swish in your mouth for 30 seconds or more."
+        "image": "https://cdn.fluid.app/asea/redoxmind/pour_bottle.svg",
+        "alt_text": "one stick pack",
+        "caption": "Open and add one stick pack to your preferred beverage"
       },
       {
-        "caption": "Unlike mouthwash, you can swallow NutriSwish. You can also spit it out, if you prefer."
-      },
-      {
-        "caption": "Repeat these steps twice a day. Feel free to use NutriSwish more often, if desired."
+        "image": "https://cdn.fluid.app/asea/redoxmind/shake_bottle.svg",
+        "alt_text": "shake bottle",
+        "caption": "Shake or stir to incorporate and drink all the contents within 15 minutes."
       }
     ]
   },
-  "faq":{
-    "title": "Benefits of Glutathione",
-    "icon_class": "clr-primary",
-    "items":[
+  "key_ingredients": {
+    "title": "Key ingredients",
+    "image": "https://cdn.fluid.app/asea/redoxmind/key_ingredient.png",
+    "alt_text": "ingredients",
+    "alt_text2": "collagen support",
+    "left_items": [
+      {
+        "title": "Garden & Spanish sage",
+        "desc": "Powerful herbal support for improved memory and cognitive function.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/sage.png"
+      },
+      {
+        "title": "Nicotinamide mononucleotide",
+        "desc": "Supports brain health and reduces decline associated with aging.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/nicotinamide.png"
+      }
+    ],
+    "right_items": [
+      {
+        "title": "Red Orange Complex",
+        "desc": "Powerhouse blend that promotes recognition and spatial memory.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/orange.png"
+      },
+      {
+        "title": "Zinc",
+        "desc": "Optimizes brain chemistry to ease mental strain and accelerate response times.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/zinc.png"
+      }
+    ],
+    "mobile_items":[
+      {
+        "title": "Garden & Spanish sage",
+        "desc": "Powerful herbal support for improved memory and cognitive function.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/sage.png"
+      },
+      {
+        "title": "Red Orange Complex",
+        "desc": "Powerhouse blend that promotes recognition and spatial memory.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/orange.png"
+      },
+      {
+        "title": "Nicotinamide mononucleotide",
+        "desc": "Supports brain health and reduces decline associated with aging.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/nicotinamide.png"
+      },
+      {
+        "title": "Zinc",
+        "desc": "Optimizes brain chemistry to ease mental strain and accelerate response times.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/zinc.png"
+      }
+    ]
+  },
+  "feel_the_difference": {
+    "title": "Feel the difference or it’s free",
+    "image": "https://cdn.fluid.app/asea/redoxmind/itsfree.png",
+    "alt_text": "Its free",
+    "desc": "We put our money where our benefits are. That’s how much we believe in the power of redox. And if you’re not into it, totally fine. More for us.",
+    "items": [
+      {
+        "icon": "https://cdn.fluid.app/asea/money_back.svg",
+        "alt_text": "badge",
+        "caption": "100% 30-day risk-free\n<span class=\"fw-600\">money-back guarantee</span>"
+      },
+      {
+        "icon": "https://cdn.fluid.app/asea/flexible_icon.svg",
+        "alt_text": "flexible",
+        "caption": "<span class=\"fw-600\">Flexible</span> delivery dates"
+      },
+      {
+        "icon": "https://cdn.fluid.app/asea/cancel_icon.svg",
+        "alt_text": "clock",
+        "caption": "Pause or cancel <span class=\"fw-600\">anytime</span>"
+      }
+    ],
+    "button_text": "Subscribe now"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "icon_class": "clr-body",
+    "items": [
       {
         "class": "acc-item_active",
-        "header": "Strengthened Immune System",
-        "desc": "Glutathione is able to neutralize free radicals and protect the body from their harmful effects.It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
+        "header": "How much stevia is in one sachet of REDOXMind?",
+        "desc": "Less than 120mg for US and Europe, and less than 80mg in Asia formulas."
       },
       {
         "class": "",
-        "header": "Increased Energy",
-        "desc": "It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
+        "header": "Why is stevia in REDOXMind?",
+        "desc": "Stevia is derived from the leaves of the plant species Stevia rebaudiana. Stevia is about 200-350 times sweeter than sugar, thus only a small amount is needed to match the sweetness provided by sugar. It also does not contribute to or impact blood glucose levels."
       },
       {
         "class": "",
-        "header": "Enhanced Stamina and Endurance",
-        "desc": "It also helps to reduce inflammation, and supports the body's natural ability to fight off infection. In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
+        "header": "What does “natural flavors” mean?",
+        "desc": "The Cell Performance line does not contain any GMO ingredients. All “natural flavors” come from fruit extracts and do not contain MSG."
+      },
+      {
+        "class": "",
+        "header": "Is citric acid considered natural?",
+        "desc": "Citric acid is sourced naturally from cassava fermentation and is non-GMO."
+      },
+      {
+        "class": "",
+        "header": "What is the ASEA® Cell Performance category of products?",
+        "desc": "ASEA® Cell Performance is a category of products formulated with your health and wellness in mind. Based on redox principles, these products are easy to use, on-the-go, and deliver a healthy boost Powered by Redox™. With proprietary ingredient blends that help you perform at your best physically and mentally by targeting performance at the cellular level, ASEA’s Cell Performance category is designed to complement and support a healthy lifestyle. These tasty packets are perfect for supporting your daily performance—wherever you go!"
+      },
+      {
+        "class": "",
+        "header": "What is Red Orange Complex, and what are its benefits?",
+        "desc": "Red Orange Complex is a blend of several types of blood oranges that improves blood levels of antioxidants and leads to improved cognitive function, specifically spatial and recognition memory."
+      },
+      {
+        "class": "",
+        "header": "What is phosphatidylserine?",
+        "desc": "Your body naturally produces phosphatidylserine, and supplementing it helps facilitate learning, memory, and mood regulation."
+      },
+      {
+        "class": "",
+        "header": "Is REDOXMind free of allergens?",
+        "desc": "REDOXMind is gluten- and, dairy-free, as well as free from soy allergens, and does not contain sugar."
+      },
+      {
+        "class": "",
+        "header": "How many Cell Performance products are there?",
+        "desc": "In addition to REDOXMind, there are three other Cell Performance products that provide targeted benefits starting at the cellular level:\n<ul class=\"my-12\">\n  <li>REDOXMood</li>\n  <li>REDOXEnergy</li>\n  <li>REDOXmind</li>\n</ul>\n<p>\n  All four products come in packages of 30 stick packs. REDOXMood, REDOXEnergy, and REDOXmind also come in a variety pack of 10 stick packs each.\n</p>"
+      },
+      {
+        "class": "",
+        "header": "Are all of the ASEA® Cell Performance products vegan?",
+        "desc": "Yes, all four products are 100% vegan."
+      },
+      {
+        "class": "",
+        "header": "Do I need to consume the entire 8-12oz at once?",
+        "desc": "For best results, we recommend drinking the entire contents of a package in 15 minutes."
+      },
+      {
+        "class": "",
+        "header": "Can REDOXMind and other Cell Performance products be used with ASEA® Redox Cell Signaling Supplement?",
+        "desc": "Yes. We recommend using ASEA® Redox Cell Signaling Supplement before consuming any Cell Performance products. Mixing anything with ASEA Redox Cell Signaling Supplement can deactivate the redox molecules and not allow them to perform at full capacity."
+      },
+      {
+        "class": "",
+        "header": "Can REDOXMind be mixed and consumed together with other ASEA® Cell Performance products?",
+        "desc": "Yes. The products are formulated to work independently but can be used together. We recommend you try each product individually before mixing it together."
+      },
+      {
+        "class": "",
+        "header": "How many calories are in a serving of REDOXMind?",
+        "desc": "Each drink mix contains 5 calories per serving."
       }
-      
-    ]
-
+    ],
+    "show_more_text": "Show More"
   },
-  "cta":{
-    "title": "A new you starts with Neumi",
+  "cta": {
+    "title": "Give your brain a boost <br />with REDOXMind",
     "subscription_text": "Add to subscription",
-    "purchase_text": " Purchase one-time",
-    "image": "https://cdn.fluid.app/neumi/nutriswish/cta.png",
-    "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration.These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
+    "purchase_text": "Add to one-time purchase",
+    "image": "https://cdn.fluid.app/asea/redoxmind/support.png",
+    "alt_text": "cta support",
+    "note_desc": "*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
   }
 }
