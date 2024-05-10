@@ -2,6 +2,7 @@
     {{#productSlider}}
       <div class="product-slider">
         <div id="preview-slider" class="splide preview-slider">
+          {{>PrevNext}}
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">
@@ -20,7 +21,7 @@
           </div>
         </div>
         <div id="thumbnail-slider" class="splide thumbnail-slider">
-          {{>prevNext}}
+          {{>PrevNext}}
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">

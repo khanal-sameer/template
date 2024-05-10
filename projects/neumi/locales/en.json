@@ -322,17 +322,17 @@
     "desc": "We put our money where our benefits are. That’s how much we believe in the power of redox. And if you’re not into it, totally fine. More for us.",
     "items": [
       {
-        "icon": "https://cdn.fluid.app/asea/money_back.svg",
+        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20.352\" height=\"20.046\" viewBox=\"0 0 20.352 20.046\">\n  <g id=\"Delivery_box_icon\" data-name=\"Delivery box icon\" transform=\"translate(-20.145 -6716.5)\">\n    <path id=\"Path_35232\" data-name=\"Path 35232\" d=\"M840.851,1259.233,831,1254.96v10.508l9.851,4.6Z\" transform=\"translate(-810.205 5465.979)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35233\" data-name=\"Path 35233\" d=\"M843.4,1259.233l9.194-4.273v10.508l-9.194,4.6Z\" transform=\"translate(-812.758 5465.979)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35234\" data-name=\"Path 35234\" d=\"M831,1253.94l9.851-3.94,9.194,3.94\" transform=\"translate(-810.205 5467)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35235\" data-name=\"Path 35235\" d=\"M837.9,1252.2l9.132,4.249\" transform=\"translate(-811.625 5466.548)\" fill=\"none\" stroke=\"#000\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35236\" data-name=\"Path 35236\" d=\"M838.905,1261.89l-4.6-1.97v4.273l4.6,1.97Z\" transform=\"translate(-810.887 5464.959)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n  </g>\n</svg>\n",
         "alt_text": "badge",
         "caption": "100% 30-day risk-free\n<span class=\"fw-600\">money-back guarantee</span>"
       },
       {
-        "icon": "https://cdn.fluid.app/asea/flexible_icon.svg",
+        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19.427\" height=\"19.427\" viewBox=\"0 0 19.427 19.427\">\n  <g id=\"Group_4002\" data-name=\"Group 4002\" transform=\"translate(-20.295 -6744.299)\">\n    <path id=\"Path_35034\" data-name=\"Path 35034\" d=\"M840.213,1303.427a9.213,9.213,0,1,0-9.213-9.213A9.211,9.211,0,0,0,840.213,1303.427Z\" transform=\"translate(-810.205 5459.799)\" fill=\"none\" stroke=\"#231f20\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35035\" data-name=\"Path 35035\" d=\"M842.2,1291.05v4.408l4.724,4.408\" transform=\"translate(-812.51 5458.555)\" fill=\"none\" stroke=\"#231f20\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n  </g>\n</svg>\n",
         "alt_text": "flexible",
         "caption": "<span class=\"fw-600\">Flexible</span> delivery dates"
       },
       {
-        "icon": "https://cdn.fluid.app/asea/cancel_icon.svg",
+        "icon": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g clip-path=\"url(#clip0_451_82)\">\n    <path d=\"M9.71301 18.926C11.5352 18.926 13.3164 18.3858 14.8315 17.3734C16.3466 16.3611 17.5274 14.9221 18.2247 13.2387C18.922 11.5552 19.1044 9.70282 18.749 7.91567C18.3935 6.12852 17.5161 4.48697 16.2276 3.19851C14.9391 1.91005 13.2975 1.03251 11.5104 0.677024C9.72323 0.321539 7.87077 0.504006 6.18732 1.20132C4.50386 1.89863 3.06501 3.07956 2.05267 4.59463C1.04034 6.1097 0.5 7.89088 0.5 9.71303C0.499737 10.923 0.737841 12.1211 1.20074 13.239C1.66365 14.3569 2.34226 15.3726 3.19782 16.2282C4.05337 17.0837 5.06912 17.7623 6.18701 18.2252C7.3049 18.6881 8.50307 18.9263 9.71301 18.926Z\" stroke=\"#231F20\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    <g clip-path=\"url(#clip1_451_82)\">\n      <path d=\"M14 14L6 6M14 6L6 14\" stroke=\"#231F20\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </g>\n  </g>\n  <defs>\n    <clipPath id=\"clip0_451_82\">\n      <rect width=\"20\" height=\"20\" fill=\"white\"/>\n    </clipPath>\n    <clipPath id=\"clip1_451_82\">\n      <rect width=\"10\" height=\"10\" fill=\"white\" transform=\"translate(5 5)\"/>\n    </clipPath>\n  </defs>\n</svg>\n",
         "alt_text": "clock",
         "caption": "Pause or cancel <span class=\"fw-600\">anytime</span>"
       }
@@ -386,7 +386,7 @@
       {
         "class": "",
         "header": "How many Cell Performance products are there?",
-        "desc": "In addition to REDOXMind, there are three other Cell Performance products that provide targeted benefits starting at the cellular level:\n<ul class=\"my-12\">\n  <li>REDOXMood</li>\n  <li>REDOXEnergy</li>\n  <li>REDOXmind</li>\n</ul>\n<p>\n  All four products come in packages of 30 stick packs. REDOXMood, REDOXEnergy, and REDOXmind also come in a variety pack of 10 stick packs each.\n</p>"
+        "desc": "In addition to REDOXMind, there are three other Cell Performance products that provide targeted benefits starting at the cellular level:\n<ul class=\"my-12\">\n  <li>REDOXMood</li>\n  <li>REDOXEnergy</li>\n  <li>REDOXRadiance</li>\n</ul>\n<p>\n  All four products come in packages of 30 stick packs. REDOXMood, REDOXEnergy, and REDOXRadiance also come in a variety pack of 10 stick packs each.\n</p>"
       },
       {
         "class": "",
@@ -394,22 +394,22 @@
         "desc": "Yes, all four products are 100% vegan."
       },
       {
-        "class": "",
+        "class": "is-hide",
         "header": "Do I need to consume the entire 8-12oz at once?",
         "desc": "For best results, we recommend drinking the entire contents of a package in 15 minutes."
       },
       {
-        "class": "",
+        "class": "is-hide",
         "header": "Can REDOXMind and other Cell Performance products be used with ASEA® Redox Cell Signaling Supplement?",
         "desc": "Yes. We recommend using ASEA® Redox Cell Signaling Supplement before consuming any Cell Performance products. Mixing anything with ASEA Redox Cell Signaling Supplement can deactivate the redox molecules and not allow them to perform at full capacity."
       },
       {
-        "class": "",
+        "class": "is-hide",
         "header": "Can REDOXMind be mixed and consumed together with other ASEA® Cell Performance products?",
         "desc": "Yes. The products are formulated to work independently but can be used together. We recommend you try each product individually before mixing it together."
       },
       {
-        "class": "",
+        "class": "is-hide",
         "header": "How many calories are in a serving of REDOXMind?",
         "desc": "Each drink mix contains 5 calories per serving."
       }
