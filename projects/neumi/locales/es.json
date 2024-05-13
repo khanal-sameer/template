@@ -1,428 +1,286 @@
 {
-  "title": "REDOXMind",
-  "lang":"es",
-  "product_id": "8622",
-  "ratingSvgColor": "#294DE2;",
-  "product_title": "REDOXMind®",
-  "total_product_review": "12 Reseñas",
-  "product_desc": "Experimenta el mejor rendimiento mental.*",
-  "add_to_cart_text": "Añadir al carrito",
-  "arrow_icon": "https://cdn.fluid.app/asea/arrow_icon.svg",
-  "play_icon": "https://cdn.fluid.app/asea/play.png",
-  "play_alt_text": "play icon",
-  "check_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14.775\" height=\"10.346\" viewBox=\"0 0 14.775 10.346\">\n  <path id=\"Path_4862\" data-name=\"Path 4862\" d=\"M767.9,561l-9.734,9.268L754,566.1\" transform=\"translate(-753.558 -560.547)\" fill=\"none\" stroke=\"rgba(0,0,0,0.8)\" stroke-linejoin=\"round\" stroke-width=\"1.25\" />\n</svg>\n</span>",
-  "select_quantity_text": "Seleccionar la cantidad:",
-  "productSlider": {
-    "slider_items1_image": "https://cdn.fluid.app/asea/redoxmind/slider_1.png",
-    "video": "https://cdn.fluid.app/asea/redoxmind/slider_video_es.mp4",
-    "alt_text": "product",
-    "items": [
+  "title": "Hers",
+  "product_id": "9410",
+  "ratingSvgColor": "#b484bb",
+  "product_title": "Hers",
+  "total_product_review": "7 Reviews",
+  "product_desc":  "<span class=fw-600>A premium nutritional supplement meticulously designed for women, </span> featuring pioneering Hydrastat Nano Technology for optimal absorption.",
+  "add_to_cart_text": "Add to cart",
+  "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
+  "select_quantity_text": "Select Quantity",
+  "productSlider":{
+    "items":[
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_2.png"
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_1.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_3.png"
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_2.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_4_es.png"
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_3.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_5.png"
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_4.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_6.png"
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_5.png"
       }
     ]
   },
   "subscribe": {
-    "subscribe_text": "Suscríbete",
-    "actual_price": "62.50",
-    "discounted_price": "50.00/mo",
-    "checklist_items": [
+    "subscribe_text":"Subscribe",
+    "frequency_text": "Select Frequency",
+    "actual_price" : "65.00",
+    "discounted_price": "50.00",
+    "checklist_items":[
       {
-        "caption": "Ahorra 20% con los precios mayoristas"
+        "caption": "Subscribe and save $15"
       },
       {
-        "caption": "30 días de garantía para devolverte tu dinero"
+        "caption": "Earn Neumi Reward Points"
       },
       {
-        "caption": "Gana Redox Rewards y canjéalos por productos gratis"
+        "caption": "30-day money-back guarantee"
       },
       {
-        "caption": "Cambia tu suscripción en cualquier momento"
+        "caption": "Update your subscription anytime"
       }
     ],
-    "one_time_order_text": "Orden única"
+    "one_time_purchase_text":"One-time purchase"
   },
-  "benefits": {
-    "desc": "Disfruta del máximo rendimiento cognitivo con REDOXMind, tu solución a las distracciones y a la sobrecarga de información. Mejora el enfoque, la memoria, la claridad, la agudeza y la salud cerebral en general.",
-    "view_more_text": "Ver más información",
-    "pdf_url": "https://cdn.fluid.app/asea/redoxmind/cell_performance_es.pdf",
-    "items": [
+  "free_shipping_desc": "Free U.S. shipping for orders over $200+",
+  "benefits":{
+    "title": "Benefits",
+    "items":[
       {
-        "caption": "Combate la confusión mental mejorando la claridad cognitiva."
+        "caption":"Key ingredients to balance and support your hormone health, daily."
       },
       {
-        "caption": "Combat brain fog by enhancing cognitive clarity."
+        "caption":"For every season in life–active menstruation, pre/active/post menopause"
       },
       {
-        "caption": "Promueve la salud del cerebro a largo plazo."
-      },
-      {
-        "caption": "Mantén la claridad mental, incluso en situaciones de mucho estrés."
+        "caption": "Increase significant relief of hot flashes or cramps within just 20 minutes of consumption"
       }
     ]
   },
   "asSeenOn": {
-    "title": "Como lo demuestran",
     "items": [
       {
-        "image": "https://cdn.fluid.app/asea/as_seen_1.svg"
+        "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/as_seen_2.svg"
+        "image": "https://cdn.fluid.app/newulife/as_seen_2.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/as_seen_3.svg"
+        "image": "https://cdn.fluid.app/newulife/as_seen_3.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/as_seen_4.svg"
+        "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/as_seen_5.svg"
+        "image": "https://cdn.fluid.app/newulife/as_seen_5.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/as_seen_6.svg"
-      },
-      {
-        "image": "https://cdn.fluid.app/asea/as_seen_7.svg"
+        "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
       }
     ]
   },
-  "soldInfo": {
-    "image": "style=background-image:url(https://cdn.fluid.app/asea/redoxmind/sold_bg.png)",
-    "title": "Más de",
-    "count": "40,000",
-    "desc": "cajas vendidas en todo el mundo"
+  "video":{
+    "image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/video_cover_image.png)",
+    "video_url": "https://vimeo.com/877308482"
   },
-  "tab": {
-    "video_review_title": "Reseñas de vídeos <span>(5)</span>",
-    "written_review_title": "Reseñas escritas <span>(7)</span>",
+  "tab":{
+    "title": "See how Hers is changing lives",
+    "video_review_title": "Video Reviews <span>(5)</span>",
+    "written_review_title": "Written Reviews <span>(2)</span>",
     "rating_text": "5 Star Rating",
-    "total_written_review": "7 Reseñas",
-    "video_list": [
+    "video_list":[
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Darrell.png",
-        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Darrell.mp4"
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video1.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video1.mp4"
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Eric.png",
-        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Eric.mp4"
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video2.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video2.mp4"
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Guenther.png",
-        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Guenther.mp4"
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video3.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video3.mp4"
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Jamie.png",
-        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Jamie.mp4"
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video4.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video4.mp4"
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Lilliana.png",
-        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Lilliana.mp4"
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video5.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video5.mp4"
       }
+
     ],
     "review_list": [
       {
-        "reviewer": "Adela H.",
-        "address": "Tarawa Terrace II, United States",
-        "review_text": "I started using the Redox Mind in April. I tried other collagen brands, but I wasn't impressed and I could not see any results. I love how easy it is to use, on the go and the dosage is smaller than other collagen based products that are on the market, I loved that it's vegan and I can share it with my vegan friends. Now it's August and I can see a huge improvement, my hair, nails and skin feel and look much better."
+          "reviewer": "Aidan D..",
+          "address": "Salt Lake City, UT",
+          "time": "2 hour ago",
+          "review_text": "Hers has been a game-changer for me! I've been using it for a few months now, and I've noticed a significant improvement in my energy levels and overall vitality. It's amazing how something so simple can have such profound effects. Highly recommend!"
       },
       {
-        "reviewer": "Eric R.",
-        "address": "Tarawa Terrace II, United States",
-        "review_text": "Although I haven’t used REDOX Mind for very long, there is one positive sign it’s actually working. My nails are growing thicker and faster than they ever have before. I’ve also noticed that the slightly sagging skin under my chin has been firming up! With results like this, REDOX Mind is going to be something I’ll be using indefinitely going forward!"
-      },
-      {
-        "reviewer": "Jamie R.",
-        "address": "Tarawa Terrace II, United States",
-        "review_text": "I’ve struggled with collagen supplements in the past because they upset my stomach, but I’ve never had one issue with REDOX Mind. My stomach feels great after taking it but even better, my hair, nails and skin have never looked better. My nails are growing faster and stronger than they ever have and my hair is so shiny and smooth."
-      },
-      {
-        "reviewer": "Chelsi A.",
-        "address": "Tarawa Terrace II, United States",
-        "review_text": "REDOX Mind tastes delicious and is easy to drink. I love that I can drink it in the morning with breakfast or while I'm working at my desk. It's helped my nails feel much stronger and less brittle. I love how my hair feels thicker and healthier, too!"
-      },
-      {
-        "reviewer": "Steve R.",
-        "address": "Tarawa Terrace II, United States",
-        "review_text": "I began using REDOX Mind daily approximately 4 months ago. The biggest differences I have noticed is clearer and softer skin. My skin texture appears smoother and dries out much less. It mixes easily and the flavor is nice."
-      },
-      {
-        "reviewer": "Junko B.",
-        "address": "Tarawa Terrace II, United States",
-        "review_text": "REDOX Mind not only tastes great but also helps my skin feel supple and glow. It dissolves instantly in the water, and it doesn’t feel heavy in my stomach, unlike other collagen support supplements I've tried in the past. It is also conveniently packaged, it can easily fit in my tiny purse. So when I am out and about, I can take it wherever or whenever."
-      },
-      {
-        "reviewer": "Amy S.",
-        "address": "Tarawa Terrace II, United States",
-        "review_text": "I'm thrilled to have found REDOX Mind! As someone who battled hangnails for ages, I'm amazed at the transformation in my skin and nails. This vegan collagen supporter is a game-changer. Not only have my nails become stronger and more resilient, but my skin is also radiating with health. The convenience of the stick packs makes it easy to maintain my routine, and the results speak for themselves. Radiance is my secret to saying goodbye to hangnails for good!"
+          "reviewer": "Lola P..",
+          "address": "Laie, HI",
+          "time": "2 hour ago",
+          "review_text": "I've struggled with maintaining hormone balance for years, but Hers has made a world of difference. Not only do I feel more balanced and energized, but I've also noticed improvements in my skin tone and muscle tone. It's truly remarkable!"
       }
     ]
   },
-  "collagen_support": {
-    "title": "Descubre un mejor enfoque y mayor claridad",
-    "desc":"El colágeno es una proteína estructural importante. Sin embargo, disminuye a medida que envejecemos. Es por eso que diseñamos nuestra mezcla de bebida de soporte de colágeno fácil de usar para promover su belleza natural, al respaldar los mejores componentes básicos para una piel sana, un cabello con volumen completo y uñas más fuertes. ¡Simplemente mezcle, beba y brille!",
-    "image": "https://cdn.fluid.app/asea/redoxmind/collgen_support.png",
-    "alt_text": "collagen support",
-    "items_left": [
-      {
-        "title": "Encuentra más oportunidades",
-        "desc": "Una perspectiva incomparable que te permitirá trabajar óptimamente."
-      },
-      {
-        "title": "Agudiza la memoria",
-        "desc": "Aumenta la memoria espacial y de reconocimiento, mejorando los recuerdos, la atención y la destreza cognitiva."
-      }
-    ],
-    "items_right": [
-      {
-        "title": "Fortalece el envejecimiento cerebral",
-        "desc": "Promueve la salud cerebral y la función cognitiva a largo plazo."
-      },
-      {
-        "title": "Te brinda lucidez",
-        "desc": "Alivia el caos causado por el estrés para evitar distracciones."
-      }
-    ]
-  },
-  "performance": {
-    "title": "La ciencia de la claridad detrás de REDOXMind",
-    "alt_text": "performance",
-    "image": "https://cdn.fluid.app/asea/redoxmind/performance.png",
-    "desc":"Disfruta de una mejor salud cognitiva gracias a nootrópicos y minerales que te defienden del estrés oxidativo y ayudan al bienestar general de tu cerebro, manteniendo a tu mente alerta.",
+  "product_benefits":{
+    "title": "Benefits of using Hers",
+    "desc": "<span class='fw-600'>Every woman knows about the inconveniences that cycles and hormone changes can bring into life.</span>Experience rapid results through our HydraStat™ Nanotechnology. Our nano-sized ingredients, wrapped in water clusters, are small enough to be absorbed fully by the human cell, which is right where you need them!",
+    "image": "https://cdn.fluid.app/neumi/hers/images/benefits.png",
+    "alt_text": "hers product",
     "items": [
       {
-        "caption": "El 86% experimentó una mayor concentración al realizar sus tareas."
+          "icon": "<svg width=\"42\" height=\"52\" viewBox=\"0 0 42 52\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.5 24.8259L18.5 29.878L29.75 18.5107M41 26.0889C41 38.488 27.6151 47.5059 22.745 50.3767C22.1915 50.703 21.9148 50.8661 21.5242 50.9507C21.2211 51.0164 20.7789 51.0164 20.4758 50.9507C20.0852 50.8661 19.8085 50.703 19.255 50.3767C14.3849 47.5059 1 38.488 1 26.0889V14.0082C1 11.9886 1 10.9788 1.3269 10.1108C1.61569 9.34395 2.08496 8.65974 2.69415 8.11727C3.38374 7.5032 4.3195 7.14864 6.19101 6.4395L19.5955 1.3604C20.1152 1.16347 20.3751 1.065 20.6425 1.02597C20.8796 0.991344 21.1204 0.991344 21.3575 1.02597C21.6249 1.065 21.8848 1.16347 22.4045 1.3604L35.809 6.4395C37.6805 7.14864 38.6163 7.5032 39.3059 8.11727C39.915 8.65974 40.3843 9.34395 40.6731 10.1108C41 10.9788 41 11.9886 41 14.0082V26.0889Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>",
+          "title": "Ingredients You Can Trust",
+          "desc": "Hers uses our HydraStat™ nano-delivery system to maximize absorption and effectiveness of the following ingredients: white peony extract, chaste berry, dong quai, maca root, ashwagandha and other nutrients."
       },
       {
-        "caption": "El 84% experimentó un mejor rendimiento cognitivo."
+          "icon": "<svg width=\"42\" height=\"44\" viewBox=\"0 0 42 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.2544 43V19.9M1 24.1V38.8C1 41.1196 2.83642 43 5.10176 43H32.6374C35.6742 43 38.2567 40.7313 38.7185 37.658L40.9271 22.958C41.5005 19.1417 38.6169 15.7 34.846 15.7H27.6615C26.5288 15.7 25.6106 14.7598 25.6106 13.6V6.17826C25.6106 3.31839 23.3464 1 20.5534 1C19.8873 1 19.2836 1.40172 19.013 2.02506L11.7957 18.6529C11.4665 19.4113 10.7321 19.9 9.92159 19.9H5.10176C2.83642 19.9 1 21.7804 1 24.1Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>",
+          "title": "Results You Can Count On",
+          "desc": "We conducted a double-blind clinical trial, and 80% of participants, spanning from active menstruation to post-menopause, saw a marked improvement in their symptoms. Notably some experiencing hot flashes or cramps reported significant relief within just 20 minutes of consumption."
       },
       {
-        "caption": "El 82% experimentó un mejor enfoque y desempeño."
-      },
-      {
-        "caption": "El 80% experimentó una mayor claridad mental."
-      }
-    ],
-    "note": "Estudio de consumidores de tres semanas realizado por Kantar Group 2022."
-  },
-  "radiant_confidence": {
-    "title": "vence los desafíos diarios con REDOXMind.",
-    "alt_text": "rediance confidence",
-    "image": "https://cdn.fluid.app/asea/redoxmind/video_bg.png",
-    "video": "https://cdn.fluid.app/asea/redoxmind/rediance_confidence_video_es.mp4",
-    "desc": "Collagen is an important, structural protein. However, it decreases as we age. That’s why we designed our easy-to-use collagen support drink mix to promote your natural beauty, by supporting the best building blocks for healthy skin, full-volume hair, and stronger nails. Simply mix, sip, and glow!"
-  },
-  "confidence": {
-    "title": "Paga con confianza",
-    "button_text": "Comprar ahora",
-    "image": "https://cdn.fluid.app/asea/redoxmind/confidence.png",
-    "alt_text": "confidence",
-    "items": [
-      {
-        "caption": "30 días <span class=fw-600>de garantía para devolverte el 100% de tu dinero</span>"
-      },
-      {
-        "caption": "Pago <span class=fw-600> seguro y encriptado</span>"
-      },
-      {
-        "caption": "Solo <span class=fw-600>2 minutos </span>para completar el proceso"
+          "icon": "<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M40.8752 23.1005C40.2221 29.2404 36.7452 34.994 30.9921 38.3176C21.4336 43.8395 9.21128 40.5626 3.69271 30.9984L3.10493 29.9797M1.12461 18.8995C1.77776 12.7596 5.25457 7.00597 11.0077 3.68238C20.5662 -1.83953 32.7885 1.43741 38.3071 11.0016L38.8949 12.0203M1 35.2704L2.72114 28.8431L9.14452 30.5653M32.8555 11.4346L39.2789 13.1567L41 6.72948M21 10.4135V20.9999L26.8778 24.5288\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>",
+          "title": "For Every Season Of Life",
+          "desc": "Hers is designed for all women, in every season of life. Every ingredient in our botanical formula was carefully selected to create a well-rounded blend of benefits. With Hers, every woman can flourish."
       }
     ]
   },
-  "how_to_use": {
-    "title": "Modo de empleo",
-    "image": "https://cdn.fluid.app/asea/redoxmind/houtouse.png",
-    "video": "https://cdn.fluid.app/asea/redoxmind/howtouse_video_en.mp4",
+  "product_post_list":[
+    {
+      "title": "Innovative science",
+      "desc": "Glutathione is the protector and detoxifier of the cell.<span class=fw-600 highlight-text>It’s the key to the life, health, performance, protection and longevity of every human cell.</span>",
+      "image": "https://cdn.fluid.app/neumi/hers/images/innovative.png",
+      "image_position": "right",
+      "desc_ordering_class": "",
+      "image_ordering_class": ""
+    },
+    {
+      "title": "HydraStat™ nanotechnology",
+      "desc": "<span class=fw-600>Nano-sized particles protected by ultra-pure water clusters.</span>Our nanosized ingredients are small enough to be fully absorbed into the human cell.",
+      "image": "https://cdn.fluid.app/neumi/hers/images/nano.png",
+      "image_position": "left",
+      "desc_ordering_class": " order-lg-2",
+      "image_ordering_class": " order-lg-1"
+    },
+    {
+      "title": "Quality over quantity",
+      "desc": " A supplement is only as good as its bioavailability, which is its ability to be absorbed and used by the body.<span class=fw-600 highlight-text>The correct delivery system delivers ingredients to your body in a way that your body can absorb and use.</span>",
+      "image": "https://cdn.fluid.app/neumi/hers/images/quality.png",
+      "image_position": "right",
+      "desc_ordering_class": "",
+      "image_ordering_class": ""
+    }
+  ],
+  "key_ingredients":{
+    "title": "Hers key ingredients",
+    "ingredients": "<span class=fw-600>Active Ingredients:</span> ULTRA-PURE WATER, B6, B12, POTASSIUM SORBATE, SODIUM BENZOATE, SPEARMINT EXTRACT.",
+    "items_list":[
+      {
+        "item":[
+          {
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/damiana.png)",
+            "item_name": "Damiana"
+          },
+          {
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/dong-quai-root.png)",
+            "item_name": "Dong Quai Root"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/ginger.webp)",
+            "item_name": "Ginger"
+          },
+          {
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/Chasteberry.png)",
+            "item_name": "Chasteberry Extract"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/maca-root.png)",
+            "item_name": "Maca Root"
+          },
+          {
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/black-cohosh.png)",
+            "item_name": "Black Cohosh"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/Ashwagandharoot.webp)",
+            "item_name": "Ashwagandha"
+          },
+          {
+            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/peony-white-root.webp)",
+            "item_name": "Peony White Root"
+          }
+        ]
+      }
+    ]
+  },
+  "how_to_use":{
+    "title": "How to intake",
+    "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/hers/images/intake.png)",
     "steps": [
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/empty_bottle.svg",
-        "alt_text": "powder",
-        "caption": "Nuestra mezcla en polvo es fácil de llevar y de usar."
+        "caption": "Measure two (2) teaspoons of product. One capful = teaspoon."
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/pour_bottle.svg",
-        "alt_text": "one stick pack",
-        "caption": "Abrir y añadir un paquete a tu bebida preferida."
+        "caption": "Swish in your mouth for 30 seconds or more."
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/shake_bottle.svg",
-        "alt_text": "shake bottle",
-        "caption": "Agitar o revolver para incorporar, beber todo el contenido en 15 minutos."
+        "caption": "Unlike mouthwash, you can swallow Hers. You can also spit it out, if you prefer."
+      },
+      {
+        "caption": "Repeat these steps twice a day. Feel free to use Hers  more often, if desired."
       }
     ]
   },
-  "key_ingredients": {
-    "title": "Ingredientes principales",
-    "image": "https://cdn.fluid.app/asea/redoxmind/key_ingredient.png",
-    "alt_text": "ingredients",
-    "alt_text2": "collagen support",
-    "left_items": [
-      {
-        "title": "Salvia officinalis y salvia española",
-        "desc": "Potente mezcla que promueve el reconocimiento y la memoria espacial.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/sage.png"
-      },
-      {
-        "title": "Mononucleótido de nicotinamida",
-        "desc": "SPromueve la salud cerebral y reduce el deterioro asociado con el envejecimiento.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/nicotinamide.png"
-      }
-    ],
-    "right_items": [
-      {
-        "title": "Red Orange Complex",
-        "desc": "Potente mezcla que promueve el reconocimiento y la memoria espacial.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/orange.png"
-      },
-      {
-        "title": "Zinc",
-        "desc": "Optimizes brain chemistry to ease mental strain and accelerate response times.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/zinc.png"
-      }
-    ],
-    "mobile_items":[
-      {
-        "title": "Salvia officinalis y salvia española",
-        "desc": "Potente mezcla que promueve el reconocimiento y la memoria espacial.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/sage.png"
-      },
-      {
-        "title": "Red Orange Complex",
-        "desc": "Potente mezcla que promueve el reconocimiento y la memoria espacial.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/orange.png"
-      },
-      {
-        "title": "Mononucleótido de nicotinamida",
-        "desc": "SPromueve la salud cerebral y reduce el deterioro asociado con el envejecimiento.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/nicotinamide.png"
-      },
-      {
-        "title": "Zinc",
-        "desc": "Optimizes brain chemistry to ease mental strain and accelerate response times.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/zinc.png"
-      }
-    ]
-  },
-  "feel_the_difference": {
-    "title": "Siente la diferencia o es gratis",
-    "image": "https://cdn.fluid.app/asea/redoxmind/itsfree.png",
-    "alt_text": "Its free",
-    "desc": "Invertimos nuestro dinero en lo que sí funciona. Eso demuestra lo mucho que creemos en el poder de redox. Así que, si no te gusta, está bien. Nosotros estaremos encantados de tenerlo de vuelta.",
-    "items": [
-      {
-        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20.352\" height=\"20.046\" viewBox=\"0 0 20.352 20.046\">\n  <g id=\"Delivery_box_icon\" data-name=\"Delivery box icon\" transform=\"translate(-20.145 -6716.5)\">\n    <path id=\"Path_35232\" data-name=\"Path 35232\" d=\"M840.851,1259.233,831,1254.96v10.508l9.851,4.6Z\" transform=\"translate(-810.205 5465.979)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35233\" data-name=\"Path 35233\" d=\"M843.4,1259.233l9.194-4.273v10.508l-9.194,4.6Z\" transform=\"translate(-812.758 5465.979)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35234\" data-name=\"Path 35234\" d=\"M831,1253.94l9.851-3.94,9.194,3.94\" transform=\"translate(-810.205 5467)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35235\" data-name=\"Path 35235\" d=\"M837.9,1252.2l9.132,4.249\" transform=\"translate(-811.625 5466.548)\" fill=\"none\" stroke=\"#000\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35236\" data-name=\"Path 35236\" d=\"M838.905,1261.89l-4.6-1.97v4.273l4.6,1.97Z\" transform=\"translate(-810.887 5464.959)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n  </g>\n</svg>\n",
-        "alt_text": "badge",
-        "caption": "Garantía de 30 días, libre de riesgos, para devolverte el 100% de tu dinero"
-
-      },
-      {
-        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19.427\" height=\"19.427\" viewBox=\"0 0 19.427 19.427\">\n  <g id=\"Group_4002\" data-name=\"Group 4002\" transform=\"translate(-20.295 -6744.299)\">\n    <path id=\"Path_35034\" data-name=\"Path 35034\" d=\"M840.213,1303.427a9.213,9.213,0,1,0-9.213-9.213A9.211,9.211,0,0,0,840.213,1303.427Z\" transform=\"translate(-810.205 5459.799)\" fill=\"none\" stroke=\"#231f20\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35035\" data-name=\"Path 35035\" d=\"M842.2,1291.05v4.408l4.724,4.408\" transform=\"translate(-812.51 5458.555)\" fill=\"none\" stroke=\"#231f20\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n  </g>\n</svg>\n",
-        "alt_text": "flexible",
-        "caption": "Fechas de entrega <span class=\"fw-600\">flexibles</span>"
-      },
-      {
-        "icon": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g clip-path=\"url(#clip0_451_82)\">\n    <path d=\"M9.71301 18.926C11.5352 18.926 13.3164 18.3858 14.8315 17.3734C16.3466 16.3611 17.5274 14.9221 18.2247 13.2387C18.922 11.5552 19.1044 9.70282 18.749 7.91567C18.3935 6.12852 17.5161 4.48697 16.2276 3.19851C14.9391 1.91005 13.2975 1.03251 11.5104 0.677024C9.72323 0.321539 7.87077 0.504006 6.18732 1.20132C4.50386 1.89863 3.06501 3.07956 2.05267 4.59463C1.04034 6.1097 0.5 7.89088 0.5 9.71303C0.499737 10.923 0.737841 12.1211 1.20074 13.239C1.66365 14.3569 2.34226 15.3726 3.19782 16.2282C4.05337 17.0837 5.06912 17.7623 6.18701 18.2252C7.3049 18.6881 8.50307 18.9263 9.71301 18.926Z\" stroke=\"#231F20\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    <g clip-path=\"url(#clip1_451_82)\">\n      <path d=\"M14 14L6 6M14 6L6 14\" stroke=\"#231F20\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </g>\n  </g>\n  <defs>\n    <clipPath id=\"clip0_451_82\">\n      <rect width=\"20\" height=\"20\" fill=\"white\"/>\n    </clipPath>\n    <clipPath id=\"clip1_451_82\">\n      <rect width=\"10\" height=\"10\" fill=\"white\" transform=\"translate(5 5)\"/>\n    </clipPath>\n  </defs>\n</svg>\n",
-        "alt_text": "clock",
-        "caption": "Pausa o cancela  <span class=\"fw-600\">en cualquier momento</span>"
-      }
-    ],
-    "button_text": "Suscríbete ahora"
-  },
-  "faq": {
-    "title": "Preguntas frecuentes",
-    "icon_class": "clr-body",
-    "items": [
+  "faq":{
+    "title": "Benefits of Glutathione",
+    "icon_class": "clr-primary",
+    "items":[
       {
         "class": "acc-item_active",
-        "header": "¿Cuánta stevia hay en un sobre de REDOXMind?",
-        "desc": "Menos de 120 mg para las fórmulas de EE. UU. y Europa y menos de 80 mg para las fórmulas de Asia."
+        "header": "Strengthened Immune System",
+        "desc": "Glutathione is able to neutralize free radicals and protect the body from their harmful effects.It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
       },
       {
         "class": "",
-        "header": "¿Por qué hay stevia en REDOXMind?",
-        "desc": "La stevia se deriva de las hojas de la especie vegetal Stevia rebaudiana. La stevia es entre 200-350 veces más dulce que el azúcar, por lo que solo se necesita una pequeña cantidad para igualar el dulzor proporcionado por el azúcar. Además, no contribuye ni afecta los niveles de glucosa en la sangre."
+        "header": "Increased Energy",
+        "desc": "It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
       },
       {
         "class": "",
-        "header": "¿Qué significa “sabores naturales”?",
-        "desc": "La línea de Cell Performance no contiene ningún ingrediente OGM. Todos los  “sabores naturales” provienen de extractos de frutas y no contienen glutamato monosódico."
-      },
-      {
-        "class": "",
-        "header": "¿Se considera natural al ácido cítrico?",
-        "desc": "El ácido cítrico se obtiene naturalmente de la fermentación de la yuca y no contiene OGM."
-      },
-      {
-        "class": "",
-        "header": "¿Qué es la categoría de productos de ASEA® Cell Performance?",
-        "desc": "ASEA® Cell Performance es una categoría de productos formulados pensando en tu salud y bienestar. Basados en principios redox, estos productos son fáciles de usar, sencillos de llevar a cualquier parte y brindan un impulso saludable que es Powered by Redox™. Con mezclas de ingredientes patentados que te ayudan a rendir al máximo física y mentalmente al enfocarse en el rendimiento a nivel celular, la categoría de ASEA Cell Performance está diseñada para complementar y respaldar un estilo de vida saludable. ¡Estos deliciosos paquetes son perfectos para impulsar tu rendimiento diario a dondequiera que vayas!"
-      },
-      {
-        "class": "",
-        "header": "¿Qué es Red Orange Complex y cuáles son sus beneficios?",
-        "desc": "Red Orange Complex es una mezcla de varios tipos de naranjas sanguinas que mejora los niveles sanguíneos de antioxidantes y la función cognitiva, específicamente la memoria espacial y de reconocimiento."
-      },
-      {
-        "class": "",
-        "header": "Qué es fosfatidilserina?",
-        "desc": "Tu cuerpo produce naturalmente fosfatidilserina, por lo que complementarla ayuda a facilitar el aprendizaje, la memoria y la regulación del estado de ánimo."
-      },
-      {
-        "class": "",
-        "header": "¿REDOXMind es libre de alérgenos?",
-        "desc": "REDOXMind no contiene gluten, lácteos, alérgenos de la soya ni azúcar."
-      },
-      {
-        "class": "",
-        "header": "¿Cuántos productos de Cell Performance hay?",
-        "desc": "Además de REDOXMind, existen otros tres productos de Cell Performance que brindan beneficios específicos a partir del nivel celular:\n<ul class=\"my-12\">\n  <li>REDOXMood</li>\n  <li>REDOXEnergy</li>\n  <li>REDOXRadiance</li>\n</ul>\n<p>\n  Los cuatro productos vienen en cajas de 30 paquetes. Los cuatro productos vienen en cajas de 30 paquetes. También puedes encontrar REDOXMood, REDOXEnergy y REDOXRadiance en un paquete variado con 10 paquetes de cada uno..\n</p>"
-      },
-      {
-        "class": "",
-        "header": "¿Todos los productos de ASEA® Cell Performance son veganos?",
-        "desc": "Sí, los cuatro productos son 100% veganos."
-      },
-      {
-        "class": "is-hide",
-        "header": "¿Necesito consumir las 8-12 oz completas en una sola ingesta?",
-        "desc": "Para obtener mejores resultados, recomendamos beber todo el contenido de un paquete en 15 minutos."
-      },
-      {
-        "class": "is-hide",
-        "header": "¿Se pueden utilizar REDOXMind y otros productos de Cell Performance con el Suplemento de Señalización Celular de ASEA® Redox?",
-        "desc": "Sí. Recomendamos utilizar el Suplemento de Señalización Celular de ASEA® Redox antes de consumir cualquier producto de Cell Performance. Mezclar cualquier producto con el Suplemento de Señalización Celular de ASEA Redox podría desactivar las moléculas redox y no permitir que funcionen a su máxima capacidad."
-      },
-      {
-        "class": "is-hide",
-        "header": "¿Se puede mezclar y consumir REDOXMind junto con otros productos de ASEA® Cell Performance?",
-        "desc": "Sí. Los productos están formulados para funcionar de forma independiente, pero se pueden utilizar juntos. Te recomendamos probar cada producto individualmente antes de mezclarlos."
-      },
-      {
-        "class": "is-hide",
-        "header": "¿Cuántas calorías tiene una porción de REDOXMind?",
-        "desc": "Cada mezcla para beber contiene 5 calorías por porción."
+        "header": "Enhanced Stamina and Endurance",
+        "desc": "It also helps to reduce inflammation, and supports the body's natural ability to fight off infection. In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
       }
-    ],
-    "show_more_text": "Mostrar Más"
+
+    ]
+
   },
-  "cta": {
-    "title": "Dale un impulso a tu cerebro <br />con REDOXMind",
-    "subscription_text": "Agregar a la suscripción",
-    "purchase_text": "Añadir a una compra única",
-    "image": "https://cdn.fluid.app/asea/redoxmind/support.png",
-    "alt_text": "cta support",
-    "note_desc": "*Estas declaraciones no han sido evaluadas por la Administración de Alimentos y Medicamentos. Este producto no está destinado para diagnosticar, tratar, curar o prevenir ninguna enfermedad."
+  "cta":{
+    "title": "A new you starts with Neumi",
+    "subscription_text": "Add to subscription",
+    "purchase_text": " Purchase one-time",
+    "image": "https://cdn.fluid.app/neumi/hers/images/cta.png",
+    "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration.These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
   }
 }
