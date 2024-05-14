@@ -1,0 +1,47 @@
+{{#before_and_after}}
+  <section class="page-section  clr-bg-700_bg product-usage-result-section">
+    <div class="container">
+      <div class="row">
+
+        <div class="col col-12 col-lg-6">
+          <div id="before-after-preview-slider" class="splide before-after-preview-slider">
+            {{>PrevNext}}
+            <div class="splide__track">
+              <ul class="splide__list">
+                {{#image_list}}
+                    <li class="splide__slide">
+                      <div class="image-section bg-image" {{{image}}}></div>
+                    </li>
+                  {{/image_list}}
+                </ul>
+              </div>
+          </div>
+        </div>
+
+        <div class="col col-12 col-lg-6 pt-44 pt-lg-0">
+          <div class="desc items-center h-full">
+            <h2>{{title}}</h2>
+            <p class="mt-12">{{desc}}</p>
+            <div id="before-after-nav-slider" class="splide before-after-nav-slider mt-32">
+              {{>PrevNext}}
+              <div class="splide__track">
+                <ul class="splide__list">
+                    {{#image_desc_list}}
+                      <li class="splide__slide">
+                        <div class="wrapper">
+                          <h3>{{title}}</h3>
+                          <p class="fw-500">{{desc}}</p>
+                        </div>
+                      </li>
+                    {{/image_desc_list}}
+                  </ul>
+                </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div><!-- .row -->
+    </div><!-- .container -->
+  </section>
+{{/before_and_after}}

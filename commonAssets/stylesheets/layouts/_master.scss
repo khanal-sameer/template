@@ -1,0 +1,25 @@
+@import 'accordion',
+        'cta',
+        'demo-video',
+        'how-to-use',
+        'product-description',
+        'review',
+        'banner',
+        'slider/master';
+//section spacing
+.page-section {
+  padding: 4rem 0;
+  @include breakpoint-up("lg-tab") {
+    padding: 100px 0;
+  }
+}
+.custom-landing-page  {
+  line-height: 1.5;
+  background-color: var(--clr-white);
+  &:not(.no-spacing){
+    padding: 1.5rem 0;
+    @include breakpoint-up("md-tab") {
+      padding: 3rem 0;
+    }
+  }
+}

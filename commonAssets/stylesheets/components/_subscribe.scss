@@ -1,0 +1,24 @@
+.subscribe-dis {
+  background-color: var(--clr-primary-900);
+}
+.subscribe-card {
+  border: 1px solid var(--clr-border);
+  border-radius: 6px;
+  transition: border 0.5s ease-in-out, border 0.5s ease-in-out;
+  &.is-active {
+    border-color: var(--clr-primary);
+  }
+  &_header {
+    padding: 1.25rem 1.25rem 0.75rem;
+  }
+  &_body {
+    padding-inline: 1.25rem;
+    padding-block-end: 1.5rem;
+  }
+  &_footer {
+    background-color: var(--clr-bg);
+    padding: 1.125rem;
+    border-radius: 8px;
+    border: 1px solid var(--clr-border);
+  }
+}

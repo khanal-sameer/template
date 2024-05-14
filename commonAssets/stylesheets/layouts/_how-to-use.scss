@@ -1,0 +1,14 @@
+.how-to-use-section{
+  .image-section{
+    height: 550px;
+    border-radius: 8px;
+  }
+  .desc{
+    @include breakpoint-up("lg-tab") {
+      padding-left: 85px;
+    }
+  }
+  ul{
+    padding-left: 25px;
+  }
+}

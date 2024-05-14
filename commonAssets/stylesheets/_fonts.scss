@@ -1,0 +1,42 @@
+$root-font-path: "https://cdn.fluid.app/newulife/fonts";
+
+@font-face {
+  font-family: "Waleray";
+  src: url("#{$root-font-path}/Waleray-Light.woff2") format("woff2"),
+    url("#{$root-font-path}/Waleray-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Waleray";
+  src: url("#{$root-font-path}/Waleray-Regular.woff2") format("woff2"),
+    url("#{$root-font-path}/Waleray-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Waleray";
+  src: url("#{$root-font-path}/Waleray-Medium.woff2") format("woff2"),
+    url("#{$root-font-path}/Waleray-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Waleray";
+  src: url("#{$root-font-path}/Waleray-SemiBold.woff2") format("woff2"),
+    url("#{$root-font-path}/Waleray-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Waleray";
+  src: url("#{$root-font-path}/Waleray-Bold.woff2") format("woff2"),
+    url("#{$root-font-path}/Waleray-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
