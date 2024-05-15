@@ -1,46 +1,7 @@
 @import 'variables';
 @import "../../commonAssets/stylesheets/share";
 @import 'typography';
-.masonary-product-section{
-  .image-section{
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-  .lg-image{
-    height: 750px;
-  }
-  .sm-image{
-    height: 360px;
-  }
-  .product-title{
-    a{
-      padding: 18px 24px;
-      display: flex;
-      width: 100%;
-      justify-content: space-between;
-      align-items: center;
-      color: #fff;
-      border-bottom-left-radius: 8px;
-      border-bottom-right-radius: 8px;
-      &:hover{
-        opacity: 0.9;
-      }
-    }
-  }
-}
-.product-style-1 {
-  .wrapper{
-    width: 520px;
-  }
-  h2{
-    font-size: 30px;
-  }
-  img{
-    max-height: 720px;
-  }
-}
+
 .bg-image{
   background-position: center;
   background-repeat: no-repeat;
@@ -52,42 +13,21 @@
     padding: 1rem;
   }
 }
-.product-usage-result-section{
-  .image-section{
-    border-radius: 8px;
-    height: 300px;
-    background-size: contain;
-    @include breakpoint-up("lg-tab") {
-      padding-left: 85px;
-      height: 550px;
-      background-size: cover;
-    }
+.price-color{
+  color: #158C2D;
+}
+.shop-banner{
+  background-image: url('https://cdn.fluid.app/neumi/shop/images/banner_bg_mobile.png');
+  @include breakpoint-up(lg-tab){
+    background-image: url('https://cdn.fluid.app/neumi/shop/images/banner_bg_web.jpeg');
   }
-  .desc{
-    @include breakpoint-up("lg-tab") {
-      padding-left: 85px;
-    }
-    li{
-      border: 0 !important;
-      .wrapper{
-        width: fit-content;
-        margin: auto;
-        padding: 0 30px;
-      }
-    }
-  }
-  .splide__arrow{
-    background-color: transparent;
-  }
-  .splide__arrow--prev{
-    left: 0;
-  }
-  .splide__arrow--next{
-    right: 0;
-  }
-  .before-after-preview-slider {
-    button{
-      display: none;
+}
+.image-hover-effect{
+  overflow: hidden;
+  img{
+    @include transition(all 0.3s ease-in-out);
+    &:hover{
+     @include transform(scale(1.1));
     }
   }
 }
