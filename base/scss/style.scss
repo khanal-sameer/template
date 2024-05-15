@@ -22,9 +22,11 @@
       justify-content: space-between;
       align-items: center;
       color: #fff;
-      background-color: #FE982E;
       border-bottom-left-radius: 8px;
       border-bottom-right-radius: 8px;
+      &:hover{
+        opacity: 0.9;
+      }
     }
   }
 }

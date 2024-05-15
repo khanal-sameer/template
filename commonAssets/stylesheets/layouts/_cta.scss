@@ -109,8 +109,11 @@
     flex-direction: column;
     justify-content: center;
     z-index: 2;
-    padding: 0 50px;
+    padding: 0 1.25rem;
     border-radius: 8px;
+    @include breakpoint-up("xl-phone"){
+      padding: 0 50px;
+    }
   }
   .btn-section{
     a{

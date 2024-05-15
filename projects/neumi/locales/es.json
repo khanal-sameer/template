@@ -6,12 +6,12 @@
   "become_member_button_text": "Become a member",
   "shop_product_url": "#",
   "become_member_url": "#",
-
+  "see_all_product_button_text": "See all products",
   "hero_section":{
     "title": "A new you starts with Neumi",
     "title_sm": "The Nano Company",
-    "desc": "Transform Your Well-being with the Power of Neumi's HydraStat™ Nanotechnology."
-
+    "desc": "Transform Your Well-being with the Power of Neumi's HydraStat™ Nanotechnology.",
+    "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/hero.png)\""
   },
   "asSeenOn": {
     "items": [
@@ -40,46 +40,46 @@
     "desc": "Life is better when you look & feel your best.",
     "arrow": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M4 12H20M20 12L14 6M20 12L14 18\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  </svg>\n ",
     "masonary_product_layout1":{
-      "vertical_image": "style=background-image:url(file:///home/kalpana/projects/template/base/neumiLanding/images/vertical1.png)",
+      "vertical_image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/vertical1.png)\"",
       "items":[
         {
-          "image": "style=background-image:url(file:///home/kalpana/projects/template/base/neumiLanding/images/hers.jpg)",
+          "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/hers.jpg)\"",
           "product_name": "Hers",
-          "url": "",
-          "bg_color":"style=background-color:rgba(188,80,176,0.8)"
+          "url": "https://neumi.fluid.app/home/page/hers?preview=true",
+          "bg_color":"style=\"background-color:rgba(188,80,176,0.8)\""
         },
         {
-          "image": "style=background-image:url(file:///home/kalpana/projects/template/base/neumiLanding/images/neumi.jpg)",
+          "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/neumi.jpg)\"",
           "product_name": "Neumi Skin",
-          "url": "",
-          "bg_color":"style=background-color:rgba(41,171,226,0.8)"
+          "url": " https://neumi.fluid.app/home/page/neumi-skin?preview=true",
+          "bg_color":"style=\"background-color:rgba(41,171,226,0.8)\""
         }
       ],
-      "horizontal_image": "style=background-image:url(file:///home/kalpana/projects/template/base/neumiLanding/images/horizontal1.png)"
+      "horizontal_image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/horizontal1.png)\""
     },
     "masonary_product_layout2":{
-      "horizontal_image": "style=background-image:url(file:///home/kalpana/projects/template/base/neumiLanding/images/horizontal2.png)",
+      "horizontal_image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/horizontal2.png)\"",
       "items":[
         {
-          "image":  "style=background-image:url(file:///home/kalpana/projects/template/base/neumiLanding/images/nutriswish.png);background-position:top;",
+          "image":  "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/nutriswish.png);background-position:top;\"",
           "product_name": "NutriSwish",
-          "url": "",
-          "bg_color": "style=background-color:rgba(41,77,226,0.8)"
+          "url": " https://neumi.fluid.app/home/page/nutriswish?preview=true",
+          "bg_color": "style=\"background-color:rgba(41,77,226,0.8)\""
         },
         {
-          "image":  "style=background-image:url(file:///home/kalpana/projects/template/base/neumiLanding/images/neuro.png);background-position:top;",
+          "image":  "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/neuro.png);background-position:top;\"",
           "product_name": "Neuro",
-          "url": "",
-          "bg_color":"style=background-color:rgba(254,152,46,0.8)"
+          "url": "#",
+          "bg_color":"style=\"background-color:rgba(254,152,46,0.8)\""
         }
       ],
-      "vertical_image": "style=background-image:url(file:///home/kalpana/projects/template/base/neumiLanding/images/vertical2.png)"
+      "vertical_image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/vertical2.png)\""
     }
   },
   "guarantee":{
     "title": "The Neumi guarantee",
     "desc":"Regardless of account type, you’ll enjoy:",
-    "image": "file:///home/kalpana/projects/template/base/neumiLanding/images/guarantee.png",
+    "image": "https://cdn.fluid.app/neumi/landing/images/guarantee.png",
     "alt_text": "neumi product",
     "image_position":"left",
     "items": [
@@ -105,7 +105,7 @@
     "title_sm": "HydraStat Nanotechnology™",
     "title": "Small delivery, big performance",
     "desc":"The molecules in many supplements are too large to be absorbed by the cell, so they get excreted from the body without being used effectively. Neumi uses breakthrough HydraStat Nanotechnology™ to increase the bioavailability and effectiveness of all its products by breaking down large molecules and enveloping them in ultra-pure water clusters. Our nanosized ingredients are between 10-100 nanometers. They are small enough to be fully absorbed into the human cell.",
-    "image": "file:///home/kalpana/projects/template/base/neumiLanding/images/performance.png",
+    "image": "https://cdn.fluid.app/neumi/landing/images/performance.png",
     "button_text": "Learn more",
     "url": "#",
     "image_position":"right",
@@ -115,7 +115,7 @@
   "video":{
     "title_sm": "Hydrastat Nanotechnology™",
     "title": "The Neumi breakthrough",
-    "image": "style=background-image:url(file:///home/kalpana/projects/template/base/neumiLanding/images/video_bg.png)",
+    "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/video_bg.png)\"",
     "video_url": "https://youtu.be/pdn3__eU4Hw"
   },
   "before_and_after":{
@@ -123,30 +123,16 @@
     "desc": "Neumi Skin did this for them, what can it do for you? Results may vary.",
     "image_list":[
       {
-        "image": "style=background-image:url(https://neumi-global.myshopify.com/cdn/shop/files/24.png?crop=center&height=420&v=1680727530&width=420)"
+        "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/usage_image1.webp)\""
       },
       {
-        "image": "style=background-image:url(https://neumi-global.myshopify.com/cdn/shop/files/5.png?crop=center&height=420&v=1680727530&width=420)"
+        "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/usage_image2.webp)\""
       },
       {
-        "image": "style=background-image:url(https://neumi-global.myshopify.com/cdn/shop/files/15_69b081ed-1025-4372-b533-4500081f8325.png?crop=center&height=420&v=1680727953&width=420)"
+        "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/usage_image3.webp)\""
       },
       {
-        "image": "style=background-image:url(https://neumi-global.myshopify.com/cdn/shop/files/7_ed9e57e9-8fa3-4b45-b01d-4332fc8b3f83.png?crop=center&height=420&v=1680727953&width=420)"
-      }
-    ],
-    "image_list1":[
-      {
-        "image": "https://neumi-global.myshopify.com/cdn/shop/files/24.png?crop=center&height=420&v=1680727530&width=420"
-      },
-      {
-        "image": "https://neumi-global.myshopify.com/cdn/shop/files/5.png?crop=center&height=420&v=1680727530&width=420"
-      },
-      {
-        "image": "https://neumi-global.myshopify.com/cdn/shop/files/15_69b081ed-1025-4372-b533-4500081f8325.png?crop=center&height=420&v=1680727953&width=420"
-      },
-      {
-        "image": "https://neumi-global.myshopify.com/cdn/shop/files/7_ed9e57e9-8fa3-4b45-b01d-4332fc8b3f83.png?crop=center&height=420&v=1680727953&width=420"
+        "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/usgae_image4.webp)\""
       }
     ],
     "image_desc_list":[
@@ -175,7 +161,7 @@
       {
         "class": "acc-item_active",
         "header": "I’m a preferred customer. How do I order?",
-        "desc": "The best way is by going to <a class=\"clr-primary\" href=\"#\">Neumi.com</a> and placing your order there."
+        "desc": "The best way is by going to <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> and placing your order there."
       },
       {
         "class": "",
@@ -207,7 +193,7 @@
   },
   "cta":{
     "title": "A new you starts with Neumi.",
-    "image": "style=background-image:url(file:///home/kalpana/projects/template/base/neumiLanding/images/cta_bg.jpg)"
+    "image": "style=background-image:url(https://cdn.fluid.app/neumi/landing/images/cta_bg.jpg)"
   },
   "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration. These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
 }
