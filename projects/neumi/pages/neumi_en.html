@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neumi Shop page</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REDOXMind</title>
+
     <!-- css library import -->
     <link
       rel="stylesheet"
@@ -11,331 +13,2146 @@
     />
     <link
       rel="stylesheet"
-      href="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../../base/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.css"
+    />
+
+    <style>
+      *,*::before,*::after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.smooth-scroll{overflow:hidden !important}body,h1,h2,h3,h4,h5,h6,p,figure,blockquote,dl,dd{margin:0;padding:0}ul[role="list"],ol[role="list"],li{list-style:none}dl,ol,ul,li{margin:0;padding:0;list-style:none}dd{margin-bottom:0.5rem;margin-left:0}html:focus-within{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.3;overflow-x:hidden}a:not([class]){text-decoration-skip-ink:auto}a{text-decoration:none;color:inherit}img,picture{max-width:100%;display:block;height:auto}input,button,textarea,select{font:inherit;-webkit-appearance:none;border-radius:0}table{width:100%;border-collapse:collapse;border-spacing:0}@media (prefers-reduced-motion: reduce){html:focus-within{scroll-behavior:auto}*,*::before,*::after{animation-duration:0.01ms !important;animation-iteration-count:1 !important;transition-duration:0.01ms !important;scroll-behavior:auto !important}}:root{--clr-body: #000;--clr-body-900: #000000cc;--clr-body-800: #323232;--clr-body-700: #403e3e;--clr-body-600: #807d7c;--clr-body-500: #bfbbba;--clr-body-400: #ede9e6;--clr-body-300: #f7f7f8;--clr-body-200: #ededed;--clr-body-100: #f4f2f1;--clr-primary: #ff4945;--clr-primary-900: #efeae8;--clr-primary-dark: #9f76c8;--clr-red: #d80027;--clr-orange: #ee815e;--clr-white: #fff;--clr-bg: #f6f7f9;--clr-border: #e5e3e4;--clr-blue: #3172e9;--transition-speed: 0.3s}html{font-size:16px}:root{--base-fs: 16;--ff-body: "Inter", sans-serif;--fs-sm: 0.75rem;--fs-md: 0.875rem;--fs-body: 1rem;--fs-lg: 1.125rem;--fs-h5: 1rem;--fs-h4: 1.125rem;--fs-h3: 1.5rem;--fs-h2: 2rem;--fs-h1: clamp(2.18rem, calc(1.93rem + 1.8vw), 3.5rem)}@media (min-width: 768px){:root{--fs-h4: 1.375rem;--fs-h3: 2rem;--fs-h2: 3.5rem;--fs-h1: clamp(2.18rem, calc(1.93rem + 1.8vw), 3.5rem)}}#asea-landing_page{font-family:var(--ff-body);font-size:var(--fs-body);font-weight:300;line-height:1.75;color:var(--clr-body-700);padding:1.5rem 0;background-color:var(--clr-white)}@media (min-width: 768px){#asea-landing_page{padding:3rem 0}}#asea-landing_page h1,#asea-landing_page h2,#asea-landing_page h3,#asea-landing_page h4,#asea-landing_page h5,#asea-landing_page h6{font-weight:normal}#asea-landing_page .fs-sm{font-size:var(--fs-sm);line-height:1.2}#asea-landing_page .fs-md{font-size:var(--fs-md);line-height:1.57}#asea-landing_page .fs-lg{font-size:var(--fs-lg);line-height:1.55}#asea-landing_page h4,#asea-landing_page .fs-h4{font-size:var(--fs-h4);font-weight:600}#asea-landing_page h3,#asea-landing_page .fs-h3{font-size:var(--fs-h3);line-height:1.18;font-weight:600}#asea-landing_page .fs-h2,#asea-landing_page h2{font-size:var(--fs-h2);line-height:1.217;font-weight:600}#asea-landing_page h1,#asea-landing_page .fs-h1{font-size:var(--fs-h1);line-height:1.217;font-weight:600}#asea-landing_page body{position:relative}#asea-landing_page .clr-body{color:var(--clr-body)}#asea-landing_page .clr-body-900{color:var(--clr-body-900)}#asea-landing_page .clr-body-800{color:var(--clr-body-800)}#asea-landing_page .clr-body-700{color:var(--clr-body-700)}#asea-landing_page .clr-body-600{color:var(--clr-body-600)}#asea-landing_page .clr-body-500{color:var(--clr-body-500)}#asea-landing_page .clr-blue{color:var(--clr-blue)}#asea-landing_page .is-flex{display:flex}#asea-landing_page .inline-flex{display:inline-flex}#asea-landing_page .is-start{justify-content:flex-start}#asea-landing_page .is-center{justify-content:center}#asea-landing_page .is-end{justify-content:flex-end}#asea-landing_page .is-between{justify-content:space-between}#asea-landing_page .is-around{justify-content:space-around}#asea-landing_page .is-evenly{justify-content:space-evenly}#asea-landing_page .is-align-start{align-items:flex-start}#asea-landing_page .is-align-end{align-items:flex-end}#asea-landing_page .is-align-center{align-items:center}#asea-landing_page .dir-column{flex-direction:column}#asea-landing_page .dir-column-reverse{flex-direction:column-reverse}#asea-landing_page .dir-row{flex-direction:row}#asea-landing_page .dir-row-reverse{flex-direction:row-reverse}#asea-landing_page .flex-grow{flex-grow:1}#asea-landing_page .is-wrap{flex-wrap:wrap}#asea-landing_page .is-nowrap{flex-wrap:nowrap}#asea-landing_page .flex-shrink-0{flex-shrink:0}#asea-landing_page .is-align-baseline{align-items:baseline}#asea-landing_page .flex-1{flex:1}#asea-landing_page .is-pointer{cursor:pointer}#asea-landing_page .pointer-drag{cursor:move;cursor:grab;cursor:-moz-grab;cursor:-webkit-grab}#asea-landing_page .is-uppercase{text-transform:uppercase}#asea-landing_page .is-capitalize{text-transform:capitalize}#asea-landing_page .is-underline{text-decoration:underline}#asea-landing_page .max-510{max-width:510px;width:100%}#asea-landing_page .is-break{overflow-wrap:break-word;word-wrap:break-word;-ms-word-break:break-all;word-break:break-all;word-break:break-word;-ms-hyphens:auto;-moz-hyphens:auto;-webkit-hyphens:auto;hyphens:auto}#asea-landing_page .is-ellipsis{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}#asea-landing_page .is-relative{position:relative}#asea-landing_page .italic{font-family:var(--ff-italic)}#asea-landing_page .is-underline{text-decoration:underline}#asea-landing_page .is-strike{text-decoration:line-through}#asea-landing_page .flex-1{flex:1}#asea-landing_page .z-index-1{z-index:1}#asea-landing_page .z-index-2{z-index:2;position:relative}#asea-landing_page .is-hidden{overflow:hidden}#asea-landing_page .is-align-right{text-align:right}#asea-landing_page .w-full{width:100%}#asea-landing_page .h-full{height:100%}#asea-landing_page .text-center{text-align:center}#asea-landing_page .is-hide{display:none}#asea-landing_page .is-show{display:block}#asea-landing_page .line-height-1{line-height:1}#asea-landing_page img{max-width:100%;height:auto}#asea-landing_page .is-align-baseline{align-items:baseline}#asea-landing_page .trim-1{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}#asea-landing_page .trim-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}#asea-landing_page .trim-3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}#asea-landing_page .is-grow{flex-grow:1}#asea-landing_page .is-grow-2{flex-grow:2}#asea-landing_page .clr-primary{color:var(--clr-primary)}#asea-landing_page .clr-white{color:var(--clr-white)}#asea-landing_page .clr-white_bg{background-color:var(--clr-white)}#asea-landing_page .clr-bg{background-color:var(--clr-bg)}#asea-landing_page .row-gap-2{row-gap:.125rem}#asea-landing_page .row-gap-4{row-gap:.25rem}#asea-landing_page .row-gap-8{row-gap:.5rem}#asea-landing_page .row-gap-12{row-gap:.75rem}#asea-landing_page .row-gap-16{row-gap:1rem}#asea-landing_page .row-gap-20{row-gap:1.25rem}#asea-landing_page .row-gap-24{row-gap:1.5rem}#asea-landing_page .row-gap-28{row-gap:1.75rem}#asea-landing_page .row-gap-32{row-gap:2rem}#asea-landing_page .row-gap-36{row-gap:2.25rem}#asea-landing_page .row-gap-40{row-gap:2.5rem}#asea-landing_page .row-gap-44{row-gap:2.75rem}#asea-landing_page .row-gap-48{row-gap:3rem}#asea-landing_page .row-gap-52{row-gap:3.25rem}#asea-landing_page .row-gap-56{row-gap:3.5rem}#asea-landing_page .row-gap-60{row-gap:3.75rem}#asea-landing_page .row-gap-64{row-gap:4rem}#asea-landing_page .col-gap-2{column-gap:.125rem}#asea-landing_page .col-gap-4{column-gap:.25rem}#asea-landing_page .col-gap-8{column-gap:.5rem}#asea-landing_page .col-gap-12{column-gap:.75rem}#asea-landing_page .col-gap-16{column-gap:1rem}#asea-landing_page .col-gap-20{column-gap:1.25rem}#asea-landing_page .col-gap-24{column-gap:1.5rem}#asea-landing_page .col-gap-28{column-gap:1.75rem}#asea-landing_page .col-gap-32{column-gap:2rem}#asea-landing_page .col-gap-36{column-gap:2.25rem}#asea-landing_page .col-gap-40{column-gap:2.5rem}#asea-landing_page .col-gap-44{column-gap:2.75rem}#asea-landing_page .col-gap-48{column-gap:3rem}#asea-landing_page .col-gap-52{column-gap:3.25rem}#asea-landing_page .col-gap-56{column-gap:3.5rem}#asea-landing_page .col-gap-60{column-gap:3.75rem}#asea-landing_page .col-gap-64{column-gap:4rem}#asea-landing_page .gap-2{gap:.125rem}#asea-landing_page .gap-4{gap:.25rem}#asea-landing_page .gap-8{gap:.5rem}#asea-landing_page .gap-12{gap:.75rem}#asea-landing_page .gap-16{gap:1rem}#asea-landing_page .gap-20{gap:1.25rem}#asea-landing_page .gap-24{gap:1.5rem}#asea-landing_page .gap-28{gap:1.75rem}#asea-landing_page .gap-32{gap:2rem}#asea-landing_page .gap-36{gap:2.25rem}#asea-landing_page .gap-40{gap:2.5rem}#asea-landing_page .gap-44{gap:2.75rem}#asea-landing_page .gap-48{gap:3rem}#asea-landing_page .gap-52{gap:3.25rem}#asea-landing_page .gap-56{gap:3.5rem}#asea-landing_page .gap-60{gap:3.75rem}#asea-landing_page .gap-64{gap:4rem}#asea-landing_page .m-2{margin:.125rem}#asea-landing_page .m-4{margin:.25rem}#asea-landing_page .m-8{margin:.5rem}#asea-landing_page .m-12{margin:.75rem}#asea-landing_page .m-16{margin:1rem}#asea-landing_page .m-20{margin:1.25rem}#asea-landing_page .m-24{margin:1.5rem}#asea-landing_page .m-28{margin:1.75rem}#asea-landing_page .m-32{margin:2rem}#asea-landing_page .m-36{margin:2.25rem}#asea-landing_page .m-40{margin:2.5rem}#asea-landing_page .m-44{margin:2.75rem}#asea-landing_page .m-48{margin:3rem}#asea-landing_page .m-52{margin:3.25rem}#asea-landing_page .m-56{margin:3.5rem}#asea-landing_page .m-60{margin:3.75rem}#asea-landing_page .m-64{margin:4rem}#asea-landing_page .mb-2{margin-bottom:.125rem}#asea-landing_page .mb-4{margin-bottom:.25rem}#asea-landing_page .mb-8{margin-bottom:.5rem}#asea-landing_page .mb-12{margin-bottom:.75rem}#asea-landing_page .mb-16{margin-bottom:1rem}#asea-landing_page .mb-20{margin-bottom:1.25rem}#asea-landing_page .mb-24{margin-bottom:1.5rem}#asea-landing_page .mb-28{margin-bottom:1.75rem}#asea-landing_page .mb-32{margin-bottom:2rem}#asea-landing_page .mb-36{margin-bottom:2.25rem}#asea-landing_page .mb-40{margin-bottom:2.5rem}#asea-landing_page .mb-44{margin-bottom:2.75rem}#asea-landing_page .mb-48{margin-bottom:3rem}#asea-landing_page .mb-52{margin-bottom:3.25rem}#asea-landing_page .mb-56{margin-bottom:3.5rem}#asea-landing_page .mb-60{margin-bottom:3.75rem}#asea-landing_page .mb-64{margin-bottom:4rem}#asea-landing_page .mt-2{margin-top:.125rem}#asea-landing_page .mt-4{margin-top:.25rem}#asea-landing_page .mt-8{margin-top:.5rem}#asea-landing_page .mt-12{margin-top:.75rem}#asea-landing_page .mt-16{margin-top:1rem}#asea-landing_page .mt-20{margin-top:1.25rem}#asea-landing_page .mt-24{margin-top:1.5rem}#asea-landing_page .mt-28{margin-top:1.75rem}#asea-landing_page .mt-32{margin-top:2rem}#asea-landing_page .mt-36{margin-top:2.25rem}#asea-landing_page .mt-40{margin-top:2.5rem}#asea-landing_page .mt-44{margin-top:2.75rem}#asea-landing_page .mt-48{margin-top:3rem}#asea-landing_page .mt-52{margin-top:3.25rem}#asea-landing_page .mt-56{margin-top:3.5rem}#asea-landing_page .mt-60{margin-top:3.75rem}#asea-landing_page .mt-64{margin-top:4rem}#asea-landing_page .mt--2{margin-top:-.125rem}#asea-landing_page .mt--4{margin-top:-.25rem}#asea-landing_page .mr-2{margin-bottom:.125rem}#asea-landing_page .mr-4{margin-bottom:.25rem}#asea-landing_page .mr-8{margin-bottom:.5rem}#asea-landing_page .mr-12{margin-bottom:.75rem}#asea-landing_page .mr-16{margin-bottom:1rem}#asea-landing_page .mr-20{margin-bottom:1.25rem}#asea-landing_page .mr-24{margin-bottom:1.5rem}#asea-landing_page .mr-28{margin-bottom:1.75rem}#asea-landing_page .mr-32{margin-bottom:2rem}#asea-landing_page .mr-36{margin-bottom:2.25rem}#asea-landing_page .mr-40{margin-bottom:2.5rem}#asea-landing_page .mr-44{margin-bottom:2.75rem}#asea-landing_page .mr-48{margin-bottom:3rem}#asea-landing_page .mr-52{margin-bottom:3.25rem}#asea-landing_page .mr-56{margin-bottom:3.5rem}#asea-landing_page .mr-60{margin-bottom:3.75rem}#asea-landing_page .mr-64{margin-bottom:4rem}#asea-landing_page .ml-2{margin-left:.125rem}#asea-landing_page .ml-4{margin-left:.25rem}#asea-landing_page .ml-8{margin-left:.5rem}#asea-landing_page .ml-12{margin-left:.75rem}#asea-landing_page .ml-16{margin-left:1rem}#asea-landing_page .ml-20{margin-left:1.25rem}#asea-landing_page .ml-24{margin-left:1.5rem}#asea-landing_page .ml-28{margin-left:1.75rem}#asea-landing_page .ml-32{margin-left:2rem}#asea-landing_page .ml-36{margin-left:2.25rem}#asea-landing_page .ml-40{margin-left:2.5rem}#asea-landing_page .ml-44{margin-left:2.75rem}#asea-landing_page .ml-48{margin-left:3rem}#asea-landing_page .ml-52{margin-left:3.25rem}#asea-landing_page .ml-56{margin-left:3.5rem}#asea-landing_page .ml-60{margin-left:3.75rem}#asea-landing_page .ml-64{margin-left:4rem}#asea-landing_page .my-2{margin-top:.125rem;margin-bottom:.125rem}#asea-landing_page .my-4{margin-top:.25rem;margin-bottom:.25rem}#asea-landing_page .my-8{margin-top:.5rem;margin-bottom:.5rem}#asea-landing_page .my-12{margin-top:.75rem;margin-bottom:.75rem}#asea-landing_page .my-16{margin-top:1rem;margin-bottom:1rem}#asea-landing_page .my-20{margin-top:1.25rem;margin-bottom:1.25rem}#asea-landing_page .my-24{margin-top:1.5rem;margin-bottom:1.5rem}#asea-landing_page .my-28{margin-top:1.75rem;margin-bottom:1.75rem}#asea-landing_page .my-32{margin-top:2rem;margin-bottom:2rem}#asea-landing_page .my-36{margin-top:2.25rem;margin-bottom:2.25rem}#asea-landing_page .my-40{margin-top:2.5rem;margin-bottom:2.5rem}#asea-landing_page .my-44{margin-top:2.75rem;margin-bottom:2.75rem}#asea-landing_page .my-48{margin-top:3rem;margin-bottom:3rem}#asea-landing_page .my-52{margin-top:3.25rem;margin-bottom:3.25rem}#asea-landing_page .my-56{margin-top:3.5rem;margin-bottom:3.5rem}#asea-landing_page .my-60{margin-top:3.75rem;margin-bottom:3.75rem}#asea-landing_page .my-64{margin-top:4rem;margin-bottom:4rem}#asea-landing_page .mx-2{margin-left:.125rem;margin-right:.125rem}#asea-landing_page .mx-4{margin-left:.25rem;margin-right:.25rem}#asea-landing_page .mx-8{margin-left:.5rem;margin-right:.5rem}#asea-landing_page .mx-12{margin-left:.75rem;margin-right:.75rem}#asea-landing_page .mx-16{margin-left:1rem;margin-right:1rem}#asea-landing_page .mx-20{margin-left:1.25rem;margin-right:1.25rem}#asea-landing_page .mx-24{margin-left:1.5rem;margin-right:1.5rem}#asea-landing_page .mx-28{margin-left:1.75rem;margin-right:1.75rem}#asea-landing_page .mx-32{margin-left:2rem;margin-right:2rem}#asea-landing_page .mx-36{margin-left:2.25rem;margin-right:2.25rem}#asea-landing_page .mx-40{margin-left:2.5rem;margin-right:2.5rem}#asea-landing_page .mx-44{margin-left:2.75rem;margin-right:2.75rem}#asea-landing_page .mx-48{margin-left:3rem;margin-right:3rem}#asea-landing_page .mx-52{margin-left:3.25rem;margin-right:3.25rem}#asea-landing_page .mx-56{margin-left:3.5rem;margin-right:3.5rem}#asea-landing_page .mx-60{margin-left:3.75rem;margin-right:3.75rem}#asea-landing_page .mx-64{margin-left:4rem;margin-right:4rem}#asea-landing_page .pd-2{padding:.125rem}#asea-landing_page .pd-4{padding:.25rem}#asea-landing_page .pd-8{padding:.5rem}#asea-landing_page .pd-12{padding:.75rem}#asea-landing_page .pd-16{padding:1rem}#asea-landing_page .pd-20{padding:1.25rem}#asea-landing_page .pd-24{padding:1.5rem}#asea-landing_page .pd-28{padding:1.75rem}#asea-landing_page .pd-32{padding:2rem}#asea-landing_page .pd-36{padding:2.25rem}#asea-landing_page .pd-40{padding:2.5rem}#asea-landing_page .pd-44{padding:2.75rem}#asea-landing_page .pd-48{padding:3rem}#asea-landing_page .pd-52{padding:3.25rem}#asea-landing_page .pd-56{padding:3.5rem}#asea-landing_page .pd-60{padding:3.75rem}#asea-landing_page .pd-64{padding:4rem}#asea-landing_page .pb-2{padding-bottom:.125rem}#asea-landing_page .pb-4{padding-bottom:.25rem}#asea-landing_page .pb-8{padding-bottom:.5rem}#asea-landing_page .pb-12{padding-bottom:.75rem}#asea-landing_page .pb-16{padding-bottom:1rem}#asea-landing_page .pb-20{padding-bottom:1.25rem}#asea-landing_page .pb-24{padding-bottom:1.5rem}#asea-landing_page .pb-28{padding-bottom:1.75rem}#asea-landing_page .pb-32{padding-bottom:2rem}#asea-landing_page .pb-36{padding-bottom:2.25rem}#asea-landing_page .pb-40{padding-bottom:2.5rem}#asea-landing_page .pb-44{padding-bottom:2.75rem}#asea-landing_page .pb-48{padding-bottom:3rem}#asea-landing_page .pb-52{padding-bottom:3.25rem}#asea-landing_page .pb-56{padding-bottom:3.5rem}#asea-landing_page .pb-60{padding-bottom:3.75rem}#asea-landing_page .pb-64{padding-bottom:4rem}#asea-landing_page .pt-2{padding-top:.125rem}#asea-landing_page .pt-4{padding-top:.25rem}#asea-landing_page .pt-8{padding-top:.5rem}#asea-landing_page .pt-12{padding-top:.75rem}#asea-landing_page .pt-16{padding-top:1rem}#asea-landing_page .pt-20{padding-top:1.25rem}#asea-landing_page .pt-24{padding-top:1.5rem}#asea-landing_page .pt-28{padding-top:1.75rem}#asea-landing_page .pt-32{padding-top:2rem}#asea-landing_page .pt-36{padding-top:2.25rem}#asea-landing_page .pt-40{padding-top:2.5rem}#asea-landing_page .pt-44{padding-top:2.75rem}#asea-landing_page .pt-48{padding-top:3rem}#asea-landing_page .pt-52{padding-top:3.25rem}#asea-landing_page .pt-56{padding-top:3.5rem}#asea-landing_page .pt-60{padding-top:3.75rem}#asea-landing_page .pt-64{padding-top:4rem}#asea-landing_page .pl-2{padding-left:.125rem}#asea-landing_page .pl-4{padding-left:.25rem}#asea-landing_page .pl-8{padding-left:.5rem}#asea-landing_page .pl-12{padding-left:.75rem}#asea-landing_page .pl-16{padding-left:1rem}#asea-landing_page .pl-20{padding-left:1.25rem}#asea-landing_page .pl-24{padding-left:1.5rem}#asea-landing_page .pl-28{padding-left:1.75rem}#asea-landing_page .pl-32{padding-left:2rem}#asea-landing_page .pl-36{padding-left:2.25rem}#asea-landing_page .pl-40{padding-left:2.5rem}#asea-landing_page .pl-44{padding-left:2.75rem}#asea-landing_page .pl-48{padding-left:3rem}#asea-landing_page .pl-52{padding-left:3.25rem}#asea-landing_page .pl-56{padding-left:3.5rem}#asea-landing_page .pl-60{padding-left:3.75rem}#asea-landing_page .pl-64{padding-left:4rem}#asea-landing_page .pr-2{padding-right:.125rem}#asea-landing_page .pr-4{padding-right:.25rem}#asea-landing_page .pr-8{padding-right:.5rem}#asea-landing_page .pr-12{padding-right:.75rem}#asea-landing_page .pr-16{padding-right:1rem}#asea-landing_page .pr-20{padding-right:1.25rem}#asea-landing_page .pr-24{padding-right:1.5rem}#asea-landing_page .pr-28{padding-right:1.75rem}#asea-landing_page .pr-32{padding-right:2rem}#asea-landing_page .pr-36{padding-right:2.25rem}#asea-landing_page .pr-40{padding-right:2.5rem}#asea-landing_page .pr-44{padding-right:2.75rem}#asea-landing_page .pr-48{padding-right:3rem}#asea-landing_page .pr-52{padding-right:3.25rem}#asea-landing_page .pr-56{padding-right:3.5rem}#asea-landing_page .pr-60{padding-right:3.75rem}#asea-landing_page .pr-64{padding-right:4rem}#asea-landing_page .px-2{padding-left:.125rem;padding-right:.125rem}#asea-landing_page .px-4{padding-left:.25rem;padding-right:.25rem}#asea-landing_page .px-8{padding-left:.5rem;padding-right:.5rem}#asea-landing_page .px-12{padding-left:.75rem;padding-right:.75rem}#asea-landing_page .px-16{padding-left:1rem;padding-right:1rem}#asea-landing_page .px-20{padding-left:1.25rem;padding-right:1.25rem}#asea-landing_page .px-24{padding-left:1.5rem;padding-right:1.5rem}#asea-landing_page .px-28{padding-left:1.75rem;padding-right:1.75rem}#asea-landing_page .px-32{padding-left:2rem;padding-right:2rem}#asea-landing_page .px-36{padding-left:2.25rem;padding-right:2.25rem}#asea-landing_page .px-40{padding-left:2.5rem;padding-right:2.5rem}#asea-landing_page .px-44{padding-left:2.75rem;padding-right:2.75rem}#asea-landing_page .px-48{padding-left:3rem;padding-right:3rem}#asea-landing_page .px-52{padding-left:3.25rem;padding-right:3.25rem}#asea-landing_page .px-56{padding-left:3.5rem;padding-right:3.5rem}#asea-landing_page .px-60{padding-left:3.75rem;padding-right:3.75rem}#asea-landing_page .px-64{padding-left:4rem;padding-right:4rem}#asea-landing_page .py-2{padding-top:.125rem;padding-bottom:.125rem}#asea-landing_page .py-4{padding-top:.25rem;padding-bottom:.25rem}#asea-landing_page .py-8{padding-top:.5rem;padding-bottom:.5rem}#asea-landing_page .py-12{padding-top:.75rem;padding-bottom:.75rem}#asea-landing_page .py-16{padding-top:1rem;padding-bottom:1rem}#asea-landing_page .py-20{padding-top:1.25rem;padding-bottom:1.25rem}#asea-landing_page .py-24{padding-top:1.5rem;padding-bottom:1.5rem}#asea-landing_page .py-28{padding-top:1.75rem;padding-bottom:1.75rem}#asea-landing_page .py-32{padding-top:2rem;padding-bottom:2rem}#asea-landing_page .py-36{padding-top:2.25rem;padding-bottom:2.25rem}#asea-landing_page .py-40{padding-top:2.5rem;padding-bottom:2.5rem}#asea-landing_page .py-44{padding-top:2.75rem;padding-bottom:2.75rem}#asea-landing_page .py-48{padding-top:3rem;padding-bottom:3rem}#asea-landing_page .py-52{padding-top:3.25rem;padding-bottom:3.25rem}#asea-landing_page .py-56{padding-top:3.5rem;padding-bottom:3.5rem}#asea-landing_page .py-60{padding-top:3.75rem;padding-bottom:3.75rem}#asea-landing_page .py-64{padding-top:4rem;padding-bottom:4rem}#asea-landing_page .radius-2{border-radius:.125rem}#asea-landing_page .radius-4{border-radius:.25rem}#asea-landing_page .radius-8{border-radius:.5rem}#asea-landing_page .radius-12{border-radius:.75rem}#asea-landing_page .radius-16{border-radius:1rem}#asea-landing_page .radius-20{border-radius:1.25rem}#asea-landing_page .radius-24{border-radius:1.5rem}#asea-landing_page .radius-28{border-radius:1.75rem}#asea-landing_page .radius-32{border-radius:2rem}#asea-landing_page .radius-36{border-radius:2.25rem}#asea-landing_page .radius-40{border-radius:2.5rem}#asea-landing_page .radius-44{border-radius:2.75rem}#asea-landing_page .radius-48{border-radius:3rem}#asea-landing_page .radius-52{border-radius:3.25rem}#asea-landing_page .radius-56{border-radius:3.5rem}#asea-landing_page .radius-60{border-radius:3.75rem}#asea-landing_page .radius-64{border-radius:4rem}#asea-landing_page .fw-200{font-weight:200}#asea-landing_page .fw-300{font-weight:300}#asea-landing_page .fw-400{font-weight:400}#asea-landing_page .fw-500{font-weight:500}#asea-landing_page .fw-600{font-weight:600}#asea-landing_page .fw-700{font-weight:700}#asea-landing_page .fw-800{font-weight:800}#asea-landing_page .fw-900{font-weight:900}#asea-landing_page .fw-bold{font-weight:bold}#asea-landing_page .fw-normal{font-weight:normal}#asea-landing_page .is-square{display:flex;justify-content:center;align-items:center;flex-direction:column;cursor:pointer;overflow:hidden}#asea-landing_page .is-square img{object-fit:cover}#asea-landing_page .is-square_sm{flex:0 0 auto;max-width:38px;width:38px;height:38px}#asea-landing_page .is-square_sm img{max-height:24px}#asea-landing_page .is-square_xs{flex:0 0 auto;max-width:32px;width:32px;height:32px}#asea-landing_page .is-square_xs img{max-height:18px}#asea-landing_page .is-square_xs svg{max-height:24px}#asea-landing_page .is-square_xs i{font-size:var(--fs-h5)}#asea-landing_page .is-square_md{flex:0 0 auto;max-width:70px;width:70px;height:70px}#asea-landing_page .is-square_md img{max-width:50px}#asea-landing_page .is-square_lg{flex:0 0 auto;max-width:108px;width:108px;height:108px}#asea-landing_page .is-square_lg img{max-width:60px}#asea-landing_page .is-square_circle{border-radius:100%}#asea-landing_page .is-square_circle img{border-radius:100%}#asea-landing_page .is-square-drag{cursor:move;cursor:grab;cursor:-moz-grab;cursor:-webkit-grab}#asea-landing_page .is-square_icon{background-color:var(--clr-white);box-shadow:0px 2px 4px rgba(0,0,0,0.25);-webkit-transition:background-color 0.4s ease-in-out;-moz-transition:background-color 0.4s ease-in-out;-o-transition:background-color 0.4s ease-in-out;-ms-transition:background-color 0.4s ease-in-out;transition:background-color 0.4s ease-in-out}#asea-landing_page .is-status{padding:0.125rem 0.6125rem;font-size:var(--fs-md);text-align:center;position:relative}#asea-landing_page .is-status.is-before{display:inline-block}#asea-landing_page .is-status.is-before::before{content:"";border-radius:50%;width:8px;height:8px;margin-right:0.5rem;display:inline-flex}#asea-landing_page .is-status_pd{padding:0.5px 10px;text-transform:capitalize}#asea-landing_page .is-status_border{border:1px solid}#asea-landing_page .is-status_radius{border-radius:24px}#asea-landing_page .social-icons a{display:inline-flex}#asea-landing_page .social-icons svg path{transition:fill linear var(--transition-speed)}#asea-landing_page .social-icons svg:hover path,#asea-landing_page .social-icons svg:focus path{fill:var(--clr-blue)}#asea-landing_page .is-grid{display:grid}#asea-landing_page .play-icon{cursor:pointer;position:absolute;left:50%;top:50%;transform:translate(-50%, -50%);border-radius:50%;display:flex;justify-content:center;align-items:center;flex-direction:column;transition:cubic-bezier(0.175, 0.885, 0.32, 1.275);opacity:0.95}#asea-landing_page .play-icon:hover{opacity:1}@media (max-width: 767.98px){#asea-landing_page .play-icon img{max-width:64px}}#asea-landing_page .page-section{padding:4rem 0}@media (min-width: 991px){#asea-landing_page .page-section{padding:6.27rem 0}}#asea-landing_page .container,#asea-landing_page .container-full,#asea-landing_page .container-md{width:100%;padding-right:1.25rem;padding-left:1.25rem;margin-right:auto;margin-left:auto}@media (min-width: 768px){#asea-landing_page .container,#asea-landing_page .container-full,#asea-landing_page .container-md{padding-right:1.5rem;padding-left:1.5rem}}#asea-landing_page .container-full{padding-right:1.25rem;padding-left:1.25rem}@media (min-width: 768px){#asea-landing_page .container-full{padding:0 2.5rem}}@media (min-width: 576px){#asea-landing_page .container-sm,#asea-landing_page .container{max-width:540px}}@media (min-width: 768px){#asea-landing_page .container-md,#asea-landing_page .container{max-width:720px}}@media (min-width: 992px){#asea-landing_page .container-md,#asea-landing_page .container{max-width:980px}}@media (min-width: 1200px){#asea-landing_page .container-md,#asea-landing_page .container{max-width:1160px}}@media (min-width: 1366px){#asea-landing_page .container{max-width:1220px}}#asea-landing_page .btn{-webkit-appearance:none;border:none;outline:none;padding:0.675rem 1.5rem;cursor:pointer;display:inline-flex;background-color:transparent;justify-content:center;align-items:center;-webkit-transition:background-color 0.4s ease-in-out;-moz-transition:background-color 0.4s ease-in-out;-o-transition:background-color 0.4s ease-in-out;-ms-transition:background-color 0.4s ease-in-out;transition:background-color 0.4s ease-in-out;border-radius:3px}#asea-landing_page .btn-primary{color:var(--clr-white);transition:all 300ms ease-out;background-color:var(--clr-primary)}#asea-landing_page .btn-secondary{border:1px solid var(--clr-primary);border-radius:100px}#asea-landing_page .btn-secondary:hover{color:var(--clr-primary)}#asea-landing_page .btn-sm{padding:0.7rem 1rem;border-radius:1.25rem;font-size:var(--fs-md)}#asea-landing_page .btn-white{background-color:var(--clr-white)}#asea-landing_page .btn-white:hover{opacity:0.9}#asea-landing_page .btn-black{background-color:var(--clr-body);color:var(--clr-white)}#asea-landing_page .btn-black:hover{background-color:var(--clr-body-900)}#asea-landing_page .btn-link{text-decoration:underline;padding:0;font-weight:500}#asea-landing_page .btn:disabled,#asea-landing_page .btn-disabled{cursor:not-allowed}#asea-landing_page input,#asea-landing_page textarea{outline:none;box-shadow:none;border:none;height:calc(2em + 0.75rem + 2px);padding:0.375rem 1rem;background-clip:padding-box;border:1px solid var(--clr-border);width:100%;border-radius:8px}#asea-landing_page input.placeholder,#asea-landing_page textarea.placeholder{text-transform:capitalize;font-size:0.875rem}#asea-landing_page input::-moz-placeholder,#asea-landing_page textarea::-moz-placeholder{text-transform:capitalize;font-size:0.875rem}#asea-landing_page input:-ms-input-placeholder,#asea-landing_page textarea:-ms-input-placeholder{text-transform:capitalize;font-size:0.875rem}#asea-landing_page input::-webkit-input-placeholder,#asea-landing_page textarea::-webkit-input-placeholder{text-transform:capitalize;font-size:0.875rem}#asea-landing_page textarea{height:100px}#asea-landing_page .is-error{color:var(--clr-red)}#asea-landing_page .is-error::first-letter{text-transform:capitalize}#asea-landing_page .is-success{color:var(--clr-primary);text-align:center}#asea-landing_page .is-success::first-letter{text-transform:capitalize}#asea-landing_page .custom-radio{--checkbox-size: 20px;--checked-size: 12px;position:relative}#asea-landing_page .custom-radio label{padding-left:2rem;position:relative;cursor:pointer;font-weight:300;min-height:26px}#asea-landing_page .custom-radio label::before{content:"";position:absolute;display:inline-block;border-radius:100%;height:var(--checkbox-size);width:var(--checkbox-size);left:0;top:2px;border:1px solid var(--clr-body-500);background-color:var(--clr-body-400)}#asea-landing_page .custom-radio input{position:absolute;left:0;left:0;top:2px;opacity:0;outline:none;z-index:3;height:var(--checkbox-size);width:var(--checkbox-size);border-radius:100%;padding:0;margin:0}#asea-landing_page .custom-radio input:checked ~ label{font-weight:600;font-size:var(--fs-body)}#asea-landing_page .custom-radio input:checked ~ label::after{content:"";position:absolute;left:4px;top:6px;width:var(--checked-size);height:var(--checked-size);background-color:var(--clr-primary);border-radius:50%}#asea-landing_page .custom-radio input:checked ~ label::before{border-color:var(--clr-primary)}#asea-landing_page .acc-item{background-color:var(--clr-white);border-bottom:1px solid var(--clr-border)}#asea-landing_page .acc-item_header{padding:0.5rem 0;color:var(--clr-body);align-items:center;cursor:pointer}#asea-landing_page .acc-item_header .acc-item_toggle{flex:0 0 50px}#asea-landing_page .acc-item_header img{cursor:pointer;flex:0 0 50px}#asea-landing_page .acc-item_header img.minus-icon{display:none}#asea-landing_page .acc-item_header img.plus-icon{display:block}#asea-landing_page .acc-item_body{overflow:hidden;height:0;opacity:0;will-change:max-height;transition:all 0.25s ease-out;padding-right:2rem}#asea-landing_page .acc-item_active .acc-item_header img.plus-icon{display:none}#asea-landing_page .acc-item_active .acc-item_header img.minus-icon{display:block}#asea-landing_page .acc-item_active .acc-item_body{opacity:1;overflow:unset;height:initial;padding-bottom:1.5rem}#asea-landing_page .acc-item:first-child{border-top:1px solid var(--clr-border)}#asea-landing_page ul.asea-tabs_nav{overflow-x:auto;-ms-overflow-style:none;scrollbar-width:none}#asea-landing_page ul.asea-tabs_nav::-webkit-scrollbar{display:none}#asea-landing_page ul.asea-tabs_nav li{text-align:center;padding:10px 20px;cursor:pointer;position:relative;transition:all 0.4s ease-in-out;border:1px solid var(--clr-border);border-bottom:none;white-space:nowrap;min-width:200px;border-top-left-radius:0.25rem;border-top-right-radius:0.25rem}#asea-landing_page ul.asea-tabs_nav li span{position:relative;z-index:2}#asea-landing_page ul.asea-tabs_nav li.active{font-weight:600;background-color:var(--clr-body-100);border-color:var(--clr-body-100)}#asea-landing_page .asea-tabs_content{background-color:var(--clr-body-100);padding-top:2rem;padding-bottom:4rem}@media (min-width: 768px){#asea-landing_page .asea-tabs_content{padding:4rem 0}}#asea-landing_page .asea-tabs_content .tabs-content_item{display:none}#asea-landing_page .asea-tabs_content .tabs-content_item.active{display:block}#asea-landing_page .asea-tabs_content .tabs-content{padding:0}#asea-landing_page .nested-tab_nav{overflow-x:auto;-ms-overflow-style:none;scrollbar-width:none}#asea-landing_page .nested-tab_nav::-webkit-scrollbar{display:none}#asea-landing_page .nested-tab_nav li{cursor:pointer;white-space:nowrap}#asea-landing_page .nested-tab_nav li.active{text-decoration:underline;font-weight:600}#asea-landing_page .nested-tab_content{display:none}#asea-landing_page .nested-tab_content.active{display:block}#asea-landing_page ul.check-list li .check-icon{margin-top:3px}#asea-landing_page ul.check-list li:not(:last-child){margin-bottom:0.25rem}#asea-landing_page ul.bullet-list li{list-style:disc}#asea-landing_page .splide__arrow{background-color:var(--clr-white);border-radius:4px}#asea-landing_page .splide__arrow--next img{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}#asea-landing_page .product-wrapper{max-width:100%}@media (min-width: 576px){#asea-landing_page .product-wrapper{--min-width: 450px}}@media (min-width: 1024px){#asea-landing_page .product-wrapper{display:grid;grid-template-columns:540px 1fr;gap:2.5rem}}@media (min-width: 1200px){#asea-landing_page .product-wrapper{display:grid;grid-template-columns:615px 1fr;gap:2.5rem}}#asea-landing_page .product-slider .splide{overflow:hidden}#asea-landing_page .product-slider .preview-slider{background-color:var(--clr-white)}#asea-landing_page .product-slider .preview-slider .splide__list{height:auto}@media (min-width: 768px){#asea-landing_page .product-slider .preview-slider .splide__list{max-height:615px}}#asea-landing_page .product-slider .preview-slider .splide__pagination{opacity:1;visibility:visible;bottom:1rem;gap:0.5rem}@media (min-width: 1024px){#asea-landing_page .product-slider .preview-slider .splide__pagination{opacity:0;visibility:hidden}}#asea-landing_page .product-slider .preview-slider .splide__pagination__page{background-color:transparent;border:1px solid var(--clr-body)}#asea-landing_page .product-slider .preview-slider .splide__pagination__page.is-active{background-color:var(--clr-body)}#asea-landing_page .product-slider .thumbnail-slider{display:none;margin-top:0.5rem}@media (min-width: 1024px){#asea-landing_page .product-slider .thumbnail-slider{display:block;width:fit-content;margin-left:auto;margin-right:auto}}@media (min-width: 1200px){#asea-landing_page .product-slider .thumbnail-slider .splide__arrow--prev{left:0.5rem}#asea-landing_page .product-slider .thumbnail-slider .splide__arrow--next{right:0.5rem}}#asea-landing_page .product-slider .thumbnail-slider .splide__track{height:64px;max-width:500px;margin:auto}#asea-landing_page .product-slider .thumbnail-slider .splide__list{padding-left:10px !important;justify-content:center}#asea-landing_page .product-slider .thumbnail-slider .splide__slide.is-active{border:1px solid var(--clr-primary)}#asea-landing_page .product-slider .thumbnail-slider_image{max-height:64px;max-width:64px;cursor:pointer;border:1px solid transparent;padding:5px}#asea-landing_page .select-quantity input{padding:0;border:none;background-color:transparent;height:30px;width:24px;text-align:center}#asea-landing_page .select-quantity input::-webkit-outer-spin-button,#asea-landing_page .select-quantity input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}#asea-landing_page .select-quantity input[type="number"]{-moz-appearance:textfield}#asea-landing_page .select-quantity button{background-color:transparent;border:none;outline:none;padding:2px 10px;cursor:pointer}#asea-landing_page .select-quantity_wrap{background:transparent linear-gradient(180deg, var(--clr-white) 0%, #ede9e6 100%) 0% 0% no-repeat padding-box;border-radius:3px;border:1px solid var(--clr-body-500);min-width:70px}#asea-landing_page .subscribe-card{border:1px solid var(--clr-border);border-radius:6px}#asea-landing_page .subscribe-card_header{padding:0.75rem 1rem}#asea-landing_page .subscribe-card_body{padding:0 1rem 1rem 3.1rem}#asea-landing_page .subscribe-card_footer{background-color:var(--clr-body-300);padding:0.5rem 1rem;border-top:1px solid var(--clr-border);border-radius:0 0 6px 6px}#asea-landing_page .product-content{margin-top:2rem}@media (min-width: 1024px){#asea-landing_page .product-content{margin-top:unset}}@media (min-width: 1200px){#asea-landing_page .product-content{max-width:380px;margin-left:3rem}}#asea-landing_page .product-content_header h3{color:var(--clr-body)}#asea-landing_page .product-content_header p{line-height:1.25;font-size:var(--fs-md)}@media (min-width: 1024px){#asea-landing_page .product-content_header p{font-size:var(--fs-body)}}#asea-landing_page .product-content_dsc{line-height:1.45}#asea-landing_page .product-content_dsc--list li{list-style:disc}#asea-landing_page .product-content_dsc--list li:not(:last-child){margin-bottom:0.45rem}#asea-landing_page .view-more_info{-webkit-transition:all 0.3s ease-in-out;-moz-transition:all 0.3s ease-in-out;-o-transition:all 0.3s ease-in-out;-ms-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out}#asea-landing_page .view-more_info:hover{text-decoration:underline}#asea-landing_page .ratings svg{width:16px;height:16px}#asea-landing_page .ratings svg path,#asea-landing_page .ratings svg polygon{fill:var(--clr-primary)}#asea-landing_page .sold-info-section{margin-bottom:4rem}@media (min-width: 991px){#asea-landing_page .sold-info-section{margin-bottom:6.27rem}}@media (min-width: 1200px){#asea-landing_page .sold-info-section .container-full{padding:0 4rem}}#asea-landing_page .sold-info{padding:2rem;background-size:cover;background-repeat:no-repeat;border-radius:6px;position:relative}@media (min-width: 768px){#asea-landing_page .sold-info{padding:4rem 0}}#asea-landing_page .sold-info_content{background-color:var(--clr-white);opacity:0.9;border-radius:6px;box-shadow:0px 8px 16px rgba(0,0,0,0.29);max-width:420px;margin:auto;padding:1.5rem;position:relative;z-index:2}@media (min-width: 576px){#asea-landing_page .sold-info_content{padding:2rem}}#asea-landing_page #as-seen_slider{height:70px}#asea-landing_page #as-seen_slider .splide__list{align-items:center}#asea-landing_page #as-seen_slider_image{height:70px;display:flex;justify-content:center;align-items:center}#asea-landing_page #as-seen_slider_image img{object-fit:contain}#asea-landing_page .desktop-view{display:none}@media (min-width: 768px){#asea-landing_page .desktop-view{display:block}}#asea-landing_page .mobile-view{display:block}@media (min-width: 768px){#asea-landing_page .mobile-view{display:none}}#asea-landing_page .tab-slider .splide__list{height:unset}#asea-landing_page .tab-slider .splide__list .splide__slide figure{margin:0;position:relative;height:370px}#asea-landing_page .tab-slider .splide__list .splide__slide img{height:100%;width:100%;object-fit:cover;border-radius:0.5rem}#asea-landing_page .tab-slider .play-icon{width:70px}#asea-landing_page .tab-slider_wrap{max-width:100%;padding:0 1.5rem;margin:0 auto;margin-top:2rem}@media (min-width: 768px){#asea-landing_page .tab-slider_wrap{padding:0 3rem}}#asea-landing_page .tab-slider_wrap:is(.mobile-view){margin-top:0}#asea-landing_page .page-section_performance{background-color:var(--clr-body-100)}#asea-landing_page .page-section_confidence{background-color:var(--clr-body-100)}#asea-landing_page .page-section_confidence .content-list{width:100%}#asea-landing_page .page-section_cover{position:relative;padding-top:0}@media (min-width: 991px){#asea-landing_page .page-section_cover{padding:6.67rem}}@media (min-width: 991px){#asea-landing_page .page-section_cover .two-cols{min-height:350px}}@media (min-width: 991px){#asea-landing_page .page-section_cover .two-cols .col-item{padding-left:90px}#asea-landing_page .page-section_cover .two-cols .col-item:is(.col-item_left){padding-right:90px;padding-left:0}}#asea-landing_page .page-section_cover .background-image{position:relative}@media (min-width: 991px){#asea-landing_page .page-section_cover .background-image{max-height:375px;overflow:hidden;position:absolute;left:0;top:0;bottom:0;width:50%;max-height:unset}#asea-landing_page .page-section_cover .background-image img{height:100%;width:100%;object-fit:cover;object-position:center}#asea-landing_page .page-section_cover .background-image_right{left:auto;right:0}}@media (min-width: 768px){#asea-landing_page .page-section_howtouse .feature-susbscribe_button{max-width:325px}}@media (min-width: 1024px){#asea-landing_page .page-section_howtouse .pr-84{padding-right:5.5rem}#asea-landing_page .page-section_howtouse .pr-100{padding-right:6.8rem}}#asea-landing_page .page-section.key-ingredients{background-color:var(--clr-body-200)}#asea-landing_page .page-section.key-ingredients .content-list .content-list_img img{max-width:100px}@media (min-width: 480px){#asea-landing_page .page-section.key-ingredients .content-list .content-list_img img{max-width:150px}}#asea-landing_page .page-section.key-ingredients .mobile-view .content-list_img{height:100px;overflow:hidden}#asea-landing_page .page-section.key-ingredients .mobile-view .content-list_img img{object-fit:contain;height:100%}@media (min-width: 991px){#asea-landing_page .page-section.key-ingredients .three-cols .content-list{max-width:260px}#asea-landing_page .page-section.key-ingredients .three-cols .content-list.text-align_right{float:right}}#asea-landing_page .page-section.key-ingredients .desktop-view{display:none}@media (min-width: 991px){#asea-landing_page .page-section.key-ingredients .desktop-view{display:block}}#asea-landing_page .page-section.key-ingredients .mobile-view{display:block}@media (min-width: 991px){#asea-landing_page .page-section.key-ingredients .mobile-view{display:none}}#asea-landing_page .page-section.key-ingredients .four-cols img{margin:auto}#asea-landing_page .three-cols{--min-width: 240px;gap:2rem;grid-template-rows:1fr;align-items:center}#asea-landing_page .three-cols img{margin:auto}#asea-landing_page .three-cols .order-1{order:1}#asea-landing_page .three-cols .order-2{order:2}#asea-landing_page .three-cols .order-3{order:3}@media (min-width: 991px){#asea-landing_page .three-cols{grid-template-columns:repeat(auto-fit, minmax(var(--min-width), 1fr))}#asea-landing_page .three-cols .order-1{order:2}#asea-landing_page .three-cols .order-2{order:1}#asea-landing_page .three-cols .order-3{order:3}}@media (min-width: 1200px){#asea-landing_page .three-cols{grid-template-columns:1fr 462px 1fr}}#asea-landing_page .three-cols .content-list:not(:last-child){margin-bottom:1.5rem}@media (min-width: 991px){#asea-landing_page .three-cols .content-list:not(:last-child){margin-bottom:4rem}}@media (min-width: 991px){#asea-landing_page .three-cols .content-list.text-align_right{display:flex;justify-content:flex-end;align-items:flex-end;flex-direction:column;text-align:right}}#asea-landing_page .three-cols .content-list_img{max-width:150px;height:110px}@media (max-width: 767.98px){#asea-landing_page .three-cols .content-list_img{margin:auto}#asea-landing_page .three-cols .content-list_img img{margin:auto}}#asea-landing_page .three-cols .content-list_img img{object-fit:contain;object-position:center;height:100%;width:100%;margin:auto}#asea-landing_page .two-cols{column-gap:4.2rem;grid-template-rows:1fr;align-items:center}#asea-landing_page .two-cols .content-list{padding-top:2rem}#asea-landing_page .two-cols .order-1{order:2}#asea-landing_page .two-cols .order-2{order:1}@media (min-width: 991px){#asea-landing_page .two-cols{grid-template-columns:1fr 1fr}#asea-landing_page .two-cols .order-1{order:1}#asea-landing_page .two-cols .order-2{order:2}#asea-landing_page .two-cols .content-list{padding-top:0}}#asea-landing_page .four-cols{grid-template-columns:repeat(2, 1fr);gap:1.5rem}#asea-landing_page .four-cols .content-list{text-align:center}#asea-landing_page .four-cols .content-list h4{font-size:13px}#asea-landing_page .four-cols .content-list p{font-size:var(--fs-sm)}#asea-landing_page .video-image{overflow:hidden}#asea-landing_page .video-image .play-icon{position:absolute;left:50%;top:50%;transform:translate(-50%, -50%)}#asea-landing_page .video-image img{object-fit:contain;width:100%;height:100%}#asea-landing_page .howtouse-list_icon{flex:0 0 50px;text-align:center}#asea-landing_page .howtouse-list_icon img{margin:auto}#asea-landing_page .howtouse-list li:not(:last-child){margin-bottom:2rem}#asea-landing_page .cta-banner{color:var(--clr-white);padding:0 1.5rem}#asea-landing_page .cta-banner_container{max-width:1320px;margin:0 auto}#asea-landing_page .cta-banner_wrap{background-color:var(--clr-primary);display:grid;border-radius:6px;padding:0 1rem 3rem 1rem;position:relative;grid-template-rows:1fr}#asea-landing_page .cta-banner_wrap h2{font-size:1.5rem}@media (min-width: 768px){#asea-landing_page .cta-banner_wrap{padding:0 3rem 3rem 3rem;position:relative}#asea-landing_page .cta-banner_wrap h2{font-size:2.3rem}}@media (min-width: 1024px){#asea-landing_page .cta-banner_wrap{padding:5rem 0px 5rem 3rem;grid-template-columns:1fr 300px}#asea-landing_page .cta-banner_wrap h2{font-size:var(--fs-h2)}}@media (min-width: 1200px){#asea-landing_page .cta-banner_wrap{padding-left:70px}}#asea-landing_page .cta-banner_figure{order:1;position:relative;top:-1.5rem;right:-1rem}#asea-landing_page .cta-banner_figure img{max-height:450px}@media (min-width: 1024px){#asea-landing_page .cta-banner_figure{max-width:430px;position:absolute;bottom:0;right:0;order:2;top:unset}}@media (min-width: 1200px){#asea-landing_page .cta-banner_figure{max-width:450px;max-height:450px}}#asea-landing_page .cta-banner_content{order:2}@media (min-width: 1024px){#asea-landing_page .cta-banner_content{order:1}}#asea-landing_page .cta-banner .btns .btn{font-weight:600;border-radius:3px;width:100%;--max-width-btn: 100%;max-width:var(--max-width-btn)}@media (min-width: 1024px){#asea-landing_page .cta-banner .btns .btn{--max-width-btn: 260px;max-width:var(--max-width-btn)}}@media (min-width: 1200px){#asea-landing_page .cta-banner .btns .btn{--max-width-btn: 280px;max-width:var(--max-width-btn)}}#asea-landing_page .cta-banner .btns .btn-border{border:1px solid;color:var(--clr-white)}#asea-landing_page .cta-banner .btns .btn-border_white{border-color:var(--clr-white)}#asea-landing_page .cta-banner .btns .btn-border_white:hover{background-color:var(--clr-white);color:var(--clr-primary)}#asea-landing_page .cta-banner .btns .btn-white{color:var(--clr-primary)}@media (max-width: 991.98px){#asea-landing_page .cta-banner .btns button.btn:first-child{order:2}#asea-landing_page .cta-banner .btns button.btn:last-child{order:1}}#asea-landing_page .cta-banner .page-note{color:var(--clr-body-700)}#asea-landing_page .cta-banner .page-note .cta-banner_container{border:1px solid var(--clr-border);padding:1rem;text-align:center}#asea-landing_page .page-section_accordion{background-color:var(--clr-white);padding-bottom:4rem}#asea-landing_page .page-section_accordion .section-title{margin-bottom:2.5rem}@media (min-width: 991px){#asea-landing_page .page-section_accordion{padding-bottom:6.27rem}#asea-landing_page .page-section_accordion .section-title{margin-bottom:4rem}}#asea-landing_page .reviews-header .btn.btn-white{color:var(--clr-primary)}#asea-landing_page .reviews-pagination .page-next,#asea-landing_page .reviews-pagination .page-prev,#asea-landing_page .reviews-pagination .page-numbers a{width:32px;height:32px;border-radius:50%;display:flex;justify-content:center;align-items:center;flex-direction:column;border-radius:50%}#asea-landing_page .reviews-pagination .page-next svg{-webkit-transform:rotate(-180deg);-moz-transform:rotate(-180deg);-ms-transform:rotate(-180deg);-o-transform:rotate(-180deg);transform:rotate(-180deg)}#asea-landing_page .reviews-pagination .page-next:hover,#asea-landing_page .reviews-pagination .page-prev:hover{background-color:var(--clr-white)}#asea-landing_page .reviews-pagination .page-numbers a{background-color:var(--clr-white);color:var(--clr-body-600)}#asea-landing_page .reviews-pagination .page-numbers a.is-active{background-color:var(--clr-primary);color:var(--clr-white)}#asea-landing_page .reviews-list li{grid-template-rows:1fr;padding:2rem 0}#asea-landing_page .reviews-list li:last-child{padding-bottom:0}#asea-landing_page .reviews-list li .reviewer{margin-bottom:1rem}@media (min-width: 768px){#asea-landing_page .reviews-list li{grid-template-columns:1fr 1fr}#asea-landing_page .reviews-list li .reviewer{margin:0}#asea-landing_page .reviews-list li:last-child{padding-bottom:2rem}}#asea-landing_page .reviews-list li:not(:last-child){border-bottom:1px solid var(--clr-border)}
+  /*# sourceMappingURL=style.css.map */
+
+    </style>
   </head>
+
   <body>
-    <div  class='custom-landing-page neumi-shop-page no-spacing'>
-      <!-- HERO SECTION -->
-        <div class="banner-layout-1 bg-image shop-banner">
-          <div class="container">
-            <div class="wrapper clr-white">
-              <h1 class="clr-white">Neumi Products</h1>
-              <p class="mt-8">Life is better when you look and feel your best.</p>
-              <div class="btn-section is-flex is-wrap col-gap-12">
-                <span class="btn btn-primary btn-rounded mt-24 shop-product-button">Shop our products</span>
+    <div id="asea-landing_page" style="display: none" data-product="8622" data-scroll-container>
+      <div class="container">
+        <div class="product-wrapper">
+              <div class="product-slider">
+                <div id="preview-slider" class="splide preview-slider">
+                  <div class="splide__arrows">
+                      <button class="splide__arrow splide__arrow--prev">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;arrow_icon.svg" alt="nav icon" />
+                      </button>
+                      <button class="splide__arrow splide__arrow--next">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;arrow_icon.svg" alt="nav icon" />
+                      </button>
+                  </div>
+                  <div class="splide__track">
+                    <ul class="splide__list">
+                      <li class="splide__slide">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;slider_1.png" alt="product" />
+                        <a data-fancybox="" href="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;slider_video_en.mp4" class="play-icon">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;play.png" alt="play icon" />
+                        </a>
+                      </li>
+                        <li class="splide__slide">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;slider_2.png" alt="product" />
+                        </li>
+                        <li class="splide__slide">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;slider_3.png" alt="product" />
+                        </li>
+                        <li class="splide__slide">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;slider_4_en.png" alt="product" />
+                        </li>
+                        <li class="splide__slide">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;slider_5.png" alt="product" />
+                        </li>
+                        <li class="splide__slide">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;slider_6.png" alt="product" />
+                        </li>
+
+                    </ul>
+                  </div>
+                </div>
+                <div id="thumbnail-slider" class="splide thumbnail-slider">
+                  <div class="splide__arrows">
+                      <button class="splide__arrow splide__arrow--prev">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;arrow_icon.svg" alt="nav icon" />
+                      </button>
+                      <button class="splide__arrow splide__arrow--next">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;arrow_icon.svg" alt="nav icon" />
+                      </button>
+                  </div>
+                  <div class="splide__track">
+                    <ul class="splide__list">
+                      <li class="splide__slide">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;slider_1.png" alt="product" />
+                      </li>
+                        <li class="splide__slide">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;slider_2.png" alt="product" />
+                        </li>
+                        <li class="splide__slide">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;slider_3.png" alt="product" />
+                        </li>
+                        <li class="splide__slide">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;slider_4_en.png" alt="product" />
+                        </li>
+                        <li class="splide__slide">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;slider_5.png" alt="product" />
+                        </li>
+                        <li class="splide__slide">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;slider_6.png" alt="product" />
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            <div class="product-content" id="en_product_content">
+              <div class="product-content_header">
+                <h3 class="clr-body">REDOXMind®</h3>
+                <p class="fw-600 mt-4">Recharge your mental A-game.</p>
+                <div class="is-flex is-start is-align-center col-gap-12 mt-12">
+                  <div class="ratings">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        id="Icon_Review_Start_Yellow"
+                        data-name="Icon/Review Start/Yellow"
+                        d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                        transform="translate(0 -11.796)"
+                        fill="#294DE2;"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        id="Icon_Review_Start_Yellow"
+                        data-name="Icon/Review Start/Yellow"
+                        d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                        transform="translate(0 -11.796)"
+                        fill="#294DE2;"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        id="Icon_Review_Start_Yellow"
+                        data-name="Icon/Review Start/Yellow"
+                        d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                        transform="translate(0 -11.796)"
+                        fill="#294DE2;"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        id="Icon_Review_Start_Yellow"
+                        data-name="Icon/Review Start/Yellow"
+                        d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                        transform="translate(0 -11.796)"
+                        fill="#294DE2;"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        id="Icon_Review_Start_Yellow"
+                        data-name="Icon/Review Start/Yellow"
+                        d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                        transform="translate(0 -11.796)"
+                        fill="#294DE2;"
+                      />
+                    </svg>
+                  </div>                  <div class="ratings-count ff-body_graphik clr-body-700">5 Reviews</div>
+                </div>
+              </div>
+
+              <div class="product-conetnt_body" data-fluid-checkout-group="8622">
+
+                <div class="select-quantity mt-20 mb-24">
+                  <div class="fs-md mb-8">Select quantity:</div>
+                  <div class="inline-flex is-start is-align-center select-quantity_wrap">
+                    <button id="decreaseBtn">-</button>
+                    <input type="number" id="quantity" value="1" name="fluid-checkout-quantity" />
+                    <button id="increaseBtn">+</button>
+                  </div>
+                </div>
+                  <div class="total-price mb-8">
+                    <h4 id="total_price" class="clr-body">$50.00&#x2F;mo</h4>
+                  </div>
+
+                  <div class="subscribe-card">
+
+                    <div class="subscribe-card_header is-flex is-between is-align-center">
+                      <div class="custom-radio inline-flex is-align-center">
+                        <input
+                          type="radio"
+                          checked
+                          id="subscribe"
+                          name="fluid-checkout-subscribe"
+                          value="subscription"
+                        />
+                        <label for="subscribe" class="fs-md clr-body">Subscribe</label>
+                      </div>
+
+                      <div class="is-flex is-end is-align-center col-gap-16">
+                        <span class="is-strike clr-body-600" id="subscribe_price_cross">$62.50</span>
+                        <span class="fw-600 clr-primary" id="subscribe_price">50.00&#x2F;mo</span>
+                      </div>
+                    </div>
+
+                    <div class="subscribe-card_body">
+                      <ul class="fs-md subscribe-features check-list">
+                          <li class="is-flex is-start is-align-start col-gap-12">
+                            <span class="check-icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14.775" height="10.346" viewBox="0 0 14.775 10.346">
+  <path id="Path_4862" data-name="Path 4862" d="M767.9,561l-9.734,9.268L754,566.1" transform="translate(-753.558 -560.547)" fill="none" stroke="rgba(0,0,0,0.8)" stroke-linejoin="round" stroke-width="1.25" />
+</svg>
+</span>
+                            </span>
+                            Save 20% with wholesale pricing
+                          </li>
+                          <li class="is-flex is-start is-align-start col-gap-12">
+                            <span class="check-icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14.775" height="10.346" viewBox="0 0 14.775 10.346">
+  <path id="Path_4862" data-name="Path 4862" d="M767.9,561l-9.734,9.268L754,566.1" transform="translate(-753.558 -560.547)" fill="none" stroke="rgba(0,0,0,0.8)" stroke-linejoin="round" stroke-width="1.25" />
+</svg>
+</span>
+                            </span>
+                            30-day money-back guarantee
+                          </li>
+                          <li class="is-flex is-start is-align-start col-gap-12">
+                            <span class="check-icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14.775" height="10.346" viewBox="0 0 14.775 10.346">
+  <path id="Path_4862" data-name="Path 4862" d="M767.9,561l-9.734,9.268L754,566.1" transform="translate(-753.558 -560.547)" fill="none" stroke="rgba(0,0,0,0.8)" stroke-linejoin="round" stroke-width="1.25" />
+</svg>
+</span>
+                            </span>
+                            Earn Redox Reward Points
+                          </li>
+                          <li class="is-flex is-start is-align-start col-gap-12">
+                            <span class="check-icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14.775" height="10.346" viewBox="0 0 14.775 10.346">
+  <path id="Path_4862" data-name="Path 4862" d="M767.9,561l-9.734,9.268L754,566.1" transform="translate(-753.558 -560.547)" fill="none" stroke="rgba(0,0,0,0.8)" stroke-linejoin="round" stroke-width="1.25" />
+</svg>
+</span>
+                            </span>
+                            Change your subscription anytime
+                          </li>
+                      </ul>
+                    </div>
+
+                    <div class="subscribe-card_footer is-flex is-between is-align-center">
+                      <div class="custom-radio inline-flex is-align-center">
+                        <input  type="radio" id="onetime_order"  name="fluid-checkout-subscribe" />
+                        <label for="onetime_order" class="fs-md clr-body">One-time order</label>
+                      </div>
+
+                      <div class="is-flex is-end is-align-center col-gap-16">
+                        <span class="fw-600 clr-body" id="onetime_order_price">$62.50</span>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="my-20">
+                  <button class="btn w-full text-center btn-black fw-600"  data-fluid-checkout-group-id="8622">
+                    Add to cart
+                  </button>
+                </div>
+                  <div class="product-content_dsc">
+                    Experience peak cognitive performance with REDOXMind—your solution to distractions and information overload. Elevate focus, memory, clarity, sharpness, and overall brain health.*
+                    <ul class="product-content_dsc--list pl-28 mt-8">
+                        <li>Achieve heightened motivation and stay in your groove.</li>
+                        <li>Combat brain fog by enhancing cognitive clarity.</li>
+                        <li>Support brain health over the long term.</li>
+                        <li>Maintain cohesive thinking even in high-stress situations.</li>
+                      <li>
+                        <a href="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;cell_performance_en.pdf" class="clr-blue is-flex is-align-center gap-8 view-more_info" target="_blank">
+                          <span class="clr-blue">View more information</span>
+                          <svg
+                            id="Micro_Icon_Chevron"
+                            data-name="Micro Icon, Chevron"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="12"
+                            height="12"
+                            viewBox="0 0 12 12"
+                            class="mt-2"
+                          >
+                            <rect
+                              id="Bounding"
+                              width="12"
+                              height="12"
+                              fill="none"
+                            />
+                            <path
+                              id="Icon"
+                              d="M3.26,3.968a.5.5,0,0,0,.707,0L7.089.847A.5.5,0,0,0,6.382.14L3.614,2.907.848.14A.5.5,0,0,0,.141.847Z"
+                              transform="translate(4 9.229) rotate(-90)"
+                              fill="#3172e9"
+                            />
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </div>          <div class="as-seen page-section">
+            <div class="container">
+              <div class="section-title text-center fw-600 fs-lg mb-24">As seen on</div>
+
+              <div id="as-seen_slider" class="splide">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide">
+                        <div class="as-seen_image">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;as_seen_1.svg"
+                            alt="as seen logo"
+                          />
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="as-seen_image">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;as_seen_2.svg"
+                            alt="as seen logo"
+                          />
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="as-seen_image">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;as_seen_3.svg"
+                            alt="as seen logo"
+                          />
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="as-seen_image">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;as_seen_4.svg"
+                            alt="as seen logo"
+                          />
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="as-seen_image">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;as_seen_5.svg"
+                            alt="as seen logo"
+                          />
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="as-seen_image">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;as_seen_6.svg"
+                            alt="as seen logo"
+                          />
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="as-seen_image">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;as_seen_7.svg"
+                            alt="as seen logo"
+                          />
+                        </div>
+                      </li>
+                  </ul>
+                </div>
+              </div><!--#as-seen_slider-->
+
+            </div><!--.container---->
+          </div><!--/as-seen-->
+      </div>
+        <section class="sold-info-section">
+          <div class="container-full">
+            <div class="sold-info" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;sold_bg.png);">
+              <div class="sold-image radius-8">
+                <div class="sold-info_content text-center">
+                  <h4 class="clr-body is-capitalize fw-400">Over</h4>
+                  <h2 class="clr-primary">40,000</h2>
+                  <h4 class="clr-body fw-400">cartons sold worldwide</h4>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      <!--As seen section-->
-
-       <!--As seen section-->
-          <div class="as-seen pt-50 pb-50--">
-              <div class="container">
-              <h4 class="text-center fw-600 mb-32">As seen on</h4>
-
-              <div id="as-seen_slider" class="splide">
-                  <div class="splide__track">
-                  <ul class="splide__list">
-                          <li class="splide__slide">
-                              <div class="as-seen_image">
-                                  <img
-                                      src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;newulife&#x2F;as_seen_1.png"
-                                      alt="as seen logo"
-                                  />
-                              </div>
-                          </li>
-                          <li class="splide__slide">
-                              <div class="as-seen_image">
-                                  <img
-                                      src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;newulife&#x2F;as_seen_2.png"
-                                      alt="as seen logo"
-                                  />
-                              </div>
-                          </li>
-                          <li class="splide__slide">
-                              <div class="as-seen_image">
-                                  <img
-                                      src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;newulife&#x2F;as_seen_3.png"
-                                      alt="as seen logo"
-                                  />
-                              </div>
-                          </li>
-                          <li class="splide__slide">
-                              <div class="as-seen_image">
-                                  <img
-                                      src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;newulife&#x2F;as_seen_4.png"
-                                      alt="as seen logo"
-                                  />
-                              </div>
-                          </li>
-                          <li class="splide__slide">
-                              <div class="as-seen_image">
-                                  <img
-                                      src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;newulife&#x2F;as_seen_5.png"
-                                      alt="as seen logo"
-                                  />
-                              </div>
-                          </li>
-                          <li class="splide__slide">
-                              <div class="as-seen_image">
-                                  <img
-                                      src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;newulife&#x2F;as_seen_6.png"
-                                      alt="as seen logo"
-                                  />
-                              </div>
-                          </li>
-                  </ul>
-                  </div>
-              </div><!--#as-seen_slider-->
-
-              </div><!--.container---->
-          </div><!--/as-seen-->
-      <!-- Main Product List -->
-        <div class="main-product-list page-section-top" id="shop-product">
-          <div class="container">
-            <h2>Single bottles</h2>
-            <div class="product-list mt-2">
-              <div class="row">
-                  <div class="col col-12 col-xs-6">
-                    <div class="main-product-item mt-30">
-                      <div class="image-section image-hover-effect">
-                        <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default:&#39;home&#39;}}&#x2F;page&#x2F;nutriswish?preview&#x3D;true">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;nutriswish.png" alt="">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default:&#39;home&#39;}}&#x2F;page&#x2F;nutriswish?preview&#x3D;true">NutriSwish</a>
-                      </div>
-                      <div class="price mt-4 price-color" id="product-id-">$<span>65.00</span></div>
-
-                    </div>
-                  </div>
-                  <div class="col col-12 col-xs-6">
-                    <div class="main-product-item mt-30">
-                      <div class="image-section image-hover-effect">
-                        <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default:&#39;home&#39;}}&#x2F;page&#x2F;neumi-skin?preview&#x3D;true">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;neumiskin.png" alt="">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default:&#39;home&#39;}}&#x2F;page&#x2F;neumi-skin?preview&#x3D;true">Neumi Skin</a>
-                      </div>
-                      <div class="price mt-4 price-color" id="product-id-">$<span>65.00</span></div>
-
-                    </div>
-                  </div>
-                  <div class="col col-12 col-xs-6">
-                    <div class="main-product-item mt-30">
-                      <div class="image-section image-hover-effect">
-                        <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default:&#39;home&#39;}}&#x2F;page&#x2F;hers?preview&#x3D;true">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;hers.png" alt="">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default:&#39;home&#39;}}&#x2F;page&#x2F;hers?preview&#x3D;true">Hers</a>
-                      </div>
-                      <div class="price mt-4 price-color" id="product-id-">$<span>65.00</span></div>
-
-                    </div>
-                  </div>
-                  <div class="col col-12 col-xs-6">
-                    <div class="main-product-item mt-30">
-                      <div class="image-section image-hover-effect">
-                        <a href="">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;neuro.png" alt="">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="">Neuro</a>
-                      </div>
-                      <div class="price mt-4 price-color" id="product-id-">$<span>65.00</span></div>
-
-                    </div>
-                  </div>
-              </div><!--.row---->
-            </div><!-- .product-list -->
-
-          </div><!-- .container -->
-        </div><!-- .main-product-list -->
-
-      <!-- bundle and multiple product-->
-      <div class="page-section">
-        <div class="container">
-          <!-- Product Bundle section -->
-            <div class="product-bundle-section">
-              <h2>Bundles</h2>
-              <div class="image-section mt-32 image-hover-effect">
-                <a href="">
-                  <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;bundle.png" alt="product" />
-                </a>
-              </div>
-              <div class="fs-md fw-600 clr-body mt-12">
-                <a href="">Neumi OG Pack</a></div>
-              <div class="price mt-4 price-color">$260.00</div>
+        </section>
+        <div class="tab-section">
+          <div class="asea-tabs">
+            <div class="container">
+              <ul class="asea-tabs_nav is-flex is-align-center is-start gap-12">
+                <li class="pd-16 active">Video reviews <span>(5)</span></li>
+                <!-- <li class="pd-16">Written reviews <span>(7)</span></li> -->
+              </ul>
             </div>
+            <div class="asea-tabs_content">
+              <div class="tabs-content_item active">
+                <div class="container">
+                  <div class="splide tab-slider" id="tab-slider">
+                    <div class="splide__arrows">
+                        <button class="splide__arrow splide__arrow--prev">
+                            <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;arrow_icon.svg" alt="nav icon" />
+                        </button>
+                        <button class="splide__arrow splide__arrow--next">
+                            <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;arrow_icon.svg" alt="nav icon" />
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                      <div class="splide__list">
+                          <div class="splide__slide">
+                            <figure>
+                              <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;REDOXMind_Darrell.png" alt="video thumbnail" />
 
-            <div class="multiple-product-list">
-              <div class="row">
-                  <div class="col col-12 col-xs-6 col-lg-4">
-                    <div class="product-item mt-30">
-                      <div class="image-section image-hover-effect">
-                        <a href="">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;hers_neumiskin_essential.png" alt="product">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="">Hers Essential Pack w&#x2F; Neumi Skin</a>
-                      </div>
-                      <div class="price mt-4 price-color">$130</div>
+                              <a data-fancybox="" href="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;REDOXMind_Darrell.mp4" class="play-icon">
+                                <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;play.png" alt="play icon" />
+                              </a>
+                            </figure>
+                          </div>
+                          <div class="splide__slide">
+                            <figure>
+                              <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;REDOXMind_Eric.png" alt="video thumbnail" />
 
+                              <a data-fancybox="" href="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;REDOXMind_Eric.mp4" class="play-icon">
+                                <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;play.png" alt="play icon" />
+                              </a>
+                            </figure>
+                          </div>
+                          <div class="splide__slide">
+                            <figure>
+                              <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;REDOXMind_Guenther.png" alt="video thumbnail" />
+
+                              <a data-fancybox="" href="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;REDOXMind_Guenther.mp4" class="play-icon">
+                                <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;play.png" alt="play icon" />
+                              </a>
+                            </figure>
+                          </div>
+                          <div class="splide__slide">
+                            <figure>
+                              <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;REDOXMind_Jamie.png" alt="video thumbnail" />
+
+                              <a data-fancybox="" href="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;REDOXMind_Jamie.mp4" class="play-icon">
+                                <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;play.png" alt="play icon" />
+                              </a>
+                            </figure>
+                          </div>
+                          <div class="splide__slide">
+                            <figure>
+                              <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;REDOXMind_Lilliana.png" alt="video thumbnail" />
+
+                              <a data-fancybox="" href="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;REDOXMind_Lilliana.mp4" class="play-icon">
+                                <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;play.png" alt="play icon" />
+                              </a>
+                            </figure>
+                          </div>
+
+                      </div>
                     </div>
                   </div>
-                  <div class="col col-12 col-xs-6 col-lg-4">
-                    <div class="product-item mt-30">
-                      <div class="image-section image-hover-effect">
-                        <a href="">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;hers_nutriswish_essential.png" alt="product">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="">Hers Essential Pack w&#x2F; NutriSwish</a>
-                      </div>
-                      <div class="price mt-4 price-color">$130</div>
+                </div>
+              </div>
 
+              <div class="tabs-content_item is-hide">
+                <div class="reviews">
+                  <div class="container">
+                    <div class="reviews-header is-flex is-between is-alilgn-center gap-16 is-wrap">
+                      <div class="average-review">
+                        <p class="fs-lg">5 Star Rating</p>
+                        <div class="is-flex is-start is-align-center col-gap-12">
+                          <div class="ratings">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                id="Icon_Review_Start_Yellow"
+                                data-name="Icon/Review Start/Yellow"
+                                d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                transform="translate(0 -11.796)"
+                                fill="#294DE2;"
+                              />
+                            </svg>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                id="Icon_Review_Start_Yellow"
+                                data-name="Icon/Review Start/Yellow"
+                                d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                transform="translate(0 -11.796)"
+                                fill="#294DE2;"
+                              />
+                            </svg>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                id="Icon_Review_Start_Yellow"
+                                data-name="Icon/Review Start/Yellow"
+                                d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                transform="translate(0 -11.796)"
+                                fill="#294DE2;"
+                              />
+                            </svg>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                id="Icon_Review_Start_Yellow"
+                                data-name="Icon/Review Start/Yellow"
+                                d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                transform="translate(0 -11.796)"
+                                fill="#294DE2;"
+                              />
+                            </svg>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                id="Icon_Review_Start_Yellow"
+                                data-name="Icon/Review Start/Yellow"
+                                d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                transform="translate(0 -11.796)"
+                                fill="#294DE2;"
+                              />
+                            </svg>
+                          </div>                          <div class="ratings-count ff-body_graphik clr-body-700 fw-600">7 Reviews</div>
+                        </div>
+                      </div>
                     </div>
+                    <ul class="reviews-list">
+                        <li class="is-grid">
+                          <div class="reviewer">
+                            <p class="fw-600">Adela H.</p>
+                            <!-- <span class="reviewer-address fs-md clr-body-600">Tarawa Terrace II, United States</span> -->
+                            <div class="ratings">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                            </div>                          </div>
+                          <div class="reviewer-review">
+                            <!-- <div
+                              class="review-review_header is-flex is-start gap-8 mb-8"
+                            >
+                              <p class="fs-lg fw-600">I love it!</p>
+                              <span class="clr-body-600">2 hour ago</span>
+                            </div> -->
+                            <div class="reviewer-review_content clr-body">I started using the Redox Mind in April. I tried other collagen brands, but I wasn&#39;t impressed and I could not see any results. I love how easy it is to use, on the go and the dosage is smaller than other collagen based products that are on the market, I loved that it&#39;s vegan and I can share it with my vegan friends. Now it&#39;s August and I can see a huge improvement, my hair, nails and skin feel and look much better.</div>
+                          </div>
+                        </li>
+                        <li class="is-grid">
+                          <div class="reviewer">
+                            <p class="fw-600">Eric R.</p>
+                            <!-- <span class="reviewer-address fs-md clr-body-600">Tarawa Terrace II, United States</span> -->
+                            <div class="ratings">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                            </div>                          </div>
+                          <div class="reviewer-review">
+                            <!-- <div
+                              class="review-review_header is-flex is-start gap-8 mb-8"
+                            >
+                              <p class="fs-lg fw-600">I love it!</p>
+                              <span class="clr-body-600">2 hour ago</span>
+                            </div> -->
+                            <div class="reviewer-review_content clr-body">Although I haven’t used REDOX Mind for very long, there is one positive sign it’s actually working. My nails are growing thicker and faster than they ever have before. I’ve also noticed that the slightly sagging skin under my chin has been firming up! With results like this, REDOX Mind is going to be something I’ll be using indefinitely going forward!</div>
+                          </div>
+                        </li>
+                        <li class="is-grid">
+                          <div class="reviewer">
+                            <p class="fw-600">Jamie R.</p>
+                            <!-- <span class="reviewer-address fs-md clr-body-600">Tarawa Terrace II, United States</span> -->
+                            <div class="ratings">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                            </div>                          </div>
+                          <div class="reviewer-review">
+                            <!-- <div
+                              class="review-review_header is-flex is-start gap-8 mb-8"
+                            >
+                              <p class="fs-lg fw-600">I love it!</p>
+                              <span class="clr-body-600">2 hour ago</span>
+                            </div> -->
+                            <div class="reviewer-review_content clr-body">I’ve struggled with collagen supplements in the past because they upset my stomach, but I’ve never had one issue with REDOX Mind. My stomach feels great after taking it but even better, my hair, nails and skin have never looked better. My nails are growing faster and stronger than they ever have and my hair is so shiny and smooth.</div>
+                          </div>
+                        </li>
+                        <li class="is-grid">
+                          <div class="reviewer">
+                            <p class="fw-600">Chelsi A.</p>
+                            <!-- <span class="reviewer-address fs-md clr-body-600">Tarawa Terrace II, United States</span> -->
+                            <div class="ratings">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                            </div>                          </div>
+                          <div class="reviewer-review">
+                            <!-- <div
+                              class="review-review_header is-flex is-start gap-8 mb-8"
+                            >
+                              <p class="fs-lg fw-600">I love it!</p>
+                              <span class="clr-body-600">2 hour ago</span>
+                            </div> -->
+                            <div class="reviewer-review_content clr-body">REDOX Mind tastes delicious and is easy to drink. I love that I can drink it in the morning with breakfast or while I&#39;m working at my desk. It&#39;s helped my nails feel much stronger and less brittle. I love how my hair feels thicker and healthier, too!</div>
+                          </div>
+                        </li>
+                        <li class="is-grid">
+                          <div class="reviewer">
+                            <p class="fw-600">Steve R.</p>
+                            <!-- <span class="reviewer-address fs-md clr-body-600">Tarawa Terrace II, United States</span> -->
+                            <div class="ratings">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                            </div>                          </div>
+                          <div class="reviewer-review">
+                            <!-- <div
+                              class="review-review_header is-flex is-start gap-8 mb-8"
+                            >
+                              <p class="fs-lg fw-600">I love it!</p>
+                              <span class="clr-body-600">2 hour ago</span>
+                            </div> -->
+                            <div class="reviewer-review_content clr-body">I began using REDOX Mind daily approximately 4 months ago. The biggest differences I have noticed is clearer and softer skin. My skin texture appears smoother and dries out much less. It mixes easily and the flavor is nice.</div>
+                          </div>
+                        </li>
+                        <li class="is-grid">
+                          <div class="reviewer">
+                            <p class="fw-600">Junko B.</p>
+                            <!-- <span class="reviewer-address fs-md clr-body-600">Tarawa Terrace II, United States</span> -->
+                            <div class="ratings">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                            </div>                          </div>
+                          <div class="reviewer-review">
+                            <!-- <div
+                              class="review-review_header is-flex is-start gap-8 mb-8"
+                            >
+                              <p class="fs-lg fw-600">I love it!</p>
+                              <span class="clr-body-600">2 hour ago</span>
+                            </div> -->
+                            <div class="reviewer-review_content clr-body">REDOX Mind not only tastes great but also helps my skin feel supple and glow. It dissolves instantly in the water, and it doesn’t feel heavy in my stomach, unlike other collagen support supplements I&#39;ve tried in the past. It is also conveniently packaged, it can easily fit in my tiny purse. So when I am out and about, I can take it wherever or whenever.</div>
+                          </div>
+                        </li>
+                        <li class="is-grid">
+                          <div class="reviewer">
+                            <p class="fw-600">Amy S.</p>
+                            <!-- <span class="reviewer-address fs-md clr-body-600">Tarawa Terrace II, United States</span> -->
+                            <div class="ratings">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#294DE2;"
+                                />
+                              </svg>
+                            </div>                          </div>
+                          <div class="reviewer-review">
+                            <!-- <div
+                              class="review-review_header is-flex is-start gap-8 mb-8"
+                            >
+                              <p class="fs-lg fw-600">I love it!</p>
+                              <span class="clr-body-600">2 hour ago</span>
+                            </div> -->
+                            <div class="reviewer-review_content clr-body">I&#39;m thrilled to have found REDOX Mind! As someone who battled hangnails for ages, I&#39;m amazed at the transformation in my skin and nails. This vegan collagen supporter is a game-changer. Not only have my nails become stronger and more resilient, but my skin is also radiating with health. The convenience of the stick packs makes it easy to maintain my routine, and the results speak for themselves. Radiance is my secret to saying goodbye to hangnails for good!</div>
+                          </div>
+                        </li>
+                    </ul>
                   </div>
-                  <div class="col col-12 col-xs-6 col-lg-4">
-                    <div class="product-item mt-30">
-                      <div class="image-section image-hover-effect">
-                        <a href="">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;neumiskin_essential.png" alt="product">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="">Neumi Skin Essential Pack</a>
-                      </div>
-                      <div class="price mt-4 price-color">$130</div>
-
-                    </div>
-                  </div>
-                  <div class="col col-12 col-xs-6 col-lg-4">
-                    <div class="product-item mt-30">
-                      <div class="image-section image-hover-effect">
-                        <a href="">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;nutriswish_essential.png" alt="product">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="">NutriSwish Essential Pack</a>
-                      </div>
-                      <div class="price mt-4 price-color">$130</div>
-
-                    </div>
-                  </div>
-                  <div class="col col-12 col-xs-6 col-lg-4">
-                    <div class="product-item mt-30">
-                      <div class="image-section image-hover-effect">
-                        <a href="">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;classic_essential.png" alt="product">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="">Classic Essential Pack</a>
-                      </div>
-                      <div class="price mt-4 price-color">$130</div>
-
-                    </div>
-                  </div>
-                  <div class="col col-12 col-xs-6 col-lg-4">
-                    <div class="product-item mt-30">
-                      <div class="image-section image-hover-effect">
-                        <a href="">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;hers_premium.png" alt="product">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="">Hers Premium Pack</a>
-                      </div>
-                      <div class="price mt-4 price-color">$260</div>
-
-                    </div>
-                  </div>
-              </div><!-- .row -->
-            </div><!-- .multiple-product-list -->
-        </div>
-      </div>
-
-        <div class="cta-section cta-layout-2 page-section clr-bg-700_bg">
-          <div class="container">
-            <div class="wrapper bg-image image-section overlay overlay-rounded-8" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;cta_bg.jpg);">
-              <div class="desc-wrapper">
-                <h2 class="clr-white">A new you starts with Neumi.</h2>
-                <div class="btn-section is-flex is-wrap col-gap-12 mt-8">
-                  <span class="btn btn-primary btn-rounded mt-24 shop-product-button">Shop our products</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <section class="page-section">
+          <div class="container">
+            <div class="section-title text-center mb-32">
+              <h2 class="clr-body">Discover heightened focus and clarity</h2>
+            </div>
+            <div class="is-grid three-cols collagen-grid">
 
-      <div class="page-note-section pt-32 pb-32">
-        <div class="container">
-          <div class="caption">
-            <span>The statements made within this website have not been evaluated by the Food and Drug Administration. These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary.</span>
+              <div class="col-item order-2">
+                  <div class="content-list text-align_right">
+                    <h4 class="mb-8 clr-body">Gives you an edge</h4>
+                    <p class="fs-lg">Unparalleled focus empowers you to work with precision.</p>
+                  </div>
+                  <div class="content-list text-align_right">
+                    <h4 class="mb-8 clr-body">Sharpens memory</h4>
+                    <p class="fs-lg">Heightens spatial and recognition memory, elevating recall, attention, and cognitive prowess.</p>
+                  </div>
+              </div>
+
+              <div class="col-item order-1">
+                <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;collgen_support.png" alt="collagen support" />
+              </div>
+              <div class="col-item order-3">
+                  <div class="content-list">
+                    <h4 class="mb-8 clr-body">Fortifies brain aging</h4>
+                    <p class="fs-lg">Promotes brain health and cognitive function over the long term.</p>
+                  </div>
+                  <div class="content-list">
+                    <h4 class="mb-8 clr-body">Gets you in the zone</h4>
+                    <p class="fs-lg">Alleviates stress-induced interference, while staying in the groove.</p>
+                  </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        </section>
+      <!-- Performance section -->
+        <section class="page-section page-section_cover page-section_performance">
+          <div class="background-image">
+            <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;performance.png" alt="performance"/>
+          </div>
+          <div class="container">
+            <div class="is-grid two-cols">
+              <div class="col-item"></div>
 
-    </div><!-- .neumi-landing-page -->
+              <div class="col-item is-flex is-align-center">
+                <div class="content-list">
+                  <h3 class="mb-12 clr-body">The science of clarity behind REDOXMind</h3>
+                  <div class="mb-20">Tap into improved cognitive health with nootropics and minerals that defend against oxidative stress and aid in your brain’s overall well-being, keeping your mind sharp.</div>
+                  <ul class="bullet-list pl-20 clr-body-700">
+                      <li>86% experienced increased focus on the task at hand.</li>
+                      <li>84% experienced enhanced cognitive performance.</li>
+                      <li>82% experienced increased focus and accomplished more.</li>
+                      <li>80% experienced improved mental clarity.</li>
+                  </ul>
+                  <div class="product-conetnt_note is-italic fs-sm clr-body-600 mt-12"><i>Three-week consumer study conducted by Kantar Group 2022.</i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!-- Radiant confidence -->
+        <section class="page-section page-section_cover">
+          <div class="background-image background-image_right">
+            <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;video_bg.png" alt="rediance confidence" />
+            <a data-fancybox href="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;rediance_confidence_video_en.mp4" class="play-icon">
+              <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;play.png" alt="play icon" />
+            </a>
+          </div>
+          <div class="container">
+            <div class="is-grid two-cols">
+              <div class="col-item is-flex is-align-center col-item_left">
+                <div class="content-list">
+                  <h3 class="mb-12 clr-body">Triumph over daily challenges with REDOXMind</h3>
+                  <div class="mb-32">Collagen is an important, structural protein. However, it decreases as we age. That’s why we designed our easy-to-use collagen support drink mix to promote your natural beauty, by supporting the best building blocks for healthy skin, full-volume hair, and stronger nails. Simply mix, sip, and glow!</div>
+                </div>
+              </div>
+              <div class="col-item"></div>
+            </div>
+          </div>
+        </section>
 
-    <!-- Js library import -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-    <script src="https://fastly.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        //as seen slider
-        var asSeen = new Splide("#as-seen_slider", {
-          autoWidth: true,
-          arrows: false,
-          pagination: false,
-          type: "loop",
-          perPage: 1,
-          autoplay: true,
-          interval: 2000,
-          cover: false,
-          gap: "4rem",
-          breakpoints: {
-            1024: {
-              perPage: 7,
-              gap: "3rem",
+      <!-- Checkout with confidence -->
+        <section class="page-section page-section_cover page-section_confidence">
+          <div class="background-image">
+            <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;confidence.png" alt="confidence" />
+          </div>
+          <div class="container">
+            <div class="is-grid two-cols">
+              <div class="col-item"></div>
+              <div class="col-item is-flex is-align-center">
+                <div class="content-list">
+                  <h3 class="mb-16 clr-body">Checkout with confidence</h3>
+                  <ul class="fs-md subscribe-features check-list">
+                      <li class="is-flex is-start is-align-start col-gap-12">
+                        <span class="check-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14.775" height="10.346" viewBox="0 0 14.775 10.346">
+  <path id="Path_4862" data-name="Path 4862" d="M767.9,561l-9.734,9.268L754,566.1" transform="translate(-753.558 -560.547)" fill="none" stroke="rgba(0,0,0,0.8)" stroke-linejoin="round" stroke-width="1.25" />
+</svg>
+</span>
+                        </span>
+                        <p>
+                          100% 30-day risk-free <span class=fw-600>money-back guarantee</span>
+                        </p>
+                      </li>
+                      <li class="is-flex is-start is-align-start col-gap-12">
+                        <span class="check-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14.775" height="10.346" viewBox="0 0 14.775 10.346">
+  <path id="Path_4862" data-name="Path 4862" d="M767.9,561l-9.734,9.268L754,566.1" transform="translate(-753.558 -560.547)" fill="none" stroke="rgba(0,0,0,0.8)" stroke-linejoin="round" stroke-width="1.25" />
+</svg>
+</span>
+                        </span>
+                        <p>
+                          <span class=fw-600>Secure and encrypted </span>checkout
+                        </p>
+                      </li>
+                      <li class="is-flex is-start is-align-start col-gap-12">
+                        <span class="check-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14.775" height="10.346" viewBox="0 0 14.775 10.346">
+  <path id="Path_4862" data-name="Path 4862" d="M767.9,561l-9.734,9.268L754,566.1" transform="translate(-753.558 -560.547)" fill="none" stroke="rgba(0,0,0,0.8)" stroke-linejoin="round" stroke-width="1.25" />
+</svg>
+</span>
+                        </span>
+                        <p>
+                          It only takes <span class=fw-600>2 minutes</span>
+                        </p>
+                      </li>
+                  </ul>
+
+                  <div class="my-24">
+                    <button class="btn w-full text-center btn-black fw-600" data-fluid-checkout="8622">
+                      Buy now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page-section page-section_howtouse">
+          <div class="container">
+            <div class="is-grid two-cols">
+              <div class="col-item">
+                <div class="video-image is-relative">
+                  <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;houtouse.png" alt="video image" />
+
+                  <a data-fancybox href="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;howtouse_video_en.mp4" class="play-icon">
+                    <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;play.png" alt="play icon"/>
+                  </a>
+                </div>
+              </div>
+              <div class="col-item is-flex is-align-center">
+                <div class="content-list max-510">
+                  <h2 class="mb-32 clr-body">How to use</h2>
+                  <ul class="clr-body howtouse-list pr-100">
+                      <li class="is-flex is-start is-align-center col-gap-16">
+                        <span class="howtouse-list_icon">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;empty_bottle.svg" alt="powder"/>
+                        </span>
+                        <p>Our powdered mix is easy to travel with and simple to use</p>
+                      </li>
+                      <li class="is-flex is-start is-align-center col-gap-16">
+                        <span class="howtouse-list_icon">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;pour_bottle.svg" alt="one stick pack"/>
+                        </span>
+                        <p>Open and add one stick pack to your preferred beverage</p>
+                      </li>
+                      <li class="is-flex is-start is-align-center col-gap-16">
+                        <span class="howtouse-list_icon">
+                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;shake_bottle.svg" alt="shake bottle"/>
+                        </span>
+                        <p>Shake or stir to incorporate and drink all the contents within 15 minutes.</p>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page-section key-ingredients">
+          <div class="container">
+            <div class="section-title text-center mb-32">
+              <h2 class="clr-body">Key ingredients</h2>
+            </div>
+
+            <div class="desktop-view">
+              <div class="is-grid three-cols">
+                <div class="col-item">
+                    <div class="content-list text-align_right">
+                      <div class="content-list_img">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;sage.png" alt="ingredients" />
+                      </div>
+                      <h4 class="mb-4 clr-body">Garden &amp; Spanish sage</h4>
+                      <p class="fs-lg">Powerful herbal support for improved memory and cognitive function.</p>
+                    </div>
+                    <div class="content-list text-align_right">
+                      <div class="content-list_img">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;nicotinamide.png" alt="ingredients" />
+                      </div>
+                      <h4 class="mb-4 clr-body">Nicotinamide mononucleotide</h4>
+                      <p class="fs-lg">Supports brain health and reduces decline associated with aging.</p>
+                    </div>
+                </div>
+
+                <div class="col-item">
+                  <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;key_ingredient.png" alt="collagen support" />
+                </div>
+
+                <div class="col-item">
+                    <div class="content-list">
+                      <div class="content-list_img">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;orange.png" alt="ingredients" />
+                      </div>
+                      <h4 class="mb-4 clr-body">Red Orange Complex</h4>
+                      <p class="fs-lg">Powerhouse blend that promotes recognition and spatial memory.</p>
+                    </div>
+                    <div class="content-list">
+                      <div class="content-list_img">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;zinc.png" alt="ingredients" />
+                      </div>
+                      <h4 class="mb-4 clr-body">Zinc</h4>
+                      <p class="fs-lg">Optimizes brain chemistry to ease mental strain and accelerate response times.</p>
+                    </div>
+                </div>
+              </div>
+            </div><!-- .desktop-view -->
+
+            <div class="mobile-view">
+              <div class="is-grid four-cols">
+                  <div class="col-item">
+                    <div class="content-list">
+                      <div class="content-list_img">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;sage.png" alt="ingredients" />
+                      </div>
+                      <h4 class="mt-8 mb-4 clr-body">Garden &amp; Spanish sage</h4>
+                      <p class="fs-lg">Powerful herbal support for improved memory and cognitive function.</p>
+                    </div>
+                  </div>
+                  <div class="col-item">
+                    <div class="content-list">
+                      <div class="content-list_img">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;orange.png" alt="ingredients" />
+                      </div>
+                      <h4 class="mt-8 mb-4 clr-body">Red Orange Complex</h4>
+                      <p class="fs-lg">Powerhouse blend that promotes recognition and spatial memory.</p>
+                    </div>
+                  </div>
+                  <div class="col-item">
+                    <div class="content-list">
+                      <div class="content-list_img">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;nicotinamide.png" alt="ingredients" />
+                      </div>
+                      <h4 class="mt-8 mb-4 clr-body">Nicotinamide mononucleotide</h4>
+                      <p class="fs-lg">Supports brain health and reduces decline associated with aging.</p>
+                    </div>
+                  </div>
+                  <div class="col-item">
+                    <div class="content-list">
+                      <div class="content-list_img">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;zinc.png" alt="ingredients" />
+                      </div>
+                      <h4 class="mt-8 mb-4 clr-body">Zinc</h4>
+                      <p class="fs-lg">Optimizes brain chemistry to ease mental strain and accelerate response times.</p>
+                    </div>
+                  </div>
+              </div>
+            </div><!-- .mobile-view -->
+          </div>
+        </section>
+        <section class="page-section page-section_howtouse">
+          <div class="container">
+            <div class="is-grid two-cols">
+
+              <div class="col-item is-flex is-align-center order-1">
+                <div class="content-list pr-84">
+
+                  <h3 class="mb-16 clr-body">Feel the difference or it’s free</h3>
+                  <p class="clr-body clr-body">We put our money where our benefits are. That’s how much we believe in the power of redox. And if you’re not into it, totally fine. More for us.</p>
+                  <ul class="fs-md features-list mt-16">
+                      <li class="is-flex is-start is-align-center col-gap-12 mb-8">
+                        <span class="features-list_icon is-flex">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20.352" height="20.046" viewBox="0 0 20.352 20.046">
+  <g id="Delivery_box_icon" data-name="Delivery box icon" transform="translate(-20.145 -6716.5)">
+    <path id="Path_35232" data-name="Path 35232" d="M840.851,1259.233,831,1254.96v10.508l9.851,4.6Z" transform="translate(-810.205 5465.979)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_35233" data-name="Path 35233" d="M843.4,1259.233l9.194-4.273v10.508l-9.194,4.6Z" transform="translate(-812.758 5465.979)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_35234" data-name="Path 35234" d="M831,1253.94l9.851-3.94,9.194,3.94" transform="translate(-810.205 5467)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_35235" data-name="Path 35235" d="M837.9,1252.2l9.132,4.249" transform="translate(-811.625 5466.548)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_35236" data-name="Path 35236" d="M838.905,1261.89l-4.6-1.97v4.273l4.6,1.97Z" transform="translate(-810.887 5464.959)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>
+
+                        </span>
+                        <p>100% 30-day risk-free
+<span class="fw-600">money-back guarantee</span></p>
+                      </li>
+                      <li class="is-flex is-start is-align-center col-gap-12 mb-8">
+                        <span class="features-list_icon is-flex">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="19.427" height="19.427" viewBox="0 0 19.427 19.427">
+  <g id="Group_4002" data-name="Group 4002" transform="translate(-20.295 -6744.299)">
+    <path id="Path_35034" data-name="Path 35034" d="M840.213,1303.427a9.213,9.213,0,1,0-9.213-9.213A9.211,9.211,0,0,0,840.213,1303.427Z" transform="translate(-810.205 5459.799)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_35035" data-name="Path 35035" d="M842.2,1291.05v4.408l4.724,4.408" transform="translate(-812.51 5458.555)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>
+
+                        </span>
+                        <p><span class="fw-600">Flexible</span> delivery dates</p>
+                      </li>
+                      <li class="is-flex is-start is-align-center col-gap-12 mb-8">
+                        <span class="features-list_icon is-flex">
+                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_451_82)">
+    <path d="M9.71301 18.926C11.5352 18.926 13.3164 18.3858 14.8315 17.3734C16.3466 16.3611 17.5274 14.9221 18.2247 13.2387C18.922 11.5552 19.1044 9.70282 18.749 7.91567C18.3935 6.12852 17.5161 4.48697 16.2276 3.19851C14.9391 1.91005 13.2975 1.03251 11.5104 0.677024C9.72323 0.321539 7.87077 0.504006 6.18732 1.20132C4.50386 1.89863 3.06501 3.07956 2.05267 4.59463C1.04034 6.1097 0.5 7.89088 0.5 9.71303C0.499737 10.923 0.737841 12.1211 1.20074 13.239C1.66365 14.3569 2.34226 15.3726 3.19782 16.2282C4.05337 17.0837 5.06912 17.7623 6.18701 18.2252C7.3049 18.6881 8.50307 18.9263 9.71301 18.926Z" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round"/>
+    <g clip-path="url(#clip1_451_82)">
+      <path d="M14 14L6 6M14 6L6 14" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <defs>
+    <clipPath id="clip0_451_82">
+      <rect width="20" height="20" fill="white"/>
+    </clipPath>
+    <clipPath id="clip1_451_82">
+      <rect width="10" height="10" fill="white" transform="translate(5 5)"/>
+    </clipPath>
+  </defs>
+</svg>
+
+                        </span>
+                        <p>Pause or cancel <span class="fw-600">anytime</span></p>
+                      </li>
+                  </ul>
+
+                  <div class="feature-susbscribe_button mt-32">
+                    <button  class="btn w-full text-center btn-black fw-600"  data-fluid-subscription-checkout="8622">
+                      Subscribe now
+                    </button>
+                  </div>
+
+                </div><!-- .content-list -->
+              </div><!-- .col-item -->
+
+              <div class="col-item order-2">
+                <div class="video-image is-relative">
+                  <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;itsfree.png" alt="Its free" />
+                </div>
+              </div><!-- .col-item -->
+
+            </div>
+          </div>
+        </section>
+        <section class="page-section_accordion">
+          <div class="container">
+            <div class="section-title">
+              <h3 class="clr-body">Frequently asked questions</h3>
+            </div>
+            <div class="acc" id="acc">
+                <div class="acc-item acc-item_active">
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h4 class="flex-1">How much stevia is in one sachet of REDOXMind?</h4>
+                    <div class="is-flex is-end acc-item_toggle">
+                      <img
+                        src="https://cdn.fluid.app/asea/plus_icon.svg"
+                        alt="plus icon"
+                        class="plus-icon"
+                      />
+                      <img
+                        src="https://cdn.fluid.app/asea/minus_icon.svg"
+                        alt="minus icon"
+                        class="minus-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="acc-item_body">Less than 120mg for US and Europe, and less than 80mg in Asia formulas.</div>
+                </div>
+                <div class="acc-item ">
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h4 class="flex-1">Why is stevia in REDOXMind?</h4>
+                    <div class="is-flex is-end acc-item_toggle">
+                      <img
+                        src="https://cdn.fluid.app/asea/plus_icon.svg"
+                        alt="plus icon"
+                        class="plus-icon"
+                      />
+                      <img
+                        src="https://cdn.fluid.app/asea/minus_icon.svg"
+                        alt="minus icon"
+                        class="minus-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="acc-item_body">Stevia is derived from the leaves of the plant species Stevia rebaudiana. Stevia is about 200-350 times sweeter than sugar, thus only a small amount is needed to match the sweetness provided by sugar. It also does not contribute to or impact blood glucose levels.</div>
+                </div>
+                <div class="acc-item ">
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h4 class="flex-1">What does “natural flavors” mean?</h4>
+                    <div class="is-flex is-end acc-item_toggle">
+                      <img
+                        src="https://cdn.fluid.app/asea/plus_icon.svg"
+                        alt="plus icon"
+                        class="plus-icon"
+                      />
+                      <img
+                        src="https://cdn.fluid.app/asea/minus_icon.svg"
+                        alt="minus icon"
+                        class="minus-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="acc-item_body">The Cell Performance line does not contain any GMO ingredients. All “natural flavors” come from fruit extracts and do not contain MSG.</div>
+                </div>
+                <div class="acc-item ">
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h4 class="flex-1">Is citric acid considered natural?</h4>
+                    <div class="is-flex is-end acc-item_toggle">
+                      <img
+                        src="https://cdn.fluid.app/asea/plus_icon.svg"
+                        alt="plus icon"
+                        class="plus-icon"
+                      />
+                      <img
+                        src="https://cdn.fluid.app/asea/minus_icon.svg"
+                        alt="minus icon"
+                        class="minus-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="acc-item_body">Citric acid is sourced naturally from cassava fermentation and is non-GMO.</div>
+                </div>
+                <div class="acc-item ">
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h4 class="flex-1">What is the ASEA® Cell Performance category of products?</h4>
+                    <div class="is-flex is-end acc-item_toggle">
+                      <img
+                        src="https://cdn.fluid.app/asea/plus_icon.svg"
+                        alt="plus icon"
+                        class="plus-icon"
+                      />
+                      <img
+                        src="https://cdn.fluid.app/asea/minus_icon.svg"
+                        alt="minus icon"
+                        class="minus-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="acc-item_body">ASEA® Cell Performance is a category of products formulated with your health and wellness in mind. Based on redox principles, these products are easy to use, on-the-go, and deliver a healthy boost Powered by Redox™. With proprietary ingredient blends that help you perform at your best physically and mentally by targeting performance at the cellular level, ASEA’s Cell Performance category is designed to complement and support a healthy lifestyle. These tasty packets are perfect for supporting your daily performance—wherever you go!</div>
+                </div>
+                <div class="acc-item ">
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h4 class="flex-1">What is Red Orange Complex, and what are its benefits?</h4>
+                    <div class="is-flex is-end acc-item_toggle">
+                      <img
+                        src="https://cdn.fluid.app/asea/plus_icon.svg"
+                        alt="plus icon"
+                        class="plus-icon"
+                      />
+                      <img
+                        src="https://cdn.fluid.app/asea/minus_icon.svg"
+                        alt="minus icon"
+                        class="minus-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="acc-item_body">Red Orange Complex is a blend of several types of blood oranges that improves blood levels of antioxidants and leads to improved cognitive function, specifically spatial and recognition memory.</div>
+                </div>
+                <div class="acc-item ">
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h4 class="flex-1">What is phosphatidylserine?</h4>
+                    <div class="is-flex is-end acc-item_toggle">
+                      <img
+                        src="https://cdn.fluid.app/asea/plus_icon.svg"
+                        alt="plus icon"
+                        class="plus-icon"
+                      />
+                      <img
+                        src="https://cdn.fluid.app/asea/minus_icon.svg"
+                        alt="minus icon"
+                        class="minus-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="acc-item_body">Your body naturally produces phosphatidylserine, and supplementing it helps facilitate learning, memory, and mood regulation.</div>
+                </div>
+                <div class="acc-item ">
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h4 class="flex-1">Is REDOXMind free of allergens?</h4>
+                    <div class="is-flex is-end acc-item_toggle">
+                      <img
+                        src="https://cdn.fluid.app/asea/plus_icon.svg"
+                        alt="plus icon"
+                        class="plus-icon"
+                      />
+                      <img
+                        src="https://cdn.fluid.app/asea/minus_icon.svg"
+                        alt="minus icon"
+                        class="minus-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="acc-item_body">REDOXMind is gluten- and, dairy-free, as well as free from soy allergens, and does not contain sugar.</div>
+                </div>
+                <div class="acc-item ">
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h4 class="flex-1">How many Cell Performance products are there?</h4>
+                    <div class="is-flex is-end acc-item_toggle">
+                      <img
+                        src="https://cdn.fluid.app/asea/plus_icon.svg"
+                        alt="plus icon"
+                        class="plus-icon"
+                      />
+                      <img
+                        src="https://cdn.fluid.app/asea/minus_icon.svg"
+                        alt="minus icon"
+                        class="minus-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="acc-item_body">In addition to REDOXMind, there are three other Cell Performance products that provide targeted benefits starting at the cellular level:
+<ul class="my-12">
+  <li>REDOXMood</li>
+  <li>REDOXEnergy</li>
+  <li>REDOXRadiance</li>
+</ul>
+<p>
+  All four products come in packages of 30 stick packs. REDOXMood, REDOXEnergy, and REDOXRadiance also come in a variety pack of 10 stick packs each.
+</p></div>
+                </div>
+                <div class="acc-item ">
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h4 class="flex-1">Are all of the ASEA® Cell Performance products vegan?</h4>
+                    <div class="is-flex is-end acc-item_toggle">
+                      <img
+                        src="https://cdn.fluid.app/asea/plus_icon.svg"
+                        alt="plus icon"
+                        class="plus-icon"
+                      />
+                      <img
+                        src="https://cdn.fluid.app/asea/minus_icon.svg"
+                        alt="minus icon"
+                        class="minus-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="acc-item_body">Yes, all four products are 100% vegan.</div>
+                </div>
+                <div class="acc-item is-hide">
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h4 class="flex-1">Do I need to consume the entire 8-12oz at once?</h4>
+                    <div class="is-flex is-end acc-item_toggle">
+                      <img
+                        src="https://cdn.fluid.app/asea/plus_icon.svg"
+                        alt="plus icon"
+                        class="plus-icon"
+                      />
+                      <img
+                        src="https://cdn.fluid.app/asea/minus_icon.svg"
+                        alt="minus icon"
+                        class="minus-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="acc-item_body">For best results, we recommend drinking the entire contents of a package in 15 minutes.</div>
+                </div>
+                <div class="acc-item is-hide">
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h4 class="flex-1">Can REDOXMind and other Cell Performance products be used with ASEA® Redox Cell Signaling Supplement?</h4>
+                    <div class="is-flex is-end acc-item_toggle">
+                      <img
+                        src="https://cdn.fluid.app/asea/plus_icon.svg"
+                        alt="plus icon"
+                        class="plus-icon"
+                      />
+                      <img
+                        src="https://cdn.fluid.app/asea/minus_icon.svg"
+                        alt="minus icon"
+                        class="minus-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="acc-item_body">Yes. We recommend using ASEA® Redox Cell Signaling Supplement before consuming any Cell Performance products. Mixing anything with ASEA Redox Cell Signaling Supplement can deactivate the redox molecules and not allow them to perform at full capacity.</div>
+                </div>
+                <div class="acc-item is-hide">
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h4 class="flex-1">Can REDOXMind be mixed and consumed together with other ASEA® Cell Performance products?</h4>
+                    <div class="is-flex is-end acc-item_toggle">
+                      <img
+                        src="https://cdn.fluid.app/asea/plus_icon.svg"
+                        alt="plus icon"
+                        class="plus-icon"
+                      />
+                      <img
+                        src="https://cdn.fluid.app/asea/minus_icon.svg"
+                        alt="minus icon"
+                        class="minus-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="acc-item_body">Yes. The products are formulated to work independently but can be used together. We recommend you try each product individually before mixing it together.</div>
+                </div>
+                <div class="acc-item is-hide">
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h4 class="flex-1">How many calories are in a serving of REDOXMind?</h4>
+                    <div class="is-flex is-end acc-item_toggle">
+                      <img
+                        src="https://cdn.fluid.app/asea/plus_icon.svg"
+                        alt="plus icon"
+                        class="plus-icon"
+                      />
+                      <img
+                        src="https://cdn.fluid.app/asea/minus_icon.svg"
+                        alt="minus icon"
+                        class="minus-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="acc-item_body">Each drink mix contains 5 calories per serving.</div>
+                </div>
+              <div class="showmore clr-primary is-pointer mt-16" id="showmore">
+                Show More
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cta-banner mt-56">
+          <div class="cta-banner_container">
+            <div class="cta-banner_wrap">
+              <div class="cta-banner_content">
+                <h2>Give your brain a boost <br />with REDOXMind</h2>
+                <div class="btns mt-32 is-flex is-start is-align-center gap-16 is-wrap">
+                  <button class="btn btn-border btn-border_white" data-fluid-checkout="8622">
+                    Add to one-time purchase
+                  </button>
+                  <button class="btn btn-white"  data-fluid-subscription-checkout="8622">
+                    Add to subscription
+                  </button>
+                </div>
+              </div>
+              <div class="cta-banner_figure">
+                <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;asea&#x2F;redoxmind&#x2F;support.png" alt="cta support"/>
+              </div>
+            </div>
+          </div>
+          <div class="page-note my-32">
+            <div class="cta-banner_container">*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</div>
+          </div>
+        </section>
+    </div>
+      <!-- Js library import -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+      <script>
+        $(document).ready(function () {
+          // video popup
+          $("[data-fancybox]").fancybox({
+            youtube: {
+              controls: 0,
+              modestbranding: 1, // Use modestbranding instead of showinfo
             },
-            576: {
-              perPage: 4,
-            },
-          },
+          });
         });
+        document.addEventListener("DOMContentLoaded", async function () {
+          const getInfoWrapperKey = (lang = "en") => `${lang}_info_wrapper`;
+          const getAsSeenOnKey = (lang = "en") => `${lang}_as_seen_on`;
+          const getProductContentKey = (lang = "en") => `${lang}_product_content`;
 
-        asSeen.mount();
+          const getInfoWrapperElements = () => [
+            ...(document.querySelectorAll('[id$="_info_wrapper"]') || []),
+          ];
+          const getAsSeenOnElements = () => [
+            ...(document.querySelectorAll('[id$="_as_seen_on"]') || []),
+          ];
+          const getProductContentElements = () => [
+            ...(document.querySelectorAll('[id$="_product_content"]') || []),
+          ];
 
-      });
+          const filterOptions = ["country", "locale"];
+          const cookie = document.cookie
+            .split(";")
+            .filter((item) => filterOptions.some((key) => item.includes(key)))
+            .reduce((acc, item) => {
+              const [key, value] = item.trim().split("=");
+              acc[key] = value;
 
-      $(".shop-product-button").on("click", function () {
-        $("html,body").animate({
-          scrollTop: $('#shop-product').offset().top + 50 + 'px'
-        }, 1000);
-        return false;
-      });
+              return acc;
+            }, {});
 
-    </script>
+          const locale = window.locale || cookie.locale || "en";
+          const country = window.country || cookie.country || "us";
+
+          const renderer = (
+            elementGenerator = getInfoWrapperElements,
+            keyMapper = getInfoWrapperKey
+          ) => {
+            const regionalElement = document.getElementById(keyMapper(locale));
+            const lang = !regionalElement ? "en" : locale;
+
+            elementGenerator().forEach((element) => {
+              const id = element.getAttribute("id");
+              if (id === keyMapper(lang)) {
+                element.style.display = "";
+              } else {
+                element.remove();
+              }
+            });
+          };
+
+          renderer(getProductContentElements, getProductContentKey);
+          renderer(getAsSeenOnElements, getAsSeenOnKey);
+          renderer(getInfoWrapperElements, getInfoWrapperKey);
+
+          const quantityDisplay = document.getElementById("quantity");
+          const increaseBtn = document.getElementById("increaseBtn");
+          const decreaseBtn = document.getElementById("decreaseBtn");
+          const container = document.getElementById("asea-landing_page");
+          container.style.display = "";
+
+          const subscribeInput = document.getElementById("subscribe");
+          subscribeInput.checked = true;
+          const oneTimePurchase = document.getElementById("onetime_order");
+          const oneTimePrice = document.getElementById("onetime_order_price");
+          const subscriptionPrice = document.getElementById("subscribe_price");
+          const subscriptionPriceCross = document.getElementById(
+            "subscribe_price_cross"
+          );
+          const totalPrice = document.getElementById("total_price");
+          // Set the initial quantity
+          let productQuantity = 1;
+          quantityDisplay.value = productQuantity;
+
+          function increaseValue() {
+            var value = parseInt(quantityDisplay.value);
+            value = isNaN(value) ? 1 : value;
+            value++;
+            quantityDisplay.value = value;
+          }
+
+          function decreaseValue() {
+            var value = parseInt(quantityDisplay.value);
+            value = isNaN(value) ? 1 : value;
+            value < 1 ? (value = 1) : "";
+            if (value === 1) {
+              return;
+            }
+            value--;
+            quantityDisplay.value = value;
+          }
+
+          increaseBtn.addEventListener("click", () => {
+            increaseValue();
+          });
+          decreaseBtn.addEventListener("click", () => {
+            decreaseValue();
+          });
+
+          const oneTimePurchasePrice = oneTimePrice.textContent;
+          const subscribeOrderPrice = subscriptionPrice.textContent;
+          const product = container.getAttribute("data-product");
+          const defaultValue = {
+            price: oneTimePurchasePrice,
+            subPrice: subscribeOrderPrice,
+          };
+
+          const findRegionalData = (variants = []) => {
+            const variant = variants[0];
+
+            if (!variant) return;
+
+            const {
+              price,
+              subscription_price: subPrice,
+              currency_symbol: currency,
+            } = variant.variant_countries.find(
+              (c) => c.country_iso.toLowerCase() === country
+            );
+
+            return { price, subPrice, currency };
+          };
+
+          const fetchVariantsDetail = async (product_id) => {
+            if (!product_id) return defaultValue;
+
+            const host = window.fcs?.api_url_host || "https://asea.app";
+            const url = new URL(`${host}/api/products/${product_id}`);
+
+            try {
+              const res = await fetch(url);
+              const data = await res.json();
+
+              if (!data) return;
+
+              return findRegionalData(data.variants || []);
+            } catch {
+              return;
+            }
+          };
+
+          const updateComponent = (price, subPrice) => {
+            oneTimePrice.textContent = price;
+            subscriptionPrice.textContent = subPrice;
+            subscriptionPriceCross.textContent = price;
+            totalPrice.textContent = price;
+
+            if (subscribeInput.checked) {
+              totalPrice.textContent = subPrice;
+            } else {
+              totalPrice.textContent = price;
+            }
+
+            subscribeInput.addEventListener("click", () => {
+              totalPrice.textContent = subPrice;
+            });
+            oneTimePurchase.addEventListener("click", () => {
+              totalPrice.textContent = price;
+            });
+          };
+
+          let { price, subPrice, currency } =
+            (await fetchVariantsDetail(product)) || {};
+          price = Number(price).toFixed(2)
+          subPrice = Number(subPrice).toFixed(2)
+
+          subPrice =
+            subPrice && currency
+              ? currency + subPrice + "/mo"
+              : defaultValue.subPrice;
+          price = price && currency ? currency + price : defaultValue.price;
+
+          updateComponent(price, subPrice);
+
+          //Product Slider
+
+          var preview = new Splide("#preview-slider", {
+            width: 800,
+            rewind: true,
+            pagination: true,
+          });
+          var thumbnails = new Splide("#thumbnail-slider", {
+            start: 0,
+            perPage: 7,
+            gap: 10,
+            rewind: true,
+            pagination: false,
+            isNavigation: true,
+          });
+
+          preview.sync(thumbnails);
+          preview.mount();
+          thumbnails.mount();
+
+          //as seen slider
+          var asSeen = new Splide("#as-seen_slider", {
+            autoWidth: true,
+            arrows: false,
+            pagination: false,
+            type: "loop",
+            perPage: 1,
+            autoplay: true,
+            interval: 2000,
+            cover: false,
+            gap: "2rem",
+            breakpoints: {
+              1024: {
+                perPage: 7,
+                gap: "3rem",
+              },
+              576: {
+                perPage: 4,
+              },
+            },
+          });
+
+          asSeen.mount();
+          //Tab
+
+          const tabLists = document.querySelectorAll(".asea-tabs_nav");
+
+          function showTab(tabList, index) {
+            const tabsInList = tabList.querySelectorAll(".asea-tabs_nav li");
+            const panelsInList =
+              tabList.parentElement.nextElementSibling.querySelectorAll(
+                ".tabs-content_item"
+              );
+
+            tabsInList.forEach((tab) => tab.classList.remove("active"));
+            panelsInList.forEach((panel) => panel.classList.remove("active"));
+
+            tabsInList[index].classList.add("active");
+            panelsInList[index].classList.add("active");
+          }
+
+          tabLists.forEach((tabList) => {
+            const tabs = tabList.querySelectorAll(".asea-tabs_nav li");
+
+            tabs.forEach((tab, index) => {
+              tab.addEventListener("click", () => showTab(tabList, index));
+            });
+
+            // Show the first tab in each list by default
+            showTab(tabList, 0);
+          });
+
+          //video slider
+          var tabSlider = new Splide("#tab-slider", {
+            arrows: false,
+            pagination: false,
+            type: "loop",
+            perPage: 1,
+            arrows: true,
+            cover: false,
+            gap: "1.5rem",
+            mediaQuery: "min",
+            breakpoints: {
+              1280: {
+                perPage: 5,
+              },
+              1024: {
+                perPage: 4,
+              },
+              800: {
+                perPage: 3,
+              },
+              768: {
+                perPage: 2,
+              },
+              576: {
+                perPage: 2,
+              },
+            },
+          });
+
+          tabSlider.mount();
+
+          //Accordion
+          const accItem = document.querySelectorAll(".acc-item");
+          accItem.forEach((item, index) => {
+            let accHeader = item.querySelector(".acc-item_header");
+            accHeader.addEventListener("click", () => {
+              let accBody = item.querySelector(".acc-item_body");
+              if (!item.classList.contains("acc-item_active")) {
+                item.classList.add("acc-item_active");
+                accBody.style.maxHeight = accBody.scrollHeight + 32 + "px";
+                accItem.forEach((element, ind) => {
+                  let elementBody = element.querySelector(".acc-item_body");
+                  if (!(ind === index)) {
+                    element.classList.remove("acc-item_active");
+                    elementBody.style.maxHeight = null;
+                  }
+                });
+              } else {
+                item.classList.remove("acc-item_active");
+                accBody.style.maxHeight = null;
+              }
+            });
+          });
+
+          //show more
+          const itemsPerPage = 10;
+          let currentPage = 1;
+          const showMoreBtn = document.querySelector(".showmore");
+          function showMore() {
+            const dataContainer = document.getElementById("acc");
+            const listItems = dataContainer.querySelectorAll(".acc-item");
+            const start = (currentPage - 1) * itemsPerPage;
+            const end = currentPage * itemsPerPage;
+            console.log('start',start);
+            for (let i = 0; i < listItems.length; i++) {
+              if (i >= start && i < end) {
+                listItems[i].style.display = "block";
+              }
+            }
+
+            currentPage++;
+
+            if (end >= listItems.length) {
+              showMoreBtn.style.display = "none";
+            }
+          }
+          showMore();
+          showMoreBtn.addEventListener("click", () => {
+            showMore();
+          });
+        });
+        window.addEventListener("load", function (event) {
+          let lazyScroll = new LocomotiveScroll({
+            el: document.querySelector("[data-scroll-container]"),
+            smooth: true,
+          });
+        });
+      </script>
   </body>
 </html>
