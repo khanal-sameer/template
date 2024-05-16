@@ -55,7 +55,7 @@
                       <div class="fs-md fw-600 clr-body mt-12">
                         <a href="{{url}}">{{product_name}}</a>
                       </div>
-                      <div class="price mt-4 price-color">${{price}}</div>
+                      <div class="price mt-4 price-color" id="product-id-{{id}}">$<span>{{price}}</span></div>
 
                     </div>
                   </div>
@@ -172,7 +172,7 @@
 
       $(".shop-product-button").on("click", function () {
         $("html,body").animate({
-          scrollTop: $('#shop-product').offset().top
+          scrollTop: $('#shop-product').offset().top + 50 + 'px'
         }, 1000);
         return false;
       });
