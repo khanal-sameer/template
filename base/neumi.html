@@ -47,9 +47,9 @@
                 {{#items}}
                   <div class="col col-12 col-xs-6">
                     <div class="main-product-item mt-30">
-                      <div class="image-section image-hover-effect">
+                      <div class="image-section">
                         <a href="{{url}}">
-                          <img src="{{image}}" alt="">
+                          <img src="{{image}}" alt="" class="w-full">
                         </a>
                       </div>
                       <div class="fs-md fw-600 clr-body mt-12">
@@ -74,9 +74,9 @@
           {{#product_bundle}}
             <div class="product-bundle-section">
               <h2>{{title}}</h2>
-              <div class="image-section mt-32 image-hover-effect">
+              <div class="image-section mt-32">
                 <a href="{{url}}">
-                  <img src="{{image}}" alt="product" />
+                  <img src="{{image}}" alt="product" class="w-full"/>
                 </a>
               </div>
               <div class="fs-md fw-600 clr-body mt-12">
@@ -127,7 +127,7 @@
 
       <div class="page-note-section pt-32 pb-32">
         <div class="container">
-          <div class="caption">
+          <div class="caption fs-sm">
             <span>{{note_desc}}</span>
           </div>
         </div>

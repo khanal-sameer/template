@@ -18,6 +18,9 @@
 }
 .shop-banner{
   background-image: url('https://cdn.fluid.app/neumi/shop/images/banner_bg_mobile.png');
+  &::before{
+    content: none;
+  }
   @include breakpoint-up(lg-tab){
     background-image: url('https://cdn.fluid.app/neumi/shop/images/banner_bg_web.jpeg');
   }
