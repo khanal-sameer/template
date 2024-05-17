@@ -1,4 +1,4 @@
-.custom-landing-page{
+.custom-landing-page {
   .btn {
     -webkit-appearance: none;
     border: none;
@@ -13,10 +13,11 @@
     @include transition(all 0.3s ease-in-out);
     font-weight: 600;
     border-radius: 8px;
+    font-family: $root_font;
     &-rounded {
       border-radius: 40px;
     }
-    &-primary{
+    &-primary {
       color: var(--clr-white);
       background-color: var(--clr-primary);
       &:focus,
