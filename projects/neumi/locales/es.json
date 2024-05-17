@@ -397,22 +397,22 @@
         "desc": "Sí, los cuatro productos son 100% veganos."
       },
       {
-        "class": "is-hide",
+        "class": "redoxmind-d-none",
         "header": "¿Necesito consumir las 8-12 oz completas en una sola ingesta?",
         "desc": "Para obtener mejores resultados, recomendamos beber todo el contenido de un paquete en 15 minutos."
       },
       {
-        "class": "is-hide",
+        "class": "redoxmind-d-none",
         "header": "¿Se pueden utilizar REDOXMind y otros productos de Cell Performance con el Suplemento de Señalización Celular de ASEA® Redox?",
         "desc": "Sí. Recomendamos utilizar el Suplemento de Señalización Celular de ASEA® Redox antes de consumir cualquier producto de Cell Performance. Mezclar cualquier producto con el Suplemento de Señalización Celular de ASEA Redox podría desactivar las moléculas redox y no permitir que funcionen a su máxima capacidad."
       },
       {
-        "class": "is-hide",
+        "class": "redoxmind-d-none",
         "header": "¿Se puede mezclar y consumir REDOXMind junto con otros productos de ASEA® Cell Performance?",
         "desc": "Sí. Los productos están formulados para funcionar de forma independiente, pero se pueden utilizar juntos. Te recomendamos probar cada producto individualmente antes de mezclarlos."
       },
       {
-        "class": "is-hide",
+        "class": "redoxmind-d-none",
         "header": "¿Cuántas calorías tiene una porción de REDOXMind?",
         "desc": "Cada mezcla para beber contiene 5 calorías por porción."
       }
