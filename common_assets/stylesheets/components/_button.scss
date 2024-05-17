@@ -13,6 +13,7 @@
     @include transition(all 0.3s ease-in-out);
     font-weight: 600;
     border-radius: 8px;
+    font-family: inherit;
     &-rounded {
       border-radius: 40px;
     }
