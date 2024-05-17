@@ -1,0 +1,146 @@
+ul {
+  &.check-list {
+    li {
+      .check-icon {
+        margin-top: 3px;
+      }
+      &:not(:last-child) {
+        margin-bottom: 0.25rem;
+      }
+    }
+  }
+  &.list-disc {
+    padding-left: 1.125rem;
+    li {
+      list-style: disc;
+    }
+  }
+}
+.product-wrapper {
+  --splide-radius: 8px;
+  max-width: 100%;
+  --min-row-gap: 2rem;
+
+  @include breakpoint-up("xl-tab") {
+    --min-width: 400px;
+    --min-col-gap: 100px;
+    display: grid;
+    grid-template-columns: var(--min-width) 1fr;
+    gap: var(--min-col-gap);
+  }
+  @include breakpoint-up("sm-desktop") {
+    --min-width: 575px;
+    grid-template-columns: var(--min-width) 1fr;
+  }
+}
+.product-slider {
+  width: 100%;
+  @include breakpoint-up("xl-tab") {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 64px;
+  }
+  .splide {
+    overflow: hidden;
+    .splide__slide {
+      border-radius: var(--splide-radius);
+    }
+    img {
+      border-radius: var(--splide-radius);
+    }
+  }
+
+  .preview-slider {
+    background-color: var(--clr-white);
+    .splide__pagination {
+      opacity: 1;
+      visibility: visible;
+      bottom: 1rem;
+      gap: 0.5rem;
+      @include breakpoint-up("xl-tab") {
+        opacity: 0;
+        visibility: hidden;
+      }
+      &__page {
+        background-color: transparent;
+        border: 1px solid var(--clr-body);
+        &.is-active {
+          background-color: var(--clr-body);
+        }
+      }
+    }
+    .splide__list {
+      height: auto;
+      @include breakpoint-up("md-tab") {
+        max-height: 575px;
+      }
+    }
+    .splide__slide {
+      border-radius: 8px;
+    }
+  }
+
+  .thumbnail-slider {
+    display: none;
+    margin-top: 1.125rem;
+    max-width: 520px;
+    margin-inline: auto;
+    @include breakpoint-up("xl-tab") {
+      display: block;
+      .splide__arrow {
+        &--prev {
+          left: -0.2rem;
+        }
+        &--next {
+          right: -0.2rem;
+        }
+      }
+    }
+
+    .splide__track {
+      max-width: 500px;
+      margin: auto;
+      @include breakpoint-up("sm-desktop") {
+        max-height: 68px;
+      }
+    }
+    .splide__list {
+      justify-content: center;
+      gap: 10px;
+      height: auto;
+    }
+
+    .splide__slide {
+      margin: 0 !important;
+      height: 100%;
+      border: 0;
+      &.is-active {
+        border: 2px solid var(--clr-primary);
+        img{
+          border-radius: 6px;
+        }
+      }
+    }
+  }
+}
+.product-content {
+  @include breakpoint-down("xl-tab") {
+    margin-top: 2rem;
+  }
+  &_header {
+    p {
+      line-height: 1.25;
+    }
+  }
+  &_dsc {
+    line-height: 1.45;
+    &--list {
+      li {
+        list-style: disc;
+        &:not(:last-child) {
+          margin-bottom: 0.25rem;
+        }
+      }
+    }
+  }
+}

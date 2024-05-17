@@ -1,0 +1,34 @@
+.tab-slider {
+  @include breakpoint-up("xl-tab") {
+    display: block;
+    .splide__arrow {
+      background-color: transparent;
+      &--prev {
+        left: -2.5rem;
+      }
+      &--next {
+        right: -2.5rem;
+      }
+      &:hover {
+        background-color: var(--clr-white);
+      }
+    }
+  }
+  .splide__list {
+    height: unset;
+    .splide__slide {
+      figure {
+        margin: 0;
+        position: relative;
+        height: 370px;
+        border-radius: 0.5rem;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+}

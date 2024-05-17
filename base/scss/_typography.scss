@@ -1,0 +1,45 @@
+body{
+  font-family: $root_font;
+  font-weight: 400;
+  color: $root_text_color;
+  font-size: 16px;
+  h1,h2,h3,h4,h5{
+    font-family: $root_font;
+  }
+  h1,h2,h3,h4,h5{
+    color: $heading_text_color;
+    font-weight: $heading_font_weight;
+  }
+  h1{
+    font-size: 30px;
+    @include breakpoint-up("md-tab") {
+      font-size: 36px;
+    }
+  }
+  h2{
+    font-size: 28px;
+    @include breakpoint-up("md-tab") {
+      font-size: 32px;
+    }
+  }
+  h3,
+  .fs-xl{
+    font-size: 24px;
+    @include breakpoint-up("md-tab") {
+      font-size: 28px;
+    }
+  }
+  h4,
+  .fs-lg{
+    font-size: 18px;
+    @include breakpoint-up("md-tab") {
+      font-size: 20px;
+    }
+  }
+  .fs-sm{
+    font-size: 14px;
+  }
+  .fs-md{
+    font-size: 18px;
+  }
+}

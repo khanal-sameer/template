@@ -1,0 +1,35 @@
+
+// FONT WEIGHT
+$weights: 400, 500, 600, bold, normal;
+
+@each $weight in $weights {
+  .fw-#{$weight} {
+    font-weight: $weight;
+  }
+}
+// TEXT COLORS
+
+.clr-primary {
+  color: var(--clr-primary);
+}
+.clr-white {
+  color: var(--clr-white);
+}
+.clr-body {
+  color: var(--clr-body);
+}
+.clr-body-500 {
+  color: var(--clr-body-500);
+}
+.clr-body-600 {
+  color: var(--clr-body-600);
+}
+.clr-body-700 {
+  color: var(--clr-body-700);
+}
+.clr-body-800 {
+  color: var(--clr-body-800);
+}
+.clr-body-900 {
+  color: var(--clr-body-900);
+}

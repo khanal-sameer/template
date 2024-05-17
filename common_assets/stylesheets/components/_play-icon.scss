@@ -1,0 +1,32 @@
+.play-icon {
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: background-color 0.4s ease-in-out;
+  height: 48px;
+  width: 48px;
+  background-color: rgba(255, 255, 255, 0.3);
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  &.play-icon-bg-white{
+    background-color: var(--clr-white);
+    &:hover {
+      background-color: rgba(255,255,255, 0.63);
+    }
+  }
+  img {
+    width: 20px;
+  }
+  &.play-icon-lg{
+    width: 70px;
+    height: 70px;
+  }
+}

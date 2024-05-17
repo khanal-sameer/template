@@ -1,0 +1,28 @@
+.bg-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  position: relative;
+}
+.is-pointer {
+  cursor: pointer;
+}
+.is-uppercase {
+  text-transform: uppercase;
+}
+
+.line-height-1 {
+  line-height: 1;
+}
+.is-strike {
+  text-decoration: line-through;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.secondary-font {
+  font-family: $secondary_font;
+}
