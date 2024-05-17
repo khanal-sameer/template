@@ -12,6 +12,8 @@
   "play_alt_text": "play icon",
   "check_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14.775\" height=\"10.346\" viewBox=\"0 0 14.775 10.346\">\n  <path id=\"Path_4862\" data-name=\"Path 4862\" d=\"M767.9,561l-9.734,9.268L754,566.1\" transform=\"translate(-753.558 -560.547)\" fill=\"none\" stroke=\"rgba(0,0,0,0.8)\" stroke-linejoin=\"round\" stroke-width=\"1.25\" />\n</svg>\n</span>",
   "select_quantity_text": "Select quantity:",
+  "breadcrumb_all_product_text":"All products",
+  "breadcrumb_all_product_text_url":"https://www.asea.app/{{affiliate_guid}}/shop",
   "productSlider": {
     "slider_items1_image": "https://cdn.fluid.app/asea/redoxmind/slider_1.png",
     "video": "https://cdn.fluid.app/asea/redoxmind/slider_video_en.mp4",
