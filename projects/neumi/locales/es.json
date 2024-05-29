@@ -119,38 +119,73 @@
     "video_url": "https://youtu.be/pdn3__eU4Hw"
   },
   "before_and_after":{
-    "title": "Before & Afters",
-    "desc": "Neumi Skin did this for them, what can it do for you? Results may vary.",
+    "title": "See the before & afters",
     "image_list":[
       {
-        "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/usage_image1.webp)\""
+        "image": "file:///home/kalpana/projects/template/base/images/before_after_slider_image1.png"
       },
       {
-        "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/usage_image2.webp)\""
+        "image": "file:///home/kalpana/projects/template/base/images/before_after_slider_image2.png"
       },
       {
-        "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/usage_image3.webp)\""
+        "image": "file:///home/kalpana/projects/template/base/images/before_after_slider_image3.png"
+      }
+    ]
+  },
+  "medical_advisor_board":{
+    "title": "Our unpaid medical advisory board",
+    "items":[
+      {
+        "image": "file:///home/kalpana/projects/template/base/images/douglas.png",
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck School of Medicine"
       },
       {
-        "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/usgae_image4.webp)\""
+        "image": "file:///home/kalpana/projects/template/base/images/gordon.png",
+        "name": "Gordon Crozier, DO",
+        "university": "DMU College of Osteopathic Medicine"
+      },
+      {
+        "image": "file:///home/kalpana/projects/template/base/images/zanetor.png",
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Royal College of Surgeons in Ireland"
+      },
+      {
+        "image": "file:///home/kalpana/projects/template/base/images/annie.png",
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Medical College of Georgia"
+      },
+      {
+        "image": "file:///home/kalpana/projects/template/base/images/thomas.jpg",
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Fellow"
+      },
+      {
+        "image": "file:///home/kalpana/projects/template/base/images/eduardo.png",
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "University of Barcelona School of Medicine Traumatology"
+      },
+      {
+        "image": "file:///home/kalpana/projects/template/base/images/ronald.png",
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Clinical Fellow"
+      },
+      {
+        "image": "file:///home/kalpana/projects/template/base/images/jose.png",
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Faculty of Medicine and Surgery"
       }
     ],
-    "image_desc_list":[
+    "hidden_items":[
       {
-        "title": "8 weeks",
-        "desc": "Smoother, younger looking skin."
+        "image": "",
+        "name": "James Jian Ho, MD",
+        "university": "Mayo Fellow"
       },
       {
-        "title": "7 weeks",
-        "desc": "Plumped the skin while smoothing wrinkles."
-      },
-      {
-        "title": "5 weeks",
-        "desc": "Incredible transformation in skin clarity."
-      },
-      {
-        "title": "9 days",
-        "desc": "Decreased appearance of pore size."
+        "image": "",
+        "name": "Joseph Kaplan, MD",
+        "university": "University of Alabama School of Medicine."
       }
     ]
   },

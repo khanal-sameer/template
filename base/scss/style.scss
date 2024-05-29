@@ -52,42 +52,46 @@
     padding: 1rem;
   }
 }
-.product-usage-result-section{
-  .image-section{
-    border-radius: 8px;
-    height: 300px;
-    background-size: contain;
-    @include breakpoint-up("lg-tab") {
-      padding-left: 85px;
-      height: 550px;
-      background-size: cover;
+.product-before-after-result-section{
+  .before-after-preview-slider{
+    padding: 0 20px;
+    @include breakpoint-up("xl-phone"){
+      padding: 0;
     }
-  }
-  .desc{
-    @include breakpoint-up("lg-tab") {
-      padding-left: 85px;
+    .splide__arrow{
+      background-color: transparent;
     }
-    li{
-      border: 0 !important;
-      .wrapper{
-        width: fit-content;
-        margin: auto;
-        padding: 0 30px;
+    .splide__arrow--prev{
+      left: -15px;
+      @include breakpoint-up("xl-phone"){
+        left: -32px;
+      }
+    }
+    .splide__arrow--next{
+      right: -15px;
+      @include breakpoint-up("xl-phone"){
+        right: -32px;
       }
     }
   }
-  .splide__arrow{
-    background-color: transparent;
-  }
-  .splide__arrow--prev{
-    left: 0;
-  }
-  .splide__arrow--next{
-    right: 0;
-  }
-  .before-after-preview-slider {
-    button{
-      display: none;
+}
+.advisory-board-card{
+  display: flex;
+  flex-wrap: wrap;
+  .image-section{
+    flex: 0 0 54px;
+    max-width: 54px;
+    img{
+      border-radius: 100%;
     }
   }
+  .desc{
+    flex: 0 0 calc(100% - 54px);
+    max-width: calc(100% - 54px);
+    padding-left: 8px;
+  }
+}
+
+.neumi-d-none{
+  display: none;
 }

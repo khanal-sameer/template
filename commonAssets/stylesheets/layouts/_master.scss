@@ -13,6 +13,12 @@
     padding: 100px 0;
   }
 }
+.page-section-top{
+  padding-top: 4rem;
+  @include breakpoint-up("lg-tab") {
+    padding-top: 100px;
+  }
+}
 .custom-landing-page  {
   line-height: 1.5;
   background-color: var(--clr-white);

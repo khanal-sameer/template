@@ -51,3 +51,6 @@ img {
     border-radius: 8px;
   }
 }
+.trim-2{
+  @include trim(2);
+}
