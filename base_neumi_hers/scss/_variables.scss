@@ -1,0 +1,15 @@
+$root_font: "Poppins", sans-serif;
+$root_font_size: 16px;
+$root_text_color: #4D4F53;
+$heading_text_color: #000;
+$heading_font_weight: 600;
+
+$primary: #BC50B0;
+$clr-primary-900: #bc41ae;
+$primary-dark: #b61fa5;
+
+:root{
+  --clr-primary: #{$primary};
+  --clr-primary-900: #{$clr-primary-900};
+  --clr-primary-dark: #{$primary-dark};
+}
