@@ -1,0 +1,31 @@
+@import 'variables';
+@import "../../common_assets/stylesheets/share";
+@import 'typography';
+
+.page-note-section{
+  .caption{
+    border: 1px solid rgba($primary,0.10);
+    padding: 1rem;
+  }
+}
+.price-color{
+  color: #158C2D;
+}
+.shop-banner{
+  background-image: url('https://cdn.fluid.app/neumi/shop/images/banner_bg_mobile.png');
+  &::before{
+    content: none;
+  }
+  @include breakpoint-up(lg-tab){
+    background-image: url('https://cdn.fluid.app/neumi/shop/images/banner_bg_web.jpeg');
+  }
+}
+.image-hover-effect{
+  overflow: hidden;
+  img{
+    @include transition(all 0.3s ease-in-out);
+    &:hover{
+     @include transform(scale(1.1));
+    }
+  }
+}
