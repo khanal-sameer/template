@@ -11,7 +11,7 @@
     "title": "A new you starts with Neumi",
     "title_sm": "The Nano Company",
     "desc": "Transform Your Well-being with the Power of Neumi's HydraStat™ Nanotechnology.",
-    "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/hero.png)\""
+    "image": "https://cdn.fluid.app/neumi/landing/images/hero.png"
   },
   "asSeenOn": {
     "items": [
@@ -40,40 +40,40 @@
     "desc": "Life is better when you look & feel your best.",
     "arrow": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M4 12H20M20 12L14 6M20 12L14 18\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  </svg>\n ",
     "masonary_product_layout1":{
-      "vertical_image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/vertical1.png)\"",
+      "vertical_image": "https://cdn.fluid.app/neumi/landing/images/vertical1.png",
       "items":[
         {
-          "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/hers.jpg)\"",
+          "image": "https://cdn.fluid.app/neumi/landing/images/hers.jpg",
           "product_name": "Hers",
           "url": "https://neumi.fluid.app/home/page/hers?preview=true",
           "bg_color":"style=\"background-color:rgba(188,80,176,0.8)\""
         },
         {
-          "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/neumi.jpg)\"",
+          "image": "https://cdn.fluid.app/neumi/landing/images/neumi.jpg",
           "product_name": "Neumi Skin",
           "url": " https://neumi.fluid.app/home/page/neumi-skin?preview=true",
           "bg_color":"style=\"background-color:rgba(41,171,226,0.8)\""
         }
       ],
-      "horizontal_image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/horizontal1.png)\""
+      "horizontal_image": "https://cdn.fluid.app/neumi/landing/images/horizontal1.png"
     },
     "masonary_product_layout2":{
-      "horizontal_image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/horizontal2.png)\"",
+      "horizontal_image": "https://cdn.fluid.app/neumi/landing/images/horizontal2.png",
       "items":[
         {
-          "image":  "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/nutriswish.png);background-position:top;\"",
+          "image":  "https://cdn.fluid.app/neumi/landing/images/nutriswish.png",
           "product_name": "NutriSwish",
           "url": " https://neumi.fluid.app/home/page/nutriswish?preview=true",
           "bg_color": "style=\"background-color:rgba(41,77,226,0.8)\""
         },
         {
-          "image":  "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/neuro.png);background-position:top;\"",
+          "image":  "https://cdn.fluid.app/neumi/landing/images/neuro.png",
           "product_name": "Neuro",
           "url": "#",
           "bg_color":"style=\"background-color:rgba(254,152,46,0.8)\""
         }
       ],
-      "vertical_image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/vertical2.png)\""
+      "vertical_image": "https://cdn.fluid.app/neumi/landing/images/vertical2.png"
     }
   },
   "guarantee":{
@@ -115,7 +115,7 @@
   "video":{
     "title_sm": "Hydrastat Nanotechnology™",
     "title": "The Neumi breakthrough",
-    "image": "style=\"background-image:url(https://cdn.fluid.app/neumi/landing/images/video_bg.png)\"",
+    "image": "https://cdn.fluid.app/neumi/landing/images/video_bg.png",
     "video_url": "https://youtu.be/pdn3__eU4Hw"
   },
   "before_and_after":{
@@ -178,14 +178,54 @@
     ],
     "hidden_items":[
       {
-        "image": "",
+        "image": "file:///home/kalpana/projects/template/base/images/medical_advisory_board/james.webp",
         "name": "James Jian Ho, MD",
         "university": "Mayo Fellow"
       },
       {
-        "image": "",
+        "image": "file:///home/kalpana/projects/template/base/images/medical_advisory_board/joseph.webp",
         "name": "Joseph Kaplan, MD",
-        "university": "University of Alabama School of Medicine."
+        "university": "University of Alabama School of Medicine"
+      },
+      {
+        "image": "file:///home/kalpana/projects/template/base/images/medical_advisory_board/steven.webp",
+        "name": "Steven Petrosino, PhD",
+        "university": "LaSalle University"
+      },
+      {
+        "image": "file:///home/kalpana/projects/template/base/images/medical_advisory_board/jim.webp",
+        "name": "Jim Hayes, MD",
+        "university": "Emergency Medicine. Past President of the Association of Emergency Physicians"
+      },
+      {
+        "image": "file:///home/kalpana/projects/template/base/images/medical_advisory_board/dean.webp",
+        "name": "Dean Stubbs, MD",
+        "university": "Australian Leader in Integrative Medicine"
+      },
+      {
+        "image": "file:///home/kalpana/projects/template/base/images/medical_advisory_board/tania.webp",
+        "name": "Tania Ash, MD",
+        "university": "Australian Integrative Medicine Specialist"
+      },
+      {
+        "image": "file:///home/kalpana/projects/template/base/images/medical_advisory_board/kristen.webp",
+        "name": "Kristin Hieshetter, DC",
+        "university": "Doctor of Chiropractic. Metabolic biochemist. Certified in Nutrition. Non-invasive Laser specialist."
+      },
+      {
+        "image": "file:///home/kalpana/projects/template/base/images/medical_advisory_board/luis.webp",
+        "name": "Luis Miguel Valdes, MD",
+        "university": "Medical Specialist Ear Nose and Throat."
+      },
+      {
+        "image": "file:///home/kalpana/projects/template/base/images/medical_advisory_board/bethany.webp",
+        "name": "Bethany Dixon, DC",
+        "university": "Chiropractor and Certified Medical Examiner. Physician and consultant to the transportation industry."
+      },
+      {
+        "image": "file:///home/kalpana/projects/template/base/images/medical_advisory_board/pacilina.webp",
+        "name": "Pacilina estrella-Barotil, MD",
+        "university": "Family Practitioner with a Masters degree in Hospital Administration;  Owner and Medical Director of Wholeness Family Medical Center, Inc., Silang, Philippines."
       }
     ]
   },
@@ -228,7 +268,7 @@
   },
   "cta":{
     "title": "A new you starts with Neumi.",
-    "image": "style=background-image:url(https://cdn.fluid.app/neumi/landing/images/cta_bg.jpg)"
+    "image": "https://cdn.fluid.app/neumi/landing/images/cta_bg.jpg"
   },
   "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration. These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
 }
