@@ -85,6 +85,13 @@
     flex: 0 0 calc(100% - 54px);
     max-width: calc(100% - 54px);
     padding-left: 8px;
+    cursor: default;
+    p{
+      &:hover{
+        display: block;
+        overflow: visible;
+      }
+    }
   }
 }
 
