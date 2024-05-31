@@ -86,7 +86,7 @@
     ]
   },
   "video":{
-    "image": "https://cdn.fluid.app/neumi/nutriswish/video_cover_image.jpeg",
+    "image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/video_cover_image.jpeg)",
     "video_url": "https://www.youtube.com/watch?v=pdn3__eU4Hw"
   },
   "tab":{
