@@ -1,427 +1,292 @@
 {
-  "title": "REDOXMind",
-  "lang": "en",
-  "product_id": "8622",
-  "ratingSvgColor": "#294DE2;",
-  "product_title": "REDOXMind®",
-  "total_product_review": "12 Reviews",
-  "product_desc": "Recharge your mental A-game.*",
-  "add_to_cart_text": "Add to cart",
-  "arrow_icon": "https://cdn.fluid.app/asea/arrow_icon.svg",
-  "play_icon": "https://cdn.fluid.app/asea/play.png",
-  "play_alt_text": "play icon",
-  "check_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14.775\" height=\"10.346\" viewBox=\"0 0 14.775 10.346\">\n  <path id=\"Path_4862\" data-name=\"Path 4862\" d=\"M767.9,561l-9.734,9.268L754,566.1\" transform=\"translate(-753.558 -560.547)\" fill=\"none\" stroke=\"rgba(0,0,0,0.8)\" stroke-linejoin=\"round\" stroke-width=\"1.25\" />\n</svg>\n</span>",
-  "select_quantity_text": "Select quantity:",
-  "productSlider": {
-    "slider_items1_image": "https://cdn.fluid.app/asea/redoxmind/slider_1.png",
-    "video": "https://cdn.fluid.app/asea/redoxmind/slider_video_en.mp4",
-    "alt_text": "product",
-    "items": [
-      {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_2.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_3.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_4_en.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_5.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_6.png"
-      }
-    ]
-  },
-  "subscribe": {
-    "subscribe_text": "Subscribe",
-    "actual_price": "62.50",
-    "discounted_price": "50.00/mo",
-    "checklist_items": [
-      {
-        "caption": "Save 20% with wholesale pricing"
-      },
-      {
-        "caption": "30-day money-back guarantee"
-      },
-      {
-        "caption": "Earn Loyalty Rewards for free products"
-      },
-      {
-        "caption": "Change your subscription anytime"
-      }
-    ],
-    "one_time_order_text": "One-time order"
-  },
-  "benefits": {
-    "desc": "Experience peak cognitive performance with REDOXMind—your solution to distractions and information overload. Elevate focus, memory, clarity, sharpness, and overall brain health.",
-    "view_more_text": "View more information",
-    "pdf_url": "https://cdn.fluid.app/asea/redoxmind/cell_performance_en.pdf",
-    "items": [
-      {
-        "caption": "Achieve heightened motivation and stay in your groove."
-      },
-      {
-        "caption": "Combat brain fog by enhancing cognitive clarity."
-      },
-      {
-        "caption": "Support brain health over the long term."
-      },
-      {
-        "caption": "Maintain cohesive thinking even in high-stress situations."
-      }
-    ]
+  "title": "Neumi Landing page",
+  "product_id": "",
+  "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
+  "shop_product_button_text": "Shop our products",
+  "become_member_button_text": "Become a member",
+  "shop_product_url": "#",
+  "become_member_url": "#",
+  "see_all_product_button_text": "See all products",
+  "hero_section":{
+    "title": "A new you starts with Neumi",
+    "title_sm": "The Nano Company",
+    "desc": "Transform Your Well-being with the Power of Neumi's HydraStat™ Nanotechnology.",
+    "image": "https://cdn.fluid.app/neumi/landing/images/hero.png"
   },
   "asSeenOn": {
-    "title": "As seen on",
     "items": [
       {
-        "image": "https://cdn.fluid.app/asea/as_seen_1.svg"
+        "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/as_seen_2.svg"
+        "image": "https://cdn.fluid.app/newulife/as_seen_2.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/as_seen_3.svg"
+        "image": "https://cdn.fluid.app/newulife/as_seen_3.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/as_seen_4.svg"
+        "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/as_seen_5.svg"
+        "image": "https://cdn.fluid.app/newulife/as_seen_5.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/as_seen_6.svg"
-      },
-      {
-        "image": "https://cdn.fluid.app/asea/as_seen_7.svg"
+        "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
       }
     ]
   },
-  "soldInfo": {
-    "image": "style=background-image:url(https://cdn.fluid.app/asea/redoxmind/sold_bg.png)",
-    "title": "Over",
-    "count": "40,000",
-    "desc": "cartons sold worldwide"
+  "masonary_section":{
+    "title": "Our product lineup",
+    "desc": "Life is better when you look & feel your best.",
+    "arrow": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M4 12H20M20 12L14 6M20 12L14 18\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  </svg>\n ",
+    "masonary_product_layout1":{
+      "vertical_image": "https://cdn.fluid.app/neumi/landing/images/vertical1.png",
+      "items":[
+        {
+          "image": "https://cdn.fluid.app/neumi/landing/images/hers.jpg",
+          "product_name": "Hers",
+          "url": "https://neumi.fluid.app/home/page/hers?preview=true",
+          "bg_color":"style=\"background-color:rgba(188,80,176,0.8)\""
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/landing/images/neumi.jpg",
+          "product_name": "Neumi Skin",
+          "url": " https://neumi.fluid.app/home/page/neumi-skin?preview=true",
+          "bg_color":"style=\"background-color:rgba(41,171,226,0.8)\""
+        }
+      ],
+      "horizontal_image": "https://cdn.fluid.app/neumi/landing/images/horizontal1.png"
+    },
+    "masonary_product_layout2":{
+      "horizontal_image": "https://cdn.fluid.app/neumi/landing/images/horizontal2.png",
+      "items":[
+        {
+          "image":  "https://cdn.fluid.app/neumi/landing/images/nutriswish.png",
+          "product_name": "NutriSwish",
+          "url": " https://neumi.fluid.app/home/page/nutriswish?preview=true",
+          "bg_color": "style=\"background-color:rgba(41,77,226,0.8)\""
+        },
+        {
+          "image":  "https://cdn.fluid.app/neumi/landing/images/neuro.png",
+          "product_name": "Neuro",
+          "url": "#",
+          "bg_color":"style=\"background-color:rgba(254,152,46,0.8)\""
+        }
+      ],
+      "vertical_image": "https://cdn.fluid.app/neumi/landing/images/vertical2.png"
+    }
   },
-  "tab": {
-    "video_review_title": "Video reviews <span>(5)</span>",
-    "written_review_title": "Written reviews <span>(7)</span>",
-    "rating_text": "5 Star Rating",
-    "total_written_review": "7 Reviews",
-    "video_list": [
-      {
-        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Darrell.png",
-        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Darrell.mp4"
-      },
-      {
-        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Eric.png",
-        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Eric.mp4"
-      },
-      {
-        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Guenther.png",
-        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Guenther.mp4"
-      },
-      {
-        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Jamie.png",
-        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Jamie.mp4"
-      },
-      {
-        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Lilliana.png",
-        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Lilliana.mp4"
-      }
-    ],
-    "review_list": [
-      {
-        "reviewer": "Adela H.",
-        "address": "Tarawa Terrace II, United States",
-        "review_text": "I started using the Redox Mind in April. I tried other collagen brands, but I wasn't impressed and I could not see any results. I love how easy it is to use, on the go and the dosage is smaller than other collagen based products that are on the market, I loved that it's vegan and I can share it with my vegan friends. Now it's August and I can see a huge improvement, my hair, nails and skin feel and look much better."
-      },
-      {
-        "reviewer": "Eric R.",
-        "address": "Tarawa Terrace II, United States",
-        "review_text": "Although I haven’t used REDOX Mind for very long, there is one positive sign it’s actually working. My nails are growing thicker and faster than they ever have before. I’ve also noticed that the slightly sagging skin under my chin has been firming up! With results like this, REDOX Mind is going to be something I’ll be using indefinitely going forward!"
-      },
-      {
-        "reviewer": "Jamie R.",
-        "address": "Tarawa Terrace II, United States",
-        "review_text": "I’ve struggled with collagen supplements in the past because they upset my stomach, but I’ve never had one issue with REDOX Mind. My stomach feels great after taking it but even better, my hair, nails and skin have never looked better. My nails are growing faster and stronger than they ever have and my hair is so shiny and smooth."
-      },
-      {
-        "reviewer": "Chelsi A.",
-        "address": "Tarawa Terrace II, United States",
-        "review_text": "REDOX Mind tastes delicious and is easy to drink. I love that I can drink it in the morning with breakfast or while I'm working at my desk. It's helped my nails feel much stronger and less brittle. I love how my hair feels thicker and healthier, too!"
-      },
-      {
-        "reviewer": "Steve R.",
-        "address": "Tarawa Terrace II, United States",
-        "review_text": "I began using REDOX Mind daily approximately 4 months ago. The biggest differences I have noticed is clearer and softer skin. My skin texture appears smoother and dries out much less. It mixes easily and the flavor is nice."
-      },
-      {
-        "reviewer": "Junko B.",
-        "address": "Tarawa Terrace II, United States",
-        "review_text": "REDOX Mind not only tastes great but also helps my skin feel supple and glow. It dissolves instantly in the water, and it doesn’t feel heavy in my stomach, unlike other collagen support supplements I've tried in the past. It is also conveniently packaged, it can easily fit in my tiny purse. So when I am out and about, I can take it wherever or whenever."
-      },
-      {
-        "reviewer": "Amy S.",
-        "address": "Tarawa Terrace II, United States",
-        "review_text": "I'm thrilled to have found REDOX Mind! As someone who battled hangnails for ages, I'm amazed at the transformation in my skin and nails. This vegan collagen supporter is a game-changer. Not only have my nails become stronger and more resilient, but my skin is also radiating with health. The convenience of the stick packs makes it easy to maintain my routine, and the results speak for themselves. Radiance is my secret to saying goodbye to hangnails for good!"
-      }
-    ]
-  },
-  "collagen_support": {
-    "title": "Discover heightened focus and clarity",
-    "desc": "To maintain optimal levels, frequent and costly IV treatments are required, which can be impractical for many individuals.<span class='fw-600'>In contrast, NutriSwish utilizes nano glutathione, which offers several distinct advantages over IV treatments.</span>",
-    "image": "https://cdn.fluid.app/asea/redoxmind/collgen_support.png",
-    "alt_text": "collagen support",
-    "items_left": [
-      {
-        "title": "Gives you an edge",
-        "desc": "Unparalleled focus empowers you to work with precision."
-      },
-      {
-        "title": "Sharpens memory",
-        "desc": "Heightens spatial and recognition memory, elevating recall, attention, and cognitive prowess."
-      }
-    ],
-    "items_right": [
-      {
-        "title": "Fortifies brain aging",
-        "desc": "Promotes brain health and cognitive function over the long term."
-      },
-      {
-        "title": "Gets you in the zone",
-        "desc": "Alleviates stress-induced interference, while staying in the groove."
-      }
-    ]
-  },
-  "performance": {
-    "title": "The science of clarity behind REDOXMind",
-    "alt_text": "performance",
-    "image": "https://cdn.fluid.app/asea/redoxmind/performance.png",
-    "desc": "Tap into improved cognitive health with nootropics and minerals that defend against oxidative stress and aid in your brain’s overall well-being, keeping your mind sharp.",
+  "guarantee":{
+    "title": "The Neumi guarantee",
+    "desc":"Regardless of account type, you’ll enjoy:",
+    "image": "https://cdn.fluid.app/neumi/landing/images/guarantee.png",
+    "alt_text": "neumi product",
+    "image_position":"left",
     "items": [
       {
-        "caption": "86% experienced increased focus on the task at hand."
+        "icon": "<svg width=\"42\" height=\"53\" viewBox=\"0 0 42 53\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M13.5 25.3259L18.5 30.378L29.75 19.0107M41 26.5889C41 38.988 27.6151 48.0059 22.745 50.8767C22.1915 51.203 21.9148 51.3661 21.5242 51.4507C21.2211 51.5164 20.7789 51.5164 20.4758 51.4507C20.0852 51.3661 19.8085 51.203 19.255 50.8767C14.3849 48.0059 1 38.988 1 26.5889V14.5082C1 12.4886 1 11.4788 1.3269 10.6108C1.61569 9.84395 2.08496 9.15974 2.69415 8.61727C3.38374 8.0032 4.3195 7.64864 6.19101 6.9395L19.5955 1.8604C20.1152 1.66347 20.3751 1.565 20.6425 1.52597C20.8796 1.49134 21.1204 1.49134 21.3575 1.52597C21.6249 1.565 21.8848 1.66347 22.4045 1.8604L35.809 6.9395C37.6805 7.64864 38.6163 8.0032 39.3059 8.61727C39.915 9.15974 40.3843 9.84395 40.6731 10.6108C41 11.4788 41 12.4886 41 14.5082V26.5889Z\" stroke=\"#1649D2\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+        "title":  "Love it, or it’s free",
+        "desc": "Try our products 30 days risk free. We're confident that you'll love our products as much as we do."
       },
       {
-        "caption": "84% experienced enhanced cognitive performance."
+        "icon": "<svg width=\"40\" height=\"44\" viewBox=\"0 0 40 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20.371 0.563212C19.9612 0.478929 19.5386 0.478929 19.1288 0.563212C18.6616 0.659296 18.2366 0.896026 17.7454 1.16964L17.6455 1.22526L9.90178 5.52732C9.8929 5.53207 9.88409 5.53697 9.87535 5.542L2.22904 9.78995L2.12309 9.8487C1.60417 10.1362 1.15542 10.3848 0.816132 10.753C0.518669 11.0758 0.293556 11.4583 0.155848 11.8751C-0.00122019 12.3505 -0.000611389 12.8635 9.28992e-05 13.4568L0.000188267 13.5779V30.4883L9.28992e-05 30.6095C-0.000611389 31.2027 -0.00122019 31.7157 0.155848 32.1911C0.293556 32.6079 0.51867 32.9905 0.816132 33.3133C1.15541 33.6814 1.60417 33.93 2.12309 34.2175L2.22905 34.2763L17.6455 42.841L17.7454 42.8966C18.2366 43.1702 18.6616 43.4069 19.1288 43.503C19.5386 43.5873 19.9612 43.5873 20.371 43.503C20.8382 43.4069 21.2632 43.1702 21.7544 42.8966L21.8543 42.841L37.2708 34.2763L37.3767 34.2175C37.8956 33.93 38.3444 33.6814 38.6837 33.3133C38.9812 32.9905 39.2063 32.6079 39.344 32.1911C39.501 31.7157 39.5004 31.2027 39.4997 30.6094L39.4996 30.4883V13.5779L39.4997 13.4568C39.5004 12.8635 39.501 12.3505 39.344 11.8751C39.2063 11.4583 38.9812 11.0758 38.6837 10.753C38.3444 10.3848 37.8956 10.1362 37.3767 9.84869L37.2708 9.78994L21.8543 1.22526L21.7544 1.16964C21.2632 0.896027 20.8382 0.659296 20.371 0.563212ZM10.375 7.55232L3.20033 11.5383L3.05954 11.6167L19.7498 20.8891L27.0655 16.8248L10.375 7.55232ZM29.5918 17.7093C29.6049 17.7024 29.6178 17.6952 29.6306 17.6877L37.4991 13.3163C37.4995 13.3949 37.4996 13.4817 37.4996 13.5779V30.4883C37.4996 31.271 37.4876 31.4345 37.4449 31.5637C37.3966 31.7101 37.3175 31.8445 37.213 31.9579C37.1208 32.058 36.9837 32.1479 36.2995 32.528L20.8831 41.0927L20.7499 41.1664L20.7498 22.6215L29.5918 17.7093ZM29.1247 15.6809L12.4342 6.40836L18.6168 2.97357C19.2642 2.61388 19.4045 2.54836 19.5317 2.52221C19.6757 2.4926 19.8242 2.4926 19.9681 2.52221C20.0953 2.54836 20.2356 2.61388 20.8831 2.97357L36.2995 11.5383L36.4402 11.6167L29.1247 15.6809ZM18.7498 22.6215L18.7499 41.1664L18.6168 41.0927L3.20033 32.528C2.51617 32.1479 2.37907 32.058 2.28687 31.9579C2.18235 31.8445 2.10326 31.7101 2.05488 31.5637C2.01219 31.4345 2.00019 31.271 2.00019 30.4883V13.5779C2.00019 13.4818 2.00037 13.395 2.00077 13.3164L18.7498 22.6215Z\" fill=\"#1649D2\"/>\n</svg>\n",
+        "title": "Hassle free subscriptions",
+        "desc": "Need to skip a month or cancel your subscription? No problem! Edit your preferences anytime, and order with confidence."
       },
       {
-        "caption": "82% experienced increased focus and accomplished more."
-      },
-      {
-        "caption": "80% experienced improved mental clarity."
-      }
-    ],
-    "note": "Three-week consumer study conducted by Kantar Group 2022."
-  },
-  "radiant_confidence": {
-    "title": "Triumph over daily challenges with REDOXMind.",
-    "alt_text": "rediance confidence",
-    "image": "https://cdn.fluid.app/asea/redoxmind/video_bg.png",
-    "video": "https://cdn.fluid.app/asea/redoxmind/rediance_confidence_video_en.mp4",
-    "desc": "Collagen is an important, structural protein. However, it decreases as we age. That’s why we designed our easy-to-use collagen support drink mix to promote your natural beauty, by supporting the best building blocks for healthy skin, full-volume hair, and stronger nails. Simply mix, sip, and glow!"
-  },
-  "confidence": {
-    "title": "Checkout with confidence",
-    "button_text": "Buy now",
-    "image": "https://cdn.fluid.app/asea/redoxmind/confidence.png",
-    "alt_text": "confidence",
-    "items": [
-      {
-        "caption": "100% 30-day risk-free <span class=fw-600>money-back guarantee</span>"
-      },
-      {
-        "caption": "<span class=fw-600>Secure and encrypted </span>checkout"
-      },
-      {
-        "caption": "It only takes <span class=fw-600>2 minutes</span>"
+        "icon": "<svg width=\"42\" height=\"45\" viewBox=\"0 0 42 45\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.2544 43.5V20.4M1 24.6V39.3C1 41.6196 2.83642 43.5 5.10176 43.5H32.6374C35.6742 43.5 38.2567 41.2313 38.7185 38.158L40.9271 23.458C41.5005 19.6417 38.6169 16.2 34.846 16.2H27.6615C26.5288 16.2 25.6106 15.2598 25.6106 14.1V6.67826C25.6106 3.81839 23.3464 1.5 20.5534 1.5C19.8873 1.5 19.2836 1.90172 19.013 2.52506L11.7957 19.1529C11.4665 19.9113 10.7321 20.4 9.92159 20.4H5.10176C2.83642 20.4 1 22.2804 1 24.6Z\" stroke=\"#1649D2\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+        "title": "Free product",
+        "desc": "With orders over $300, you receive 1 free bottle to offset shipping costs."
+
       }
     ]
   },
-  "how_to_use": {
-    "title": "How to use",
-    "image": "https://cdn.fluid.app/asea/redoxmind/houtouse.png",
-    "video": "https://cdn.fluid.app/asea/redoxmind/howtouse_video_en.mp4",
-    "steps": [
+  "performance":{
+    "title_sm": "HydraStat Nanotechnology™",
+    "title": "Small delivery, big performance",
+    "desc":"The molecules in many supplements are too large to be absorbed by the cell, so they get excreted from the body without being used effectively. Neumi uses breakthrough HydraStat Nanotechnology™ to increase the bioavailability and effectiveness of all its products by breaking down large molecules and enveloping them in ultra-pure water clusters. Our nanosized ingredients are between 10-100 nanometers. They are small enough to be fully absorbed into the human cell.",
+    "image": "https://cdn.fluid.app/neumi/landing/images/performance.png",
+    "button_text": "Learn more",
+    "url": "#",
+    "image_position":"right",
+    "desc_ordering_class": " order-lg-1",
+    "image_ordering_class": " order-lg-2"
+  },
+  "video":{
+    "title_sm": "Hydrastat Nanotechnology™",
+    "title": "The Neumi breakthrough",
+    "image": "https://cdn.fluid.app/neumi/landing/images/video_bg.png",
+    "video_url": "https://youtu.be/pdn3__eU4Hw"
+  },
+  "before_and_after":{
+    "title": "See the before & afters",
+    "image_list":[
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/empty_bottle.svg",
-        "alt_text": "powder",
-        "caption": "Our powdered mix is easy to travel with and simple to use"
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-1.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/pour_bottle.svg",
-        "alt_text": "one stick pack",
-        "caption": "Open and add one stick pack to your preferred beverage"
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-2.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/shake_bottle.svg",
-        "alt_text": "shake bottle",
-        "caption": "Shake or stir to incorporate and drink all the contents within 15 minutes."
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-3.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-4.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-5.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-6.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-7.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-8.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-6.png"
       }
     ]
   },
-  "key_ingredients": {
-    "title": "Key ingredients",
-    "image": "https://cdn.fluid.app/asea/redoxmind/key_ingredient.png",
-    "alt_text": "ingredients",
-    "alt_text2": "collagen support",
-    "left_items": [
+  "medical_advisor_board":{
+    "title": "Our unpaid medical advisory board",
+    "items":[
       {
-        "title": "Garden & Spanish sage",
-        "desc": "Powerful herbal support for improved memory and cognitive function.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/sage.png"
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/douglas.png",
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck School of Medicine"
       },
       {
-        "title": "Nicotinamide mononucleotide",
-        "desc": "Supports brain health and reduces decline associated with aging.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/nicotinamide.png"
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/gordon.png",
+        "name": "Gordon Crozier, DO",
+        "university": "DMU College of Osteopathic Medicine"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/zanetor.png",
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Royal College of Surgeons in Ireland"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/annie.png",
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Medical College of Georgia"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/thomas.jpg",
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Fellow"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/eduardo.png",
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "University of Barcelona School of Medicine Traumatology"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/ronald.png",
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Clinical Fellow"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/jose.png",
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Faculty of Medicine and Surgery"
       }
     ],
-    "right_items": [
+    "hidden_items":[
       {
-        "title": "Red Orange Complex",
-        "desc": "Powerhouse blend that promotes recognition and spatial memory.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/orange.png"
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/james.webp",
+        "name": "James Jian Ho, MD",
+        "university": "Mayo Fellow"
       },
       {
-        "title": "Zinc",
-        "desc": "Optimizes brain chemistry to ease mental strain and accelerate response times.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/zinc.png"
-      }
-    ],
-    "mobile_items":[
-      {
-        "title": "Garden & Spanish sage",
-        "desc": "Powerful herbal support for improved memory and cognitive function.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/sage.png"
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/joseph.webp",
+        "name": "Joseph Kaplan, MD",
+        "university": "University of Alabama School of Medicine"
       },
       {
-        "title": "Red Orange Complex",
-        "desc": "Powerhouse blend that promotes recognition and spatial memory.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/orange.png"
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/steven.webp",
+        "name": "Steven Petrosino, PhD",
+        "university": "LaSalle University"
       },
       {
-        "title": "Nicotinamide mononucleotide",
-        "desc": "Supports brain health and reduces decline associated with aging.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/nicotinamide.png"
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/jim.webp",
+        "name": "Jim Hayes, MD",
+        "university": "Emergency Medicine. Past President of the Association of Emergency Physicians"
       },
       {
-        "title": "Zinc",
-        "desc": "Optimizes brain chemistry to ease mental strain and accelerate response times.",
-        "image": "https://cdn.fluid.app/asea/redoxmind/zinc.png"
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/dean.webp",
+        "name": "Dean Stubbs, MD",
+        "university": "Australian Leader in Integrative Medicine"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/tania.webp",
+        "name": "Tania Ash, MD",
+        "university": "Australian Integrative Medicine Specialist"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/kristen.webp",
+        "name": "Kristin Hieshetter, DC",
+        "university": "Doctor of Chiropractic. Metabolic biochemist. Certified in Nutrition. Non-invasive Laser specialist."
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/luis.webp",
+        "name": "Luis Miguel Valdes, MD",
+        "university": "Medical Specialist Ear Nose and Throat."
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/bethany.webp",
+        "name": "Bethany Dixon, DC",
+        "university": "Chiropractor and Certified Medical Examiner. Physician and consultant to the transportation industry."
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/pacilina.webp",
+        "name": "Pacilina estrella-Barotil, MD",
+        "university": "Family Practitioner with a Masters degree in Hospital Administration;  Owner and Medical Director of Wholeness Family Medical Center, Inc., Silang, Philippines."
       }
     ]
   },
-  "feel_the_difference": {
-    "title": "Feel the difference or it’s free",
-    "image": "https://cdn.fluid.app/asea/redoxmind/itsfree.png",
-    "alt_text": "Its free",
-    "desc": "We put our money where our benefits are. That’s how much we believe in the power of redox. And if you’re not into it, totally fine. More for us.",
-    "items": [
-      {
-        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20.352\" height=\"20.046\" viewBox=\"0 0 20.352 20.046\">\n  <g id=\"Delivery_box_icon\" data-name=\"Delivery box icon\" transform=\"translate(-20.145 -6716.5)\">\n    <path id=\"Path_35232\" data-name=\"Path 35232\" d=\"M840.851,1259.233,831,1254.96v10.508l9.851,4.6Z\" transform=\"translate(-810.205 5465.979)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35233\" data-name=\"Path 35233\" d=\"M843.4,1259.233l9.194-4.273v10.508l-9.194,4.6Z\" transform=\"translate(-812.758 5465.979)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35234\" data-name=\"Path 35234\" d=\"M831,1253.94l9.851-3.94,9.194,3.94\" transform=\"translate(-810.205 5467)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35235\" data-name=\"Path 35235\" d=\"M837.9,1252.2l9.132,4.249\" transform=\"translate(-811.625 5466.548)\" fill=\"none\" stroke=\"#000\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35236\" data-name=\"Path 35236\" d=\"M838.905,1261.89l-4.6-1.97v4.273l4.6,1.97Z\" transform=\"translate(-810.887 5464.959)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n  </g>\n</svg>\n",
-        "alt_text": "badge",
-        "caption": "100% 30-day risk-free\n<span class=\"fw-600\">money-back guarantee</span>"
-      },
-      {
-        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19.427\" height=\"19.427\" viewBox=\"0 0 19.427 19.427\">\n  <g id=\"Group_4002\" data-name=\"Group 4002\" transform=\"translate(-20.295 -6744.299)\">\n    <path id=\"Path_35034\" data-name=\"Path 35034\" d=\"M840.213,1303.427a9.213,9.213,0,1,0-9.213-9.213A9.211,9.211,0,0,0,840.213,1303.427Z\" transform=\"translate(-810.205 5459.799)\" fill=\"none\" stroke=\"#231f20\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35035\" data-name=\"Path 35035\" d=\"M842.2,1291.05v4.408l4.724,4.408\" transform=\"translate(-812.51 5458.555)\" fill=\"none\" stroke=\"#231f20\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n  </g>\n</svg>\n",
-        "alt_text": "flexible",
-        "caption": "<span class=\"fw-600\">Flexible</span> delivery dates"
-      },
-      {
-        "icon": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g clip-path=\"url(#clip0_451_82)\">\n    <path d=\"M9.71301 18.926C11.5352 18.926 13.3164 18.3858 14.8315 17.3734C16.3466 16.3611 17.5274 14.9221 18.2247 13.2387C18.922 11.5552 19.1044 9.70282 18.749 7.91567C18.3935 6.12852 17.5161 4.48697 16.2276 3.19851C14.9391 1.91005 13.2975 1.03251 11.5104 0.677024C9.72323 0.321539 7.87077 0.504006 6.18732 1.20132C4.50386 1.89863 3.06501 3.07956 2.05267 4.59463C1.04034 6.1097 0.5 7.89088 0.5 9.71303C0.499737 10.923 0.737841 12.1211 1.20074 13.239C1.66365 14.3569 2.34226 15.3726 3.19782 16.2282C4.05337 17.0837 5.06912 17.7623 6.18701 18.2252C7.3049 18.6881 8.50307 18.9263 9.71301 18.926Z\" stroke=\"#231F20\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    <g clip-path=\"url(#clip1_451_82)\">\n      <path d=\"M14 14L6 6M14 6L6 14\" stroke=\"#231F20\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </g>\n  </g>\n  <defs>\n    <clipPath id=\"clip0_451_82\">\n      <rect width=\"20\" height=\"20\" fill=\"white\"/>\n    </clipPath>\n    <clipPath id=\"clip1_451_82\">\n      <rect width=\"10\" height=\"10\" fill=\"white\" transform=\"translate(5 5)\"/>\n    </clipPath>\n  </defs>\n</svg>\n",
-        "alt_text": "clock",
-        "caption": "Pause or cancel <span class=\"fw-600\">anytime</span>"
-      }
-    ],
-    "button_text": "Subscribe now"
-  },
-  "faq": {
+  "faq":{
     "title": "Frequently asked questions",
-    "icon_class": "clr-body",
-    "items": [
+    "icon_class": "clr-primary",
+    "items":[
       {
         "class": "acc-item_active",
-        "header": "How much stevia is in one sachet of REDOXMind?",
-        "desc": "Less than 120mg for US and Europe, and less than 80mg in Asia formulas."
+        "header": "I’m a preferred customer. How do I order?",
+        "desc": "The best way is by going to <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> and placing your order there."
       },
       {
         "class": "",
-        "header": "Why is stevia in REDOXMind?",
-        "desc": "Stevia is derived from the leaves of the plant species Stevia rebaudiana. Stevia is about 200-350 times sweeter than sugar, thus only a small amount is needed to match the sweetness provided by sugar. It also does not contribute to or impact blood glucose levels."
+        "header": "Why Glutathione?",
+        "desc": ""
       },
       {
         "class": "",
-        "header": "What does “natural flavors” mean?",
-        "desc": "The Cell Performance line does not contain any GMO ingredients. All “natural flavors” come from fruit extracts and do not contain MSG."
+        "header": "What should I be feeling?",
+        "desc": ""
       },
       {
         "class": "",
-        "header": "Is citric acid considered natural?",
-        "desc": "Citric acid is sourced naturally from cassava fermentation and is non-GMO."
+        "header": "What is the best time to take NutriSwish?",
+        "desc": ""
       },
       {
         "class": "",
-        "header": "What is the ASEA® Cell Performance category of products?",
-        "desc": "ASEA® Cell Performance is a category of products formulated with your health and wellness in mind. Based on redox principles, these products are easy to use, on-the-go, and deliver a healthy boost Powered by Redox™. With proprietary ingredient blends that help you perform at your best physically and mentally by targeting performance at the cellular level, ASEA’s Cell Performance category is designed to complement and support a healthy lifestyle. These tasty packets are perfect for supporting your daily performance—wherever you go!"
+        "header": "Where are the ingredients sourced?",
+        "desc": ""
       },
       {
         "class": "",
-        "header": "What is Red Orange Complex, and what are its benefits?",
-        "desc": "Red Orange Complex is a blend of several types of blood oranges that improves blood levels of antioxidants and leads to improved cognitive function, specifically spatial and recognition memory."
-      },
-      {
-        "class": "",
-        "header": "What is phosphatidylserine?",
-        "desc": "Your body naturally produces phosphatidylserine, and supplementing it helps facilitate learning, memory, and mood regulation."
-      },
-      {
-        "class": "",
-        "header": "Is REDOXMind free of allergens?",
-        "desc": "REDOXMind is gluten- and, dairy-free, as well as free from soy allergens, and does not contain sugar."
-      },
-      {
-        "class": "",
-        "header": "How many Cell Performance products are there?",
-        "desc": "In addition to REDOXMind, there are three other Cell Performance products that provide targeted benefits starting at the cellular level:\n<ul class=\"my-12\">\n  <li>REDOXMood</li>\n  <li>REDOXEnergy</li>\n  <li>REDOXRadiance</li>\n</ul>\n<p>\n  All four products come in packages of 30 stick packs. REDOXMood, REDOXEnergy, and REDOXRadiance also come in a variety pack of 10 stick packs each.\n</p>"
-      },
-      {
-        "class": "",
-        "header": "Are all of the ASEA® Cell Performance products vegan?",
-        "desc": "Yes, all four products are 100% vegan."
-      },
-      {
-        "class": "is-hide",
-        "header": "Do I need to consume the entire 8-12oz at once?",
-        "desc": "For best results, we recommend drinking the entire contents of a package in 15 minutes."
-      },
-      {
-        "class": "is-hide",
-        "header": "Can REDOXMind and other Cell Performance products be used with ASEA® Redox Cell Signaling Supplement?",
-        "desc": "Yes. We recommend using ASEA® Redox Cell Signaling Supplement before consuming any Cell Performance products. Mixing anything with ASEA Redox Cell Signaling Supplement can deactivate the redox molecules and not allow them to perform at full capacity."
-      },
-      {
-        "class": "is-hide",
-        "header": "Can REDOXMind be mixed and consumed together with other ASEA® Cell Performance products?",
-        "desc": "Yes. The products are formulated to work independently but can be used together. We recommend you try each product individually before mixing it together."
-      },
-      {
-        "class": "is-hide",
-        "header": "How many calories are in a serving of REDOXMind?",
-        "desc": "Each drink mix contains 5 calories per serving."
+        "header": "What’s the best health feature?",
+        "desc": ""
       }
-    ],
-    "show_more_text": "Show More"
+    ]
+
   },
-  "cta": {
-    "title": "Give your brain a boost <br />with REDOXMind",
-    "subscription_text": "Add to subscription",
-    "purchase_text": "Add to one-time purchase",
-    "image": "https://cdn.fluid.app/asea/redoxmind/support.png",
-    "alt_text": "cta support",
-    "note_desc": "*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
-  }
+  "cta":{
+    "title": "A new you starts with Neumi.",
+    "image": "https://cdn.fluid.app/neumi/landing/images/cta_bg.jpg"
+  },
+  "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration. These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
 }
