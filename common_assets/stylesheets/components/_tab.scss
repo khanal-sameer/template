@@ -12,12 +12,13 @@
     font-weight: 600;
     position: relative;
     transition: all 0.4s ease-in-out;
-    border: 1px solid var(--clr-bg-900);
+    border: 1px solid var(--clr-border);
     white-space: nowrap;
     border-radius: 10px;
     flex: 0 0 50%;
     max-width: 50%;
-    background-color: #E9EBF1;
+    background-color: var(--clr-gray-0);
+    font-size: 14px;
     span {
       position: relative;
       z-index: 2;
@@ -32,7 +33,7 @@
       border-bottom-right-radius: 0;
     }
     &.active {
-      background-color: #fff;
+      background-color: var(--clr-white);
       color: #000;
     }
   }

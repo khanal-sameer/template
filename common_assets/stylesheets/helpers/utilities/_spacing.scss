@@ -84,16 +84,10 @@ $paddingCorner:(
     padding-right: 24px;
   }
 }
-.mt-6 {
-  margin-top: 30px;
-}
 
 .mt-100 {
   margin-top: 50px;
   @include breakpoint-up(lg-tab) {
     margin-top: 100px;
   }
-}
-.mt-6 {
-  margin-top: 30px;
 }

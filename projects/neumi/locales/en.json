@@ -1,17 +1,69 @@
 {
-  "title": "Neumi Landing page",
+  "title": "Neuro",
   "product_id": "",
+  "ratingSvgColor": "#FE982E",
+  "product_title": "Neuro",
+  "total_product_review": "7 Reviews",
+  "product_desc":  "Introducing Neuro,<span class=\"fw-600\"> our groundbreaking nano brain formula, designed to optimize cognitive function, enhance focus, and support overall brain health.</span> Utilizing the same advanced HydraStat Nanotechnology as NutriSwish, Neuro ensures maximum absorption and efficacy of its meticulously selected ingredients.",
+  "add_to_cart_text": "Add to cart",
   "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
-  "shop_product_button_text": "Shop our products",
-  "become_member_button_text": "Become a member",
-  "shop_product_url": "#",
-  "become_member_url": "#",
-  "see_all_product_button_text": "See all products",
-  "hero_section":{
-    "title": "A new you starts with Neumi",
-    "title_sm": "The Nano Company",
-    "desc": "Transform Your Well-being with the Power of Neumi's HydraStat™ Nanotechnology.",
-    "image": "https://cdn.fluid.app/neumi/landing/images/hero.png"
+  "select_quantity_text": "Select Quantity",
+  "all_product_text": "All Products",
+  "shop_url":"https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/shop",
+  "productSlider":{
+    "items":[
+      {
+        "image": "https://cdn.fluid.app/neumi/neuro/slider_1.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/neuro/slider_2.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/neuro/slider_3.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/neuro/slider_4.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/neuro/slider_5.png"
+      }
+    ]
+  },
+  "subscribe": {
+    "subscribe_text":"Subscribe",
+    "frequency_text": "Select Frequency",
+    "actual_price" : "65.00",
+    "discounted_price": "50.00",
+    "checklist_items":[
+      {
+        "caption": "Subscribe and save <span id='saving'>$15</span>"
+      },
+      {
+        "caption": "Earn Neumi Reward Points"
+      },
+      {
+        "caption": "30-day money-back guarantee"
+      },
+      {
+        "caption": "Update your subscription anytime"
+      }
+    ],
+    "one_time_purchase_text":"One-time purchase"
+  },
+  "free_shipping_desc": "Free U.S. shipping for orders over $200+",
+  "benefits":{
+    "title": "Benefits",
+    "items":[
+      {
+        "caption":"Key ingredients to maximize absorption and effectiveness, daily."
+      },
+      {
+        "caption":"Every batch undergoes rigorous third-party testing to ensure commitment to purity and safety."
+      },
+      {
+        "caption": "We offer a 30-day money-back guarantee, no questions asked."
+      }
+    ]
   },
   "asSeenOn": {
     "items": [
@@ -35,258 +87,250 @@
       }
     ]
   },
-  "masonary_section":{
-    "title": "Our product lineup",
-    "desc": "Life is better when you look & feel your best.",
-    "arrow": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M4 12H20M20 12L14 6M20 12L14 18\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  </svg>\n ",
-    "masonary_product_layout1":{
-      "vertical_image": "https://cdn.fluid.app/neumi/landing/images/vertical1.png",
-      "items":[
-        {
-          "image": "https://cdn.fluid.app/neumi/landing/images/hers.jpg",
-          "product_name": "Hers",
-          "url": "https://neumi.fluid.app/home/page/hers?preview=true",
-          "bg_color":"style=\"background-color:rgba(188,80,176,0.8)\""
-        },
-        {
-          "image": "https://cdn.fluid.app/neumi/landing/images/neumi.jpg",
-          "product_name": "Neumi Skin",
-          "url": " https://neumi.fluid.app/home/page/neumi-skin?preview=true",
-          "bg_color":"style=\"background-color:rgba(41,171,226,0.8)\""
-        }
-      ],
-      "horizontal_image": "https://cdn.fluid.app/neumi/landing/images/horizontal1.png"
-    },
-    "masonary_product_layout2":{
-      "horizontal_image": "https://cdn.fluid.app/neumi/landing/images/horizontal2.png",
-      "items":[
-        {
-          "image":  "https://cdn.fluid.app/neumi/landing/images/nutriswish.png",
-          "product_name": "NutriSwish",
-          "url": " https://neumi.fluid.app/home/page/nutriswish?preview=true",
-          "bg_color": "style=\"background-color:rgba(41,77,226,0.8)\""
-        },
-        {
-          "image":  "https://cdn.fluid.app/neumi/landing/images/neuro.png",
-          "product_name": "Neuro",
-          "url": "#",
-          "bg_color":"style=\"background-color:rgba(254,152,46,0.8)\""
-        }
-      ],
-      "vertical_image": "https://cdn.fluid.app/neumi/landing/images/vertical2.png"
-    }
-  },
-  "guarantee":{
-    "title": "The Neumi guarantee",
-    "desc":"Regardless of account type, you’ll enjoy:",
-    "image": "https://cdn.fluid.app/neumi/landing/images/guarantee.png",
-    "alt_text": "neumi product",
-    "image_position":"left",
-    "items": [
-      {
-        "icon": "<svg width=\"42\" height=\"53\" viewBox=\"0 0 42 53\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M13.5 25.3259L18.5 30.378L29.75 19.0107M41 26.5889C41 38.988 27.6151 48.0059 22.745 50.8767C22.1915 51.203 21.9148 51.3661 21.5242 51.4507C21.2211 51.5164 20.7789 51.5164 20.4758 51.4507C20.0852 51.3661 19.8085 51.203 19.255 50.8767C14.3849 48.0059 1 38.988 1 26.5889V14.5082C1 12.4886 1 11.4788 1.3269 10.6108C1.61569 9.84395 2.08496 9.15974 2.69415 8.61727C3.38374 8.0032 4.3195 7.64864 6.19101 6.9395L19.5955 1.8604C20.1152 1.66347 20.3751 1.565 20.6425 1.52597C20.8796 1.49134 21.1204 1.49134 21.3575 1.52597C21.6249 1.565 21.8848 1.66347 22.4045 1.8604L35.809 6.9395C37.6805 7.64864 38.6163 8.0032 39.3059 8.61727C39.915 9.15974 40.3843 9.84395 40.6731 10.6108C41 11.4788 41 12.4886 41 14.5082V26.5889Z\" stroke=\"#1649D2\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
-        "title":  "Love it, or it’s free",
-        "desc": "Try our products 30 days risk free. We're confident that you'll love our products as much as we do."
-      },
-      {
-        "icon": "<svg width=\"40\" height=\"44\" viewBox=\"0 0 40 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20.371 0.563212C19.9612 0.478929 19.5386 0.478929 19.1288 0.563212C18.6616 0.659296 18.2366 0.896026 17.7454 1.16964L17.6455 1.22526L9.90178 5.52732C9.8929 5.53207 9.88409 5.53697 9.87535 5.542L2.22904 9.78995L2.12309 9.8487C1.60417 10.1362 1.15542 10.3848 0.816132 10.753C0.518669 11.0758 0.293556 11.4583 0.155848 11.8751C-0.00122019 12.3505 -0.000611389 12.8635 9.28992e-05 13.4568L0.000188267 13.5779V30.4883L9.28992e-05 30.6095C-0.000611389 31.2027 -0.00122019 31.7157 0.155848 32.1911C0.293556 32.6079 0.51867 32.9905 0.816132 33.3133C1.15541 33.6814 1.60417 33.93 2.12309 34.2175L2.22905 34.2763L17.6455 42.841L17.7454 42.8966C18.2366 43.1702 18.6616 43.4069 19.1288 43.503C19.5386 43.5873 19.9612 43.5873 20.371 43.503C20.8382 43.4069 21.2632 43.1702 21.7544 42.8966L21.8543 42.841L37.2708 34.2763L37.3767 34.2175C37.8956 33.93 38.3444 33.6814 38.6837 33.3133C38.9812 32.9905 39.2063 32.6079 39.344 32.1911C39.501 31.7157 39.5004 31.2027 39.4997 30.6094L39.4996 30.4883V13.5779L39.4997 13.4568C39.5004 12.8635 39.501 12.3505 39.344 11.8751C39.2063 11.4583 38.9812 11.0758 38.6837 10.753C38.3444 10.3848 37.8956 10.1362 37.3767 9.84869L37.2708 9.78994L21.8543 1.22526L21.7544 1.16964C21.2632 0.896027 20.8382 0.659296 20.371 0.563212ZM10.375 7.55232L3.20033 11.5383L3.05954 11.6167L19.7498 20.8891L27.0655 16.8248L10.375 7.55232ZM29.5918 17.7093C29.6049 17.7024 29.6178 17.6952 29.6306 17.6877L37.4991 13.3163C37.4995 13.3949 37.4996 13.4817 37.4996 13.5779V30.4883C37.4996 31.271 37.4876 31.4345 37.4449 31.5637C37.3966 31.7101 37.3175 31.8445 37.213 31.9579C37.1208 32.058 36.9837 32.1479 36.2995 32.528L20.8831 41.0927L20.7499 41.1664L20.7498 22.6215L29.5918 17.7093ZM29.1247 15.6809L12.4342 6.40836L18.6168 2.97357C19.2642 2.61388 19.4045 2.54836 19.5317 2.52221C19.6757 2.4926 19.8242 2.4926 19.9681 2.52221C20.0953 2.54836 20.2356 2.61388 20.8831 2.97357L36.2995 11.5383L36.4402 11.6167L29.1247 15.6809ZM18.7498 22.6215L18.7499 41.1664L18.6168 41.0927L3.20033 32.528C2.51617 32.1479 2.37907 32.058 2.28687 31.9579C2.18235 31.8445 2.10326 31.7101 2.05488 31.5637C2.01219 31.4345 2.00019 31.271 2.00019 30.4883V13.5779C2.00019 13.4818 2.00037 13.395 2.00077 13.3164L18.7498 22.6215Z\" fill=\"#1649D2\"/>\n</svg>\n",
-        "title": "Hassle free subscriptions",
-        "desc": "Need to skip a month or cancel your subscription? No problem! Edit your preferences anytime, and order with confidence."
-      },
-      {
-        "icon": "<svg width=\"42\" height=\"45\" viewBox=\"0 0 42 45\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.2544 43.5V20.4M1 24.6V39.3C1 41.6196 2.83642 43.5 5.10176 43.5H32.6374C35.6742 43.5 38.2567 41.2313 38.7185 38.158L40.9271 23.458C41.5005 19.6417 38.6169 16.2 34.846 16.2H27.6615C26.5288 16.2 25.6106 15.2598 25.6106 14.1V6.67826C25.6106 3.81839 23.3464 1.5 20.5534 1.5C19.8873 1.5 19.2836 1.90172 19.013 2.52506L11.7957 19.1529C11.4665 19.9113 10.7321 20.4 9.92159 20.4H5.10176C2.83642 20.4 1 22.2804 1 24.6Z\" stroke=\"#1649D2\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
-        "title": "Free product",
-        "desc": "With orders over $300, you receive 1 free bottle to offset shipping costs."
-
-      }
-    ]
-  },
-  "performance":{
-    "title_sm": "HydraStat Nanotechnology™",
-    "title": "Small delivery, big performance",
-    "desc":"The molecules in many supplements are too large to be absorbed by the cell, so they get excreted from the body without being used effectively. Neumi uses breakthrough HydraStat Nanotechnology™ to increase the bioavailability and effectiveness of all its products by breaking down large molecules and enveloping them in ultra-pure water clusters. Our nanosized ingredients are between 10-100 nanometers. They are small enough to be fully absorbed into the human cell.",
-    "image": "https://cdn.fluid.app/neumi/landing/images/performance.png",
-    "button_text": "Learn more",
-    "url": "#",
-    "image_position":"right",
-    "desc_ordering_class": " order-lg-1",
-    "image_ordering_class": " order-lg-2"
-  },
   "video":{
-    "title_sm": "Hydrastat Nanotechnology™",
-    "title": "The Neumi breakthrough",
-    "image": "https://cdn.fluid.app/neumi/landing/images/video_bg.png",
-    "video_url": "https://youtu.be/pdn3__eU4Hw"
+    "image": "https://cdn.fluid.app/neumi/neuro/video_cover_image.png",
+    "video_url": "#"
   },
-  "before_and_after":{
-    "title": "See the before & afters",
-    "image_list":[
+  "tab":{
+    "title": "See how Neuro is changing lives",
+    "video_review_title": "Video Reviews <span>(5)</span>",
+    "written_review_title": "Written Reviews <span>(2)</span>",
+    "rating_text": "5 Star Rating",
+    "video_list":[
       {
-        "image": "https://cdn.fluid.app/neumi/before_after/before-after-1.png"
+        "image": "https://cdn.fluid.app/neumi/neuro/video-review-1.png",
+        "video": "#"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/before_after/before-after-2.png"
+        "image": "https://cdn.fluid.app/neumi/neuro/video-review-2.png",
+        "video": "#"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/before_after/before-after-3.png"
+        "image": "https://cdn.fluid.app/neumi/neuro/video-review-3.png",
+        "video": "#"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/before_after/before-after-4.png"
+        "image": "https://cdn.fluid.app/neumi/neuro/video-review-4.png",
+        "video": "#"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/before_after/before-after-5.png"
+        "image": "https://cdn.fluid.app/neumi/neuro/video-review-5.png",
+        "video": "#"
+      }
+
+    ],
+    "review_list": [
+      {
+          "reviewer": "Aidan D..",
+          "address": "Salt Lake City, UT",
+          "time": "2 hour ago",
+          "review_text": "Neuro has been a game-changer for me! I've been using it for a few months now, and I've noticed a significant improvement in my energy levels and overall vitality. It's amazing how something so simple can have such profound effects. Highly recommend!"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/before_after/before-after-6.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/before_after/before-after-7.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/before_after/before-after-8.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/before_after/before-after-6.png"
+          "reviewer": "Lola P..",
+          "address": "Laie, HI",
+          "time": "2 hour ago",
+          "review_text": "I've struggled with maintaining hormone balance for years, but Neuro has made a world of difference. Not only do I feel more balanced and energized, but I've also noticed improvements in my skin tone and muscle tone. It's truly remarkable!"
       }
     ]
   },
-  "medical_advisor_board":{
-    "title": "Our unpaid medical advisory board",
-    "items":[
+  "product_benefits":{
+    "title": "Experience the transformative benefits of Neuro",
+    "desc": "Unlock your cognitive potential and achieve peak mental performance with Neuro’s powerful blend. Whether you need<span class='fw-600'>to enhance focus, boost mental energy, or support long-term brain health,</span> Neuro is your ultimate ally.",
+    "image": "https://cdn.fluid.app/neumi/neuro/benefits.png",
+    "alt_text": "neuro product",
+    "items_left": [
       {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/douglas.png",
-        "name": "Douglas Harrington, MD",
-        "university": "USC Keck School of Medicine"
+        "icon": "<svg width=\"42\" height=\"41\" viewBox=\"0 0 42 41\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M9 36.2562H14.2206C14.9013 36.2562 15.5778 36.3355 16.2376 36.494L21.7538 37.8058C22.9507 38.0911 24.1976 38.1189 25.4069 37.889L31.5059 36.7278C33.1171 36.4207 34.5992 35.6657 35.7607 34.56L40.0758 30.4523C41.3081 29.2812 41.3081 27.381 40.0758 26.2079C38.9663 25.1517 37.2095 25.0329 35.9543 25.9285L30.9252 29.519C30.205 30.0342 29.3286 30.3116 28.4273 30.3116H23.571L26.6621 30.3115C28.4044 30.3115 29.8157 28.968 29.8157 27.3095V26.7091C29.8157 25.3319 28.8311 24.1311 27.4282 23.7982L22.6572 22.6628C21.8808 22.4785 21.0856 22.3854 20.2863 22.3854C18.3567 22.3854 14.8638 23.9488 14.8638 23.9488L9 26.3485M1 25.5169L1 36.8685C1 37.9646 1 38.5127 1.21799 38.9314C1.40973 39.2996 1.71569 39.599 2.09202 39.7867C2.51984 40 3.07989 40 4.2 40H5.8C6.9201 40 7.48016 40 7.90798 39.7867C8.2843 39.599 8.59027 39.2996 8.78201 38.9314C9 38.5127 9 37.9646 9 36.8685V25.5169C9 24.4208 9 23.8727 8.78201 23.454C8.59027 23.0858 8.28431 22.7864 7.90798 22.5987C7.48016 22.3854 6.92011 22.3854 5.8 22.3854H4.2C3.0799 22.3854 2.51984 22.3854 2.09202 22.5987C1.7157 22.7864 1.40973 23.0858 1.21799 23.454C1 23.8727 1 24.4208 1 25.5169ZM31.3827 3.97277C30.1891 1.52854 27.4372 0.233643 24.7609 1.48347C22.0846 2.7333 20.9444 5.69729 22.0649 8.29925C22.7574 9.90734 24.7415 13.0301 26.1562 15.1811C26.6789 15.9759 26.9402 16.3732 27.322 16.6057C27.6494 16.8051 28.0593 16.9126 28.4448 16.9001C28.8942 16.8856 29.3235 16.6693 30.1823 16.2368C32.5065 15.0662 35.8203 13.3326 37.2416 12.2788C39.5415 10.5737 40.1112 7.43956 38.3893 5.05702C36.6675 2.67448 33.6653 2.44004 31.3827 3.97277Z\" stroke=\"#FE982E\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+        "title": "Sustained Release",
+        "desc": "Oral administration allows for a more consistent and sustained release of glutathione into the bloodstream.",
+        "order_class":"order-lg-2"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/gordon.png",
-        "name": "Gordon Crozier, DO",
-        "university": "DMU College of Osteopathic Medicine"
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/zanetor.png",
-        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
-        "university": "Royal College of Surgeons in Ireland"
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/annie.png",
-        "name": "Annie Varughese, MD, FAAC",
-        "university": "Medical College of Georgia"
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/thomas.jpg",
-        "name": "Thomas Redner, MD",
-        "university": "Harvard Fellow"
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/eduardo.png",
-        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
-        "university": "University of Barcelona School of Medicine Traumatology"
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/ronald.png",
-        "name": "Ronald D. Friedman, MD",
-        "university": "Harvard Clinical Fellow"
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/jose.png",
-        "name": "Sir José Santillana Yamamoto, MD",
-        "university": "UST Faculty of Medicine and Surgery"
+        "icon": "<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M41 29C41 35.6274 35.6274 41 29 41C22.3726 41 17 35.6274 17 29C17 20.3726 29 1 29 1C29 1 41 20.3726 41 29Z\" stroke=\"#FE982E\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M13 15C13 18.3137 10.3137 21 7 21C3.68629 21 1 18.3137 1 15C1 10.6863 7 1 7 1C7 1 13 10.6863 13 15Z\" stroke=\"#FE982E\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+        "title": "Enhanced Bioavailability",
+        "desc": "Nano-sized glutathione particles mean a greater proportion of glutathione is utilized, maximizing its antioxidant benefits.",
+        "order_class":"order-lg-1"
       }
     ],
-    "hidden_items":[
+    "items_right": [
       {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/james.webp",
-        "name": "James Jian Ho, MD, PhD",
-        "university": "Mayo Fellow"
+        "icon": "<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M27 15H27.02M15 15H15.02M41 21C41 32.0457 32.0457 41 21 41C9.9543 41 1 32.0457 1 21C1 9.9543 9.9543 1 21 1C32.0457 1 41 9.9543 41 21ZM28 15C28 15.5523 27.5523 16 27 16C26.4477 16 26 15.5523 26 15C26 14.4477 26.4477 14 27 14C27.5523 14 28 14.4477 28 15ZM16 15C16 15.5523 15.5523 16 15 16C14.4477 16 14 15.5523 14 15C14 14.4477 14.4477 14 15 14C15.5523 14 16 14.4477 16 15ZM21 32C26.001 32 30 28.334 30 25H12C12 28.334 15.999 32 21 32Z\" stroke=\"#FE982E\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+        "title": "Convenience",
+        "desc": "Unparalleled convenience compared to the more invasive and time-consuming IV treatments.",
+        "order_class":"order-lg-2"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/joseph.webp",
-        "name": "Joseph Kaplan, MD",
-        "university": "University of Alabama School of Medicine"
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/steven.webp",
-        "name": "Steven Petrosino, PhD",
-        "university": "LaSalle University"
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/jim.webp",
-        "name": "Jim Hayes, MD",
-        "university": "Emergency Medicine. Past President of the Association of Emergency Physicians"
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/dean.webp",
-        "name": "Dean Stubbs, MD",
-        "university": "Australian Leader in Integrative Medicine"
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/tania.webp",
-        "name": "Tania Ash, MD",
-        "university": "Australian Integrative Medicine Specialist"
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/kristen.webp",
-        "name": "Kristin Hieshetter, DC",
-        "university": "Doctor of Chiropractic. Metabolic biochemist. Certified in Nutrition. Non-invasive Laser specialist."
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/luis.webp",
-        "name": "Luis Miguel Valdes, MD",
-        "university": "Medical Specialist Ear Nose and Throat."
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/bethany.webp",
-        "name": "Bethany Dixon, DC",
-        "university": "Chiropractor and Certified Medical Examiner. Physician and consultant to the transportation industry."
-      },
-      {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/pacilina.webp",
-        "name": "Pacilina estrella-Barotil, MD",
-        "university": "Family Practitioner with a Masters degree in Hospital Administration;  Owner and Medical Director of Wholeness Family Medical Center, Inc., Silang, Philippines."
+        "icon": "<svg width=\"42\" height=\"30\" viewBox=\"0 0 42 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M25 9H20C18.3431 9 17 10.3431 17 12C17 13.6569 18.3431 15 20 15H22C23.6569 15 25 16.3431 25 18C25 19.6569 23.6569 21 22 21H17M21 7V9M21 21V23M33 15H33.02M9 15H9.02M1 7.4L1 22.6C1 24.8402 1 25.9603 1.43597 26.816C1.81947 27.5686 2.43139 28.1805 3.18404 28.564C4.03968 29 5.15979 29 7.4 29L34.6 29C36.8402 29 37.9603 29 38.816 28.564C39.5686 28.1805 40.1805 27.5686 40.564 26.816C41 25.9603 41 24.8402 41 22.6V7.4C41 5.15979 41 4.03969 40.564 3.18404C40.1805 2.43139 39.5686 1.81947 38.816 1.43598C37.9603 1 36.8402 1 34.6 1L7.4 1C5.15979 1 4.03969 1 3.18404 1.43597C2.43139 1.81947 1.81947 2.43139 1.43597 3.18404C1 4.03968 1 5.15979 1 7.4ZM34 15C34 15.5523 33.5523 16 33 16C32.4477 16 32 15.5523 32 15C32 14.4477 32.4477 14 33 14C33.5523 14 34 14.4477 34 15ZM10 15C10 15.5523 9.55228 16 9 16C8.44772 16 8 15.5523 8 15C8 14.4477 8.44772 14 9 14C9.55228 14 10 14.4477 10 15Z\" stroke=\"#FE982E\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+        "title": "Cost-Effectiveness",
+        "desc": "A more affordable alternative to regular IV glutathione treatments. Eliminate the need for frequent clinic visits, reducing overall costs.",
+        "order_class":"order-lg-1"
       }
     ]
   },
+  "product_post_list":[
+    {
+      "title": "Innovative science",
+      "desc": "Glutathione is the protector and detoxifier of the cell.<span class='fw-600'> It’s the key to the life, health, performance, protection and longevity of every human cell.</span>",
+      "image": "https://cdn.fluid.app/neumi/neuro/innovative.png",
+      "image_position": "right",
+      "desc_ordering_class": "order-lg-1",
+      "image_ordering_class": "order-lg-2"
+    },
+    {
+      "title": "HydraStat™ nanotechnology",
+      "desc": "<span class='fw-600'>Nano-sized particles protected by ultra-pure water clusters.</span> Our nanosized ingredients are small enough to be fully absorbed into the human cell.",
+      "image": "https://cdn.fluid.app/neumi/neuro/nano.png",
+      "image_position": "left",
+      "desc_ordering_class": "",
+      "image_ordering_class": ""
+    },
+    {
+      "title": "Purity and quality",
+      "desc": "Neuro undergoes rigorous third-party testing to ensure it meets the highest standards of purity and quality. We stand behind our product with a 30-day money-back guarantee, confident in its ability to deliver significant health benefits.",
+      "image": "https://cdn.fluid.app/neumi/neuro/quality.png",
+      "image_position": "right",
+      "desc_ordering_class": "order-lg-1",
+      "image_ordering_class": "order-lg-2"
+    }
+  ],
+  "key_ingredients":{
+    "title": "Key ingredients in Neuro",
+    "ingredients": "<span class='fw-600 is-uppercase'>other key ingredients:</span> <span class='is-uppercase'>CAFFEINE, MAGNESIUM GLUCONATE, ALPHA GPC, ACETYL-L-CARNITINE, MSM, PYRIDOXAL 5-PHOSPHATE. *IMAGE SHOWS A PLANT/FOOD IN WHICH THE ACTIVE INGREDIENT IS FOUND AND NOT NECESSARILY WHERE it  is EXTRACTed FROM.</span>",
+    "item_list_desktop":[
+      {
+        "item":[
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/neuro/avocado.webp",
+            "item_name": "L-Glutathione*"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/neuro/calcium_ascorbate.png",
+            "item_name": "Calcium Ascorbate*"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/neuro/serine.png",
+            "item_name": "Phosphatidyl Serine*"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/neuro/curcumin.png",
+            "item_name": "Curcumin"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/neuro/theanine.png",
+            "item_name": "L-Theanine*"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/neuro/cysteine.jpg",
+            "item_name": "L-Cysteine*"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/neuro/pea.png",
+            "item_name": "Arginine*"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/neuro/ginkgo.png",
+            "item_name": "Ginkgo Biloba"
+          }
+        ]
+      }
+    ],
+    "items_list":[
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/neuro/avocado.webp",
+        "item_name": "L-Glutathione*"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/neuro/serine.png",
+        "item_name": "Phosphatidyl Serine*"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/neuro/theanine.png",
+        "item_name": "L-Theanine*"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/neuro/pea.png",
+        "item_name": "Arginine*"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/neuro/calcium_ascorbate.png",
+        "item_name": "Calcium Ascorbate*"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/neuro/curcumin.png",
+        "item_name": "Curcumin"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/neuro/cysteine.jpg",
+        "item_name": "L-Cysteine*"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/neuro/ginkgo.png",
+        "item_name": "Ginkgo Biloba"
+      }
+    ]
+
+  },
+  "how_to_use":{
+    "title": "Directions for use",
+    "bg_image": "https://cdn.fluid.app/neumi/neuro/intake.png",
+    "desc": "To experience the full benefits, swish the recommended dosage of Neuro in your mouth for 30 seconds before swallowing. This method ensures optimal absorption of the nano-formulated ingredients."
+   },
   "faq":{
-    "title": "Frequently asked questions",
+    "title": "Benefits of Glutathione",
     "icon_class": "clr-primary",
     "items":[
       {
         "class": "acc-item_active",
-        "header": "I’m a preferred customer. How do I order?",
-        "desc": "The best way is by going to <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> and placing your order there."
+        "header": "Strengthened Immune System",
+        "desc": "Glutathione is able to neutralize free radicals and protect the body from their harmful effects.It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
       },
       {
         "class": "",
-        "header": "Why Glutathione?",
+        "header": "Increased Energy",
         "desc": ""
       },
       {
         "class": "",
-        "header": "What should I be feeling?",
+        "header": "Enhanced Stamina and Endurance",
         "desc": ""
       },
       {
         "class": "",
-        "header": "What is the best time to take NutriSwish?",
+        "header": "Improved Exercise Recovery Times",
         "desc": ""
       },
       {
         "class": "",
-        "header": "Where are the ingredients sourced?",
+        "header": "Greater Mental Clarity and Focus",
         "desc": ""
       },
       {
         "class": "",
-        "header": "What’s the best health feature?",
+        "header": "Enhanced Quality and Length of Life",
         "desc": ""
       }
     ]
 
   },
   "cta":{
-    "title": "A new you starts with Neumi.",
-    "image": "https://cdn.fluid.app/neumi/landing/images/cta_bg.jpg"
+    "title": "A new you starts with Neumi",
+    "desc": "Unlock your cognitive capabilities and achieve peak mental performance with Neuro, your daily dose of brain health in a bottle.",
+    "subscription_text": "Add to subscription",
+    "purchase_text": " Purchase one-time",
+    "image": "https://cdn.fluid.app/neumi/neuro/cta.png"
   },
   "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration. These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
 }

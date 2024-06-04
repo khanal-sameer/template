@@ -32,3 +32,8 @@
     order: 2;
   }
 }
+.order-lg-3{
+  @include breakpoint-up("lg-tab") {
+    order: 3;
+  }
+}

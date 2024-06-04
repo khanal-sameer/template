@@ -33,7 +33,7 @@ textarea {
 }
 .custom-radio {
   --checkbox-size: 20px;
-  --checked-size: 12px;
+  --checked-size: 10px;
   position: relative;
   label {
     padding-left: 2rem;
@@ -51,8 +51,8 @@ textarea {
       width: var(--checkbox-size);
       left: 0;
       top: 1px;
-      border: 1px solid var(--clr-body-500);
-      background-color: var(--clr-body-400);
+      border: 1px solid #D0D5DD;
+      background-color: #fff;
     }
   }
   input {
@@ -74,15 +74,16 @@ textarea {
         &::after {
           content: "";
           position: absolute;
-          left: 4px;
-          top: 5px;
+          left: 5px;
+          top: 6px;
           width: var(--checked-size);
           height: var(--checked-size);
-          background-color: var(--clr-primary);
+          background-color: var(--clr-white);
           border-radius: 50%;
         }
         &::before {
           border-color: var(--clr-primary);
+          background-color: var(--clr-primary);
         }
       }
     }

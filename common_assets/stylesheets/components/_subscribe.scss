@@ -2,7 +2,7 @@
   background-color: var(--clr-primary-900);
 }
 .subscribe-card {
-  border: 1px solid var(--clr-border);
+  border: 2px solid var(--clr-border);
   border-radius: 6px;
   transition: border 0.5s ease-in-out, border 0.5s ease-in-out;
   &.is-active {
@@ -16,9 +16,10 @@
     padding-block-end: 1.5rem;
   }
   &_footer {
-    background-color: var(--clr-bg);
     padding: 1.125rem;
     border-radius: 8px;
-    border: 1px solid var(--clr-border);
+    background: var(--clr-white-100);
+    border: 1px solid rgba(22, 73, 210, 0.1);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
   }
 }

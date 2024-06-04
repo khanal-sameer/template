@@ -33,3 +33,9 @@ $weights: 400, 500, 600, bold, normal;
 .clr-body-900 {
   color: var(--clr-body-900);
 }
+.text-gray-200{
+  color: var(--clr-gray-200);
+}
+.secondary-text-color{
+  color: $secondary_text_color;//#6C757D
+}

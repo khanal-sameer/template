@@ -1,5 +1,5 @@
 {{#product_benefits}}
-  <section class="page-section key-ingredients">
+  <section class="page-section key-ingredients product-benefits-section">
     <div class="container">
 
       <div class="section-title text-center">
@@ -7,22 +7,56 @@
         <p class="w-820 m-auto clr-body mt-32">{{{desc}}}</p>
       </div>
 
-      <div class="feature-section-layout-2 pt-60 secondary-font">
+      <div class="feature-section-layout-2   secondary-font">
         <div class="row">
+          <!-- Large Image -->
+          <div class="col col-12 col-lg-4 order-lg-2">
+            <div class="image-section">
+              <img
+                src="{{image}}"
+                alt="{{alt_text}}"
+                class="m-auto"
+              />
+            </div>
+          </div>
+           <!-- item List -->
+           <div class="col col-12 col-lg-4 product-feature-item-wrapper order-lg-3">
+            <div class="icon-item-list">
+              <div class="row">
+                {{#items_right}}
+                  <div class="col col-12 col-sm-6 col-lg-12 mt-lg-50 {{order_class}}">
+                    <div class="product-feature-item product-feature-item-style-1 mt-32 mt-lg-50">
+                      <div class="icon-section">
+                        {{{icon}}}
+                      </div><!--.icon-section.-->
 
-          <div class="col col-12 col-lg-4">
+                      <div class="desc pl-20">
+                        <h4>{{title}}</h4>
+                        <p class="mt-20 fw-500">{{desc}}</p>
+                      </div>
+
+                    </div><!--.product-feature-item-style-1-->
+                  </div><!--.col-->
+                {{/items_right}}
+
+
+              </div><!--.row---->
+            </div><!--.icon-item-list-->
+          </div><!--.col--->
+
+          <div class="col col-12 col-lg-4 product-feature-item-wrapper order-lg-1">
             <div class="feature-item-list feature-item-list-with-right-icon">
               <div class="row is-align-center">
                 {{#items_left}}
-                  <div class="col col-12 col-sm-6 col-lg-12 mt-lg-50">
-                    <div class="product-feature-item product-feature-item-style-1 mt-50">
+                  <div class="col col-12 col-sm-6 col-lg-12 mt-lg-50 {{order_class}}">
+                    <div class="product-feature-item product-feature-item-style-1 mt-32 mt-lg-50">
                       <div class="icon-section order-lg-2">
                         {{{icon}}}
                       </div><!--.icon-section.-->
 
-                      <div class="desc pl-24 pl-lg-0 pr-lg-24 text-lg-right order-lg-1">
+                      <div class="desc pl-20 pl-lg-0 pr-lg-20 text-lg-right order-lg-1">
                         <h4>{{title}}</h4>
-                        <p class="mt-24">{{desc}}</p>
+                        <p class="mt-20 fw-500">{{desc}}</p>
                       </div>
                     </div><!--.product-feature-item-style-1-->
                   </div><!--.col-->
@@ -32,41 +66,6 @@
             </div><!--.icon-item-list-->
           </div><!--.col--->
 
-          <!-- Large Image -->
-          <div class="col col-12 col-lg-4">
-            <div class="image-section mt-8">
-              <img
-                src="https://cdn.fluid.app/neumi/nutriswish/benefits.png"
-                alt="nutriswish product"
-                class="m-auto"
-              />
-            </div>
-          </div>
-
-          <!-- item List -->
-          <div class="col col-12 col-lg-4">
-            <div class="icon-item-list">
-              <div class="row">
-                {{#items_right}}
-                  <div class="col col-12 col-sm-6 col-lg-12 mt-lg-50">
-                    <div class="product-feature-item product-feature-item-style-1 mt-50">
-                      <div class="icon-section">
-                        {{{icon}}}
-                      </div><!--.icon-section.-->
-
-                      <div class="desc pl-24">
-                        <h4>{{title}}</h4>
-                        <p class="mt-24">{{desc}}</p>
-                      </div>
-
-                    </div><!--.product-feature-item-style-1-->
-                  </div><!--.col-->
-                {{/items_right}}
-                
-
-              </div><!--.row---->
-            </div><!--.icon-item-list-->
-          </div><!--.col--->
         </div>
       </div>
     </div>

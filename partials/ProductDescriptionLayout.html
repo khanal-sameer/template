@@ -1,4 +1,4 @@
-<div class="product-description-section pb-50">
+<div class="product-description-section">
   <div class="container">
     <div class="product-wrapper row-gap-32">
 
@@ -50,7 +50,7 @@
           <h1>{{product_title}}</h1>
           <div class="is-flex is-start is-align-center col-gap-12 mt-8">
             {{>FiveStarRating}}
-            <div class="ratings-count text-gray-200">{{total_product_review}}</div>
+            <div class="ratings-count text-gray-200 fs-sm">{{total_product_review}}</div>
           </div>
 
           <div class="mt-20 clr-body">{{{product_desc}}}</div>
@@ -60,7 +60,7 @@
 
           <div class="select-quantity mt-24">
             <div class="select-title">
-              <span class="fw-500">{{select_quantity_text}}</span>
+              <span class="fw-500 fs-sm">{{select_quantity_text}}</span>
             </div>
             <div class="custom-select mt-6">
               <select id="group-checkout-quantity" class="custom-select w-full">
@@ -77,7 +77,7 @@
 
           <!-- Subscribe Card -->
           {{#subscribe}}
-            <div class="total-price fw-500 mt-24">{{frequency_text}}</div>
+            <div class="total-price fw-500 mt-24 secondary-text-color fs-sm">{{frequency_text}}</div>
 
             <div class="subscribe-card mt-6 is-active">
               <div class="subscribe-card_header is-flex is-between is-align-center">
@@ -91,18 +91,18 @@
                   />
                   <label for="subscribe" class="clr-body">{{subscribe_text}}</label>
                 </div>
-                <div class="is-flex is-end is-align-center col-gap-16">
-                  <span id="crossed_onetime_price" class="is-strike clr-body-600">${{actual_price}}</span>
-                  <span class="fw-600 clr-primary" id="subscribe_price">${{discounted_price}}</span>
+                <div class="is-flex is-end is-align-center col-gap-16 line-height-1">
+                  <span id="crossed_onetime_price" class="is-strike secondary-text-color fw-500">${{actual_price}}</span>
+                  <span class="fw-600 clr-primary fs-lg" id="subscribe_price">${{discounted_price}}</span>
                 </div>
               </div>
 
               <div class="subscribe-card_body">
                 <ul class="subscribe-features check-list is-flex is-start dir-column gap-4">
                   {{#checklist_items}}
-                    <li class="is-flex is-start is-align-start col-gap-12">
+                    <li class="is-flex is-start is-align-start col-gap-12 secondary-text-color fw-500">
                       {{>CheckIcon}}
-                      <span>{{caption}}</span>
+                      <span>{{{caption}}}</span>
                     </li>
                   {{/checklist_items}}
                 </ul>
@@ -133,13 +133,13 @@
               {{>CartSvg}}
              {{add_to_cart_text}}
             </button>
-            <p class="mt-8">{{free_shipping_desc}}</p>
+            <p class="mt-8 fs-sm">{{free_shipping_desc}}</p>
           </div>
 
           {{#benefits}}
             <div class="product-content_dsc mt-24">
               <h4>{{title}}</h4>
-              <ul class="product-content_dsc--list pl-6 mt-8">
+              <ul class="product-content_dsc--list pl-24 mt-8">
                 {{#items}}
                   <li>{{caption}}</li>
                 {{/items}}

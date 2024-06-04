@@ -1,6 +1,13 @@
 {{#product_post_list}}
   <section class="product-post product-style-1 is-flex is-wrap overlay-animation">
-    <div class="col-12 col-lg-6  desc clr-bg-700_bg {{desc_ordering_class}}">
+    <div class="col-12 col-lg-6 {{image_ordering_class}}">
+      <div class="image-section">
+        <img src="{{image}}" alt="product">
+        <div class="overlay overlay-{{image_position}}"></div>
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-6  desc clr-bg-white-100 {{desc_ordering_class}}">
       <div class="wrapper">
         <h2>{{title}}</h2>
         <p class="mt-32 clr-body">{{{desc}}}</p>
@@ -16,11 +23,5 @@
         </div>
       </div>
     </div><!--.desc-->
-    <div class="col-12 col-lg-6 {{image_ordering_class}}">
-      <div class="image-section">
-        <img src="{{image}}" alt="product">
-        <div class="overlay overlay-{{image_position}}"></div>
-      </div>
-    </div>
   </section>
 {{/product_post_list}}

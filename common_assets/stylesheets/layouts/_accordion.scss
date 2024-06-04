@@ -1,5 +1,11 @@
 .page-section_accordion {
   background-color: var(--clr-white);
+  h2{
+    text-align: center;
+    @include breakpoint-up("lg-tab") {
+      text-align: left;
+    }
+  }
   .section-title {
     margin-bottom: 2.5rem;
   }
