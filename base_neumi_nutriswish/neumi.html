@@ -105,11 +105,18 @@
         });
         const thumbnailsSlider = new Splide("#thumbnail-slider", {
           start: 0,
-          perPage: 7,
+          perPage: 6,
           gap: 10,
           rewind: true,
           pagination: false,
           isNavigation: true,
+          mediaQuery: "min",
+          breakpoints: {
+            576: {
+              perPage: 6,
+              width: 440,
+            },
+          },
         });
 
         previewSlider.sync(thumbnailsSlider);
@@ -174,10 +181,10 @@
           pagination: false,
           type: "loop",
           perPage: 1,
-          arrows: true,
           cover: false,
-          gap: "2rem",
+          gap: "12px",
           mediaQuery: "min",
+          padding: '5rem',
           breakpoints: {
             1280: {
               perPage: 5,
@@ -185,29 +192,48 @@
             1024: {
               perPage: 4,
             },
-            800: {
+            768: {
               perPage: 3,
             },
-            768: {
+            576: {
               perPage: 2,
+              padding: "0",
+              arrows: true,
             },
+          },
+        });
+
+
+        tabSlider.mount();
+        // key ingredients slider
+                // key ingredients slider
+                var keyIngredientsSliderMobile = new Splide("#key-ingredients-slider-mobile", {
+          arrows: false,
+          pagination: false,
+          type: "loop",
+          perPage: 1,
+          cover: false,
+          gap: "2rem",
+          padding: "5rem",
+          mediaQuery: "min",
+          breakpoints: {
             576: {
               perPage: 2,
             },
           },
         });
 
-        tabSlider.mount();
-          // key ingredients slider
-        var keyIngredientsSlider = new Splide("#key-ingredients-slider", {
+        keyIngredientsSliderMobile.mount();
+
+        var keyIngredientsSliderDesktop = new Splide("#key-ingredients-slider-desktop", {
           arrows: false,
           pagination: false,
-          type: "loop",
           perPage: 1,
           arrows: true,
           cover: false,
           gap: "2rem",
           mediaQuery: "min",
+          rewind: false,
           breakpoints: {
             1280: {
               perPage: 4,
@@ -224,7 +250,7 @@
           },
         });
 
-        keyIngredientsSlider.mount();
+        keyIngredientsSliderDesktop.mount();
 
         //Accordion
         const accItem = document.querySelectorAll(".acc-item");
@@ -249,47 +275,10 @@
           });
         });
 
-        //show more
-        const itemsPerPage = 10;
-        let currentPage = 1;
-        const showMoreBtn = document.querySelector(".showmore");
-        function showMore() {
-          const dataContainer = document.getElementById("acc");
-          const listItems = dataContainer.querySelectorAll(".acc-item");
-          const start = (currentPage - 1) * itemsPerPage;
-          const end = currentPage * itemsPerPage;
-
-          for (let i = 0; i < listItems.length; i++) {
-            if (i >= start && i < end) {
-              listItems[i].style.display = "block";
-            }
-          }
-
-          currentPage++;
-
-          if (end >= listItems.length) {
-            showMoreBtn.style.display = "none";
-          }
-        }
-        // showMoreBtn.addEventListener("click", () => {
-        //   showMore();
-        // });
 
         // GSAP ScrollTrigger setup
         gsap.registerPlugin(ScrollTrigger);
 
-        // const tl = gsap.timeline({
-        //   scrollTrigger: {
-        //     trigger: ".sold-info",
-        //     start: "-100% top",
-        //     end: "-10% center",
-        //     scrub: 1,
-        //     pin: true,
-        //     toggleActions: "play onLeave onEnterBack onLeaveBack",
-        //   },
-        // });
-        // tl.to(".sold-info_content", { xPercent: 50, duration: 3, opacity: 0.9 });
-        // key gradient animations
         const featItems = gsap.utils.toArray(".product-feature-item");
         featItems.forEach((items) => {
           gsap.fromTo(

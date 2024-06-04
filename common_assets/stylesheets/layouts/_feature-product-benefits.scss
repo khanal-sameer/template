@@ -1,0 +1,17 @@
+.feature-product-benefits-section{
+  .feature-section-layout-2{
+    padding-top: 24px;
+    @include breakpoint-up("lg-tab") {
+      padding-top: 100px;
+    }
+    .product-feature-item-wrapper{
+      @include breakpoint-up("md-tab") {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 40px;
+      }
+    }
+  }
+}
