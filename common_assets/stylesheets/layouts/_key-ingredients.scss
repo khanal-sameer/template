@@ -22,6 +22,16 @@
     @include breakpoint-up("xl-phone"){
       display: block;
     }
+    .custom-page-slider-arrow-section{
+      .splide__arrow{
+        &.arrow-prev{
+          left: -2.5rem;
+        }
+        &.arrow-next{
+          right: -2.5rem;
+        }
+      }
+    }
   }
   .key-note{
     width: 900px;

@@ -1,19 +1,13 @@
-.tab-slider {
-  @include breakpoint-up("xl-tab") {
-    display: block;
-    .splide__arrow {
-      background-color: transparent;
-      &--prev {
-        left: -2.5rem;
-      }
-      &--next {
-        right: -2.5rem;
-      }
-      &:hover {
-        background-color: var(--clr-white);
-      }
+.tab-section{
+  .tab-video-content{
+    @include breakpoint-down("xl-phone"){
+      width: calc(100% + 40px);
+      margin: 0 -20px;
     }
   }
+}
+
+.tab-slider {
   .splide__list {
     height: unset;
     .splide__slide {
@@ -27,6 +21,20 @@
         width: 100%;
         object-fit: cover;
         border-radius: 0.5rem;
+      }
+    }
+  }
+  .custom-page-slider-arrow-section{
+    .splide__arrow{
+      background-color: transparent;
+      &:hover {
+        background-color: var(--clr-white);
+      }
+      &.arrow-prev{
+        left: -2.5rem;
+      }
+      &.arrow-next{
+        right: -2.5rem;
       }
     }
   }

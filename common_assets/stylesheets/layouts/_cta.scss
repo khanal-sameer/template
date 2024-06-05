@@ -1,108 +1,23 @@
-.cta-banner {
-  color: var(--clr-white);
-  padding: 0 1.5rem;
-  &_container {
-    max-width: 1320px;
-    margin: 0 auto;
-  }
-  &_wrap {
-    background-color: var(--clr-primary);
-    display: grid;
-    border-radius: 6px;
-    padding: 0 1rem 3rem 1rem;
-    position: relative;
-    grid-template-rows: 1fr;
-    h2 {
-      color: var(--clr-white);;
-    }
-    @include breakpoint-up("md-tab") {
-      padding: 0 3rem 3rem 3rem;
-      position: relative;
-    }
-    @include breakpoint-up("xl-tab") {
-      padding: 10rem 0px 10rem 3rem;
-      grid-template-columns: 1fr 300px;
-    }
-    @include breakpoint-up("sm-desktop") {
-      padding-left: 70px;
-      grid-template-columns: 1fr 490px;
-    }
-  }
-  &_figure {
-    order: 1;
-    position: relative;
-    top: -3rem;
-    margin: auto;
-    right: -1rem;
-    @include breakpoint-up("xl-tab") {
-      max-width: 400px;
-      position: absolute;
-      bottom: 0;
-      order: 2;
-      top: unset;
-      right: 2rem;
-    }
-    @include breakpoint-up("sm-desktop") {
-      max-width: 450px;
-    }
-  }
-  &_content {
-    order: 2;
-    @include breakpoint-up("xl-tab") {
-      order: 1;
-      padding-right: 1.5rem;
-    }
-  }
-  .btns {
-    .btn {
-      width: 100%;
-      --max-width-btn: 100%;
-      max-width: var(--max-width-btn);
-      @include breakpoint-up("xl-phone") {
-        --max-width-btn: 260px;
-        max-width: var(--max-width-btn);
-      }
-      @include breakpoint-up("sm-desktop") {
-        --max-width-btn: 280px;
-        max-width: var(--max-width-btn);
-      }
-      &-border {
-        border: 1px solid;
-        color: var(--clr-white);
-        &_white {
-          border-color: var(--clr-white);
-          &:hover {
-            background-color: var(--clr-white);
-            color: var(--clr-primary);
-          }
-        }
-      }
-      &-white {
-        color: var(--clr-primary);
-      }
-    }
-    button.btn {
-      @include breakpoint-down("lg-tab") {
-        &:first-child {
-          order: 2;
-        }
-        &:last-child {
-          order: 1;
-        }
-      }
-    }
-  }
-  .page-note {
-    color: var(--clr-body-700);
-    margin-top: 80px;
-    .cta-banner_container {
-      border: 1px solid var(--clr-border);
-      padding: 1rem;
-    }
-  }
-}
 .cta-layout-1{
   // neuro page
+  padding-bottom: 4rem;
+  @include breakpoint-up("lg-tab") {
+    padding-top: 100px;
+  }
+  &.cta-lg{
+    .cta-banner-wrapper{
+      @include breakpoint-up("sm-desktop") {
+        padding-top: 165px;
+        padding-bottom: 165px;
+      }
+    }
+    .cta-banner-figure{
+      @include breakpoint-up("sm-desktop") {
+        right: 75px;
+      }
+    }
+  }
+
   .cta-banner-wrapper{
     background-color: var(--clr-primary);
     color: var(--clr-white);
@@ -114,6 +29,7 @@
       display: flex;
       flex-wrap: wrap;
     }
+
   }
   h2{
     font-size: 36px;
@@ -130,28 +46,20 @@
       display: block;
       position: absolute;
       bottom: 0;
-      right: 193px
+      right: 193px;
     }
   }
   .btn-section{
+    .row{
+      margin: 0 - 12px;
+    }
+    .col{
+      padding: 0 6px;
+    }
     button{
       width: 100%;
       padding-left: 0;
       padding-right: 0;
-      &.btn-border {
-        border: 1px solid;
-        color: var(--clr-white);
-        &_white {
-          border-color: var(--clr-white);
-          &:hover {
-            background-color: var(--clr-white);
-            color: var(--clr-primary);
-          }
-        }
-      }
-      &.btn-white {
-        color: var(--clr-primary);
-      }
     }
   }
 }

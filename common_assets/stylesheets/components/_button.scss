@@ -52,6 +52,14 @@
         border-color: var(--clr-primary);
         color: var(--clr-primary);
       }
+      &_white {
+        color: var(--clr-white);
+        border-color: var(--clr-white);
+        &:hover {
+          background-color: var(--clr-white);
+          color: var(--clr-primary);
+        }
+      }
     }
     &:disabled,
     &-disabled {
