@@ -167,11 +167,12 @@
         const previewSlider = new Splide("#preview-slider", {
           width: 800,
           rewind: true,
-          pagination: true,
+          pagination: false,
+          arrows: false
         });
         const thumbnailsSlider = new Splide("#thumbnail-slider", {
           start: 0,
-          perPage: 6,
+          perPage: 7,
           gap: 10,
           rewind: true,
           pagination: false,
