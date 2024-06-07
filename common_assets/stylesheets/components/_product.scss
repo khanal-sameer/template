@@ -57,14 +57,6 @@
     font-weight: 700;
   }
 }
-.feature-section-layout-1{
-  .feature-item-list{
-    @include breakpoint-up("lg-tab"){
-     width: 500px;
-     max-width: 100%;
-    }
-  }
-}
 
 .key-ingredients-section{
   .item{
@@ -77,24 +69,6 @@
   }
 }
 
-.feature-section-left {
-  order: 3;
-  @include breakpoint-up("lg-tab") {
-    order: 1;
-  }
-}
-.feature-section-middle {
-  order: 1;
-  @include breakpoint-up("lg-tab") {
-    order: 2;
-  }
-}
-.feature-section-right {
-  order: 2;
-  @include breakpoint-up("lg-tab") {
-    order: 3;
-  }
-}
 .product-style-two {
   img {
     border-radius: 8px;

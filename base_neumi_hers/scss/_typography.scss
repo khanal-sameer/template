@@ -12,29 +12,26 @@ body{
   }
   h1{
     font-size: 36px;
-  }
-  h2{
-    font-size: 32px;
-  }
-  h3{
-    font-size: 24px;
-  }
-  h4{
-    font-size: 20px;
-  }
-  .fs-sm{
-    font-size: 14px;
-  }
-  .fs-md{
-    font-size: 18px;
-  }
-  .fs-lg{
-    font-size: 20px;
-  }
-  .fs-xl{
-    font-size: 24px;
-  }
-}
-body{
-  border: none;
+ }
+ h2{
+   font-size: 32px;
+ }
+ h3,
+ .fs-xl{
+   font-size: 28px;
+ }
+
+ h4,
+ .fs-lg{
+   font-size: 20px;
+ }
+ h5{
+   font-size: 16px;
+ }
+ .fs-sm{
+   font-size: 14px;
+ }
+ .fs-md{
+   font-size: 18px;
+ }
 }

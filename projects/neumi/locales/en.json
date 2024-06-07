@@ -1,10 +1,10 @@
 {
-  "title": "Neuro",
-  "product_id": "",
-  "ratingSvgColor": "#FE982E",
-  "product_title": "Neuro",
+  "title": "Hers",
+  "product_id": "9410",
+  "ratingSvgColor": "#b484bb",
+  "product_title": "Hers",
   "total_product_review": "7 Reviews",
-  "product_desc":  "Introducing Neuro,<span class=\"fw-600\"> our groundbreaking nano brain formula, designed to optimize cognitive function, enhance focus, and support overall brain health.</span> Utilizing the same advanced HydraStat Nanotechnology as NutriSwish, Neuro ensures maximum absorption and efficacy of its meticulously selected ingredients.",
+  "product_desc":  "<span class=fw-600>A premium nutritional supplement meticulously designed for women, </span> featuring pioneering Hydrastat Nano Technology for optimal absorption.",
   "add_to_cart_text": "Add to cart",
   "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
   "select_quantity_text": "Select Quantity",
@@ -13,19 +13,19 @@
   "productSlider":{
     "items":[
       {
-        "image": "https://cdn.fluid.app/neumi/neuro/slider_1.png"
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_1.png"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/neuro/slider_2.png"
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_2.png"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/neuro/slider_3.png"
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_3.png"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/neuro/slider_4.png"
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_4.png"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/neuro/slider_5.png"
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_5.png"
       }
     ]
   },
@@ -36,7 +36,7 @@
     "discounted_price": "50.00",
     "checklist_items":[
       {
-        "caption": "Subscribe and save <span id='saving'>$15</span>"
+        "caption": "Subscribe and save <span id='pricing'>$15</span>"
       },
       {
         "caption": "Earn Neumi Reward Points"
@@ -55,13 +55,13 @@
     "title": "Benefits",
     "items":[
       {
-        "caption":"Key ingredients to maximize absorption and effectiveness, daily."
+        "caption":"Key ingredients to balance and support your hormone health, daily."
       },
       {
-        "caption":"Every batch undergoes rigorous third-party testing to ensure commitment to purity and safety."
+        "caption":"For every season in life–active menstruation, pre/active/post menopause"
       },
       {
-        "caption": "We offer a 30-day money-back guarantee, no questions asked."
+        "caption": "Increase significant relief of hot flashes or cramps within just 20 minutes of consumption"
       }
     ]
   },
@@ -88,34 +88,34 @@
     ]
   },
   "video":{
-    "image": "https://cdn.fluid.app/neumi/neuro/video_cover_image.png",
-    "video_url": "#"
+    "image": "https://cdn.fluid.app/neumi/hers/images/video_cover_image.png",
+    "video_url": "https://vimeo.com/877308482"
   },
   "tab":{
-    "title": "See how Neuro is changing lives",
+    "title": "See how Hers is changing lives",
     "video_review_title": "Video Reviews <span>(5)</span>",
     "written_review_title": "Written Reviews <span>(2)</span>",
     "rating_text": "5 Star Rating",
     "video_list":[
       {
-        "image": "https://cdn.fluid.app/neumi/neuro/video-review-1.png",
-        "video": "#"
+        "image": "https://cdn.fluid.app/newulife/somaderm/review_1.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/video1.mp4"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/neuro/video-review-2.png",
-        "video": "#"
+        "image": "https://cdn.fluid.app/newulife/somaderm/review_2.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/video2.mp4"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/neuro/video-review-3.png",
-        "video": "#"
+        "image": "https://cdn.fluid.app/newulife/somaderm/review_3.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/video3.mp4"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/neuro/video-review-4.png",
-        "video": "#"
+        "image": "https://cdn.fluid.app/newulife/somaderm/review_4.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/video4.mp4"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/neuro/video-review-5.png",
-        "video": "#"
+        "image": "https://cdn.fluid.app/newulife/somaderm/review_5.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/video5.mp4"
       }
 
     ],
@@ -124,170 +124,171 @@
           "reviewer": "Aidan D..",
           "address": "Salt Lake City, UT",
           "time": "2 hour ago",
-          "review_text": "Neuro has been a game-changer for me! I've been using it for a few months now, and I've noticed a significant improvement in my energy levels and overall vitality. It's amazing how something so simple can have such profound effects. Highly recommend!"
+          "review_text": "Hers has been a game-changer for me! I've been using it for a few months now, and I've noticed a significant improvement in my energy levels and overall vitality. It's amazing how something so simple can have such profound effects. Highly recommend!"
       },
       {
           "reviewer": "Lola P..",
           "address": "Laie, HI",
           "time": "2 hour ago",
-          "review_text": "I've struggled with maintaining hormone balance for years, but Neuro has made a world of difference. Not only do I feel more balanced and energized, but I've also noticed improvements in my skin tone and muscle tone. It's truly remarkable!"
+          "review_text": "I've struggled with maintaining hormone balance for years, but Hers has made a world of difference. Not only do I feel more balanced and energized, but I've also noticed improvements in my skin tone and muscle tone. It's truly remarkable!"
       }
     ]
   },
   "product_benefits":{
-    "title": "Experience the transformative benefits of Neuro",
-    "desc": "Unlock your cognitive potential and achieve peak mental performance with Neuro’s powerful blend. Whether you need to<span class='fw-600'> enhance focus, boost mental energy, or support long-term brain health,</span> Neuro is your ultimate ally.",
-    "image": "https://cdn.fluid.app/neumi/neuro/benefits.png",
-    "alt_text": "neuro product",
-    "items_left": [
+    "title": "Benefits of using Hers",
+    "desc": "<span class='fw-600'>Every woman knows about the inconveniences that cycles and hormone changes can bring into life.</span>Experience rapid results through our HydraStat™ Nanotechnology. Our nano-sized ingredients, wrapped in water clusters, are small enough to be absorbed fully by the human cell, which is right where you need them!",
+    "image":"file:///home/kalpana/Downloads/Hers%202%201.png",
+    "alt_text": "hers product",
+    "items": [
       {
-        "icon": "<svg width=\"42\" height=\"41\" viewBox=\"0 0 42 41\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M9 36.2562H14.2206C14.9013 36.2562 15.5778 36.3355 16.2376 36.494L21.7538 37.8058C22.9507 38.0911 24.1976 38.1189 25.4069 37.889L31.5059 36.7278C33.1171 36.4207 34.5992 35.6657 35.7607 34.56L40.0758 30.4523C41.3081 29.2812 41.3081 27.381 40.0758 26.2079C38.9663 25.1517 37.2095 25.0329 35.9543 25.9285L30.9252 29.519C30.205 30.0342 29.3286 30.3116 28.4273 30.3116H23.571L26.6621 30.3115C28.4044 30.3115 29.8157 28.968 29.8157 27.3095V26.7091C29.8157 25.3319 28.8311 24.1311 27.4282 23.7982L22.6572 22.6628C21.8808 22.4785 21.0856 22.3854 20.2863 22.3854C18.3567 22.3854 14.8638 23.9488 14.8638 23.9488L9 26.3485M1 25.5169L1 36.8685C1 37.9646 1 38.5127 1.21799 38.9314C1.40973 39.2996 1.71569 39.599 2.09202 39.7867C2.51984 40 3.07989 40 4.2 40H5.8C6.9201 40 7.48016 40 7.90798 39.7867C8.2843 39.599 8.59027 39.2996 8.78201 38.9314C9 38.5127 9 37.9646 9 36.8685V25.5169C9 24.4208 9 23.8727 8.78201 23.454C8.59027 23.0858 8.28431 22.7864 7.90798 22.5987C7.48016 22.3854 6.92011 22.3854 5.8 22.3854H4.2C3.0799 22.3854 2.51984 22.3854 2.09202 22.5987C1.7157 22.7864 1.40973 23.0858 1.21799 23.454C1 23.8727 1 24.4208 1 25.5169ZM31.3827 3.97277C30.1891 1.52854 27.4372 0.233643 24.7609 1.48347C22.0846 2.7333 20.9444 5.69729 22.0649 8.29925C22.7574 9.90734 24.7415 13.0301 26.1562 15.1811C26.6789 15.9759 26.9402 16.3732 27.322 16.6057C27.6494 16.8051 28.0593 16.9126 28.4448 16.9001C28.8942 16.8856 29.3235 16.6693 30.1823 16.2368C32.5065 15.0662 35.8203 13.3326 37.2416 12.2788C39.5415 10.5737 40.1112 7.43956 38.3893 5.05702C36.6675 2.67448 33.6653 2.44004 31.3827 3.97277Z\" stroke=\"#FE982E\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
-        "title": "Sustained Release",
-        "desc": "Oral administration allows for a more consistent and sustained release of glutathione into the bloodstream.",
-        "order_class":"order-lg-2"
+          "icon": "<svg width=\"42\" height=\"52\" viewBox=\"0 0 42 52\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.5 24.8259L18.5 29.878L29.75 18.5107M41 26.0889C41 38.488 27.6151 47.5059 22.745 50.3767C22.1915 50.703 21.9148 50.8661 21.5242 50.9507C21.2211 51.0164 20.7789 51.0164 20.4758 50.9507C20.0852 50.8661 19.8085 50.703 19.255 50.3767C14.3849 47.5059 1 38.488 1 26.0889V14.0082C1 11.9886 1 10.9788 1.3269 10.1108C1.61569 9.34395 2.08496 8.65974 2.69415 8.11727C3.38374 7.5032 4.3195 7.14864 6.19101 6.4395L19.5955 1.3604C20.1152 1.16347 20.3751 1.065 20.6425 1.02597C20.8796 0.991344 21.1204 0.991344 21.3575 1.02597C21.6249 1.065 21.8848 1.16347 22.4045 1.3604L35.809 6.4395C37.6805 7.14864 38.6163 7.5032 39.3059 8.11727C39.915 8.65974 40.3843 9.34395 40.6731 10.1108C41 10.9788 41 11.9886 41 14.0082V26.0889Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>",
+          "title": "Ingredients You Can Trust",
+          "desc": "Hers uses our HydraStat™ nano-delivery system to maximize absorption and effectiveness of the following ingredients: white peony extract, chaste berry, dong quai, maca root, ashwagandha and other nutrients."
       },
       {
-        "icon": "<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M41 29C41 35.6274 35.6274 41 29 41C22.3726 41 17 35.6274 17 29C17 20.3726 29 1 29 1C29 1 41 20.3726 41 29Z\" stroke=\"#FE982E\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M13 15C13 18.3137 10.3137 21 7 21C3.68629 21 1 18.3137 1 15C1 10.6863 7 1 7 1C7 1 13 10.6863 13 15Z\" stroke=\"#FE982E\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
-        "title": "Enhanced Bioavailability",
-        "desc": "Nano-sized glutathione particles mean a greater proportion of glutathione is utilized, maximizing its antioxidant benefits.",
-        "order_class":"order-lg-1"
-      }
-    ],
-    "items_right": [
-      {
-        "icon": "<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M27 15H27.02M15 15H15.02M41 21C41 32.0457 32.0457 41 21 41C9.9543 41 1 32.0457 1 21C1 9.9543 9.9543 1 21 1C32.0457 1 41 9.9543 41 21ZM28 15C28 15.5523 27.5523 16 27 16C26.4477 16 26 15.5523 26 15C26 14.4477 26.4477 14 27 14C27.5523 14 28 14.4477 28 15ZM16 15C16 15.5523 15.5523 16 15 16C14.4477 16 14 15.5523 14 15C14 14.4477 14.4477 14 15 14C15.5523 14 16 14.4477 16 15ZM21 32C26.001 32 30 28.334 30 25H12C12 28.334 15.999 32 21 32Z\" stroke=\"#FE982E\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
-        "title": "Convenience",
-        "desc": "Unparalleled convenience compared to the more invasive and time-consuming IV treatments.",
-        "order_class":"order-lg-2"
+          "icon": "<svg width=\"42\" height=\"44\" viewBox=\"0 0 42 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.2544 43V19.9M1 24.1V38.8C1 41.1196 2.83642 43 5.10176 43H32.6374C35.6742 43 38.2567 40.7313 38.7185 37.658L40.9271 22.958C41.5005 19.1417 38.6169 15.7 34.846 15.7H27.6615C26.5288 15.7 25.6106 14.7598 25.6106 13.6V6.17826C25.6106 3.31839 23.3464 1 20.5534 1C19.8873 1 19.2836 1.40172 19.013 2.02506L11.7957 18.6529C11.4665 19.4113 10.7321 19.9 9.92159 19.9H5.10176C2.83642 19.9 1 21.7804 1 24.1Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>",
+          "title": "Results You Can Count On",
+          "desc": "We conducted a double-blind clinical trial, and 80% of participants, spanning from active menstruation to post-menopause, saw a marked improvement in their symptoms. Notably some experiencing hot flashes or cramps reported significant relief within just 20 minutes of consumption."
       },
       {
-        "icon": "<svg width=\"42\" height=\"30\" viewBox=\"0 0 42 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M25 9H20C18.3431 9 17 10.3431 17 12C17 13.6569 18.3431 15 20 15H22C23.6569 15 25 16.3431 25 18C25 19.6569 23.6569 21 22 21H17M21 7V9M21 21V23M33 15H33.02M9 15H9.02M1 7.4L1 22.6C1 24.8402 1 25.9603 1.43597 26.816C1.81947 27.5686 2.43139 28.1805 3.18404 28.564C4.03968 29 5.15979 29 7.4 29L34.6 29C36.8402 29 37.9603 29 38.816 28.564C39.5686 28.1805 40.1805 27.5686 40.564 26.816C41 25.9603 41 24.8402 41 22.6V7.4C41 5.15979 41 4.03969 40.564 3.18404C40.1805 2.43139 39.5686 1.81947 38.816 1.43598C37.9603 1 36.8402 1 34.6 1L7.4 1C5.15979 1 4.03969 1 3.18404 1.43597C2.43139 1.81947 1.81947 2.43139 1.43597 3.18404C1 4.03968 1 5.15979 1 7.4ZM34 15C34 15.5523 33.5523 16 33 16C32.4477 16 32 15.5523 32 15C32 14.4477 32.4477 14 33 14C33.5523 14 34 14.4477 34 15ZM10 15C10 15.5523 9.55228 16 9 16C8.44772 16 8 15.5523 8 15C8 14.4477 8.44772 14 9 14C9.55228 14 10 14.4477 10 15Z\" stroke=\"#FE982E\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
-        "title": "Cost-Effectiveness",
-        "desc": "A more affordable alternative to regular IV glutathione treatments. Eliminate the need for frequent clinic visits, reducing overall costs.",
-        "order_class":"order-lg-1"
+          "icon": "<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M40.8752 23.1005C40.2221 29.2404 36.7452 34.994 30.9921 38.3176C21.4336 43.8395 9.21128 40.5626 3.69271 30.9984L3.10493 29.9797M1.12461 18.8995C1.77776 12.7596 5.25457 7.00597 11.0077 3.68238C20.5662 -1.83953 32.7885 1.43741 38.3071 11.0016L38.8949 12.0203M1 35.2704L2.72114 28.8431L9.14452 30.5653M32.8555 11.4346L39.2789 13.1567L41 6.72948M21 10.4135V20.9999L26.8778 24.5288\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>",
+          "title": "For Every Season Of Life",
+          "desc": "Hers is designed for all women, in every season of life. Every ingredient in our botanical formula was carefully selected to create a well-rounded blend of benefits. With Hers, every woman can flourish."
       }
     ]
   },
   "product_post_list":[
     {
       "title": "Innovative science",
-      "desc": "Glutathione is the protector and detoxifier of the cell.<span class='fw-600'> It’s the key to the life, health, performance, protection and longevity of every human cell.</span>",
-      "image": "https://cdn.fluid.app/neumi/neuro/innovative.png",
+      "desc": "Glutathione is the protector and detoxifier of the cell.<span class=fw-600 highlight-text>It’s the key to the life, health, performance, protection and longevity of every human cell.</span>",
+      "image": "https://cdn.fluid.app/neumi/hers/images/innovative.png",
       "image_position": "right",
       "desc_ordering_class": "order-lg-1",
       "image_ordering_class": "order-lg-2"
     },
     {
       "title": "HydraStat™ nanotechnology",
-      "desc": "<span class='fw-600'>Nano-sized particles protected by ultra-pure water clusters.</span> Our nanosized ingredients are small enough to be fully absorbed into the human cell.",
-      "image": "https://cdn.fluid.app/neumi/neuro/nano.png",
+      "desc": "<span class=fw-600>Nano-sized particles protected by ultra-pure water clusters.</span>Our nanosized ingredients are small enough to be fully absorbed into the human cell.",
+      "image": "https://cdn.fluid.app/neumi/hers/images/nano.png",
       "image_position": "left",
       "desc_ordering_class": "",
       "image_ordering_class": ""
     },
     {
-      "title": "Purity and quality",
-      "desc": "Neuro undergoes rigorous third-party testing to ensure it meets the highest standards of purity and quality. We stand behind our product with a 30-day money-back guarantee, confident in its ability to deliver significant health benefits.",
-      "image": "https://cdn.fluid.app/neumi/neuro/quality.png",
+      "title": "Quality over quantity",
+      "desc": " A supplement is only as good as its bioavailability, which is its ability to be absorbed and used by the body.<span class=fw-600 highlight-text>The correct delivery system delivers ingredients to your body in a way that your body can absorb and use.</span>",
+      "image": "https://cdn.fluid.app/neumi/hers/images/quality.png",
       "image_position": "right",
       "desc_ordering_class": "order-lg-1",
       "image_ordering_class": "order-lg-2"
     }
   ],
   "key_ingredients":{
-    "title": "Key ingredients in Neuro",
-    "ingredients": "<span class='fw-600 is-uppercase'>other key ingredients:</span> <span class='is-uppercase'>CAFFEINE, MAGNESIUM GLUCONATE, ALPHA GPC, ACETYL-L-CARNITINE, MSM, PYRIDOXAL 5-PHOSPHATE. *IMAGE SHOWS A PLANT/FOOD IN WHICH THE ACTIVE INGREDIENT IS FOUND AND NOT NECESSARILY WHERE it  is EXTRACTed FROM.</span>",
+    "title": "Hers key ingredients",
+    "ingredients": "<span class=fw-600>Active Ingredients:</span> ULTRA-PURE WATER, B6, B12, POTASSIUM SORBATE, SODIUM BENZOATE, SPEARMINT EXTRACT.",
     "item_list_desktop":[
       {
         "item":[
           {
-            "bg_image": "https://cdn.fluid.app/neumi/neuro/avocado.webp",
-            "item_name": "L-Glutathione*"
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/damiana.png",
+            "item_name": "Damiana"
           },
           {
-            "bg_image": "https://cdn.fluid.app/neumi/neuro/calcium_ascorbate.png",
-            "item_name": "Calcium Ascorbate*"
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/dong-quai-root.png",
+            "item_name": "Dong Quai Root"
           }
         ]
       },
       {
         "item":[
           {
-            "bg_image": "https://cdn.fluid.app/neumi/neuro/serine.png",
-            "item_name": "Phosphatidyl Serine*"
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/ginger.webp",
+            "item_name": "Ginger"
           },
           {
-            "bg_image": "https://cdn.fluid.app/neumi/neuro/curcumin.png",
-            "item_name": "Curcumin"
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/Chasteberry.png",
+            "item_name": "Chasteberry Extract"
           }
         ]
       },
       {
         "item":[
           {
-            "bg_image": "https://cdn.fluid.app/neumi/neuro/theanine.png",
-            "item_name": "L-Theanine*"
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/maca-root.png",
+            "item_name": "Maca Root"
           },
           {
-            "bg_image": "https://cdn.fluid.app/neumi/neuro/cysteine.jpg",
-            "item_name": "L-Cysteine*"
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/black-cohosh.png",
+            "item_name": "Black Cohosh"
           }
         ]
       },
       {
         "item":[
           {
-            "bg_image": "https://cdn.fluid.app/neumi/neuro/pea.png",
-            "item_name": "Arginine*"
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/Ashwagandharoot.webp",
+            "item_name": "Ashwagandha"
           },
           {
-            "bg_image": "https://cdn.fluid.app/neumi/neuro/ginkgo.png",
-            "item_name": "Ginkgo Biloba"
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/peony-white-root.webp",
+            "item_name": "Peony White Root"
           }
         ]
       }
     ],
     "items_list":[
       {
-        "bg_image": "https://cdn.fluid.app/neumi/neuro/avocado.webp",
-        "item_name": "L-Glutathione*"
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/damiana.png",
+        "item_name": "Damiana"
       },
       {
-        "bg_image": "https://cdn.fluid.app/neumi/neuro/serine.png",
-        "item_name": "Phosphatidyl Serine*"
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/ginger.webp",
+        "item_name": "Ginger"
       },
       {
-        "bg_image": "https://cdn.fluid.app/neumi/neuro/theanine.png",
-        "item_name": "L-Theanine*"
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/maca-root.png",
+        "item_name": "Maca Root"
       },
       {
-        "bg_image": "https://cdn.fluid.app/neumi/neuro/pea.png",
-        "item_name": "Arginine*"
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/Ashwagandharoot.webp",
+        "item_name": "Ashwagandha"
       },
       {
-        "bg_image": "https://cdn.fluid.app/neumi/neuro/calcium_ascorbate.png",
-        "item_name": "Calcium Ascorbate*"
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/dong-quai-root.png",
+        "item_name": "Dong Quai Root"
       },
       {
-        "bg_image": "https://cdn.fluid.app/neumi/neuro/curcumin.png",
-        "item_name": "Curcumin"
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/Chasteberry.png",
+        "item_name": "Chasteberry Extract"
       },
       {
-        "bg_image": "https://cdn.fluid.app/neumi/neuro/cysteine.jpg",
-        "item_name": "L-Cysteine*"
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/black-cohosh.png",
+        "item_name": "Black Cohosh"
       },
       {
-        "bg_image": "https://cdn.fluid.app/neumi/neuro/ginkgo.png",
-        "item_name": "Ginkgo Biloba"
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/peony-white-root.webp",
+        "item_name": "Peony White Root"
       }
     ]
-
   },
   "how_to_use":{
-    "title": "Directions for use",
-    "bg_image": "https://cdn.fluid.app/neumi/neuro/intake.png",
-    "desc": "To experience the full benefits, swish the recommended dosage of Neuro in your mouth for 30 seconds before swallowing. This method ensures optimal absorption of the nano-formulated ingredients."
-   },
+    "title": "How to intake",
+    "bg_image": "https://cdn.fluid.app/neumi/hers/images/intake.png",
+    "steps": [
+      {
+        "caption": "Measure two (2) teaspoons of product. One capful = teaspoon."
+      },
+      {
+        "caption": "Swish in your mouth for 30 seconds or more."
+      },
+      {
+        "caption": "Unlike mouthwash, you can swallow Hers. You can also spit it out, if you prefer."
+      },
+      {
+        "caption": "Repeat these steps twice a day. Feel free to use Hers  more often, if desired."
+      }
+    ]
+  },
   "faq":{
     "title": "Benefits of Glutathione",
     "icon_class": "clr-primary",
@@ -300,37 +301,22 @@
       {
         "class": "",
         "header": "Increased Energy",
-        "desc": ""
+        "desc": "It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
       },
       {
         "class": "",
         "header": "Enhanced Stamina and Endurance",
-        "desc": ""
-      },
-      {
-        "class": "",
-        "header": "Improved Exercise Recovery Times",
-        "desc": ""
-      },
-      {
-        "class": "",
-        "header": "Greater Mental Clarity and Focus",
-        "desc": ""
-      },
-      {
-        "class": "",
-        "header": "Enhanced Quality and Length of Life",
-        "desc": ""
+        "desc": "It also helps to reduce inflammation, and supports the body's natural ability to fight off infection. In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
       }
+
     ]
 
   },
   "cta":{
     "title": "A new you starts with Neumi",
-    "desc": "Unlock your cognitive capabilities and achieve peak mental performance with Neuro, your daily dose of brain health in a bottle.",
     "subscription_text": "Add to subscription",
     "purchase_text": " Purchase one-time",
-    "image": "https://cdn.fluid.app/neumi/neuro/cta.png"
+    "image": "https://cdn.fluid.app/neumi/hers/images/cta.png"
   },
-  "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration. These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
+  "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration.These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
 }
