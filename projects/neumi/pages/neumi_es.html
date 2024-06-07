@@ -19,11 +19,11 @@
     <link rel="stylesheet" href="../../../base/css/style.css" />
   </head>
   <body>
-    <div  class='custom-landing-page neumi-nutriswish-landing-page'>
+    <div  id="nutriwish" class='custom-landing-page neumi-nutriswish-landing-page' data-product="9474" style="display:none">
       <div class="breadcrumb-section">
         <div class="container">
           <div class="breadcrumb is-flex is-align-center col-gap-12 row-gap-8 pb-20">
-            <a href=""></a>
+            <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default: &#39;home&#39;}}&#x2F;shop">All Products</a>
               <svg
                 width="6"
                 height="10"
@@ -209,7 +209,7 @@
                         fill="#294DE2;"
                       />
                     </svg>
-                  </div>                  <div class="ratings-count text-gray-200 fs-sm">2 Reviews</div>
+                  </div>                  <div class="ratings-count text-gray-200 fs-sm">7 Reviews</div>
                 </div>
 
                 <div class="mt-20 clr-body"><span class=fw-600>The groundbreaking health supplement powered by HydraStat Nano-Technology for instant absorption,</span> delivering immune support, joint health.</div>
@@ -275,7 +275,7 @@
                                 d="M17.0964 7.39016L9.93641 14.3002L8.03641 12.2702C7.68641 11.9402 7.13641 11.9202 6.73641 12.2002C6.34641 12.4902 6.23641 13.0002 6.47641 13.4102L8.72641 17.0702C8.94641 17.4102 9.32641 17.6202 9.75641 17.6202C10.1664 17.6202 10.5564 17.4102 10.7764 17.0702C11.1364 16.6002 18.0064 8.41016 18.0064 8.41016C18.9064 7.49016 17.8164 6.68016 17.0964 7.38016V7.39016Z"
                                 fill="#079455"
                               />
-                            </svg>                            <span>Subscribe and save $15</span>
+                            </svg>                            <span>Subscribe and save <span id='saving'>$15</span></span>
                           </li>
                           <li class="is-flex is-start is-align-start col-gap-12 secondary-text-color fw-500">
                             <svg
@@ -704,7 +704,7 @@
                             </svg>
                           </div>                        </div>
                         <h4 class="clr-body fw-bold mt-6">5 Star Rating</h4>
-                        <div class="ratings-count mt-6 fs-sm">2 Reviews</div>
+                        <div class="ratings-count mt-6 fs-sm">7 Reviews</div>
                       </div>
                       <!-- <button class="btn btn-white">Write a review</button> -->
                     </div>
@@ -894,7 +894,7 @@
 
             <div class="section-title text-center">
               <h2>Benefits of using NutriSwish</h2>
-              <p class="w-820 m-auto clr-body mt-32">To maintain optimal levels, frequent and costly IV treatments are required, which can be impractical for many individuals.<span class='fw-600'>In contrast, NutriSwish utilizes nano glutathione, which offers several distinct advantages over IV treatments.</span></p>
+              <p class="w-820 m-auto clr-body mt-32">To maintain optimal levels, frequent and costly IV treatments are required, which can be impractical for many individuals.<span class='fw-600'> In contrast, NutriSwish utilizes nano glutathione, which offers several distinct advantages over IV treatments.</span></p>
             </div>
 
             <div class="feature-section-layout-2   secondary-font">
@@ -913,7 +913,7 @@
                  <div class="col col-12 col-lg-4 product-feature-item-wrapper order-lg-3">
                   <div class="icon-item-list">
                     <div class="row">
-                        <div class="col col-12 col-sm-6 col-lg-12 mt-lg-50 ">
+                        <div class="col col-12 col-sm-6 col-lg-12 mt-lg-50 order-lg-2">
                           <div class="product-feature-item product-feature-item-style-1 mt-32 mt-lg-50">
                             <div class="icon-section">
                               <svg width="42" height="30" viewBox="0 0 42 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -928,7 +928,7 @@
 
                           </div><!--.product-feature-item-style-1-->
                         </div><!--.col-->
-                        <div class="col col-12 col-sm-6 col-lg-12 mt-lg-50 ">
+                        <div class="col col-12 col-sm-6 col-lg-12 mt-lg-50 order-lg-1">
                           <div class="product-feature-item product-feature-item-style-1 mt-32 mt-lg-50">
                             <div class="icon-section">
                               <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -952,7 +952,7 @@
                 <div class="col col-12 col-lg-4 product-feature-item-wrapper order-lg-1">
                   <div class="feature-item-list feature-item-list-with-right-icon">
                     <div class="row is-align-center">
-                        <div class="col col-12 col-sm-6 col-lg-12 mt-lg-50 ">
+                        <div class="col col-12 col-sm-6 col-lg-12 mt-lg-50 order-lg-2">
                           <div class="product-feature-item product-feature-item-style-1 mt-32 mt-lg-50">
                             <div class="icon-section order-lg-2">
                               <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -967,7 +967,7 @@
                             </div>
                           </div><!--.product-feature-item-style-1-->
                         </div><!--.col-->
-                        <div class="col col-12 col-sm-6 col-lg-12 mt-lg-50 ">
+                        <div class="col col-12 col-sm-6 col-lg-12 mt-lg-50 order-lg-1">
                           <div class="product-feature-item product-feature-item-style-1 mt-32 mt-lg-50">
                             <div class="icon-section order-lg-2">
                               <svg width="42" height="41" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -993,55 +993,17 @@
 
       <!-- Product List(square image) -->
         <section class="product-post product-style-1 is-flex is-wrap overlay-animation">
-          <div class="col-12 col-lg-6 ">
+          <div class="col-12 col-lg-6 order-lg-2">
             <div class="image-section">
               <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;innovative.png" alt="product">
               <div class="overlay overlay-right"></div>
             </div>
           </div>
 
-          <div class="col-12 col-lg-6  desc clr-bg-white-100 ">
+          <div class="col-12 col-lg-6  desc clr-bg-white-100 order-lg-1">
             <div class="wrapper">
               <h2>Innovative science</h2>
-              <p class="mt-32 clr-body">Glutathione is the protector and detoxifier of the cell.<span class=fw-600 highlight-text>It’s the key to the life, health, performance, protection and longevity of every human cell.</span></p>
-              <div class="btn-section mt-32">
-                <button
-                  class="btn w-full text-center btn-primary btn-rounded"
-                  data-fluid-checkout="9474"
-                  id="add_to_cart"
-                >
-                  <svg
-                    width="25"
-                    height="24"
-                    viewBox="0 0 25 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M2.5 2H3.80616C4.05218 2 4.17519 2 4.27418 2.04524C4.36142 2.08511 4.43535 2.14922 4.48715 2.22995C4.54593 2.32154 4.56333 2.44332 4.59812 2.68686L5.07143 6M5.07143 6L6.12332 13.7314C6.25681 14.7125 6.32355 15.2031 6.5581 15.5723C6.76478 15.8977 7.06108 16.1564 7.41135 16.3174C7.80886 16.5 8.30394 16.5 9.29411 16.5H17.852C18.7945 16.5 19.2658 16.5 19.651 16.3304C19.9905 16.1809 20.2818 15.9398 20.4923 15.6342C20.7309 15.2876 20.8191 14.8247 20.9955 13.8988L22.3191 6.94969C22.3812 6.62381 22.4122 6.46087 22.3672 6.3335C22.3278 6.22177 22.2499 6.12768 22.1475 6.06802C22.0308 6 21.865 6 21.5332 6H5.07143ZM10.5 21C10.5 21.5523 10.0523 22 9.5 22C8.94772 22 8.5 21.5523 8.5 21C8.5 20.4477 8.94772 20 9.5 20C10.0523 20 10.5 20.4477 10.5 21ZM18.5 21C18.5 21.5523 18.0523 22 17.5 22C16.9477 22 16.5 21.5523 16.5 21C16.5 20.4477 16.9477 20 17.5 20C18.0523 20 18.5 20.4477 18.5 21Z"
-                      stroke="white"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>                  Add to cart
-                </button>
-              </div>
-            </div>
-          </div><!--.desc-->
-        </section>
-        <section class="product-post product-style-1 is-flex is-wrap overlay-animation">
-          <div class="col-12 col-lg-6  order-lg-1">
-            <div class="image-section">
-              <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;nano.png" alt="product">
-              <div class="overlay overlay-left"></div>
-            </div>
-          </div>
-
-          <div class="col-12 col-lg-6  desc clr-bg-white-100  order-lg-2">
-            <div class="wrapper">
-              <h2>HydraStat™ nanotechnology</h2>
-              <p class="mt-32 clr-body"><span class=fw-600>Nano-sized particles protected by ultra-pure water clusters.</span>Our nanosized ingredients are small enough to be fully absorbed into the human cell.</p>
+              <p class="mt-32 clr-body">Glutathione is the protector and detoxifier of the cell.<span class=fw-600 highlight-text> It’s the key to the life, health, performance, protection and longevity of every human cell.</span></p>
               <div class="btn-section mt-32">
                 <button
                   class="btn w-full text-center btn-primary btn-rounded"
@@ -1071,15 +1033,53 @@
         <section class="product-post product-style-1 is-flex is-wrap overlay-animation">
           <div class="col-12 col-lg-6 ">
             <div class="image-section">
-              <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;quality.png" alt="product">
-              <div class="overlay overlay-right"></div>
+              <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;nano.png" alt="product">
+              <div class="overlay overlay-left"></div>
             </div>
           </div>
 
           <div class="col-12 col-lg-6  desc clr-bg-white-100 ">
             <div class="wrapper">
+              <h2>HydraStat™ nanotechnology</h2>
+              <p class="mt-32 clr-body"><span class=fw-600>Nano-sized particles protected by ultra-pure water clusters.</span> Our nanosized ingredients are small enough to be fully absorbed into the human cell.</p>
+              <div class="btn-section mt-32">
+                <button
+                  class="btn w-full text-center btn-primary btn-rounded"
+                  data-fluid-checkout="9474"
+                  id="add_to_cart"
+                >
+                  <svg
+                    width="25"
+                    height="24"
+                    viewBox="0 0 25 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2.5 2H3.80616C4.05218 2 4.17519 2 4.27418 2.04524C4.36142 2.08511 4.43535 2.14922 4.48715 2.22995C4.54593 2.32154 4.56333 2.44332 4.59812 2.68686L5.07143 6M5.07143 6L6.12332 13.7314C6.25681 14.7125 6.32355 15.2031 6.5581 15.5723C6.76478 15.8977 7.06108 16.1564 7.41135 16.3174C7.80886 16.5 8.30394 16.5 9.29411 16.5H17.852C18.7945 16.5 19.2658 16.5 19.651 16.3304C19.9905 16.1809 20.2818 15.9398 20.4923 15.6342C20.7309 15.2876 20.8191 14.8247 20.9955 13.8988L22.3191 6.94969C22.3812 6.62381 22.4122 6.46087 22.3672 6.3335C22.3278 6.22177 22.2499 6.12768 22.1475 6.06802C22.0308 6 21.865 6 21.5332 6H5.07143ZM10.5 21C10.5 21.5523 10.0523 22 9.5 22C8.94772 22 8.5 21.5523 8.5 21C8.5 20.4477 8.94772 20 9.5 20C10.0523 20 10.5 20.4477 10.5 21ZM18.5 21C18.5 21.5523 18.0523 22 17.5 22C16.9477 22 16.5 21.5523 16.5 21C16.5 20.4477 16.9477 20 17.5 20C18.0523 20 18.5 20.4477 18.5 21Z"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div><!--.desc-->
+        </section>
+        <section class="product-post product-style-1 is-flex is-wrap overlay-animation">
+          <div class="col-12 col-lg-6 order-lg-2">
+            <div class="image-section">
+              <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;quality.png" alt="product">
+              <div class="overlay overlay-right"></div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6  desc clr-bg-white-100 order-lg-1">
+            <div class="wrapper">
               <h2>Quality over quantity</h2>
-              <p class="mt-32 clr-body"> A supplement is only as good as its bioavailability, which is its ability to be absorbed and used by the body.<span class=fw-600 highlight-text>The correct delivery system delivers ingredients to your body in a way that your body can absorb and use.</span></p>
+              <p class="mt-32 clr-body"> A supplement is only as good as its bioavailability, which is its ability to be absorbed and used by the body.<span class=fw-600 highlight-text> The correct delivery system delivers ingredients to your body in a way that your body can absorb and use.</span></p>
               <div class="btn-section mt-32">
                 <button
                   class="btn w-full text-center btn-primary btn-rounded"
@@ -1127,6 +1127,39 @@
                 </div>
                 <div class="splide__track">
                   <ul class="splide__list">
+                      <li class="splide__slide">
+                          <div class="item mt-32">
+                            <div class="image-section"style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;avocado.webp)"></div>
+                            <div class="ingredient-name text-center clr-body">Glutathione*</div>
+                          </div>
+                          <div class="item mt-32">
+                            <div class="image-section"style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;grapes.webp)"></div>
+                            <div class="ingredient-name text-center clr-body">Tartaric Acid*</div>
+                          </div>
+                      </li>
+
+                      <li class="splide__slide">
+                          <div class="item mt-32">
+                            <div class="image-section"style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;calcium_ascorbate.png)"></div>
+                            <div class="ingredient-name text-center clr-body">Calcium Ascorbate*</div>
+                          </div>
+                          <div class="item mt-32">
+                            <div class="image-section"style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;curcumin.png)"></div>
+                            <div class="ingredient-name text-center clr-body">Curcumin</div>
+                          </div>
+                      </li>
+
+                      <li class="splide__slide">
+                          <div class="item mt-32">
+                            <div class="image-section"style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;cysteine.webp)"></div>
+                            <div class="ingredient-name text-center clr-body">L-Cysteine*</div>
+                          </div>
+                          <div class="item mt-32">
+                            <div class="image-section"style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;potaassium.png)"></div>
+                            <div class="ingredient-name text-center clr-body">Potassium Sorbate*</div>
+                          </div>
+                      </li>
+
                   </ul>
                 </div>
               </div><!-- .key-ingredients-slider -->
@@ -1148,20 +1181,38 @@
                   <ul class="splide__list">
                       <li class="splide__slide">
                         <div class="item mt-32">
-                          <div class="image-section" style="background-image: url()"></div>
-                          <div class="ingredient-name text-center clr-body"></div>
+                          <div class="image-section" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;avocado.webp)"></div>
+                          <div class="ingredient-name text-center clr-body">Glutathione*</div>
                         </div>
                       </li>
                       <li class="splide__slide">
                         <div class="item mt-32">
-                          <div class="image-section" style="background-image: url()"></div>
-                          <div class="ingredient-name text-center clr-body"></div>
+                          <div class="image-section" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;calcium_ascorbate.png)"></div>
+                          <div class="ingredient-name text-center clr-body">Calcium Ascorbate*</div>
                         </div>
                       </li>
                       <li class="splide__slide">
                         <div class="item mt-32">
-                          <div class="image-section" style="background-image: url()"></div>
-                          <div class="ingredient-name text-center clr-body"></div>
+                          <div class="image-section" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;cysteine.webp)"></div>
+                          <div class="ingredient-name text-center clr-body">L-Cysteine*</div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="item mt-32">
+                          <div class="image-section" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;grapes.webp)"></div>
+                          <div class="ingredient-name text-center clr-body">Tartaric Acid*</div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="item mt-32">
+                          <div class="image-section" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;curcumin.png)"></div>
+                          <div class="ingredient-name text-center clr-body">Curcumin</div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="item mt-32">
+                          <div class="image-section" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;potaassium.png)"></div>
+                          <div class="ingredient-name text-center clr-body">Potassium Sorbate*</div>
                         </div>
                       </li>
                   </ul>
@@ -1182,7 +1233,7 @@
             <div class="row">
 
               <div class="col col-12 col-lg-6">
-                <div class="image-section bg-image" style="background-image: url(style&#x3D;background-image:url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;intake.png))"></div>
+                <div class="image-section bg-image" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;nutriswish&#x2F;intake.png)"></div>
               </div>
 
               <div class="col col-lg-6 pt-32 pt-lg-0">
@@ -1343,7 +1394,7 @@
             <div class="cta-banner-wrapper">
               <div class="cta-banner-content">
                 <h2 class="clr-white">A new you starts with Neumi</h2>
-                <p class="fs-lg "></p>
+                <p class="fs-lg is-hide"></p>
                 <div class="btn-section mt-20">
                   <div class="row">
                     <div class="col col-12 col-xs-6">
@@ -1380,7 +1431,7 @@
       <div class="page-note-section pb-32">
         <div class="container">
           <div class="caption">
-            <span class="fs-sm"></span>
+            <span class="fs-sm">The statements made within this website have not been evaluated by the Food and Drug Administration.These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary.</span>
           </div>
         </div>
       </div><!-- .page-note-section -->    </div>
@@ -1740,6 +1791,89 @@
       });
 
     </script>
+
+    <!-- PRICING -->
+    <!-- AUTHOR: SAMEER KHANAL-->
+    <script>
+      document.addEventListener('DOMContentLoaded', async function () {
+        function extractCookie(...keys) {
+          return document.cookie.split(";").filter(item => keys.some(key => item.includes(key))).reduce((acc, item) => {
+            const [key, value] = item.trim().split("=")
+            acc[key] = value
+
+            return acc
+          }, {})
+        }
+
+        const cookie = extractCookie('country');
+        const country = window.country || cookie.country || 'us'
+
+        const container = document.getElementById('nutriwish')
+        const product = container.getAttribute(["data-product"])
+        const defaultValue = { price: 65, subPrice: 50, currency: "$" }
+
+        const getCountryData = (variants = []) => {
+          const variant = variants[0]
+
+          if (!variant) return defaultValue
+
+          const { price, subscription_price: subPrice, currency_symbol: currency } = variant.variant_countries.find(c => c.country_iso.toLowerCase() === country)
+
+          return { price, subPrice, currency }
+        }
+
+        const fetchVariantsDetail = async (product_id) => {
+
+          if (!product_id) return defaultValue
+
+          const host =  "https://fluid.app"
+
+          const url = new URL(`${host}/api/products/${product_id}`)
+
+          try {
+            const res = await fetch(url)
+            const data = await res.json()
+
+            if (!data) return defaultValue;
+
+            return getCountryData(data.variants || [])
+          }
+          catch {
+            return defaultValue
+          }
+        }
+
+        const updateSave = (price, subPrice, currency) => {
+          const saved = Number(price - subPrice).toFixed(2);
+          const element = document.getElementById("saving")
+          element.textContent = `${currency}${saved}`
+        }
+
+        const updateComponent = (price, subPrice) => {
+          const body = document.getElementById('nutriwish')
+          const oneTimePrice = document.getElementById("onetime_order_price")
+          const oneTimePriceCross = document.getElementById("crossed_onetime_price")
+          const subscriptionPrice = document.getElementById("subscribe_price")
+
+          oneTimePrice.textContent = price
+          oneTimePriceCross.textContent = price
+          subscriptionPrice.textContent = subPrice
+          body.style.display = ''
+
+        }
+
+        let { price, subPrice, currency } = await fetchVariantsDetail(product) || defaultValue
+        price = Number(price).toFixed(2)
+        subPrice = Number(subPrice).toFixed(2)
+        updateSave(price, subPrice, currency)
+
+        subPrice = currency + subPrice + '/mo'
+        price = currency + price
+
+        updateComponent(price, subPrice)
+      })
+    </script>
+
 
 
   </body>

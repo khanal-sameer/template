@@ -8,6 +8,8 @@
   "add_to_cart_text": "Add to cart",
   "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
   "select_quantity_text": "Select Quantity",
+  "all_product_text": "All Products",
+  "shop_url":"https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/shop",
   "productSlider":{
     "items":[
       {
@@ -34,7 +36,7 @@
     "discounted_price": "50.00",
     "checklist_items":[
       {
-        "caption": "Subscribe and save $15"
+        "caption": "Subscribe and save <span id='saving'>$15</span>"
       },
       {
         "caption": "Earn Neumi Reward Points"
@@ -165,41 +167,41 @@
   "product_post_list":[
     {
       "title": "Innovative science",
-      "desc": "Glutathione is the protector and detoxifier of the cell.<span class=fw-600 highlight-text>It’s the key to the life, health, performance, protection and longevity of every human cell.</span>",
+      "desc": "Glutathione is the protector and detoxifier of the cell.<span class=fw-600 highlight-text> It’s the key to the life, health, performance, protection and longevity of every human cell.</span>",
       "image": "https://cdn.fluid.app/neumi/nutriswish/innovative.png",
       "image_position": "right",
-      "desc_ordering_class": "",
-      "image_ordering_class": ""
+      "desc_ordering_class": "order-lg-1",
+      "image_ordering_class": "order-lg-2"
     },
     {
       "title": "HydraStat™ nanotechnology",
-      "desc": "<span class=fw-600>Nano-sized particles protected by ultra-pure water clusters.</span>Our nanosized ingredients are small enough to be fully absorbed into the human cell.",
+      "desc": "<span class=fw-600>Nano-sized particles protected by ultra-pure water clusters.</span> Our nanosized ingredients are small enough to be fully absorbed into the human cell.",
       "image": "https://cdn.fluid.app/neumi/nutriswish/nano.png",
       "image_position": "left",
-      "desc_ordering_class": " order-lg-2",
-      "image_ordering_class": " order-lg-1"
+      "desc_ordering_class": "",
+      "image_ordering_class": ""
     },
     {
       "title": "Quality over quantity",
-      "desc": " A supplement is only as good as its bioavailability, which is its ability to be absorbed and used by the body.<span class=fw-600 highlight-text>The correct delivery system delivers ingredients to your body in a way that your body can absorb and use.</span>",
+      "desc": " A supplement is only as good as its bioavailability, which is its ability to be absorbed and used by the body.<span class=fw-600 highlight-text> The correct delivery system delivers ingredients to your body in a way that your body can absorb and use.</span>",
       "image": "https://cdn.fluid.app/neumi/nutriswish/quality.png",
       "image_position": "right",
-      "desc_ordering_class": "",
-      "image_ordering_class": ""
+      "desc_ordering_class": "order-lg-1",
+      "image_ordering_class": "order-lg-2"
     }
   ],
   "key_ingredients":{
     "title": "NutriSwish key ingredients",
     "ingredients": "<span class=fw-600>Active Ingredients:</span>ULTRA-PURE WATER, GLUTATHIONE, L-CYSTEINE, CALCIUM ASCORBATE, CURCUMIN, TARTARIC ACID, POTASSIUM SORBATE, PEPPERMINT EXTRACT. *IMAGE SHOWS A PLANT/FOOD IN WHICH THE ACTIVE INGREDIENT IS FOUND AND NOT NECESSARILY WHERE IT IS EXTRACTED FROM.",
-    "items_list":[
+    "item_list_desktop":[
       {
         "item":[
           {
-            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/avocado.webp)",
+            "bg_image": "https://cdn.fluid.app/neumi/nutriswish/avocado.webp",
             "item_name": "Glutathione*"
           },
           {
-            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/grapes.webp)",
+            "bg_image": "https://cdn.fluid.app/neumi/nutriswish/grapes.webp",
             "item_name": "Tartaric Acid*"
           }
         ]
@@ -207,11 +209,11 @@
       {
         "item":[
           {
-            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/calcium_ascorbate.png)",
+            "bg_image": "https://cdn.fluid.app/neumi/nutriswish/calcium_ascorbate.png",
             "item_name": "Calcium Ascorbate*"
           },
           {
-            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/curcumin.png)",
+            "bg_image": "https://cdn.fluid.app/neumi/nutriswish/curcumin.png",
             "item_name": "Curcumin"
           }
         ]
@@ -219,20 +221,46 @@
       {
         "item":[
           {
-            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/cysteine.webp)",
+            "bg_image": "https://cdn.fluid.app/neumi/nutriswish/cysteine.webp",
             "item_name": "L-Cysteine*"
           },
           {
-            "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/potaassium.png)",
+            "bg_image": "https://cdn.fluid.app/neumi/nutriswish/potaassium.png",
             "item_name": "Potassium Sorbate*"
           }
         ]
+      }
+    ],
+    "items_list":[
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/nutriswish/avocado.webp",
+        "item_name": "Glutathione*"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/nutriswish/calcium_ascorbate.png",
+        "item_name": "Calcium Ascorbate*"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/nutriswish/cysteine.webp",
+        "item_name": "L-Cysteine*"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/nutriswish/grapes.webp",
+        "item_name": "Tartaric Acid*"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/nutriswish/curcumin.png",
+        "item_name": "Curcumin"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/nutriswish/potaassium.png",
+        "item_name": "Potassium Sorbate*"
       }
     ]
   },
   "how_to_use":{
     "title": "How to intake",
-    "bg_image": "style=background-image:url(https://cdn.fluid.app/neumi/nutriswish/intake.png)",
+    "bg_image": "https://cdn.fluid.app/neumi/nutriswish/intake.png",
     "steps": [
       {
         "caption": "Measure two (2) teaspoons of product. One capful = teaspoon."
@@ -273,9 +301,11 @@
   },
   "cta":{
     "title": "A new you starts with Neumi",
+    "desc": "",
+    "desc_class": "is-hide",
     "subscription_text": "Add to subscription",
     "purchase_text": " Purchase one-time",
-    "image": "https://cdn.fluid.app/neumi/nutriswish/cta.png",
-    "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration.These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
-  }
+    "image": "https://cdn.fluid.app/neumi/nutriswish/cta.png"
+  },
+  "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration.These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
 }

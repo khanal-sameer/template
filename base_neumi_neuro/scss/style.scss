@@ -1,10 +1,10 @@
 @import "variables";
 @import "../../common_assets/stylesheets/share";
 @import "typography";
-
-.cta-section{
-  padding-bottom: 4rem;
-  @include breakpoint-up("lg-tab") {
-    padding-top: 100px;
+.key-ingredients-section{
+  .key-note{
+    width: 900px;
+    max-width: 100%;
+    margin: auto;
   }
 }

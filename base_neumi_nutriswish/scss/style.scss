@@ -1,37 +1,3 @@
 @import "variables";
 @import "../../common_assets/stylesheets/share";
 @import "typography";
-.tab-section{
-  .tab-video-content{
-    @include breakpoint-down("xl-phone"){
-      width: calc(100% + 40px);
-      margin: 0 -20px;
-    }
-  }
-}
-.key-ingredients-section{
-  .key-ingredients-slider-mobile-section{
-    .container{
-      @include breakpoint-down("xl-phone"){
-        padding: 0;
-      }
-    }
-    .ingredient-name{
-      opacity: 0;
-    }
-    li.is-active{
-     .ingredient-name{
-      opacity: 1;
-     }
-    }
-    @include breakpoint-up("xl-phone"){
-      display: none;
-    }
-  }
-  .key-ingredients-slider-desktop-section{
-    display: none;
-    @include breakpoint-up("xl-phone"){
-      display: block;
-    }
-  }
-}
