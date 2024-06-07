@@ -63,13 +63,13 @@
         {
           "image":  "https://cdn.fluid.app/neumi/landing/images/nutriswish.png",
           "product_name": "NutriSwish",
-          "url": " https://neumi.fluid.app/home/page/nutriswish?preview=true",
+          "url": " https://neumi.fluid.app/home/page/{{affiliate_guid | default: 'home'}}/nutriswish?preview=true",
           "bg_color": "style=\"background-color:rgba(41,77,226,0.8)\""
         },
         {
           "image":  "https://cdn.fluid.app/neumi/landing/images/neuro.png",
           "product_name": "Neuro",
-          "url": "#",
+          "url": "https://neumi.fluid.app/home/page/nutriswish?preview=true",
           "bg_color":"style=\"background-color:rgba(254,152,46,0.8)\""
         }
       ],
