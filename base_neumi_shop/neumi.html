@@ -55,7 +55,7 @@
                       <div class="fs-md fw-600 clr-body mt-12">
                         <a href="{{url}}">{{product_name}}</a>
                       </div>
-                      <div class="price mt-4 price-color" id="product_{{product_id}}">$<span>{{price}}</span></div>
+                      <div class="price mt-4 price-color" style="display: none;" id="product_{{product_id}}">$<span>{{price}}</span></div>
 
                     </div>
                   </div>
@@ -177,6 +177,76 @@
         return false;
       });
 
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', async function () {
+        function extractCookie(...keys) {
+          return document.cookie.split(";").filter(item => keys.some(key => item.includes(key))).reduce((acc, item) => {
+            const [key, value] = item.trim().split("=")
+            acc[key] = value
+
+            return acc
+          }, {})
+        }
+
+        const cookie = extractCookie('country');
+        const country = window.country || cookie.country || 'us'
+
+        const getCountryData = (variants = []) => {
+          const variant = variants[0]
+
+          if (!variant) return null
+
+          const { price, subscription_price: subPrice, currency_symbol: currency } = variant.variant_countries.find(c => c.country_iso.toLowerCase() === country)
+
+          return { price, subPrice, currency }
+        }
+
+        const fetchVariantsDetail = async (product_id) => {
+
+          if (!product_id) return null
+
+          const host = "https://fluid.app"
+
+          const url = new URL(`${host}/api/products/${product_id}`)
+
+          try {
+            const res = await fetch(url)
+            const data = await res.json()
+
+            if (!data) return null;
+
+            return getCountryData(data.variants || [])
+          }
+          catch {
+            return null
+          }
+        }
+
+        const elements = [...document.querySelectorAll('[id^="product_"]')];
+        const promises = elements.forEach(async element => {
+          const id = element.getAttribute("id").split("_")[1];
+
+          if (!id) {
+            element.style.display = ""
+            return null
+          };
+
+          const res = await fetchVariantsDetail(id)
+
+          if (!res) {
+            element.style.display = ""
+            return null
+          };
+
+          let { price, currency } = res
+
+          price = Number(price).toFixed(2)
+          price = currency + price
+          element.textContent = price
+          element.style.display = ""
+        })
+      })
     </script>
   </body>
 </html>

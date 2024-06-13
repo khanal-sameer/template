@@ -1,0 +1,71 @@
+{
+  "title": "Neumi Shop page",
+  "shop_product_button_text": "Shop our products",
+  "hero_section":{
+    "title": "Neumi Products",
+    "desc": "Life is better when you look and feel your best."
+  },
+  "asSeenOn": {
+    "title": "As seen on"
+  },
+  "product_list":{
+    "title": "Single bottles",
+    "items":[
+      {
+        "product_name": "NutriSwish",
+        "price":"65.00"
+      },
+      {
+        "product_name": "Neumi Skin",
+        "price":"65.00"
+      },
+      {
+        "product_name": "Hers",
+        "price":"65.00"
+      },
+      {
+        "product_name": "Neuro",
+        "price":"65.00"
+      }
+    ]
+  },
+  "product_bundle":{
+    "title": "Bundles",
+    "product_name": "Neumi OG Pack",
+    "price":"260.00"
+  },
+  "multiple_product":{
+    "items":[
+
+      {
+        "product_name": "Hers Essential Pack w/ Neumi Skin",
+        "price":"130"
+      },
+      {
+        "product_name": "Hers Essential Pack w/ NutriSwish",
+        "price":"130"
+      },
+      {
+        "product_name": "Neumi Skin Essential Pack",
+        "price":"130"
+      },
+      {
+        "product_name": "NutriSwish Essential Pack",
+        "price":"130"
+      },
+      {
+        "product_name": "Classic Essential Pack",
+        "price":"130"
+      },
+      {
+        "product_name": "Hers Premium Pack",
+        "price":"260"
+      }
+    ]
+  },
+  "cta":{
+    "title": "A new you starts with Neumi.",
+    "image": "https://cdn.fluid.app/neumi/shop/images/cta_bg.jpg"
+  },
+  "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration. These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
+}
