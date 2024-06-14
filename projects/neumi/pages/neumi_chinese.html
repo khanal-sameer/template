@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-Hans">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neumi商店页面</title>
+    <title>Hers</title>
     <!-- css library import -->
     <link
       rel="stylesheet"
@@ -16,28 +16,390 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../../base/css/style.css">
+    <link rel="stylesheet" href="../../../base/css/style.css" />
   </head>
   <body>
-    <div  class='custom-landing-page neumi-shop-page no-spacing'>
-      <!-- HERO SECTION -->
-        <div class="banner-layout-1 bg-image shop-banner">
-          <div class="container">
-            <div class="wrapper clr-white">
-              <h1 class="clr-white">Neumi产品</h1>
-              <p class="mt-8">当您看起来和感觉最好时，生活就更美好。</p>
-              <div class="btn-section is-flex is-wrap col-gap-12">
-                <span class="btn btn-primary btn-rounded mt-24 shop-product-button">购买我们的产品</span>
-              </div>
-            </div>
+    <div  class='custom-landing-page neumi-hers-landing-page'>
+      <div class="breadcrumb-section">
+        <div class="container">
+          <div class="breadcrumb is-flex is-align-center col-gap-12 row-gap-8 pb-20">
+            <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default: &#39;home&#39;}}&#x2F;shop">所有产品</a>
+              <svg
+                width="6"
+                height="10"
+                viewBox="0 0 6 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M1 1L5 5L1 9" stroke="#4B4B4B" stroke-linecap="round" />
+              </svg>
+            <span class="clr-body">Hers</span>
           </div>
         </div>
-      <!--As seen section-->
+      </div>      <!-- PRODUCT DESCRIPTION -->
+      <div class="product-description-section">
+        <div class="container">
+          <div class="product-wrapper row-gap-32">
 
+            <div class="product-slider">
+              <!-- Preview slider -->
+              <div id="preview-slider" class="splide preview-slider">
+                  <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;slider_1.png"
+                            alt="product"
+                            class="w-full"
+                          />
+                        </li>
+                        <li class="splide__slide">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;slider_2.png"
+                            alt="product"
+                            class="w-full"
+                          />
+                        </li>
+                        <li class="splide__slide">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;slider_3.png"
+                            alt="product"
+                            class="w-full"
+                          />
+                        </li>
+                        <li class="splide__slide">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;slider_4.png"
+                            alt="product"
+                            class="w-full"
+                          />
+                        </li>
+                        <li class="splide__slide">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;slider_5.png"
+                            alt="product"
+                            class="w-full"
+                          />
+                        </li>
+                    </ul>
+                  </div>
+              </div>
+              <!-- Thumbnail slider -->
+              <div id="thumbnail-slider" class="splide thumbnail-slider">
+                <div class="splide__arrows custom-page-slider-arrow-section">
+                    <button class="splide__arrow splide__arrow--prev arrow-prev">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;newulife&#x2F;arrow-icon.svg" alt="nav icon" />
+                    </button>
+                    <button class="splide__arrow splide__arrow--next arrow-next">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;newulife&#x2F;arrow-icon.svg" alt="nav icon" />
+                    </button>
+                </div>
+                  <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;slider_1.png"
+                            alt="product"
+                          />
+                        </li>
+                        <li class="splide__slide">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;slider_2.png"
+                            alt="product"
+                          />
+                        </li>
+                        <li class="splide__slide">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;slider_3.png"
+                            alt="product"
+                          />
+                        </li>
+                        <li class="splide__slide">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;slider_4.png"
+                            alt="product"
+                          />
+                        </li>
+                        <li class="splide__slide">
+                          <img
+                            src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;slider_5.png"
+                            alt="product"
+                          />
+                        </li>
+                    </ul>
+                  </div>
+
+              </div>
+
+            </div><!--.product-slider  -->
+
+            <!-- Product Contents -->
+            <div class="product-content">
+              <div class="product-content_header">
+                <h1>Hers</h1>
+                <div class="is-flex is-start is-align-center col-gap-12 mt-8">
+                  <div class="ratings">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        id="Icon_Review_Start_Yellow"
+                        data-name="Icon/Review Start/Yellow"
+                        d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                        transform="translate(0 -11.796)"
+                        fill="#b484bb"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        id="Icon_Review_Start_Yellow"
+                        data-name="Icon/Review Start/Yellow"
+                        d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                        transform="translate(0 -11.796)"
+                        fill="#b484bb"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        id="Icon_Review_Start_Yellow"
+                        data-name="Icon/Review Start/Yellow"
+                        d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                        transform="translate(0 -11.796)"
+                        fill="#b484bb"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        id="Icon_Review_Start_Yellow"
+                        data-name="Icon/Review Start/Yellow"
+                        d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                        transform="translate(0 -11.796)"
+                        fill="#b484bb"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        id="Icon_Review_Start_Yellow"
+                        data-name="Icon/Review Start/Yellow"
+                        d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                        transform="translate(0 -11.796)"
+                        fill="#b484bb"
+                      />
+                    </svg>
+                  </div>                  <div class="ratings-count text-gray-200 fs-sm">7 条评论</div>
+                </div>
+
+                <div class="mt-20 clr-body"><span class=fw-600>专为女性精心设计的高级营养补充剂，采用先进的Hydrastat纳米技术，以实现最佳吸收。</span></div>
+              </div>
+
+              <div class="product-content_body" data-fluid-checkout-group="9410">
+
+                <div class="select-quantity mt-24">
+                  <div class="select-title">
+                    <span class="fw-500 fs-sm">选择数量</span>
+                  </div>
+                  <div class="custom-select mt-6">
+                    <select id="group-checkout-quantity" class="custom-select w-full">
+                      <option selected>1</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                  </div>
+                  <input type="hidden" id="checkout-quantity" name="fluid-checkout-quantity" value="1">
+                </div>
+
+
+                <!-- Subscribe Card -->
+                  <div class="total-price fw-500 mt-24 secondary-text-color fs-sm">选择频率</div>
+
+                  <div class="subscribe-card mt-6 is-active">
+                    <div class="subscribe-card_header is-flex is-between is-align-center">
+                      <div class="custom-radio inline-flex is-align-center">
+                        <input
+                          type="radio"
+                          id="subscribe"
+                          name="fluid-checkout-subscribe"
+                          value="subscription"
+                          checked
+                        />
+                        <label for="subscribe" class="clr-body">订阅</label>
+                      </div>
+                      <div class="is-flex is-end is-align-center col-gap-16 line-height-1">
+                        <span id="crossed_onetime_price" class="is-strike secondary-text-color fw-500">$65.00</span>
+                        <span class="fw-600 clr-primary fs-lg" id="subscribe_price">$50.00</span>
+                      </div>
+                    </div>
+
+                    <div class="subscribe-card_body">
+                      <ul class="subscribe-features check-list is-flex is-start dir-column gap-4">
+                          <li class="is-flex is-start is-align-start col-gap-12 secondary-text-color fw-500">
+                            <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z"
+                                fill="#DCFAE6"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M17.0964 7.39016L9.93641 14.3002L8.03641 12.2702C7.68641 11.9402 7.13641 11.9202 6.73641 12.2002C6.34641 12.4902 6.23641 13.0002 6.47641 13.4102L8.72641 17.0702C8.94641 17.4102 9.32641 17.6202 9.75641 17.6202C10.1664 17.6202 10.5564 17.4102 10.7764 17.0702C11.1364 16.6002 18.0064 8.41016 18.0064 8.41016C18.9064 7.49016 17.8164 6.68016 17.0964 7.38016V7.39016Z"
+                                fill="#079455"
+                              />
+                            </svg>                            <span>订阅并节省 <span id='pricing'>$15</span></span>
+                          </li>
+                          <li class="is-flex is-start is-align-start col-gap-12 secondary-text-color fw-500">
+                            <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z"
+                                fill="#DCFAE6"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M17.0964 7.39016L9.93641 14.3002L8.03641 12.2702C7.68641 11.9402 7.13641 11.9202 6.73641 12.2002C6.34641 12.4902 6.23641 13.0002 6.47641 13.4102L8.72641 17.0702C8.94641 17.4102 9.32641 17.6202 9.75641 17.6202C10.1664 17.6202 10.5564 17.4102 10.7764 17.0702C11.1364 16.6002 18.0064 8.41016 18.0064 8.41016C18.9064 7.49016 17.8164 6.68016 17.0964 7.38016V7.39016Z"
+                                fill="#079455"
+                              />
+                            </svg>                            <span>赚取Neumi奖励积分</span>
+                          </li>
+                          <li class="is-flex is-start is-align-start col-gap-12 secondary-text-color fw-500">
+                            <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z"
+                                fill="#DCFAE6"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M17.0964 7.39016L9.93641 14.3002L8.03641 12.2702C7.68641 11.9402 7.13641 11.9202 6.73641 12.2002C6.34641 12.4902 6.23641 13.0002 6.47641 13.4102L8.72641 17.0702C8.94641 17.4102 9.32641 17.6202 9.75641 17.6202C10.1664 17.6202 10.5564 17.4102 10.7764 17.0702C11.1364 16.6002 18.0064 8.41016 18.0064 8.41016C18.9064 7.49016 17.8164 6.68016 17.0964 7.38016V7.39016Z"
+                                fill="#079455"
+                              />
+                            </svg>                            <span>30天退款保证</span>
+                          </li>
+                          <li class="is-flex is-start is-align-start col-gap-12 secondary-text-color fw-500">
+                            <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z"
+                                fill="#DCFAE6"
+                              />
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M17.0964 7.39016L9.93641 14.3002L8.03641 12.2702C7.68641 11.9402 7.13641 11.9202 6.73641 12.2002C6.34641 12.4902 6.23641 13.0002 6.47641 13.4102L8.72641 17.0702C8.94641 17.4102 9.32641 17.6202 9.75641 17.6202C10.1664 17.6202 10.5564 17.4102 10.7764 17.0702C11.1364 16.6002 18.0064 8.41016 18.0064 8.41016C18.9064 7.49016 17.8164 6.68016 17.0964 7.38016V7.39016Z"
+                                fill="#079455"
+                              />
+                            </svg>                            <span>随时更新您的订阅</span>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="subscribe-card_footer is-flex is-between is-align-center mt-12">
+                    <div class="custom-radio inline-flex is-align-center">
+                      <input
+                        type="radio"
+                        id="onetime_order"
+                        name="fluid-checkout-subscribe"
+                      />
+                      <label for="onetime_order" class="clr-body">单次购买</label>
+                    </div>
+                    <div class="is-flex is-end is-align-center col-gap-16">
+                      <span class="fw-600 clr-body" id="onetime_order_price">$65.00</span>
+                    </div>
+                  </div>
+
+                <div class="btn-section mt-20">
+                  <button
+                    class="btn btn-rounded w-full text-center btn-primary"
+                    data-fluid-checkout-group-id="9410"
+                    id="add_to_cart"
+                  >
+                    <svg
+                      width="25"
+                      height="24"
+                      viewBox="0 0 25 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M2.5 2H3.80616C4.05218 2 4.17519 2 4.27418 2.04524C4.36142 2.08511 4.43535 2.14922 4.48715 2.22995C4.54593 2.32154 4.56333 2.44332 4.59812 2.68686L5.07143 6M5.07143 6L6.12332 13.7314C6.25681 14.7125 6.32355 15.2031 6.5581 15.5723C6.76478 15.8977 7.06108 16.1564 7.41135 16.3174C7.80886 16.5 8.30394 16.5 9.29411 16.5H17.852C18.7945 16.5 19.2658 16.5 19.651 16.3304C19.9905 16.1809 20.2818 15.9398 20.4923 15.6342C20.7309 15.2876 20.8191 14.8247 20.9955 13.8988L22.3191 6.94969C22.3812 6.62381 22.4122 6.46087 22.3672 6.3335C22.3278 6.22177 22.2499 6.12768 22.1475 6.06802C22.0308 6 21.865 6 21.5332 6H5.07143ZM10.5 21C10.5 21.5523 10.0523 22 9.5 22C8.94772 22 8.5 21.5523 8.5 21C8.5 20.4477 8.94772 20 9.5 20C10.0523 20 10.5 20.4477 10.5 21ZM18.5 21C18.5 21.5523 18.0523 22 17.5 22C16.9477 22 16.5 21.5523 16.5 21C16.5 20.4477 16.9477 20 17.5 20C18.0523 20 18.5 20.4477 18.5 21Z"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>                   加入购物车
+                  </button>
+                  <p class="mt-8 fs-sm">订单满$200+ 免费美国运输</p>
+                </div>
+
+                  <div class="product-content_dsc mt-24">
+                    <h4>好处</h4>
+                    <ul class="product-content_dsc--list pl-24 mt-8">
+                        <li>关键成分，平衡和支持您的荷尔蒙健康，日常使用。</li>
+                        <li>适用于生活中的每个阶段–活跃月经期，更年期前&#x2F;中&#x2F;后。</li>
+                        <li>在仅20分钟的摄入后，显著缓解潮热或经痛。</li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+
+          </div><!--.product-wrapper-->
+        </div><!--.container-->
+      </div>
+
+      <!--As seen section-->
        <!--As seen section-->
         <div class="as-seen page-section-top">
             <div class="container">
-            <h4 class="text-center fw-600 mb-32">如何看待</h4>
+            <h4 class="text-center fw-600 mb-32">如何使用Hers改变生活</h4>
 
             <div id="as-seen_slider" class="splide">
                 <div class="splide__track">
@@ -96,203 +458,979 @@
 
             </div><!--.container---->
         </div><!--/as-seen-->
-      <!-- Main Product List -->
-        <div class="main-product-list page-section-top" id="shop-product">
+
+      <!-- Video Section -->
+        <div class="product-demo-video-section page-section">
           <div class="container">
-            <h2>单品</h2>
-            <div class="product-list mt-2">
-              <div class="row">
-                  <div class="col col-12 col-xs-6">
-                    <div class="main-product-item mt-30">
-                      <div class="image-section">
-                        <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default:&#39;home&#39;}}&#x2F;page&#x2F;nutriswish?preview&#x3D;true">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;nutriswish.png" alt="" class="w-full">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default:&#39;home&#39;}}&#x2F;page&#x2F;nutriswish?preview&#x3D;true">NutriSwish</a>
-                      </div>
-                      <div class="price mt-4 price-color" style="display: none;" id="product_9474">$<span>65.00</span></div>
+            <div class="image-section bg-image is-relative" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;video_cover_image.png);">
+              <a data-fancybox href="https:&#x2F;&#x2F;vimeo.com&#x2F;877308482" class="play-icon play-icon-lg play-icon-bg-white">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 2.86688V16.7331C4.99996 16.8873 5.04106 17.0387 5.11906 17.1718C5.19706 17.3048 5.30915 17.4146 5.44374 17.4898C5.57834 17.5651 5.73057 17.603 5.88474 17.5998C6.03891 17.5966 6.18942 17.5523 6.32076 17.4715L17.5871 10.5384C17.7133 10.4608 17.8175 10.3523 17.8898 10.223C17.962 10.0937 18 9.94811 18 9.80001C18 9.6519 17.962 9.50627 17.8898 9.37701C17.8175 9.24775 17.7133 9.13917 17.5871 9.06163L6.32076 2.12851C6.18942 2.04771 6.03891 2.00341 5.88474 2.00019C5.73057 1.99697 5.57834 2.03494 5.44374 2.11019C5.30915 2.18543 5.19706 2.29523 5.11906 2.42825C5.04106 2.56126 4.99996 2.71268 5 2.86688Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
 
-                    </div>
-                  </div>
-                  <div class="col col-12 col-xs-6">
-                    <div class="main-product-item mt-30">
-                      <div class="image-section">
-                        <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default:&#39;home&#39;}}&#x2F;page&#x2F;neumi-skin?preview&#x3D;true">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;neumiskin.png" alt="" class="w-full">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default:&#39;home&#39;}}&#x2F;page&#x2F;neumi-skin?preview&#x3D;true">Neumi Skin</a>
-                      </div>
-                      <div class="price mt-4 price-color" style="display: none;" id="product_9467">$<span>65.00</span></div>
-
-                    </div>
-                  </div>
-                  <div class="col col-12 col-xs-6">
-                    <div class="main-product-item mt-30">
-                      <div class="image-section">
-                        <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default:&#39;home&#39;}}&#x2F;page&#x2F;hers?preview&#x3D;true">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;hers.png" alt="" class="w-full">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default:&#39;home&#39;}}&#x2F;page&#x2F;hers?preview&#x3D;true">Hers</a>
-                      </div>
-                      <div class="price mt-4 price-color" style="display: none;" id="product_9410">$<span>65.00</span></div>
-
-                    </div>
-                  </div>
-                  <div class="col col-12 col-xs-6">
-                    <div class="main-product-item mt-30">
-                      <div class="image-section">
-                        <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default:&#39;home&#39;}}&#x2F;page&#x2F;neuro?preview&#x3D;true">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;neuro.png" alt="" class="w-full">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="https:&#x2F;&#x2F;neumi.fluid.app&#x2F;{{affiliate_guid | default:&#39;home&#39;}}&#x2F;page&#x2F;neuro?preview&#x3D;true">Neuro</a>
-                      </div>
-                      <div class="price mt-4 price-color" style="display: none;" id="product_">$<span>65.00</span></div>
-
-                    </div>
-                  </div>
-              </div><!--.row---->
-            </div><!-- .product-list -->
-
-          </div><!-- .container -->
-        </div><!-- .main-product-list -->
-
-      <!-- bundle and multiple product-->
-      <div class="page-section">
-        <div class="container">
-          <!-- Product Bundle section -->
-            <div class="product-bundle-section">
-              <h2>套餐</h2>
-              <div class="image-section mt-32">
-                <a href="">
-                  <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;bundle.png" alt="product" class="w-full"/>
-                </a>
-              </div>
-              <div class="fs-md fw-600 clr-body mt-12">
-                <a href="">Neumi经典套装</a></div>
-              <div class="price mt-4 price-color">$260.00</div>
+      <!-- Tab section -->
+        <div class="tab-section clr-bg-white-100 page-section">
+          <div class="container">
+            <div class="section-title text-center">
+              <h2>如何使用Hers改变生活</h2>
             </div>
 
-            <div class="multiple-product-list">
-              <div class="row">
-                  <div class="col col-12 col-xs-6 col-lg-4">
-                    <div class="product-item mt-30">
-                      <div class="image-section">
-                        <a href="">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;hers_neumiskin_essential.png" alt="product">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="">Hers基础套装附Neumi Skin</a>
-                      </div>
-                      <div class="price mt-4 price-color">$130</div>
+            <div class="tabs">
+              <div class="tab-nav-section mt-32 is-flex">
+                <ul class="tab-menu" >
+                  <li class="active">视频评论 <span>(5)</span></li>
+                  <li>书面评论 <span>(2)</span></li>
+                </ul>
+              </div>
+              <div class="tab-content">
+                <!-- Video tab content -->
+                <div class="tab-content-item active tab-video-content">
+                  <div class="splide tab-slider" id="tab-slider">
+                    <div class="splide__arrows custom-page-slider-arrow-section">
+                        <button class="splide__arrow splide__arrow--prev arrow-prev">
+                            <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;newulife&#x2F;arrow-icon.svg" alt="nav icon" />
+                        </button>
+                        <button class="splide__arrow splide__arrow--next arrow-next">
+                            <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;newulife&#x2F;arrow-icon.svg" alt="nav icon" />
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                      <div class="splide__list">
+                          <div class="splide__slide">
+                            <figure>
+                              <img
+                                src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;review_video1.png"
+                                alt="video thumbnail"
+                              />
+                              <a data-fancybox="" href="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;videos&#x2F;review_video1.mp4" class="play-icon">
+                                <svg
+                                  width="20"
+                                  height="20"
+                                  viewBox="0 0 20 20"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M5 2.86688V16.7331C4.99996 16.8873 5.04106 17.0387 5.11906 17.1718C5.19706 17.3048 5.30915 17.4146 5.44374 17.4898C5.57834 17.5651 5.73057 17.603 5.88474 17.5998C6.03891 17.5966 6.18942 17.5523 6.32076 17.4715L17.5871 10.5384C17.7133 10.4608 17.8175 10.3523 17.8898 10.223C17.962 10.0937 18 9.94811 18 9.80001C18 9.6519 17.962 9.50627 17.8898 9.37701C17.8175 9.24775 17.7133 9.13917 17.5871 9.06163L6.32076 2.12851C6.18942 2.04771 6.03891 2.00341 5.88474 2.00019C5.73057 1.99697 5.57834 2.03494 5.44374 2.11019C5.30915 2.18543 5.19706 2.29523 5.11906 2.42825C5.04106 2.56126 4.99996 2.71268 5 2.86688Z"
+                                    fill="white"
+                                  />
+                                </svg>
+                              </a>
+                            </figure>
+                          </div>
+                          <div class="splide__slide">
+                            <figure>
+                              <img
+                                src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;review_video2.png"
+                                alt="video thumbnail"
+                              />
+                              <a data-fancybox="" href="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;videos&#x2F;review_video2.mp4" class="play-icon">
+                                <svg
+                                  width="20"
+                                  height="20"
+                                  viewBox="0 0 20 20"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M5 2.86688V16.7331C4.99996 16.8873 5.04106 17.0387 5.11906 17.1718C5.19706 17.3048 5.30915 17.4146 5.44374 17.4898C5.57834 17.5651 5.73057 17.603 5.88474 17.5998C6.03891 17.5966 6.18942 17.5523 6.32076 17.4715L17.5871 10.5384C17.7133 10.4608 17.8175 10.3523 17.8898 10.223C17.962 10.0937 18 9.94811 18 9.80001C18 9.6519 17.962 9.50627 17.8898 9.37701C17.8175 9.24775 17.7133 9.13917 17.5871 9.06163L6.32076 2.12851C6.18942 2.04771 6.03891 2.00341 5.88474 2.00019C5.73057 1.99697 5.57834 2.03494 5.44374 2.11019C5.30915 2.18543 5.19706 2.29523 5.11906 2.42825C5.04106 2.56126 4.99996 2.71268 5 2.86688Z"
+                                    fill="white"
+                                  />
+                                </svg>
+                              </a>
+                            </figure>
+                          </div>
+                          <div class="splide__slide">
+                            <figure>
+                              <img
+                                src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;review_video3.png"
+                                alt="video thumbnail"
+                              />
+                              <a data-fancybox="" href="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;videos&#x2F;review_video3.mp4" class="play-icon">
+                                <svg
+                                  width="20"
+                                  height="20"
+                                  viewBox="0 0 20 20"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M5 2.86688V16.7331C4.99996 16.8873 5.04106 17.0387 5.11906 17.1718C5.19706 17.3048 5.30915 17.4146 5.44374 17.4898C5.57834 17.5651 5.73057 17.603 5.88474 17.5998C6.03891 17.5966 6.18942 17.5523 6.32076 17.4715L17.5871 10.5384C17.7133 10.4608 17.8175 10.3523 17.8898 10.223C17.962 10.0937 18 9.94811 18 9.80001C18 9.6519 17.962 9.50627 17.8898 9.37701C17.8175 9.24775 17.7133 9.13917 17.5871 9.06163L6.32076 2.12851C6.18942 2.04771 6.03891 2.00341 5.88474 2.00019C5.73057 1.99697 5.57834 2.03494 5.44374 2.11019C5.30915 2.18543 5.19706 2.29523 5.11906 2.42825C5.04106 2.56126 4.99996 2.71268 5 2.86688Z"
+                                    fill="white"
+                                  />
+                                </svg>
+                              </a>
+                            </figure>
+                          </div>
+                          <div class="splide__slide">
+                            <figure>
+                              <img
+                                src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;review_video4.png"
+                                alt="video thumbnail"
+                              />
+                              <a data-fancybox="" href="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;videos&#x2F;review_video4.mp4" class="play-icon">
+                                <svg
+                                  width="20"
+                                  height="20"
+                                  viewBox="0 0 20 20"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M5 2.86688V16.7331C4.99996 16.8873 5.04106 17.0387 5.11906 17.1718C5.19706 17.3048 5.30915 17.4146 5.44374 17.4898C5.57834 17.5651 5.73057 17.603 5.88474 17.5998C6.03891 17.5966 6.18942 17.5523 6.32076 17.4715L17.5871 10.5384C17.7133 10.4608 17.8175 10.3523 17.8898 10.223C17.962 10.0937 18 9.94811 18 9.80001C18 9.6519 17.962 9.50627 17.8898 9.37701C17.8175 9.24775 17.7133 9.13917 17.5871 9.06163L6.32076 2.12851C6.18942 2.04771 6.03891 2.00341 5.88474 2.00019C5.73057 1.99697 5.57834 2.03494 5.44374 2.11019C5.30915 2.18543 5.19706 2.29523 5.11906 2.42825C5.04106 2.56126 4.99996 2.71268 5 2.86688Z"
+                                    fill="white"
+                                  />
+                                </svg>
+                              </a>
+                            </figure>
+                          </div>
+                          <div class="splide__slide">
+                            <figure>
+                              <img
+                                src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;review_video5.png"
+                                alt="video thumbnail"
+                              />
+                              <a data-fancybox="" href="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;videos&#x2F;review_video5.mp4" class="play-icon">
+                                <svg
+                                  width="20"
+                                  height="20"
+                                  viewBox="0 0 20 20"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M5 2.86688V16.7331C4.99996 16.8873 5.04106 17.0387 5.11906 17.1718C5.19706 17.3048 5.30915 17.4146 5.44374 17.4898C5.57834 17.5651 5.73057 17.603 5.88474 17.5998C6.03891 17.5966 6.18942 17.5523 6.32076 17.4715L17.5871 10.5384C17.7133 10.4608 17.8175 10.3523 17.8898 10.223C17.962 10.0937 18 9.94811 18 9.80001C18 9.6519 17.962 9.50627 17.8898 9.37701C17.8175 9.24775 17.7133 9.13917 17.5871 9.06163L6.32076 2.12851C6.18942 2.04771 6.03891 2.00341 5.88474 2.00019C5.73057 1.99697 5.57834 2.03494 5.44374 2.11019C5.30915 2.18543 5.19706 2.29523 5.11906 2.42825C5.04106 2.56126 4.99996 2.71268 5 2.86688Z"
+                                    fill="white"
+                                  />
+                                </svg>
+                              </a>
+                            </figure>
+                          </div>
 
+                      </div>
                     </div>
                   </div>
-                  <div class="col col-12 col-xs-6 col-lg-4">
-                    <div class="product-item mt-30">
-                      <div class="image-section">
-                        <a href="">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;hers_nutriswish_essential.png" alt="product">
-                        </a>
+                </div>
+                <!-- Review tab content -->
+                <div class="tab-content-item">
+                  <div class="reviews">
+                    <!-- Review Header section -->
+                    <div class="reviews-header is-flex is-center is-alilgn-center gap-16 is-wrap">
+                      <div class="average-review text-center">
+                        <div class="is-flex is-center is-align-center col-gap-12">
+                          <div class="ratings">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                id="Icon_Review_Start_Yellow"
+                                data-name="Icon/Review Start/Yellow"
+                                d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                transform="translate(0 -11.796)"
+                                fill="#b484bb"
+                              />
+                            </svg>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                id="Icon_Review_Start_Yellow"
+                                data-name="Icon/Review Start/Yellow"
+                                d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                transform="translate(0 -11.796)"
+                                fill="#b484bb"
+                              />
+                            </svg>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                id="Icon_Review_Start_Yellow"
+                                data-name="Icon/Review Start/Yellow"
+                                d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                transform="translate(0 -11.796)"
+                                fill="#b484bb"
+                              />
+                            </svg>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                id="Icon_Review_Start_Yellow"
+                                data-name="Icon/Review Start/Yellow"
+                                d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                transform="translate(0 -11.796)"
+                                fill="#b484bb"
+                              />
+                            </svg>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                id="Icon_Review_Start_Yellow"
+                                data-name="Icon/Review Start/Yellow"
+                                d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                transform="translate(0 -11.796)"
+                                fill="#b484bb"
+                              />
+                            </svg>
+                          </div>                        </div>
+                        <h4 class="clr-body fw-bold mt-6">5星评分</h4>
+                        <div class="ratings-count mt-6 fs-sm">7 条评论</div>
                       </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="">Hers基础套装附NutriSwish</a>
-                      </div>
-                      <div class="price mt-4 price-color">$130</div>
-
+                      <!-- <button class="btn btn-white">Write a review</button> -->
                     </div>
-                  </div>
-                  <div class="col col-12 col-xs-6 col-lg-4">
-                    <div class="product-item mt-30">
-                      <div class="image-section">
-                        <a href="">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;neumiskin_essential.png" alt="product">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="">Neumi Skin基础套装</a>
-                      </div>
-                      <div class="price mt-4 price-color">$130</div>
+                    <!-- Review List -->
+                    <ul class="reviews-list">
+                        <li class="is-grid">
+                          <div class="reviewer">
+                            <p class="fw-600">Aidan D..</p>
+                            <div class="reviewer-address fs-md clr-body-600">犹他州盐湖城</div>
+                            <div class="ratings">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#b484bb"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#b484bb"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#b484bb"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#b484bb"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#b484bb"
+                                />
+                              </svg>
+                            </div>                          </div>
 
-                    </div>
-                  </div>
-                  <div class="col col-12 col-xs-6 col-lg-4">
-                    <div class="product-item mt-30">
-                      <div class="image-section">
-                        <a href="">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;nutriswish_essential.png" alt="product">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="">NutriSwish基础套装</a>
-                      </div>
-                      <div class="price mt-4 price-color">$130</div>
+                          <div class="reviewer-review">
+                            <div class="review-review_header is-flex is-start gap-8">
+                              <span class="clr-body-600">2小时前</span>
+                            </div>
+                            <div class="reviewer-review_content clr-body mt-8">Hers对我来说是一个改变游戏规则的产品！我现在已经使用了几个月，我注意到我的能量水平和整体活力显着改善。简直不可思议，一些如此简单的东西能产生如此深远的影响。强烈推荐！</div>
+                          </div>
+                        </li>
+                        <li class="is-grid">
+                          <div class="reviewer">
+                            <p class="fw-600">Lola P..</p>
+                            <div class="reviewer-address fs-md clr-body-600">夏威夷州拉伊</div>
+                            <div class="ratings">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#b484bb"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#b484bb"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#b484bb"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#b484bb"
+                                />
+                              </svg>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  id="Icon_Review_Start_Yellow"
+                                  data-name="Icon/Review Start/Yellow"
+                                  d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                                  transform="translate(0 -11.796)"
+                                  fill="#b484bb"
+                                />
+                              </svg>
+                            </div>                          </div>
 
-                    </div>
-                  </div>
-                  <div class="col col-12 col-xs-6 col-lg-4">
-                    <div class="product-item mt-30">
-                      <div class="image-section">
-                        <a href="">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;classic_essential.png" alt="product">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="">经典基础套装</a>
-                      </div>
-                      <div class="price mt-4 price-color">$130</div>
+                          <div class="reviewer-review">
+                            <div class="review-review_header is-flex is-start gap-8">
+                              <span class="clr-body-600">2小时前</span>
+                            </div>
+                            <div class="reviewer-review_content clr-body mt-8">多年来，我一直在努力维持荷尔蒙平衡，但Hers带来了天壤之别。我不仅感到更加平衡和充满活力，还注意到我的皮肤色调和肌肉线条的改善。这真是不可思议！</div>
+                          </div>
+                        </li>
+                    </ul>
 
-                    </div>
-                  </div>
-                  <div class="col col-12 col-xs-6 col-lg-4">
-                    <div class="product-item mt-30">
-                      <div class="image-section">
-                        <a href="">
-                          <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;hers_premium.png" alt="product">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="">Hers高级套装</a>
-                      </div>
-                      <div class="price mt-4 price-color">$260</div>
+                  </div><!--.reviews-->
+                </div><!--.tabs-content_item-->
+              </div>
 
-                    </div>
-                  </div>
-              </div><!-- .row -->
-            </div><!-- .multiple-product-list -->
-        </div>
-      </div>
+            </div><!--.tabs-->
+          </div><!--.container---->
+        </div><!--.tab-section-->
 
-        <div class="cta-section cta-layout-2 page-section clr-bg-700_bg">
+      <!-- Benefits -->
+      <section class="page-section key-ingredients  feature-product-benefits-section">
           <div class="container">
-            <div class="wrapper bg-image image-section overlay overlay-rounded-8" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;shop&#x2F;images&#x2F;cta_bg.jpg);">
-              <div class="desc-wrapper">
-                <h2 class="clr-white">全新的自己从Neumi开始。</h2>
-                <div class="btn-section is-flex is-wrap col-gap-12 mt-8">
-                  <span class="btn btn-primary btn-rounded mt-24 shop-product-button">购买我们的产品</span>
+
+            <div class="section-title text-center">
+              <h2>使用Hers的好处</h2>
+              <p class="w-820 m-auto clr-body mt-32"><span class='fw-600'>每个女性都知道周期和荷尔蒙变化带来的不便。</span>通过我们的HydraStat™纳米技术，迅速获得结果。我们的纳米级成分包裹在水团中，足够小以完全被人体细胞吸收，正好在您需要的地方！</p>
+            </div>
+
+            <div class="feature-section-layout-1 secondary-font">
+              <div class="row is-align-center">
+                <div class="col col-12 col-lg-6">
+                  <div class="image-section mt-lg-32">
+                    <img
+                      src="file:&#x2F;&#x2F;&#x2F;home&#x2F;kalpana&#x2F;Downloads&#x2F;Hers%202%201.png"
+                      alt="Hers产品"
+                      class="m-auto mr-lg-0"
+                    />
+                  </div>
+                </div>
+
+                <div class="col col-12 col-lg-6">
+                  <div class="feature-item-list">
+                    <div class="row">
+                        <div class="col col-12 col-sm-6 col-lg-12">
+                          <div class="product-feature-item product-feature-item-style-1 mt-32 mt-lg-50">
+                            <div class="icon-section">
+                              <svg width="42" height="52" viewBox="0 0 42 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.5 24.8259L18.5 29.878L29.75 18.5107M41 26.0889C41 38.488 27.6151 47.5059 22.745 50.3767C22.1915 50.703 21.9148 50.8661 21.5242 50.9507C21.2211 51.0164 20.7789 51.0164 20.4758 50.9507C20.0852 50.8661 19.8085 50.703 19.255 50.3767C14.3849 47.5059 1 38.488 1 26.0889V14.0082C1 11.9886 1 10.9788 1.3269 10.1108C1.61569 9.34395 2.08496 8.65974 2.69415 8.11727C3.38374 7.5032 4.3195 7.14864 6.19101 6.4395L19.5955 1.3604C20.1152 1.16347 20.3751 1.065 20.6425 1.02597C20.8796 0.991344 21.1204 0.991344 21.3575 1.02597C21.6249 1.065 21.8848 1.16347 22.4045 1.3604L35.809 6.4395C37.6805 7.14864 38.6163 7.5032 39.3059 8.11727C39.915 8.65974 40.3843 9.34395 40.6731 10.1108C41 10.9788 41 11.9886 41 14.0082V26.0889Z" stroke="#BC50B0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                            </div><!--.icon-section-->
+
+                            <div class="desc pl-24">
+                              <h4>您可以信赖的成分</h4>
+                              <p class="mt-24">Hers使用我们的HydraStat™纳米递送系统，最大化白牡丹提取物、丝瓜、当归、玛卡根、灵芝和其他营养成分的吸收和有效性。</p>
+                            </div>
+                          </div><!--.product-feature-item-style-1-->
+                        </div><!--.col-->
+                        <div class="col col-12 col-sm-6 col-lg-12">
+                          <div class="product-feature-item product-feature-item-style-1 mt-32 mt-lg-50">
+                            <div class="icon-section">
+                              <svg width="42" height="44" viewBox="0 0 42 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.2544 43V19.9M1 24.1V38.8C1 41.1196 2.83642 43 5.10176 43H32.6374C35.6742 43 38.2567 40.7313 38.7185 37.658L40.9271 22.958C41.5005 19.1417 38.6169 15.7 34.846 15.7H27.6615C26.5288 15.7 25.6106 14.7598 25.6106 13.6V6.17826C25.6106 3.31839 23.3464 1 20.5534 1C19.8873 1 19.2836 1.40172 19.013 2.02506L11.7957 18.6529C11.4665 19.4113 10.7321 19.9 9.92159 19.9H5.10176C2.83642 19.9 1 21.7804 1 24.1Z" stroke="#BC50B0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                            </div><!--.icon-section-->
+
+                            <div class="desc pl-24">
+                              <h4>您可以依赖的结果</h4>
+                              <p class="mt-24">我们进行了一项双盲临床试验，80%的参与者，从活跃月经期到绝经后，看到了症状显著改善的标志。特别是一些经历潮热或经痛的人在仅20分钟内报告了显著缓解。</p>
+                            </div>
+                          </div><!--.product-feature-item-style-1-->
+                        </div><!--.col-->
+                        <div class="col col-12 col-sm-6 col-lg-12">
+                          <div class="product-feature-item product-feature-item-style-1 mt-32 mt-lg-50">
+                            <div class="icon-section">
+                              <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M40.8752 23.1005C40.2221 29.2404 36.7452 34.994 30.9921 38.3176C21.4336 43.8395 9.21128 40.5626 3.69271 30.9984L3.10493 29.9797M1.12461 18.8995C1.77776 12.7596 5.25457 7.00597 11.0077 3.68238C20.5662 -1.83953 32.7885 1.43741 38.3071 11.0016L38.8949 12.0203M1 35.2704L2.72114 28.8431L9.14452 30.5653M32.8555 11.4346L39.2789 13.1567L41 6.72948M21 10.4135V20.9999L26.8778 24.5288" stroke="#BC50B0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                            </div><!--.icon-section-->
+
+                            <div class="desc pl-24">
+                              <h4>适合生活的每个阶段</h4>
+                              <p class="mt-24">Hers专为所有女性设计，适用于生活的每个阶段。我们植物配方中的每种成分都经过精心挑选，以创造一种全面的好处混合。通过Hers，每个女性都可以茁壮成长。</p>
+                            </div>
+                          </div><!--.product-feature-item-style-1-->
+                        </div><!--.col-->
+                    </div><!--.row-->
+                  </div><!--.feature-item-list-->
+                </div><!--.col-->
+
+              </div><!--.row-->
+            </div><!--.feature-section-layout-1-->
+
+          </div><!--.container-->
+        </section>
+
+      <!-- Product List(square image) -->
+        <section class="product-post product-style-1 is-flex is-wrap overlay-animation">
+          <div class="col-12 col-lg-6 order-lg-2">
+            <div class="image-section">
+              <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;innovative.png" alt="product">
+              <div class="overlay overlay-right"></div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6  desc clr-bg-white-100 order-lg-1">
+            <div class="wrapper">
+              <h2>创新科学</h2>
+              <p class="mt-32 clr-body">谷胱甘肽是细胞的保护和解毒剂。<span class=fw-600 highlight-text>它是每个人类细胞的生命、健康、性能、保护和长寿的关键。</span></p>
+              <div class="btn-section mt-32">
+                <button
+                  class="btn w-full text-center btn-primary btn-rounded"
+                  data-fluid-checkout="9410"
+                  id="add_to_cart"
+                >
+                  <svg
+                    width="25"
+                    height="24"
+                    viewBox="0 0 25 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2.5 2H3.80616C4.05218 2 4.17519 2 4.27418 2.04524C4.36142 2.08511 4.43535 2.14922 4.48715 2.22995C4.54593 2.32154 4.56333 2.44332 4.59812 2.68686L5.07143 6M5.07143 6L6.12332 13.7314C6.25681 14.7125 6.32355 15.2031 6.5581 15.5723C6.76478 15.8977 7.06108 16.1564 7.41135 16.3174C7.80886 16.5 8.30394 16.5 9.29411 16.5H17.852C18.7945 16.5 19.2658 16.5 19.651 16.3304C19.9905 16.1809 20.2818 15.9398 20.4923 15.6342C20.7309 15.2876 20.8191 14.8247 20.9955 13.8988L22.3191 6.94969C22.3812 6.62381 22.4122 6.46087 22.3672 6.3335C22.3278 6.22177 22.2499 6.12768 22.1475 6.06802C22.0308 6 21.865 6 21.5332 6H5.07143ZM10.5 21C10.5 21.5523 10.0523 22 9.5 22C8.94772 22 8.5 21.5523 8.5 21C8.5 20.4477 8.94772 20 9.5 20C10.0523 20 10.5 20.4477 10.5 21ZM18.5 21C18.5 21.5523 18.0523 22 17.5 22C16.9477 22 16.5 21.5523 16.5 21C16.5 20.4477 16.9477 20 17.5 20C18.0523 20 18.5 20.4477 18.5 21Z"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>                  加入购物车
+                </button>
+              </div>
+            </div>
+          </div><!--.desc-->
+        </section>
+        <section class="product-post product-style-1 is-flex is-wrap overlay-animation">
+          <div class="col-12 col-lg-6 ">
+            <div class="image-section">
+              <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;nano.png" alt="product">
+              <div class="overlay overlay-left"></div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6  desc clr-bg-white-100 ">
+            <div class="wrapper">
+              <h2>HydraStat™纳米技术</h2>
+              <p class="mt-32 clr-body"><span class=fw-600>纳米级粒子由超纯水团保护。</span>我们的纳米级成分足够小，能够完全被人体细胞吸收。</p>
+              <div class="btn-section mt-32">
+                <button
+                  class="btn w-full text-center btn-primary btn-rounded"
+                  data-fluid-checkout="9410"
+                  id="add_to_cart"
+                >
+                  <svg
+                    width="25"
+                    height="24"
+                    viewBox="0 0 25 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2.5 2H3.80616C4.05218 2 4.17519 2 4.27418 2.04524C4.36142 2.08511 4.43535 2.14922 4.48715 2.22995C4.54593 2.32154 4.56333 2.44332 4.59812 2.68686L5.07143 6M5.07143 6L6.12332 13.7314C6.25681 14.7125 6.32355 15.2031 6.5581 15.5723C6.76478 15.8977 7.06108 16.1564 7.41135 16.3174C7.80886 16.5 8.30394 16.5 9.29411 16.5H17.852C18.7945 16.5 19.2658 16.5 19.651 16.3304C19.9905 16.1809 20.2818 15.9398 20.4923 15.6342C20.7309 15.2876 20.8191 14.8247 20.9955 13.8988L22.3191 6.94969C22.3812 6.62381 22.4122 6.46087 22.3672 6.3335C22.3278 6.22177 22.2499 6.12768 22.1475 6.06802C22.0308 6 21.865 6 21.5332 6H5.07143ZM10.5 21C10.5 21.5523 10.0523 22 9.5 22C8.94772 22 8.5 21.5523 8.5 21C8.5 20.4477 8.94772 20 9.5 20C10.0523 20 10.5 20.4477 10.5 21ZM18.5 21C18.5 21.5523 18.0523 22 17.5 22C16.9477 22 16.5 21.5523 16.5 21C16.5 20.4477 16.9477 20 17.5 20C18.0523 20 18.5 20.4477 18.5 21Z"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>                  加入购物车
+                </button>
+              </div>
+            </div>
+          </div><!--.desc-->
+        </section>
+        <section class="product-post product-style-1 is-flex is-wrap overlay-animation">
+          <div class="col-12 col-lg-6 order-lg-2">
+            <div class="image-section">
+              <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;quality.png" alt="product">
+              <div class="overlay overlay-right"></div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6  desc clr-bg-white-100 order-lg-1">
+            <div class="wrapper">
+              <h2>质量胜过数量</h2>
+              <p class="mt-32 clr-body">补充剂的好坏取决于其生物利用度，即它被身体吸收和利用的能力。<span class=fw-600 highlight-text>正确的递送系统以身体能够吸收和使用的方式将成分输送到您的身体。</span></p>
+              <div class="btn-section mt-32">
+                <button
+                  class="btn w-full text-center btn-primary btn-rounded"
+                  data-fluid-checkout="9410"
+                  id="add_to_cart"
+                >
+                  <svg
+                    width="25"
+                    height="24"
+                    viewBox="0 0 25 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2.5 2H3.80616C4.05218 2 4.17519 2 4.27418 2.04524C4.36142 2.08511 4.43535 2.14922 4.48715 2.22995C4.54593 2.32154 4.56333 2.44332 4.59812 2.68686L5.07143 6M5.07143 6L6.12332 13.7314C6.25681 14.7125 6.32355 15.2031 6.5581 15.5723C6.76478 15.8977 7.06108 16.1564 7.41135 16.3174C7.80886 16.5 8.30394 16.5 9.29411 16.5H17.852C18.7945 16.5 19.2658 16.5 19.651 16.3304C19.9905 16.1809 20.2818 15.9398 20.4923 15.6342C20.7309 15.2876 20.8191 14.8247 20.9955 13.8988L22.3191 6.94969C22.3812 6.62381 22.4122 6.46087 22.3672 6.3335C22.3278 6.22177 22.2499 6.12768 22.1475 6.06802C22.0308 6 21.865 6 21.5332 6H5.07143ZM10.5 21C10.5 21.5523 10.0523 22 9.5 22C8.94772 22 8.5 21.5523 8.5 21C8.5 20.4477 8.94772 20 9.5 20C10.0523 20 10.5 20.4477 10.5 21ZM18.5 21C18.5 21.5523 18.0523 22 17.5 22C16.9477 22 16.5 21.5523 16.5 21C16.5 20.4477 16.9477 20 17.5 20C18.0523 20 18.5 20.4477 18.5 21Z"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>                  加入购物车
+                </button>
+              </div>
+            </div>
+          </div><!--.desc-->
+        </section>
+
+      <!-- Key ingredients section -->
+        <section class="page-section key-ingredients-section ingredients">
+          <div class="section-title text-center">
+            <div class="container">
+              <h2>Hers关键成分</h2>
+            </div>
+          </div>
+          <div class="key-ingredients-slider-desktop-section">
+            <div class="container">
+              <div id="key-ingredients-slider-desktop" class="splide m-auto">
+                <div class="splide__arrows custom-page-slider-arrow-section">
+                    <button class="splide__arrow splide__arrow--prev arrow-prev">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;newulife&#x2F;arrow-icon.svg" alt="nav icon" />
+                    </button>
+                    <button class="splide__arrow splide__arrow--next arrow-next">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;newulife&#x2F;arrow-icon.svg" alt="nav icon" />
+                    </button>
+                </div>
+                <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide">
+                          <div class="item mt-32">
+                            <div class="image-section"style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;damiana.png)"></div>
+                            <div class="ingredient-name text-center clr-body">达米安娜</div>
+                          </div>
+                          <div class="item mt-32">
+                            <div class="image-section"style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;dong-quai-root.png)"></div>
+                            <div class="ingredient-name text-center clr-body">当归根</div>
+                          </div>
+                      </li>
+
+                      <li class="splide__slide">
+                          <div class="item mt-32">
+                            <div class="image-section"style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;ginger.webp)"></div>
+                            <div class="ingredient-name text-center clr-body">姜</div>
+                          </div>
+                          <div class="item mt-32">
+                            <div class="image-section"style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;Chasteberry.png)"></div>
+                            <div class="ingredient-name text-center clr-body">丝瓜提取物</div>
+                          </div>
+                      </li>
+
+                      <li class="splide__slide">
+                          <div class="item mt-32">
+                            <div class="image-section"style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;maca-root.png)"></div>
+                            <div class="ingredient-name text-center clr-body">玛卡根</div>
+                          </div>
+                          <div class="item mt-32">
+                            <div class="image-section"style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;black-cohosh.png)"></div>
+                            <div class="ingredient-name text-center clr-body">黑升麻</div>
+                          </div>
+                      </li>
+
+                      <li class="splide__slide">
+                          <div class="item mt-32">
+                            <div class="image-section"style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;Ashwagandharoot.webp)"></div>
+                            <div class="ingredient-name text-center clr-body">灵芝</div>
+                          </div>
+                          <div class="item mt-32">
+                            <div class="image-section"style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;peony-white-root.webp)"></div>
+                            <div class="ingredient-name text-center clr-body">白芍药根</div>
+                          </div>
+                      </li>
+
+                  </ul>
+                </div>
+              </div><!-- .key-ingredients-slider -->
+            </div><!-- .container -->
+          </div>
+          <div class="key-ingredients-slider-mobile-section">
+            <div class="container">
+              <div id="key-ingredients-slider-mobile" class="splide">
+
+                <div class="splide__arrows custom-page-slider-arrow-section">
+                    <button class="splide__arrow splide__arrow--prev arrow-prev">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;newulife&#x2F;arrow-icon.svg" alt="nav icon" />
+                    </button>
+                    <button class="splide__arrow splide__arrow--next arrow-next">
+                        <img src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;newulife&#x2F;arrow-icon.svg" alt="nav icon" />
+                    </button>
+                </div>
+                <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide">
+                        <div class="item mt-32">
+                          <div class="image-section" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;damiana.png)"></div>
+                          <div class="ingredient-name text-center clr-body">达米安娜</div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="item mt-32">
+                          <div class="image-section" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;ginger.webp)"></div>
+                          <div class="ingredient-name text-center clr-body">姜</div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="item mt-32">
+                          <div class="image-section" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;maca-root.png)"></div>
+                          <div class="ingredient-name text-center clr-body">玛卡根</div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="item mt-32">
+                          <div class="image-section" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;Ashwagandharoot.webp)"></div>
+                          <div class="ingredient-name text-center clr-body">灵芝</div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="item mt-32">
+                          <div class="image-section" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;dong-quai-root.png)"></div>
+                          <div class="ingredient-name text-center clr-body">当归根</div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="item mt-32">
+                          <div class="image-section" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;Chasteberry.png)"></div>
+                          <div class="ingredient-name text-center clr-body">丝瓜提取物</div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="item mt-32">
+                          <div class="image-section" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;black-cohosh.png)"></div>
+                          <div class="ingredient-name text-center clr-body">黑升麻</div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="item mt-32">
+                          <div class="image-section" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;peony-white-root.webp)"></div>
+                          <div class="ingredient-name text-center clr-body">白芍药根</div>
+                        </div>
+                      </li>
+                  </ul>
+                </div>
+
+              </div><!-- .key-ingredients-slider -->
+            </div><!-- container -->
+          </div><!-- .key-ingredients-slider-mobile-section -->
+
+          <div class="container">
+            <div class="key-note fs-sm text-center pt-60"><span class=fw-600>活性成分:</span> 超纯水, B6, B12, 山梨酸钾, 苯甲酸钠, 留兰香提取物.</div>
+          </div>
+        </section>
+
+      <!-- How to use -->
+        <section class="page-section page-section_howtouse clr-bg-white-100 how-to-use-section">
+          <div class="container">
+            <div class="row">
+
+              <div class="col col-12 col-lg-6">
+                <div class="image-section bg-image" style="background-image: url(https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;intake.png)"></div>
+              </div>
+
+              <div class="col col-lg-6 pt-32 pt-lg-0">
+                <div class="desc items-center h-full">
+                  <h2>如何使用</h2>
+                  <ul class="item-list list-disc mt-20">
+                      <li>量取两 (2) 茶匙的产品。一个瓶盖 &#x3D; 一茶匙。</li>
+                      <li>在口中漱口30秒或更久。</li>
+                      <li>与漱口水不同，您可以吞下Hers。如果您喜欢，也可以把它吐出来。</li>
+                      <li>每天重复这些步骤两次。如有需要，可以更频繁地使用Hers。</li>
+                  </ul>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
 
-      <div class="page-note-section pt-32 pb-32">
+            </div><!-- .row -->
+          </div><!-- .container -->
+        </section>
+      <!-- FAQS  -->
+        <section class="page-section page-section_accordion">
+          <div class="container">
+            <h2>谷胱甘肽的好处</h2>
+            <div class="acc mt-32" id="acc">
+                <div class="acc-item acc-item_active">
+
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h5 class="flex-1">增强免疫系统</h5>
+                    <div class="is-flex is-end acc-item_toggle clr-primary">
+                      <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="plus-icon"
+                      >
+                      <path
+                        d="M12 5V19M5 12H19"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      </svg>
+
+                      <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="minus-icon"
+                      >
+                      <path
+                        d="M5 12H19"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      </svg>                    </div>
+                  </div>
+
+                  <div class="acc-item_body">谷胱甘肽能够中和自由基并保护身体免受它们的有害影响。它还有助于减少炎症，并支持身体自然抵抗感染的能力。此外，它在新免疫细胞的合成中起着作用，使您的免疫系统保持最佳状态。</div>
+
+                </div>
+                <div class="acc-item ">
+
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h5 class="flex-1">增加能量</h5>
+                    <div class="is-flex is-end acc-item_toggle clr-primary">
+                      <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="plus-icon"
+                      >
+                      <path
+                        d="M12 5V19M5 12H19"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      </svg>
+
+                      <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="minus-icon"
+                      >
+                      <path
+                        d="M5 12H19"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      </svg>                    </div>
+                  </div>
+
+                  <div class="acc-item_body">它还有助于减少炎症，并支持身体自然抵抗感染的能力。此外，它在新免疫细胞的合成中起着作用，使您的免疫系统保持最佳状态。</div>
+
+                </div>
+                <div class="acc-item ">
+
+                  <div class="acc-item_header is-flex is-between col-gap-12">
+                    <h5 class="flex-1">增强耐力和持久力</h5>
+                    <div class="is-flex is-end acc-item_toggle clr-primary">
+                      <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="plus-icon"
+                      >
+                      <path
+                        d="M12 5V19M5 12H19"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      </svg>
+
+                      <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="minus-icon"
+                      >
+                      <path
+                        d="M5 12H19"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      </svg>                    </div>
+                  </div>
+
+                  <div class="acc-item_body">它还有助于减少炎症，并支持身体自然抵抗感染的能力。此外，它在新免疫细胞的合成中起着作用，使您的免疫系统保持最佳状态。</div>
+
+                </div>
+            </div><!-- .acc -->
+          </div> <!-- .container -->
+        </section>
+      <!-- Support -->
+        <section class="cta-section cta-layout-1 cta-lg">
+          <div class="container">
+            <div class="cta-banner-wrapper">
+              <div class="cta-banner-content">
+                <h2 class="clr-white">全新的自我从Neumi开始</h2>
+                <p class="fs-lg "></p>
+                <div class="btn-section mt-20">
+                  <div class="row">
+                    <div class="col col-12 col-xs-6">
+                      <button
+                        class="btn btn-white btn-rounded  mt-12"
+                        data-fluid-subscription-checkout="9410"
+                      >
+                      添加到订阅
+                      </button>
+                    </div>
+
+                    <div class="col col-12 col-xs-6">
+                      <button
+                        class="btn btn-border btn-border_white btn-rounded  mt-12"
+                        data-fluid-checkout="9410"
+                      >
+                        一次性购买
+                      </button>
+                    </div>
+                  </div><!-- .row -->
+                </div><!-- .btns-->
+              </div>
+
+              <div class="cta-banner-figure">
+                <img
+                  src="https:&#x2F;&#x2F;cdn.fluid.app&#x2F;neumi&#x2F;hers&#x2F;images&#x2F;cta.png"
+                  alt="cta support"
+                />
+              </div>
+            </div><!-- .cta-banner_wrap -->
+          </div><!-- .container -->
+        </section>
+      <!-- NOTE SECTION -->
+      <div class="page-note-section pb-32">
         <div class="container">
-          <div class="caption fs-sm">
-            <span>本网站中的声明未经食品和药物管理局评估。本公司的声明和产品不旨在诊断、治疗、治愈或预防任何疾病。Neumi表达的观点和营养建议并非旨在提供医疗建议。如果您正在服用任何药物或有任何健康问题，请务必咨询您的医疗保健提供者。个体结果可能有所不同。</span>
+          <div class="caption">
+            <span class="fs-sm">本网站中的声明未经食品和药物管理局评估。本公司的声明和产品未旨在诊断、治疗、治愈或预防任何疾病。Neumi表达的观点和营养建议并非用于提供医疗建议。如果您正在服用任何药物或有任何健康问题，请务必咨询您的医疗保健提供者。个人结果可能有所不同。</span>
           </div>
         </div>
-      </div>
-
-    </div><!-- .neumi-landing-page -->
+      </div><!-- .page-note-section -->    </div>
 
     <!-- Js library import -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -302,7 +1440,72 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script>
+      $(document).ready(function () {
+      // video popup
+        $("[data-fancybox]").fancybox({
+          youtube: {
+            controls: 0,
+            modestbranding: 1, // Use modestbranding instead of showinfo
+          },
+        });
+        $(".reviews-pagination a").on("click", function (e) {
+          e.preventDefault();
+        });
+      });
+
       document.addEventListener("DOMContentLoaded", function () {
+        // 2. Subscribe Card Toggle
+        const subscribeCard = document.querySelector(".subscribe-card");
+        const subscribeCheckbox = document.getElementById("subscribe");
+        const oneTimeOrderCheckbox = document.getElementById("onetime_order");
+
+        const selectQuantityElement = document.getElementById("group-checkout-quantity");
+        const hiddenQuantityInput = document.getElementById("checkout-quantity");
+
+        function updateHiddenInput() {
+            hiddenQuantityInput.value = selectQuantityElement.value;
+        }
+
+        // Function to update hidden input value when select changes
+        selectQuantityElement.addEventListener("change", updateHiddenInput);
+
+        // Initial assignment on page load
+        updateHiddenInput();
+
+        function toggleSubscribeCard(checked) {
+          subscribeCard.classList.toggle("is-active", checked);
+        }
+
+        subscribeCheckbox.addEventListener("change", toggleSubscribeCard);
+        oneTimeOrderCheckbox.addEventListener("change", () =>
+          toggleSubscribeCard(false)
+        );
+        // Product Slider
+        const previewSlider = new Splide("#preview-slider", {
+          rewind: true,
+          pagination: false,
+          arrows: false
+        });
+        const thumbnailsSlider = new Splide("#thumbnail-slider", {
+          start: 0,
+          perPage: 6,
+          gap: 10,
+          rewind: true,
+          pagination: false,
+          isNavigation: true,
+          mediaQuery: "min",
+          breakpoints: {
+            576: {
+              perPage: 6,
+              width: 440,
+            },
+          },
+        });
+
+        previewSlider.sync(thumbnailsSlider);
+        previewSlider.mount();
+        thumbnailsSlider.mount();
+
         //as seen slider
         var asSeen = new Splide("#as-seen_slider", {
           autoWidth: true,
@@ -326,87 +1529,250 @@
         });
 
         asSeen.mount();
+        //Tab
+
+        const tabLists = document.querySelectorAll(".tab-menu");
+
+        function showTab(tabList, index) {
+          const tabsInList = tabList.querySelectorAll(".tab-menu li");
+          const panelsInList =
+          tabList.parentElement.nextElementSibling.querySelectorAll(
+            ".tab-content-item"
+          );
+
+          tabsInList.forEach((tab) => tab.classList.remove("active"));
+          panelsInList.forEach((panel) => panel.classList.remove("active"));
+
+          tabsInList[index].classList.add("active");
+          panelsInList[index].classList.add("active");
+        }
+
+        tabLists.forEach((tabList) => {
+          const tabs = tabList.querySelectorAll(".tab-menu li");
+
+          tabs.forEach((tab, index) => {
+            tab.addEventListener("click", () => showTab(tabList, index));
+          });
+
+          // Show the first tab in each list by default
+          showTab(tabList, 0);
+        });
+
+        //video slider
+        var tabSlider = new Splide("#tab-slider", {
+          arrows: false,
+          pagination: false,
+          type: "loop",
+          perPage: 1,
+          cover: false,
+          gap: "12px",
+          mediaQuery: "min",
+          padding: '5rem',
+          breakpoints: {
+            1280: {
+              perPage: 5,
+            },
+            1024: {
+              perPage: 4,
+            },
+            768: {
+              perPage: 3,
+            },
+            576: {
+              perPage: 2,
+              padding: "0",
+              arrows: true,
+            },
+          },
+        });
+
+        tabSlider.mount();
+      // key ingredients slider
+      var keyIngredientsSliderMobile = new Splide("#key-ingredients-slider-mobile", {
+          arrows: false,
+          pagination: false,
+          type: "loop",
+          perPage: 1,
+          cover: false,
+          gap: "2rem",
+          padding: "5rem",
+          mediaQuery: "min",
+          breakpoints: {
+            576: {
+              perPage: 2,
+            },
+          },
+        });
+
+        keyIngredientsSliderMobile.mount();
+
+        var keyIngredientsSliderDesktop = new Splide("#key-ingredients-slider-desktop", {
+          arrows: false,
+          pagination: false,
+          perPage: 1,
+          arrows: true,
+          cover: false,
+          gap: "2rem",
+          mediaQuery: "min",
+          rewind: false,
+          breakpoints: {
+            1280: {
+              perPage: 4,
+            },
+            1024: {
+              perPage: 3,
+            },
+            768: {
+              perPage: 2,
+            },
+            576: {
+              perPage: 2,
+            },
+          },
+        });
+
+        keyIngredientsSliderDesktop.mount();
+
+
+        //Accordion
+        const accItem = document.querySelectorAll(".acc-item");
+        accItem.forEach((item, index) => {
+          let accHeader = item.querySelector(".acc-item_header");
+          accHeader.addEventListener("click", () => {
+            let accBody = item.querySelector(".acc-item_body");
+            if (!item.classList.contains("acc-item_active")) {
+              item.classList.add("acc-item_active");
+              accBody.style.maxHeight = accBody.scrollHeight + 32 + "px";
+              accItem.forEach((element, ind) => {
+                let elementBody = element.querySelector(".acc-item_body");
+                if (!(ind === index)) {
+                  element.classList.remove("acc-item_active");
+                  elementBody.style.maxHeight = null;
+                }
+              });
+            } else {
+              item.classList.remove("acc-item_active");
+              accBody.style.maxHeight = null;
+            }
+          });
+        });
+        gsap.registerPlugin(ScrollTrigger);
+
+        const featItems = gsap.utils.toArray(".product-feature-item");
+        featItems.forEach((items) => {
+          gsap.fromTo(
+            items,
+            { opacity: 0, y: 50 },
+            {
+              duration: 1.5,
+              opacity: 1,
+              y: 0,
+              scrollTrigger: {
+                trigger: ".key-ingredients",
+                start: "-30% top",
+                end: "bottom center",
+                scrub: 1,
+              },
+            }
+          );
+        });
+
+        // Select all overlay elements within .page-section
+        const overlays = gsap.utils.toArray(".overlay-animation .overlay-left");
+
+        // Loop through each overlay element
+        overlays.forEach((overlay) => {
+          ScrollTrigger.create({
+            trigger: overlay.closest(".overlay-animation"),
+            start: "-100% top",
+            end: "bottom 20%",
+            onToggle: (self) => {
+              if (self.isActive) {
+                gsap.to(overlay, { duration: 1, x: "-100%" });
+              } else {
+                gsap.to(overlay, { duration: 1, x: 0 });
+              }
+            },
+          });
+        });
+
+        const overlaysRight = gsap.utils.toArray(".overlay-animation .overlay-right");
+
+        // Loop through each overlay element
+        overlaysRight.forEach((overlay) => {
+          ScrollTrigger.create({
+            trigger: overlay.closest(".overlay-animation"),
+            start: "-100% top",
+            end: "bottom 20%",
+            onToggle: (self) => {
+              if (self.isActive) {
+                gsap.to(overlay, { duration: 1, x: "100%" });
+              } else {
+                gsap.to(overlay, { duration: 1, x: 0 });
+              }
+            },
+          });
+        });
+
+        const keyItems = gsap.utils.toArray(".ingredients .item");
+        keyItems.forEach((items) => {
+          gsap.fromTo(
+            items,
+            { opacity: 0, y: 50, stagger: 0.2 },
+            {
+              duration: 1.5,
+              opacity: 1,
+              y: 0,
+              stagger: 0.2,
+              scrollTrigger: {
+                trigger: ".ingredients",
+                start: "-80% top",
+                end: "bottom 20%",
+              },
+            }
+          );
+        });
+
+        const faqs = gsap.utils.toArray(".acc-item");
+
+        gsap.fromTo(
+          faqs,
+          { opacity: 0, y: 50, stagger: 0.3 },
+          {
+            duration: 1.5,
+            opacity: 1,
+            stagger: 0.3,
+            y: 0,
+
+            scrollTrigger: {
+              trigger: ".acc",
+              start: "-100% top",
+              end: "bottom center",
+            },
+          }
+        );
+
+        const wrappers = document.querySelectorAll(
+          ".key-ingredients , .innovation, .easy-app, .lasting-benefit"
+        );
+        const className = "is-active";
+
+        const observer = new IntersectionObserver((entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add(className);
+            } else {
+              entry.target.classList.remove(className);
+            }
+          }
+        });
+
+        wrappers.forEach((wrapper) => {
+          observer.observe(wrapper);
+        });
 
       });
 
-      $(".shop-product-button").on("click", function () {
-        $("html,body").animate({
-          scrollTop: $('#shop-product').offset().top + 50 + 'px'
-        }, 1000);
-        return false;
-      });
-
-    </script>
-    <script>
-      $(window).on('load', async function () {
-        console.log('load');
-        function extractCookie(...keys) {
-          return document.cookie.split(";").filter(item => keys.some(key => item.includes(key))).reduce((acc, item) => {
-            const [key, value] = item.trim().split("=")
-            acc[key] = value
-
-            return acc
-          }, {})
-        }
-
-        const cookie = extractCookie('country');
-        const country = window.country || cookie.country || 'us'
-
-        const getCountryData = (variants = []) => {
-          const variant = variants[0]
-
-          if (!variant) return null
-
-          const { price, subscription_price: subPrice, currency_symbol: currency } = variant.variant_countries.find(c => c.country_iso.toLowerCase() === country)
-
-          return { price, subPrice, currency }
-        }
-
-        const fetchVariantsDetail = async (product_id) => {
-
-          if (!product_id) return null
-
-          const host = "https://fluid.app"
-
-          const url = new URL(`${host}/api/products/${product_id}`)
-
-          try {
-            const res = await fetch(url)
-            const data = await res.json()
-
-            if (!data) return null;
-
-            return getCountryData(data.variants || [])
-          }
-          catch {
-            return null
-          }
-        }
-
-        const elements = [...document.querySelectorAll('[id^="product_"]')];
-        const promises = elements.forEach(async element => {
-          const id = element.getAttribute("id").split("_")[1];
-
-          if (!id) {
-            element.style.display = ""
-            return null
-          };
-
-          const res = await fetchVariantsDetail(id)
-
-          if (!res) {
-            element.style.display = ""
-            return null
-          };
-
-          let { price, currency } = res
-
-          price = Number(price).toFixed(2)
-          price = currency + price
-          element.textContent = price
-          element.style.display = ""
-        })
-      })
     </script>
   </body>
 </html>

@@ -1,15 +1,73 @@
 {
-  "title": "Neumi Shop oldal",
-  "shop_product_button_text": "Vásárolja meg termékeinket",
-  "shop_product_url": "#",
+  "title": "Hers",
+  "product_title": "Hers",
+  "total_product_review": "7 vélemény",
+  "product_desc": "<span class=fw-600>Egy prémium táplálékkiegészítő, mely nők számára lett kifejlesztve, </span> korszerű Hydrastat Nano Technológiával a legjobb felszívódás érdekében.",
+  "select_quantity_text": "Mennyiség kiválasztása",
+  "all_product_text": "Minden termék",
+  "add_to_cart_text": "Kosárba",
   "language": "hu",
-  "hero_section":{
-    "title": "Neumi Termékek",
-    "desc": "Az élet jobb, ha a legjobban nézel ki és érzed magad.",
-    "image": "https://cdn.fluid.app/neumi/shop/images/banner_bg.jpeg"
+  "product_id": "9410",
+  "ratingSvgColor": "#b484bb",
+  "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
+  "shop_url":"https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/shop",
+  "productSlider":{
+    "items":[
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_1.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_2.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_3.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_4.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_5.png"
+      }
+    ]
+  },
+  "subscribe": {
+    "subscribe_text": "Feliratkozás",
+    "frequency_text": "Frekvencia kiválasztása",
+    "actual_price" : "65.00",
+    "discounted_price": "50.00",
+    "checklist_items": [
+      {
+        "caption": "Feliratkozás és megtakarítás <span id='pricing'>$15</span>"
+      },
+      {
+        "caption": "Neumi Jutalompontok gyűjtése"
+      },
+      {
+        "caption": "30 napos pénzvisszafizetési garancia"
+      },
+      {
+        "caption": "Bármikor módosíthatja a feliratkozását"
+      }
+    ],
+    "one_time_purchase_text": "Egyszeri vásárlás"
+  },
+  "free_shipping_desc": "Ingyenes szállítás az USA területén $200 felett",
+  "benefits": {
+    "title": "Előnyök",
+    "items": [
+      {
+        "caption": "Fő összetevők az Ön hormonegyensúlyának támogatásához, mindennapos használatra."
+      },
+      {
+        "caption": "Minden életszakaszra – aktív menstruáció, pre/aktív/post menopauza"
+      },
+      {
+        "caption": "Jelentős enyhülés érhető el forróvágyás vagy görcsök esetén már 20 percen belül a fogyasztást követően"
+      }
+    ]
   },
   "asSeenOn": {
-    "title": "Látható volt",
+    "title": "Megjelent",
     "items": [
       {
         "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
@@ -31,90 +89,233 @@
       }
     ]
   },
-  "product_list":{
-    "title": "Egyedi palackok",
-    "items":[
+  "video":{
+    "image": "https://cdn.fluid.app/neumi/hers/images/video_cover_image.png",
+    "video_url": "https://vimeo.com/877308482"
+  },
+  "tab":{
+    "title": "Lásd, hogyan változtatja meg az életet a Hers",
+    "video_review_title": "Videó vélemények <span>(5)</span>",
+    "written_review_title": "Írott vélemények <span>(2)</span>",
+    "rating_text": "5 Csillagos értékelés",
+    "video_list":[
       {
-        "product_name": "NutriSwish",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/nutriswish?preview=true",
-        "product_id":"9474"
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video1.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video1.mp4"
       },
       {
-        "product_name": "Neumi Skin",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neumi-skin?preview=true",
-        "product_id":"9467"
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video2.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video2.mp4"
       },
       {
-        "product_name": "Hers",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/hers?preview=true",
-        "product_id":"9410"
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video3.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video3.mp4"
       },
       {
-        "product_name": "Neuro",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neuro.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neuro?preview=true",
-        "product_id":""
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video4.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video4.mp4"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video5.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video5.mp4"
+      }
+    ],
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "Salt Lake City, UT",
+        "time": "2 órája",
+        "review_text": "A Hers számomra igazi áttörést hozott! Már néhány hónapja használom, és számottevő javulást tapasztaltam energiaszintemben és általános vitalitásomban. Lenyűgöző, hogy mennyire egyszerű dolog ilyen mély hatással lehet. Határozottan ajánlom!"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "Laie, HI",
+        "time": "2 órája",
+        "review_text": "Évek óta küzdök a hormonális egyensúly fenntartásával, de a Hers valóban megkönnyítette az életemet. Nemcsak, hogy jobban érzem magam az egyensúly megteremtése terén, de bőröm és izomtónusom javulását is észleltem. Valóban figyelemre méltó!"
       }
     ]
   },
-  "product_bundle":{
-    "title": "Csomagok",
-    "product_name": "Neumi OG Csomag",
-    "price":"260.00",
-    "image": "https://cdn.fluid.app/neumi/shop/images/bundle.png",
-    "url": ""
+  "product_benefits":{
+    "title": "A Hers használatának előnyei",
+    "desc": "<span class='fw-600'>Minden nő tudja, hogy milyen kellemetlenségeket okozhatnak a ciklusok és a hormonváltozások az életben.</span> Tapasztalja meg a gyors eredményeket HydraStat™ Nanotechnológiánkkal. Nanoméretű összetevőink vízbe csomagolva annyira kicsik, hogy teljesen felszívódnak a humán sejtekben, pontosan ott, ahol szükség van rájuk!",
+    "alt_text": "hers termék",
+    "image":"file:///home/kalpana/Downloads/Hers%202%201.png",
+    "items": [
+      {
+        "title": "Megbízható összetevők",
+        "desc": "A Hers a HydraStat™ nano-kézbesítési rendszerünket használja a következő összetevők maximális felszívódásának és hatékonyságának biztosításához: fehér pünkösdi rózsa kivonat, tücsökmogyoró, dong quai, maca gyökér, ashwagandha és egyéb tápanyagok.",
+        "icon": "<svg width=\"42\" height=\"52\" viewBox=\"0 0 42 52\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.5 24.8259L18.5 29.878L29.75 18.5107M41 26.0889C41 38.488 27.6151 47.5059 22.745 50.3767C22.1915 50.703 21.9148 50.8661 21.5242 50.9507C21.2211 51.0164 20.7789 51.0164 20.4758 50.9507C20.0852 50.8661 19.8085 50.703 19.255 50.3767C14.3849 47.5059 1 38.488 1 26.0889V14.0082C1 11.9886 1 10.9788 1.3269 10.1108C1.61569 9.34395 2.08496 8.65974 2.69415 8.11727C3.38374 7.5032 4.3195 7.14864 6.19101 6.4395L19.5955 1.3604C20.1152 1.16347 20.3751 1.065 20.6425 1.02597C20.8796 0.991344 21.1204 0.991344 21.3575 1.02597C21.6249 1.065 21.8848 1.16347 22.4045 1.3604L35.809 6.4395C37.6805 7.14864 38.6163 7.5032 39.3059 8.11727C39.915 8.65974 40.3843 9.34395 40.6731 10.1108C41 10.9788 41 11.9886 41 14.0082V26.0889Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
+      },
+      {
+        "title": "Megbízható eredmények",
+        "desc": "Kettős vak klinikai vizsgálatot végeztünk, és a résztvevők 80%-a, menstruációstól postmenopauzáig terjedően, jelentős javulást tapasztalt tüneteikben. Különösen azok, akik forróvágyásokkal vagy görcsökkel küzdöttek, jelentős enyhülést tapasztaltak már 20 percen belül a fogyasztás után.",
+        "icon": "<svg width=\"42\" height=\"44\" viewBox=\"0 0 42 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.2544 43V19.9M1 24.1V38.8C1 41.1196 2.83642 43 5.10176 43H32.6374C35.6742 43 38.2567 40.7313 38.7185 37.658L40.9271 22.958C41.5005 19.1417 38.6169 15.7 34.846 15.7H27.6615C26.5288 15.7 25.6106 14.7598 25.6106 13.6V6.17826C25.6106 3.31839 23.3464 1 20.5534 1C19.8873 1 19.2836 1.40172 19.013 2.02506L11.7957 18.6529C11.4665 19.4113 10.7321 19.9 9.92159 19.9H5.10176C2.83642 19.9 1 21.7804 1 24.1Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
+      },
+      {
+        "title": "Minden életszakaszra",
+        "desc": "A Hers minden nő számára tervezett, minden életszakaszban. Növényi alapú formulánk minden összetevőjét gondosan kiválasztottuk, hogy jól kiegyensúlyozott előnyöket nyújtsunk. A Hers-szel minden nő virágozhat.",
+        "icon": "<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M40.8752 23.1005C40.2221 29.2404 36.7452 34.994 30.9921 38.3176C21.4336 43.8395 9.21128 40.5626 3.69271 30.9984L3.10493 29.9797M1.12461 18.8995C1.77776 12.7596 5.25457 7.00597 11.0077 3.68238C20.5662 -1.83953 32.7885 1.43741 38.3071 11.0016L38.8949 12.0203M1 35.2704L2.72114 28.8431L9.14452 30.5653M32.8555 11.4346L39.2789 13.1567L41 6.72948M21 10.4135V20.9999L26.8778 24.5288\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
+      }
+    ]
   },
-  "multiple_product":{
-    "items":[
-
+  "product_post_list": [
+    {
+      "title": "Innovatív tudomány",
+      "desc": "A glutation a sejt védelmezője és méregtelenítője.<span class=fw-600 highlight-text>Ez az élet, az egészség, a teljesítmény, a védelem és az emberi sejt hosszú élettartamának kulcsa.</span>",
+      "image": "https://cdn.fluid.app/neumi/hers/images/innovative.png",
+      "image_position": "right",
+      "desc_ordering_class": "order-lg-1",
+      "image_ordering_class": "order-lg-2"
+    },
+    {
+      "title": "HydraStat™ nanotechnológia",
+      "desc": "<span class=fw-600>Nano-méretű részecskék ultra-tiszta vízklaszterek védelme alatt.</span> A nanoméretű összetevőink olyan kicsiek, hogy teljes mértékben felszívódnak a humán sejtekbe.",
+      "image": "https://cdn.fluid.app/neumi/hers/images/nano.png",
+      "image_position": "left",
+      "desc_ordering_class": "",
+      "image_ordering_class": ""
+    },
+    {
+      "title": "Minőség a mennyiség előtt",
+      "desc": " Egy táplálékkiegészítő csak olyan jó, mint annak biohasznosulása, amely azt mutatja meg, hogy a test képes-e az összetevők felszívódására és felhasználására.<span class=fw-600 highlight-text>A megfelelő szállítási rendszer olyan módon juttatja el az összetevőket a testébe, hogy azt a szervezete felszívja és felhasználja.</span>",
+      "image": "https://cdn.fluid.app/neumi/hers/images/quality.png",
+      "image_position": "right",
+      "desc_ordering_class": "order-lg-1",
+      "image_ordering_class": "order-lg-2"
+    }
+  ],
+  "key_ingredients":{
+    "title": "Hers fontos összetevői",
+    "ingredients": "<span class=fw-600>Aktív összetevők:</span> ULTRA-TISZTA VÍZ, B6, B12, KÁLIUMSZORBÁT, NATRIUM-BENZOÁT, SZUHAJMENTA KIVONAT.",
+    "item_list_desktop":[
       {
-        "price":"130",
-        "product_name": "Hers Essential Csomag Neumi Skin-nel",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_neumiskin_essential.png",
-        "url": ""
+        "item":[
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/damiana.png",
+            "item_name": "Damiana"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/dong-quai-root.png",
+            "item_name": "Dong Quai gyökér"
+          }
+        ]
       },
       {
-        "price":"130",
-        "product_name": "Hers Essential Csomag NutriSwish-sel",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_nutriswish_essential.png",
-        "url": ""
+        "item":[
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/ginger.webp",
+            "item_name": "Gyömbér"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/Chasteberry.png",
+            "item_name": "Kukoricafű kivonat"
+          }
+        ]
       },
       {
-        "price":"130",
-        "product_name": "Neumi Skin Essential Csomag",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin_essential.png",
-        "url": ""
+        "item":[
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/maca-root.png",
+            "item_name": "Maca gyökér"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/black-cohosh.png",
+            "item_name": "Fekete cohosh"
+          }
+        ]
       },
       {
-        "price":"130",
-        "product_name": "NutriSwish Essential Csomag",
-        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish_essential.png",
-        "url": ""
+        "item":[
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/Ashwagandharoot.webp",
+            "item_name": "Ashwagandha"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/peony-white-root.webp",
+            "item_name": "Póréhagyma fehér gyökér"
+          }
+        ]
+      }
+    ],
+    "items_list":[
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/damiana.png",
+        "item_name": "Damiana"
       },
       {
-        "price":"130",
-        "product_name": "Klasszikus Essential Csomag",
-        "image": "https://cdn.fluid.app/neumi/shop/images/classic_essential.png",
-        "url": ""
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/ginger.webp",
+        "item_name": "Gyömbér"
       },
       {
-        "price":"260",
-        "product_name": "Hers Premium Csomag",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_premium.png",
-        "url": ""
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/maca-root.png",
+        "item_name": "Maca gyökér"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/Ashwagandharoot.webp",
+        "item_name": "Ashwagandha"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/dong-quai-root.png",
+        "item_name": "Dong Quai gyökér"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/Chasteberry.png",
+        "item_name": "Kukoricafű kivonat"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/black-cohosh.png",
+        "item_name": "Fekete cohosh"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/peony-white-root.webp",
+        "item_name": "Póréhagyma fehér gyökér"
+      }
+    ]
+  },
+  "how_to_use":{
+    "title": "Hogyan szedje be",
+    "bg_image": "https://cdn.fluid.app/neumi/hers/images/intake.png",
+    "steps": [
+      {
+        "caption": "Mérjen két (2) teáskanálnyi terméket. Egy kupak = egy teáskanál."
+      },
+      {
+        "caption": "Öblögessen a szájában 30 másodpercig vagy tovább."
+      },
+      {
+        "caption": "Ellentétben a szájvízzel, a Hers-t lenyelheti. Természetesen kiköpheti is, ha úgy szeretné."
+      },
+      {
+        "caption": "Ismételje meg ezeket a lépéseket naponta kétszer. Ha szükséges, bátran használja a Hers-t gyakrabban is."
+      }
+    ]
+  },
+  "faq": {
+    "title": "A glutathion előnyei",
+    "icon_class": "clr-primary",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "Erősített immunrendszer",
+        "desc": "A glutathion képes neutralizálni a szabad gyököket és védi a testet káros hatásaiktól. Segít csökkenteni az gyulladást, és támogatja a szervezet természetes képességét a fertőzések elleni küzdelemben. Emellett szerepet játszik az új immunsejtek szintézisében, így az immunrendszered a legjobb formájában működik."
+      },
+      {
+        "class": "",
+        "header": "Növelt energia",
+        "desc": "Segít csökkenteni az gyulladást, és támogatja a szervezet természetes képességét a fertőzések elleni küzdelemben. Emellett szerepet játszik az új immunsejtek szintézisében, így az immunrendszered a legjobb formájában működik."
+      },
+      {
+        "class": "",
+        "header": "Fokozott állóképesség és kitartás",
+        "desc": "Segít csökkenteni az gyulladást, és támogatja a szervezet természetes képességét a fertőzések elleni küzdelemben. Emellett szerepet játszik az új immunsejtek szintézisében, így az immunrendszered a legjobb formájában működik."
       }
     ]
   },
   "cta": {
-    "title": "Egy új te kezdődik a Neumi-val.",
-    "image": "https://cdn.fluid.app/neumi/shop/images/cta_bg.jpg"
+    "title": "Új én kezdete Neumi-vel",
+    "subscription_text": "Hozzáadás előfizetéshez",
+    "purchase_text": " Egyszeri vásárlás",
+    "image": "https://cdn.fluid.app/neumi/hers/images/cta.png"
   },
-  "note_desc": "A weboldalon szereplő állításokat az Élelmiszer- és Gyógyszerügyi Hatóság nem értékelte. Ezek az állítások és a cég termékei nem alkalmasak betegségek diagnosztizálására, kezelésére, gyógyítására vagy megelőzésére. A Neumi által kifejtett nézetek és táplálkozási tanácsok nem szolgálnak orvosi tanácsadás céljából. Kérjük, mindig konzultáljon egészségügyi szolgáltatójával, ha bármilyen gyógyszert szed, vagy bármilyen egészségügyi állapota van. Az egyéni eredmények változhatnak."
+  "note_desc": "Ez a weboldal által tett kijelentések nem kerültek értékelésre az Élelmiszer- és Gyógyszerügyi Hivatal által. Ezek a kijelentések és a cég termékei nem szolgálnak betegségek diagnosztizálására, kezelésére, gyógyítására vagy megelőzésére. Neumi nézetei és táplálkozási tanácsai nem orvosi tanácsadás céljából szolgálnak. Kérjük, mindig konzultáljon egészségügyi szolgáltatójával, ha bármilyen gyógyszert szed, vagy bármilyen egészségügyi problémája van. Egyéni eredmények változhatnak."
 }

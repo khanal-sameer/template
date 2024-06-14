@@ -1,12 +1,70 @@
 {
-  "title": "Neumi Winkelpagina",
-  "shop_product_button_text": "Koop onze producten",
-  "shop_product_url": "#",
+  "title": "Hers",
+  "product_title": "Hers",
+  "total_product_review": "7 Beoordelingen",
+  "product_desc": "<span class=fw-600>Een premium voedingssupplement dat nauwkeurig is ontworpen voor vrouwen,</span> met baanbrekende Hydrastat Nano Technologie voor optimale opname.",
+  "select_quantity_text": "Selecteer Aantal",
+  "all_product_text": "Alle Producten",
+  "add_to_cart_text": "Toevoegen aan winkelwagen",
   "language": "nl",
-  "hero_section":{
-    "title": "Neumi Producten",
-    "desc": "Het leven is beter als je er op je best uitziet en je goed voelt.",
-    "image": "https://cdn.fluid.app/neumi/shop/images/banner_bg.jpeg"
+  "product_id": "9410",
+  "ratingSvgColor": "#b484bb",
+  "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
+  "shop_url":"https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/shop",
+  "productSlider":{
+    "items":[
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_1.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_2.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_3.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_4.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_5.png"
+      }
+    ]
+  },
+  "subscribe": {
+    "subscribe_text": "Abonneren",
+    "frequency_text": "Selecteer Frequentie",
+    "actual_price" : "65.00",
+    "discounted_price": "50,00",
+    "checklist_items": [
+      {
+        "caption": "Abonneer en bespaar <span id='pricing'>$15</span>"
+      },
+      {
+        "caption": "Verdien Neumi Reward Points"
+      },
+      {
+        "caption": "30 dagen geld-terug-garantie"
+      },
+      {
+        "caption": "Pas uw abonnement op elk moment aan"
+      }
+    ],
+    "one_time_purchase_text": "Eenmalige aankoop"
+  },
+  "free_shipping_desc": "Gratis verzending in de VS bij bestellingen van meer dan $200+",
+  "benefits": {
+    "title": "Voordelen",
+    "items": [
+      {
+        "caption": "Belangrijke ingrediënten om uw hormonale gezondheid dagelijks in balans te brengen en te ondersteunen."
+      },
+      {
+        "caption": "Voor elk seizoen in het leven – actieve menstruatie, pre-/actieve/post-menopauze"
+      },
+      {
+        "caption": "Aanzienlijke verlichting van opvliegers of krampen binnen slechts 20 minuten na inname"
+      }
+    ]
   },
   "asSeenOn": {
     "title": "Zoals gezien op",
@@ -31,89 +89,234 @@
       }
     ]
   },
-  "product_list":{
-    "title": "Enkele flessen",
-    "items":[
+  "video":{
+    "image": "https://cdn.fluid.app/neumi/hers/images/video_cover_image.png",
+    "video_url": "https://vimeo.com/877308482"
+  },
+  "tab":{
+    "title": "Zie hoe Hers levens verandert",
+    "video_review_title": "Video Beoordelingen <span>(5)</span>",
+    "written_review_title": "Geschreven Beoordelingen <span>(2)</span>",
+    "rating_text": "5 Sterren Beoordeling",
+    "video_list":[
       {
-        "product_name": "NutriSwish",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/nutriswish?preview=true",
-        "product_id":"9474"
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video1.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video1.mp4"
       },
       {
-        "product_name": "Neumi Skin",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neumi-skin?preview=true",
-        "product_id":"9467"
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video2.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video2.mp4"
       },
       {
-        "product_name": "Hers",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/hers?preview=true",
-        "product_id":"9410"
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video3.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video3.mp4"
       },
       {
-        "product_name": "Neuro",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neuro.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neuro?preview=true",
-        "product_id":""
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video4.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video4.mp4"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video5.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video5.mp4"
+      }
+    ],
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "Salt Lake City, UT",
+        "time": "2 uur geleden",
+        "review_text": "Hers heeft voor mij echt het verschil gemaakt! Ik gebruik het nu al een paar maanden en heb een aanzienlijke verbetering opgemerkt in mijn energieniveau en algehele vitaliteit. Het is verbazingwekkend hoe iets zo simpels zulke diepgaande effecten kan hebben. Ik kan het ten zeerste aanbevelen!"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "Laie, HI",
+        "time": "2 uur geleden",
+        "review_text": "Ik heb jarenlang geworsteld met het handhaven van hormonale balans, maar Hers heeft een wereld van verschil gemaakt. Ik voel me niet alleen meer in balans en energiek, maar heb ook verbeteringen gezien in mijn huid- en spiertoon. Het is echt opmerkelijk!"
       }
     ]
   },
-  "product_bundle":{
-    "title": "Pakketten",
-    "product_name": "Neumi OG Pack",
-    "price":"260.00",
-    "image": "https://cdn.fluid.app/neumi/shop/images/bundle.png",
-    "url": ""
+  "product_benefits":{
+    "title": "Voordelen van het gebruik van Hers",
+    "desc": "<span class='fw-600'>Elke vrouw kent de ongemakken die cycli en hormonale veranderingen in het leven kunnen brengen.</span> Ervaar snelle resultaten door onze HydraStat™ Nanotechnologie. Onze nano-sized ingrediënten, ingekapseld in waterclusters, zijn klein genoeg om volledig te worden opgenomen door de menselijke cel, precies waar u ze nodig heeft!",
+    "alt_text": "product van hers",
+    "image":"file:///home/kalpana/Downloads/Hers%202%201.png",
+    "items": [
+      {
+        "title": "Ingrediënten waarop u kunt vertrouwen",
+        "desc": "Hers maakt gebruik van ons HydraStat™ nano-leveringssysteem om de absorptie en effectiviteit van de volgende ingrediënten te maximaliseren: witte pioenextract, kuisheidsbes, dong quai, maca wortel, ashwagandha en andere voedingsstoffen.",
+        "icon": "<svg width=\"42\" height=\"52\" viewBox=\"0 0 42 52\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.5 24.8259L18.5 29.878L29.75 18.5107M41 26.0889C41 38.488 27.6151 47.5059 22.745 50.3767C22.1915 50.703 21.9148 50.8661 21.5242 50.9507C21.2211 51.0164 20.7789 51.0164 20.4758 50.9507C20.0852 50.8661 19.8085 50.703 19.255 50.3767C14.3849 47.5059 1 38.488 1 26.0889V14.0082C1 11.9886 1 10.9788 1.3269 10.1108C1.61569 9.34395 2.08496 8.65974 2.69415 8.11727C3.38374 7.5032 4.3195 7.14864 6.19101 6.4395L19.5955 1.3604C20.1152 1.16347 20.3751 1.065 20.6425 1.02597C20.8796 0.991344 21.1204 0.991344 21.3575 1.02597C21.6249 1.065 21.8848 1.16347 22.4045 1.3604L35.809 6.4395C37.6805 7.14864 38.6163 7.5032 39.3059 8.11727C39.915 8.65974 40.3843 9.34395 40.6731 10.1108C41 10.9788 41 11.9886 41 14.0082V26.0889Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
+
+      },
+      {
+        "title": "Resultaten waarop u kunt rekenen",
+        "desc": "We hebben een dubbelblind klinisch onderzoek uitgevoerd, en 80% van de deelnemers, variërend van actieve menstruatie tot post-menopauze, zag een duidelijke verbetering in hun symptomen. Vooral degenen die last hadden van opvliegers of krampen meldden aanzienlijke verlichting binnen slechts 20 minuten na inname.",
+        "icon": "<svg width=\"42\" height=\"44\" viewBox=\"0 0 42 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.2544 43V19.9M1 24.1V38.8C1 41.1196 2.83642 43 5.10176 43H32.6374C35.6742 43 38.2567 40.7313 38.7185 37.658L40.9271 22.958C41.5005 19.1417 38.6169 15.7 34.846 15.7H27.6615C26.5288 15.7 25.6106 14.7598 25.6106 13.6V6.17826C25.6106 3.31839 23.3464 1 20.5534 1C19.8873 1 19.2836 1.40172 19.013 2.02506L11.7957 18.6529C11.4665 19.4113 10.7321 19.9 9.92159 19.9H5.10176C2.83642 19.9 1 21.7804 1 24.1Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
+      },
+      {
+        "title": "Voor Elk Seizoen Van Het Leven",
+        "desc": "Hers is ontworpen voor alle vrouwen, in elk seizoen van het leven. Elk ingrediënt in onze plantaardige formule is zorgvuldig geselecteerd om een uitgebalanceerde mix van voordelen te creëren. Met Hers kan elke vrouw floreren.",
+        "icon": "<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M40.8752 23.1005C40.2221 29.2404 36.7452 34.994 30.9921 38.3176C21.4336 43.8395 9.21128 40.5626 3.69271 30.9984L3.10493 29.9797M1.12461 18.8995C1.77776 12.7596 5.25457 7.00597 11.0077 3.68238C20.5662 -1.83953 32.7885 1.43741 38.3071 11.0016L38.8949 12.0203M1 35.2704L2.72114 28.8431L9.14452 30.5653M32.8555 11.4346L39.2789 13.1567L41 6.72948M21 10.4135V20.9999L26.8778 24.5288\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
+      }
+    ]
   },
-  "multiple_product":{
-    "items":[
+  "product_post_list":[
+    {
+      "title": "Innovatieve wetenschap",
+      "desc": "Glutathion is de beschermer en ontgifter van de cel.<span class=fw-600 highlight-text>Het is de sleutel tot het leven, de gezondheid, prestaties, bescherming en levensduur van elke menselijke cel.</span>",
+      "image": "https://cdn.fluid.app/neumi/hers/images/innovative.png",
+      "image_position": "right",
+      "desc_ordering_class": "order-lg-1",
+      "image_ordering_class": "order-lg-2"
+    },
+    {
+      "title": "HydraStat™ nanotechnologie",
+      "desc": "<span class=fw-600>Nano-sized deeltjes beschermd door ultra-zuivere waterclusters.</span> Onze nanogrootte ingrediënten zijn klein genoeg om volledig te worden opgenomen in de menselijke cel.",
+      "image": "https://cdn.fluid.app/neumi/hers/images/nano.png",
+      "image_position": "left",
+      "desc_ordering_class": "",
+      "image_ordering_class": ""
+    },
+    {
+      "title": "Kwaliteit boven kwantiteit",
+      "desc": "Een supplement is slechts zo goed als zijn biobeschikbaarheid, wat zijn vermogen is om te worden opgenomen en gebruikt door het lichaam.<span class=fw-600 highlight-text>Het juiste leveringssysteem levert ingrediënten aan uw lichaam op een manier waarop uw lichaam ze kan opnemen en gebruiken.</span>",
+      "image": "https://cdn.fluid.app/neumi/hers/images/quality.png",
+      "image_position": "right",
+      "desc_ordering_class": "order-lg-1",
+      "image_ordering_class": "order-lg-2"
+    }
+  ],
+  "key_ingredients": {
+    "title": "Belangrijkste ingrediënten van Hers",
+    "ingredients": "<span class=fw-600>Actieve ingrediënten:</span> ULTRA-ZUIVER WATER, B6, B12, KALIUMSORBAAT, NATRIUMBENZOAAT, MUNT EXTRACT.",
+    "item_list_desktop": [
       {
-        "price":"130",
-        "product_name": "Hers Essential Pack met Neumi Skin",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_neumiskin_essential.png",
-        "url": ""
+        "item": [
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/damiana.png",
+            "item_name": "Damiana"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/dong-quai-root.png",
+            "item_name": "Dong Quai-wortel"
+          }
+        ]
       },
       {
-        "price":"130",
-        "product_name": "Hers Essential Pack met NutriSwish",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_nutriswish_essential.png",
-        "url": ""
+        "item": [
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/ginger.webp",
+            "item_name": "Gember"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/Chasteberry.png",
+            "item_name": "Kuisbesextract"
+          }
+        ]
       },
       {
-        "price":"130",
-        "product_name": "Neumi Skin Essential Pack",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin_essential.png",
-        "url": ""
+        "item": [
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/maca-root.png",
+            "item_name": "Maca-wortel"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/black-cohosh.png",
+            "item_name": "Zwarte cohosh"
+          }
+        ]
       },
       {
-        "price":"130",
-        "product_name": "NutriSwish Essential Pack",
-        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish_essential.png",
-        "url": ""
+        "item": [
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/Ashwagandharoot.webp",
+            "item_name": "Ashwagandha"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/peony-white-root.webp",
+            "item_name": "Witte pioenwortel"
+          }
+        ]
+      }
+    ],
+    "items_list": [
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/damiana.png",
+        "item_name": "Damiana"
       },
       {
-        "price":"130",
-        "product_name": "Classic Essential Pack",
-        "image": "https://cdn.fluid.app/neumi/shop/images/classic_essential.png",
-        "url": ""
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/ginger.webp",
+        "item_name": "Gember"
       },
       {
-        "price":"260",
-        "product_name": "Hers Premium Pack",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_premium.png",
-        "url": ""
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/maca-root.png",
+        "item_name": "Maca-wortel"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/Ashwagandharoot.webp",
+        "item_name": "Ashwagandha"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/dong-quai-root.png",
+        "item_name": "Dong Quai-wortel"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/Chasteberry.png",
+        "item_name": "Kuisbesextract"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/black-cohosh.png",
+        "item_name": "Zwarte cohosh"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/peony-white-root.webp",
+        "item_name": "Witte pioenwortel"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "Hoe te gebruiken",
+    "bg_image": "https://cdn.fluid.app/neumi/hers/images/intake.png",
+    "steps": [
+      {
+        "caption": "Meet twee (2) theelepels product. Een dopje = theelepel."
+      },
+      {
+        "caption": "Spoel 30 seconden of langer in uw mond."
+      },
+      {
+        "caption": "In tegenstelling tot mondwater, kunt u Hers doorslikken. U kunt het ook uitspugen, indien gewenst."
+      },
+      {
+        "caption": "Herhaal deze stappen tweemaal per dag. Gebruik Hers zo vaak als gewenst."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Voordelen van Glutathion",
+    "icon_class": "clr-primary",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "Versterkt immuunsysteem",
+        "desc": "Glutathion kan vrije radicalen neutraliseren en het lichaam beschermen tegen hun schadelijke effecten. Het helpt ook ontstekingen te verminderen en ondersteunt het natuurlijke vermogen van het lichaam om infecties te bestrijden. Bovendien speelt het een rol bij de synthese van nieuwe immuuncellen, waardoor uw immuunsysteem optimaal blijft functioneren."
+      },
+      {
+        "class": "",
+        "header": "Verhoogde energie",
+        "desc": "Het helpt ook ontstekingen te verminderen en ondersteunt het natuurlijke vermogen van het lichaam om infecties te bestrijden. Bovendien speelt het een rol bij de synthese van nieuwe immuuncellen, waardoor uw immuunsysteem optimaal blijft functioneren."
+      },
+      {
+        "class": "",
+        "header": "Verbeterde uithoudingsvermogen en uithoudingsvermogen",
+        "desc": "Het helpt ook ontstekingen te verminderen en ondersteunt het natuurlijke vermogen van het lichaam om infecties te bestrijden. Bovendien speelt het een rol bij de synthese van nieuwe immuuncellen, waardoor uw immuunsysteem optimaal blijft functioneren."
       }
     ]
   },
   "cta": {
-    "title": "Een nieuw jij begint met Neumi.",
-    "image": "https://cdn.fluid.app/neumi/shop/images/cta_bg.jpg"
+    "title": "Een nieuwe jij begint met Neumi",
+    "subscription_text": "Toevoegen aan abonnement",
+    "purchase_text": "Eenmalige aankoop",
+    "image": "https://cdn.fluid.app/neumi/hers/images/cta.png"
   },
-  "note_desc": "De verklaringen op deze website zijn niet geëvalueerd door de Food and Drug Administration. Deze verklaringen en de producten van dit bedrijf zijn niet bedoeld om een ziekte te diagnosticeren, behandelen, genezen of voorkomen. De meningen en voedingsadviezen van Neumi zijn niet bedoeld om medisch advies te geven. Raadpleeg altijd uw zorgverlener als u medicijnen gebruikt of medische aandoeningen heeft. Individuele resultaten kunnen variëren."
+  "note_desc": "De uitspraken gedaan op deze website zijn niet geëvalueerd door de Food and Drug Administration. Deze uitspraken en de producten van dit bedrijf zijn niet bedoeld om een ziekte te diagnosticeren, behandelen, genezen of voorkomen. De meningen en voedingsadviezen van Neumi zijn niet bedoeld voor het geven van medisch advies. Raadpleeg altijd uw zorgverlener als u medicijnen gebruikt of medische aandoeningen heeft. Individuele resultaten kunnen variëren."
 }

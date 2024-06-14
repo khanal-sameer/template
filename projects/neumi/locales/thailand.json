@@ -1,15 +1,73 @@
 {
-  "title": "หน้าร้าน Neumi",
-  "shop_product_button_text": "ช็อปสินค้าของเรา",
-  "shop_product_url": "#",
+  "title": "Hers",
+  "product_title": "Hers",
+  "total_product_review": "7 รีวิว",
+  "product_desc": "<span class=fw-600>อาหารเสริมพรีเมี่ยมที่ออกแบบมาอย่างพิถีพิถันสำหรับผู้หญิง</span> ที่มีเทคโนโลยี Hydrastat Nano Technology ที่เป็นนวัตกรรมเพื่อการดูดซึมที่ดีที่สุด",
+  "select_quantity_text": "เลือกจำนวน",
+  "all_product_text": "สินค้าทั้งหมด",
+  "add_to_cart_text": "เพิ่มลงในตะกร้า",
   "language": "th",
-  "hero_section":{
-    "title": "ผลิตภัณฑ์ Neumi",
-    "desc": "ชีวิตดีขึ้นเมื่อคุณดูแลตัวเองให้ดีและรู้สึกดี",
-    "image": "https://cdn.fluid.app/neumi/shop/images/banner_bg.jpeg"
+  "product_id": "9410",
+  "ratingSvgColor": "#b484bb",
+  "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
+  "shop_url":"https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/shop",
+  "productSlider":{
+    "items":[
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_1.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_2.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_3.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_4.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_5.png"
+      }
+    ]
+  },
+  "subscribe": {
+    "subscribe_text": "สมัครสมาชิก",
+    "frequency_text": "เลือกความถี่",
+    "actual_price" : "65.00",
+    "discounted_price": "50.00",
+    "checklist_items": [
+      {
+        "caption": "สมัครสมาชิกและประหยัด <span id='pricing'>$15</span>"
+      },
+      {
+        "caption": "สะสมแต้ม Neumi Reward Points"
+      },
+      {
+        "caption": "การรับประกันคืนเงินภายใน 30 วัน"
+      },
+      {
+        "caption": "อัปเดตการสมัครสมาชิกได้ตลอดเวลา"
+      }
+    ],
+    "one_time_purchase_text": "ซื้อครั้งเดียว"
+  },
+  "free_shipping_desc": "จัดส่งฟรีทางด้าน U.S. สำหรับการสั่งซื้อมากกว่า $200+",
+  "benefits": {
+    "title": "ประโยชน์",
+    "items": [
+      {
+          "caption": "ส่วนผสมสำคัญที่ช่วยปรับสมดุลและสนับสนุนสุขภาพฮอร์โมนของคุณทุกวัน"
+      },
+      {
+          "caption": "สำหรับทุกฤดูกาลในชีวิต - การมีประจำเดือน, ก่อน/ระหว่าง/หลังประจำเดือนหรือหมดประจำเดือน"
+      },
+      {
+          "caption": "เพิ่มการผ่อนคลายอย่างมีนัยสำคัญของอาการร้อนชาและปวดท้องภายในเพียง 20 นาทีหลังการบริโภค"
+      }
+  ]
   },
   "asSeenOn": {
-    "title": "เห็นได้ใน",
+    "title": "เห็นได้จาก",
     "items": [
       {
         "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
@@ -31,89 +89,233 @@
       }
     ]
   },
-  "product_list":{
-    "title": "ขวดเดี่ยว",
-    "items":[
+  "video":{
+    "image": "https://cdn.fluid.app/neumi/hers/images/video_cover_image.png",
+    "video_url": "https://vimeo.com/877308482"
+  },
+  "tab":{
+    "title": "ดูว่า Hers ได้เปลี่ยนแปลงชีวิตให้กับใครบ้าง",
+    "video_review_title": "รีวิววิดีโอ <span>(5)</span>",
+    "written_review_title": "รีวิวหนังสือพิมพ์ <span>(2)</span>",
+    "rating_text": "คะแนน 5 ดาว",
+    "video_list":[
       {
-        "product_name": "NutriSwish",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/nutriswish?preview=true",
-        "product_id":"9474"
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video1.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video1.mp4"
       },
       {
-        "product_name": "Neumi Skin",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neumi-skin?preview=true",
-        "product_id":"9467"
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video2.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video2.mp4"
       },
       {
-        "product_name": "Hers",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/hers?preview=true",
-        "product_id":"9410"
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video3.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video3.mp4"
       },
       {
-        "product_name": "Neuro",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neuro.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neuro?preview=true",
-        "product_id":""
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video4.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video4.mp4"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video5.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video5.mp4"
+      }
+    ],
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "Salt Lake City, UT",
+        "time": "2 ชั่วโมงที่ผ่านมา",
+        "review_text": "Hers เป็นผลสำเร็จใหญ่สำหรับฉัน! ฉันใช้มันมาหลายเดือนแล้ว และฉันได้รับการปรับปรุงที่สำคัญในระดับพลังงานและความสดชื่นทั่วไปของฉัน มันเป็นเรื่องน่าอัศจรรย์ที่สิ่งที่ง่ายๆ ก็สามารถมีผลกระทบที่หลักลึกได้ ขอแนะนำให้ใช้!"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "Laie, HI",
+        "time": "2 ชั่วโมงที่ผ่านมา",
+        "review_text": "ฉันต่อสู้กับการสมดุลฮอร์โมนมาหลายปีแล้ว แต่ Hers ทำให้เปลี่ยนแปลงได้มาก ฉันรู้สึกมีสมดุลและพลังงานมากขึ้น และฉันยังเห็นการปรับปรุงในสีผิวและกล้ามเนื้อด้วย มันเป็นเรื่องไม่ธรรมดา!"
       }
     ]
   },
-  "product_bundle":{
-    "title": "ชุดสินค้า",
-    "product_name": "ชุด Neumi OG",
-    "price":"260.00",
-    "image": "https://cdn.fluid.app/neumi/shop/images/bundle.png",
-    "url": ""
-  },
-  "multiple_product":{
-    "items":[
+  "product_benefits":{
+    "title": "ประโยชน์ของการใช้ผลิตภัณฑ์ Hers",
+    "desc": "<span class='fw-600'>ทุกผู้หญิงรู้เกี่ยวกับความไม่สะดวกที่มาพร้อมกับการเปลี่ยนแปลงฮอร์โมนและรอยประสาทในชีวิต</span> สัมผัสผลลัพธ์ที่รวดเร็วผ่านเทคโนโลยีไฮดราสแตท™ แห่งเรา ส่วนผสมขนาดไนโตในรูปของน้ำกลุ่มที่มีขนาดเล็กพอที่จะถูกดูดซึมโดยเซลล์มนุษย์ได้เต็มที่ ตรงที่คุณต้องการ!",
+    "alt_text": "ผลิตภัณฑ์ hers",
+    "image":"file:///home/kalpana/Downloads/Hers%202%201.png",
+    "items": [
       {
-        "price":"130",
-        "product_name": "ชุด Hers Essential Pack พร้อม Neumi Skin",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_neumiskin_essential.png",
-        "url": ""
+        "title": "ส่วนประกอบที่คุณไว้วางใจ",
+        "desc": "Hers ใช้ระบบส่งยาขนาดไนโตไซส์ HydraStat™ เพื่อเพิ่มความสามารถในการดูดซึมและประสิทธิภาพของส่วนผสมต่อไปนี้: สารสกัดชาวอีสานขาว, ต้นเสี้ยน, ต้นกวางตุ้ง, รากมากา, อาชวาแกนดา และธาตุอาหารอื่น ๆ",
+        "icon": "<svg width=\"42\" height=\"52\" viewBox=\"0 0 42 52\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.5 24.8259L18.5 29.878L29.75 18.5107M41 26.0889C41 38.488 27.6151 47.5059 22.745 50.3767C22.1915 50.703 21.9148 50.8661 21.5242 50.9507C21.2211 51.0164 20.7789 51.0164 20.4758 50.9507C20.0852 50.8661 19.8085 50.703 19.255 50.3767C14.3849 47.5059 1 38.488 1 26.0889V14.0082C1 11.9886 1 10.9788 1.3269 10.1108C1.61569 9.34395 2.08496 8.65974 2.69415 8.11727C3.38374 7.5032 4.3195 7.14864 6.19101 6.4395L19.5955 1.3604C20.1152 1.16347 20.3751 1.065 20.6425 1.02597C20.8796 0.991344 21.1204 0.991344 21.3575 1.02597C21.6249 1.065 21.8848 1.16347 22.4045 1.3604L35.809 6.4395C37.6805 7.14864 38.6163 7.5032 39.3059 8.11727C39.915 8.65974 40.3843 9.34395 40.6731 10.1108C41 10.9788 41 11.9886 41 14.0082V26.0889Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
       },
       {
-        "price":"130",
-        "product_name": "ชุด Hers Essential Pack พร้อม NutriSwish",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_nutriswish_essential.png",
-        "url": ""
+        "title": "ผลลัพธ์ที่คุณสามารถพึงพอใจได้",
+        "desc": "เราได้ดำเนินการทดลองคลินิกแบบสุ่มครั้งที่สอง และผู้เข้าร่วมทั้งหมด 80% ซึ่งครอบคลุมตั้งแต่ระยะเวลาการมีประจำเดือนจนถึงหลังจากเมนอพอส พบการปรับปรุงที่ชัดเจนในอาการของพวกเขา โดยเฉพาะบางคนที่รับรู้ถึงอาการร้อนและปวดมากขึ้นในเวลาเพียง 20 นาทีหลังการบริโภค",
+        "icon": "<svg width=\"42\" height=\"44\" viewBox=\"0 0 42 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.2544 43V19.9M1 24.1V38.8C1 41.1196 2.83642 43 5.10176 43H32.6374C35.6742 43 38.2567 40.7313 38.7185 37.658L40.9271 22.958C41.5005 19.1417 38.6169 15.7 34.846 15.7H27.6615C26.5288 15.7 25.6106 14.7598 25.6106 13.6V6.17826C25.6106 3.31839 23.3464 1 20.5534 1C19.8873 1 19.2836 1.40172 19.013 2.02506L11.7957 18.6529C11.4665 19.4113 10.7321 19.9 9.92159 19.9H5.10176C2.83642 19.9 1 21.7804 1 24.1Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
       },
       {
-        "price":"130",
-        "product_name": "ชุด Neumi Skin Essential Pack",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin_essential.png",
-        "url": ""
-      },
-      {
-        "price":"130",
-        "product_name": "ชุด NutriSwish Essential Pack",
-        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish_essential.png",
-        "url": ""
-      },
-      {
-        "price":"130",
-        "product_name": "ชุด Classic Essential Pack",
-        "image": "https://cdn.fluid.app/neumi/shop/images/classic_essential.png",
-        "url": ""
-      },
-      {
-        "price":"260",
-        "product_name": "ชุด Hers Premium Pack",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_premium.png",
-        "url": ""
+        "title": "สำหรับทุกช่วงชีวิต",
+        "desc": "Hers ถูกออกแบบสำหรับผู้หญิงทุกวัยทุกสถานการณ์ ทุกรายการสารสกัดในสูตรพืชของเราถูกคัดเลือกอย่างรอบคอบเพื่อสร้างสมดุลของประโยชน์ ด้วย Hers ทุกผู้หญิงสามารถเจริญเติบโตได้",
+        "icon": "<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M40.8752 23.1005C40.2221 29.2404 36.7452 34.994 30.9921 38.3176C21.4336 43.8395 9.21128 40.5626 3.69271 30.9984L3.10493 29.9797M1.12461 18.8995C1.77776 12.7596 5.25457 7.00597 11.0077 3.68238C20.5662 -1.83953 32.7885 1.43741 38.3071 11.0016L38.8949 12.0203M1 35.2704L2.72114 28.8431L9.14452 30.5653M32.8555 11.4346L39.2789 13.1567L41 6.72948M21 10.4135V20.9999L26.8778 24.5288\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
       }
     ]
   },
-  "cta":{
-    "title": "การเริ่มต้นความเป็นคุณใหม่เริ่มต้นที่ Neumi",
-    "image": "https://cdn.fluid.app/neumi/shop/images/cta_bg.jpg"
+  "product_post_list":[
+    {
+      "title": "วิทยาศาสตร์นวัตกรรม",
+      "desc": "กลูทาไธโอนเป็นผู้ปกป้องและเครื่องช่วยล้างพิษของเซลล์ <span class='fw-600 highlight-text'>เป็นกุญแจสำคัญในชีวิต สุขภาพ ประสิทธิภาพ การป้องกัน และความยาวนานของเซลล์มนุษย์ทุกเซลล์</span>",
+      "image": "https://cdn.fluid.app/neumi/hers/images/innovative.png",
+      "image_position": "right",
+      "desc_ordering_class": "order-lg-1",
+      "image_ordering_class": "order-lg-2"
+    },
+    {
+      "title": "เทคโนโลยีไฮดราสแตท™ ขนาดไนโต",
+      "desc": "<span class='fw-600'>อนุภาคขนาดไนโตที่ถูกป้องกันด้วยกลุ่มน้ำบริสุทธิ์ที่สุด</span> สารสกัดขนาดไนโตของเรามีขนาดเล็กพอที่จะถูกดูดซึมเต็มที่เข้าสู่เซลล์มนุษย์",
+      "image": "https://cdn.fluid.app/neumi/hers/images/nano.png",
+      "image_position": "left",
+      "desc_ordering_class": "",
+      "image_ordering_class": ""
+    },
+    {
+      "title": "คุณภาพมากกว่าจำนวน",
+      "desc": "อาหารเสริมมีคุณภาพเท่าไร มีความสามารถในการดูดซึม (bioavailability) ซึ่งเป็นความสามารถในการดูดซึมและใช้งานโดยร่างกาย <span class='fw-600 highlight-text'>ระบบส่งที่ถูกต้องส่งสารสกัดถึงร่างกายของคุณในลักษณะที่ร่างกายของคุณสามารถดูดซึมและใช้ในการใช้งานได้</span>",
+      "image": "https://cdn.fluid.app/neumi/hers/images/quality.png",
+      "image_position": "right",
+      "desc_ordering_class": "order-lg-1",
+      "image_ordering_class": "order-lg-2"
+    }
+  ],
+  "key_ingredients": {
+    "title": "ส่วนผสมสำคัญ",
+    "ingredients": "<span class=fw-600>ส่วนประกอบสำคัญ:</span> น้ำสะอาดชั้นดี, B6, B12, โพแทสเซียมซอร์เบต, โซเดียมเบนโซเอท, สารสกัดพืชสปีร์มินท์",
+    "item_list_desktop": [
+      {
+        "item": [
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/damiana.png",
+            "item_name": "ดามิอานา"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/dong-quai-root.png",
+            "item_name": "รากดงควาย"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/ginger.webp",
+            "item_name": "ขิง"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/Chasteberry.png",
+            "item_name": "สารสกัดเชสต์เบอร์รี่"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/maca-root.png",
+            "item_name": "รากมาคา"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/black-cohosh.png",
+            "item_name": "แบล็กโคฮอช"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/Ashwagandharoot.webp",
+            "item_name": "อาชวากันดา"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/peony-white-root.webp",
+            "item_name": "รากเทียนขาว"
+          }
+        ]
+      }
+    ],
+    "items_list": [
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/damiana.png",
+        "item_name": "ดามิอานา"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/ginger.webp",
+        "item_name": "ขิง"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/maca-root.png",
+        "item_name": "รากมาคา"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/Ashwagandharoot.webp",
+        "item_name": "อาชวากันดา"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/dong-quai-root.png",
+        "item_name": "รากดงควาย"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/Chasteberry.png",
+        "item_name": "สารสกัดเชสต์เบอร์รี่"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/black-cohosh.png",
+        "item_name": "แบล็กโคฮอช"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/peony-white-root.webp",
+        "item_name": "รากเทียนขาว"
+      }
+    ]
   },
-  "note_desc": "ข้อความที่แสดงในเว็บไซต์นี้ยังไม่ได้รับการตรวจสอบโดยองค์การอาหารและยา ข้อความเหล่านี้และผลิตภัณฑ์ของบริษัทนี้ไม่ได้มีวัตถุประสงค์ในการวินิจฉัย รักษา บรรเทา หรือป้องกันโรคใด ๆ มุมมองและคำแนะนำทางโภชนาการที่แสดงโดย Neumi ไม่ได้มีจุดประสงค์เพื่อให้คำปรึกษาทางการแพทย์ กรุณาปรึกษาแพทย์ผู้เชี่ยวชาญเสมอหากคุณกำลังทานยาหรือมีภาวะทางการแพทย์ใด ๆ ผลลัพธ์ของแต่ละบุคคลอาจแตกต่างกันไป"
+  "how_to_use": {
+    "title": "วิธีการใช้",
+    "bg_image": "https://cdn.fluid.app/neumi/hers/images/intake.png",
+    "steps": [
+      {
+        "caption": "วัดสอง (2) ช้อนชาของผลิตภัณฑ์ หนึ่งฝา = ช้อนชา"
+      },
+      {
+        "caption": "เคลือบในปากคุณเป็นเวลา 30 วินาทีหรือมากกว่านั้น"
+      },
+      {
+        "caption": "ไม่เหมือนน้ำยาบ้วนปากที่คุณสามารถกิน Hers ได้ หรือหากต้องการก็สามารถถ่อยออกได้"
+      },
+      {
+        "caption": "ทำขั้นตอนเหล่านี้สองครั้งต่อวัน ถ้าต้องการสามารถใช้ Hers บ่อยกว่านี้ได้"
+      }
+    ]
+  },
+  "faq": {
+    "title": "ประโยชน์ของกลูตาไธโอน",
+    "icon_class": "clr-primary",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "ระบบภูมิคุ้มกันที่แข็งแรงขึ้น",
+        "desc": "กลูตาไธโอนสามารถทำให้รักษาอนุมูลอิสระและป้องกันร่างกายจากผลกระทบที่เป็นอันตราย นอกจากนี้ยังช่วยลดการอักเสบและสนับสนุนความสามารถธรรมชาติของร่างกายในการต่อสู้กับการติดเชื้อ นอกจากนี้ยังเข้ามามีบทบาทในการสังเคราะห์เซลล์ภูมิคุ้มกันใหม่ ทำให้ระบบภูมิคุ้มกันของคุณทำงานได้ดีที่สุด"
+      },
+      {
+        "class": "",
+        "header": "พลังงานเพิ่มขึ้น",
+        "desc": "นอกจากนี้ยังช่วยลดการอักเสบและสนับสนุนความสามารถธรรมชาติของร่างกายในการต่อสู้กับการติดเชื้อ นอกจากนี้ยังเข้ามามีบทบาทในการสังเคราะห์เซลล์ภูมิคุ้มกันใหม่ ทำให้ระบบภูมิคุ้มกันของคุณทำงานได้ดีที่สุด"
+      },
+      {
+        "class": "",
+        "header": "ความอดทนและความทนทานที่เพิ่มขึ้น",
+        "desc": "นอกจากนี้ยังช่วยลดการอักเสบและสนับสนุนความสามารถธรรมชาติของร่างกายในการต่อสู้กับการติดเชื้อ นอกจากนี้ยังเข้ามามีบทบาทในการสังเคราะห์เซลล์ภูมิคุ้มกันใหม่ ทำให้ระบบภูมิคุ้มกันของคุณทำงานได้ดีที่สุด"
+      }
+    ]
+  },
+  "cta": {
+    "title": "เริ่มต้นด้วย Neumi เพื่อเป็นตัวคุณใหม่",
+    "subscription_text": "เพิ่มไปยังการสมัครสมาชิก",
+    "purchase_text": " ซื้อครั้งเดียว",
+    "image": "https://cdn.fluid.app/neumi/hers/images/cta.png"
+  },
+  "note_desc": "คำแถลงในเว็บไซต์นี้ไม่ได้รับการตรวจสอบโดยองค์การอาหารและยา คำแถลงและผลิตภัณฑ์ของบริษัทนี้ไม่ได้มีวัตถุประสงค์ที่จะวินิจฉัย รักษา รักษาโรคหรือป้องกันโรคใด ๆ มุมมองและคำแนะนำทางโภชนาการที่ Neumi แสดงออกไม่ได้มีจุดมุ่งหมายเพื่อให้คำแนะนำทางการแพทย์ กรุณาปรึกษาแพทย์ผู้เชี่ยวชาญด้านสุขภาพของคุณเสมอถ้าคุณกำลังรับประทานยาหรือมีสภาพสุขภาพใด ๆ ผลลัพธ์ของแต่ละบุคคลอาจแตกต่างกันไป"
 }
