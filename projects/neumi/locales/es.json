@@ -2,12 +2,14 @@
   "title": "Página de la tienda Neumi",
   "shop_product_button_text": "Compra nuestros productos",
   "shop_product_url": "#",
+  "language": "es",
   "hero_section":{
     "title": "Productos Neumi",
     "desc": "La vida es mejor cuando te ves y te sientes lo mejor posible.",
     "image": "https://cdn.fluid.app/neumi/shop/images/banner_bg.jpeg"
   },
   "asSeenOn": {
+    "title": "Como se ve en",
     "items": [
       {
         "image": "https://cdn.fluid.app/newulife/as_seen_1.png"

@@ -1,6 +1,8 @@
 {
   "title": "Neumi Winkelpagina",
   "shop_product_button_text": "Koop onze producten",
+  "shop_product_url": "#",
+  "language": "nl",
   "hero_section":{
     "title": "Neumi Producten",
     "desc": "Het leven is beter als je er op je best uitziet en je goed voelt.",

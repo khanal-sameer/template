@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,7 +37,7 @@
        <!--As seen section-->
         <div class="as-seen page-section-top">
             <div class="container">
-            <h4 class="text-center fw-600 mb-32">As seen on</h4>
+            <h4 class="text-center fw-600 mb-32">Come visto su</h4>
 
             <div id="as-seen_slider" class="splide">
                 <div class="splide__track">
@@ -338,7 +338,8 @@
 
     </script>
     <script>
-      document.addEventListener('DOMContentLoaded', async function () {
+      $(window).on('load', async function () {
+        console.log('load');
         function extractCookie(...keys) {
           return document.cookie.split(";").filter(item => keys.some(key => item.includes(key))).reduce((acc, item) => {
             const [key, value] = item.trim().split("=")

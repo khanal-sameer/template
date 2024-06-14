@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{language}}">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -138,10 +138,6 @@
     <!-- Js library import -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-    <script src="https://fastly.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         //as seen slider
@@ -179,7 +175,8 @@
 
     </script>
     <script>
-      document.addEventListener('DOMContentLoaded', async function () {
+      $(window).on('load', async function () {
+        console.log('load');
         function extractCookie(...keys) {
           return document.cookie.split(";").filter(item => keys.some(key => item.includes(key))).reduce((acc, item) => {
             const [key, value] = item.trim().split("=")

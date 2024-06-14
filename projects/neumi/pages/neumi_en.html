@@ -338,7 +338,8 @@
 
     </script>
     <script>
-      document.addEventListener('DOMContentLoaded', async function () {
+      $(window).on('load', async function () {
+        console.log('load');
         function extractCookie(...keys) {
           return document.cookie.split(";").filter(item => keys.some(key => item.includes(key))).reduce((acc, item) => {
             const [key, value] = item.trim().split("=")

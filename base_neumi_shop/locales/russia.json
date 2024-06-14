@@ -2,6 +2,7 @@
   "title": "Страница магазина Neumi",
   "shop_product_button_text": "Купить наши продукты",
   "shop_product_url": "#",
+  "language": "ru",
   "hero_section":{
     "title": "Продукты Neumi",
     "desc": "Жизнь лучше, когда вы выглядите и чувствуете себя наилучшим образом.",
@@ -72,7 +73,6 @@
   },
   "multiple_product":{
     "items":[
-
       {
         "price":"130",
         "product_name": "Hers Essential Pack с Neumi Skin",
