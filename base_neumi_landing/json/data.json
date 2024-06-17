@@ -1,0 +1,292 @@
+{
+    "title": "{{title}}",
+    "product_id": "",
+    "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
+    "shop_product_button_text": "{{shop_product_button_text}}",
+    "become_member_button_text": "{{become_member_button_text}}",
+    "shop_product_url": "#",
+    "become_member_url": "#",
+    "see_all_product_button_text": "{{see_all_product_button_text}}",
+    "hero_section":{
+      "title": "{{hero_section.title}}",
+      "title_sm": "{{hero_section.title_sm}}",
+      "desc": "{{hero_section.desc}}",
+      "image": "https://cdn.fluid.app/neumi/landing/images/hero.png"
+    },
+    "asSeenOn": {
+      "items": [
+        {
+          "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
+        },
+        {
+          "image": "https://cdn.fluid.app/newulife/as_seen_2.png"
+        },
+        {
+          "image": "https://cdn.fluid.app/newulife/as_seen_3.png"
+        },
+        {
+          "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
+        },
+        {
+          "image": "https://cdn.fluid.app/newulife/as_seen_5.png"
+        },
+        {
+          "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
+        }
+      ]
+    },
+    "masonary_section":{
+      "title": "{{masonary_section.title}}",
+      "desc": "{{masonary_section.desc}}",
+      "arrow": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M4 12H20M20 12L14 6M20 12L14 18\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  </svg>\n ",
+      "masonary_product_layout1":{
+        "vertical_image": "https://cdn.fluid.app/neumi/landing/images/vertical1.png",
+        "items":[
+          {
+            "image": "https://cdn.fluid.app/neumi/landing/images/hers.jpg",
+            "product_name": "{{masonary_section.masonary_product_layout1.items.0.product_name}}",
+            "url": "https://neumi.fluid.app/home/page/hers?preview=true",
+            "bg_color":"style=\"background-color:rgba(188,80,176,0.8)\""
+          },
+          {
+            "image": "https://cdn.fluid.app/neumi/landing/images/neumi.jpg",
+            "product_name": "{{masonary_section.masonary_product_layout1.items.1.product_name}}",
+            "url": " https://neumi.fluid.app/home/page/neumi-skin?preview=true",
+            "bg_color":"style=\"background-color:rgba(41,171,226,0.8)\""
+          }
+        ],
+        "horizontal_image": "https://cdn.fluid.app/neumi/landing/images/horizontal1.png"
+      },
+      "masonary_product_layout2":{
+        "horizontal_image": "https://cdn.fluid.app/neumi/landing/images/horizontal2.png",
+        "items":[
+          {
+            "image":  "https://cdn.fluid.app/neumi/landing/images/nutriswish.png",
+            "product_name": "{{masonary_section.masonary_product_layout2.items.0.product_name}}",
+            "url": " https://neumi.fluid.app/home/page/{{affiliate_guid | default: 'home'}}/nutriswish?preview=true",
+            "bg_color": "style=\"background-color:rgba(41,77,226,0.8)\""
+          },
+          {
+            "image":  "https://cdn.fluid.app/neumi/landing/images/neuro.png",
+            "product_name": "{{masonary_section.masonary_product_layout2.items.1.product_name}}",
+            "url": "https://neumi.fluid.app/home/page/nutriswish?preview=true",
+            "bg_color":"style=\"background-color:rgba(254,152,46,0.8)\""
+          }
+        ],
+        "vertical_image": "https://cdn.fluid.app/neumi/landing/images/vertical2.png"
+      }
+    },
+    "guarantee":{
+      "title": "{{guarantee.title}}",
+      "desc": "{{guarantee.desc}}",
+      "image": "https://cdn.fluid.app/neumi/landing/images/guarantee.png",
+      "alt_text": "{{guarantee.alt_text}}",
+      "image_position":"left",
+      "items": [
+        {
+          "icon": "<svg width=\"42\" height=\"53\" viewBox=\"0 0 42 53\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M13.5 25.3259L18.5 30.378L29.75 19.0107M41 26.5889C41 38.988 27.6151 48.0059 22.745 50.8767C22.1915 51.203 21.9148 51.3661 21.5242 51.4507C21.2211 51.5164 20.7789 51.5164 20.4758 51.4507C20.0852 51.3661 19.8085 51.203 19.255 50.8767C14.3849 48.0059 1 38.988 1 26.5889V14.5082C1 12.4886 1 11.4788 1.3269 10.6108C1.61569 9.84395 2.08496 9.15974 2.69415 8.61727C3.38374 8.0032 4.3195 7.64864 6.19101 6.9395L19.5955 1.8604C20.1152 1.66347 20.3751 1.565 20.6425 1.52597C20.8796 1.49134 21.1204 1.49134 21.3575 1.52597C21.6249 1.565 21.8848 1.66347 22.4045 1.8604L35.809 6.9395C37.6805 7.64864 38.6163 8.0032 39.3059 8.61727C39.915 9.15974 40.3843 9.84395 40.6731 10.6108C41 11.4788 41 12.4886 41 14.5082V26.5889Z\" stroke=\"#1649D2\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+          "title":  "{{guarantee.items.0.title}}",
+          "desc": "{{guarantee.items.0.desc}}"
+        },
+        {
+          "icon": "<svg width=\"40\" height=\"44\" viewBox=\"0 0 40 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20.371 0.563212C19.9612 0.478929 19.5386 0.478929 19.1288 0.563212C18.6616 0.659296 18.2366 0.896026 17.7454 1.16964L17.6455 1.22526L9.90178 5.52732C9.8929 5.53207 9.88409 5.53697 9.87535 5.542L2.22904 9.78995L2.12309 9.8487C1.60417 10.1362 1.15542 10.3848 0.816132 10.753C0.518669 11.0758 0.293556 11.4583 0.155848 11.8751C-0.00122019 12.3505 -0.000611389 12.8635 9.28992e-05 13.4568L0.000188267 13.5779V30.4883L9.28992e-05 30.6095C-0.000611389 31.2027 -0.00122019 31.7157 0.155848 32.1911C0.293556 32.6079 0.51867 32.9905 0.816132 33.3133C1.15541 33.6814 1.60417 33.93 2.12309 34.2175L2.22905 34.2763L17.6455 42.841L17.7454 42.8966C18.2366 43.1702 18.6616 43.4069 19.1288 43.503C19.5386 43.5873 19.9612 43.5873 20.371 43.503C20.8382 43.4069 21.2632 43.1702 21.7544 42.8966L21.8543 42.841L37.2708 34.2763L37.3767 34.2175C37.8956 33.93 38.3444 33.6814 38.6837 33.3133C38.9812 32.9905 39.2063 32.6079 39.344 32.1911C39.501 31.7157 39.5004 31.2027 39.4997 30.6094L39.4996 30.4883V13.5779L39.4997 13.4568C39.5004 12.8635 39.501 12.3505 39.344 11.8751C39.2063 11.4583 38.9812 11.0758 38.6837 10.753C38.3444 10.3848 37.8956 10.1362 37.3767 9.84869L37.2708 9.78994L21.8543 1.22526L21.7544 1.16964C21.2632 0.896027 20.8382 0.659296 20.371 0.563212ZM10.375 7.55232L3.20033 11.5383L3.05954 11.6167L19.7498 20.8891L27.0655 16.8248L10.375 7.55232ZM29.5918 17.7093C29.6049 17.7024 29.6178 17.6952 29.6306 17.6877L37.4991 13.3163C37.4995 13.3949 37.4996 13.4817 37.4996 13.5779V30.4883C37.4996 31.271 37.4876 31.4345 37.4449 31.5637C37.3966 31.7101 37.3175 31.8445 37.213 31.9579C37.1208 32.058 36.9837 32.1479 36.2995 32.528L20.8831 41.0927L20.7499 41.1664L20.7498 22.6215L29.5918 17.7093ZM29.1247 15.6809L12.4342 6.40836L18.6168 2.97357C19.2642 2.61388 19.4045 2.54836 19.5317 2.52221C19.6757 2.4926 19.8242 2.4926 19.9681 2.52221C20.0953 2.54836 20.2356 2.61388 20.8831 2.97357L36.2995 11.5383L36.4402 11.6167L29.1247 15.6809ZM18.7498 22.6215L18.7499 41.1664L18.6168 41.0927L3.20033 32.528C2.51617 32.1479 2.37907 32.058 2.28687 31.9579C2.18235 31.8445 2.10326 31.7101 2.05488 31.5637C2.01219 31.4345 2.00019 31.271 2.00019 30.4883V13.5779C2.00019 13.4818 2.00037 13.395 2.00077 13.3164L18.7498 22.6215Z\" fill=\"#1649D2\"/>\n</svg>\n",
+          "title":  "{{guarantee.items.1.title}}",
+          "desc": "{{guarantee.items.1.desc}}"
+        },
+        {
+          "icon": "<svg width=\"42\" height=\"45\" viewBox=\"0 0 42 45\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.2544 43.5V20.4M1 24.6V39.3C1 41.6196 2.83642 43.5 5.10176 43.5H32.6374C35.6742 43.5 38.2567 41.2313 38.7185 38.158L40.9271 23.458C41.5005 19.6417 38.6169 16.2 34.846 16.2H27.6615C26.5288 16.2 25.6106 15.2598 25.6106 14.1V6.67826C25.6106 3.81839 23.3464 1.5 20.5534 1.5C19.8873 1.5 19.2836 1.90172 19.013 2.52506L11.7957 19.1529C11.4665 19.9113 10.7321 20.4 9.92159 20.4H5.10176C2.83642 20.4 1 22.2804 1 24.6Z\" stroke=\"#1649D2\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+          "title":  "{{guarantee.items.2.title}}",
+          "desc": "{{guarantee.items.2.desc}}"
+        }
+      ]
+    },
+    "performance":{
+      "title_sm": "{{performance.title_sm}}",
+      "title": "{{performance.title}}",
+      "desc": "{{performance.desc}}",
+      "image": "https://cdn.fluid.app/neumi/landing/images/performance.png",
+      "button_text": "{{performance.button_text}}",
+      "url": "#",
+      "image_position":"right",
+      "desc_ordering_class": " order-lg-1",
+      "image_ordering_class": " order-lg-2"
+    },
+    "video":{
+      "title_sm": "{{video.title_sm}}",
+      "title": "{{video.title}}",
+      "image": "https://cdn.fluid.app/neumi/landing/images/video_bg.png",
+      "video_url": "https://youtu.be/pdn3__eU4Hw"
+    },
+    "before_and_after":{
+      "title": "{{before_and_after.title}}",
+      "image_list":[
+        {
+          "image": "https://cdn.fluid.app/neumi/before_after/before-after-1.png"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/before_after/before-after-2.png"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/before_after/before-after-3.png"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/before_after/before-after-4.png"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/before_after/before-after-5.png"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/before_after/before-after-6.png"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/before_after/before-after-7.png"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/before_after/before-after-8.png"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/before_after/before-after-6.png"
+        }
+      ]
+    },
+    "medical_advisor_board":{
+      "title": "{{medical_advisor_board.title}}",
+      "items":[
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/douglas.png",
+          "name": "{{medical_advisor_board.items.0.name}}",
+          "university": "{{medical_advisor_board.items.0.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/gordon.png",
+          "name": "{{medical_advisor_board.items.1.name}}",
+          "university": "{{medical_advisor_board.items.1.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/zanetor.png",
+          "name": "{{medical_advisor_board.items.2.name}}",
+          "university": "{{medical_advisor_board.items.2.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/annie.png",
+          "name": "{{medical_advisor_board.items.3.name}}",
+          "university": "{{medical_advisor_board.items.3.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/thomas.jpg",
+          "name": "{{medical_advisor_board.items.4.name}}",
+          "university": "{{medical_advisor_board.items.4.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/eduardo.png",
+          "name": "{{medical_advisor_board.items.5.name}}",
+          "university": "{{medical_advisor_board.items.5.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/ronald.png",
+          "name": "{{medical_advisor_board.items.6.name}}",
+          "university": "{{medical_advisor_board.items.6.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/jose.png",
+          "name": "{{medical_advisor_board.items.7.name}}",
+          "university": "{{medical_advisor_board.items.7.university}}"
+        }
+      ],
+      "hidden_items":[
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/james.webp",
+          "name": "{{medical_advisor_board.hidden_items.0.name}}",
+          "university": "{{medical_advisor_board.hidden_items.0.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/joseph.webp",
+          "name": "{{medical_advisor_board.hidden_items.1.name}}",
+          "university": "{{medical_advisor_board.hidden_items.1.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/steven.webp",
+          "name": "{{medical_advisor_board.hidden_items.2.name}}",
+          "university": "{{medical_advisor_board.hidden_items.2.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/jim.webp",
+          "name": "{{medical_advisor_board.hidden_items.3.name}}",
+          "university": "{{medical_advisor_board.hidden_items.3.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/dean.webp",
+          "name": "{{medical_advisor_board.hidden_items.4.name}}",
+          "university": "{{medical_advisor_board.hidden_items.4.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/tania.webp",
+          "name": "{{medical_advisor_board.hidden_items.5.name}}",
+          "university": "{{medical_advisor_board.hidden_items.5.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/kristen.webp",
+          "name": "{{medical_advisor_board.hidden_items.6.name}}",
+          "university": "{{medical_advisor_board.hidden_items.6.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/luis.webp",
+          "name": "{{medical_advisor_board.hidden_items.7.name}}",
+          "university": "{{medical_advisor_board.hidden_items.7.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/bethany.webp",
+          "name": "{{medical_advisor_board.hidden_items.8.name}}",
+          "university": "{{medical_advisor_board.hidden_items.8.university}}"
+        },
+        {
+          "image": "https://cdn.fluid.app/neumi/medical_advisory_board/pacilina.webp",
+          "name": "{{medical_advisor_board.hidden_items.9.name}}",
+          "university": "{{medical_advisor_board.hidden_items.9.university}}"
+        }
+      ]
+    },
+    "faq":{
+      "title": "{{faq.title}}",
+      "icon_class": "clr-primary",
+      "items":[
+        {
+          "class": "acc-item_active",
+          "header": "{{faq.items.0.header}}",
+          "desc": "{{faq.items.0.desc}}"
+        },
+        {
+          "class": "",
+          "header": "{{faq.items.1.header}}",
+          "desc": "{{faq.items.1.desc}}"
+        },
+        {
+          "class": "",
+          "header": "{{faq.items.2.header}}",
+          "desc": "{{faq.items.2.desc}}"
+        },
+        {
+          "class": "",
+          "header": "{{faq.items.3.header}}",
+          "desc": "{{faq.items.3.desc}}"
+        },
+        {
+          "class": "",
+          "header": "{{faq.items.4.header}}",
+          "desc": "{{faq.items.4.desc}}"
+        },
+        {
+          "class": "",
+          "header": "{{faq.items.5.header}}",
+          "desc": "{{faq.items.5.desc}}"
+        }
+      ]
+  
+    },
+    "cta":{
+      "title": "{{cta.title}}",
+      "image": "https://cdn.fluid.app/neumi/landing/images/cta_bg.jpg"
+    },
+    "note_desc": "{{note_desc}}"
+  }
+  
