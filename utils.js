@@ -18,6 +18,7 @@ const rootAbs = [".", "/", "./"];
 
 const createDir = (dest = "") => {
   const dirname = path.dirname(dest);
+  
   if (rootAbs.includes(dirname)) return;
 
   fs.mkdirSync(dirname, { recursive: true });
@@ -115,27 +116,32 @@ export const initProject = (values) => {
   trees.forEach((tree) => createFile(tree, base));
 };
 
-export const populatePath = () => {
-  const projects = globSync("projects/*");
+export const populatePath = (project) => {
+  const locales = globSync(path.join(project,"locale/*.json"))
+  const data = path.join(project,"json","data.json")
+  const template = path.join(project,"index.html")
+  const pages = path.join(project,'pages')
 
-  if (!projects.length) {
-    throw new Error(
-      "Projects not initialized, please run yarn generate to create projects."
-    );
-  }
+  return [locales, template, data, pages, project]
 
-  return projects.reduce((acc, item) => {
-    const locales = globSync(item + "/locales/*.json");
-    const project = path.basename(item);
-    const data = path.join(item,"data.json")
+  // if (!projects.length) {
+  //   throw new Error(
+  //     "Projects not initialized, please run yarn generate to create projects."
+  //   );
+  // }
+
+  // return projects.reduce((acc, item) => {
+  //   const locales = globSync(item + "/locales/*.json");
+  //   const project = path.basename(item);
+  //   const data = path.join(item,"data.json")
 
 
-    locales.forEach((locale) => {
-      const lang = path.basename(locale, ".json");
-      const page = `${item}/pages/${project}_${lang}.html`;
-      acc.push([locale, page, data]);
-    });
+  //   locales.forEach((locale) => {
+  //     const lang = path.basename(locale, ".json");
+  //     const page = `${item}/pages/${project}_${lang}.html`;
+  //     acc.push([locale, page, data]);
+  //   });
 
-    return acc;
-  }, []);
+  //   return acc;
+  // }, []);
 };

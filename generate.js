@@ -1,4 +1,6 @@
 import Mustache from "mustache";
+import path from "node:path";
+
 
 import {
   mapArgs,
@@ -18,20 +20,26 @@ const replaceIterableInt = (nestedString = "", key) => {
   });
 };
 
-const populateHTML = (lang, page, lang_base, base = "base/template.html") => {
-  const template = readFile(base);
+const populateHTML = (lang, page, lang_temp,pages,project) => {
+  const template = readFile(page);
+  
   const data = readFile(lang);
-  const lang_temp = readFile(lang_base)
-  const partials = readDir("partials");
-  const langReplaced = Mustache.render(lang_temp, JSON.parse(data))
+  const temp = readFile(lang_temp)
+  const parsed = JSON.parse(data)
+  const langReplaced = Mustache.render(temp, parsed)
 
   const replaceData = replaceIterableInt(langReplaced, "rating");
+
   const parsedData = JSON.parse(replaceData);
+
   if (!data || !template) return;
 
+  const partials = readDir("partials");
   const rendered = Mustache.render(template, parsedData, partials)
+  const locale_name = path.parse(lang).name
+  const page_name = path.join(pages,`${project}_${locale_name}.html`)
 
-  writeFile(page, rendered);
+  writeFile(page_name, rendered);
 
   return rendered;
 };
@@ -58,10 +66,12 @@ const init = (args) => {
 };
 
 const populate = (args) => {
-  const options = { base: false };
+  const options = {project: false };
   checkMultiple(args, options);
+  const [locales, page, lang_temp,pages, project] = populatePath(args?.project[0])
+  
 
-  populatePath().forEach((item) => populateHTML(...item, args.base));
+ locales.forEach((lang) => populateHTML(lang, page, lang_temp,pages,project));
 };
 
 const actions = {
