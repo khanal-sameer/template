@@ -18,12 +18,14 @@ const replaceIterableInt = (nestedString = "", key) => {
   });
 };
 
-const populateHTML = (lang, page, base = "base/template.html") => {
-  const template = readFile(...base);
+const populateHTML = (lang, page, lang_base, base = "base/template.html") => {
+  const template = readFile(base);
   const data = readFile(lang);
+  const lang_temp = readFile(lang_base)
   const partials = readDir("partials");
+  const langReplaced = Mustache.render(lang_temp, JSON.parse(data))
 
-  const replaceData = replaceIterableInt(data, "rating");
+  const replaceData = replaceIterableInt(langReplaced, "rating");
   const parsedData = JSON.parse(replaceData);
   if (!data || !template) return;
 

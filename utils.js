@@ -101,7 +101,8 @@ export const createFilePath = (prefix = "", values = {}) => {
   return projects.reduce((acc, project) => {
     for (const lang of locales) {
       const langPath = path.join(prefix, project, "locales", `${lang}.json`);
-      acc.push(langPath);
+      const dataPath = path.join(prefix, project, `data.json`);
+      acc.push(langPath,dataPath);
     }
     return acc;
   }, []);
@@ -126,11 +127,13 @@ export const populatePath = () => {
   return projects.reduce((acc, item) => {
     const locales = globSync(item + "/locales/*.json");
     const project = path.basename(item);
+    const data = path.join(item,"data.json")
+
 
     locales.forEach((locale) => {
       const lang = path.basename(locale, ".json");
       const page = `${item}/pages/${project}_${lang}.html`;
-      acc.push([locale, page]);
+      acc.push([locale, page, data]);
     });
 
     return acc;
