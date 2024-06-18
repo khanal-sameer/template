@@ -6,6 +6,8 @@
   "see_all_text": "See all",
   "hide_all_text": "Hide all",
   "language":"en",
+  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section":{
     "title": "A new you starts with Neumi",
     "title_sm": "The Nano Company",
@@ -20,20 +22,24 @@
     "masonary_product_layout1":{
       "items":[
         {
-          "product_name": "Hers"
+          "product_name": "Hers",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
         },
         {
-          "product_name": "Neumi Skin"
+          "product_name": "Neumi Skin",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
         }
       ]
     },
     "masonary_product_layout2":{
       "items":[
         {
-          "product_name": "NutriSwish"
+          "product_name": "NutriSwish",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
         },
         {
-          "product_name": "Neuro"
+          "product_name": "Neuro",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
         }
       ]
     }
@@ -61,7 +67,8 @@
     "title_sm": "HydraStat Nanotechnology™",
     "title": "Small delivery, big performance",
     "desc":"The molecules in many supplements are too large to be absorbed by the cell, so they get excreted from the body without being used effectively. Neumi uses breakthrough HydraStat Nanotechnology™ to increase the bioavailability and effectiveness of all its products by breaking down large molecules and enveloping them in ultra-pure water clusters. Our nanosized ingredients are between 10-100 nanometers. They are small enough to be fully absorbed into the human cell.",
-    "button_text": "Learn more"
+    "button_text": "Learn more",
+    "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
   },
   "video":{
     "title_sm": "Hydrastat Nanotechnology™",

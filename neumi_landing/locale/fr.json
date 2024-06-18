@@ -6,6 +6,8 @@
   "see_all_text": "Voir tout",
   "hide_all_text": "Cacher tout",
   "language": "fr",
+  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section": {
     "title": "Un nouveau vous commence avec Neumi",
     "title_sm": "La société Nano",
@@ -17,23 +19,27 @@
   "masonary_section": {
     "title": "Notre gamme de produits",
     "desc": "La vie est meilleure quand vous vous sentez et paraissez au mieux de votre forme.",
-    "masonary_product_layout1": {
-      "items": [
+    "masonary_product_layout1":{
+      "items":[
         {
-          "product_name": "Hers"
+          "product_name": "Hers",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
         },
         {
-          "product_name": "Neumi Skin"
+          "product_name": "Neumi Skin",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
         }
       ]
     },
-    "masonary_product_layout2": {
-      "items": [
+    "masonary_product_layout2":{
+      "items":[
         {
-          "product_name": "NutriSwish"
+          "product_name": "NutriSwish",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
         },
         {
-          "product_name": "Neuro"
+          "product_name": "Neuro",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
         }
       ]
     }
@@ -61,7 +67,8 @@
     "title_sm": "Nanotechnologie HydraStat™",
     "title": "Petite livraison, grande performance",
     "desc": "Les molécules de nombreux compléments alimentaires sont trop grosses pour être absorbées par la cellule, elles sont donc excrétées du corps sans être utilisées efficacement. Neumi utilise la nanotechnologie révolutionnaire HydraStat™ pour augmenter la biodisponibilité et l'efficacité de tous ses produits en décomposant les grosses molécules et en les enveloppant dans des clusters d'eau ultra-pure. Nos ingrédients de taille nanométrique mesurent entre 10 et 100 nanomètres. Ils sont suffisamment petits pour être entièrement absorbés par la cellule humaine.",
-    "button_text": "En savoir plus"
+    "button_text": "En savoir plus",
+    "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
   },
   "video": {
     "title_sm": "Nanotechnologie Hydrastat™",

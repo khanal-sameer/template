@@ -6,6 +6,8 @@
   "see_all_text": "すべて見る",
   "hide_all_text": "すべて隠す",
   "language": "ja",
+  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section": {
     "title": "Neumiで新しい自分が始まる",
     "title_sm": "ナノカンパニー",
@@ -17,23 +19,27 @@
   "masonary_section": {
     "title": "私たちの製品ラインアップ",
     "desc": "見た目も気分も最高のとき、人生はより良いものです。",
-    "masonary_product_layout1": {
-      "items": [
+    "masonary_product_layout1":{
+      "items":[
         {
-          "product_name": "Hers"
+          "product_name": "Hers",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
         },
         {
-          "product_name": "Neumi Skin"
+          "product_name": "Neumi Skin",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
         }
       ]
     },
-    "masonary_product_layout2": {
-      "items": [
+    "masonary_product_layout2":{
+      "items":[
         {
-          "product_name": "NutriSwish"
+          "product_name": "NutriSwish",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
         },
         {
-          "product_name": "Neuro"
+          "product_name": "Neuro",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
         }
       ]
     }
@@ -61,7 +67,8 @@
     "title_sm": "HydraStatナノテクノロジー™",
     "title": "小さなデリバリー、大きなパフォーマンス",
     "desc": "多くのサプリメントの分子は細胞に吸収されるには大きすぎるため、体内で効果的に使用されることなく排出されます。Neumiは、すべての製品の生物学的利用率と効果を高めるために、革新的なHydraStatナノテクノロジー™を使用して大きな分子を分解し、超純水クラスターに包み込みます。当社のナノサイズの成分は10〜100ナノメートルで、人間の細胞に完全に吸収されるのに十分小さいです。",
-    "button_text": "詳細を知る"
+    "button_text": "詳細を知る",
+    "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
   },
   "video": {
     "title_sm": "Hydrastatナノテクノロジー™",

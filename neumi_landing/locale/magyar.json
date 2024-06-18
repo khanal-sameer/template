@@ -6,6 +6,8 @@
   "see_all_text": "Összes megtekintése",
   "hide_all_text": "Összes elrejtése",
   "language":"",
+  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section":{
     "title": "Az új én Neumi-vel kezdődik",
     "title_sm": "A Nano Cég",
@@ -20,20 +22,24 @@
     "masonary_product_layout1":{
       "items":[
         {
-          "product_name": "Hers"
+          "product_name": "Hers",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
         },
         {
-          "product_name": "Neumi Skin"
+          "product_name": "Neumi Skin",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
         }
       ]
     },
     "masonary_product_layout2":{
       "items":[
         {
-          "product_name": "NutriSwish"
+          "product_name": "NutriSwish",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
         },
         {
-          "product_name": "Neuro"
+          "product_name": "Neuro",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
         }
       ]
     }
@@ -61,7 +67,8 @@
     "title_sm": "HydraStat Nanotechnológia™",
     "title": "Kis méretű szállítás, nagy teljesítmény",
     "desc":"A molekulák számos kiegészítőben túl nagyok ahhoz, hogy a sejt által felszívódjanak, így hatástalanul kiválasztódnak a szervezetből. A Neumi áttörő HydraStat Nanotechnológiáját használja, hogy növelje termékeinek biológiai hozzáférhetőségét és hatékonyságát, nagy molekulákat lebontva és ultratiszta vízklaszterekbe burkolva. Nanoméretű összetevőink 10-100 nanométer között vannak. Elég kicsik ahhoz, hogy teljes mértékben felszívódjanak az emberi sejtbe.",
-    "button_text": "Tudjon meg többet"
+    "button_text": "Tudjon meg többet",
+    "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
   },
   "video":{
     "title_sm": "Hydrastat Nanotechnológia™",

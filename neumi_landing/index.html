@@ -27,8 +27,8 @@
           <h1 class="clr-white mt-8">{{title}}</h1>
           <p class="mt-8">{{desc}}</p>
           <div class="btn-section is-flex is-wrap col-gap-12">
-            <a href="{{shop_product_url}}" class="btn btn-primary btn-rounded mt-24">{{shop_product_button_text}}</a>
-            <a href="{{become_member_url}}" class="btn btn-white btn-rounded mt-24">{{become_member_button_text}}</a>
+            <a href="{{{shop_product_url}}}" class="btn btn-primary btn-rounded mt-24">{{shop_product_button_text}}</a>
+            <a href="{{{become_member_url}}}" class="btn btn-white btn-rounded mt-24">{{become_member_button_text}}</a>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@
                 <div class="col col-12 col-xs-6 mt-30">
                   <div class="image-section bg-image sm-image" style="background-image: url({{image}});">
                     <h4 class="product-title">
-                      <a href="{{url}}" {{{bg_color}}} target="_blank">
+                      <a href="{{{url}}}" {{{bg_color}}} target="_blank">
                         <span>{{product_name}}</span>
                         <div class="icon">{{{arrow}}}</div>
                       </a>
@@ -89,7 +89,7 @@
                 <div class="col col-12 col-xs-6 mt-30">
                   <div class="image-section bg-image sm-image bg-image-top" style="background-image: url({{image}})">
                     <h4 class="product-title">
-                      <a href="{{url}}" {{{bg_color}}} target="_blank">
+                      <a href="{{{url}}}" {{{bg_color}}} target="_blank">
                         <span>{{product_name}}</span>
                         <div class="icon">{{{arrow}}}</div>
                       </a>
@@ -237,9 +237,7 @@
           <h2>{{title}}</h2>
           <p class="mt-32 clr-body">{{{desc}}}</p>
           <div class="btn-section mt-32">
-            <button class="btn btn-primary btn-rounded">
-              {{button_text}}
-            </button>
+            <a href="{{{url}}}" class="btn btn-primary btn-rounded" target="_blank">{{button_text}}</a>
           </div>
         </div>
       </div><!--.desc-->

@@ -6,6 +6,8 @@
   "see_all_text": "Tingnan lahat",
   "hide_all_text": "Itago ang lahat",
   "language": "ta",
+  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section":{
     "title": "Ang bagong ikaw ay nagsisimula sa Neumi",
     "title_sm": "Ang Nano Kompanya",
@@ -20,20 +22,24 @@
     "masonary_product_layout1":{
       "items":[
         {
-          "product_name": "Hers"
+          "product_name": "Hers",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
         },
         {
-          "product_name": "Neumi Skin"
+          "product_name": "Neumi Skin",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
         }
       ]
     },
     "masonary_product_layout2":{
       "items":[
         {
-          "product_name": "NutriSwish"
+          "product_name": "NutriSwish",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
         },
         {
-          "product_name": "Neuro"
+          "product_name": "Neuro",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
         }
       ]
     }
@@ -61,7 +67,8 @@
     "title_sm": "HydraStat Nanotechnology™",
     "title": "Maliit na delivery, malaking performance",
     "desc":"Ang mga molekula sa maraming suplemento ay masyadong malaki upang ma-absorb ng selula, kaya sila ay nagiging basura na lamang na inilalabas ng katawan nang hindi epektibo. Ginagamit ng Neumi ang breakthrough na HydraStat Nanotechnology™ upang dagdagan ang bioavailability at epektibong mga produkto sa pamamagitan ng paghiwalay ng malalaking molekula at pag-encapsulate sa mga ito sa ultra-pure water clusters. Ang aming mga sangkap na nanosize ay nasa pagitan ng 10-100 nanometers. Sapat silang maliit upang ma-absorb ng buo sa selula ng tao.",
-    "button_text": "Matuto pa"
+    "button_text": "Matuto pa",
+    "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
   },
   "video":{
     "title_sm": "Hydrastat Nanotechnology™",

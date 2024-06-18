@@ -6,6 +6,8 @@
   "see_all_text": "ดูทั้งหมด",
   "hide_all_text": "ซ่อนทั้งหมด",
   "language": "th",
+  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section":{
     "title": "คุณใหม่เริ่มต้นที่ Neumi",
     "title_sm": "บริษัท Nano",
@@ -20,20 +22,24 @@
     "masonary_product_layout1":{
       "items":[
         {
-          "product_name": "Hers"
+          "product_name": "Hers",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
         },
         {
-          "product_name": "Neumi Skin"
+          "product_name": "Neumi Skin",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
         }
       ]
     },
     "masonary_product_layout2":{
       "items":[
         {
-          "product_name": "NutriSwish"
+          "product_name": "NutriSwish",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
         },
         {
-          "product_name": "Neuro"
+          "product_name": "Neuro",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
         }
       ]
     }
@@ -61,7 +67,8 @@
     "title_sm": "เทคโนโลยีไฮดราสแทต™",
     "title": "ส่งผลดีในทุกการใช้งาน",
     "desc":"โมเลกุลในสารอาหารหลายชนิดมีขนาดใหญ่เกินไปที่จะถูกดูดซึมโดยเซลล์ ดังนั้นพวกเขาถูกขับออกจากร่างกายโดยที่ไม่ได้ใช้งานอย่างมีประสิทธิภาพ Neumi ใช้เทคโนโลยีไฮดราสแทต™ แบบพิเศษเพื่อเพิ่มประสิทธิภาพในการดูดซึมและความมีประสิทธิภาพของผลิตภัณฑ์ทั้งหมดของมันโดยการทำให้โมเลกุลขนาดใหญ่แตกตัวและห่อหุ้มด้วยกลุ่มน้ำที่บริสุทธิ์สุด โมเลกุลขนาดเล็กของเราอยู่ระหว่าง 10-100 นาโนเมตร พวกเขามีขนาดเล็กพอที่จะถูกดูดซึมเต็มที่เข้าสู่เซลล์มนุษย์",
-    "button_text": "เรียนรู้เพิ่มเติม"
+    "button_text": "เรียนรู้เพิ่มเติม",
+    "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
   },
   "video":{
     "title_sm": "เทคโนโลยีไฮดราสแทต™",
