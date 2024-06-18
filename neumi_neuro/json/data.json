@@ -9,6 +9,7 @@
   "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
   "select_quantity_text": "{{select_quantity_text}}",
   "all_product_text": "{{all_product_text}}",
+  "language": "{{language}}",
   "shop_url": "https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/shop",
   "productSlider": {
     "items": [
@@ -66,6 +67,7 @@
     ]
   },
   "asSeenOn": {
+    "title": "{{asSeenOn.title}}",
     "items": [
       {
         "image": "https://cdn.fluid.app/newulife/as_seen_1.png"

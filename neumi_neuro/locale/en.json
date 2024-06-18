@@ -1,0 +1,215 @@
+{
+  "title": "Neuro",
+  "product_title": "Neuro",
+  "total_product_review": "7 Reviews",
+  "product_desc": "Introducing Neuro,<span class=\"fw-600\"> our groundbreaking nano brain formula, designed to optimize cognitive function, enhance focus, and support overall brain health.</span> Utilizing the same advanced HydraStat Nanotechnology as NutriSwish, Neuro ensures maximum absorption and efficacy of its meticulously selected ingredients.",
+  "add_to_cart_text": "Add to cart",
+  "select_quantity_text": "Select Quantity",
+  "all_product_text": "All Products",
+  "language":"en",
+  "subscribe": {
+    "subscribe_text": "Subscribe",
+    "frequency_text": "Select Frequency",
+    "actual_price": "65.00",
+    "discounted_price": "50.00",
+    "checklist_items": [
+      {
+        "caption": "Subscribe and save <span id='saving'>$15</span>"
+      },
+      {
+        "caption": "Earn Neumi Reward Points"
+      },
+      {
+        "caption": "30-day money-back guarantee"
+      },
+      {
+        "caption": "Update your subscription anytime"
+      }
+    ],
+    "one_time_purchase_text": "One-time purchase"
+  },
+  "free_shipping_desc": "Free U.S. shipping for orders over $200+",
+  "benefits": {
+    "title": "Benefits",
+    "items": [
+      {
+        "caption": "Key ingredients to maximize absorption and effectiveness, daily."
+      },
+      {
+        "caption": "Every batch undergoes rigorous third-party testing to ensure commitment to purity and safety."
+      },
+      {
+        "caption": "We offer a 30-day money-back guarantee, no questions asked."
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "As seen on"
+  },
+  "tab": {
+    "title": "See how Neuro is changing lives",
+    "video_review_title": "Video Reviews <span>(5)</span>",
+    "written_review_title": "Written Reviews <span>(2)</span>",
+    "rating_text": "5 Star Rating",
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "Salt Lake City, UT",
+        "time": "2 hour ago",
+        "review_text": "Neuro has been a game-changer for me! I've been using it for a few months now, and I've noticed a significant improvement in my energy levels and overall vitality. It's amazing how something so simple can have such profound effects. Highly recommend!"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "Laie, HI",
+        "time": "2 hour ago",
+        "review_text": "I've struggled with maintaining hormone balance for years, but Neuro has made a world of difference. Not only do I feel more balanced and energized, but I've also noticed improvements in my skin tone and muscle tone. It's truly remarkable!"
+      }
+    ]
+  },
+  "product_benefits": {
+    "title": "Experience the transformative benefits of Neuro",
+    "desc": "Unlock your cognitive potential and achieve peak mental performance with Neuro’s powerful blend. Whether you need to<span class='fw-600'> enhance focus, boost mental energy, or support long-term brain health,</span> Neuro is your ultimate ally.",
+    "alt_text": "neuro product",
+    "items_left": [
+      {
+        "title": "Sustained Release",
+        "desc": "Oral administration allows for a more consistent and sustained release of glutathione into the bloodstream."
+      },
+      {
+        "title": "Enhanced Bioavailability",
+        "desc": "Nano-sized glutathione particles mean a greater proportion of glutathione is utilized, maximizing its antioxidant benefits."
+      }
+    ],
+    "items_right": [
+      {
+        "title": "Convenience",
+        "desc": "Unparalleled convenience compared to the more invasive and time-consuming IV treatments."
+      },
+      {
+        "title": "Cost-Effectiveness",
+        "desc": "A more affordable alternative to regular IV glutathione treatments. Eliminate the need for frequent clinic visits, reducing overall costs."
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "Innovative science",
+      "desc": "Glutathione is the protector and detoxifier of the cell.<span class='fw-600'> It’s the key to the life, health, performance, protection and longevity of every human cell.</span>"
+    },
+    {
+      "title": "HydraStat™ nanotechnology",
+      "desc": "<span class='fw-600'>Nano-sized particles protected by ultra-pure water clusters.</span> Our nanosized ingredients are small enough to be fully absorbed into the human cell."
+    },
+    {
+      "title": "Purity and quality",
+      "desc": "Neuro undergoes rigorous third-party testing to ensure it meets the highest standards of purity and quality. We stand behind our product with a 30-day money-back guarantee, confident in its ability to deliver significant health benefits."
+    }
+  ],
+  "key_ingredients": {
+    "title": "Key ingredients in Neuro",
+    "ingredients": "<span class='fw-600 is-uppercase'>other key ingredients:</span> <span class='is-uppercase'>CAFFEINE, MAGNESIUM GLUCONATE, ALPHA GPC, ACETYL-L-CARNITINE, MSM, PYRIDOXAL 5-PHOSPHATE. *IMAGE SHOWS A PLANT/FOOD IN WHICH THE ACTIVE INGREDIENT IS FOUND AND NOT NECESSARILY WHERE it  is EXTRACTed FROM.</span>",
+    "item_list_desktop": [
+      {
+        "item": [
+          {
+            "item_name": "L-Glutathione*"
+          },
+          {
+            "item_name": "Calcium Ascorbate*"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Phosphatidyl Serine*"
+          },
+          {
+            "item_name": "Curcumin"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "L-Theanine*"
+          },
+          {
+            "item_name": "L-Cysteine*"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Arginine*"
+          },
+          {
+            "item_name": "Ginkgo Biloba"
+          }
+        ]
+      }
+    ],
+    "items_list": [
+      {
+        "item_name": "L-Glutathione*"
+      },
+      {
+        "item_name": "Phosphatidyl Serine*"
+      },
+      {
+        "item_name": "L-Theanine*"
+      },
+      {
+        "item_name": "Arginine*"
+      },
+      {
+        "item_name": "Calcium Ascorbate*"
+      },
+      {
+        "item_name": "Curcumin"
+      },
+      {
+        "item_name": "L-Cysteine*"
+      },
+      {
+        "item_name": "Ginkgo Biloba"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "Directions for use",
+    "desc": "To experience the full benefits, swish the recommended dosage of Neuro in your mouth for 30 seconds before swallowing. This method ensures optimal absorption of the nano-formulated ingredients."
+  },
+  "faq": {
+    "title": "Benefits of Glutathione",
+    "items": [
+      {
+        "header": "Strengthened Immune System",
+        "desc": "Glutathione is able to neutralize free radicals and protect the body from their harmful effects.It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
+      },
+      {
+        "header": "Increased Energy"
+      },
+      {
+        "header": "Enhanced Stamina and Endurance"
+      },
+      {
+        "header": "Improved Exercise Recovery Times"
+      },
+      {
+        "header": "Greater Mental Clarity and Focus"
+      },
+      {
+        "header": "Enhanced Quality and Length of Life"
+      }
+    ]
+  },
+  "cta": {
+    "title": "A new you starts with Neumi",
+    "desc": "Unlock your cognitive capabilities and achieve peak mental performance with Neuro, your daily dose of brain health in a bottle.",
+    "subscription_text": "Add to subscription",
+    "purchase_text": " Purchase one-time"
+  },
+  "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration. These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
+}
