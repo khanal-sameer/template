@@ -196,7 +196,7 @@
   },
   {
   "bg_image": "https://cdn.fluid.app/neumi/hers/images/dong-quai-root.png",
-  "item_name":  "{{key_ingredients.item_list_desktop.1.item.1.item_name}}"
+  "item_name":  "{{key_ingredients.item_list_desktop.0.item.1.item_name}}"
   }
   ]
   },
