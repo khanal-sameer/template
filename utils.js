@@ -106,13 +106,15 @@ export const createFilePath = (prefix = "", values = {}) => {
     const typography = path.join(prefix, project, 'scss', "_typography.scss");
     const variables = path.join(prefix, project, 'scss', "_variables.scss");
     const styles = path.join(prefix, project, 'scss', "style.scss");
+    const partials = path.join(prefix, project, 'partials',"Style.html");
+    const style_tmpl = readFile("style.txt")
 
 
-    acc.push(dataPath,cssPath,template,typography,variables,styles);
+    acc.push([dataPath],[cssPath],[template],[typography],[variables],[styles],[partials,style_tmpl]);
 
     for (const lang of locales) {
       const langPath = path.join(prefix, project, "locale", `${lang}.json`);
-      acc.push(langPath);
+      acc.push([langPath]);
     }
     return acc;
   }, []);
@@ -120,7 +122,7 @@ export const createFilePath = (prefix = "", values = {}) => {
 
 export const initProject = (values) => {
   const trees = createFilePath(".", values);
-  trees.forEach((tree) => createFile(tree));
+  trees.forEach(([tree,value]) => createFile(tree,value || ""));
 };
 
 export const populatePath = (project) => {
@@ -128,6 +130,8 @@ export const populatePath = (project) => {
   const data = path.join(project,"json","data.json")
   const template = path.join(project,"index.html")
   const pages = path.join(project,'pages')
+  const style = path.join(project,"css","style.css")
+  const partials = path.join(project,'partials')
 
-  return [locales, template, data, pages, project]
+  return [locales, template, data, pages, project,style, partials]
 };
