@@ -1,0 +1,191 @@
+{
+  "title": "Page de destination de Neumi",
+  "shop_product_button_text": "Achetez nos produits",
+  "become_member_button_text": "Devenir membre",
+  "see_all_product_button_text": "Voir tous les produits",
+  "see_all_text": "Voir tout",
+  "hide_all_text": "Cacher tout",
+  "language": "fr",
+  "hero_section": {
+    "title": "Un nouveau vous commence avec Neumi",
+    "title_sm": "La société Nano",
+    "desc": "Transformez votre bien-être avec la puissance de la nanotechnologie HydraStat™ de Neumi."
+  },
+  "asSeenOn": {
+    "title": "Vu sur"
+  },
+  "masonary_section": {
+    "title": "Notre gamme de produits",
+    "desc": "La vie est meilleure quand vous vous sentez et paraissez au mieux de votre forme.",
+    "masonary_product_layout1": {
+      "items": [
+        {
+          "product_name": "Hers"
+        },
+        {
+          "product_name": "Neumi Skin"
+        }
+      ]
+    },
+    "masonary_product_layout2": {
+      "items": [
+        {
+          "product_name": "NutriSwish"
+        },
+        {
+          "product_name": "Neuro"
+        }
+      ]
+    }
+  },
+  "guarantee": {
+    "title": "La garantie Neumi",
+    "desc": "Quel que soit le type de compte, vous profiterez de :",
+    "alt_text": "produit neumi",
+    "items": [
+      {
+        "title": "Adorez-le ou c'est gratuit",
+        "desc": "Essayez nos produits pendant 30 jours sans risque. Nous sommes convaincus que vous aimerez nos produits autant que nous."
+      },
+      {
+        "title": "Abonnements sans tracas",
+        "desc": "Besoin de sauter un mois ou d'annuler votre abonnement ? Pas de problème ! Modifiez vos préférences à tout moment et commandez en toute confiance."
+      },
+      {
+        "title": "Produit gratuit",
+        "desc": "Pour les commandes de plus de 300 $, vous recevez une bouteille gratuite pour compenser les frais de livraison."
+      }
+    ]
+  },
+  "performance": {
+    "title_sm": "Nanotechnologie HydraStat™",
+    "title": "Petite livraison, grande performance",
+    "desc": "Les molécules de nombreux compléments alimentaires sont trop grosses pour être absorbées par la cellule, elles sont donc excrétées du corps sans être utilisées efficacement. Neumi utilise la nanotechnologie révolutionnaire HydraStat™ pour augmenter la biodisponibilité et l'efficacité de tous ses produits en décomposant les grosses molécules et en les enveloppant dans des clusters d'eau ultra-pure. Nos ingrédients de taille nanométrique mesurent entre 10 et 100 nanomètres. Ils sont suffisamment petits pour être entièrement absorbés par la cellule humaine.",
+    "button_text": "En savoir plus"
+  },
+  "video": {
+    "title_sm": "Nanotechnologie Hydrastat™",
+    "title": "L'innovation de Neumi"
+  },
+  "before_and_after": {
+    "title": "Voir les avant et après"
+  },
+  "medical_advisor_board": {
+    "title": "Notre conseil consultatif médical non rémunéré",
+    "items": [
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck School of Medicine"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMU College of Osteopathic Medicine"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Royal College of Surgeons in Ireland"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Medical College of Georgia"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Fellow"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "University of Barcelona School of Medicine Traumatology"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Clinical Fellow"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Faculty of Medicine and Surgery"
+      }
+    ],
+    "hidden_items": [
+      {
+        "name": "James Jian Ho, MD",
+        "university": "Mayo Fellow"
+      },
+      {
+        "name": "Joseph Kaplan, MD",
+        "university": "University of Alabama School of Medicine"
+      },
+      {
+        "name": "Steven Petrosino, PhD",
+        "university": "LaSalle University"
+      },
+      {
+        "name": "Jim Hayes, MD",
+        "university": "Médecine d'urgence. Ancien président de l'Association des médecins d'urgence"
+      },
+      {
+        "name": "Dean Stubbs, MD",
+        "university": "Leader australien en médecine intégrative"
+      },
+      {
+        "name": "Tania Ash, MD",
+        "university": "Spécialiste en médecine intégrative australienne"
+      },
+      {
+        "name": "Kristin Hieshetter, DC",
+        "university": "Docteur en chiropratique. Biochimiste métabolique. Certifiée en nutrition. Spécialiste du laser non invasif."
+      },
+      {
+        "name": "Luis Miguel Valdes, MD",
+        "university": "Spécialiste médical en ORL."
+      },
+      {
+        "name": "Bethany Dixon, DC",
+        "university": "Chiropracteur et examinateur médical certifié. Médecin et consultant dans l'industrie du transport."
+      },
+      {
+        "name": "Pacilina estrella-Barotil, MD",
+        "university": "Médecin de famille avec un master en administration hospitalière ; Propriétaire et directeur médical du Wholeness Family Medical Center, Inc., Silang, Philippines."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "Je suis un client préféré. Comment commander ?",
+        "desc": "La meilleure façon est d'aller sur <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> et de passer votre commande là-bas."
+      },
+      {
+        "class": "",
+        "header": "Pourquoi le glutathion ?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "Que devrais-je ressentir ?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "Quel est le meilleur moment pour prendre NutriSwish ?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "D'où proviennent les ingrédients ?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "Quelle est la meilleure caractéristique de santé ?",
+        "desc": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Un nouveau vous commence avec Neumi."
+  },
+  "note_desc": "Les déclarations faites sur ce site n'ont pas été évaluées par la Food and Drug Administration. Ces déclarations et les produits de cette entreprise ne sont pas destinés à diagnostiquer, traiter, guérir ou prévenir une maladie. Les opinions et conseils nutritionnels exprimés par Neumi ne sont pas destinés à fournir des conseils médicaux. Veuillez toujours consulter votre fournisseur de soins de santé si vous prenez des médicaments ou si vous avez des conditions médicales. Les résultats individuels peuvent varier."
+}

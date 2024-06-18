@@ -1,0 +1,191 @@
+{
+  "title": "עמוד הנחיתה של Neumi",
+  "shop_product_button_text": "רכשו את המוצרים שלנו",
+  "become_member_button_text": "הפכו לחבר",
+  "see_all_product_button_text": "ראו את כל המוצרים",
+  "see_all_text": "ראו הכל",
+  "hide_all_text": "הסתר הכל",
+  "language": "he",
+  "hero_section": {
+    "title": "נוימי: התחלה חדשה עבורך",
+    "title_sm": "חברת הננו",
+    "desc": "שפרו את רווחתכם בעזרת טכנולוגיית HydraStat™ הננומטרית של נוימי."
+  },
+  "asSeenOn": {
+    "title": "כפי שנראה ב"
+  },
+  "masonary_section": {
+    "title": "קו המוצרים שלנו",
+    "desc": "החיים טובים יותר כשנראים ומרגישים הכי טוב.",
+    "masonary_product_layout1": {
+      "items": [
+        {
+          "product_name": "Hers"
+        },
+        {
+          "product_name": "Neumi Skin"
+        }
+      ]
+    },
+    "masonary_product_layout2": {
+      "items": [
+        {
+          "product_name": "NutriSwish"
+        },
+        {
+          "product_name": "Neuro"
+        }
+      ]
+    }
+  },
+  "guarantee": {
+    "title": "הערבות של נוימי",
+    "desc": "ללא תלות בסוג החשבון, תהנו מ:",
+    "alt_text": "מוצר נוימי",
+    "items": [
+      {
+        "title": "אהבו את זה או שזה חינם",
+        "desc": "נסו את המוצרים שלנו למשך 30 ימים ללא סיכון. אנו בטוחים שתאהבו את המוצרים שלנו כמו שאנחנו אוהבים."
+      },
+      {
+        "title": "מנויים ללא טרחה",
+        "desc": "צריכים לדלג על חודש או לבטל את המנוי שלכם? אין בעיה! ערכו את ההעדפות שלכם בכל עת, והזמינו בביטחון."
+      },
+      {
+        "title": "מוצר חינם",
+        "desc": "בהזמנות מעל $300, תקבלו בקבוק חינם כדי לקזז את עלויות המשלוח."
+      }
+    ]
+  },
+  "performance": {
+    "title_sm": "טכנולוגיית HydraStat™",
+    "title": "אספקה קטנה, ביצועים גדולים",
+    "desc": "המולקולות ברבים מהתוספים גדולות מדי כדי להיספג על ידי התא, ולכן הן מופרשות מהגוף מבלי להיות בשימוש יעיל. נוימי משתמשת בטכנולוגיית HydraStat™ פורצת הדרך כדי להגדיל את הזמינות הביולוגית והאפקטיביות של כל מוצריה על ידי פירוק מולקולות גדולות והקפתן באשכולות מים טהורים במיוחד. המרכיבים שלנו בגודל הננו הם בין 10-100 ננומטרים. הם מספיק קטנים כדי להיספג במלואם על ידי התא האנושי.",
+    "button_text": "למדו עוד"
+  },
+  "video": {
+    "title_sm": "טכנולוגיית Hydrastat™",
+    "title": "הפריצה של נוימי"
+  },
+  "before_and_after": {
+    "title": "ראו את התמונות לפני ואחרי"
+  },
+  "medical_advisor_board": {
+    "title": "הוועדה המייעצת הרפואית הבלתי-משולמת שלנו",
+    "items": [
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck School of Medicine"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMU College of Osteopathic Medicine"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Royal College of Surgeons in Ireland"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Medical College of Georgia"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Fellow"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "University of Barcelona School of Medicine Traumatology"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Clinical Fellow"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Faculty of Medicine and Surgery"
+      }
+    ],
+    "hidden_items": [
+      {
+        "name": "James Jian Ho, MD",
+        "university": "Mayo Fellow"
+      },
+      {
+        "name": "Joseph Kaplan, MD",
+        "university": "University of Alabama School of Medicine"
+      },
+      {
+        "name": "Steven Petrosino, PhD",
+        "university": "LaSalle University"
+      },
+      {
+        "name": "Jim Hayes, MD",
+        "university": "Emergency Medicine. Past President of the Association of Emergency Physicians"
+      },
+      {
+        "name": "Dean Stubbs, MD",
+        "university": "Australian Leader in Integrative Medicine"
+      },
+      {
+        "name": "Tania Ash, MD",
+        "university": "Australian Integrative Medicine Specialist"
+      },
+      {
+        "name": "Kristin Hieshetter, DC",
+        "university": "דוקטור לכירופרקטיקה. ביוכימאית מטבולית. מוסמכת בתזונה. מומחית בלייזר לא פולשני."
+      },
+      {
+        "name": "Luis Miguel Valdes, MD",
+        "university": "מומחה רפואי אף אוזן גרון."
+      },
+      {
+        "name": "Bethany Dixon, DC",
+        "university": "כירופרקטורית ובודקת רפואית מוסמכת. רופאה ויועצת לתעשיית התחבורה."
+      },
+      {
+        "name": "Pacilina estrella-Barotil, MD",
+        "university": "רופאת משפחה עם תואר שני במנהל בית חולים; בעלת ומנהלת רפואית של מרכז הרפואה המשפחתי Wholeness, Inc., סילאנג, הפיליפינים."
+      }
+    ]
+  },
+  "faq": {
+    "title": "שאלות נפוצות",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "אני לקוח מועדף. איך אני מזמין?",
+        "desc": "הדרך הטובה ביותר היא לגשת ל-<a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> ולהזמין שם."
+      },
+      {
+        "class": "",
+        "header": "למה גלוטתיון?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "מה אני אמור להרגיש?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "מתי הזמן הטוב ביותר לקחת NutriSwish?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "מאיפה מגיעים המרכיבים?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "מהי התכונה הבריאותית הטובה ביותר?",
+        "desc": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "נוימי: התחלה חדשה עבורך."
+  },
+  "note_desc": "הצהרות שנעשו בתוך אתר זה לא נבדקו על ידי מינהל המזון והתרופות. הצהרות אלה ומוצרי החברה אינם מיועדים לאבחן, לטפל, לרפא או למנוע כל מחלה. הדעות והייעוץ התזונתי המובעים על ידי נוימי אינם מיועדים למטרת מתן ייעוץ רפואי. אנא התייעצו תמיד עם ספק שירותי הבריאות שלכם אם אתם נוטלים תרופות כלשהן או אם יש לכם מצבים רפואיים כלשהם. תוצאות אינדיבידואליות עשויות להשתנות."
+}

@@ -50,12 +50,10 @@
       {
         "title": "Suscripciones sin complicaciones",
         "desc": "¿Necesitas omitir un mes o cancelar tu suscripción? ¡No hay problema! Edita tus preferencias en cualquier momento y realiza pedidos con confianza."
-
       },
       {
         "title": "Producto gratuito",
         "desc": "Con pedidos superiores a $300, recibirás una botella gratuita para compensar los costos de envío."
-
       }
     ]
   },
@@ -186,7 +184,6 @@
         "desc": ""
       }
     ]
-
   },
   "cta":{
     "title": "Un nuevo tú comienza con Neumi."
