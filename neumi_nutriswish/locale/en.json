@@ -1,13 +1,12 @@
 {
   "title": "NutriSwish",
-  "product_id": "9474",
   "product_title": "NutriSwish",
   "total_product_review": "7 Reviews",
   "product_desc":  "<span class=fw-600>The groundbreaking health supplement powered by HydraStat Nano-Technology for instant absorption,</span> delivering immune support, joint health.",
   "add_to_cart_text": "Add to cart",
   "select_quantity_text": "Select Quantity",
   "all_product_text": "All Products",
-  "shop_url":"https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/shop",
+  "language": "",
   "subscribe": {
     "subscribe_text":"Subscribe",
     "frequency_text": "Select Frequency",
@@ -45,6 +44,7 @@
   "asSeenOn": {
     "title": "As seen on"
   },
+
   "tab":{
     "title": "See how NutriSwish  is changing lives",
     "video_review_title": "Video Reviews <span>(5)</span>",

@@ -1,0 +1,130 @@
+{
+  "title": "NutriSwish",
+  "product_title": "NutriSwish",
+  "total_product_review": "7 Mga Review",
+  "product_desc":  "<span class=fw-600>Isang rebolusyonaryong suplemento sa kalusugan na sinusuportahan ng Nano HydraStat Technology para sa agarang pagsipsip,</span> nagbibigay ng suporta sa kaligtasan sa sakit at kalusugan ng kasukasuan.",
+  "add_to_cart_text": "Idagdag sa Cart",
+  "select_quantity_text": "Piliin ang Dami",
+  "all_product_text": "Lahat ng Produkto",
+  "language": "",
+  "subscribe": {
+    "subscribe_text":"Mag-subscribe",
+    "frequency_text": "Piliin ang Dalas",
+    "checklist_items":[
+      {
+        "caption": "Mag-subscribe at makatipid ng <span id='saving'>$15</span>"
+      },
+      {
+        "caption": "Kumuha ng Neumi Reward Points"
+      },
+      {
+        "caption": "30-araw na garantiyang ibalik ang pera"
+      },
+      {
+        "caption": "I-update ang iyong subscription anumang oras"
+      }
+    ],
+    "one_time_purchase_text":"Isang beses na pagbili"
+  },
+  "free_shipping_desc": "Libreng pagpapadala sa US para sa mga order na higit sa $200+",
+  "benefits":{
+    "title": "Mga Benepisyo",
+    "items":[
+      {
+        "caption":"Pangunahing sangkap para sa pinakamainam na araw-araw na pagsipsip at bisa."
+      },
+      {
+        "caption":"Bawat batch ay dumadaan sa mahigpit na pagsubok ng ikatlong partido upang matiyak ang pangako sa kadalisayan at kaligtasan."
+      },
+      {
+        "caption": "Nag-aalok kami ng 30-araw na garantiyang ibalik ang pera nang walang tanong."
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Tulad ng nakikita sa"
+  },
+  "tab":{
+    "title": "Tingnan kung paano binago ng NutriSwish ang buhay",
+    "video_review_title": "Mga Video Review <span>(5)</span>",
+    "written_review_title": "Mga Nakasulat na Review <span>(2)</span>",
+    "rating_text": "5-Star na Rating",
+    "review_list": [
+      {
+          "reviewer": "Aidan D..",
+          "address": "Salt Lake City, UT",
+          "time": "2 oras ang nakalipas",
+          "review_text": "Binago ng Nutriswish ang aking buhay! Ginagamit ko ito sa loob ng ilang buwan ngayon, at napansin ko ang makabuluhang pagpapabuti sa aking antas ng enerhiya at pangkalahatang kalakasan. Kamangha-mangha kung paano ang isang simpleng bagay ay maaaring magkaroon ng malalim na epekto. Lubos na inirerekomenda!"
+      },
+      {
+          "reviewer": "Lola P..",
+          "address": "Laie, HI",
+          "time": "2 oras ang nakalipas",
+          "review_text": "Nagpupumilit akong mapanatili ang balanse ng hormon sa loob ng maraming taon, ngunit ang Nutriswish ay gumawa ng malaking pagkakaiba. Hindi lamang ako nakakaramdam ng mas balanse at puno ng lakas, ngunit napansin ko rin ang pagpapabuti sa kondisyon ng aking balat at kalamnan. Talagang kahanga-hanga ito!"
+      }
+    ]
+  },
+  "product_benefits":{
+    "title": "Mga Benepisyo ng Paggamit ng NutriSwish",
+    "desc": "Upang mapanatili ang pinakamainam na antas, kinakailangan ng madalas at mahal na IV na paggamot, na maaaring hindi praktikal para sa maraming tao.<span class='fw-600'> Sa kabilang banda, gumagamit ang NutriSwish ng nano glutathione, na nag-aalok ng ilang mga natatanging benepisyo kumpara sa IV na paggamot.</span>",
+    "alt_text": "produkto ng nutriswish",
+    "items_left": [
+      {
+        "item_name": "L-Cysteine*"
+      },
+      {
+        "item_name": "Tartaric Acid*"
+      },
+      {
+        "item_name": "Curcumin"
+      },
+      {
+        "item_name": "Potassium Sorbate*"
+      }
+    ]
+  },
+  "how_to_use":{
+    "title": "Paano Gamitin",
+    "steps": [
+      {
+        "caption": "Sukatin ang dalawang (2) kutsarita ng produkto. Isang takip = kutsarita."
+      },
+      {
+        "caption": "Magmumog sa loob ng 30 segundo o higit pa."
+      },
+      {
+        "caption": "Hindi tulad ng mouthwash, maaari mong lunukin ang NutriSwish. Maaari mo rin itong idura, kung gusto mo."
+      },
+      {
+        "caption": "Ulitin ang mga hakbang na ito dalawang beses sa isang araw. Huwag mag-atubiling gamitin ang NutriSwish nang mas madalas kung ninanais."
+      }
+    ]
+  },
+  "faq":{
+    "title": "Mga Benepisyo ng Glutathione",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "Pagpapalakas ng Immune System",
+        "desc": "Ang Glutathione ay maaaring mag-neutralize ng mga libreng radikal at protektahan ang katawan mula sa kanilang mapanganib na mga epekto. Tumutulong din ito na bawasan ang pamamaga, at sinusuportahan ang likas na kakayahan ng katawan na labanan ang mga impeksyon. Bilang karagdagan, ito ay gumaganap ng papel sa pagbubuo ng mga bagong immune cells, pinapanatili ang iyong immune system na nasa pinakamahusay na kondisyon."
+      },
+      {
+        "class": "",
+        "header": "Pagtaas ng Enerhiya",
+        "desc": "Tumutulong din ito na bawasan ang pamamaga, at sinusuportahan ang likas na kakayahan ng katawan na labanan ang mga impeksyon. Bilang karagdagan, ito ay gumaganap ng papel sa pagbubuo ng mga bagong immune cells, pinapanatili ang iyong immune system na nasa pinakamahusay na kondisyon."
+      },
+      {
+        "class": "",
+        "header": "Pagpapalakas ng Tiyaga at Katatagan",
+        "desc": "Tumutulong din ito na bawasan ang pamamaga, at sinusuportahan ang likas na kakayahan ng katawan na labanan ang mga impeksyon. Bilang karagdagan, ito ay gumaganap ng papel sa pagbubuo ng mga bagong immune cells, pinapanatili ang iyong immune system na nasa pinakamahusay na kondisyon."
+      }
+    ]
+  },
+  "cta":{
+    "title": "Ang Bagong Ikaw ay Nagsisimula sa Neumi",
+    "subscription_text": "Idagdag sa Subscription",
+    "purchase_text": "Isang beses na pagbili"
+  },
+  "note_desc": "Ang mga pahayag sa website na ito ay hindi nasuri ng Food and Drug Administration. Ang mga pahayag na ito at ang mga produkto ng kumpanyang ito ay hindi inilaan upang mag-diagnose, magpagaling, magpagaling, o maiwasan ang anumang sakit. Ang mga opinyon at nutritional na payo ng Neumi ay hindi inilaan upang magbigay ng medikal na payo. Palaging kumonsulta sa iyong tagapagbigay ng pangangalaga sa kalusugan kung umiinom ka ng gamot o may anumang medikal na kondisyon. Ang mga indibidwal na resulta ay maaaring mag-iba."
+}
+

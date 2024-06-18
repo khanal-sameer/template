@@ -1,0 +1,129 @@
+{
+  "title": "NutriSwish",
+  "product_title": "NutriSwish",
+  "total_product_review": "7 értékelés",
+  "product_desc": "<span class=fw-600>A korszakalkotó egészségkiegészítő, amelyet a HydraStat Nano-Technology tesz lehetővé az azonnali felszívódás érdekében,</span> amely immunrendszeri támogatást és ízületi egészséget nyújt.",
+  "add_to_cart_text": "Kosárba",
+  "select_quantity_text": "Mennyiség kiválasztása",
+  "all_product_text": "Minden termék",
+  "language": "",
+  "subscribe": {
+    "subscribe_text": "Feliratkozás",
+    "frequency_text": "Gyakoriság kiválasztása",
+    "checklist_items": [
+      {
+        "caption": "Iratkozz fel és spórolj <span id='saving'>$15</span>"
+      },
+      {
+        "caption": "Szerezz Neumi Jutalompontokat"
+      },
+      {
+        "caption": "30 napos pénzvisszafizetési garancia"
+      },
+      {
+        "caption": "Frissítsd előfizetésed bármikor"
+      }
+    ],
+    "one_time_purchase_text": "Egyszeri vásárlás"
+  },
+  "free_shipping_desc": "Ingyenes amerikai szállítás 200 dollár feletti rendeléseknél",
+  "benefits": {
+    "title": "Előnyök",
+    "items": [
+      {
+        "caption": "Kulcsfontosságú összetevők a felszívódás és hatékonyság maximalizálása érdekében, naponta."
+      },
+      {
+        "caption": "Minden tétel szigorú harmadik fél általi tesztelésen megy keresztül, hogy biztosítsa a tisztaság és biztonság iránti elkötelezettséget."
+      },
+      {
+        "caption": "30 napos pénzvisszafizetési garanciát kínálunk, kérdések nélkül."
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Látható"
+  },
+  "tab": {
+    "title": "Lásd, hogyan változtatja meg a NutriSwish az életeket",
+    "video_review_title": "Videó értékelések <span>(5)</span>",
+    "written_review_title": "Írásos értékelések <span>(2)</span>",
+    "rating_text": "5 csillagos értékelés",
+    "review_list": [
+      {
+        "reviewer": "Aidan D.",
+        "address": "Salt Lake City, UT",
+        "time": "2 órája",
+        "review_text": "A NutriSwish igazi változást hozott az életembe! Már néhány hónapja használom, és észrevettem a jelentős javulást az energiaszintemben és az általános vitalitásomban. Hihetetlen, hogy valami ennyire egyszerű ilyen mélyreható hatással lehet. Nagyon ajánlom!"
+      },
+      {
+        "reviewer": "Lola P.",
+        "address": "Laie, HI",
+        "time": "2 órája",
+        "review_text": "Évek óta küzdöttem a hormonális egyensúly fenntartásával, de a NutriSwish világot változtatott. Nem csak hogy kiegyensúlyozottabbnak és energikusabbnak érzem magam, de javulást észleltem a bőrtónusomban és az izomtónusomban is. Ez igazán figyelemre méltó!"
+      }
+    ]
+  },
+  "product_benefits": {
+    "title": "A NutriSwish használatának előnyei",
+    "desc": "Az optimális szintek fenntartása érdekében gyakori és költséges IV-kezelések szükségesek, amelyek sokak számára gyakorlatilag megvalósíthatatlanok lehetnek. <span class='fw-600'>Ezzel szemben a NutriSwish nano-glutationt használ, amely több különleges előnnyel rendelkezik az IV-kezelésekkel szemben.</span>",
+    "alt_text": "nutriswish termék",
+    "items_left": [
+      {
+        "item_name": "L-Cisztein*"
+      },
+      {
+        "item_name": "Borkősav*"
+      },
+      {
+        "item_name": "Kurkumin"
+      },
+      {
+        "item_name": "Kálium-szorbát*"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "Hogyan kell használni",
+    "steps": [
+      {
+        "caption": "Mérj ki két (2) teáskanál terméket. Egy kupak = teáskanál."
+      },
+      {
+        "caption": "Öblítsd meg a szádban 30 másodpercig vagy tovább."
+      },
+      {
+        "caption": "A szájvízzel ellentétben a NutriSwish-t le is nyelheted. Ki is köpheted, ha úgy preferálod."
+      },
+      {
+        "caption": "Ismételd meg ezeket a lépéseket naponta kétszer. Használd a NutriSwish-t gyakrabban is, ha úgy kívánod."
+      }
+    ]
+  },
+  "faq": {
+    "title": "A glutation előnyei",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "Erősített immunrendszer",
+        "desc": "A glutation képes semlegesíteni a szabad gyököket és megvédeni a testet azok káros hatásaitól. Segít a gyulladás csökkentésében, és támogatja a szervezet természetes képességét a fertőzések elleni küzdelemre. Ezenkívül szerepet játszik az új immunsejtek szintézisében, biztosítva, hogy az immunrendszered a legjobban működjön."
+      },
+      {
+        "class": "",
+        "header": "Növelt energia",
+        "desc": "Segít a gyulladás csökkentésében, és támogatja a szervezet természetes képességét a fertőzések elleni küzdelemre. Ezenkívül szerepet játszik az új immunsejtek szintézisében, biztosítva, hogy az immunrendszered a legjobban működjön."
+      },
+      {
+        "class": "",
+        "header": "Fokozott állóképesség és kitartás",
+        "desc": "Segít a gyulladás csökkentésében, és támogatja a szervezet természetes képességét a fertőzések elleni küzdelemre. Ezenkívül szerepet játszik az új immunsejtek szintézisében, biztosítva, hogy az immunrendszered a legjobban működjön."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Egy új te kezdődik a Neumi-val",
+    "subscription_text": "Felvétel az előfizetésbe",
+    "purchase_text": "Egyszeri vásárlás"
+  },
+  "note_desc": "Az ezen a weboldalon tett nyilatkozatokat az Élelmiszer- és Gyógyszerügyi Hatóság nem értékelte. Ezek a nyilatkozatok és a cég termékei nem szolgálnak betegségek diagnosztizálására, kezelésére, gyógyítására vagy megelőzésére. A Neumi által kifejtett vélemények és táplálkozási tanácsok nem szolgálnak orvosi tanácsadás céljára. Kérjük, mindig konzultáljon egészségügyi szolgáltatójával, ha bármilyen gyógyszert szed vagy bármilyen orvosi állapota van. Az egyéni eredmények eltérőek lehetnek."
+}

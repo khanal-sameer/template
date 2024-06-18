@@ -1,0 +1,130 @@
+{
+  "title": "NutriSwish",
+  "product_title": "NutriSwish",
+  "total_product_review": "7 Beoordelingen",
+  "product_desc":  "<span class=fw-600>Het baanbrekende gezondheidssupplement aangedreven door HydraStat Nano-Technologie voor onmiddellijke absorptie,</span> dat immuunondersteuning en gewrichtsgezondheid biedt.",
+  "add_to_cart_text": "Voeg toe aan winkelwagen",
+  "select_quantity_text": "Selecteer hoeveelheid",
+  "all_product_text": "Alle Producten",
+  "language": "",
+  "subscribe": {
+    "subscribe_text":"Abonneren",
+    "frequency_text": "Selecteer Frequentie",
+    "checklist_items":[
+      {
+        "caption": "Abonneer en bespaar <span id='saving'>$15</span>"
+      },
+      {
+        "caption": "Verdien Neumi Beloningspunten"
+      },
+      {
+        "caption": "30 dagen geld-terug-garantie"
+      },
+      {
+        "caption": "Werk uw abonnement op elk moment bij"
+      }
+    ],
+    "one_time_purchase_text":"Eenmalige aankoop"
+  },
+  "free_shipping_desc": "Gratis verzending in de VS voor bestellingen boven de $200+",
+  "benefits":{
+    "title": "Voordelen",
+    "items":[
+      {
+        "caption":"Belangrijke ingrediënten om de absorptie en effectiviteit dagelijks te maximaliseren."
+      },
+      {
+        "caption":"Elke batch ondergaat strenge tests door derden om toewijding aan zuiverheid en veiligheid te garanderen."
+      },
+      {
+        "caption": "Wij bieden een 30 dagen geld-terug-garantie, zonder vragen te stellen."
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Zoals gezien op"
+  },
+  "tab":{
+    "title": "Zie hoe NutriSwish levens verandert",
+    "video_review_title": "Video Beoordelingen <span>(5)</span>",
+    "written_review_title": "Geschreven Beoordelingen <span>(2)</span>",
+    "rating_text": "5 Sterren Beoordeling",
+    "review_list": [
+      {
+          "reviewer": "Aidan D..",
+          "address": "Salt Lake City, UT",
+          "time": "2 uur geleden",
+          "review_text": "Nutriswish is een game-changer voor mij! Ik gebruik het nu een paar maanden, en ik heb een significante verbetering in mijn energieniveau en algehele vitaliteit opgemerkt. Het is verbazingwekkend hoe iets zo eenvoudigs zulke diepe effecten kan hebben. Zeer aanbevolen!"
+      },
+      {
+          "reviewer": "Lola P..",
+          "address": "Laie, HI",
+          "time": "2 uur geleden",
+          "review_text": "Ik heb jaren geworsteld met het behouden van hormonale balans, maar Nutriswish heeft een wereld van verschil gemaakt. Niet alleen voel ik me meer gebalanceerd en energiek, maar ik heb ook verbeteringen in mijn huidtoon en spiertoon opgemerkt. Het is echt opmerkelijk!"
+      }
+    ]
+  },
+  "product_benefits":{
+    "title": "Voordelen van het gebruik van NutriSwish",
+    "desc": "Om optimale niveaus te behouden, zijn frequente en kostbare IV-behandelingen nodig, wat voor veel mensen onpraktisch kan zijn.<span class='fw-600'> In tegenstelling maakt NutriSwish gebruik van nano-glutathion, dat verschillende duidelijke voordelen biedt boven IV-behandelingen.</span>",
+    "alt_text": "nutriswish product",
+    "items_left": [
+      {
+        "item_name": "L-Cysteine*"
+      },
+      {
+        "item_name": "Tartaric Acid*"
+      },
+      {
+        "item_name": "Curcumin"
+      },
+      {
+        "item_name": "Potassium Sorbate*"
+      }
+    ]
+  },
+  "how_to_use":{
+    "title": "Hoe in te nemen",
+    "steps": [
+      {
+        "caption": "Meet twee (2) theelepels product af. Een dopje = theelepel."
+      },
+      {
+        "caption": "Spoel in je mond gedurende 30 seconden of meer."
+      },
+      {
+        "caption": "In tegenstelling tot mondwater, kun je NutriSwish doorslikken. Je kunt het ook uitspugen, als je dat liever hebt."
+      },
+      {
+        "caption": "Herhaal deze stappen twee keer per dag. Voel je vrij om NutriSwish vaker te gebruiken, als gewenst."
+      }
+    ]
+  },
+  "faq":{
+    "title": "Voordelen van Glutathion",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "Versterkt immuunsysteem",
+        "desc": "Glutathion kan vrije radicalen neutraliseren en het lichaam beschermen tegen hun schadelijke effecten. Het helpt ook ontstekingen te verminderen, en ondersteunt het natuurlijke vermogen van het lichaam om infecties te bestrijden. Bovendien speelt het een rol bij de synthese van nieuwe immuuncellen, waardoor je immuunsysteem op zijn best blijft functioneren."
+      },
+      {
+        "class": "",
+        "header": "Verhoogde Energie",
+        "desc": "Het helpt ook ontstekingen te verminderen, en ondersteunt het natuurlijke vermogen van het lichaam om infecties te bestrijden. Bovendien speelt het een rol bij de synthese van nieuwe immuuncellen, waardoor je immuunsysteem op zijn best blijft functioneren."
+      },
+      {
+        "class": "",
+        "header": "Verhoogd Uithoudingsvermogen",
+        "desc": "Het helpt ook ontstekingen te verminderen, en ondersteunt het natuurlijke vermogen van het lichaam om infecties te bestrijden. Bovendien speelt het een rol bij de synthese van nieuwe immuuncellen, waardoor je immuunsysteem op zijn best blijft functioneren."
+      }
+    ]
+  },
+  "cta":{
+    "title": "Een nieuwe jij begint met Neumi",
+    "subscription_text": "Voeg toe aan abonnement",
+    "purchase_text": "Eenmalige aankoop"
+  },
+  "note_desc": "De uitspraken op deze website zijn niet geëvalueerd door de Food and Drug Administration. Deze uitspraken en de producten van dit bedrijf zijn niet bedoeld om een ziekte te diagnosticeren, te behandelen, te genezen of te voorkomen. De meningen en voedingsadviezen van Neumi zijn niet bedoeld om medisch advies te geven. Raadpleeg altijd uw zorgverlener als u medicijnen gebruikt of medische aandoeningen heeft. Individuele resultaten kunnen variëren."
+}
+

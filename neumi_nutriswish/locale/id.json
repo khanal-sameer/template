@@ -1,0 +1,130 @@
+{
+  "title": "NutriSwish",
+  "product_title": "NutriSwish",
+  "total_product_review": "7 Ulasan",
+  "product_desc":  "<span class=fw-600>Suplemen kesehatan revolusioner yang didukung oleh Teknologi Nano HydraStat untuk penyerapan instan,</span> memberikan dukungan kekebalan, kesehatan sendi.",
+  "add_to_cart_text": "Tambahkan ke keranjang",
+  "select_quantity_text": "Pilih Kuantitas",
+  "all_product_text": "Semua Produk",
+  "language": "",
+  "subscribe": {
+    "subscribe_text":"Berlangganan",
+    "frequency_text": "Pilih Frekuensi",
+    "checklist_items":[
+      {
+        "caption": "Berlangganan dan hemat <span id='saving'>$15</span>"
+      },
+      {
+        "caption": "Dapatkan Poin Reward Neumi"
+      },
+      {
+        "caption": "Garansi uang kembali 30 hari"
+      },
+      {
+        "caption": "Perbarui langganan Anda kapan saja"
+      }
+    ],
+    "one_time_purchase_text":"Pembelian sekali"
+  },
+  "free_shipping_desc": "Pengiriman gratis di AS untuk pesanan di atas $200+",
+  "benefits":{
+    "title": "Manfaat",
+    "items":[
+      {
+        "caption":"Bahan utama untuk memaksimalkan penyerapan dan efektivitas setiap hari."
+      },
+      {
+        "caption":"Setiap batch menjalani pengujian ketat oleh pihak ketiga untuk memastikan komitmen terhadap kemurnian dan keamanan."
+      },
+      {
+        "caption": "Kami menawarkan garansi uang kembali 30 hari tanpa pertanyaan."
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Seperti yang terlihat di"
+  },
+  "tab":{
+    "title": "Lihat bagaimana NutriSwish mengubah hidup",
+    "video_review_title": "Ulasan Video <span>(5)</span>",
+    "written_review_title": "Ulasan Tertulis <span>(2)</span>",
+    "rating_text": "Peringkat 5 Bintang",
+    "review_list": [
+      {
+          "reviewer": "Aidan D..",
+          "address": "Salt Lake City, UT",
+          "time": "2 jam yang lalu",
+          "review_text": "Nutriswish telah mengubah hidup saya! Saya telah menggunakannya selama beberapa bulan sekarang, dan saya melihat peningkatan signifikan dalam tingkat energi dan vitalitas keseluruhan saya. Menakjubkan bagaimana sesuatu yang sederhana bisa memiliki efek yang begitu mendalam. Sangat direkomendasikan!"
+      },
+      {
+          "reviewer": "Lola P..",
+          "address": "Laie, HI",
+          "time": "2 jam yang lalu",
+          "review_text": "Saya telah berjuang untuk menjaga keseimbangan hormon selama bertahun-tahun, tetapi Nutriswish telah membuat perbedaan besar. Saya tidak hanya merasa lebih seimbang dan bertenaga, tetapi saya juga melihat perbaikan dalam nada kulit dan otot saya. Ini benar-benar luar biasa!"
+      }
+    ]
+  },
+  "product_benefits":{
+    "title": "Manfaat menggunakan NutriSwish",
+    "desc": "Untuk menjaga tingkat optimal, diperlukan perawatan IV yang sering dan mahal, yang bisa tidak praktis bagi banyak individu.<span class='fw-600'> Sebaliknya, NutriSwish menggunakan nano glutathione, yang menawarkan beberapa keunggulan berbeda dibandingkan perawatan IV.</span>",
+    "alt_text": "produk nutriswish",
+    "items_left": [
+      {
+        "item_name": "L-Cysteine*"
+      },
+      {
+        "item_name": "Asam Tartar*"
+      },
+      {
+        "item_name": "Kurkumin"
+      },
+      {
+        "item_name": "Kalium Sorbat*"
+      }
+    ]
+  },
+  "how_to_use":{
+    "title": "Cara konsumsi",
+    "steps": [
+      {
+        "caption": "Ukur dua (2) sendok teh produk. Satu tutup = sendok teh."
+      },
+      {
+        "caption": "Kumur di mulut Anda selama 30 detik atau lebih."
+      },
+      {
+        "caption": "Tidak seperti obat kumur, Anda dapat menelan NutriSwish. Anda juga bisa meludahkannya, jika Anda suka."
+      },
+      {
+        "caption": "Ulangi langkah-langkah ini dua kali sehari. Jangan ragu untuk menggunakan NutriSwish lebih sering, jika diinginkan."
+      }
+    ]
+  },
+  "faq":{
+    "title": "Manfaat Glutathione",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "Sistem Kekebalan yang Kuat",
+        "desc": "Glutathione dapat menetralkan radikal bebas dan melindungi tubuh dari efek berbahaya mereka. Ini juga membantu mengurangi peradangan, dan mendukung kemampuan alami tubuh untuk melawan infeksi. Selain itu, ini berperan dalam sintesis sel kekebalan baru, menjaga sistem kekebalan Anda berfungsi dengan baik."
+      },
+      {
+        "class": "",
+        "header": "Meningkatkan Energi",
+        "desc": "Ini juga membantu mengurangi peradangan, dan mendukung kemampuan alami tubuh untuk melawan infeksi. Selain itu, ini berperan dalam sintesis sel kekebalan baru, menjaga sistem kekebalan Anda berfungsi dengan baik."
+      },
+      {
+        "class": "",
+        "header": "Meningkatkan Stamina dan Ketahanan",
+        "desc": "Ini juga membantu mengurangi peradangan, dan mendukung kemampuan alami tubuh untuk melawan infeksi. Selain itu, ini berperan dalam sintesis sel kekebalan baru, menjaga sistem kekebalan Anda berfungsi dengan baik."
+      }
+    ]
+  },
+  "cta":{
+    "title": "Diri baru Anda dimulai dengan Neumi",
+    "subscription_text": "Tambahkan ke langganan",
+    "purchase_text": "Pembelian satu kali"
+  },
+  "note_desc": "Pernyataan di situs web ini belum dievaluasi oleh Food and Drug Administration. Pernyataan ini dan produk perusahaan ini tidak dimaksudkan untuk mendiagnosis, mengobati, menyembuhkan atau mencegah penyakit apa pun. Pendapat dan saran nutrisi Neumi tidak dimaksudkan untuk memberikan nasihat medis. Selalu berkonsultasi dengan penyedia layanan kesehatan Anda jika Anda menggunakan obat-obatan atau memiliki kondisi medis. Hasil individu mungkin berbeda."
+}
+
