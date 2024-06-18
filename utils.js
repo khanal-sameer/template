@@ -87,6 +87,10 @@ export const mapArgs = (actions) => {
   );
 };
 
+const copyFolder=(src,dest)=>{
+  fs.cpSync(src,dest,{recursive:true})
+}
+
 export const createFilePath = (prefix = "", values = {}) => {
   const projects = (values.project || []).filter(Boolean);
   const locales = (values.locale || []).filter(Boolean);
@@ -106,11 +110,12 @@ export const createFilePath = (prefix = "", values = {}) => {
     const typography = path.join(prefix, project, 'scss', "_typography.scss");
     const variables = path.join(prefix, project, 'scss', "_variables.scss");
     const styles = path.join(prefix, project, 'scss', "style.scss");
-    const partials = path.join(prefix, project, 'partials',"Style.html");
-    const style_tmpl = readFile("style.txt")
+    const partials = path.join(prefix,project,"partials")
+    copyFolder(path.join("partials"),partials)
 
 
-    acc.push([dataPath],[cssPath],[template],[typography],[variables],[styles],[partials,style_tmpl]);
+
+    acc.push([dataPath],[cssPath],[template],[typography],[variables],[styles],[partials]);
 
     for (const lang of locales) {
       const langPath = path.join(prefix, project, "locale", `${lang}.json`);

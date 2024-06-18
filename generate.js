@@ -71,7 +71,7 @@ const populate = (args) => {
   const tmpl = readFile(page);
   const lang_tmpl = readFile(lang_temp)
   const style_tmpl = readFile(style)
-  const partials_tmpl = readDir("partials");
+  const partials_tmpl = readDir(partials);
 
  locales.forEach((lang) => populateHTML(lang, tmpl, lang_tmpl,pages,project,style_tmpl,partials_tmpl));
 };
