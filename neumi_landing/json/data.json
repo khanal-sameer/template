@@ -4,9 +4,12 @@
     "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
     "shop_product_button_text": "{{shop_product_button_text}}",
     "become_member_button_text": "{{become_member_button_text}}",
-    "shop_product_url": "#",
-    "become_member_url": "#",
     "see_all_product_button_text": "{{see_all_product_button_text}}",
+    "see_all_text": "{{see_all_text}}",
+    "hide_all_text": "{{hide_all_text}}",
+    "language": "{{language}}",
+    "shop_product_url": "https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/shop",
+    "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
     "hero_section":{
       "title": "{{hero_section.title}}",
       "title_sm": "{{hero_section.title_sm}}",
@@ -14,6 +17,7 @@
       "image": "https://cdn.fluid.app/neumi/landing/images/hero.png"
     },
     "asSeenOn": {
+      "title": "{{asSeenOn.title}}",
       "items": [
         {
           "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
@@ -106,7 +110,7 @@
       "desc": "{{performance.desc}}",
       "image": "https://cdn.fluid.app/neumi/landing/images/performance.png",
       "button_text": "{{performance.button_text}}",
-      "url": "#",
+      "url":  "https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/page/neumi-biz-op",
       "image_position":"right",
       "desc_ordering_class": " order-lg-1",
       "image_ordering_class": " order-lg-2"
@@ -281,7 +285,7 @@
           "desc": "{{faq.items.5.desc}}"
         }
       ]
-  
+
     },
     "cta":{
       "title": "{{cta.title}}",
@@ -289,4 +293,3 @@
     },
     "note_desc": "{{note_desc}}"
   }
-  
