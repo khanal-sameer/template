@@ -42,7 +42,7 @@
     ]
   },
   "asSeenOn": {
-
+    "title": "As seen on"
   },
   "tab":{
     "title": "See how Neumi Skin is changing lives",
@@ -87,17 +87,14 @@
     {
       "title": "Innovative science",
       "desc": "Glutathione is the protector and detoxifier of the cell. <span class=\"fw-600 highlight-text\">It’s the key to the life, health, performance, protection and longevity of every human cell.</span>"
-
     },
     {
       "title": "HydraStat™ nanotechnology",
       "desc": "<span class=\"fw-600 highlight-text\">Nano-sized particles protected by ultra-pure water clusters.</span>  Our nanosized ingredients are small enough to be fully absorbed into the human cell."
-
     },
     {
       "title": "Quality over quantity",
       "desc": "A supplement is only as good as its bioavailability, which is its ability to be absorbed and used by the body.<span class=\"fw-600 highlight-text\"> The correct delivery system delivers ingredients to your body in a way that your body can absorb and use.</span>"
-
     }
   ],
   "key_ingredients":{
@@ -203,9 +200,7 @@
         "header": "Increased Energy",
         "desc": "It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
       }
-
     ]
-
   },
   "cta":{
     "title": "A new you starts with Neumi",

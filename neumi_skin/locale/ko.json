@@ -1,0 +1,207 @@
+{
+  "title": "Neumi skin",
+  "product_title": "Neumi skin",
+  "total_product_review": "7 리뷰",
+  "product_desc":  "<span class=\"fw-600\">HydraStat Nano-Technology로 혁신된 스킨케어 솔루션</span> 빠른 흡수와 편리한 스프레이 사용으로",
+  "add_to_cart_text": "장바구니에 추가",
+  "select_quantity_text": "수량 선택",
+  "all_product_text": "모든 제품",
+  "language": "ko",
+  "subscribe": {
+    "subscribe_text":"구독",
+    "frequency_text": "빈도 선택",
+    "checklist_items":[
+      {
+        "caption": "구독하고 <span id='pricing'>$15</span> 절약"
+      },
+      {
+        "caption": "Neumi 보상 포인트 적립"
+      },
+      {
+        "caption": "30일 환불 보장"
+      },
+      {
+        "caption": "언제든지 구독 업데이트"
+      }
+    ],
+    "one_time_purchase_text":"일회성 구매"
+  },
+  "free_shipping_desc": "미국 내 주문 $200 이상 무료 배송",
+  "benefits":{
+    "title": "이점",
+    "items":[
+      {
+        "caption":"일일 흡수와 효과를 최대화하는 주요 성분"
+      },
+      {
+        "caption":"모든 배치는 순도와 안전성을 보장하기 위해 엄격한 제3자 테스트를 거칩니다"
+      },
+      {
+        "caption": "질문 없이 30일 환불 보장을 제공합니다"
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "소개된 매체"
+  },
+  "tab":{
+    "title": "Neumi Skin이 어떻게 삶을 변화시키는지 확인하세요",
+    "video_review_title": "비디오 리뷰 <span>(5)</span>",
+    "written_review_title": "서면 리뷰 <span>(2)</span>",
+    "rating_text": "5성 평가",
+    "review_list": [
+      {
+          "reviewer": "Aidan D.",
+          "address": "Salt Lake City, UT",
+          "time": "2시간 전",
+          "review_text": "Neumi Skin은 저에게 혁명적이었습니다! 몇 달 동안 사용해왔는데, 에너지 레벨과 전반적인 활력에 큰 향상이 있었습니다. 이렇게 간단한 것이 이렇게 깊은 영향을 미칠 수 있다는 것이 놀랍습니다. 강력 추천합니다!"
+      },
+      {
+          "reviewer": "Lola P.",
+          "address": "Laie, HI",
+          "time": "2시간 전",
+          "review_text": "몇 년 동안 호르몬 균형을 유지하는 데 어려움을 겪었지만, Neumi Skin이 큰 변화를 가져왔습니다. 더 균형 잡히고 에너지가 넘치는 느낌뿐만 아니라, 피부 톤과 근육 톤에서도 개선을 보았습니다. 정말 놀라워요!"
+      }
+    ]
+  },
+  "product_benefits":{
+    "title": "Neumi Skin 사용의 이점",
+    "desc": "Neumi Skin의 혁신적인 기술은 중요한 성분을 나노 크기로 줄여 빠르고 효과적인 흡수를 가능하게 합니다. <span class='fw-600'>우리의 스프레이 배달 시스템은 메이크업 전후에 Neumi Skin을 여러 번 쉽게 적용할 수 있게 합니다.</span>",
+    "alt_text": "Neumi Skin 제품",
+    "items": [
+      {
+        "title": "믿을 수 있는 성분",
+        "desc": "Neumi Skin은 다음 성분의 흡수와 효과를 최대화하기 위해 HydraStat™ 나노 배달 시스템을 사용합니다: 글루타티온, 히알루론산, 콜라겐, 커큐민."
+      },
+      {
+          "title": "보이는 결과",
+          "desc": "우리의 독특한 HydraStat Nano-Technology는 성분을 미세 입자로 분해하여, 더 빠르고 향상된 결과를 얻기 위해 피부 깊숙이 도달합니다. 최소화된 모공, 향상된 탄력, 부드러운 주름, 밝은 피부톤을 경험하세요. Neumi의 혁신은 획기적인 나노 기술로 빛나는 신선한 피부를 제공합니다!"
+      },
+      {
+          "title": "쉬운 적용",
+          "desc":"Neumi Skin으로 스킨케어 루틴을 간소화하세요. 스프레이하고 공기 건조시키기만 하면 됩니다. 메이크업 전후에 사용할 수 있습니다!"
+      }
+    ]
+  },
+  "product_post_list":[
+    {
+      "title": "혁신적인 과학",
+      "desc": "글루타티온은 세포의 보호자이자 해독제입니다. <span class=\"fw-600 highlight-text\">모든 인간 세포의 생명, 건강, 성능, 보호 및 장수의 열쇠입니다.</span>"
+    },
+    {
+      "title": "HydraStat™ 나노 기술",
+      "desc": "<span class=\"fw-600 highlight-text\">초순수 물 클러스터로 보호된 나노 크기의 입자.</span> 우리의 나노 크기 성분은 인간 세포에 완전히 흡수될 만큼 작습니다."
+    },
+    {
+      "title": "양보다 질",
+      "desc": "보충제는 체내에서 흡수되고 사용되는 능력인 생체이용률이 좋을수록 좋습니다. <span class=\"fw-600 highlight-text\">올바른 배달 시스템은 성분을 체내에 흡수되고 사용될 수 있는 방식으로 전달합니다.</span>"
+    }
+  ],
+  "key_ingredients":{
+    "title": "Neumi Skin 주요 성분",
+    "ingredients": "<span class=\"fw-600\">활성 성분:</span> <span class=\"is-uppercase\"> 초순수 물, 글루타티온, 디메틸 설폰, 히알루론산 나트륨, 시스테인, 프롤린, 아스코르빈산 칼슘, 글리신, 아르기닌, 발린, 커큐민, 하이드록시프롤린, 콜라겐, 소르빈산 칼륨, 주석산. *이미지는 활성 성분이 포함된 식물/음식을 보여주며, 반드시 추출되는 장소를 의미하지는 않습니다.</span>",
+    "item_list_desktop":[
+      {
+        "item":[
+          {
+            "item_name": "글루타티온*"
+          },
+          {
+            "item_name": "주석산*"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "아스코르빈산 칼슘*"
+          },
+          {
+            "item_name": "강황"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "디메틸 설폰*"
+          },
+          {
+            "item_name": "소르빈산 칼륨*"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "히알루론산 나트륨*"
+          },
+          {
+            "item_name": "시스테인*"
+          }
+        ]
+      }
+    ],
+    "items_list":[
+      {
+        "item_name": "글루타티온*"
+      },
+      {
+        "item_name": "아스코르빈산 칼슘*"
+      },
+      {
+        "item_name": "디메틸 설폰*"
+      },
+      {
+        "item_name": "히알루론산 나트륨*"
+      },
+      {
+        "item_name": "주석산*"
+      },
+      {
+        "item_name": "소르빈산 칼륨*"
+      },
+      {
+        "item_name": "시스테인*"
+      }
+    ]
+  },
+  "how_to_use":{
+    "title": "적용 방법",
+    "steps": [
+      {
+        "caption": "얼굴에서 약 8-10인치 떨어진 곳에서 스프레이합니다. 메이크업 전후에 할 수 있습니다."
+      },
+      {
+        "caption": "최고의 결과를 얻으려면 문지르지 않고 자연 건조시킵니다."
+      },
+      {
+        "caption": "이 단계를 하루에 두 번 반복합니다. 원하시면 Neumi Skin을 더 자주 사용해도 됩니다."
+      },
+      {
+        "caption": "Neumi Skin은 보습제 및 SPF와 함께 사용하는 것이 좋습니다."
+      }
+    ]
+  },
+  "faq":{
+    "title": "글루타티온의 이점",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "강화된 면역 체계",
+        "desc": "글루타티온은 자유 라디칼을 중화하고 그들의 유해한 영향으로부터 몸을 보호할 수 있습니다. 또한 염증을 줄이고 신체의 자연적인 감염 퇴치 능력을 지원합니다. 추가로, 새로운 면역 세포 합성에도 역할을 하여 면역 체계가 최상의 상태로 기능하도록 합니다."
+      },
+      {
+        "class": "",
+        "header": "에너지 증가",
+        "desc": "또한 염증을 줄이고 신체의 자연적인 감염 퇴치 능력을 지원합니다. 추가로, 새로운 면역 세포 합성에도 역할을 하여 면역 체계가 최상의 상태로 기능하도록 합니다."
+      }
+    ]
+  },
+  "cta":{
+    "title": "새로운 당신은 Neumi에서 시작합니다",
+    "subscription_text": "구독에 추가",
+    "purchase_text": "일회성 구매"
+  },
+  "note_desc": "이 웹사이트 내에서 한 발언은 식품의약국(FDA)에 의해 평가되지 않았습니다. 이 발언과 이 회사의 제품은 질병을 진단, 치료, 치유 또는 예방하기 위한 것이 아닙니다. Neumi가 표현한 의견과 영양 조언은 의학적 조언을 제공하기 위한 것이 아닙니다. 약을 복용하고 있거나 의학적 상태가 있는 경우 항상 의료 제공자와 상담하세요. 개별 결과는 다를 수 있습니다."
+}

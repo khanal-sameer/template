@@ -1,0 +1,207 @@
+{
+  "title": "Neumi skin",
+  "product_title": "Neumi skin",
+  "total_product_review": "7 Avaliações",
+  "product_desc":  "<span class=\"fw-600\">A solução de cuidados com a pele revolucionada com a tecnologia HydraStat Nano </span> para rápida absorção e com uma aplicação conveniente em spray.",
+  "add_to_cart_text": "Adicionar ao carrinho",
+  "select_quantity_text": "Selecionar quantidade",
+  "all_product_text": "Todos os produtos",
+  "language": "pt",
+  "subscribe": {
+    "subscribe_text":"Assinar",
+    "frequency_text": "Selecionar frequência",
+    "checklist_items":[
+      {
+        "caption": "Assine e economize <span id='pricing'>$15</span>"
+      },
+      {
+        "caption": "Ganhe pontos de recompensa Neumi"
+      },
+      {
+        "caption": "Garantia de devolução de 30 dias"
+      },
+      {
+        "caption": "Atualize sua assinatura a qualquer momento"
+      }
+    ],
+    "one_time_purchase_text":"Compra única"
+  },
+  "free_shipping_desc": "Frete grátis para os EUA em pedidos acima de $200",
+  "benefits":{
+    "title": "Benefícios",
+    "items":[
+      {
+        "caption":"Ingredientes-chave para maximizar a absorção e a eficácia, diariamente."
+      },
+      {
+        "caption":"Cada lote passa por rigorosos testes de terceiros para garantir compromisso com a pureza e a segurança."
+      },
+      {
+        "caption": "Oferecemos garantia de devolução de 30 dias, sem perguntas."
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Como visto em"
+  },
+  "tab":{
+    "title": "Veja como o Neumi Skin está mudando vidas",
+    "video_review_title": "Avaliações em vídeo <span>(5)</span>",
+    "written_review_title": "Avaliações escritas <span>(2)</span>",
+    "rating_text": "Avaliação de 5 estrelas",
+    "review_list": [
+      {
+          "reviewer": "Aidan D.",
+          "address": "Salt Lake City, UT",
+          "time": "2 horas atrás",
+          "review_text": "Neumi Skin foi um divisor de águas para mim! Estou usando há alguns meses e notei uma melhora significativa nos meus níveis de energia e vitalidade geral. É incrível como algo tão simples pode ter efeitos tão profundos. Altamente recomendado!"
+      },
+      {
+          "reviewer": "Lola P.",
+          "address": "Laie, HI",
+          "time": "2 horas atrás",
+          "review_text": "Eu tenho lutado para manter o equilíbrio hormonal por anos, mas o Neumi Skin fez uma grande diferença. Não só me sinto mais equilibrada e com mais energia, mas também notei melhorias no tom da minha pele e no tom muscular. É realmente notável!"
+      }
+    ]
+  },
+  "product_benefits":{
+    "title": "Benefícios do uso do Neumi Skin",
+    "desc": "A tecnologia revolucionária do Neumi Skin reduz o tamanho dos ingredientes críticos, tornando a absorção rápida e eficaz. <span class='fw-600'>Nosso sistema de entrega em spray facilita a aplicação do Neumi Skin várias vezes ao dia, sob ou sobre a maquiagem.</span>",
+    "alt_text": "produto Neumi Skin",
+    "items": [
+      {
+        "title": "Ingredientes que você pode confiar",
+        "desc": "O Neumi Skin utiliza nosso sistema de entrega HydraStat™ para maximizar a absorção e a eficácia dos seguintes ingredientes: glutationa, ácido hialurônico, colágeno e curcumina."
+      },
+      {
+          "title": "Resultados que você pode ver",
+          "desc": "Nossa tecnologia HydraStat Nano exclusiva divide os ingredientes em partículas minúsculas, garantindo que eles alcancem profundamente a pele para resultados mais rápidos e aprimorados. Experimente poros minimizados, firmeza elevada, linhas finas suavizadas e uma tez mais brilhante. A inovação da Neumi proporciona uma pele radiante e fresca com a revolucionária tecnologia Nano!"
+      },
+      {
+          "title": "Aplicação fácil",
+          "desc":"Simplifique sua rotina de cuidados com a pele com o Neumi Skin. Basta borrifar e deixar secar ao ar, sob ou sobre a maquiagem!"
+      }
+    ]
+  },
+  "product_post_list":[
+    {
+      "title": "Ciência inovadora",
+      "desc": "A glutationa é a protetora e desintoxicante da célula. <span class=\"fw-600 highlight-text\">É a chave para a vida, saúde, desempenho, proteção e longevidade de cada célula humana.</span>"
+    },
+    {
+      "title": "Tecnologia HydraStat™",
+      "desc": "<span class=\"fw-600 highlight-text\">Partículas de tamanho nano protegidas por aglomerados de água ultra pura.</span> Nossos ingredientes em tamanho nano são pequenos o suficiente para serem totalmente absorvidos pela célula humana."
+    },
+    {
+      "title": "Qualidade acima da quantidade",
+      "desc": "Um suplemento é tão bom quanto sua biodisponibilidade, que é sua capacidade de ser absorvido e utilizado pelo corpo.<span class=\"fw-600 highlight-text\"> O sistema de entrega correto entrega ingredientes ao seu corpo de uma maneira que seu corpo possa absorver e usar.</span>"
+    }
+  ],
+  "key_ingredients":{
+    "title": "Ingredientes chave do Neumi Skin",
+    "ingredients": "<span class=\"fw-600\">Ingredientes ativos:</span> <span class=\"is-uppercase\"> ÁGUA ULTRA PURA, GLUTAÇÃO, DIMETIL SULFONA, HIALURONATO DE SÓDIO, CISTEÍNA, PROLINA, ASCORBATO DE CÁLCIO, GLICINA, ARGININA, VALINA, CURCUMINA, HIDROXIPROLINA, COLÁGENO, SORBATO DE POTÁSSIO, ÁCIDO TARTÁRICO. *A IMAGEM MOSTRA UMA PLANTA/ALIMENTO NO QUAL O INGREDIENTE ATIVO É ENCONTRADO E NÃO NECESSARIAMENTE DE ONDE É EXTRAÍDO.</span>",
+    "item_list_desktop":[
+      {
+        "item":[
+          {
+            "item_name": "Glutationa*"
+          },
+          {
+            "item_name": "Ácido tartárico*"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "Ascorbato de cálcio*"
+          },
+          {
+            "item_name": "Cúrcuma"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "Dimetil sulfona*"
+          },
+          {
+            "item_name": "Sorbato de potássio*"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "Hialuronato de sódio*"
+          },
+          {
+            "item_name": "Cisteína*"
+          }
+        ]
+      }
+    ],
+    "items_list":[
+      {
+        "item_name": "Glutationa*"
+      },
+      {
+        "item_name": "Ascorbato de cálcio*"
+      },
+      {
+        "item_name": "Dimetil sulfona*"
+      },
+      {
+        "item_name": "Hialuronato de sódio*"
+      },
+      {
+        "item_name": "Ácido tartárico*"
+      },
+      {
+        "item_name": "Sorbato de potássio*"
+      },
+      {
+        "item_name": "Cisteína*"
+      }
+    ]
+  },
+  "how_to_use":{
+    "title": "Como aplicar",
+    "steps": [
+      {
+        "caption": "Segure o borrifador a cerca de 8-10 polegadas do rosto e borrife por toda parte. Isso pode ser feito antes ou depois da maquiagem."
+      },
+      {
+        "caption": "Para melhores resultados, deixe a névoa secar ao ar sem esfregar."
+      },
+      {
+        "caption": "Repita esses passos duas vezes ao dia. Sinta-se à vontade para usar o Neumi Skin com mais frequência, se desejar."
+      },
+      {
+        "caption": "O Neumi Skin é melhor combinado com um hidratante e protetor solar."
+      }
+    ]
+  },
+  "faq":{
+    "title": "Benefícios da Glutationa",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "Sistema imunológico fortalecido",
+        "desc": "A glutationa é capaz de neutralizar os radicais livres e proteger o corpo dos seus efeitos nocivos. Também ajuda a reduzir a inflamação e apoia a capacidade natural do corpo de combater infecções. Além disso, desempenha um papel na síntese de novas células imunológicas, mantendo seu sistema imunológico funcionando da melhor forma."
+      },
+      {
+        "class": "",
+        "header": "Aumento de energia",
+        "desc": "Também ajuda a reduzir a inflamação e apoia a capacidade natural do corpo de combater infecções. Além disso, desempenha um papel na síntese de novas células imunológicas, mantendo seu sistema imunológico funcionando da melhor forma."
+      }
+    ]
+  },
+  "cta":{
+    "title": "Um novo você começa com Neumi",
+    "subscription_text": "Adicionar à assinatura",
+    "purchase_text": "Compra única"
+  },
+  "note_desc": " As declarações feitas neste site não foram avaliadas pela Food and Drug Administration. Essas declarações e os produtos desta empresa não são destinados a diagnosticar, tratar, curar ou prevenir qualquer doença. As opiniões e conselhos nutricionais expressos pela Neumi não têm a intenção de fornecer conselhos médicos. Consulte sempre o seu profissional de saúde se estiver tomando algum medicamento ou tiver alguma condição médica. Os resultados individuais podem variar."
+}

@@ -1,0 +1,210 @@
+{
+  "title": "Neumi huid",
+  "product_title": "Neumi huid",
+  "total_product_review": "7 Beoordelingen",
+  "product_desc":  "<span class=\"fw-600\">De huidverzorgingsoplossing, gerevolutioneerd met HydraStat Nano-Technologie </span> voor snelle opname en met een handige spraytoepassing.",
+  "add_to_cart_text": "In winkelwagen",
+  "select_quantity_text": "Selecteer aantal",
+  "all_product_text": "Alle producten",
+  "language": "nl",
+  "subscribe": {
+    "subscribe_text":"Abonneren",
+    "frequency_text": "Selecteer frequentie",
+    "checklist_items":[
+      {
+        "caption": "Abonneer en bespaar <span id='pricing'>$15</span>"
+      },
+      {
+        "caption": "Verdien Neumi beloningspunten"
+      },
+      {
+        "caption": "30 dagen geld-terug-garantie"
+      },
+      {
+        "caption": "Werk uw abonnement op elk moment bij"
+      }
+    ],
+    "one_time_purchase_text":"Eenmalige aankoop"
+  },
+  "free_shipping_desc": "Gratis verzending in de VS voor bestellingen boven $200+",
+  "benefits":{
+    "title": "Voordelen",
+    "items":[
+      {
+        "caption":"Belangrijke ingrediënten om dagelijkse opname en effectiviteit te maximaliseren."
+      },
+      {
+        "caption":"Elke batch ondergaat rigoureuze testen door derden om toewijding aan zuiverheid en veiligheid te waarborgen."
+      },
+      {
+        "caption": "We bieden een 30 dagen geld-terug-garantie, zonder vragen."
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Zoals te zien op"
+  },
+  "tab":{
+    "title": "Zie hoe Neumi Skin levens verandert",
+    "video_review_title": "Videorecensies <span>(5)</span>",
+    "written_review_title": "Schriftelijke recensies <span>(2)</span>",
+    "rating_text": "5 Sterren beoordeling",
+    "review_list": [
+      {
+          "reviewer": "Aidan D..",
+          "address": "Salt Lake City, UT",
+          "time": "2 uur geleden",
+          "review_text": "Neumi Skin heeft voor mij alles veranderd! Ik gebruik het nu al een paar maanden en ik merk een aanzienlijke verbetering in mijn energieniveaus en algehele vitaliteit. Het is verbazingwekkend hoe iets zo eenvoudigs zulke diepe effecten kan hebben. Zeer aan te bevelen!"
+      },
+      {
+          "reviewer": "Lola P..",
+          "address": "Laie, HI",
+          "time": "2 uur geleden",
+          "review_text": "Ik heb jaren moeite gehad met het handhaven van hormoonbalans, maar Neumi Skin heeft een wereld van verschil gemaakt. Niet alleen voel ik me meer in balans en energiek, maar ik merk ook verbeteringen in mijn huidtint en spiertonus. Het is echt opmerkelijk!"
+      }
+    ]
+  },
+  "product_benefits":{
+    "title": "Voordelen van het gebruik van Neumi Skin",
+    "desc": "Neumi Skin’s baanbrekende technologie verkleint kritieke ingrediënten, waardoor de opname snel en effectief is. <span class='fw-600'>Ons spraysysteem maakt het gemakkelijk om Neumi Skin meerdere keren per dag aan te brengen, onder of over make-up.</span>",
+    "alt_text": "neumi huid product",
+    "items": [
+      {
+        "title": "Ingrediënten die u kunt vertrouwen",
+        "desc": "Neumi Skin maakt gebruik van ons HydraStat™ nano-leveringssysteem om de opname en effectiviteit van de volgende ingrediënten te maximaliseren: glutathion, hyaluronzuur, collageen en curcumine."
+      },
+      {
+          "title": "Resultaten die u kunt zien",
+          "desc": "Onze unieke HydraStat Nano-Technologie breekt ingrediënten af tot kleine deeltjes, zodat ze diep in uw huid kunnen doordringen voor snellere en verbeterde resultaten. Ervaar verminderde poriën, gelifte stevigheid, gladgestreken fijne lijntjes en een helderdere teint. Neumi's innovatie levert stralende, frisse huid met baanbrekende Nano-Technologie!"
+      },
+      {
+          "title": "Eenvoudige toepassing",
+          "desc":"Vereenvoudig uw huidverzorgingsroutine met Neumi Skin. Gewoon spritzen en aan de lucht laten drogen, onder of over make-up!"
+      }
+    ]
+  },
+  "product_post_list":[
+    {
+      "title": "Innovatieve wetenschap",
+      "desc": "Glutathion is de beschermer en ontgifter van de cel. <span class=\"fw-600 highlight-text\">Het is de sleutel tot het leven, gezondheid, prestaties, bescherming en levensduur van elke menselijke cel.</span>"
+    },
+    {
+      "title": "HydraStat™ nanotechnologie",
+      "desc": "<span class=\"fw-600 highlight-text\">Nano-grootte deeltjes beschermd door ultrazuivere waterclusters.</span>  Onze nano-grootte ingrediënten zijn klein genoeg om volledig in de menselijke cel te worden opgenomen."
+    },
+    {
+      "title": "Kwaliteit boven kwantiteit",
+      "desc": "Een supplement is alleen zo goed als zijn biologische beschikbaarheid, dat wil zeggen zijn vermogen om door het lichaam te worden opgenomen en gebruikt.<span class=\"fw-600 highlight-text\"> Het juiste leveringssysteem levert ingrediënten aan uw lichaam op een manier die uw lichaam kan opnemen en gebruiken.</span>"
+    }
+  ],
+  "key_ingredients":{
+    "title": "Neumi Skin belangrijke ingrediënten",
+    "ingredients": "<span class=\"fw-600\">Actieve ingrediënten:</span> <span class=\"is-uppercase\"> ULTRAZUIVER WATER, GLUTATHION, Dimethylsulfon, Natrium Hyaluronaat, Cysteïne, Proline, Calcium Ascorbaat, Glycine, Arginine, Valine, Curcumine, Hydroxyproline, Collageen, Kaliumsorbaat, Wijnsteenzuur. *AFBEELDING TOONT EEN PLANT/VOEDSEL WAARIN HET ACTIEVE INGREDIËNT WORDT GEVONDEN EN NIET NOODZAKELIJK WAAR HET UIT WORDT GEEËXTRAHEERD.</span>",
+    "item_list_desktop":[
+      {
+        "item":[
+          {
+            "item_name": "Glutathion*"
+          },
+          {
+            "item_name": "Wijnsteenzuur*"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "Calcium Ascorbaat*"
+          },
+          {
+            "item_name": "Kurkuma"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "Dimethylsulfon*"
+          },
+          {
+            "item_name": "Kaliumsorbaat*"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "Natrium Hyaluronaat*"
+          },
+          {
+            "item_name": "Cysteïne*"
+          }
+        ]
+      }
+    ],
+    "items_list":[
+      {
+        "item_name": "Glutathion*"
+      },
+      {
+        "item_name": "Calcium Ascorbaat*"
+      },
+      {
+        "item_name": "Dimethylsulfon*"
+      },
+      {
+        "item_name": "Natrium Hyaluronaat*"
+      },
+      {
+        "item_name": "Wijnsteenzuur*"
+      },
+      {
+        "item_name": "Kaliumsorbaat*"
+      },
+      {
+        "item_name": "Kaliumsorbaat*"
+      },
+      {
+        "item_name": "Cysteïne*"
+      }
+    ]
+  },
+  "how_to_use":{
+    "title": "Hoe te gebruiken",
+    "steps": [
+      {
+        "caption": "Houd de sproeier ongeveer 8-10 inch van uw gezicht en spuit overal. Dit kan voor of na make-up worden gedaan."
+      },
+      {
+        "caption": "Laat voor de beste resultaten de mist aan de lucht drogen zonder in te wrijven."
+      },
+      {
+        "caption": "Herhaal deze stappen twee keer per dag. Voel je vrij om Neumi Skin vaker te gebruiken, indien gewenst."
+      },
+      {
+        "caption": "Neumi Skin werkt het beste in combinatie met een vochtinbrengende crème en SPF."
+      }
+    ]
+  },
+  "faq":{
+    "title": "Voordelen van Glutathion",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "Versterkt immuunsysteem",
+        "desc": "Glutathion kan vrije radicalen neutraliseren en het lichaam beschermen tegen hun schadelijke effecten. Het helpt ook om ontstekingen te verminderen en ondersteunt het natuurlijke vermogen van het lichaam om infecties te bestrijden. Bovendien speelt het een rol bij de synthese van nieuwe immuuncellen, waardoor uw immuunsysteem optimaal blijft functioneren."
+      },
+      {
+        "class": "",
+        "header": "Verhoogde energie",
+        "desc": "Het helpt ook om ontstekingen te verminderen en ondersteunt het natuurlijke vermogen van het lichaam om infecties te bestrijden. Bovendien speelt het een rol bij de synthese van nieuwe immuuncellen, waardoor uw immuunsysteem optimaal blijft functioneren."
+      }
+    ]
+  },
+  "cta":{
+    "title": "Een nieuwe jij begint met Neumi",
+    "subscription_text": "Toevoegen aan abonnement",
+    "purchase_text": " Eenmalige aankoop"
+  },
+  "note_desc": " De verklaringen op deze website zijn niet geëvalueerd door de Food and Drug Administration. Deze verklaringen en de producten van dit bedrijf zijn niet bedoeld om ziekten te diagnosticeren, behandelen, genezen of voorkomen. De meningen en voedingsadviezen van Neumi zijn niet bedoeld als medisch advies. Raadpleeg altijd uw zorgverlener als u medicijnen gebruikt of medische aandoeningen heeft. Individuele resultaten kunnen variëren."
+}
