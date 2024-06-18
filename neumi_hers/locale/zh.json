@@ -6,7 +6,8 @@
   "select_quantity_text": "选择数量",
   "all_product_text": "所有产品",
   "add_to_cart_text": "加入购物车",
-  "language": "",
+  "language": "zh",
+  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text": "订阅",
     "frequency_text": "选择频率",

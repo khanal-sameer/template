@@ -6,7 +6,8 @@
   "select_quantity_text": "Selecionar Quantidade",
   "all_product_text": "Todos os Produtos",
   "add_to_cart_text": "Adicionar ao Carrinho",
-  "language": "",
+  "language": "pt",
+  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text":"Assinar",
     "frequency_text": "Selecionar Frequência",
@@ -216,4 +217,3 @@
   },
   "note_desc": "As declarações feitas dentro deste site não foram avaliadas pela Food and Drug Administration. Essas declarações e os produtos desta empresa não se destinam a diagnosticar, tratar, curar ou prevenir qualquer doença. As opiniões e conselhos nutricionais expressos pela Neumi não se destinam a fornecer aconselhamento médico. Por favor, consulte sempre o seu prestador de cuidados de saúde se estiver a tomar qualquer medicação ou tiver qualquer condição médica. Os resultados individuais podem variar."
 }
-

@@ -6,7 +6,8 @@
   "select_quantity_text": "数量を選択",
   "all_product_text": "すべての商品",
   "add_to_cart_text": "カートに追加",
-  "language": "",
+  "language": "ja",
+  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text":"購読する",
     "frequency_text": "頻度を選択",
@@ -216,4 +217,3 @@
   },
   "note_desc": "このウェブサイト内で行われた声明は、食品医薬品局によって評価されていません。 これらの声明および当社の製品は、いかなる病気の診断、治療、治癒または予防を目的としたものではありません。 Neumiによって表現された見解および栄養アドバイスは、医療アドバイスを提供することを意図したものではありません。 薬を服用している場合や医療状態がある場合は、必ず医療提供者に相談してください。 個々の結果は異なる場合があります。"
 }
-

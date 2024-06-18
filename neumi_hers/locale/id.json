@@ -6,7 +6,8 @@
   "select_quantity_text": "Pilih Jumlah",
   "all_product_text": "Semua Produk",
   "add_to_cart_text": "Tambah ke Keranjang",
-  "language": "",
+  "language": "id",
+  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text":"Berlangganan",
     "frequency_text": "Pilih Frekuensi",
@@ -216,4 +217,3 @@
   },
   "note_desc": "Pernyataan yang dibuat di situs web ini belum dievaluasi oleh Food and Drug Administration. Pernyataan ini dan produk dari perusahaan ini tidak dimaksudkan untuk mendiagnosis, mengobati, menyembuhkan, atau mencegah penyakit apa pun. Pandangan dan saran nutrisi yang diungkapkan oleh Neumi tidak dimaksudkan untuk memberikan nasihat medis. Harap selalu berkonsultasi dengan penyedia layanan kesehatan Anda jika Anda sedang mengonsumsi obat apa pun atau memiliki kondisi medis. Hasil individu dapat bervariasi."
 }
-

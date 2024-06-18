@@ -6,7 +6,8 @@
   "select_quantity_text": "Piliin ang Dami",
   "all_product_text": "Lahat ng Produkto",
   "add_to_cart_text": "Idagdag sa Cart",
-  "language": "",
+  "language": "tl",
+  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text":"Mag-subscribe",
     "frequency_text": "Piliin ang Dalas",
@@ -216,4 +217,3 @@
   },
   "note_desc": "Ang mga pahayag na ginawa sa loob ng website na ito ay hindi pa nasuri ng Food and Drug Administration. Ang mga pahayag na ito at ang mga produkto ng kumpanyang ito ay hindi nilayon na mag-diagnose, magpagaling, magpagaling o mag-iwas ng anumang sakit. Ang mga pananaw at payo sa nutrisyon na ipinahayag ng Neumi ay hindi nilalayon para sa layunin ng pagbibigay ng medikal na payo. Palaging kumunsulta sa iyong tagapagbigay ng pangangalaga sa kalusugan kung ikaw ay umiinom ng anumang gamot o may anumang kondisyong medikal. Ang mga indibidwal na resulta ay maaaring mag-iba."
 }
-

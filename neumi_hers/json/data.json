@@ -2,7 +2,7 @@
   "title": "{{title}}",
   "product_title": "{{product_title}}",
   "total_product_review": "{{total_product_review}}",
-  "product_desc": "{{product_desc}}",
+  "product_desc": "{{{product_desc}}}",
   "select_quantity_text": "{{select_quantity_text}}",
   "all_product_text": "{{all_product_text}}",
   "add_to_cart_text": "{{add_to_cart_text}}",
@@ -10,312 +10,312 @@
   "product_id": "9410",
   "ratingSvgColor": "#b484bb",
   "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
-  "shop_url": "https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/shop",
+  "shop_url": "{{{shop_url}}}",
   "productSlider": {
-  "items": [
-  {
-  "image": "https://cdn.fluid.app/neumi/hers/images/slider_1.png"
-  },
-  {
-  "image": "https://cdn.fluid.app/neumi/hers/images/slider_2.png"
-  },
-  {
-  "image": "https://cdn.fluid.app/neumi/hers/images/slider_3.png"
-  },
-  {
-  "image": "https://cdn.fluid.app/neumi/hers/images/slider_4.png"
-  },
-  {
-  "image": "https://cdn.fluid.app/neumi/hers/images/slider_5.png"
-  }
-  ]
+    "items": [
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_1.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_2.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_3.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_4.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/slider_5.png"
+      }
+   ]
   },
   "subscribe": {
-  "subscribe_text": "{{subscribe.subscribe_text}}",
-  "frequency_text": "{{subscribe.frequency_text}}",
-  "actual_price": "65.00",
-  "discounted_price": "50.00",
-  "checklist_items": [
-  {
-  "caption": "{{subscribe.checklist_items.0.caption}}"
-  },
-  {
-  "caption": "{{subscribe.checklist_items.1.caption}}"
-  },
-  {
-  "caption": "{{subscribe.checklist_items.2.caption}}"
-  },
-  {
-  "caption": "{{subscribe.checklist_items.3.caption}}"
-  }
-  ],
-  "one_time_purchase_text": "subscribe.one_time_purchase_text"
+    "subscribe_text": "{{subscribe.subscribe_text}}",
+    "frequency_text": "{{subscribe.frequency_text}}",
+    "actual_price": "65.00",
+    "discounted_price": "50.00",
+    "checklist_items": [
+      {
+        "caption": "{{{subscribe.checklist_items.0.caption}}}"
+      },
+      {
+        "caption": "{{subscribe.checklist_items.1.caption}}"
+      },
+      {
+        "caption": "{{subscribe.checklist_items.2.caption}}"
+      },
+      {
+        "caption": "{{subscribe.checklist_items.3.caption}}"
+      }
+    ],
+    "one_time_purchase_text": "{{subscribe.one_time_purchase_text}}"
   },
   "free_shipping_desc": "{{free_shipping_desc}}",
   "benefits": {
-  "title": "{{benefits.title}}",
-  "items": [
-  {
-  "caption": "{{benefits.items.0.caption}}"
-  },
-  {
-  "caption": "{{benefits.items.1.caption}}"
-  },
-  {
-  "caption": "{{benefits.items.2.caption}}"
-  }
-  ]
+    "title": "{{benefits.title}}",
+    "items": [
+      {
+        "caption": "{{{benefits.items.0.caption}}}"
+      },
+      {
+        "caption": "{{{benefits.items.1.caption}}}"
+      },
+      {
+        "caption": "{{{benefits.items.2.caption}}}"
+      }
+    ]
   },
   "asSeenOn": {
-  "title": "{{asSeenOn.title}}",
-  "items": [
-  {
-  "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
-  },
-  {
-  "image": "https://cdn.fluid.app/newulife/as_seen_2.png"
-  },
-  {
-  "image": "https://cdn.fluid.app/newulife/as_seen_3.png"
-  },
-  {
-  "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
-  },
-  {
-  "image": "https://cdn.fluid.app/newulife/as_seen_5.png"
-  },
-  {
-  "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
-  }
-  ]
+    "title": "{{asSeenOn.title}}",
+    "items": [
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_2.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_3.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_5.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
+      }
+    ]
   },
   "video": {
-  "image": "https://cdn.fluid.app/neumi/hers/images/video_cover_image.png",
-  "video_url": "https://vimeo.com/877308482"
+    "image": "https://cdn.fluid.app/neumi/hers/images/video_cover_image.png",
+    "video_url": "https://vimeo.com/877308482"
   },
   "tab": {
-  "title": "{{tab.title}}",
-  "video_review_title": "{{tab.video_review_title}}",
-  "written_review_title": "{{tab.written_review_title}}",
-  "rating_text": "{{tab.rating_text}}",
-  "video_list": [
-  {
-  "image": "https://cdn.fluid.app/neumi/hers/images/review_video1.png",
-  "video": "https://cdn.fluid.app/neumi/hers/videos/review_video1.mp4"
-  },
-  {
-  "image": "https://cdn.fluid.app/neumi/hers/images/review_video2.png",
-  "video": "https://cdn.fluid.app/neumi/hers/videos/review_video2.mp4"
-  },
-  {
-  "image": "https://cdn.fluid.app/neumi/hers/images/review_video3.png",
-  "video": "https://cdn.fluid.app/neumi/hers/videos/review_video3.mp4"
-  },
-  {
-  "image": "https://cdn.fluid.app/neumi/hers/images/review_video4.png",
-  "video": "https://cdn.fluid.app/neumi/hers/videos/review_video4.mp4"
-  },
-  {
-  "image": "https://cdn.fluid.app/neumi/hers/images/review_video5.png",
-  "video": "https://cdn.fluid.app/neumi/hers/videos/review_video5.mp4"
-  }
-  ],
-  "review_list": [
-  {
-  "reviewer": "{{tab.review_list.0.reviewer}}",
-  "address": "{{tab.review_list.0.address}}",
-  "time": "{{tab.review_list.0.time}}",
-  "review_text": "{{tab.review_list.0.review_text}}"
-  },
-  {
-    "reviewer": "{{tab.review_list.1.reviewer}}",
-    "address": "{{tab.review_list.1.address}}",
-    "time": "{{tab.review_list.1.time}}",
-    "review_text": "{{tab.review_list.1.review_text}}"
-    }
+    "title": "{{tab.title}}",
+    "video_review_title": "{{{tab.video_review_title}}}",
+    "written_review_title": "{{{tab.written_review_title}}}",
+    "rating_text": "{{{tab.rating_text}}}",
+    "video_list": [
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video1.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video1.mp4"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video2.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video2.mp4"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video3.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video3.mp4"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video4.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video4.mp4"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/hers/images/review_video5.png",
+        "video": "https://cdn.fluid.app/neumi/hers/videos/review_video5.mp4"
+      }
+    ],
+    "review_list": [
+      {
+        "reviewer": "{{tab.review_list.0.reviewer}}",
+        "address": "{{tab.review_list.0.address}}",
+        "time": "{{tab.review_list.0.time}}",
+        "review_text": "{{tab.review_list.0.review_text}}"
+      },
+      {
+        "reviewer": "{{tab.review_list.1.reviewer}}",
+        "address": "{{tab.review_list.1.address}}",
+        "time": "{{tab.review_list.1.time}}",
+        "review_text": "{{tab.review_list.1.review_text}}"
+      }
   ]
   },
   "product_benefits": {
-  "title": "{{product_benefits.title}}",
-  "desc": "{{product_benefits.desc}}",
-  "alt_text": "{{product_benefits.alt_text}}",
-  "image": "file:///home/kalpana/Downloads/Hers%202%201.png",
-  "items": [
-  {
-  "title": "{{product_benefits.items.0.title}}",
-  "desc":  "{{product_benefits.items.0.desc}}",
-  "icon": "<svg width=\"42\" height=\"52\" viewBox=\"0 0 42 52\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.5 24.8259L18.5 29.878L29.75 18.5107M41 26.0889C41 38.488 27.6151 47.5059 22.745 50.3767C22.1915 50.703 21.9148 50.8661 21.5242 50.9507C21.2211 51.0164 20.7789 51.0164 20.4758 50.9507C20.0852 50.8661 19.8085 50.703 19.255 50.3767C14.3849 47.5059 1 38.488 1 26.0889V14.0082C1 11.9886 1 10.9788 1.3269 10.1108C1.61569 9.34395 2.08496 8.65974 2.69415 8.11727C3.38374 7.5032 4.3195 7.14864 6.19101 6.4395L19.5955 1.3604C20.1152 1.16347 20.3751 1.065 20.6425 1.02597C20.8796 0.991344 21.1204 0.991344 21.3575 1.02597C21.6249 1.065 21.8848 1.16347 22.4045 1.3604L35.809 6.4395C37.6805 7.14864 38.6163 7.5032 39.3059 8.11727C39.915 8.65974 40.3843 9.34395 40.6731 10.1108C41 10.9788 41 11.9886 41 14.0082V26.0889Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
-  },
-  {
-  "title": "{{product_benefits.items.1.title}}",
-  "desc":  "{{product_benefits.items.1.desc}}",
-  "icon": "<svg width=\"42\" height=\"44\" viewBox=\"0 0 42 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.2544 43V19.9M1 24.1V38.8C1 41.1196 2.83642 43 5.10176 43H32.6374C35.6742 43 38.2567 40.7313 38.7185 37.658L40.9271 22.958C41.5005 19.1417 38.6169 15.7 34.846 15.7H27.6615C26.5288 15.7 25.6106 14.7598 25.6106 13.6V6.17826C25.6106 3.31839 23.3464 1 20.5534 1C19.8873 1 19.2836 1.40172 19.013 2.02506L11.7957 18.6529C11.4665 19.4113 10.7321 19.9 9.92159 19.9H5.10176C2.83642 19.9 1 21.7804 1 24.1Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
-  },
-  {
-  "title": "{{product_benefits.items.2.title}}",
-  "desc":  "{{product_benefits.items.2.desc}}",
-  "icon": "<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M40.8752 23.1005C40.2221 29.2404 36.7452 34.994 30.9921 38.3176C21.4336 43.8395 9.21128 40.5626 3.69271 30.9984L3.10493 29.9797M1.12461 18.8995C1.77776 12.7596 5.25457 7.00597 11.0077 3.68238C20.5662 -1.83953 32.7885 1.43741 38.3071 11.0016L38.8949 12.0203M1 35.2704L2.72114 28.8431L9.14452 30.5653M32.8555 11.4346L39.2789 13.1567L41 6.72948M21 10.4135V20.9999L26.8778 24.5288\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
-  }
-  ]
+    "title": "{{product_benefits.title}}",
+    "desc": "{{{product_benefits.desc}}}",
+    "alt_text": "{{product_benefits.alt_text}}",
+    "image": "file:///home/kalpana/Downloads/Hers%202%201.png",
+    "items": [
+      {
+        "title": "{{product_benefits.items.0.title}}",
+        "desc":  "{{{product_benefits.items.0.desc}}}",
+        "icon": "<svg width=\"42\" height=\"52\" viewBox=\"0 0 42 52\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.5 24.8259L18.5 29.878L29.75 18.5107M41 26.0889C41 38.488 27.6151 47.5059 22.745 50.3767C22.1915 50.703 21.9148 50.8661 21.5242 50.9507C21.2211 51.0164 20.7789 51.0164 20.4758 50.9507C20.0852 50.8661 19.8085 50.703 19.255 50.3767C14.3849 47.5059 1 38.488 1 26.0889V14.0082C1 11.9886 1 10.9788 1.3269 10.1108C1.61569 9.34395 2.08496 8.65974 2.69415 8.11727C3.38374 7.5032 4.3195 7.14864 6.19101 6.4395L19.5955 1.3604C20.1152 1.16347 20.3751 1.065 20.6425 1.02597C20.8796 0.991344 21.1204 0.991344 21.3575 1.02597C21.6249 1.065 21.8848 1.16347 22.4045 1.3604L35.809 6.4395C37.6805 7.14864 38.6163 7.5032 39.3059 8.11727C39.915 8.65974 40.3843 9.34395 40.6731 10.1108C41 10.9788 41 11.9886 41 14.0082V26.0889Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
+      },
+      {
+        "title": "{{product_benefits.items.1.title}}",
+        "desc":  "{{{product_benefits.items.1.desc}}}",
+        "icon": "<svg width=\"42\" height=\"44\" viewBox=\"0 0 42 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.2544 43V19.9M1 24.1V38.8C1 41.1196 2.83642 43 5.10176 43H32.6374C35.6742 43 38.2567 40.7313 38.7185 37.658L40.9271 22.958C41.5005 19.1417 38.6169 15.7 34.846 15.7H27.6615C26.5288 15.7 25.6106 14.7598 25.6106 13.6V6.17826C25.6106 3.31839 23.3464 1 20.5534 1C19.8873 1 19.2836 1.40172 19.013 2.02506L11.7957 18.6529C11.4665 19.4113 10.7321 19.9 9.92159 19.9H5.10176C2.83642 19.9 1 21.7804 1 24.1Z\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
+      },
+      {
+        "title": "{{product_benefits.items.2.title}}",
+        "desc":  "{{{product_benefits.items.2.desc}}}",
+        "icon": "<svg width=\"42\" height=\"42\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M40.8752 23.1005C40.2221 29.2404 36.7452 34.994 30.9921 38.3176C21.4336 43.8395 9.21128 40.5626 3.69271 30.9984L3.10493 29.9797M1.12461 18.8995C1.77776 12.7596 5.25457 7.00597 11.0077 3.68238C20.5662 -1.83953 32.7885 1.43741 38.3071 11.0016L38.8949 12.0203M1 35.2704L2.72114 28.8431L9.14452 30.5653M32.8555 11.4346L39.2789 13.1567L41 6.72948M21 10.4135V20.9999L26.8778 24.5288\" stroke=\"#BC50B0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
+      }
+    ]
   },
   "product_post_list": [
-  {
-  "title": "{{product_post_list.0.title}}",
-  "desc": "{{product_post_list.0.desc}}",
-  "image": "https://cdn.fluid.app/neumi/hers/images/innovative.png",
-  "image_position": "right",
-  "desc_ordering_class": "order-lg-1",
-  "image_ordering_class": "order-lg-2"
-  },
-  {
-  "title": "{{product_post_list.1.title}}",
-  "desc": "{{product_post_list.1.desc}}",
-  "image": "https://cdn.fluid.app/neumi/hers/images/nano.png",
-  "image_position": "left",
-  "desc_ordering_class": "",
-  "image_ordering_class": ""
-  },
-  {
-  "title": "{{product_post_list.2.title}}",
-  "desc": "{{product_post_list.2.desc}}",
-  "image": "https://cdn.fluid.app/neumi/hers/images/quality.png",
-  "image_position": "right",
-  "desc_ordering_class": "order-lg-1",
-  "image_ordering_class": "order-lg-2"
-  }
+    {
+      "title": "{{product_post_list.0.title}}",
+      "desc": "{{{product_post_list.0.desc}}}",
+      "image": "https://cdn.fluid.app/neumi/hers/images/innovative.png",
+      "image_position": "right",
+      "desc_ordering_class": "order-lg-1",
+      "image_ordering_class": "order-lg-2"
+    },
+    {
+      "title": "{{product_post_list.1.title}}",
+      "desc": "{{{product_post_list.1.desc}}}",
+      "image": "https://cdn.fluid.app/neumi/hers/images/nano.png",
+      "image_position": "left",
+      "desc_ordering_class": "",
+      "image_ordering_class": ""
+    },
+    {
+      "title": "{{product_post_list.2.title}}",
+      "desc": "{{{product_post_list.2.desc}}}",
+      "image": "https://cdn.fluid.app/neumi/hers/images/quality.png",
+      "image_position": "right",
+      "desc_ordering_class": "order-lg-1",
+      "image_ordering_class": "order-lg-2"
+    }
   ],
   "key_ingredients": {
-  "title": "{{key_ingredients.title}}",
-  "ingredients": "{{key_ingredients.ingredients}}",
-  "item_list_desktop": [
-  {
-  "item": [
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/damiana.png",
-  "item_name": "{{key_ingredients.item_list_desktop.0.item.0.item_name}}"
-  },
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/dong-quai-root.png",
-  "item_name":  "{{key_ingredients.item_list_desktop.0.item.1.item_name}}"
-  }
-  ]
-  },
-  {
-  "item": [
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/ginger.webp",
-  "item_name":  "{{key_ingredients.item_list_desktop.1.item.0.item_name}}"
-  },
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/Chasteberry.png",
-  "item_name":  "{{key_ingredients.item_list_desktop.1.item.1.item_name}}"
-  }
-  ]
-  },
-  {
-  "item": [
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/maca-root.png",
-  "item_name":  "{{key_ingredients.item_list_desktop.2.item.0.item_name}}"
-  },
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/black-cohosh.png",
-  "item_name":  "{{key_ingredients.item_list_desktop.2.item.1.item_name}}"
-  }
-  ]
-  },
-  {
-  "item": [
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/Ashwagandharoot.webp",
-  "item_name":  "{{key_ingredients.item_list_desktop.3.item.0.item_name}}"
-  },
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/peony-white-root.webp",
-  "item_name":  "{{key_ingredients.item_list_desktop.3.item.1.item_name}}"
-  }
-  ]
-  }
-  ],
-  "items_list": [
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/damiana.png",
-  "item_name": "{{key_ingredients.items_list.0.item_name}}"
-  },
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/ginger.webp",
-  "item_name":  "{{key_ingredients.items_list.1.item_name}}"
-  },
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/maca-root.png",
-  "item_name":  "{{key_ingredients.items_list.2.item_name}}"
-  },
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/Ashwagandharoot.webp",
-  "item_name":  "{{key_ingredients.items_list.3.item_name}}"
-  },
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/dong-quai-root.png",
-  "item_name":  "{{key_ingredients.items_list.4.item_name}}"
-  },
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/Chasteberry.png",
-  "item_name":  "{{key_ingredients.items_list.5.item_name}}"
-  },
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/black-cohosh.png",
-  "item_name":  "{{key_ingredients.items_list.6.item_name}}"
-  },
-  {
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/peony-white-root.webp",
-  "item_name": "{{key_ingredients.items_list.7.item_name}}"
-  }
-  ]
+    "title": "{{key_ingredients.title}}",
+    "ingredients": "{{{key_ingredients.ingredients}}}",
+    "item_list_desktop": [
+      {
+        "item": [
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/damiana.png",
+            "item_name": "{{key_ingredients.item_list_desktop.0.item.0.item_name}}"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/dong-quai-root.png",
+            "item_name":  "{{key_ingredients.item_list_desktop.0.item.1.item_name}}"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/ginger.webp",
+            "item_name":  "{{key_ingredients.item_list_desktop.1.item.0.item_name}}"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/Chasteberry.png",
+            "item_name":  "{{key_ingredients.item_list_desktop.1.item.1.item_name}}"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/maca-root.png",
+            "item_name":  "{{key_ingredients.item_list_desktop.2.item.0.item_name}}"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/black-cohosh.png",
+            "item_name":  "{{key_ingredients.item_list_desktop.2.item.1.item_name}}"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/Ashwagandharoot.webp",
+            "item_name":  "{{key_ingredients.item_list_desktop.3.item.0.item_name}}"
+          },
+          {
+            "bg_image": "https://cdn.fluid.app/neumi/hers/images/peony-white-root.webp",
+            "item_name":  "{{key_ingredients.item_list_desktop.3.item.1.item_name}}"
+          }
+        ]
+      }
+    ],
+    "items_list": [
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/damiana.png",
+        "item_name": "{{key_ingredients.items_list.0.item_name}}"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/ginger.webp",
+        "item_name":  "{{key_ingredients.items_list.1.item_name}}"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/maca-root.png",
+        "item_name":  "{{key_ingredients.items_list.2.item_name}}"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/Ashwagandharoot.webp",
+        "item_name":  "{{key_ingredients.items_list.3.item_name}}"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/dong-quai-root.png",
+        "item_name":  "{{key_ingredients.items_list.4.item_name}}"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/Chasteberry.png",
+        "item_name":  "{{key_ingredients.items_list.5.item_name}}"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/black-cohosh.png",
+        "item_name":  "{{key_ingredients.items_list.6.item_name}}"
+      },
+      {
+        "bg_image": "https://cdn.fluid.app/neumi/hers/images/peony-white-root.webp",
+        "item_name": "{{key_ingredients.items_list.7.item_name}}"
+      }
+    ]
   },
   "how_to_use": {
-  "title": "{{how_to_use.title}}",
-  "bg_image": "https://cdn.fluid.app/neumi/hers/images/intake.png",
-  "steps": [
-  {
-  "caption": "{{how_to_use.steps.0.caption}}"
-  },
-  {
-  "caption": "{{how_to_use.steps.1.caption}}"
-  },
-  {
-  "caption": "{{how_to_use.steps.2.caption}}"
-  },
-  {
-  "caption": "{{how_to_use.steps.3.caption}}"
-  }
-  ]
+    "title": "{{how_to_use.title}}",
+    "bg_image": "https://cdn.fluid.app/neumi/hers/images/intake.png",
+    "steps": [
+      {
+        "caption": "{{{how_to_use.steps.0.caption}}}"
+      },
+      {
+        "caption": "{{{how_to_use.steps.1.caption}}}"
+      },
+      {
+        "caption": "{{{how_to_use.steps.2.caption}}}"
+      },
+      {
+        "caption": "{{{how_to_use.steps.3.caption}}}"
+      }
+    ]
   },
   "faq": {
-  "title": "{{faq.title}}",
-  "icon_class": "clr-primary",
-  "items": [
-  {
-  "class": "acc-item_active",
-  "header": "{{faq.items.0.header}}",
-  "desc": "{{faq.items.0.desc}}"
-  },
-  {
-  "class": "",
-  "header": "{{faq.items.1.header}}",
-  "desc": "{{faq.items.1.desc}}"
-  },
-  {
-  "class": "",
-  "header": "{{faq.items.2.header}}",
-  "desc": "{{faq.items.2.desc}}"
-  }
-  ]
+    "title": "{{faq.title}}",
+    "icon_class": "clr-primary",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "{{faq.items.0.header}}",
+        "desc": "{{faq.items.0.desc}}"
+      },
+      {
+        "class": "",
+        "header": "{{faq.items.1.header}}",
+        "desc": "{{faq.items.1.desc}}"
+      },
+      {
+        "class": "",
+        "header": "{{faq.items.2.header}}",
+        "desc": "{{faq.items.2.desc}}"
+      }
+    ]
   },
   "cta": {
-  "title": "{{cta.title}}",
-  "subscription_text": "{{cta.subscription_text}}",
-  "purchase_text": "{{cta.purchase_text}}",
-  "image": "https://cdn.fluid.app/neumi/hers/images/cta.png"
+    "title": "{{cta.title}}",
+    "subscription_text": "{{cta.subscription_text}}",
+    "purchase_text": "{{cta.purchase_text}}",
+    "image": "https://cdn.fluid.app/neumi/hers/images/cta.png"
   },
   "note_desc": "{{note_desc}}"
-  }
+}
