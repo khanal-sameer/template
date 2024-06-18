@@ -3,13 +3,14 @@
     "product_id": "9474",
     "ratingSvgColor": "#294DE2;",
     "product_title": "{{product_title}}",
-    "total_product_review": "total_product_review",
-    "product_desc":  "{{product_desc}}",
+    "total_product_review": "{{total_product_review}}",
+    "product_desc":  "{{{product_desc}}}",
     "add_to_cart_text": "{{add_to_cart_text}}",
     "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
     "select_quantity_text": "{{select_quantity_text}}",
     "all_product_text": "{{all_product_text}}",
     "shop_url":"{{shop_url}}",
+    "language": "{{language}}",
     "productSlider":{
       "items":[
         {
@@ -36,7 +37,7 @@
       "discounted_price": "50.00",
       "checklist_items":[
         {
-          "caption": "{{subscribe.checklist_items.0.caption}}"
+          "caption": "{{{subscribe.checklist_items.0.caption}}}"
         },
         {
           "caption": "{{subscribe.checklist_items.1.caption}}"
@@ -66,6 +67,7 @@
       ]
     },
     "asSeenOn": {
+      "title": "{{asSeenOn.title}}",
       "items": [
         {
           "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
@@ -117,7 +119,7 @@
           "image": "https://cdn.fluid.app/newulife/somaderm/review_5.png",
           "video": "https://cdn.fluid.app/neumi/nutrswish/videos/video5.mp4"
         }
-  
+
       ],
       "review_list": [
         {
@@ -299,9 +301,9 @@
           "header": "{{faq.items.2.header}}",
           "desc": "{{faq.items.2.desc}}"
         }
-  
+
       ]
-  
+
     },
     "cta":{
       "title": "{{cta.title}}",
@@ -313,4 +315,3 @@
     },
     "note_desc": "{{note_desc}}"
   }
-  

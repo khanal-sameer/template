@@ -1,13 +1,12 @@
 {
     "title": "NutriSwish",
-    "product_id": "9474",
     "product_title": "NutriSwish",
     "total_product_review": "7 Reviews",
     "product_desc":  "<span class=fw-600>The groundbreaking health supplement powered by HydraStat Nano-Technology for instant absorption,</span> delivering immune support, joint health.",
     "add_to_cart_text": "Add to cart",
     "select_quantity_text": "Select Quantity",
     "all_product_text": "All Products",
-    "shop_url":"https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/shop",
+    "language": "",
     "subscribe": {
       "subscribe_text":"Subscribe",
       "frequency_text": "Select Frequency",
@@ -42,6 +41,10 @@
         }
       ]
     },
+    "asSeenOn": {
+      "title": "As seen on"
+    },
+
     "tab":{
       "title": "See how NutriSwish  is changing lives",
       "video_review_title": "Video Reviews <span>(5)</span>",
@@ -68,7 +71,7 @@
       "alt_text": "nutriswish product",
       "items_left": [
         {
-         
+
           "title": "Sustained Release",
           "desc": "Oral administration allows for a more consistent and sustained release of glutathione into the bloodstream."
         },
@@ -197,9 +200,9 @@
           "header": "Enhanced Stamina and Endurance",
           "desc": "It also helps to reduce inflammation, and supports the body's natural ability to fight off infection. In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
         }
-  
+
       ]
-  
+
     },
     "cta":{
       "title": "A new you starts with Neumi",
@@ -208,4 +211,3 @@
     },
     "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration.These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
   }
-  
