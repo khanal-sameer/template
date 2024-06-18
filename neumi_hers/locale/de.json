@@ -1,0 +1,216 @@
+{
+  "title": "Hers",
+  "product_title": "Hers",
+  "total_product_review": "7 Bewertungen",
+  "product_desc":  "<span class=fw-600>Ein hochwertiges Nahrungsergänzungsmittel, das speziell für Frauen entwickelt wurde,</span> mit der bahnbrechenden Hydrastat Nano-Technologie für optimale Absorption.",
+  "select_quantity_text": "Menge auswählen",
+  "all_product_text": "Alle Produkte",
+  "add_to_cart_text": "In den Warenkorb",
+  "language": "",
+  "subscribe": {
+    "subscribe_text": "Abonnieren",
+    "frequency_text": "Häufigkeit auswählen",
+    "checklist_items": [
+      {
+        "caption": "Abonnieren und sparen <span id='pricing'>$15</span>"
+      },
+      {
+        "caption": "Neumi-Belohnungspunkte sammeln"
+      },
+      {
+        "caption": "30 Tage Geld-zurück-Garantie"
+      },
+      {
+        "caption": "Abonnement jederzeit aktualisieren"
+      }
+    ],
+    "one_time_purchase_text": "Einmaliger Kauf"
+  },
+  "free_shipping_desc": "Kostenloser Versand in den USA für Bestellungen über $200+",
+  "benefits": {
+    "title": "Vorteile",
+    "items": [
+      {
+        "caption": "Wichtige Inhaltsstoffe zur täglichen Unterstützung und Balance Ihrer Hormongesundheit."
+      },
+      {
+        "caption": "Für jede Lebensphase – aktive Menstruation, Prä-/aktive/Post-Menopause"
+      },
+      {
+        "caption": "Erhebliche Linderung von Hitzewallungen oder Krämpfen innerhalb von nur 20 Minuten nach der Einnahme"
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Bekannt aus"
+  },
+  "tab": {
+    "title": "Sehen Sie, wie Hers das Leben verändert",
+    "video_review_title": "Videobewertungen <span>(5)</span>",
+    "written_review_title": "Schriftliche Bewertungen <span>(2)</span>",
+    "rating_text": "5-Sterne-Bewertung",
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "Salt Lake City, UT",
+        "time": "vor 2 Stunden",
+        "review_text": "Hers war eine echte Veränderung für mich! Ich benutze es jetzt seit einigen Monaten und habe eine signifikante Verbesserung meiner Energie und allgemeinen Vitalität bemerkt. Es ist erstaunlich, wie etwas so Einfaches so tiefgreifende Auswirkungen haben kann. Sehr empfehlenswert!"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "Laie, HI",
+        "time": "vor 2 Stunden",
+        "review_text": "Ich hatte jahrelang Probleme, mein Hormonhaushalt auszugleichen, aber Hers hat einen großen Unterschied gemacht. Ich fühle mich nicht nur ausgeglichener und energischer, sondern habe auch Verbesserungen bei meiner Haut- und Muskeltonus bemerkt. Es ist wirklich bemerkenswert!"
+      }
+    ]
+  },
+  "product_benefits": {
+    "title": "Vorteile der Verwendung von Hers",
+    "desc": "<span class='fw-600'>Jede Frau kennt die Unannehmlichkeiten, die Zyklen und Hormonveränderungen mit sich bringen können.</span>Erleben Sie schnelle Ergebnisse durch unsere HydraStat™-Nanotechnologie. Unsere nanoskaligen Inhaltsstoffe, eingehüllt in Wassercluster, sind klein genug, um vollständig von der menschlichen Zelle absorbiert zu werden, genau dort, wo Sie sie brauchen!",
+    "alt_text": "hers Produkt",
+    "items": [
+      {
+        "title": "Vertrauenswürdige Inhaltsstoffe",
+        "desc": "Hers verwendet unser HydraStat™-Nano-Delivery-System, um die Absorption und Wirksamkeit der folgenden Inhaltsstoffe zu maximieren: Weißer Pfingstrosenextrakt, Mönchspfeffer, Dong Quai, Maca-Wurzel, Ashwagandha und andere Nährstoffe."
+      },
+      {
+        "title": "Ergebnisse, auf die Sie zählen können",
+        "desc": "Wir haben eine doppelt verblindete klinische Studie durchgeführt, und 80% der Teilnehmer, von der aktiven Menstruation bis zur Post-Menopause, sahen eine deutliche Verbesserung ihrer Symptome. Insbesondere einige, die unter Hitzewallungen oder Krämpfen litten, berichteten von einer erheblichen Linderung innerhalb von nur 20 Minuten nach der Einnahme."
+      },
+      {
+        "title": "Für jede Lebensphase",
+        "desc": "Hers ist für alle Frauen in jeder Lebensphase konzipiert. Jede Zutat in unserer botanischen Formel wurde sorgfältig ausgewählt, um eine ausgewogene Mischung von Vorteilen zu schaffen. Mit Hers kann jede Frau aufblühen."
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "Innovative Wissenschaft",
+      "desc": "Glutathion ist der Beschützer und Entgifter der Zelle.<span class=fw-600 highlight-text>Es ist der Schlüssel zum Leben, zur Gesundheit, Leistung, Schutz und Langlebigkeit jeder menschlichen Zelle.</span>"
+    },
+    {
+      "title": "HydraStat™-Nanotechnologie",
+      "desc": "<span class=fw-600>Nano-große Partikel, geschützt durch ultrareine Wassercluster.</span>Unsere nanoskaligen Inhaltsstoffe sind klein genug, um vollständig in die menschliche Zelle absorbiert zu werden."
+    },
+    {
+      "title": "Qualität über Quantität",
+      "desc": "Ein Supplement ist nur so gut wie seine Bioverfügbarkeit, also seine Fähigkeit, vom Körper absorbiert und genutzt zu werden.<span class=fw-600 highlight-text>Das richtige Liefersystem liefert Inhaltsstoffe auf eine Weise, die Ihr Körper absorbieren und nutzen kann.</span>"
+    }
+  ],
+  "how_to_use": {
+    "title": "Wie zu verwenden",
+    "steps": [
+      {
+        "caption": "Messen Sie zwei (2) Teelöffel Produkt ab. Eine Kappe = Teelöffel."
+      },
+      {
+        "caption": "Schwenken Sie es 30 Sekunden oder länger in Ihrem Mund."
+      },
+      {
+        "caption": "Im Gegensatz zu Mundwasser können Sie Hers schlucken. Sie können es auch ausspucken, wenn Sie möchten."
+      },
+      {
+        "caption": "Wiederholen Sie diese Schritte zweimal täglich. Sie können Hers auch öfter verwenden, wenn gewünscht."
+      }
+    ]
+  },
+  "key_ingredients": {
+    "title": "Hers Schlüsselzutaten",
+    "ingredients": "<span class=fw-600>Aktive Inhaltsstoffe:</span> ULTRAREINES WASSER, B6, B12, KALIUMSORBAT, NATRIUMBENZOAT, SPEARMINT-EXTRAKT.",
+    "item_list_desktop": [
+      {
+        "item": [
+          {
+            "item_name": "Damiana"
+          },
+          {
+            "item_name": "Dong Quai Wurzel"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Ingwer"
+          },
+          {
+            "item_name": "Mönchspfeffer-Extrakt"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Maca-Wurzel"
+          },
+          {
+            "item_name": "Schwarze Cohosh"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Ashwagandha"
+          },
+          {
+            "item_name": "Weiße Pfingstrosenwurzel"
+          }
+        ]
+      }
+    ],
+    "items_list": [
+      {
+        "item_name": "Damiana"
+      },
+      {
+        "item_name": "Ingwer"
+      },
+      {
+        "item_name": "Maca-Wurzel"
+      },
+      {
+        "item_name": "Ashwagandha"
+      },
+      {
+        "item_name": "Dong Quai Wurzel"
+      },
+      {
+        "item_name": "Mönchspfeffer-Extrakt"
+      },
+      {
+        "item_name": "Schwarze Cohosh"
+      },
+      {
+        "item_name": "Weiße Pfingstrosenwurzel"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Vorteile von Glutathion",
+    "icon_class": "clr-primary",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "Gestärktes Immunsystem",
+        "desc": "Glutathion kann freie Radikale neutralisieren und den Körper vor deren schädlichen Auswirkungen schützen. Es hilft auch, Entzündungen zu reduzieren und unterstützt die natürliche Fähigkeit des Körpers, Infektionen zu bekämpfen. Darüber hinaus spielt es eine Rolle bei der Synthese neuer Immunzellen, sodass Ihr Immunsystem optimal funktioniert."
+      },
+      {
+        "class": "",
+        "header": "Erhöhte Energie",
+        "desc": "Es hilft auch, Entzündungen zu reduzieren und unterstützt die natürliche Fähigkeit des Körpers, Infektionen zu bekämpfen. Darüber hinaus spielt es eine Rolle bei der Synthese neuer Immunzellen, sodass Ihr Immunsystem optimal funktioniert."
+      },
+      {
+        "class": "",
+        "header": "Erhöhte Ausdauer und Leistungsfähigkeit",
+        "desc": "Es hilft auch, Entzündungen zu reduzieren und unterstützt die natürliche Fähigkeit des Körpers, Infektionen zu bekämpfen. Darüber hinaus spielt es eine Rolle bei der Synthese neuer Immunzellen, sodass Ihr Immunsystem optimal funktioniert."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ein neues Du beginnt mit Neumi",
+    "subscription_text": "Zum Abonnement hinzufügen",
+    "purchase_text": "Einmalig kaufen"
+  },
+  "note_desc": "Die auf dieser Website gemachten Aussagen wurden nicht von der Food and Drug Administration bewertet. Diese Aussagen und die Produkte dieses Unternehmens sind nicht dazu bestimmt, Krankheiten zu diagnostizieren, zu behandeln, zu heilen oder zu verhindern. Die von Neumi geäußerten Ansichten und Ernährungsratschläge sind nicht dazu gedacht, medizinische Ratschläge zu geben. Bitte konsultieren Sie immer Ihren Arzt, wenn Sie Medikamente einnehmen oder medizinische Bedingungen haben. Individuelle Ergebnisse können variieren."
+}

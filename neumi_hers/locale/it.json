@@ -1,0 +1,216 @@
+{
+  "title": "Hers",
+  "product_title": "Hers",
+  "total_product_review": "7 Recensioni",
+  "product_desc":  "<span class=fw-600>Un integratore alimentare premium meticolosamente progettato per le donne,</span> con la tecnologia innovativa Hydrastat Nano per un'assorbimento ottimale.",
+  "select_quantity_text": "Seleziona quantità",
+  "all_product_text": "Tutti i prodotti",
+  "add_to_cart_text": "Aggiungi al carrello",
+  "language": "",
+  "subscribe": {
+    "subscribe_text": "Iscriviti",
+    "frequency_text": "Seleziona frequenza",
+    "checklist_items": [
+      {
+        "caption": "Iscriviti e risparmia <span id='pricing'>$15</span>"
+      },
+      {
+        "caption": "Guadagna punti premio Neumi"
+      },
+      {
+        "caption": "Garanzia di rimborso di 30 giorni"
+      },
+      {
+        "caption": "Aggiorna il tuo abbonamento in qualsiasi momento"
+      }
+    ],
+    "one_time_purchase_text": "Acquisto una tantum"
+  },
+  "free_shipping_desc": "Spedizione gratuita negli Stati Uniti per ordini superiori a $200+",
+  "benefits": {
+    "title": "Benefici",
+    "items": [
+      {
+        "caption": "Ingredienti chiave per bilanciare e supportare la tua salute ormonale quotidianamente."
+      },
+      {
+        "caption": "Per ogni stagione della vita: mestruazione attiva, pre/attiva/post menopausa"
+      },
+      {
+        "caption": "Sollievo significativo dalle vampate di calore o dai crampi in soli 20 minuti dopo il consumo"
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Visto su"
+  },
+  "tab": {
+    "title": "Guarda come Hers sta cambiando le vite",
+    "video_review_title": "Recensioni video <span>(5)</span>",
+    "written_review_title": "Recensioni scritte <span>(2)</span>",
+    "rating_text": "Valutazione a 5 stelle",
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "Salt Lake City, UT",
+        "time": "2 ore fa",
+        "review_text": "Hers è stato un vero cambiamento per me! Lo sto usando da alcuni mesi e ho notato un miglioramento significativo nei miei livelli di energia e vitalità generale. È incredibile come qualcosa di così semplice possa avere effetti così profondi. Altamente raccomandato!"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "Laie, HI",
+        "time": "2 ore fa",
+        "review_text": "Ho avuto problemi a mantenere l'equilibrio ormonale per anni, ma Hers ha fatto una grande differenza. Non solo mi sento più equilibrata ed energica, ma ho anche notato miglioramenti nel tono della pelle e dei muscoli. È veramente notevole!"
+      }
+    ]
+  },
+  "product_benefits": {
+    "title": "Benefici dell'uso di Hers",
+    "desc": "<span class='fw-600'>Ogni donna conosce gli inconvenienti che i cicli e i cambiamenti ormonali possono portare nella vita.</span>Prova risultati rapidi attraverso la nostra nanotecnologia HydraStat™. I nostri ingredienti di dimensioni nano, avvolti in cluster d'acqua, sono abbastanza piccoli da essere completamente assorbiti dalla cellula umana, proprio dove ne hai bisogno!",
+    "alt_text": "prodotto hers",
+    "items": [
+      {
+        "title": "Ingredienti di cui ti puoi fidare",
+        "desc": "Hers utilizza il nostro sistema di consegna nano HydraStat™ per massimizzare l'assorbimento e l'efficacia dei seguenti ingredienti: estratto di peonia bianca, chasteberry, dong quai, radice di maca, ashwagandha e altri nutrienti."
+      },
+      {
+        "title": "Risultati su cui puoi contare",
+        "desc": "Abbiamo condotto uno studio clinico in doppio cieco e l'80% dei partecipanti, dalla mestruazione attiva alla post-menopausa, ha visto un notevole miglioramento dei loro sintomi. In particolare, alcuni che sperimentavano vampate di calore o crampi hanno riportato un sollievo significativo in soli 20 minuti dopo il consumo."
+      },
+      {
+        "title": "Per ogni stagione della vita",
+        "desc": "Hers è progettato per tutte le donne, in ogni stagione della vita. Ogni ingrediente nella nostra formula botanica è stato accuratamente selezionato per creare una miscela equilibrata di benefici. Con Hers, ogni donna può fiorire."
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "Scienza innovativa",
+      "desc": "Il glutatione è il protettore e il disintossicante della cellula.<span class=fw-600 highlight-text>È la chiave della vita, della salute, delle prestazioni, della protezione e della longevità di ogni cellula umana.</span>"
+    },
+    {
+      "title": "Nanotecnologia HydraStat™",
+      "desc": "<span class=fw-600>Particelle di dimensioni nano protette da cluster d'acqua ultrapura.</span>I nostri ingredienti di dimensioni nano sono abbastanza piccoli da essere completamente assorbiti dalla cellula umana."
+    },
+    {
+      "title": "Qualità oltre la quantità",
+      "desc": "Un integratore è valido solo quanto la sua biodisponibilità, cioè la sua capacità di essere assorbito e utilizzato dal corpo.<span class=fw-600 highlight-text>Il sistema di consegna corretto consegna gli ingredienti al tuo corpo in un modo che il tuo corpo può assorbire e utilizzare.</span>"
+    }
+  ],
+  "how_to_use": {
+    "title": "Come assumere",
+    "steps": [
+      {
+        "caption": "Misura due (2) cucchiaini di prodotto. Un tappo = cucchiaino."
+      },
+      {
+        "caption": "Sciacquare in bocca per 30 secondi o più."
+      },
+      {
+        "caption": "A differenza del collutorio, puoi ingoiare Hers. Puoi anche sputarlo, se preferisci."
+      },
+      {
+        "caption": "Ripeti questi passaggi due volte al giorno. Sentiti libero di usare Hers più spesso, se lo desideri."
+      }
+    ]
+  },
+  "key_ingredients": {
+    "title": "Ingredienti chiave di Hers",
+    "ingredients": "<span class=fw-600>Ingredienti attivi:</span> ACQUA ULTRAPURA, B6, B12, SORBATO DI POTASSIO, BENZOATO DI SODIO, ESTRATTO DI MENTA.",
+    "item_list_desktop": [
+      {
+        "item": [
+          {
+            "item_name": "Damiana"
+          },
+          {
+            "item_name": "Radice di Dong Quai"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Zenzero"
+          },
+          {
+            "item_name": "Estratto di chasteberry"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Radice di Maca"
+          },
+          {
+            "item_name": "Cohosh nero"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Ashwagandha"
+          },
+          {
+            "item_name": "Radice di peonia bianca"
+          }
+        ]
+      }
+    ],
+    "items_list": [
+      {
+        "item_name": "Damiana"
+      },
+      {
+        "item_name": "Zenzero"
+      },
+      {
+        "item_name": "Radice di Maca"
+      },
+      {
+        "item_name": "Ashwagandha"
+      },
+      {
+        "item_name": "Radice di Dong Quai"
+      },
+      {
+        "item_name": "Estratto di chasteberry"
+      },
+      {
+        "item_name": "Cohosh nero"
+      },
+      {
+        "item_name": "Radice di peonia bianca"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Benefici del Glutatione",
+    "icon_class": "clr-primary",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "Sistema immunitario rafforzato",
+        "desc": "Il glutatione è in grado di neutralizzare i radicali liberi e proteggere il corpo dai loro effetti dannosi. Aiuta anche a ridurre l'infiammazione e supporta la capacità naturale del corpo di combattere le infezioni. Inoltre, gioca un ruolo nella sintesi di nuove cellule immunitarie, mantenendo il tuo sistema immunitario al massimo delle sue capacità."
+      },
+      {
+        "class": "",
+        "header": "Aumento dell'energia",
+        "desc": "Aiuta anche a ridurre l'infiammazione e supporta la capacità naturale del corpo di combattere le infezioni. Inoltre, gioca un ruolo nella sintesi di nuove cellule immunitarie, mantenendo il tuo sistema immunitario al massimo delle sue capacità."
+      },
+      {
+        "class": "",
+        "header": "Maggiore resistenza e durata",
+        "desc": "Aiuta anche a ridurre l'infiammazione e supporta la capacità naturale del corpo di combattere le infezioni. Inoltre, gioca un ruolo nella sintesi di nuove cellule immunitarie, mantenendo il tuo sistema immunitario al massimo delle sue capacità."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Un nuovo te inizia con Neumi",
+    "subscription_text": "Aggiungi all'abbonamento",
+    "purchase_text": "Acquisto una tantum"
+  },
+  "note_desc": "Le dichiarazioni fatte in questo sito web non sono state valutate dalla Food and Drug Administration. Queste dichiarazioni e i prodotti di questa azienda non sono destinati a diagnosticare, trattare, curare o prevenire alcuna malattia. Le opinioni e i consigli nutrizionali espressi da Neumi non sono destinati a fornire consulenza medica. Si prega di consultare sempre il proprio medico se si stanno assumendo farmaci o se si hanno condizioni mediche. I risultati individuali possono variare."
+}

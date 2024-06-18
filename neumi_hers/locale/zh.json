@@ -1,0 +1,216 @@
+{
+  "title": "Hers",
+  "product_title": "Hers",
+  "total_product_review": "7条评论",
+  "product_desc":  "<span class=fw-600>专为女性精心设计的高级营养补充剂，</span>采用突破性的Hydrastat Nano技术，确保最佳吸收效果。",
+  "select_quantity_text": "选择数量",
+  "all_product_text": "所有产品",
+  "add_to_cart_text": "加入购物车",
+  "language": "",
+  "subscribe": {
+    "subscribe_text": "订阅",
+    "frequency_text": "选择频率",
+    "checklist_items": [
+      {
+        "caption": "订阅并节省<span id='pricing'>$15</span>"
+      },
+      {
+        "caption": "赚取Neumi奖励积分"
+      },
+      {
+        "caption": "30天退款保证"
+      },
+      {
+        "caption": "随时更新您的订阅"
+      }
+    ],
+    "one_time_purchase_text": "一次性购买"
+  },
+  "free_shipping_desc": "美国境内订单满$200免运费",
+  "benefits": {
+    "title": "好处",
+    "items": [
+      {
+        "caption": "关键成分，每天平衡和支持您的激素健康。"
+      },
+      {
+        "caption": "适合人生每个阶段——活跃的月经期、前/后更年期"
+      },
+      {
+        "caption": "在食用后仅20分钟内显著缓解潮热或痉挛"
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "如见于"
+  },
+  "tab": {
+    "title": "看看Hers如何改变生活",
+    "video_review_title": "视频评论<span>(5)</span>",
+    "written_review_title": "书面评论<span>(2)</span>",
+    "rating_text": "五星评级",
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "盐湖城，犹他州",
+        "time": "2小时前",
+        "review_text": "Hers对我来说是一个改变游戏规则的产品！我已经使用了几个月，我的能量水平和整体活力有了显著的改善。令人惊讶的是，这么简单的东西可以有如此深远的效果。强烈推荐！"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "Laie，夏威夷",
+        "time": "2小时前",
+        "review_text": "我多年一直在努力保持激素平衡，但Hers改变了很多。不仅让我感觉更加平衡和充满活力，我还注意到皮肤和肌肉的改善。真是不可思议！"
+      }
+    ]
+  },
+  "product_benefits": {
+    "title": "使用Hers的好处",
+    "desc": "<span class='fw-600'>每个女性都知道周期和激素变化带来的不便。</span>通过我们的HydraStat™纳米技术体验快速效果。我们的纳米级成分，包裹在水团中，小到足以被人体细胞完全吸收，正是您需要的！",
+    "alt_text": "hers产品",
+    "items": [
+      {
+        "title": "值得信赖的成分",
+        "desc": "Hers使用我们的HydraStat™纳米递送系统，最大限度地提高以下成分的吸收和效果：白芍药提取物、圣洁果、当归、玛卡根、印度人参和其他营养成分。"
+      },
+      {
+        "title": "您可以信赖的结果",
+        "desc": "我们进行了双盲临床试验，80%的参与者，从活跃的月经期到更年期后，都看到了他们症状的显著改善。尤其是一些经历潮热或痉挛的人，在食用后仅20分钟内就报告了显著的缓解。"
+      },
+      {
+        "title": "适合人生每个阶段",
+        "desc": "Hers是为所有女性设计的，适合人生的每个阶段。我们的植物配方中的每一种成分都经过精心挑选，以创造一个全面的好处混合物。使用Hers，每个女性都能繁荣。"
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "创新科学",
+      "desc": "谷胱甘肽是细胞的保护者和解毒剂。<span class=fw-600 highlight-text>它是每个人类细胞的生命、健康、表现、保护和长寿的关键。</span>"
+    },
+    {
+      "title": "HydraStat™纳米技术",
+      "desc": "<span class=fw-600>由超纯水团保护的纳米级颗粒。</span>我们的纳米级成分小到足以完全被人体细胞吸收。"
+    },
+    {
+      "title": "质量胜于数量",
+      "desc": "一种补充剂的好坏在于其生物利用度，即被身体吸收和使用的能力。<span class=fw-600 highlight-text>正确的递送系统以一种您的身体可以吸收和使用的方式将成分递送到您的身体。</span>"
+    }
+  ],
+  "how_to_use": {
+    "title": "如何摄取",
+    "steps": [
+      {
+        "caption": "量取两（2）茶匙的产品。一瓶盖=茶匙。"
+      },
+      {
+        "caption": "在嘴里漱口30秒或更长时间。"
+      },
+      {
+        "caption": "与漱口水不同，您可以吞下Hers。如果愿意，也可以吐出来。"
+      },
+      {
+        "caption": "每天重复这些步骤两次。如果需要，可以更频繁地使用Hers。"
+      }
+    ]
+  },
+  "key_ingredients": {
+    "title": "Hers的主要成分",
+    "ingredients": "<span class=fw-600>活性成分：</span>超纯水、B6、B12、山梨酸钾、苯甲酸钠、薄荷提取物。",
+    "item_list_desktop": [
+      {
+        "item": [
+          {
+            "item_name": "达米阿娜"
+          },
+          {
+            "item_name": "当归根"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "姜"
+          },
+          {
+            "item_name": "圣洁果提取物"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "玛卡根"
+          },
+          {
+            "item_name": "黑升麻"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "印度人参"
+          },
+          {
+            "item_name": "白芍药根"
+          }
+        ]
+      }
+    ],
+    "items_list": [
+      {
+        "item_name": "达米阿娜"
+      },
+      {
+        "item_name": "姜"
+      },
+      {
+        "item_name": "玛卡根"
+      },
+      {
+        "item_name": "印度人参"
+      },
+      {
+        "item_name": "当归根"
+      },
+      {
+        "item_name": "圣洁果提取物"
+      },
+      {
+        "item_name": "黑升麻"
+      },
+      {
+        "item_name": "白芍药根"
+      }
+    ]
+  },
+  "faq": {
+    "title": "谷胱甘肽的好处",
+    "icon_class": "clr-primary",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "增强免疫系统",
+        "desc": "谷胱甘肽能够中和自由基，保护身体免受其有害影响。它还帮助减少炎症，并支持身体自然对抗感染的能力。此外，它在合成新的免疫细胞中起作用，使您的免疫系统能够最佳地工作。"
+      },
+      {
+        "class": "",
+        "header": "增加能量",
+        "desc": "它还帮助减少炎症，并支持身体自然对抗感染的能力。此外，它在合成新的免疫细胞中起作用，使您的免疫系统能够最佳地工作。"
+      },
+      {
+        "class": "",
+        "header": "增强耐力和持久力",
+        "desc": "它还帮助减少炎症，并支持身体自然对抗感染的能力。此外，它在合成新的免疫细胞中起作用，使您的免疫系统能够最佳地工作。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "新的你从Neumi开始",
+    "subscription_text": "加入订阅",
+    "purchase_text": "一次性购买"
+  },
+  "note_desc": "本网站内所做的陈述未经美国食品药品监督管理局评估。这些陈述和本公司产品不旨在诊断、治疗、治愈或预防任何疾病。Neumi表达的观点和营养建议不旨在提供医疗建议。如果您正在服用任何药物或有任何医疗状况，请始终咨询您的医疗保健提供者。个人结果可能有所不同。"
+}

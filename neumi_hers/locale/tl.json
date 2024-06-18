@@ -1,0 +1,219 @@
+{
+  "title": "Hers",
+  "product_title": "Hers",
+  "total_product_review": "7 Mga Review",
+  "product_desc": "<span class=fw-600>Isang premium na pandagdag sa nutrisyon na maingat na idinisenyo para sa mga kababaihan, </span> na nagtatampok ng makabagong Teknolohiya ng Hydrastat Nano para sa pinakamainam na pagsipsip.",
+  "select_quantity_text": "Piliin ang Dami",
+  "all_product_text": "Lahat ng Produkto",
+  "add_to_cart_text": "Idagdag sa Cart",
+  "language": "",
+  "subscribe": {
+    "subscribe_text":"Mag-subscribe",
+    "frequency_text": "Piliin ang Dalas",
+    "checklist_items":[
+      {
+        "caption": "Mag-subscribe at makatipid <span id='pricing'>$15</span>"
+      },
+      {
+        "caption": "Kumita ng Mga Puntos ng Gantimpala ng Neumi"
+      },
+      {
+        "caption": "30-araw na garantiyang ibabalik ang pera"
+      },
+      {
+        "caption": "I-update ang iyong subscription anumang oras"
+      }
+    ],
+    "one_time_purchase_text":"Isang beses na pagbili"
+  },
+  "free_shipping_desc": "Libreng pagpapadala sa U.S. para sa mga order na higit sa $200+",
+  "benefits":{
+    "title": "Mga Benepisyo",
+    "items":[
+      {
+        "caption":"Mga pangunahing sangkap upang balansehin at suportahan ang kalusugan ng iyong hormone araw-araw."
+      },
+      {
+        "caption":"Para sa bawat yugto ng buhay–aktibong regla, bago/aktibo/pagkatapos ng menopause"
+      },
+      {
+        "caption": "Makabuluhang pagtaas ng kaginhawahan ng hot flashes o pulikat sa loob lamang ng 20 minuto ng pagkonsumo"
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Nakita sa"
+  },
+
+  "tab":{
+    "title": "Tingnan kung paano binabago ng Hers ang mga buhay",
+    "video_review_title": "Mga Review ng Video <span>(5)</span>",
+    "written_review_title": "Mga Review sa Pagsusulat <span>(2)</span>",
+    "rating_text": "5 Bituin na Pagraranggo",
+    "review_list": [
+      {
+          "reviewer": "Aidan D..",
+          "address": "Salt Lake City, UT",
+          "time": "2 oras na ang nakalipas",
+          "review_text": "Ang Hers ay naging isang malaking pagbabago para sa akin! Ilang buwan ko na itong ginagamit at napansin ko ang malaking pagtaas ng aking mga antas ng enerhiya at pangkalahatang sigla. Kamangha-mangha kung paano ang isang simpleng bagay ay maaaring magdala ng napakalalim na mga epekto. Lubos kong inirerekumenda!"
+      },
+      {
+          "reviewer": "Lola P..",
+          "address": "Laie, HI",
+          "time": "2 oras na ang nakalipas",
+          "review_text": "Ilang taon na akong nahihirapan sa pagpapanatili ng balanse ng hormone, ngunit ang Hers ay nagdala ng malaking pagkakaiba. Hindi lamang ako nakakaramdam ng mas balanse at energized, ngunit napansin ko rin ang mga pagpapabuti sa aking tono ng balat at kalamnan. Talagang kahanga-hanga ito!"
+      }
+    ]
+  },
+  "product_benefits":{
+    "title": "Mga Benepisyo ng paggamit ng Hers",
+    "desc": "<span class='fw-600'>Alam ng bawat babae ang mga abala na maaaring dalhin ng mga siklo at pagbabago ng hormone sa buhay.</span> Maranasan ang mabilis na mga resulta sa pamamagitan ng aming HydraStat™ Nanotechnology. Ang aming mga sangkap na nano-sized, na nakabalot sa mga kumpol ng tubig, ay sapat na maliit upang ganap na masipsip ng selula ng tao, kung saan mo talaga kailangan sila!",
+    "alt_text": "hers product",
+    "items": [
+      {
+        "title": "Mga Sangkap na Maaasahan Mo",
+        "desc": "Ginagamit ng Hers ang aming sistema ng paghahatid ng nano HydraStat™ upang mapakinabangan ang pagsipsip at bisa ng mga sumusunod na sangkap: white peony extract, chaste berry, dong quai, maca root, ashwagandha, at iba pang mga sustansya."
+      },
+      {
+        "title": "Mga Resulta na Maaasahan Mo",
+        "desc": "Nagsagawa kami ng isang double-blind clinical trial, at 80% ng mga kalahok, mula sa aktibong regla hanggang sa post-menopause, ay nakakita ng makabuluhang pagtaas ng kanilang mga sintomas. Partikular, ang ilan na nakakaranas ng hot flashes o pulikat ay nag-ulat ng makabuluhang kaginhawahan sa loob lamang ng 20 minuto ng pagkonsumo."
+      },
+      {
+        "title": "Para sa Bawat Yugto ng Buhay",
+        "desc": "Ang Hers ay idinisenyo para sa lahat ng mga babae, sa bawat yugto ng buhay. Ang bawat sangkap sa aming botanical formula ay maingat na pinili upang lumikha ng isang mahusay na bilugan na halo ng mga benepisyo. Sa Hers, ang bawat babae ay maaaring umunlad."
+      }
+    ]
+  },
+  "product_post_list":[
+    {
+      "title": "Makabagong agham",
+      "desc": "Ang Glutathione ay ang tagapangalaga at detoxifier ng selula.<span class=fw-600 highlight-text> Ito ang susi sa buhay, kalusugan, pagganap, proteksyon, at kahabaan ng buhay ng bawat selula ng tao.</span>"
+    },
+    {
+      "title": "Teknolohiya ng nano HydraStat™",
+      "desc": "<span class=fw-600>Mga partikel na nano na protektado ng mga kumpol ng tubig na ultra-pure.</span> Ang aming mga sangkap na nano-sized ay sapat na maliit upang ganap na masipsip sa selula ng tao."
+    },
+    {
+      "title": "Kalidad sa dami",
+      "desc": " Ang isang suplemento ay kasing ganda lamang ng bioavailability nito, na kakayahang ma-absorb at magamit ng katawan.<span class=fw-600 highlight-text> Ang tamang sistema ng paghahatid ay naghahatid ng mga sangkap sa iyong katawan sa paraang maaring ma-absorb at magamit ng iyong katawan.</span>"
+    }
+  ],
+
+  "how_to_use":{
+    "title": "Paano gamitin",
+    "steps": [
+      {
+        "caption": "Sukatin ang dalawang (2) kutsarita ng produkto. Isang takip = kutsarita."
+      },
+      {
+        "caption": "Magmumog sa iyong bibig ng 30 segundo o higit pa."
+      },
+      {
+        "caption": "Hindi tulad ng pangmumog, maaari mong lunukin ang Hers. Maaari mo rin itong iluwa kung gusto mo."
+      },
+      {
+        "caption": "Ulitin ang mga hakbang na ito dalawang beses sa isang araw. Huwag mag-atubiling gamitin ang Hers nang mas madalas, kung nais."
+      }
+    ]
+  },
+  "key_ingredients":{
+    "title": "Pangunahing sangkap ng Hers",
+    "ingredients": "<span class=fw-600>Mga Aktibong Sangkap:</span> ULTRA-PURE WATER, B6, B12, POTASSIUM SORBATE, SODIUM BENZOATE, SPEARMINT EXTRACT.",
+    "item_list_desktop":[
+      {
+        "item":[
+          {
+            "item_name": "Damiana"
+          },
+          {
+            "item_name": "Akar Dong Quai"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "Luya"
+          },
+          {
+            "item_name": "Ekstrak Chasteberry"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "Ugat ng Maca"
+          },
+          {
+            "item_name": "Black Cohosh"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "Ashwagandha"
+          },
+          {
+            "item_name": "Ugat ng Peony White"
+          }
+        ]
+      }
+    ],
+    "items_list":[
+      {
+        "item_name": "Damiana"
+      },
+      {
+        "item_name": "Luya"
+      },
+      {
+        "item_name": "Ugat ng Maca"
+      },
+      {
+        "item_name": "Ashwagandha"
+      },
+      {
+        "item_name": "Akar Dong Quai"
+      },
+      {
+        "item_name": "Ekstrak Chasteberry"
+      },
+      {
+        "item_name": "Black Cohosh"
+      },
+      {
+        "item_name": "Ugat ng Peony White"
+      }
+    ]
+  },
+  "faq":{
+    "title": "Mga Benepisyo ng Glutathione",
+    "icon_class": "clr-primary",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "Pinatibay na Sistema ng Imyunidad",
+        "desc": "Ang Glutathione ay may kakayahang gawing neutral ang mga free radicals at protektahan ang katawan mula sa kanilang mga nakakapinsalang epekto. Tumutulong din ito sa pagbawas ng pamamaga, at sinusuportahan ang likas na kakayahan ng katawan na labanan ang impeksiyon. Bukod dito, ito ay may papel sa pagsintesis ng mga bagong selula ng imyunidad, na pinapanatiling nasa pinakamahusay na kondisyon ang iyong sistema ng imyunidad."
+      },
+      {
+        "class": "",
+        "header": "Tumaas na Enerhiya",
+        "desc": "Tumutulong din ito sa pagbawas ng pamamaga, at sinusuportahan ang likas na kakayahan ng katawan na labanan ang impeksiyon. Bukod dito, ito ay may papel sa pagsintesis ng mga bagong selula ng imyunidad, na pinapanatiling nasa pinakamahusay na kondisyon ang iyong sistema ng imyunidad."
+      },
+      {
+        "class": "",
+        "header": "Pinahusay na Tiyaga at Endurance",
+        "desc": "Tumutulong din ito sa pagbawas ng pamamaga, at sinusuportahan ang likas na kakayahan ng katawan na labanan ang impeksiyon. Bukod dito, ito ay may papel sa pagsintesis ng mga bagong selula ng imyunidad, na pinapanatiling nasa pinakamahusay na kondisyon ang iyong sistema ng imyunidad."
+      }
+    ]
+  },
+  "cta":{
+    "title": "Ang bagong ikaw ay nagsisimula sa Neumi",
+    "subscription_text": "Idagdag sa subscription",
+    "purchase_text": "Isang beses na pagbili"
+  },
+  "note_desc": "Ang mga pahayag na ginawa sa loob ng website na ito ay hindi pa nasuri ng Food and Drug Administration. Ang mga pahayag na ito at ang mga produkto ng kumpanyang ito ay hindi nilayon na mag-diagnose, magpagaling, magpagaling o mag-iwas ng anumang sakit. Ang mga pananaw at payo sa nutrisyon na ipinahayag ng Neumi ay hindi nilalayon para sa layunin ng pagbibigay ng medikal na payo. Palaging kumunsulta sa iyong tagapagbigay ng pangangalaga sa kalusugan kung ikaw ay umiinom ng anumang gamot o may anumang kondisyong medikal. Ang mga indibidwal na resulta ay maaaring mag-iba."
+}
+
