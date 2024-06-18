@@ -1,0 +1,214 @@
+{
+  "title": "Neuro",
+  "product_title": "Neuro",
+  "total_product_review": "7 条评价",
+  "product_desc": "介绍Neuro,<span class=\"fw-600\">我们突破性的纳米大脑配方，旨在优化认知功能，增强注意力，并支持整体大脑健康。</span> 使用与NutriSwish相同的先进HydraStat纳米技术，Neuro确保其精心挑选的成分最大限度地吸收和效果。",
+  "add_to_cart_text": "加入购物车",
+  "select_quantity_text": "选择数量",
+  "all_product_text": "所有产品",
+  "subscribe": {
+    "subscribe_text": "订阅",
+    "frequency_text": "选择频率",
+    "actual_price": "65.00",
+    "discounted_price": "50.00",
+    "checklist_items": [
+      {
+        "caption": "订阅并节省<span id='saving'>$15</span>"
+      },
+      {
+        "caption": "赚取Neumi奖励积分"
+      },
+      {
+        "caption": "30天退款保证"
+      },
+      {
+        "caption": "随时更新您的订阅"
+      }
+    ],
+    "one_time_purchase_text": "一次性购买"
+  },
+  "free_shipping_desc": "美国境内订单满$200免费配送",
+  "benefits": {
+    "title": "好处",
+    "items": [
+      {
+        "caption": "关键成分每日最大化吸收和效果。"
+      },
+      {
+        "caption": "每批次都经过严格的第三方测试，以确保对纯度和安全性的承诺。"
+      },
+      {
+        "caption": "我们提供30天无理由退款保证。"
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "见于"
+  },
+  "tab": {
+    "title": "看看Neuro如何改变生活",
+    "video_review_title": "视频评价<span>(5)</span>",
+    "written_review_title": "书面评价<span>(2)</span>",
+    "rating_text": "五星评级",
+    "review_list": [
+      {
+        "reviewer": "艾登·D.",
+        "address": "犹他州盐湖城",
+        "time": "2小时前",
+        "review_text": "Neuro对我来说是一个游戏规则的改变者！我已经使用了几个月，现在明显感觉到我的能量水平和整体活力有了显著改善。令人惊讶的是，像这样简单的东西竟然会有如此深远的影响。强烈推荐！"
+      },
+      {
+        "reviewer": "萝拉·P.",
+        "address": "夏威夷州拉耶",
+        "time": "2小时前",
+        "review_text": "我多年来一直在努力保持激素平衡，但Neuro带来了巨大的变化。我不仅感觉更加平衡和充满活力，而且还注意到我的皮肤和肌肉张力有了改善。这真是令人难以置信！"
+      }
+    ]
+  },
+  "product_benefits": {
+    "title": "体验Neuro的变革性好处",
+    "desc": "释放您的认知潜力，实现最佳心理表现，使用Neuro的强大混合物。无论您是需要<span class='fw-600'>增强注意力，提升心理能量，还是支持长期大脑健康，</span>Neuro都是您的终极盟友。",
+    "alt_text": "Neuro产品",
+    "items_left": [
+      {
+        "title": "持续释放",
+        "desc": "口服给药允许更一致和持续地将谷胱甘肽释放到血液中。"
+      },
+      {
+        "title": "增强生物利用度",
+        "desc": "纳米级谷胱甘肽颗粒意味着更大比例的谷胱甘肽被利用，最大化其抗氧化益处。"
+      }
+    ],
+    "items_right": [
+      {
+        "title": "便利性",
+        "desc": "与更具侵入性和耗时的静脉注射治疗相比，无与伦比的便利性。"
+      },
+      {
+        "title": "成本效益",
+        "desc": "相比常规的静脉注射谷胱甘肽治疗，更具成本效益的替代方案。消除频繁的诊所访问需求，降低整体成本。"
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "创新科学",
+      "desc": "谷胱甘肽是细胞的保护者和解毒剂。<span class='fw-600'>它是每个人类细胞生命、健康、性能、保护和长寿的关键。</span>"
+    },
+    {
+      "title": "HydraStat™纳米技术",
+      "desc": "<span class='fw-600'>纳米级颗粒由超纯水簇保护。</span>我们的纳米级成分足够小，能够完全被人类细胞吸收。"
+    },
+    {
+      "title": "纯度和质量",
+      "desc": "Neuro经过严格的第三方测试，以确保其符合最高的纯度和质量标准。我们对我们的产品提供30天的退款保证，确信其能够提供显著的健康益处。"
+    }
+  ],
+  "key_ingredients": {
+    "title": "Neuro中的关键成分",
+    "ingredients": "<span class='fw-600 is-uppercase'>其他关键成分:</span> <span class='is-uppercase'>咖啡因, 葡萄糖酸镁, Alpha GPC, 乙酰左旋肉碱, MSM, 磷酸吡哆醛。*图片显示了活性成分存在的植物/食物，并不一定是提取来源。</span>",
+    "item_list_desktop": [
+      {
+        "item": [
+          {
+            "item_name": "L-谷胱甘肽*"
+          },
+          {
+            "item_name": "抗坏血酸钙*"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "磷脂酰丝氨酸*"
+          },
+          {
+            "item_name": "姜黄素"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "L-茶氨酸*"
+          },
+          {
+            "item_name": "L-半胱氨酸*"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "精氨酸*"
+          },
+          {
+            "item_name": "银杏叶提取物"
+          }
+        ]
+      }
+    ],
+    "items_list": [
+      {
+        "item_name": "L-谷胱甘肽*"
+      },
+      {
+        "item_name": "磷脂酰丝氨酸*"
+      },
+      {
+        "item_name": "L-茶氨酸*"
+      },
+      {
+        "item_name": "精氨酸*"
+      },
+      {
+        "item_name": "抗坏血酸钙*"
+      },
+      {
+        "item_name": "姜黄素"
+      },
+      {
+        "item_name": "L-半胱氨酸*"
+      },
+      {
+        "item_name": "银杏叶提取物"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "使用说明",
+    "desc": "为了体验全面的好处，将推荐剂量的Neuro在口中漱30秒钟然后吞咽。此方法确保纳米配方成分的最佳吸收。"
+  },
+  "faq": {
+    "title": "谷胱甘肽的好处",
+    "items": [
+      {
+        "header": "增强免疫系统",
+        "desc": "谷胱甘肽能够中和自由基并保护身体免受其有害影响。它还帮助减少炎症，并支持身体的自然抗感染能力。此外，它在新免疫细胞的合成中发挥作用，使您的免疫系统保持最佳状态。"
+      },
+      {
+        "header": "增加能量"
+      },
+      {
+        "header": "增强耐力和持久力"
+      },
+      {
+        "header": "改善运动恢复时间"
+      },
+      {
+        "header": "提高心理清晰度和专注力"
+      },
+      {
+        "header": "提高生活质量和寿命"
+      }
+    ]
+  },
+  "cta": {
+    "title": "全新的你从Neumi开始",
+    "desc": "释放您的认知能力，并通过Neuro达到最佳心理表现，Neuro是您每日脑健康的瓶装剂量。",
+    "subscription_text": "添加到订阅",
+    "purchase_text": "一次性购买"
+  },
+  "note_desc": "本网站内的陈述未经食品药品监督管理局评估。这些陈述和本公司产品无意诊断、治疗、治愈或预防任何疾病。Neumi表达的观点和营养建议无意提供医疗建议。如果您正在服用任何药物或有任何医疗状况，请务必咨询您的医疗保健提供者。个体结果可能会有所不同。"
+}
