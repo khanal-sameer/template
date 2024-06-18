@@ -1,120 +1,70 @@
 {
   "title": "Neumi Shop oldal",
   "shop_product_button_text": "Vásárolja meg termékeinket",
-  "shop_product_url": "#",
   "language": "hu",
   "hero_section":{
     "title": "Neumi Termékek",
-    "desc": "Az élet jobb, ha a legjobban nézel ki és érzed magad.",
-    "image": "https://cdn.fluid.app/neumi/shop/images/banner_bg.jpeg"
+    "desc": "Az élet jobb, ha a legjobban nézel ki és érzed magad."
   },
   "asSeenOn": {
-    "title": "Látható volt",
-    "items": [
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_2.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_3.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_5.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
-      }
-    ]
+    "title": "Látható volt"
   },
   "product_list":{
     "title": "Egyedi palackok",
     "items":[
       {
         "product_name": "NutriSwish",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/nutriswish?preview=true",
-        "product_id":"9474"
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
       },
       {
         "product_name": "Neumi Skin",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neumi-skin?preview=true",
-        "product_id":"9467"
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
       },
       {
         "product_name": "Hers",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/hers?preview=true",
-        "product_id":"9410"
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
       },
       {
         "product_name": "Neuro",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neuro.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neuro?preview=true",
-        "product_id":""
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
       }
     ]
   },
   "product_bundle":{
     "title": "Csomagok",
     "product_name": "Neumi OG Csomag",
-    "price":"260.00",
-    "image": "https://cdn.fluid.app/neumi/shop/images/bundle.png",
     "url": ""
   },
   "multiple_product":{
     "items":[
-
       {
-        "price":"130",
         "product_name": "Hers Essential Csomag Neumi Skin-nel",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_neumiskin_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "Hers Essential Csomag NutriSwish-sel",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_nutriswish_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "Neumi Skin Essential Csomag",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "NutriSwish Essential Csomag",
-        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "Klasszikus Essential Csomag",
-        "image": "https://cdn.fluid.app/neumi/shop/images/classic_essential.png",
         "url": ""
       },
       {
-        "price":"260",
         "product_name": "Hers Premium Csomag",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_premium.png",
         "url": ""
       }
     ]
   },
   "cta": {
-    "title": "Egy új te kezdődik a Neumi-val.",
-    "image": "https://cdn.fluid.app/neumi/shop/images/cta_bg.jpg"
+    "title": "Egy új te kezdődik a Neumi-val."
   },
   "note_desc": "A weboldalon szereplő állításokat az Élelmiszer- és Gyógyszerügyi Hatóság nem értékelte. Ezek az állítások és a cég termékei nem alkalmasak betegségek diagnosztizálására, kezelésére, gyógyítására vagy megelőzésére. A Neumi által kifejtett nézetek és táplálkozási tanácsok nem szolgálnak orvosi tanácsadás céljából. Kérjük, mindig konzultáljon egészségügyi szolgáltatójával, ha bármilyen gyógyszert szed, vagy bármilyen egészségügyi állapota van. Az egyéni eredmények változhatnak."
 }

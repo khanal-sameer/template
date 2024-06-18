@@ -1,119 +1,70 @@
 {
   "title": "Neumi商店页面",
   "shop_product_button_text": "购买我们的产品",
-  "shop_product_url": "#",
   "language": "zh-Hans",
   "hero_section":{
     "title": "Neumi产品",
-    "desc": "当您看起来和感觉最好时，生活就更美好。",
-    "image": "https://cdn.fluid.app/neumi/shop/images/banner_bg.jpeg"
+    "desc": "当您看起来和感觉最好时，生活就更美好。"
   },
   "asSeenOn": {
-    "title": "如何看待",
-    "items": [
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_2.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_3.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_5.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
-      }
-    ]
+    "title": "如何看待"
   },
   "product_list":{
     "title": "单品",
     "items":[
       {
-        "price":"65.00",
         "product_name": "NutriSwish",
-        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/nutriswish?preview=true",
-        "product_id":"9474"
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
       },
       {
-        "price":"65.00",
         "product_name": "Neumi Skin",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neumi-skin?preview=true",
-        "product_id":"9467"
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
       },
       {
-        "price":"65.00",
         "product_name": "Hers",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/hers?preview=true",
-        "product_id":"9410"
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
       },
       {
-        "price":"65.00",
         "product_name": "Neuro",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neuro.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neuro?preview=true",
-        "product_id":""
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
       }
     ]
   },
   "product_bundle":{
     "title": "套餐",
     "product_name": "Neumi经典套装",
-    "price":"260.00",
-    "image": "https://cdn.fluid.app/neumi/shop/images/bundle.png",
     "url": ""
   },
   "multiple_product":{
     "items":[
       {
-        "price":"130",
         "product_name": "Hers基础套装附Neumi Skin",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_neumiskin_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "Hers基础套装附NutriSwish",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_nutriswish_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "Neumi Skin基础套装",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "NutriSwish基础套装",
-        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "经典基础套装",
-        "image": "https://cdn.fluid.app/neumi/shop/images/classic_essential.png",
         "url": ""
       },
       {
-        "price":"260",
         "product_name": "Hers高级套装",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_premium.png",
         "url": ""
       }
     ]
   },
   "cta":{
-    "title": "全新的自己从Neumi开始。",
-    "image": "https://cdn.fluid.app/neumi/shop/images/cta_bg.jpg"
+    "title": "全新的自己从Neumi开始。"
   },
   "note_desc": "本网站中的声明未经食品和药物管理局评估。本公司的声明和产品不旨在诊断、治疗、治愈或预防任何疾病。Neumi表达的观点和营养建议并非旨在提供医疗建议。如果您正在服用任何药物或有任何健康问题，请务必咨询您的医疗保健提供者。个体结果可能有所不同。"
 }

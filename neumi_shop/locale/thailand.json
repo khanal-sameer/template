@@ -1,119 +1,70 @@
 {
   "title": "หน้าร้าน Neumi",
   "shop_product_button_text": "ช็อปสินค้าของเรา",
-  "shop_product_url": "#",
   "language": "th",
   "hero_section":{
     "title": "ผลิตภัณฑ์ Neumi",
-    "desc": "ชีวิตดีขึ้นเมื่อคุณดูแลตัวเองให้ดีและรู้สึกดี",
-    "image": "https://cdn.fluid.app/neumi/shop/images/banner_bg.jpeg"
+    "desc": "ชีวิตดีขึ้นเมื่อคุณดูแลตัวเองให้ดีและรู้สึกดี"
   },
   "asSeenOn": {
-    "title": "เห็นได้ใน",
-    "items": [
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_2.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_3.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_5.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
-      }
-    ]
+    "title": "เห็นได้ใน"
   },
   "product_list":{
     "title": "ขวดเดี่ยว",
     "items":[
       {
         "product_name": "NutriSwish",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/nutriswish?preview=true",
-        "product_id":"9474"
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
       },
       {
         "product_name": "Neumi Skin",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neumi-skin?preview=true",
-        "product_id":"9467"
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
       },
       {
         "product_name": "Hers",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/hers?preview=true",
-        "product_id":"9410"
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
       },
       {
         "product_name": "Neuro",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neuro.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neuro?preview=true",
-        "product_id":""
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
       }
     ]
   },
   "product_bundle":{
     "title": "ชุดสินค้า",
     "product_name": "ชุด Neumi OG",
-    "price":"260.00",
-    "image": "https://cdn.fluid.app/neumi/shop/images/bundle.png",
     "url": ""
   },
   "multiple_product":{
     "items":[
       {
-        "price":"130",
         "product_name": "ชุด Hers Essential Pack พร้อม Neumi Skin",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_neumiskin_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "ชุด Hers Essential Pack พร้อม NutriSwish",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_nutriswish_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "ชุด Neumi Skin Essential Pack",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "ชุด NutriSwish Essential Pack",
-        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "ชุด Classic Essential Pack",
-        "image": "https://cdn.fluid.app/neumi/shop/images/classic_essential.png",
         "url": ""
       },
       {
-        "price":"260",
         "product_name": "ชุด Hers Premium Pack",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_premium.png",
         "url": ""
       }
     ]
   },
   "cta":{
-    "title": "การเริ่มต้นความเป็นคุณใหม่เริ่มต้นที่ Neumi",
-    "image": "https://cdn.fluid.app/neumi/shop/images/cta_bg.jpg"
+    "title": "การเริ่มต้นความเป็นคุณใหม่เริ่มต้นที่ Neumi"
   },
   "note_desc": "ข้อความที่แสดงในเว็บไซต์นี้ยังไม่ได้รับการตรวจสอบโดยองค์การอาหารและยา ข้อความเหล่านี้และผลิตภัณฑ์ของบริษัทนี้ไม่ได้มีวัตถุประสงค์ในการวินิจฉัย รักษา บรรเทา หรือป้องกันโรคใด ๆ มุมมองและคำแนะนำทางโภชนาการที่แสดงโดย Neumi ไม่ได้มีจุดประสงค์เพื่อให้คำปรึกษาทางการแพทย์ กรุณาปรึกษาแพทย์ผู้เชี่ยวชาญเสมอหากคุณกำลังทานยาหรือมีภาวะทางการแพทย์ใด ๆ ผลลัพธ์ของแต่ละบุคคลอาจแตกต่างกันไป"
 }

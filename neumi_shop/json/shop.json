@@ -1,7 +1,6 @@
 {
   "title": "Neumi Shop page",
   "shop_product_button_text": "Shop our products",
-  "language":"en",
   "hero_section":{
     "title": "Neumi Products",
     "desc": "Life is better when you look and feel your best."
@@ -13,53 +12,43 @@
     "title": "Single bottles",
     "items":[
       {
-        "product_name": "NutriSwish",
-        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+        "product_name": "NutriSwish"
       },
       {
-        "product_name": "Neumi Skin",
-        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+        "product_name": "Neumi Skin"
       },
       {
-        "product_name": "Hers",
-        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+        "product_name": "Hers"
       },
       {
-        "product_name": "Neuro",
-        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+        "product_name": "Neuro"
       }
     ]
   },
   "product_bundle":{
     "title": "Bundles",
-    "product_name": "Neumi OG Pack",
-    "url": ""
+    "product_name": "Neumi OG Pack"
   },
   "multiple_product":{
     "items":[
+
       {
-        "product_name": "Hers Essential Pack w/ Neumi Skin",
-        "url": ""
+        "product_name": "Hers Essential Pack w/ Neumi Skin"
       },
       {
-        "product_name": "Hers Essential Pack w/ NutriSwish",
-        "url": ""
+        "product_name": "Hers Essential Pack w/ NutriSwish"
       },
       {
-        "product_name": "Neumi Skin Essential Pack",
-        "url": ""
+        "product_name": "Neumi Skin Essential Pack"
       },
       {
-        "product_name": "NutriSwish Essential Pack",
-        "url": ""
+        "product_name": "NutriSwish Essential Pack"
       },
       {
-        "product_name": "Classic Essential Pack",
-        "url": ""
+        "product_name": "Classic Essential Pack"
       },
       {
-        "product_name": "Hers Premium Pack",
-        "url": ""
+        "product_name": "Hers Premium Pack"
       }
     ]
   },

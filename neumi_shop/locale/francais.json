@@ -1,119 +1,70 @@
 {
   "title": "Page du magasin Neumi",
   "shop_product_button_text": "Achetez nos produits",
-  "shop_product_url": "#",
   "language": "fr",
   "hero_section":{
     "title": "Produits Neumi",
-    "desc": "La vie est meilleure quand vous vous regardez et vous vous sentez au meilleur de vous-même.",
-    "image": "https://cdn.fluid.app/neumi/shop/images/banner_bg.jpeg"
+    "desc": "La vie est meilleure quand vous vous regardez et vous vous sentez au meilleur de vous-même."
   },
   "asSeenOn": {
-    "title": "Vu sur",
-    "items": [
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_2.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_3.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_5.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
-      }
-    ]
+    "title": "Vu sur"
   },
   "product_list":{
     "title": "Bouteilles individuelles",
     "items":[
       {
         "product_name": "NutriSwish",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/nutriswish?preview=true",
-        "product_id":"9474"
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
       },
       {
         "product_name": "Neumi Skin",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neumi-skin?preview=true",
-        "product_id":"9467"
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
       },
       {
         "product_name": "Hers",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/hers?preview=true",
-        "product_id":"9410"
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
       },
       {
         "product_name": "Neuro",
-        "price":"65.00",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neuro.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neuro?preview=true",
-        "product_id":""
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
       }
     ]
   },
   "product_bundle":{
     "title": "Paquets",
     "product_name": "Pack Neumi OG",
-    "price":"260.00",
-    "image": "https://cdn.fluid.app/neumi/shop/images/bundle.png",
     "url": ""
   },
   "multiple_product":{
     "items":[
       {
-        "price":"130",
         "product_name": "Pack Essentiel Hers avec Neumi Skin",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_neumiskin_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "Pack Essentiel Hers avec NutriSwish",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_nutriswish_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "Pack Essentiel Neumi Skin",
-        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "Pack Essentiel NutriSwish",
-        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish_essential.png",
         "url": ""
       },
       {
-        "price":"130",
         "product_name": "Pack Essentiel Classique",
-        "image": "https://cdn.fluid.app/neumi/shop/images/classic_essential.png",
         "url": ""
       },
       {
-        "price":"260",
         "product_name": "Pack Premium Hers",
-        "image": "https://cdn.fluid.app/neumi/shop/images/hers_premium.png",
         "url": ""
       }
     ]
   },
   "cta": {
-    "title": "Un nouveau vous commence avec Neumi.",
-    "image": "https://cdn.fluid.app/neumi/shop/images/cta_bg.jpg"
+    "title": "Un nouveau vous commence avec Neumi."
   },
   "note_desc": "Les déclarations faites sur ce site web n'ont pas été évaluées par la Food and Drug Administration. Ces déclarations et les produits de cette entreprise ne sont pas destinés à diagnostiquer, traiter, guérir ou prévenir une maladie. Les opinions et conseils nutritionnels exprimés par Neumi ne sont pas destinés à fournir des conseils médicaux. Veuillez toujours consulter votre prestataire de soins de santé si vous prenez des médicaments ou avez des conditions médicales. Les résultats individuels peuvent varier."
 }
