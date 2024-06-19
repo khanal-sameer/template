@@ -39,28 +39,28 @@
         "product_id": "9474",
         "product_name": "{{product_list.items.0.product_name}}",
         "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish.png",
-        "url": "{{{product_list.items.0.url}}}"
+        "url":"https://neumi.fluid.app/#{affiliate_guid | default:'home'}/page/nutriswish?preview=true"
       },
       {
         "price": "65.00",
         "product_id": "9467",
         "product_name": "{{product_list.items.1.product_name}}",
         "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin.png",
-        "url": "{{{product_list.items.1.url}}}"
+        "url":"https://neumi.fluid.app/#{affiliate_guid | default:'home'}/page/neumi-skin?preview=true"
       },
       {
         "price": "65.00",
         "product_id": "9410",
         "product_name": "{{product_list.items.2.product_name}}",
         "image": "https://cdn.fluid.app/neumi/shop/images/hers.png",
-        "url": "{{{product_list.items.2.url}}}"
+        "url":"https://neumi.fluid.app/#{affiliate_guid | default:'home'}/page/hers?preview=true"
       },
       {
         "price": "65.00",
         "product_id": "",
         "product_name": "{{product_list.items.3.product_name}}",
         "image": "https://cdn.fluid.app/neumi/shop/images/neuro.png",
-        "url": "{{{product_list.items.3.url}}}"
+        "url":"https://neumi.fluid.app/#{affiliate_guid | default:'home'}/page/neuro?preview=true"
       }
     ]
   },
@@ -69,7 +69,7 @@
     "product_name": "{{product_bundle.product_name}}",
     "price": "260.00",
     "image": "https://cdn.fluid.app/neumi/shop/images/bundle.png",
-    "url": "{{{product_bundle.url}}}"
+    "url": ""
   },
   "multiple_product": {
     "items": [
@@ -77,37 +77,37 @@
         "price": "130",
         "product_name": "{{{multiple_product.items.0.product_name}}}",
         "image": "https://cdn.fluid.app/neumi/shop/images/hers_neumiskin_essential.png",
-        "url": "{{multiple_product.items.0.url}}"
+        "url": ""
       },
       {
         "price": "130",
         "product_name": "{{{multiple_product.items.1.product_name}}}",
         "image": "https://cdn.fluid.app/neumi/shop/images/hers_nutriswish_essential.png",
-        "url": "{{multiple_product.items.1.url}}"
+        "url": ""
       },
       {
         "price": "130",
         "product_name": "{{{multiple_product.items.2.product_name}}}",
         "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin_essential.png",
-        "url": "{{multiple_product.items.2.url}}"
+        "url": ""
       },
       {
         "price": "130",
         "product_name": "{{{multiple_product.items.3.product_name}}}",
         "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish_essential.png",
-        "url": "{{multiple_product.items.3.url}}"
+        "url": ""
       },
       {
         "price": "130",
         "product_name": "{{{multiple_product.items.4.product_name}}}",
         "image": "https://cdn.fluid.app/neumi/shop/images/classic_essential.png",
-        "url": "{{multiple_product.items.4.url}}"
+        "url": ""
       },
       {
         "price": "260",
         "product_name": "{{{multiple_product.items.5.product_name}}}",
         "image": "https://cdn.fluid.app/neumi/shop/images/hers_premium.png",
-        "url": "{{multiple_product.items.5.url}}"
+        "url": ""
       }
     ]
   },
