@@ -1,0 +1,73 @@
+{{#tab}}
+  <div class="tab-section">
+    <div class="asea-tabs">
+      <div class="container">
+        <ul class="asea-tabs_nav is-flex is-align-center is-start gap-12">
+          <li class="pd-16 active">{{{video_review_title}}}</li>
+          <li class="pd-16">{{{written_review_title}}}</li>
+        </ul>
+      </div>
+      <div class="asea-tabs_content">
+        <div class="tabs-content_item active">
+          <div class="container">
+            <div class="splide tab-slider" id="tab-slider">
+              {{>PrevNext}}
+              <div class="splide__track">
+                <div class="splide__list">
+                  {{#video_list}}
+                    <div class="splide__slide">
+                      <figure>
+                        <img src="{{image}}" alt="video thumbnail" />
+
+                        <a data-fancybox="" href="{{video}}" class="play-icon">
+                          <img src="{{play_icon}}" alt="{{play_alt_text}}" />
+                        </a>
+                      </figure>
+                    </div>
+                  {{/video_list}}
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tabs-content_item">
+          <div class="reviews">
+            <div class="container">
+              <div class="reviews-header is-flex is-between is-alilgn-center gap-16 is-wrap">
+                <div class="average-review">
+                  <p class="fs-lg">{{rating_text}}</p>
+                  <div class="is-flex is-start is-align-center col-gap-12">
+                    {{>FiveStarRating}}
+                    <div class="ratings-count ff-body_graphik clr-body-700 fw-600">{{total_written_review}}</div>
+                  </div>
+                </div>
+              </div>
+              <ul class="reviews-list">
+                {{#review_list}}
+                  <li class="is-grid">
+                    <div class="reviewer">
+                      <p class="fw-600">{{reviewer}}</p>
+                      <!-- <span class="reviewer-address fs-md clr-body-600">{{address}}</span> -->
+                      {{>FiveStarRating}}
+                    </div>
+                    <div class="reviewer-review">
+                      <!-- <div
+                        class="review-review_header is-flex is-start gap-8 mb-8"
+                      >
+                        <p class="fs-lg fw-600">I love it!</p>
+                        <span class="clr-body-600">2 hour ago</span>
+                      </div> -->
+                      <div class="reviewer-review_content clr-body">{{review_text}}</div>
+                    </div>
+                  </li>
+                {{/review_list}}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{/tab}}
