@@ -162,7 +162,7 @@
       {
         "class": "acc-item_active",
         "header": "我是优惠客户，如何订购？",
-        "desc": "最佳方式是访问<a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a>并在那里下单。"
+        "desc": "最佳方式是访问<a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a>并在那里下单。"
       },
       {
         "class": "",

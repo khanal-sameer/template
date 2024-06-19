@@ -162,7 +162,7 @@
       {
         "class": "acc-item_active",
         "header": "ฉันเป็นลูกค้าที่ชื่นชอบ ฉันจะสั่งซื้ออย่างไร?",
-        "desc": "วิธีที่ดีที่สุดคือไปที่ <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> และสั่งซื้อที่นั่น"
+        "desc": "วิธีที่ดีที่สุดคือไปที่ <a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a> และสั่งซื้อที่นั่น"
       },
       {
         "class": "",

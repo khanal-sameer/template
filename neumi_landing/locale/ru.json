@@ -162,7 +162,7 @@
       {
         "class": "acc-item_active",
         "header": "Я предпочтительный клиент. Как сделать заказ?",
-        "desc": "Лучший способ - перейти на сайт <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> и оформить заказ там."
+        "desc": "Лучший способ - перейти на сайт <a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a> и оформить заказ там."
       },
       {
         "class": "",

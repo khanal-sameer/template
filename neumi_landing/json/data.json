@@ -250,7 +250,7 @@
       ]
     },
     "faq":{
-      "title": "{{faq.title}}",
+      "title": "{{{faq.title}}}",
       "icon_class": "clr-primary",
       "items":[
         {

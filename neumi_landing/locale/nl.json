@@ -162,7 +162,7 @@
       {
         "class": "acc-item_active",
         "header": "Ik ben een voorkeursklant. Hoe kan ik bestellen?",
-        "desc": "De beste manier is door naar <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> te gaan en daar je bestelling te plaatsen."
+        "desc": "De beste manier is door naar <a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a> te gaan en daar je bestelling te plaatsen."
       },
       {
         "class": "",

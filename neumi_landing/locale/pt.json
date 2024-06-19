@@ -162,7 +162,7 @@
       {
         "class": "acc-item_active",
         "header": "Sou um cliente preferencial. Como faço para pedir?",
-        "desc": "A melhor maneira é ir para <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> e fazer seu pedido lá."
+        "desc": "A melhor maneira é ir para <a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a> e fazer seu pedido lá."
       },
       {
         "class": "",

@@ -162,7 +162,7 @@
       {
         "class": "acc-item_active",
         "header": "Je suis un client préféré. Comment commander ?",
-        "desc": "La meilleure façon est d'aller sur <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> et de passer votre commande là-bas."
+        "desc": "La meilleure façon est d'aller sur <a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a> et de passer votre commande là-bas."
       },
       {
         "class": "",

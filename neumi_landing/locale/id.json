@@ -162,7 +162,7 @@
       {
         "class": "acc-item_active",
         "header": "Saya pelanggan pilihan. Bagaimana cara memesan?",
-        "desc": "Cara terbaik adalah dengan pergi ke <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> dan melakukan pemesanan di sana."
+        "desc": "Cara terbaik adalah dengan pergi ke <a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a> dan melakukan pemesanan di sana."
       },
       {
         "class": "",

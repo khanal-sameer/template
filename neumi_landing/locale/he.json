@@ -162,7 +162,7 @@
       {
         "class": "acc-item_active",
         "header": "אני לקוח מועדף. איך אני מזמין?",
-        "desc": "הדרך הטובה ביותר היא לגשת ל-<a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> ולהזמין שם."
+        "desc": "הדרך הטובה ביותר היא לגשת ל-<a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a> ולהזמין שם."
       },
       {
         "class": "",

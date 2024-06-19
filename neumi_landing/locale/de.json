@@ -160,7 +160,7 @@
       {
         "class": "acc-item_active",
         "header": "Ich bin ein bevorzugter Kunde. Wie kann ich bestellen?",
-        "desc": "Der beste Weg ist, auf <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> zu gehen und dort Ihre Bestellung aufzugeben."
+        "desc": "Der beste Weg ist, auf <a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a> zu gehen und dort Ihre Bestellung aufzugeben."
       },
       {
         "class": "",

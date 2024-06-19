@@ -162,7 +162,7 @@
       {
         "class": "acc-item_active",
         "header": "Preferált ügyfél vagyok. Hogyan rendeljek?",
-        "desc": "A legjobb módszer az, ha ellátogat a <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> weboldalra és ott adja le rendelését."
+        "desc": "A legjobb módszer az, ha ellátogat a <a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a> weboldalra és ott adja le rendelését."
       },
       {
         "class": "",

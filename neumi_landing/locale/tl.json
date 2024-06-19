@@ -162,7 +162,7 @@
       {
         "class": "acc-item_active",
         "header": "Ako ay isang preferred customer. Paano ako mag-oorder?",
-        "desc": "Ang pinakamahusay na paraan ay sa pamamagitan ng <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> at maglagay ng iyong order doon."
+        "desc": "Ang pinakamahusay na paraan ay sa pamamagitan ng <a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a> at maglagay ng iyong order doon."
       },
       {
         "class": "",

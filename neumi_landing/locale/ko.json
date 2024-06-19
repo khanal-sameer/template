@@ -162,7 +162,7 @@
       {
         "class": "acc-item_active",
         "header": "저는 선호 고객입니다. 어떻게 주문하나요?",
-        "desc": "<a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a>에 방문하여 주문하는 것이 가장 좋습니다."
+        "desc": "<a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a>에 방문하여 주문하는 것이 가장 좋습니다."
       },
       {
         "class": "",

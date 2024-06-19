@@ -162,7 +162,7 @@
       {
         "class": "acc-item_active",
         "header": "私は優先顧客です。注文する方法は？",
-        "desc": "<a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a>にアクセスして注文するのが最良の方法です。"
+        "desc": "<a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</>にアクセスして注文するのが最良の方法です。"
       },
       {
         "class": "",
