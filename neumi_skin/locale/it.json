@@ -2,7 +2,7 @@
   "title": "Neumi pelle",
   "product_title": "Neumi pelle",
   "total_product_review": "7 Recensioni",
-  "product_desc": "<span class=\"fw-600\">La soluzione per la cura della pelle rivoluzionata con la tecnologia HydraStat Nano</span> per un rapido assorbimento e con un'applicazione spray conveniente.",
+  "product_desc": "<span class='fw-600'>La soluzione per la cura della pelle rivoluzionata con la tecnologia HydraStat Nano</span> per un rapido assorbimento e con un'applicazione spray conveniente.",
   "add_to_cart_text": "Aggiungi al carrello",
   "select_quantity_text": "Seleziona quantità",
   "all_product_text": "Tutti i prodotti",
@@ -12,7 +12,7 @@
     "frequency_text": "Seleziona frequenza",
     "checklist_items": [
       {
-        "caption": "Abbonati e risparmia <span id='pricing'>$15</span>"
+        "caption": "Abbonati e risparmia <span id='saving'>$15</span>"
       },
       {
         "caption": "Guadagna punti premio Neumi"
@@ -86,20 +86,20 @@
   "product_post_list": [
     {
       "title": "Scienza innovativa",
-      "desc": "Il glutatione è il protettore e il disintossicante della cellula. <span class=\"fw-600 highlight-text\">È la chiave della vita, della salute, delle prestazioni, della protezione e della longevità di ogni cellula umana.</span>"
+      "desc": "Il glutatione è il protettore e il disintossicante della cellula. <span class='fw-600 highlight-text'>È la chiave della vita, della salute, delle prestazioni, della protezione e della longevità di ogni cellula umana.</span>"
     },
     {
       "title": "Tecnologia nanometrica HydraStat™",
-      "desc": "<span class=\"fw-600 highlight-text\">Particelle di dimensioni nanometriche protette da cluster di acqua ultra pura.</span> I nostri ingredienti a dimensioni nanometriche sono abbastanza piccoli da essere completamente assorbiti dalla cellula umana."
+      "desc": "<span class='fw-600 highlight-text'>Particelle di dimensioni nanometriche protette da cluster di acqua ultra pura.</span> I nostri ingredienti a dimensioni nanometriche sono abbastanza piccoli da essere completamente assorbiti dalla cellula umana."
     },
     {
       "title": "Qualità piuttosto che quantità",
-      "desc": "Un integratore è utile solo se è biodisponibile, cioè se può essere assorbito e utilizzato dal corpo. <span class=\"fw-600 highlight-text\">Il sistema di diffusione corretto consegna gli ingredienti al corpo in modo che il corpo possa assorbirli e utilizzarli.</span>"
+      "desc": "Un integratore è utile solo se è biodisponibile, cioè se può essere assorbito e utilizzato dal corpo. <span class='fw-600 highlight-text'>Il sistema di diffusione corretto consegna gli ingredienti al corpo in modo che il corpo possa assorbirli e utilizzarli.</span>"
     }
   ],
   "key_ingredients": {
     "title": "Ingredienti chiave di Neumi Skin",
-    "ingredients": "<span class=\"fw-600\">Ingredienti attivi:</span> <span class=\"is-uppercase\">ACQUA ULTRA PURA, GLUTATIONE, Dimetil Sulfone, Ialuronato di Sodio, Cisteina, Prolina, Ascorbato di Calcio, Glicina, Arginina, Valina, Curcumina, Idrossiprolina, Collagene, Sorbato di Potassio, Acido Tartarico. *L'IMMAGINE MOSTRA UNA PIANTA/CIBO IN CUI SI TROVA L'INGREDIENTE ATTIVO E NON NECESSARIAMENTE DOVE VIENE ESTRATTO.</span>",
+    "ingredients": "<span class='fw-600'>Ingredienti attivi:</span> <span class='is-uppercase'>ACQUA ULTRA PURA, GLUTATIONE, Dimetil Sulfone, Ialuronato di Sodio, Cisteina, Prolina, Ascorbato di Calcio, Glicina, Arginina, Valina, Curcumina, Idrossiprolina, Collagene, Sorbato di Potassio, Acido Tartarico. *L'IMMAGINE MOSTRA UNA PIANTA/CIBO IN CUI SI TROVA L'INGREDIENTE ATTIVO E NON NECESSARIAMENTE DOVE VIENE ESTRATTO.</span>",
     "item_list_desktop": [
       {
         "item": [

@@ -2,7 +2,7 @@
   "title": "{{title}}",
   "product_title": "{{product_title}}",
   "total_product_review": "{{total_product_review}}",
-  "product_desc": "{{product_desc}}",
+  "product_desc": "{{{product_desc}}}",
   "select_quantity_text": "{{select_quantity_text}}",
   "all_product_text": "{{all_product_text}}",
   "add_to_cart_text": "{{add_to_cart_text}}",
@@ -36,7 +36,7 @@
     "discounted_price": "50.00",
     "checklist_items": [
       {
-       "caption": "{{subscribe.checklist_items.0.caption}}"
+       "caption": "{{{subscribe.checklist_items.0.caption}}}"
       },
       {
         "caption": "{{subscribe.checklist_items.1.caption}}"
@@ -94,8 +94,8 @@
   },
   "tab": {
   "title": "{{tab.title}}",
-  "video_review_title": "{{tab.video_review_title}}",
-  "written_review_title": "{{tab.written_review_title}}",
+  "video_review_title": "{{{tab.video_review_title}}}",
+  "written_review_title": "{{{tab.written_review_title}}}",
   "rating_text": "{{tab.rating_text}}",
   "video_list":[
     {
@@ -136,7 +136,7 @@
   },
   "product_benefits": {
   "title": "{{product_benefits.title}}",
-  "desc": "{{product_benefits.desc}}",
+  "desc": "{{{product_benefits.desc}}}",
   "alt_text": "{{product_benefits.alt_text}}",
   "image": "https://cdn.fluid.app/neumi/neumiskin/benefits.png",
   "items": [
@@ -161,7 +161,7 @@
   "product_post_list": [
   {
   "title": "{{product_post_list.0.title}}",
-  "desc": "{{product_post_list.0.desc}}",
+  "desc": "{{{product_post_list.0.desc}}}",
   "image": "https://cdn.fluid.app/neumi/neumiskin/innovative.png",
   "image_position": "right",
   "desc_ordering_class": "order-lg-1",
@@ -169,7 +169,7 @@
   },
   {
   "title": "{{product_post_list.1.title}}",
-  "desc": "{{product_post_list.1.desc}}",
+  "desc": "{{{product_post_list.1.desc}}}",
   "image": "https://cdn.fluid.app/neumi/hers/images/nano.png",
   "image_position": "left",
   "desc_ordering_class": "",
@@ -177,7 +177,7 @@
   },
   {
   "title": "{{product_post_list.2.title}}",
-  "desc": "{{product_post_list.2.desc}}",
+  "desc": "{{{product_post_list.2.desc}}}",
   "image": "https://cdn.fluid.app/neumi/neumiskin/quality.png",
   "image_position": "right",
   "desc_ordering_class": "order-lg-1",
@@ -186,7 +186,7 @@
   ],
   "key_ingredients": {
     "title": "{{key_ingredients.title}}",
-    "ingredients": "{{key_ingredients.ingredients}}",
+    "ingredients": "{{{key_ingredients.ingredients}}}",
     "item_list_desktop": [
       {
         "item": [

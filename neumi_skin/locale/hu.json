@@ -2,7 +2,7 @@
   "title": "Neumi bőr",
   "product_title": "Neumi bőr",
   "total_product_review": "7 Vélemény",
-  "product_desc": "<span class=\"fw-600\">A bőrápolás megoldása forradalmasítva a HydraStat Nano technológiával</span> a gyors felszívódás és a kényelmes permet alkalmazás érdekében.",
+  "product_desc": "<span class='fw-600'>A bőrápolás megoldása forradalmasítva a HydraStat Nano technológiával</span> a gyors felszívódás és a kényelmes permet alkalmazás érdekében.",
   "add_to_cart_text": "Kosárba",
   "select_quantity_text": "Mennyiség kiválasztása",
   "all_product_text": "Minden termék",
@@ -12,7 +12,7 @@
     "frequency_text": "Gyakoriság kiválasztása",
     "checklist_items": [
       {
-        "caption": "Iratkozzon fel és spóroljon <span id='pricing'>$15</span>"
+        "caption": "Iratkozzon fel és spóroljon <span id='saving'>$15</span>"
       },
       {
         "caption": "Szerezzen Neumi jutalompontokat"
@@ -86,20 +86,20 @@
   "product_post_list": [
     {
       "title": "Innovatív tudomány",
-      "desc": "A glutation a sejt védelmezője és méregtelenítője. <span class=\"fw-600 highlight-text\">Ez az élet, az egészség, a teljesítmény, a védelem és minden emberi sejt hosszú élettartamának kulcsa.</span>"
+      "desc": "A glutation a sejt védelmezője és méregtelenítője. <span class='fw-600 highlight-text'>Ez az élet, az egészség, a teljesítmény, a védelem és minden emberi sejt hosszú élettartamának kulcsa.</span>"
     },
     {
       "title": "HydraStat™ nanotechnológia",
-      "desc": "<span class=\"fw-600 highlight-text\">Nanoméretű részecskék ultra tiszta vízklaszterekkel védve.</span> Nanoméretű összetevőink elég kicsik ahhoz, hogy teljesen felszívódjanak az emberi sejtben."
+      "desc": "<span class='fw-600 highlight-text'>Nanoméretű részecskék ultra tiszta vízklaszterekkel védve.</span> Nanoméretű összetevőink elég kicsik ahhoz, hogy teljesen felszívódjanak az emberi sejtben."
     },
     {
       "title": "Minőség a mennyiség helyett",
-      "desc": "Egy kiegészítő csak akkor hasznos, ha biológiailag elérhető, vagyis ha a szervezet képes felszívni és felhasználni. <span class=\"fw-600 highlight-text\">A megfelelő szállítórendszer biztosítja az összetevők bevitelét a szervezetbe, hogy a szervezet felszívhassa és felhasználhassa azokat.</span>"
+      "desc": "Egy kiegészítő csak akkor hasznos, ha biológiailag elérhető, vagyis ha a szervezet képes felszívni és felhasználni. <span class='fw-600 highlight-text'>A megfelelő szállítórendszer biztosítja az összetevők bevitelét a szervezetbe, hogy a szervezet felszívhassa és felhasználhassa azokat.</span>"
     }
   ],
   "key_ingredients": {
     "title": "A Neumi Skin kulcsfontosságú összetevői",
-    "ingredients": "<span class=\"fw-600\">Aktív összetevők:</span> <span class=\"is-uppercase\">SZUPERTISZTA VÍZ, GLUTATION, Dimetil Szulfon, Nátrium-hialuronát, Cisztein, Prolin, Kalcium-aszkorbát, Glicin, Arginin, Valin, Kurkumin, Hidroxiprolin, Kollagén, Kálium-szorbát, Borkősav. *A KÉP EGY NÖVÉNYT/ÉTELT MUTAT, AMELY AZ AKTÍV ÖSSZETEVŐT TARTALMAZZA, ÉS NEM FELTÉTLENÜL AZT, AHONNAN KIVONTÁK.</span>",
+    "ingredients": "<span class='fw-600'>Aktív összetevők:</span> <span class='is-uppercase'>SZUPERTISZTA VÍZ, GLUTATION, Dimetil Szulfon, Nátrium-hialuronát, Cisztein, Prolin, Kalcium-aszkorbát, Glicin, Arginin, Valin, Kurkumin, Hidroxiprolin, Kollagén, Kálium-szorbát, Borkősav. *A KÉP EGY NÖVÉNYT/ÉTELT MUTAT, AMELY AZ AKTÍV ÖSSZETEVŐT TARTALMAZZA, ÉS NEM FELTÉTLENÜL AZT, AHONNAN KIVONTÁK.</span>",
     "item_list_desktop": [
       {
         "item": [

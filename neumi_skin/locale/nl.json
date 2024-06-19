@@ -2,7 +2,7 @@
   "title": "Neumi huid",
   "product_title": "Neumi huid",
   "total_product_review": "7 Beoordelingen",
-  "product_desc":  "<span class=\"fw-600\">De huidverzorgingsoplossing, gerevolutioneerd met HydraStat Nano-Technologie </span> voor snelle opname en met een handige spraytoepassing.",
+  "product_desc":  "<span class='fw-600'>De huidverzorgingsoplossing, gerevolutioneerd met HydraStat Nano-Technologie </span> voor snelle opname en met een handige spraytoepassing.",
   "add_to_cart_text": "In winkelwagen",
   "select_quantity_text": "Selecteer aantal",
   "all_product_text": "Alle producten",
@@ -12,7 +12,7 @@
     "frequency_text": "Selecteer frequentie",
     "checklist_items":[
       {
-        "caption": "Abonneer en bespaar <span id='pricing'>$15</span>"
+        "caption": "Abonneer en bespaar <span id='saving'>$15</span>"
       },
       {
         "caption": "Verdien Neumi beloningspunten"
@@ -86,20 +86,20 @@
   "product_post_list":[
     {
       "title": "Innovatieve wetenschap",
-      "desc": "Glutathion is de beschermer en ontgifter van de cel. <span class=\"fw-600 highlight-text\">Het is de sleutel tot het leven, gezondheid, prestaties, bescherming en levensduur van elke menselijke cel.</span>"
+      "desc": "Glutathion is de beschermer en ontgifter van de cel. <span class='fw-600 highlight-text'>Het is de sleutel tot het leven, gezondheid, prestaties, bescherming en levensduur van elke menselijke cel.</span>"
     },
     {
       "title": "HydraStat™ nanotechnologie",
-      "desc": "<span class=\"fw-600 highlight-text\">Nano-grootte deeltjes beschermd door ultrazuivere waterclusters.</span>  Onze nano-grootte ingrediënten zijn klein genoeg om volledig in de menselijke cel te worden opgenomen."
+      "desc": "<span class='fw-600 highlight-text'>Nano-grootte deeltjes beschermd door ultrazuivere waterclusters.</span>  Onze nano-grootte ingrediënten zijn klein genoeg om volledig in de menselijke cel te worden opgenomen."
     },
     {
       "title": "Kwaliteit boven kwantiteit",
-      "desc": "Een supplement is alleen zo goed als zijn biologische beschikbaarheid, dat wil zeggen zijn vermogen om door het lichaam te worden opgenomen en gebruikt.<span class=\"fw-600 highlight-text\"> Het juiste leveringssysteem levert ingrediënten aan uw lichaam op een manier die uw lichaam kan opnemen en gebruiken.</span>"
+      "desc": "Een supplement is alleen zo goed als zijn biologische beschikbaarheid, dat wil zeggen zijn vermogen om door het lichaam te worden opgenomen en gebruikt.<span class='fw-600 highlight-text'> Het juiste leveringssysteem levert ingrediënten aan uw lichaam op een manier die uw lichaam kan opnemen en gebruiken.</span>"
     }
   ],
   "key_ingredients":{
     "title": "Neumi Skin belangrijke ingrediënten",
-    "ingredients": "<span class=\"fw-600\">Actieve ingrediënten:</span> <span class=\"is-uppercase\"> ULTRAZUIVER WATER, GLUTATHION, Dimethylsulfon, Natrium Hyaluronaat, Cysteïne, Proline, Calcium Ascorbaat, Glycine, Arginine, Valine, Curcumine, Hydroxyproline, Collageen, Kaliumsorbaat, Wijnsteenzuur. *AFBEELDING TOONT EEN PLANT/VOEDSEL WAARIN HET ACTIEVE INGREDIËNT WORDT GEVONDEN EN NIET NOODZAKELIJK WAAR HET UIT WORDT GEEËXTRAHEERD.</span>",
+    "ingredients": "<span class='fw-600'>Actieve ingrediënten:</span> <span class='is-uppercase'> ULTRAZUIVER WATER, GLUTATHION, Dimethylsulfon, Natrium Hyaluronaat, Cysteïne, Proline, Calcium Ascorbaat, Glycine, Arginine, Valine, Curcumine, Hydroxyproline, Collageen, Kaliumsorbaat, Wijnsteenzuur. *AFBEELDING TOONT EEN PLANT/VOEDSEL WAARIN HET ACTIEVE INGREDIËNT WORDT GEVONDEN EN NIET NOODZAKELIJK WAAR HET UIT WORDT GEEËXTRAHEERD.</span>",
     "item_list_desktop":[
       {
         "item":[

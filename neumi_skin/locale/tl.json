@@ -2,7 +2,7 @@
   "title": "Neumi skin",
   "product_title": "Neumi skin",
   "total_product_review": "7 Mga Review",
-  "product_desc": "<span class=\"fw-600\">Ang solusyon sa skincare na nag-rebolusyon gamit ang HydraStat Nano-Technology</span> para sa mabilis na pagsipsip at may maginhawang spray application.",
+  "product_desc": "<span class='fw-600'>Ang solusyon sa skincare na nag-rebolusyon gamit ang HydraStat Nano-Technology</span> para sa mabilis na pagsipsip at may maginhawang spray application.",
   "add_to_cart_text": "Idagdag sa cart",
   "select_quantity_text": "Piliin ang Dami",
   "all_product_text": "Lahat ng Produkto",
@@ -12,7 +12,7 @@
     "frequency_text": "Piliin ang Dalas",
     "checklist_items": [
       {
-        "caption": "Mag-subscribe at makatipid ng <span id='pricing'>$15</span>"
+        "caption": "Mag-subscribe at makatipid ng <span id='saving'>$15</span>"
       },
       {
         "caption": "Kumita ng Neumi Reward Points"
@@ -86,20 +86,20 @@
   "product_post_list": [
     {
       "title": "Inobatibong agham",
-      "desc": "Ang glutathione ay ang tagapagtanggol at tagalinis ng selula. <span class=\"fw-600 highlight-text\">Ito ang susi sa buhay, kalusugan, pagganap, proteksyon at kahabaan ng buhay ng bawat selula ng tao.</span>"
+      "desc": "Ang glutathione ay ang tagapagtanggol at tagalinis ng selula. <span class='fw-600 highlight-text'>Ito ang susi sa buhay, kalusugan, pagganap, proteksyon at kahabaan ng buhay ng bawat selula ng tao.</span>"
     },
     {
       "title": "HydraStat™ nanotechnology",
-      "desc": "<span class=\"fw-600 highlight-text\">Nano-sized na mga partikulo na protektado ng ultra-purong water clusters.</span> Ang aming nanosized na mga sangkap ay sapat na maliit upang ganap na maabsorb sa selula ng tao."
+      "desc": "<span class='fw-600 highlight-text'>Nano-sized na mga partikulo na protektado ng ultra-purong water clusters.</span> Ang aming nanosized na mga sangkap ay sapat na maliit upang ganap na maabsorb sa selula ng tao."
     },
     {
       "title": "Kalidad higit sa dami",
-      "desc": "Ang suplemento ay mabisa lamang kung ito ay maaaring masipsip at magamit ng katawan.<span class=\"fw-600 highlight-text\"> Ang tamang sistema ng paghahatid ay naghahatid ng mga sangkap sa iyong katawan sa paraang masisipsip at magagamit ito ng iyong katawan.</span>"
+      "desc": "Ang suplemento ay mabisa lamang kung ito ay maaaring masipsip at magamit ng katawan.<span class='fw-600 highlight-text'> Ang tamang sistema ng paghahatid ay naghahatid ng mga sangkap sa iyong katawan sa paraang masisipsip at magagamit ito ng iyong katawan.</span>"
     }
   ],
   "key_ingredients": {
     "title": "Pangunahing mga sangkap ng Neumi Skin",
-    "ingredients": "<span class=\"fw-600\">Mga Aktibong Sangkap:</span> <span class=\"is-uppercase\"> ULTRA-PURONG TUBIG, GLUTATHIONE, Dimethyl Sulfone, Sodium Hyaluronate, Cysteine, Proline, Calcium Ascorbate, Glycine, Arginine, Valine, Curcumin, Hydroxyproline, Collagen, Potassium Sorbate, Tartaric Acid. *ANG LARAWAN AY NAGPAPAKITA NG HALAMAN/PAGKAIN KUNG SAAN MATATAGPUAN ANG AKTIBONG SANGKAP AT HINDI NECESSARILY KUNG SAAN ITO EXTRACTED.</span>",
+    "ingredients": "<span class='fw-600'>Mga Aktibong Sangkap:</span> <span class='is-uppercase'> ULTRA-PURONG TUBIG, GLUTATHIONE, Dimethyl Sulfone, Sodium Hyaluronate, Cysteine, Proline, Calcium Ascorbate, Glycine, Arginine, Valine, Curcumin, Hydroxyproline, Collagen, Potassium Sorbate, Tartaric Acid. *ANG LARAWAN AY NAGPAPAKITA NG HALAMAN/PAGKAIN KUNG SAAN MATATAGPUAN ANG AKTIBONG SANGKAP AT HINDI NECESSARILY KUNG SAAN ITO EXTRACTED.</span>",
     "item_list_desktop": [
       {
         "item": [

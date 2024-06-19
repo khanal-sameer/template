@@ -2,7 +2,7 @@
   "title": "Neumi skin",
   "product_title": "Neumi skin",
   "total_product_review": "7 Reseñas",
-  "product_desc": "<span class=\"fw-600\">La solución para el cuidado de la piel revolucionada con HydraStat Nano-Technology</span> para una rápida absorción y con una conveniente aplicación en spray.",
+  "product_desc": "<span class='fw-600'>La solución para el cuidado de la piel revolucionada con HydraStat Nano-Technology</span> para una rápida absorción y con una conveniente aplicación en spray.",
   "add_to_cart_text": "Agregar al carrito",
   "select_quantity_text": "Seleccionar Cantidad",
   "all_product_text": "Todos los Productos",
@@ -12,7 +12,7 @@
     "frequency_text": "Seleccionar Frecuencia",
     "checklist_items": [
       {
-        "caption": "Suscríbete y ahorra <span id='pricing'>$15</span>"
+        "caption": "Suscríbete y ahorra <span id='saving'>$15</span>"
       },
       {
         "caption": "Gana Puntos de Recompensa Neumi"
@@ -86,20 +86,20 @@
   "product_post_list": [
     {
       "title": "Ciencia innovadora",
-      "desc": "El glutatión es el protector y desintoxicante de la célula. <span class=\"fw-600 highlight-text\">Es la clave para la vida, salud, rendimiento, protección y longevidad de cada célula humana.</span>"
+      "desc": "El glutatión es el protector y desintoxicante de la célula. <span class='fw-600 highlight-text'>Es la clave para la vida, salud, rendimiento, protección y longevidad de cada célula humana.</span>"
     },
     {
       "title": "Nanotecnología HydraStat™",
-      "desc": "<span class=\"fw-600 highlight-text\">Partículas nano-tamaño protegidas por clusters de agua ultra-pura.</span> Nuestros ingredientes nano-tamaño son lo suficientemente pequeños para ser absorbidos completamente en la célula humana."
+      "desc": "<span class='fw-600 highlight-text'>Partículas nano-tamaño protegidas por clusters de agua ultra-pura.</span> Nuestros ingredientes nano-tamaño son lo suficientemente pequeños para ser absorbidos completamente en la célula humana."
     },
     {
       "title": "Calidad sobre cantidad",
-      "desc": "Un suplemento solo es tan bueno como su biodisponibilidad, que es su capacidad para ser absorbido y utilizado por el cuerpo. <span class=\"fw-600 highlight-text\">El sistema de entrega correcto entrega ingredientes a tu cuerpo de una manera que tu cuerpo puede absorber y utilizar.</span>"
+      "desc": "Un suplemento solo es tan bueno como su biodisponibilidad, que es su capacidad para ser absorbido y utilizado por el cuerpo. <span class='fw-600 highlight-text'>El sistema de entrega correcto entrega ingredientes a tu cuerpo de una manera que tu cuerpo puede absorber y utilizar.</span>"
     }
   ],
   "key_ingredients": {
     "title": "Ingredientes clave de Neumi Skin",
-    "ingredients": "<span class=\"fw-600\">Ingredientes Activos:</span> <span class=\"is-uppercase\">AGUA ULTRA-PURA, GLUTATIÓN, Dimetilsulfona, Hialuronato de Sodio, Cisteína, Prolina, Ascorbato de Calcio, Glicina, Arginina, Valina, Curcumina, Hidroxiprolina, Colágeno, Sorbato de Potasio, Ácido Tartárico. *LA IMAGEN MUESTRA UNA PLANTA/ALIMENTO EN LA QUE SE ENCUENTRA EL INGREDIENTE ACTIVO Y NO NECESARIAMENTE DE DONDE SE EXTRAE.</span>",
+    "ingredients": "<span class='fw-600'>Ingredientes Activos:</span> <span class='is-uppercase'>AGUA ULTRA-PURA, GLUTATIÓN, Dimetilsulfona, Hialuronato de Sodio, Cisteína, Prolina, Ascorbato de Calcio, Glicina, Arginina, Valina, Curcumina, Hidroxiprolina, Colágeno, Sorbato de Potasio, Ácido Tartárico. *LA IMAGEN MUESTRA UNA PLANTA/ALIMENTO EN LA QUE SE ENCUENTRA EL INGREDIENTE ACTIVO Y NO NECESARIAMENTE DE DONDE SE EXTRAE.</span>",
     "item_list_desktop": [
       {
         "item": [

@@ -2,7 +2,7 @@
   "title": "Neumi skin",
   "product_title": "Neumi skin",
   "total_product_review": "7 리뷰",
-  "product_desc":  "<span class=\"fw-600\">HydraStat Nano-Technology로 혁신된 스킨케어 솔루션</span> 빠른 흡수와 편리한 스프레이 사용으로",
+  "product_desc":  "<span class='fw-600'>HydraStat Nano-Technology로 혁신된 스킨케어 솔루션</span> 빠른 흡수와 편리한 스프레이 사용으로",
   "add_to_cart_text": "장바구니에 추가",
   "select_quantity_text": "수량 선택",
   "all_product_text": "모든 제품",
@@ -12,7 +12,7 @@
     "frequency_text": "빈도 선택",
     "checklist_items":[
       {
-        "caption": "구독하고 <span id='pricing'>$15</span> 절약"
+        "caption": "구독하고 <span id='saving'>$15</span> 절약"
       },
       {
         "caption": "Neumi 보상 포인트 적립"
@@ -86,20 +86,20 @@
   "product_post_list":[
     {
       "title": "혁신적인 과학",
-      "desc": "글루타티온은 세포의 보호자이자 해독제입니다. <span class=\"fw-600 highlight-text\">모든 인간 세포의 생명, 건강, 성능, 보호 및 장수의 열쇠입니다.</span>"
+      "desc": "글루타티온은 세포의 보호자이자 해독제입니다. <span class='fw-600 highlight-text'>모든 인간 세포의 생명, 건강, 성능, 보호 및 장수의 열쇠입니다.</span>"
     },
     {
       "title": "HydraStat™ 나노 기술",
-      "desc": "<span class=\"fw-600 highlight-text\">초순수 물 클러스터로 보호된 나노 크기의 입자.</span> 우리의 나노 크기 성분은 인간 세포에 완전히 흡수될 만큼 작습니다."
+      "desc": "<span class='fw-600 highlight-text'>초순수 물 클러스터로 보호된 나노 크기의 입자.</span> 우리의 나노 크기 성분은 인간 세포에 완전히 흡수될 만큼 작습니다."
     },
     {
       "title": "양보다 질",
-      "desc": "보충제는 체내에서 흡수되고 사용되는 능력인 생체이용률이 좋을수록 좋습니다. <span class=\"fw-600 highlight-text\">올바른 배달 시스템은 성분을 체내에 흡수되고 사용될 수 있는 방식으로 전달합니다.</span>"
+      "desc": "보충제는 체내에서 흡수되고 사용되는 능력인 생체이용률이 좋을수록 좋습니다. <span class='fw-600 highlight-text'>올바른 배달 시스템은 성분을 체내에 흡수되고 사용될 수 있는 방식으로 전달합니다.</span>"
     }
   ],
   "key_ingredients":{
     "title": "Neumi Skin 주요 성분",
-    "ingredients": "<span class=\"fw-600\">활성 성분:</span> <span class=\"is-uppercase\"> 초순수 물, 글루타티온, 디메틸 설폰, 히알루론산 나트륨, 시스테인, 프롤린, 아스코르빈산 칼슘, 글리신, 아르기닌, 발린, 커큐민, 하이드록시프롤린, 콜라겐, 소르빈산 칼륨, 주석산. *이미지는 활성 성분이 포함된 식물/음식을 보여주며, 반드시 추출되는 장소를 의미하지는 않습니다.</span>",
+    "ingredients": "<span class='fw-600'>활성 성분:</span> <span class='is-uppercase'> 초순수 물, 글루타티온, 디메틸 설폰, 히알루론산 나트륨, 시스테인, 프롤린, 아스코르빈산 칼슘, 글리신, 아르기닌, 발린, 커큐민, 하이드록시프롤린, 콜라겐, 소르빈산 칼륨, 주석산. *이미지는 활성 성분이 포함된 식물/음식을 보여주며, 반드시 추출되는 장소를 의미하지는 않습니다.</span>",
     "item_list_desktop":[
       {
         "item":[

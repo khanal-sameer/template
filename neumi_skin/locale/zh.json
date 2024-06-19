@@ -2,7 +2,7 @@
   "title": "Neumi 皮肤",
   "product_title": "Neumi 皮肤",
   "total_product_review": "7 条评论",
-  "product_desc":  "<span class=\"fw-600\">采用HydraStat纳米技术的护肤解决方案 </span>，快速吸收且使用方便喷雾。",
+  "product_desc":  "<span class='fw-600'>采用HydraStat纳米技术的护肤解决方案 </span>，快速吸收且使用方便喷雾。",
   "add_to_cart_text": "加入购物车",
   "select_quantity_text": "选择数量",
   "all_product_text": "所有产品",
@@ -12,7 +12,7 @@
     "frequency_text": "选择频率",
     "checklist_items":[
       {
-        "caption": "订阅并节省 <span id='pricing'>$15</span>"
+        "caption": "订阅并节省 <span id='saving'>$15</span>"
       },
       {
         "caption": "赚取Neumi奖励积分"
@@ -86,20 +86,20 @@
   "product_post_list":[
     {
       "title": "创新科学",
-      "desc": "谷胱甘肽是细胞的保护者和解毒剂。<span class=\"fw-600 highlight-text\">它是每个人类细胞的生命、健康、性能、保护和寿命的关键。</span>"
+      "desc": "谷胱甘肽是细胞的保护者和解毒剂。<span class='fw-600 highlight-text'>它是每个人类细胞的生命、健康、性能、保护和寿命的关键。</span>"
     },
     {
       "title": "HydraStat™纳米技术",
-      "desc": "<span class=\"fw-600 highlight-text\">被超纯水簇保护的纳米级颗粒。</span>  我们的纳米级成分小到足以被人体细胞完全吸收。"
+      "desc": "<span class='fw-600 highlight-text'>被超纯水簇保护的纳米级颗粒。</span>  我们的纳米级成分小到足以被人体细胞完全吸收。"
     },
     {
       "title": "质量胜于数量",
-      "desc": "补充剂只有在其生物利用度，即被身体吸收和利用的能力上才有效。<span class=\"fw-600 highlight-text\">正确的输送系统将成分以身体可以吸收和利用的方式传递给身体。</span>"
+      "desc": "补充剂只有在其生物利用度，即被身体吸收和利用的能力上才有效。<span class='fw-600 highlight-text'>正确的输送系统将成分以身体可以吸收和利用的方式传递给身体。</span>"
     }
   ],
   "key_ingredients":{
     "title": "Neumi Skin关键成分",
-    "ingredients": "<span class=\"fw-600\">活性成分：</span> <span class=\"is-uppercase\"> 超纯水，谷胱甘肽，二甲基砜，透明质酸钠，半胱氨酸，脯氨酸，抗坏血酸钙，甘氨酸，精氨酸，缬氨酸，姜黄素，羟脯氨酸，胶原蛋白，山梨酸钾，酒石酸。 *图像显示了发现活性成分的植物/食物，而不一定是从中提取的地方。</span>",
+    "ingredients": "<span class='fw-600'>活性成分：</span> <span class='is-uppercase'> 超纯水，谷胱甘肽，二甲基砜，透明质酸钠，半胱氨酸，脯氨酸，抗坏血酸钙，甘氨酸，精氨酸，缬氨酸，姜黄素，羟脯氨酸，胶原蛋白，山梨酸钾，酒石酸。 *图像显示了发现活性成分的植物/食物，而不一定是从中提取的地方。</span>",
     "item_list_desktop":[
       {
         "item":[

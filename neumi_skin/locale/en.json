@@ -2,7 +2,7 @@
   "title": "Neumi skin",
   "product_title": "Neumi skin",
   "total_product_review": "7 Reviews",
-  "product_desc":  "<span class=\"fw-600\">The skincare solution revolutionized with HydraStat Nano-Technology </span>  for rapid absorption and with a convenient spray application.",
+  "product_desc":  "<span class='fw-600'>The skincare solution revolutionized with HydraStat Nano-Technology </span>  for rapid absorption and with a convenient spray application.",
   "add_to_cart_text": "Add to cart",
   "select_quantity_text": "Select Quantity",
   "all_product_text": "All Products",
@@ -12,7 +12,7 @@
     "frequency_text": "Select Frequency",
     "checklist_items":[
       {
-        "caption": "Subscribe and save <span id='pricing'>$15</span>"
+        "caption": "Subscribe and save <span id='saving'>$15</span>"
       },
       {
         "caption": "Earn Neumi Reward Points"
@@ -86,20 +86,20 @@
   "product_post_list":[
     {
       "title": "Innovative science",
-      "desc": "Glutathione is the protector and detoxifier of the cell. <span class=\"fw-600 highlight-text\">It’s the key to the life, health, performance, protection and longevity of every human cell.</span>"
+      "desc": "Glutathione is the protector and detoxifier of the cell. <span class='fw-600 highlight-text'>It’s the key to the life, health, performance, protection and longevity of every human cell.</span>"
     },
     {
       "title": "HydraStat™ nanotechnology",
-      "desc": "<span class=\"fw-600 highlight-text\">Nano-sized particles protected by ultra-pure water clusters.</span>  Our nanosized ingredients are small enough to be fully absorbed into the human cell."
+      "desc": "<span class='fw-600 highlight-text'>Nano-sized particles protected by ultra-pure water clusters.</span>  Our nanosized ingredients are small enough to be fully absorbed into the human cell."
     },
     {
       "title": "Quality over quantity",
-      "desc": "A supplement is only as good as its bioavailability, which is its ability to be absorbed and used by the body.<span class=\"fw-600 highlight-text\"> The correct delivery system delivers ingredients to your body in a way that your body can absorb and use.</span>"
+      "desc": "A supplement is only as good as its bioavailability, which is its ability to be absorbed and used by the body.<span class='fw-600 highlight-text'> The correct delivery system delivers ingredients to your body in a way that your body can absorb and use.</span>"
     }
   ],
   "key_ingredients":{
     "title": "Neumi Skin key ingredients",
-    "ingredients": "<span class=\"fw-600\">Active Ingredients:</span> <span class=\"is-uppercase\"> ULTRA-PURE WATER, GLUTATHIONE, Dimethyl Sulfone, Sodium Hyaluronate, Cysteine, Proline, Calcium Ascorbate, Glycine, Arginine, Valine, Curcumin, Hydroxyproline, Collagen, Potassium Sorbate, Tartaric Acid. *IMAGE SHOWS A PLANT/FOOD IN WHICH THE ACTIVE INGREDIENT IS FOUND AND NOT NECESSARILY WHERE it is EXTRACTed FROM.</span>",
+    "ingredients": "<span class='fw-600'>Active Ingredients:</span> <span class='is-uppercase'> ULTRA-PURE WATER, GLUTATHIONE, Dimethyl Sulfone, Sodium Hyaluronate, Cysteine, Proline, Calcium Ascorbate, Glycine, Arginine, Valine, Curcumin, Hydroxyproline, Collagen, Potassium Sorbate, Tartaric Acid. *IMAGE SHOWS A PLANT/FOOD IN WHICH THE ACTIVE INGREDIENT IS FOUND AND NOT NECESSARILY WHERE it is EXTRACTed FROM.</span>",
     "item_list_desktop":[
       {
         "item":[

@@ -2,7 +2,7 @@
   "title": "Neumi Haut",
   "product_title": "Neumi Haut",
   "total_product_review": "7 Bewertungen",
-  "product_desc":  "<span class=\"fw-600\">Die Hautpflegelösung revolutioniert mit HydraStat Nano-Technologie</span> für schnelle Absorption und mit einer praktischen Sprühanwendung.",
+  "product_desc":  "<span class='fw-600'>Die Hautpflegelösung revolutioniert mit HydraStat Nano-Technologie</span> für schnelle Absorption und mit einer praktischen Sprühanwendung.",
   "add_to_cart_text": "In den Warenkorb",
   "select_quantity_text": "Menge auswählen",
   "all_product_text": "Alle Produkte",
@@ -12,7 +12,7 @@
     "frequency_text": "Häufigkeit auswählen",
     "checklist_items":[
       {
-        "caption": "Abonnieren und sparen <span id='pricing'>$15</span>"
+        "caption": "Abonnieren und sparen <span id='saving'>$15</span>"
       },
       {
         "caption": "Neumi Belohnungspunkte sammeln"
@@ -86,20 +86,20 @@
   "product_post_list":[
     {
       "title": "Innovative Wissenschaft",
-      "desc": "Glutathion ist der Beschützer und Entgifter der Zelle. <span class=\"fw-600 highlight-text\">Es ist der Schlüssel zum Leben, zur Gesundheit, zur Leistung, zum Schutz und zur Langlebigkeit jeder menschlichen Zelle.</span>"
+      "desc": "Glutathion ist der Beschützer und Entgifter der Zelle. <span class='fw-600 highlight-text'>Es ist der Schlüssel zum Leben, zur Gesundheit, zur Leistung, zum Schutz und zur Langlebigkeit jeder menschlichen Zelle.</span>"
     },
     {
       "title": "HydraStat™ Nanotechnologie",
-      "desc": "<span class=\"fw-600 highlight-text\">Nano-große Partikel, die von ultra-reinen Wasserclustern geschützt werden.</span>  Unsere nanoskaligen Inhaltsstoffe sind klein genug, um vollständig in die menschliche Zelle aufgenommen zu werden."
+      "desc": "<span class='fw-600 highlight-text'>Nano-große Partikel, die von ultra-reinen Wasserclustern geschützt werden.</span>  Unsere nanoskaligen Inhaltsstoffe sind klein genug, um vollständig in die menschliche Zelle aufgenommen zu werden."
     },
     {
       "title": "Qualität vor Quantität",
-      "desc": "Ein Supplement ist nur so gut wie seine Bioverfügbarkeit, also seine Fähigkeit, vom Körper aufgenommen und genutzt zu werden.<span class=\"fw-600 highlight-text\"> Das richtige Liefersystem liefert Inhaltsstoffe auf eine Weise, dass Ihr Körper sie aufnehmen und nutzen kann.</span>"
+      "desc": "Ein Supplement ist nur so gut wie seine Bioverfügbarkeit, also seine Fähigkeit, vom Körper aufgenommen und genutzt zu werden.<span class='fw-600 highlight-text'> Das richtige Liefersystem liefert Inhaltsstoffe auf eine Weise, dass Ihr Körper sie aufnehmen und nutzen kann.</span>"
     }
   ],
   "key_ingredients":{
     "title": "Neumi Haut Hauptzutaten",
-    "ingredients": "<span class=\"fw-600\">Aktive Zutaten:</span> <span class=\"is-uppercase\"> ULTRA-REINES WASSER, GLUTATHION, Dimethylsulfon, Natriumhyaluronat, Cystein, Prolin, Calciumascorbat, Glycin, Arginin, Valin, Kurkumin, Hydroxyprolin, Kollagen, Kaliumsorbat, Weinsäure. *BILD ZEIGT EINE PFLANZE/LEBENSMITTEL, IN DER DIE AKTIVE ZUTAT VORHANDEN IST UND NICHT UNBEDINGT, WO SIE EXTRAHIERT WIRD.</span>",
+    "ingredients": "<span class='fw-600'>Aktive Zutaten:</span> <span class='is-uppercase'> ULTRA-REINES WASSER, GLUTATHION, Dimethylsulfon, Natriumhyaluronat, Cystein, Prolin, Calciumascorbat, Glycin, Arginin, Valin, Kurkumin, Hydroxyprolin, Kollagen, Kaliumsorbat, Weinsäure. *BILD ZEIGT EINE PFLANZE/LEBENSMITTEL, IN DER DIE AKTIVE ZUTAT VORHANDEN IST UND NICHT UNBEDINGT, WO SIE EXTRAHIERT WIRD.</span>",
     "item_list_desktop":[
       {
         "item":[
