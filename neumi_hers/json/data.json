@@ -10,7 +10,7 @@
   "product_id": "9410",
   "ratingSvgColor": "#b484bb",
   "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
-  "shop_url": "{{{shop_url}}}",
+  "shop_url": "https://neumi.fluid.app/#{affiliate_guid | default: 'home'}/shop",
   "productSlider": {
     "items": [
       {
