@@ -1,0 +1,192 @@
+{
+  "title": "Neumi Bizop pagina",
+  "language": "nl",
+  "total_product_review": "7 Beoordelingen",
+  "get_started_btn_text": "Aan de slag",
+  "see_all_text": "Bekijk alles",
+  "hide_all_text": "Verberg alles",
+  "hero_section": {
+    "title": "Meld je aan als Neumi-lid",
+    "desc": "Begin je ondernemersreis met Neumi. Sluit je bij ons aan voor toegang tot hoogwaardige supplementen en huidverzorgingsproducten, en een kans om je eigen succes vorm te geven."
+  },
+  "asSeenOn": {
+    "title": "Zoals gezien op"
+  },
+  "tab": {
+    "title": "Zie hoe Neumi levens verandert",
+    "video_review_title": "Video Beoordelingen <span>(5)</span>",
+    "written_review_title": "Geschreven Beoordelingen <span>(2)</span>",
+    "rating_text": "5 Sterren Beoordeling",
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "Salt Lake City, UT",
+        "time": "2 uur geleden",
+        "review_text": "Neumi heeft mijn leven veranderd! Ik gebruik het nu al een paar maanden en ik heb een aanzienlijke verbetering in mijn energieniveau en algehele vitaliteit opgemerkt. Het is verbazingwekkend hoe iets zo eenvoudigs zulke diepgaande effecten kan hebben. Een absolute aanrader!"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "Laie, HI",
+        "time": "2 uur geleden",
+        "review_text": "Ik heb jarenlang geworsteld met het handhaven van hormonale balans, maar Neumi heeft echt het verschil gemaakt. Ik voel me niet alleen meer in balans en energiek, maar ik heb ook verbeteringen gezien in mijn huidskleur en spiertonus. Het is echt opmerkelijk!"
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "Exclusieve kortingen",
+      "desc": "Profiteer van exclusieve kortingen voor leden op ons assortiment hoogwaardige supplementen en huidverzorgingsproducten. Kwaliteitsproducten, meer besparingen, grotere kansen."
+    },
+    {
+      "title": "Geen inschrijfkosten",
+      "desc": "Begin je Neumi-reis zonder inschrijfkosten. Duik rechtstreeks in het opbouwen van je bedrijf zonder initiële barrières."
+    },
+    {
+      "title": "Deel met vrienden & familie",
+      "desc": "Breid je Neumi-netwerk uit door de voordelen te delen met vrienden en familie. Elke connectie opent de deur naar grotere mogelijkheden."
+    },
+    {
+      "title": "Wekelijks & maandelijks uitbetaald worden",
+      "desc": "Neumi beloont je inspanningen met regelmatige wekelijkse en maandelijkse verdiensten. Breid je netwerk uit, bouw je bedrijf op en geniet van de financiële beloningen."
+    }
+  ],
+  "trip": {
+    "title": "Verdien reizen naar droombestemmingen",
+    "desc": "Als je je bedrijf opbouwt en het leven van de mensen om je heen verrijkt, ontvang je erkenning en kom je in aanmerking voor geweldige reizen. Verdien de mogelijkheid om bucketlist-bestemmingen te bezoeken, van Mexico tot Thailand tot Monte Carlo, en als bonus kun je een gast meenemen om samen de ervaring te delen.",
+    "alt_text": "verdien reis"
+  },
+  "enrollment": {
+    "title": "Inschrijvingspakketten",
+    "desc": "Begin binnen enkele minuten door een inschrijvingspakket naar keuze te kopen!",
+    "purchase_btn_text": "Koop lidmaatschapspakket",
+    "alt_text": "inschrijfpakket",
+    "enrollment_slider": [
+      {
+        "title": "Lifestyle Bundel Pakket",
+        "product_count": "8 Neumi Skin + 17 NutriSwish",
+        "price": "1.300,00+$1.000/mo"
+      },
+      {
+        "title": "Lifestyle Bundel Pakket",
+        "product_count": "8 Neumi Skin + 17 NutriSwish",
+        "price": "1.300,00+$1.000/mo"
+      }
+    ]
+  },
+  "before_and_after": {
+    "title": "Bekijk de voor & na's"
+  },
+  "medical_advisor_board": {
+    "title": "Ons onbetaalde medische adviesbord",
+    "items": [
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck School of Medicine"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMU College of Osteopathic Medicine"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Royal College of Surgeons in Ireland"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Medical College of Georgia"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Fellow"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "University of Barcelona School of Medicine Traumatology"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Clinical Fellow"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Faculty of Medicine and Surgery"
+      }
+    ],
+    "hidden_items": [
+      {
+        "name": "James Jian Ho, MD",
+        "university": "Mayo Fellow"
+      },
+      {
+        "name": "Joseph Kaplan, MD",
+        "university": "University of Alabama School of Medicine"
+      },
+      {
+        "name": "Steven Petrosino, PhD",
+        "university": "LaSalle University"
+      },
+      {
+        "name": "Jim Hayes, MD",
+        "university": "Emergency Medicine. Voormalig president van de Association of Emergency Physicians"
+      },
+      {
+        "name": "Dean Stubbs, MD",
+        "university": "Australische leider in integratieve geneeskunde"
+      },
+      {
+        "name": "Tania Ash, MD",
+        "university": "Australische specialist in integratieve geneeskunde"
+      },
+      {
+        "name": "Kristin Hieshetter, DC",
+        "university": "Doctor in de chiropractie. Metabole biochemicus. Gecertificeerd in voeding. Specialist in niet-invasieve laserbehandeling."
+      },
+      {
+        "name": "Luis Miguel Valdes, MD",
+        "university": "Medisch specialist in oor, neus en keel."
+      },
+      {
+        "name": "Bethany Dixon, DC",
+        "university": "Chiropractor en gecertificeerd medisch onderzoeker. Arts en consultant voor de transportindustrie."
+      },
+      {
+        "name": "Pacilina estrella-Barotil, MD",
+        "university": "Huisarts met een masterdiploma in ziekenhuisbeheer; Eigenaar en medisch directeur van Wholeness Family Medical Center, Inc., Silang, Filipijnen."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "icon_class": "clr-primary",
+    "items": [
+      {
+        "header": "Hoe word ik lid?",
+        "desc": "Je kunt je inschrijven door naar <a href='https://neumi.fluid.app/#{affiliate_guid | default: 'home'}/page/neumi-biz-op' class='clr-primary'>Neumi.com/corporphan/inschrijving</a> te gaan. Zoek je sponsor en volg het inschrijvingsproces."
+      },
+      {
+        "header": "Zijn er contracten?",
+        "desc": ""
+      },
+      {
+        "header": "Kan ik op elk moment annuleren?",
+        "desc": ""
+      },
+      {
+        "header": "Welke kortingen krijg ik als lid?",
+        "desc": ""
+      },
+      {
+        "header": "Hoe werken commissies en bonussen?",
+        "desc": ""
+      },
+      {
+        "header": "Wat zijn de stimuleringsprogramma's?",
+        "desc": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Een nieuwe jij begint met Neumi. Maak je dromen werkelijkheid!"
+  },
+  "note_desc": "De uitspraken op deze website zijn niet geëvalueerd door de Food and Drug Administration. Deze uitspraken en producten zijn niet bedoeld om ziektes te diagnosticeren, behandelen, genezen of voorkomen. De opvattingen en voedingsadviezen van Neumi zijn niet bedoeld voor het verstrekken van medisch advies. Raadpleeg altijd je zorgverlener als je medicijnen gebruikt of medische aandoeningen hebt. Individuele resultaten kunnen variëren."
+}
