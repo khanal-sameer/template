@@ -33,7 +33,7 @@ yarn lang -project=p1,p2 -locale=l1,l2
   - index.html
 
 
-NOTE:  Use this same command to update. For example, if already have `abc` project with locale `en` and `es` and want to add `jp` then you can run `yarn lang -project=abc -locale=jp`. It will update the values without affecting the previously created files.
+NOTE:  Use this same command to update. For example, if you already have `abc` project with locale `en` and `es` and want to add `jp` then you can run `yarn lang -project=abc -locale=jp`. It will update the values without affecting the previously created files.
 
 ## Generation
 
