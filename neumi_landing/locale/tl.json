@@ -1,24 +1,24 @@
 {
-  "title": "Neumi Landing Page",
-  "shop_product_button_text": "Unsere Produkte kaufen",
-  "become_member_button_text": "Mitglied werden",
-  "see_all_product_button_text": "Alle Produkte anzeigen",
-  "see_all_text": "Alle anzeigen",
-  "hide_all_text": "Alle ausblenden",
-  "language":"",
+  "title": "Neumi Landing page",
+  "shop_product_button_text": "Mag-shop ng aming mga produkto",
+  "become_member_button_text": "Maging miyembro",
+  "see_all_product_button_text": "Tingnan ang lahat ng mga produkto",
+  "see_all_text": "Tingnan lahat",
+  "hide_all_text": "Itago ang lahat",
+  "language": "tl",
   "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section":{
-    "title": "Ein neues Ich beginnt mit Neumi",
-    "title_sm": "Das Nano-Unternehmen",
-    "desc": "Verwandeln Sie Ihr Wohlbefinden mit der Kraft der HydraStat™ Nanotechnologie von Neumi."
+    "title": "Ang bagong ikaw ay nagsisimula sa Neumi",
+    "title_sm": "Ang Nano Kompanya",
+    "desc": "Baguhin ang iyong kabutihan gamit ang Kapangyarihan ng HydraStat™ Nanoteknolohiya ng Neumi."
   },
   "asSeenOn": {
-    "title": "As seen on"
+    "title": "Tulad ng nakikita sa"
   },
   "masonary_section":{
-    "title": "Unsere Produktpalette",
-    "desc": "Das Leben ist besser, wenn Sie sich gut fühlen und gut aussehen.",
+    "title": "Ang aming hanay ng mga produkto",
+    "desc": "Mas maganda ang buhay kapag ikaw ay maganda at kumportable.",
     "masonary_product_layout1":{
       "items":[
         {
@@ -26,7 +26,7 @@
           "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
         },
         {
-          "product_name": "Neumi Haut",
+          "product_name": "Neumi Skin",
           "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
         }
       ]
@@ -45,40 +45,40 @@
     }
   },
   "guarantee":{
-    "title": "Die Neumi-Garantie",
-    "desc": "Unabhängig von Ihrem Kontotyp profitieren Sie von:",
-    "alt_text": "Neumi Produkt",
+    "title": "Ang garantiya ng Neumi",
+    "desc":"Anuman ang uri ng account, tiyak kang mag-e-enjoy ng:",
+    "alt_text": "produktong neumi",
     "items": [
       {
-        "title": "Lieben Sie es oder es ist kostenlos",
-        "desc": "Testen Sie unsere Produkte 30 Tage lang risikofrei. Wir sind zuversichtlich, dass Sie unsere Produkte genauso lieben werden wie wir."
+        "title":  "Mahalin mo o libre ito",
+        "desc": "Subukan ang aming mga produkto nang walang risk sa loob ng 30 araw. Kumpiyansa kami na mamahalin mo ang aming mga produkto tulad ng pagmamahal namin dito."
       },
       {
-        "title": "Problemlose Abonnements",
-        "desc": "Müssen Sie einen Monat überspringen oder Ihr Abonnement kündigen? Kein Problem! Bearbeiten Sie jederzeit Ihre Präferenzen und bestellen Sie mit Vertrauen."
+        "title": "Walang abalang mga subscription",
+        "desc": "Kailangan mag-skip ng isang buwan o kanselahin ang iyong subscription? Walang problema! Baguhin ang iyong mga preference anumang oras, at umorder nang may tiwala."
       },
       {
-        "title": "Kostenloses Produkt",
-        "desc": "Bei Bestellungen über $300 erhalten Sie eine kostenlose Flasche, um die Versandkosten auszugleichen."
+        "title": "Libreng produkto",
+        "desc": "Sa mga order na lampas $300, makakatanggap ka ng 1 libreng bote upang mapababa ang mga gastos sa pagpapadala."
       }
     ]
   },
   "performance":{
-    "title_sm": "HydraStat Nanotechnologie™",
-    "title": "Kleine Lieferung, große Leistung",
-    "desc": "Die Moleküle in vielen Nahrungsergänzungsmitteln sind zu groß, um von der Zelle aufgenommen zu werden, sodass sie ungenutzt aus dem Körper ausgeschieden werden. Neumi verwendet die revolutionäre HydraStat Nanotechnologie™, um die Bioverfügbarkeit und Wirksamkeit all seiner Produkte zu erhöhen, indem große Moleküle aufgebrochen und in ultra-reine Wassercluster eingehüllt werden. Unsere nanoskaligen Inhaltsstoffe sind zwischen 10 und 100 Nanometern groß und können vollständig in die menschliche Zelle aufgenommen werden.",
-    "button_text": "Erfahren Sie mehr",
+    "title_sm": "HydraStat Nanotechnology™",
+    "title": "Maliit na delivery, malaking performance",
+    "desc":"Ang mga molekula sa maraming suplemento ay masyadong malaki upang ma-absorb ng selula, kaya sila ay nagiging basura na lamang na inilalabas ng katawan nang hindi epektibo. Ginagamit ng Neumi ang breakthrough na HydraStat Nanotechnology™ upang dagdagan ang bioavailability at epektibong mga produkto sa pamamagitan ng paghiwalay ng malalaking molekula at pag-encapsulate sa mga ito sa ultra-pure water clusters. Ang aming mga sangkap na nanosize ay nasa pagitan ng 10-100 nanometers. Sapat silang maliit upang ma-absorb ng buo sa selula ng tao.",
+    "button_text": "Matuto pa",
     "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
   },
   "video":{
-    "title_sm": "Hydrastat Nanotechnologie™",
-    "title": "Der Neumi-Durchbruch"
+    "title_sm": "Hydrastat Nanotechnology™",
+    "title": "Ang natatanging pag-usad ng Neumi"
   },
   "before_and_after":{
-    "title": "Vorher-Nachher-Vergleich"
+    "title": "Tingnan ang bago at pagkatapos"
   },
   "medical_advisor_board":{
-    "title": "Unser unbezahltes medizinisches Beratungsgremium",
+    "title": "Ang aming hindi sweldohang medical advisory board",
     "items":[
       {
         "name": "Douglas Harrington, MD",
@@ -157,42 +157,43 @@
     ]
   },
   "faq":{
-    "title": "Häufig gestellte Fragen",
+    "title": "Madalas itanong na mga katanungan",
     "items":[
       {
         "class": "acc-item_active",
-        "header": "Ich bin ein bevorzugter Kunde. Wie kann ich bestellen?",
-        "desc": "Der beste Weg ist, auf <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> zu gehen und dort Ihre Bestellung aufzugeben."
+        "header": "Ako ay isang preferred customer. Paano ako mag-oorder?",
+        "desc": "Ang pinakamahusay na paraan ay sa pamamagitan ng <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> at maglagay ng iyong order doon."
       },
       {
         "class": "",
-        "header": "Warum Glutathion?",
+        "header": "Bakit Glutathione?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "Was sollte ich spüren?",
+        "header": "Ano ang dapat kong maramdaman?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "Wann ist die beste Zeit, NutriSwish einzunehmen?",
+        "header": "Ano ang pinakamabuting oras upang uminom ng NutriSwish?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "Woher stammen die Zutaten?",
+        "header": "Saan nanggagaling ang mga sangkap?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "Was ist die beste Gesundheitsfunktion?",
+        "header": "Ano ang pinakamahusay na feature sa kalusugan?",
         "desc": ""
       }
     ]
+
   },
   "cta":{
-    "title": "Ein neues Ich beginnt mit Neumi."
+    "title": "Ang bagong ikaw ay nagsisimula sa Neumi."
   },
-  "note_desc": "Die auf dieser Website gemachten Aussagen wurden nicht von der Food and Drug Administration bewertet. Diese Aussagen und die Produkte dieses Unternehmens sind nicht dazu bestimmt, Krankheiten zu diagnostizieren, zu behandeln, zu heilen oder ihnen vorzubeugen. Die Ansichten und Ernährungsratschläge von Neumi sind nicht als medizinische Beratung gedacht. Bitte konsultieren Sie immer Ihren Arzt, wenn Sie Medikamente einnehmen oder gesundheitliche Probleme haben. Individuelle Ergebnisse können variieren."
+  "note_desc": "Ang mga pahayag na ginawa sa website na ito ay hindi sinuri ng Food and Drug Administration. Ang mga pahayag at produkto ng kumpanyang ito ay hindi inaasahang magamot, gamutin, lunasan o pigilan ang anumang sakit. Ang mga opinyon at payo sa nutrisyon na inilahad ng Neumi ay hindi inaasahang naglalayong magbigay ng medikal na payo. Mangyaring laging kumonsulta sa iyong healthcare provider kung ikaw ay may iniinom na gamot o may anumang kondisyon sa kalusugan. Ang indibidwal na mga resulta ay maaaring mag-iba-iba."
 }

@@ -1,24 +1,22 @@
 {
-  "title": "Neumi Landing oldal",
-  "shop_product_button_text": "Vásárolja meg termékeinket",
-  "become_member_button_text": "Legyen tag",
-  "see_all_product_button_text": "Összes termék megtekintése",
-  "see_all_text": "Összes megtekintése",
-  "hide_all_text": "Összes elrejtése",
-  "language":"",
-  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
-  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
+  "title": "Neumi Landing Page",
+  "shop_product_button_text": "Unsere Produkte kaufen",
+  "become_member_button_text": "Mitglied werden",
+  "see_all_product_button_text": "Alle Produkte anzeigen",
+  "see_all_text": "Alle anzeigen",
+  "hide_all_text": "Alle ausblenden",
+  "language":"de",
   "hero_section":{
-    "title": "Az új én Neumi-vel kezdődik",
-    "title_sm": "A Nano Cég",
-    "desc": "Változtassa meg jólétét Neumi HydraStat™ nanotechnológiájának erejével."
+    "title": "Ein neues Ich beginnt mit Neumi",
+    "title_sm": "Das Nano-Unternehmen",
+    "desc": "Verwandeln Sie Ihr Wohlbefinden mit der Kraft der HydraStat™ Nanotechnologie von Neumi."
   },
   "asSeenOn": {
-    "title": "As seen on"
+    "title": "Bekannt aus"
   },
   "masonary_section":{
-    "title": "Termékkínálatunk",
-    "desc": "Az élet szebb, amikor jobban nézel ki és érzed magad.",
+    "title": "Unsere Produktpalette",
+    "desc": "Das Leben ist besser, wenn Sie sich gut fühlen und gut aussehen.",
     "masonary_product_layout1":{
       "items":[
         {
@@ -26,7 +24,7 @@
           "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
         },
         {
-          "product_name": "Neumi Skin",
+          "product_name": "Neumi Haut",
           "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
         }
       ]
@@ -45,40 +43,40 @@
     }
   },
   "guarantee":{
-    "title": "A Neumi garancia",
-    "desc":"Függetlenül a fiók típusától, élvezheti:",
-    "alt_text": "neumi termék",
+    "title": "Die Neumi-Garantie",
+    "desc": "Unabhängig von Ihrem Kontotyp profitieren Sie von:",
+    "alt_text": "Neumi Produkt",
     "items": [
       {
-        "title":  "Szeresse vagy ingyen kapja vissza",
-        "desc": "Próbálja ki termékeinket 30 napos kockázatmentes próbaidőszakban. Biztosak vagyunk benne, hogy szeretni fogja termékeinket, ahogy mi is."
+        "title": "Lieben Sie es oder es ist kostenlos",
+        "desc": "Testen Sie unsere Produkte 30 Tage lang risikofrei. Wir sind zuversichtlich, dass Sie unsere Produkte genauso lieben werden wie wir."
       },
       {
-        "title": "Problémamentes előfizetés",
-        "desc": "Szüksége van egy hónap kihagyására vagy előfizetésének lemondására? Semmi gond! Bármikor szerkesztheti beállításait és rendelhet bizalommal."
+        "title": "Problemlose Abonnements",
+        "desc": "Müssen Sie einen Monat überspringen oder Ihr Abonnement kündigen? Kein Problem! Bearbeiten Sie jederzeit Ihre Präferenzen und bestellen Sie mit Vertrauen."
       },
       {
-        "title": "Ingyenes termék",
-        "desc": "300 dollár feletti rendelés esetén 1 ingyenes palackot kap ajándékba a szállítási költségek fedezésére."
+        "title": "Kostenloses Produkt",
+        "desc": "Bei Bestellungen über $300 erhalten Sie eine kostenlose Flasche, um die Versandkosten auszugleichen."
       }
     ]
   },
   "performance":{
-    "title_sm": "HydraStat Nanotechnológia™",
-    "title": "Kis méretű szállítás, nagy teljesítmény",
-    "desc":"A molekulák számos kiegészítőben túl nagyok ahhoz, hogy a sejt által felszívódjanak, így hatástalanul kiválasztódnak a szervezetből. A Neumi áttörő HydraStat Nanotechnológiáját használja, hogy növelje termékeinek biológiai hozzáférhetőségét és hatékonyságát, nagy molekulákat lebontva és ultratiszta vízklaszterekbe burkolva. Nanoméretű összetevőink 10-100 nanométer között vannak. Elég kicsik ahhoz, hogy teljes mértékben felszívódjanak az emberi sejtbe.",
-    "button_text": "Tudjon meg többet",
+    "title_sm": "HydraStat Nanotechnologie™",
+    "title": "Kleine Lieferung, große Leistung",
+    "desc": "Die Moleküle in vielen Nahrungsergänzungsmitteln sind zu groß, um von der Zelle aufgenommen zu werden, sodass sie ungenutzt aus dem Körper ausgeschieden werden. Neumi verwendet die revolutionäre HydraStat Nanotechnologie™, um die Bioverfügbarkeit und Wirksamkeit all seiner Produkte zu erhöhen, indem große Moleküle aufgebrochen und in ultra-reine Wassercluster eingehüllt werden. Unsere nanoskaligen Inhaltsstoffe sind zwischen 10 und 100 Nanometern groß und können vollständig in die menschliche Zelle aufgenommen werden.",
+    "button_text": "Erfahren Sie mehr",
     "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
   },
   "video":{
-    "title_sm": "Hydrastat Nanotechnológia™",
-    "title": "A Neumi áttörése"
+    "title_sm": "Hydrastat Nanotechnologie™",
+    "title": "Der Neumi-Durchbruch"
   },
   "before_and_after":{
-    "title": "Nézze meg a előtte és utána"
+    "title": "Vorher-Nachher-Vergleich"
   },
   "medical_advisor_board":{
-    "title": "Fizetés nélküli orvosi tanácsadó testületünk",
+    "title": "Unser unbezahltes medizinisches Beratungsgremium",
     "items":[
       {
         "name": "Douglas Harrington, MD",
@@ -157,43 +155,42 @@
     ]
   },
   "faq":{
-    "title": "Gyakran Ismételt Kérdések",
+    "title": "Häufig gestellte Fragen",
     "items":[
       {
         "class": "acc-item_active",
-        "header": "Preferált ügyfél vagyok. Hogyan rendeljek?",
-        "desc": "A legjobb módszer az, ha ellátogat a <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> weboldalra és ott adja le rendelését."
+        "header": "Ich bin ein bevorzugter Kunde. Wie kann ich bestellen?",
+        "desc": "Der beste Weg ist, auf <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> zu gehen und dort Ihre Bestellung aufzugeben."
       },
       {
         "class": "",
-        "header": "Miért Glutathione?",
+        "header": "Warum Glutathion?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "Mit kellene érezni?",
+        "header": "Was sollte ich spüren?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "Mikor a legjobb idő a NutriSwish bevétele?",
+        "header": "Wann ist die beste Zeit, NutriSwish einzunehmen?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "Honnan származnak az összetevők?",
+        "header": "Woher stammen die Zutaten?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "Mi a legjobb egészségügyi jellemző?",
+        "header": "Was ist die beste Gesundheitsfunktion?",
         "desc": ""
       }
     ]
-
   },
   "cta":{
-    "title": "Az új én Neumi-vel kezdődik."
+    "title": "Ein neues Ich beginnt mit Neumi."
   },
-  "note_desc": "E weboldalon közölt állításokat nem vizsgálta meg az Élelmiszer- és Gyógyszerügyi Hatóság. Ezek az állítások és a cég termékei nem szolgálnak diagnózisra, kezelésre, gyógyításra vagy bármely betegség megelőzésére. A Neumi által kifejtett nézetek és táplálkozási tanácsadás nem orvosi tanácsadás céljából születtek. Kérjük, mindig konzultáljon egészségügyi szolgáltatójával, ha gyógyszereket szed vagy bármilyen egészségügyi problémája van. Az egyéni eredmények eltérhetnek."
+  "note_desc": "Die auf dieser Website gemachten Aussagen wurden nicht von der Food and Drug Administration bewertet. Diese Aussagen und die Produkte dieses Unternehmens sind nicht dazu bestimmt, Krankheiten zu diagnostizieren, zu behandeln, zu heilen oder ihnen vorzubeugen. Die Ansichten und Ernährungsratschläge von Neumi sind nicht als medizinische Beratung gedacht. Bitte konsultieren Sie immer Ihren Arzt, wenn Sie Medikamente einnehmen oder gesundheitliche Probleme haben. Individuelle Ergebnisse können variieren."
 }

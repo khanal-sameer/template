@@ -1,0 +1,92 @@
+{{#tab}}
+  <div class="tab-section clr-bg-white-100 page-section">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>{{title}}</h2>
+      </div>
+
+      <div class="tabs">
+        <div class="tab-nav-section mt-32 is-flex">
+          <ul class="tab-menu" >
+            <li class="active">{{{video_review_title}}}</li>
+            <li>{{{written_review_title}}}</li>
+          </ul>
+        </div>
+        <div class="tab-content">
+          <!-- Video tab content -->
+          <div class="tab-content-item active tab-video-content">
+            <div class="splide tab-slider" id="tab-slider">
+              {{>PrevNext}}
+              <div class="splide__track">
+                <div class="splide__list">
+                  {{#video_list}}
+                    <div class="splide__slide">
+                      <figure>
+                        <img
+                          src="{{image}}"
+                          alt="video thumbnail"
+                        />
+                        <a data-fancybox="" href="{{video}}" class="play-icon">
+                          <svg
+                            width="20"
+                            height="20"
+                            viewBox="0 0 20 20"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M5 2.86688V16.7331C4.99996 16.8873 5.04106 17.0387 5.11906 17.1718C5.19706 17.3048 5.30915 17.4146 5.44374 17.4898C5.57834 17.5651 5.73057 17.603 5.88474 17.5998C6.03891 17.5966 6.18942 17.5523 6.32076 17.4715L17.5871 10.5384C17.7133 10.4608 17.8175 10.3523 17.8898 10.223C17.962 10.0937 18 9.94811 18 9.80001C18 9.6519 17.962 9.50627 17.8898 9.37701C17.8175 9.24775 17.7133 9.13917 17.5871 9.06163L6.32076 2.12851C6.18942 2.04771 6.03891 2.00341 5.88474 2.00019C5.73057 1.99697 5.57834 2.03494 5.44374 2.11019C5.30915 2.18543 5.19706 2.29523 5.11906 2.42825C5.04106 2.56126 4.99996 2.71268 5 2.86688Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </a>
+                      </figure>
+                    </div>
+                  {{/video_list}}
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Review tab content -->
+          <div class="tab-content-item">
+            <div class="reviews">
+              <!-- Review Header section -->
+              <div class="reviews-header is-flex is-center is-alilgn-center gap-16 is-wrap">
+                <div class="average-review text-center">
+                  <div class="is-flex is-center is-align-center col-gap-12">
+                    {{>FiveStarRating}}
+                  </div>
+                  <h4 class="clr-body fw-bold mt-6">{{rating_text}}</h4>
+                  <div class="ratings-count mt-6 fs-sm">{{total_product_review}}</div>
+                </div>
+                <!-- <button class="btn btn-white">Write a review</button> -->
+              </div>
+              <!-- Review List -->
+              <ul class="reviews-list">
+                {{#review_list}}
+                  <li class="is-grid">
+                    <div class="reviewer">
+                      <p class="fw-600">{{reviewer}}</p>
+                      <div class="reviewer-address fs-md clr-body-600">{{address}}</div>
+                      {{>FiveStarRating}}
+                    </div>
+
+                    <div class="reviewer-review">
+                      <div class="review-review_header is-flex is-start gap-8">
+                        <span class="clr-body-600">{{time}}</span>
+                      </div>
+                      <div class="reviewer-review_content clr-body mt-8">{{review_text}}</div>
+                    </div>
+                  </li>
+                {{/review_list}}
+              </ul>
+
+            </div><!--.reviews-->
+          </div><!--.tabs-content_item-->
+        </div>
+
+      </div><!--.tabs-->
+    </div><!--.container---->
+  </div><!--.tab-section-->
+{{/tab}}

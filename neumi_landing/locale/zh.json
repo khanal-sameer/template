@@ -5,7 +5,7 @@
   "see_all_product_button_text": "查看所有产品",
   "see_all_text": "查看全部",
   "hide_all_text": "隐藏全部",
-  "language":"",
+  "language":"zh",
   "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section":{
@@ -14,7 +14,7 @@
     "desc": "利用Neumi的HydraStat™纳米技术，改变您的健康与幸福。"
   },
   "asSeenOn": {
-    "title": "As seen on"
+    "title": "如见于"
   },
   "masonary_section":{
     "title": "我们的产品系列",
