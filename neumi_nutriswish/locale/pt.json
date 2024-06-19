@@ -6,7 +6,7 @@
   "add_to_cart_text": "Adicionar ao carrinho",
   "select_quantity_text": "Selecionar quantidade",
   "all_product_text": "Todos os produtos",
-  "language": "",
+  "language": "pt",
   "subscribe": {
     "subscribe_text":"Assinar",
     "frequency_text": "Selecionar frequência",
@@ -204,4 +204,3 @@
   },
   "note_desc": "As declarações feitas neste site não foram avaliadas pela Food and Drug Administration. Estas declarações e os produtos desta empresa não se destinam a diagnosticar, tratar, curar ou prevenir qualquer doença. As opiniões e conselhos nutricionais expressos por Neumi não têm como objetivo fornecer conselhos médicos. Por favor, sempre consulte seu profissional de saúde se estiver tomando qualquer medicação ou tiver qualquer condição médica. Os resultados individuais podem variar."
 }
-

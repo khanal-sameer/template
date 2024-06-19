@@ -6,7 +6,7 @@
   "add_to_cart_text": "加入购物车",
   "select_quantity_text": "选择数量",
   "all_product_text": "所有产品",
-  "language": "",
+  "language": "zh",
   "subscribe": {
     "subscribe_text":"订阅",
     "frequency_text": "选择频率",
@@ -127,4 +127,3 @@
   },
   "note_desc": "本网站内的陈述尚未经过食品和药物管理局的评估。这些陈述和本公司的产品并非用于诊断、治疗、治愈或预防任何疾病。Neumi表达的观点和营养建议并非旨在提供医疗建议。如果你正在服药或有任何医疗状况，请始终咨询你的医疗保健提供者。个别结果可能会有所不同。"
 }
-

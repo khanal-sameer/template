@@ -6,7 +6,7 @@
   "add_to_cart_text": "Voeg toe aan winkelwagen",
   "select_quantity_text": "Selecteer hoeveelheid",
   "all_product_text": "Alle Producten",
-  "language": "",
+  "language": "nl",
   "subscribe": {
     "subscribe_text":"Abonneren",
     "frequency_text": "Selecteer Frequentie",
@@ -127,4 +127,3 @@
   },
   "note_desc": "De uitspraken op deze website zijn niet geëvalueerd door de Food and Drug Administration. Deze uitspraken en de producten van dit bedrijf zijn niet bedoeld om een ziekte te diagnosticeren, te behandelen, te genezen of te voorkomen. De meningen en voedingsadviezen van Neumi zijn niet bedoeld om medisch advies te geven. Raadpleeg altijd uw zorgverlener als u medicijnen gebruikt of medische aandoeningen heeft. Individuele resultaten kunnen variëren."
 }
-

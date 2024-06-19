@@ -6,7 +6,7 @@
   "add_to_cart_text": "Idagdag sa Cart",
   "select_quantity_text": "Piliin ang Dami",
   "all_product_text": "Lahat ng Produkto",
-  "language": "",
+  "language": "tl",
   "subscribe": {
     "subscribe_text":"Mag-subscribe",
     "frequency_text": "Piliin ang Dalas",
@@ -127,4 +127,3 @@
   },
   "note_desc": "Ang mga pahayag sa website na ito ay hindi nasuri ng Food and Drug Administration. Ang mga pahayag na ito at ang mga produkto ng kumpanyang ito ay hindi inilaan upang mag-diagnose, magpagaling, magpagaling, o maiwasan ang anumang sakit. Ang mga opinyon at nutritional na payo ng Neumi ay hindi inilaan upang magbigay ng medikal na payo. Palaging kumonsulta sa iyong tagapagbigay ng pangangalaga sa kalusugan kung umiinom ka ng gamot o may anumang medikal na kondisyon. Ang mga indibidwal na resulta ay maaaring mag-iba."
 }
-

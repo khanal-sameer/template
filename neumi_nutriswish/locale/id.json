@@ -6,7 +6,7 @@
   "add_to_cart_text": "Tambahkan ke keranjang",
   "select_quantity_text": "Pilih Kuantitas",
   "all_product_text": "Semua Produk",
-  "language": "",
+  "language": "id",
   "subscribe": {
     "subscribe_text":"Berlangganan",
     "frequency_text": "Pilih Frekuensi",
@@ -127,4 +127,3 @@
   },
   "note_desc": "Pernyataan di situs web ini belum dievaluasi oleh Food and Drug Administration. Pernyataan ini dan produk perusahaan ini tidak dimaksudkan untuk mendiagnosis, mengobati, menyembuhkan atau mencegah penyakit apa pun. Pendapat dan saran nutrisi Neumi tidak dimaksudkan untuk memberikan nasihat medis. Selalu berkonsultasi dengan penyedia layanan kesehatan Anda jika Anda menggunakan obat-obatan atau memiliki kondisi medis. Hasil individu mungkin berbeda."
 }
-
