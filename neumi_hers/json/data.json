@@ -139,7 +139,7 @@
     "title": "{{product_benefits.title}}",
     "desc": "{{{product_benefits.desc}}}",
     "alt_text": "{{product_benefits.alt_text}}",
-    "image": "file:///home/kalpana/Downloads/Hers%202%201.png",
+    "image": "https://cdn.fluid.app/neumi/hers/images/benefits.png",
     "items": [
       {
         "title": "{{product_benefits.items.0.title}}",
