@@ -1,0 +1,57 @@
+{{#key_ingredients}}
+  <section class="page-section key-ingredients">
+    <div class="container">
+      <div class="section-title text-center mb-32">
+        <h2 class="clr-body">{{title}}</h2>
+      </div>
+
+      <div class="desktop-view">
+        <div class="is-grid three-cols">
+          <div class="col-item">
+            {{#left_items}}
+              <div class="content-list text-align_right">
+                <div class="content-list_img">
+                  <img src="{{image}}" alt="{{alt_text}}" />
+                </div>
+                <h4 class="mb-4 clr-body">{{title}}</h4>
+                <p class="fs-lg">{{desc}}</p>
+              </div>
+            {{/left_items}}
+          </div>
+
+          <div class="col-item">
+            <img src="{{image}}" alt="{{alt_text2}}" />
+          </div>
+
+          <div class="col-item">
+            {{#right_items}}
+              <div class="content-list">
+                <div class="content-list_img">
+                  <img src="{{image}}" alt="{{alt_text}}" />
+                </div>
+                <h4 class="mb-4 clr-body">{{title}}</h4>
+                <p class="fs-lg">{{desc}}</p>
+              </div>
+            {{/right_items}}
+          </div>
+        </div>
+      </div><!-- .desktop-view -->
+
+      <div class="mobile-view">
+        <div class="is-grid four-cols">
+          {{#mobile_items}}
+            <div class="col-item">
+              <div class="content-list">
+                <div class="content-list_img">
+                  <img src="{{image}}" alt="{{alt_text}}" />
+                </div>
+                <h4 class="mt-8 mb-4 clr-body">{{title}}</h4>
+                <p class="fs-lg">{{desc}}</p>
+              </div>
+            </div>
+          {{/mobile_items}}
+        </div>
+      </div><!-- .mobile-view -->
+    </div>
+  </section>
+{{/key_ingredients}}
