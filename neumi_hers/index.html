@@ -455,7 +455,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   const updateSave = (price, subPrice, currency) => {
     const saved = Number(price - subPrice).toFixed(2);
     const element = document.getElementById("saving");
-    element.textContent = `${saved}`;
+    element.textContent = `${currency}${saved}`;
   };
 
   const updateComponent = (price, subPrice) => {
