@@ -1,65 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{title}}</title>
-    <!-- css library import -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    {{>Style}}
-  </head>
-  <body>
-    <div  class='custom-landing-page neumi-hers-landing-page' id="hers"  data-product="{{product_id}}" style="display: none;">
-      {{>Breadcrumb}}
-      <!-- PRODUCT DESCRIPTION -->
-      {{>ProductDescriptionLayout}}
-
-      <!--As seen section-->
-      {{>AsSeenOn}}
-
-      <!-- Video Section -->
-      {{>VideoLayout}}
-
-      <!-- Tab section -->
-      {{>TabLayout}}
-
-      <!-- Benefits -->
-      {{>BenefitsLayout}}
-
-      <!-- Product List(square image) -->
-      {{>ProductPostListLayout}}
-
-      <!-- Key ingredients section -->
-      {{>KeyIngredientsLayout}}
-
-      <!-- How to use -->
-      {{>HowToUseLayout}}
-      <!-- FAQS  -->
-      {{>FaqAccordionLayout}}
-      <!-- Support -->
-      {{>CTA}}
-    </div>
-
-    <!-- Js library import -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-    <script src="https://fastly.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-
-    <script>
-      $(document).ready(function () {
+$(document).ready(function () {
   // video popup
   $("[data-fancybox]").fancybox({
     youtube: {
@@ -455,7 +394,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   const updateSave = (price, subPrice, currency) => {
     const saved = Number(price - subPrice).toFixed(2);
     const element = document.getElementById("saving");
-    element.textContent = `${saved}`;
+    element.textContent = `{currency}${saved}`;
   };
 
   const updateComponent = (price, subPrice) => {
@@ -481,7 +420,3 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   updateComponent(price, subPrice);
 });
-
-    </script>
-  </body>
-</html>

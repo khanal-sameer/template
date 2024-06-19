@@ -15,7 +15,7 @@
     "discounted_price": "50.00",
     "checklist_items":[
       {
-        "caption": "Subscribe and save <span id='pricing'>$15</span>"
+        "caption": "Subscribe and save <span id='saving'>$15</span>"
       },
       {
         "caption": "Earn Neumi Reward Points"
