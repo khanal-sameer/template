@@ -2,10 +2,11 @@
   "title": "Neuro",
   "product_title": "Neuro",
   "total_product_review": "7 Mga Review",
-  "product_desc": "Ipinapakilala ang Neuro,<span class=\"fw-600\"> ang aming makabagong nano na pormula para sa utak, idinisenyo upang i-optimize ang cognitive function, mapahusay ang focus, at suportahan ang pangkalahatang kalusugan ng utak.</span> Gamit ang parehong advanced HydraStat Nanotechnology tulad ng NutriSwish, tinitiyak ng Neuro ang maximum na pagsipsip at bisa ng mga maingat na piniling sangkap nito.",
+  "product_desc": "Ipinapakilala ang Neuro,<span class='fw-600'> ang aming makabagong nano na pormula para sa utak, idinisenyo upang i-optimize ang cognitive function, mapahusay ang focus, at suportahan ang pangkalahatang kalusugan ng utak.</span> Gamit ang parehong advanced HydraStat Nanotechnology tulad ng NutriSwish, tinitiyak ng Neuro ang maximum na pagsipsip at bisa ng mga maingat na piniling sangkap nito.",
   "add_to_cart_text": "Idagdag sa cart",
   "select_quantity_text": "Pumili ng Dami",
   "all_product_text": "Lahat ng Produkto",
+  "langauge": "tl",
   "subscribe": {
     "subscribe_text": "Mag-subscribe",
     "frequency_text": "Pumili ng Dalas",
@@ -188,19 +189,24 @@
         "desc": "Ang Glutathione ay kayang neutralisahin ang mga free radicals at protektahan ang katawan mula sa kanilang mapanganib na mga epekto. Tumutulong din ito sa pagbawas ng pamamaga, at sinusuportahan ang natural na kakayahan ng katawan na labanan ang impeksyon. Bukod pa rito, ito ay gumaganap ng papel sa synthesis ng mga bagong immune cells, na pinapanatili ang paggana ng iyong immune system sa pinakamataas na antas."
       },
       {
-        "header": "Dagdag na Enerhiya"
+        "header": "Dagdag na Enerhiya",
+        "desc": ""
       },
       {
-        "header": "Pinahusay na Stamina at Tiyaga"
+        "header": "Pinahusay na Stamina at Tiyaga",
+        "desc": ""
       },
       {
-        "header": "Pinahusay na Oras ng Pagbawi ng Ehersisyo"
+        "header": "Pinahusay na Oras ng Pagbawi ng Ehersisyo",
+        "desc": ""
       },
       {
-        "header": "Mas Malinaw na Kaisipan at Pokus"
+        "header": "Mas Malinaw na Kaisipan at Pokus",
+        "desc": ""
       },
       {
-        "header": "Pinahusay na Kalidad at Haba ng Buhay"
+        "header": "Pinahusay na Kalidad at Haba ng Buhay",
+        "desc": ""
       }
     ]
   },

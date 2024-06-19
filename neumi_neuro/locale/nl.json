@@ -2,10 +2,11 @@
   "title": "Neuro",
   "product_title": "Neuro",
   "total_product_review": "7 Beoordelingen",
-  "product_desc": "Introductie van Neuro,<span class=\"fw-600\"> onze baanbrekende nanoformule voor de hersenen, ontworpen om de cognitieve functie te optimaliseren, de focus te verbeteren en de algehele hersengezondheid te ondersteunen.</span> Met dezelfde geavanceerde HydraStat Nanotechnologie als NutriSwish, zorgt Neuro voor maximale absorptie en effectiviteit van zijn zorgvuldig geselecteerde ingrediënten.",
+  "product_desc": "Introductie van Neuro,<span class='fw-600'> onze baanbrekende nanoformule voor de hersenen, ontworpen om de cognitieve functie te optimaliseren, de focus te verbeteren en de algehele hersengezondheid te ondersteunen.</span> Met dezelfde geavanceerde HydraStat Nanotechnologie als NutriSwish, zorgt Neuro voor maximale absorptie en effectiviteit van zijn zorgvuldig geselecteerde ingrediënten.",
   "add_to_cart_text": "In winkelwagen",
   "select_quantity_text": "Aantal selecteren",
   "all_product_text": "Alle Producten",
+  "langauge": "nl",
   "subscribe": {
     "subscribe_text": "Abonneren",
     "frequency_text": "Frequentie selecteren",
@@ -188,19 +189,24 @@
         "desc": "Glutathion kan vrije radicalen neutraliseren en het lichaam beschermen tegen hun schadelijke effecten. Het helpt ook om ontstekingen te verminderen en ondersteunt het natuurlijke vermogen van het lichaam om infecties te bestrijden. Daarnaast speelt het een rol bij de synthese van nieuwe immuuncellen, waardoor het immuunsysteem optimaal functioneert."
       },
       {
-        "header": "Verhoogde energie"
+        "header": "Verhoogde energie",
+        "desc": ""
       },
       {
-        "header": "Verbeterd uithoudingsvermogen"
+        "header": "Verbeterd uithoudingsvermogen",
+        "desc": ""
       },
       {
-        "header": "Verbeterde hersteltijden na het sporten"
+        "header": "Verbeterde hersteltijden na het sporten",
+        "desc": ""
       },
       {
-        "header": "Grotere mentale helderheid en focus"
+        "header": "Grotere mentale helderheid en focus",
+        "desc": ""
       },
       {
-        "header": "Verbeterde kwaliteit en duur van het leven"
+        "header": "Verbeterde kwaliteit en duur van het leven",
+        "desc": ""
       }
     ]
   },

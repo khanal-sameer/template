@@ -2,10 +2,11 @@
   "title": "Neuro",
   "product_title": "Neuro",
   "total_product_review": "7 Bewertungen",
-  "product_desc": "Einführung von Neuro,<span class=\"fw-600\"> unserer bahnbrechenden Nano-Gehirnformel, die entwickelt wurde, um die kognitive Funktion zu optimieren, die Konzentration zu verbessern und die allgemeine Gehirngesundheit zu unterstützen.</span> Mit derselben fortschrittlichen HydraStat Nanotechnology wie NutriSwish sorgt Neuro für maximale Absorption und Wirksamkeit seiner sorgfältig ausgewählten Inhaltsstoffe.",
+  "product_desc": "Einführung von Neuro,<span class='fw-600'> unserer bahnbrechenden Nano-Gehirnformel, die entwickelt wurde, um die kognitive Funktion zu optimieren, die Konzentration zu verbessern und die allgemeine Gehirngesundheit zu unterstützen.</span> Mit derselben fortschrittlichen HydraStat Nanotechnology wie NutriSwish sorgt Neuro für maximale Absorption und Wirksamkeit seiner sorgfältig ausgewählten Inhaltsstoffe.",
   "add_to_cart_text": "In den Warenkorb",
   "select_quantity_text": "Menge auswählen",
   "all_product_text": "Alle Produkte",
+  "langauge": "de",
   "subscribe": {
     "subscribe_text": "Abonnieren",
     "frequency_text": "Häufigkeit auswählen",
@@ -188,19 +189,24 @@
         "desc": "Glutathion kann freie Radikale neutralisieren und den Körper vor ihren schädlichen Auswirkungen schützen. Es hilft auch, Entzündungen zu reduzieren und unterstützt die natürliche Fähigkeit des Körpers, Infektionen abzuwehren. Darüber hinaus spielt es eine Rolle bei der Synthese neuer Immunzellen, wodurch das Immunsystem optimal funktioniert."
       },
       {
-        "header": "Erhöhte Energie"
+        "header": "Erhöhte Energie",
+        "desc": ""
       },
       {
-        "header": "Verbesserte Ausdauer und Durchhaltevermögen"
+        "header": "Verbesserte Ausdauer und Durchhaltevermögen",
+        "desc": ""
       },
       {
-        "header": "Verkürzte Erholungszeiten nach dem Training"
+        "header": "Verkürzte Erholungszeiten nach dem Training",
+        "desc": ""
       },
       {
-        "header": "Größere geistige Klarheit und Konzentration"
+        "header": "Größere geistige Klarheit und Konzentration",
+        "desc": ""
       },
       {
-        "header": "Verbesserte Lebensqualität und Lebensdauer"
+        "header": "Verbesserte Lebensqualität und Lebensdauer",
+        "desc": ""
       }
     ]
   },

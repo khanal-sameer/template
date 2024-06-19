@@ -2,10 +2,11 @@
   "title": "Neuro",
   "product_title": "Neuro",
   "total_product_review": "7 Reviews",
-  "product_desc": "Introducing Neuro,<span class=\"fw-600\"> our groundbreaking nano brain formula, designed to optimize cognitive function, enhance focus, and support overall brain health.</span> Utilizing the same advanced HydraStat Nanotechnology as NutriSwish, Neuro ensures maximum absorption and efficacy of its meticulously selected ingredients.",
+  "product_desc": "Introducing Neuro,<span class='fw-600'> our groundbreaking nano brain formula, designed to optimize cognitive function, enhance focus, and support overall brain health.</span> Utilizing the same advanced HydraStat Nanotechnology as NutriSwish, Neuro ensures maximum absorption and efficacy of its meticulously selected ingredients.",
   "add_to_cart_text": "Add to cart",
   "select_quantity_text": "Select Quantity",
   "all_product_text": "All Products",
+  "langauge": "en",
   "subscribe": {
     "subscribe_text": "Subscribe",
     "frequency_text": "Select Frequency",
@@ -188,19 +189,24 @@
         "desc": "Glutathione is able to neutralize free radicals and protect the body from their harmful effects.It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
       },
       {
-        "header": "Increased Energy"
+        "header": "Increased Energy",
+        "desc": ""
       },
       {
-        "header": "Enhanced Stamina and Endurance"
+        "header": "Enhanced Stamina and Endurance",
+        "desc": ""
       },
       {
-        "header": "Improved Exercise Recovery Times"
+        "header": "Improved Exercise Recovery Times",
+        "desc": ""
       },
       {
-        "header": "Greater Mental Clarity and Focus"
+        "header": "Greater Mental Clarity and Focus",
+        "desc": ""
       },
       {
-        "header": "Enhanced Quality and Length of Life"
+        "header": "Enhanced Quality and Length of Life",
+        "desc": ""
       }
     ]
   },

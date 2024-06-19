@@ -2,10 +2,11 @@
   "title": "Neuro",
   "product_title": "Neuro",
   "total_product_review": "7 条评价",
-  "product_desc": "介绍Neuro,<span class=\"fw-600\">我们突破性的纳米大脑配方，旨在优化认知功能，增强注意力，并支持整体大脑健康。</span> 使用与NutriSwish相同的先进HydraStat纳米技术，Neuro确保其精心挑选的成分最大限度地吸收和效果。",
+  "product_desc": "介绍Neuro,<span class='fw-600'>我们突破性的纳米大脑配方，旨在优化认知功能，增强注意力，并支持整体大脑健康。</span> 使用与NutriSwish相同的先进HydraStat纳米技术，Neuro确保其精心挑选的成分最大限度地吸收和效果。",
   "add_to_cart_text": "加入购物车",
   "select_quantity_text": "选择数量",
   "all_product_text": "所有产品",
+  "langauge": "zh",
   "subscribe": {
     "subscribe_text": "订阅",
     "frequency_text": "选择频率",
@@ -188,19 +189,24 @@
         "desc": "谷胱甘肽能够中和自由基并保护身体免受其有害影响。它还帮助减少炎症，并支持身体的自然抗感染能力。此外，它在新免疫细胞的合成中发挥作用，使您的免疫系统保持最佳状态。"
       },
       {
-        "header": "增加能量"
+        "header": "增加能量",
+        "desc": ""
       },
       {
-        "header": "增强耐力和持久力"
+        "header": "增强耐力和持久力",
+        "desc": ""
       },
       {
-        "header": "改善运动恢复时间"
+        "header": "改善运动恢复时间",
+        "desc": ""
       },
       {
-        "header": "提高心理清晰度和专注力"
+        "header": "提高心理清晰度和专注力",
+        "desc": ""
       },
       {
-        "header": "提高生活质量和寿命"
+        "header": "提高生活质量和寿命",
+        "desc": ""
       }
     ]
   },

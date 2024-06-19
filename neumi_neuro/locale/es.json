@@ -2,10 +2,11 @@
   "title": "Neuro",
   "product_title": "Neuro",
   "total_product_review": "7 Reseñas",
-  "product_desc": "Presentamos Neuro,<span class=\"fw-600\"> nuestra innovadora fórmula nano para el cerebro, diseñada para optimizar la función cognitiva, mejorar el enfoque y apoyar la salud general del cerebro.</span> Utilizando la misma avanzada Nanotecnología HydraStat que NutriSwish, Neuro asegura la máxima absorción y eficacia de sus ingredientes meticulosamente seleccionados.",
+  "product_desc": "Presentamos Neuro,<span class='fw-600'> nuestra innovadora fórmula nano para el cerebro, diseñada para optimizar la función cognitiva, mejorar el enfoque y apoyar la salud general del cerebro.</span> Utilizando la misma avanzada Nanotecnología HydraStat que NutriSwish, Neuro asegura la máxima absorción y eficacia de sus ingredientes meticulosamente seleccionados.",
   "add_to_cart_text": "Agregar al carrito",
   "select_quantity_text": "Seleccionar Cantidad",
   "all_product_text": "Todos los Productos",
+  "langauge": "es",
   "subscribe": {
     "subscribe_text": "Suscribirse",
     "frequency_text": "Seleccionar Frecuencia",
@@ -188,19 +189,24 @@
         "desc": "El glutatión es capaz de neutralizar los radicales libres y proteger el cuerpo de sus efectos nocivos. También ayuda a reducir la inflamación y apoya la capacidad natural del cuerpo para combatir las infecciones. Además, juega un papel en la síntesis de nuevas células inmunitarias, manteniendo el sistema inmunológico en su mejor funcionamiento."
       },
       {
-        "header": "Aumento de Energía"
+        "header": "Aumento de Energía",
+        "desc": ""
       },
       {
-        "header": "Mayor Resistencia y Aguante"
+        "header": "Mayor Resistencia y Aguante",
+        "desc": ""
       },
       {
-        "header": "Mejora de los Tiempos de Recuperación del Ejercicio"
+        "header": "Mejora de los Tiempos de Recuperación del Ejercicio",
+        "desc": ""
       },
       {
-        "header": "Mayor Claridad Mental y Enfoque"
+        "header": "Mayor Claridad Mental y Enfoque",
+        "desc": ""
       },
       {
-        "header": "Mejora de la Calidad y la Duración de la Vida"
+        "header": "Mejora de la Calidad y la Duración de la Vida",
+        "desc": ""
       }
     ]
   },

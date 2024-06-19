@@ -2,10 +2,11 @@
   "title": "Neuro",
   "product_title": "Neuro",
   "total_product_review": "7 Avis",
-  "product_desc": "Présentation de Neuro,<span class=\"fw-600\"> notre formule révolutionnaire pour le cerveau en nano, conçue pour optimiser la fonction cognitive, améliorer la concentration et soutenir la santé globale du cerveau.</span> Utilisant la même Nanotechnologie HydraStat avancée que NutriSwish, Neuro assure une absorption maximale et une efficacité de ses ingrédients soigneusement sélectionnés.",
+  "product_desc": "Présentation de Neuro,<span class='fw-600'> notre formule révolutionnaire pour le cerveau en nano, conçue pour optimiser la fonction cognitive, améliorer la concentration et soutenir la santé globale du cerveau.</span> Utilisant la même Nanotechnologie HydraStat avancée que NutriSwish, Neuro assure une absorption maximale et une efficacité de ses ingrédients soigneusement sélectionnés.",
   "add_to_cart_text": "Ajouter au panier",
   "select_quantity_text": "Sélectionner la quantité",
   "all_product_text": "Tous les produits",
+  "langauge": "fr",
   "subscribe": {
     "subscribe_text": "S'abonner",
     "frequency_text": "Sélectionner la fréquence",
@@ -188,19 +189,24 @@
         "desc": "Le glutathion est capable de neutraliser les radicaux libres et de protéger le corps de leurs effets nocifs. Il aide également à réduire l'inflammation et soutient la capacité naturelle du corps à combattre les infections. De plus, il joue un rôle dans la synthèse de nouvelles cellules immunitaires, maintenant le système immunitaire à son meilleur."
       },
       {
-        "header": "Augmentation de l'énergie"
+        "header": "Augmentation de l'énergie",
+        "desc": ""
       },
       {
-        "header": "Amélioration de l'endurance et de la résistance"
+        "header": "Amélioration de l'endurance et de la résistance",
+        "desc": ""
       },
       {
-        "header": "Amélioration des temps de récupération après l'exercice"
+        "header": "Amélioration des temps de récupération après l'exercice",
+        "desc": ""
       },
       {
-        "header": "Plus grande clarté mentale et concentration"
+        "header": "Plus grande clarté mentale et concentration",
+        "desc": ""
       },
       {
-        "header": "Amélioration de la qualité et de la durée de vie"
+        "header": "Amélioration de la qualité et de la durée de vie",
+        "desc": ""
       }
     ]
   },

@@ -2,10 +2,11 @@
   "title": "Neuro",
   "product_title": "Neuro",
   "total_product_review": "7 Avaliações",
-  "product_desc": "Apresentando o Neuro,<span class=\"fw-600\"> nossa fórmula revolucionária de nano cérebro, projetada para otimizar a função cognitiva, melhorar o foco e apoiar a saúde geral do cérebro.</span> Utilizando a mesma avançada Nanotecnologia HydraStat que o NutriSwish, o Neuro garante máxima absorção e eficácia de seus ingredientes meticulosamente selecionados.",
+  "product_desc": "Apresentando o Neuro,<span class='fw-600'> nossa fórmula revolucionária de nano cérebro, projetada para otimizar a função cognitiva, melhorar o foco e apoiar a saúde geral do cérebro.</span> Utilizando a mesma avançada Nanotecnologia HydraStat que o NutriSwish, o Neuro garante máxima absorção e eficácia de seus ingredientes meticulosamente selecionados.",
   "add_to_cart_text": "Adicionar ao carrinho",
   "select_quantity_text": "Selecionar Quantidade",
   "all_product_text": "Todos os Produtos",
+  "langauge": "pt",
   "subscribe": {
     "subscribe_text": "Assinar",
     "frequency_text": "Selecionar Frequência",
@@ -188,19 +189,24 @@
         "desc": "A glutationa é capaz de neutralizar os radicais livres e proteger o corpo de seus efeitos nocivos. Também ajuda a reduzir a inflamação e apoia a capacidade natural do corpo de combater infecções. Além disso, desempenha um papel na síntese de novas células imunológicas, mantendo seu sistema imunológico funcionando da melhor forma."
       },
       {
-        "header": "Aumento de Energia"
+        "header": "Aumento de Energia",
+        "desc": ""
       },
       {
-        "header": "Maior Resistência e Endurance"
+        "header": "Maior Resistência e Endurance",
+        "desc": ""
       },
       {
-        "header": "Melhores Tempos de Recuperação do Exercício"
+        "header": "Melhores Tempos de Recuperação do Exercício",
+        "desc": ""
       },
       {
-        "header": "Maior Clareza e Foco Mental"
+        "header": "Maior Clareza e Foco Mental",
+        "desc": ""
       },
       {
-        "header": "Maior Qualidade e Longevidade de Vida"
+        "header": "Maior Qualidade e Longevidade de Vida",
+        "desc": ""
       }
     ]
   },
@@ -212,4 +218,3 @@
   },
   "note_desc": "As declarações feitas neste site não foram avaliadas pela Food and Drug Administration. Estas declarações e os produtos desta empresa não se destinam a diagnosticar, tratar, curar ou prevenir qualquer doença. As opiniões e conselhos nutricionais expressos pela Neumi não se destinam a fornecer aconselhamento médico. Consulte sempre seu profissional de saúde se estiver tomando qualquer medicação ou tiver alguma condição médica. Os resultados individuais podem variar."
 }
-

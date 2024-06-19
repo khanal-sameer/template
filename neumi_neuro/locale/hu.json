@@ -2,10 +2,11 @@
   "title": "Neuro",
   "product_title": "Neuro",
   "total_product_review": "7 Értékelés",
-  "product_desc": "Bemutatjuk a Neuro-t,<span class=\"fw-600\"> áttörő nano agyformulánkat, amelyet a kognitív funkciók optimalizálására, a fókusz javítására és az agy általános egészségének támogatására terveztünk.</span> Ugyanazt az előrehaladott HydraStat Nanotechnológiát használva, mint a NutriSwish, a Neuro biztosítja a maximális felszívódást és hatékonyságot gondosan kiválasztott összetevőinek.",
+  "product_desc": "Bemutatjuk a Neuro-t,<span class='fw-600'> áttörő nano agyformulánkat, amelyet a kognitív funkciók optimalizálására, a fókusz javítására és az agy általános egészségének támogatására terveztünk.</span> Ugyanazt az előrehaladott HydraStat Nanotechnológiát használva, mint a NutriSwish, a Neuro biztosítja a maximális felszívódást és hatékonyságot gondosan kiválasztott összetevőinek.",
   "add_to_cart_text": "Kosárba",
   "select_quantity_text": "Mennyiség kiválasztása",
   "all_product_text": "Minden termék",
+  "langauge": "hu",
   "subscribe": {
     "subscribe_text": "Feliratkozás",
     "frequency_text": "Gyakoriság kiválasztása",
@@ -188,19 +189,24 @@
         "desc": "A glutation képes semlegesíteni a szabad gyököket és megvédeni a testet azok káros hatásaitól. Segít továbbá a gyulladás csökkentésében és támogatja a test természetes képességét a fertőzések leküzdésére. Emellett szerepet játszik az új immunsejtek szintézisében, az immunrendszer működésének fenntartásában."
       },
       {
-        "header": "Növelt energia"
+        "header": "Növelt energia",
+        "desc": ""
       },
       {
-        "header": "Fokozott állóképesség és kitartás"
+        "header": "Fokozott állóképesség és kitartás",
+        "desc": ""
       },
       {
-        "header": "Javított edzés utáni felépülési idők"
+        "header": "Javított edzés utáni felépülési idők",
+        "desc": ""
       },
       {
-        "header": "Nagyobb mentális tisztaság és fókusz"
+        "header": "Nagyobb mentális tisztaság és fókusz",
+        "desc": ""
       },
       {
-        "header": "Javított életminőség és élettartam"
+        "header": "Javított életminőség és élettartam",
+        "desc": ""
       }
     ]
   },

@@ -2,10 +2,11 @@
   "title": "Neuro",
   "product_title": "Neuro",
   "total_product_review": "7 Recensioni",
-  "product_desc": "Presentiamo Neuro,<span class=\"fw-600\"> la nostra rivoluzionaria formula per il cervello in nano, progettata per ottimizzare la funzione cognitiva, migliorare la concentrazione e sostenere la salute generale del cervello.</span> Utilizzando la stessa Nanotecnologia HydraStat avanzata di NutriSwish, Neuro garantisce la massima assorbimento ed efficacia dei suoi ingredienti accuratamente selezionati.",
+  "product_desc": "Presentiamo Neuro,<span class='fw-600'> la nostra rivoluzionaria formula per il cervello in nano, progettata per ottimizzare la funzione cognitiva, migliorare la concentrazione e sostenere la salute generale del cervello.</span> Utilizzando la stessa Nanotecnologia HydraStat avanzata di NutriSwish, Neuro garantisce la massima assorbimento ed efficacia dei suoi ingredienti accuratamente selezionati.",
   "add_to_cart_text": "Aggiungi al carrello",
   "select_quantity_text": "Seleziona la quantità",
   "all_product_text": "Tutti i prodotti",
+  "langauge": "it",
   "subscribe": {
     "subscribe_text": "Abbonati",
     "frequency_text": "Seleziona la frequenza",
@@ -188,19 +189,24 @@
         "desc": "Il glutatione è in grado di neutralizzare i radicali liberi e proteggere il corpo dai loro effetti dannosi. Aiuta anche a ridurre l'infiammazione e supporta la capacità naturale del corpo di combattere le infezioni. Inoltre, gioca un ruolo nella sintesi di nuove cellule immunitarie, mantenendo il sistema immunitario al meglio."
       },
       {
-        "header": "Aumento di energia"
+        "header": "Aumento di energia",
+        "desc": ""
       },
       {
-        "header": "Miglioramento della resistenza e della durata"
+        "header": "Miglioramento della resistenza e della durata",
+        "desc": ""
       },
       {
-        "header": "Miglioramento dei tempi di recupero dall'esercizio"
+        "header": "Miglioramento dei tempi di recupero dall'esercizio",
+        "desc": ""
       },
       {
-        "header": "Maggiore chiarezza mentale e concentrazione"
+        "header": "Maggiore chiarezza mentale e concentrazione",
+        "desc": ""
       },
       {
-        "header": "Miglioramento della qualità e della durata della vita"
+        "header": "Miglioramento della qualità e della durata della vita",
+        "desc": ""
       }
     ]
   },

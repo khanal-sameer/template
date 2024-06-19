@@ -2,10 +2,11 @@
   "title": "Neuro",
   "product_title": "Neuro",
   "total_product_review": "7 Ulasan",
-  "product_desc": "Memperkenalkan Neuro,<span class=\"fw-600\"> formula otak nano terbaru kami, dirancang untuk mengoptimalkan fungsi kognitif, meningkatkan fokus, dan mendukung kesehatan otak secara keseluruhan.</span> Dengan menggunakan teknologi HydraStat Nanotechnology canggih yang sama seperti NutriSwish, Neuro memastikan penyerapan maksimal dan efektivitas bahan-bahan yang dipilih dengan cermat.",
+  "product_desc": "Memperkenalkan Neuro,<span class='fw-600'> formula otak nano terbaru kami, dirancang untuk mengoptimalkan fungsi kognitif, meningkatkan fokus, dan mendukung kesehatan otak secara keseluruhan.</span> Dengan menggunakan teknologi HydraStat Nanotechnology canggih yang sama seperti NutriSwish, Neuro memastikan penyerapan maksimal dan efektivitas bahan-bahan yang dipilih dengan cermat.",
   "add_to_cart_text": "Tambah ke keranjang",
   "select_quantity_text": "Pilih Kuantitas",
   "all_product_text": "Semua Produk",
+  "langauge": "id",
   "subscribe": {
     "subscribe_text": "Berlangganan",
     "frequency_text": "Pilih Frekuensi",
@@ -188,19 +189,24 @@
         "desc": "Glutathione dapat menetralisir radikal bebas dan melindungi tubuh dari efek berbahaya mereka. Ini juga membantu mengurangi peradangan, dan mendukung kemampuan alami tubuh untuk melawan infeksi. Selain itu, berperan dalam sintesis sel-sel kekebalan baru, menjaga sistem kekebalan tubuh berfungsi dengan baik."
       },
       {
-        "header": "Peningkatan Energi"
+        "header": "Peningkatan Energi",
+        "desc": ""
       },
       {
-        "header": "Stamina dan Daya Tahan yang Ditingkatkan"
+        "header": "Stamina dan Daya Tahan yang Ditingkatkan",
+        "desc": ""
       },
       {
-        "header": "Waktu Pemulihan Latihan yang Ditingkatkan"
+        "header": "Waktu Pemulihan Latihan yang Ditingkatkan",
+        "desc": ""
       },
       {
-        "header": "Kejelasan dan Fokus Mental yang Lebih Besar"
+        "header": "Kejelasan dan Fokus Mental yang Lebih Besar",
+        "desc": ""
       },
       {
-        "header": "Kualitas dan Panjang Hidup yang Diting katkan"
+        "header": "Kualitas dan Panjang Hidup yang Diting katkan",
+        "desc": ""
 }
 ]
 },
