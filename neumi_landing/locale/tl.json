@@ -1,24 +1,24 @@
 {
-  "title": "Página de inicio de Neumi",
-  "shop_product_button_text": "Compra nuestros productos",
-  "become_member_button_text": "Hazte miembro",
-  "see_all_product_button_text": "Ver todos los productos",
-  "see_all_text": "Ver todo",
-  "hide_all_text": "Ocultar todo",
-  "language":"es",
+  "title": "Neumi Landing page",
+  "shop_product_button_text": "Mag-shop ng aming mga produkto",
+  "become_member_button_text": "Maging miyembro",
+  "see_all_product_button_text": "Tingnan ang lahat ng mga produkto",
+  "see_all_text": "Tingnan lahat",
+  "hide_all_text": "Itago ang lahat",
+  "language": "tl",
   "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section":{
-    "title": "Un nuevo tú comienza con Neumi",
-    "title_sm": "La Compañía Nano",
-    "desc": "Transforma tu bienestar con el poder de la nanotecnología HydraStat™ de Neumi."
+    "title": "Ang bagong ikaw ay nagsisimula sa Neumi",
+    "title_sm": "Ang Nano Kompanya",
+    "desc": "Baguhin ang iyong kabutihan gamit ang Kapangyarihan ng HydraStat™ Nanoteknolohiya ng Neumi."
   },
   "asSeenOn": {
-    "title": "Como se ve en"
+    "title": "Tulad ng nakikita sa"
   },
   "masonary_section":{
-    "title": "Nuestra línea de productos",
-    "desc": "La vida es mejor cuando te ves y te sientes bien.",
+    "title": "Ang aming hanay ng mga produkto",
+    "desc": "Mas maganda ang buhay kapag ikaw ay maganda at kumportable.",
     "masonary_product_layout1":{
       "items":[
         {
@@ -45,40 +45,40 @@
     }
   },
   "guarantee":{
-    "title": "La garantía Neumi",
-    "desc":"Independientemente del tipo de cuenta, disfrutarás de:",
-    "alt_text": "producto de Neumi",
+    "title": "Ang garantiya ng Neumi",
+    "desc":"Anuman ang uri ng account, tiyak kang mag-e-enjoy ng:",
+    "alt_text": "produktong neumi",
     "items": [
       {
-        "title":  "Te encanta o es gratis",
-        "desc": "Prueba nuestros productos durante 30 días sin riesgos. Estamos seguros de que te encantarán tanto como a nosotros."
+        "title":  "Mahalin mo o libre ito",
+        "desc": "Subukan ang aming mga produkto nang walang risk sa loob ng 30 araw. Kumpiyansa kami na mamahalin mo ang aming mga produkto tulad ng pagmamahal namin dito."
       },
       {
-        "title": "Suscripciones sin complicaciones",
-        "desc": "¿Necesitas omitir un mes o cancelar tu suscripción? ¡No hay problema! Edita tus preferencias en cualquier momento y realiza pedidos con confianza."
+        "title": "Walang abalang mga subscription",
+        "desc": "Kailangan mag-skip ng isang buwan o kanselahin ang iyong subscription? Walang problema! Baguhin ang iyong mga preference anumang oras, at umorder nang may tiwala."
       },
       {
-        "title": "Producto gratuito",
-        "desc": "Con pedidos superiores a $300, recibirás una botella gratuita para compensar los costos de envío."
+        "title": "Libreng produkto",
+        "desc": "Sa mga order na lampas $300, makakatanggap ka ng 1 libreng bote upang mapababa ang mga gastos sa pagpapadala."
       }
     ]
   },
   "performance":{
-    "title_sm": "Nanotecnología HydraStat™",
-    "title": "Pequeña entrega, gran rendimiento",
-    "desc":"Las moléculas en muchos suplementos son demasiado grandes para ser absorbidas por la célula, por lo que se excretan del cuerpo sin ser utilizadas de manera efectiva. Neumi utiliza la revolucionaria nanotecnología HydraStat™ para aumentar la biodisponibilidad y efectividad de todos sus productos al descomponer moléculas grandes y envolverlas en clusters de agua ultra pura. Nuestros ingredientes de tamaño nano están entre 10 y 100 nanómetros, lo suficientemente pequeños para ser completamente absorbidos por la célula humana.",
-    "button_text": "Más información",
+    "title_sm": "HydraStat Nanotechnology™",
+    "title": "Maliit na delivery, malaking performance",
+    "desc":"Ang mga molekula sa maraming suplemento ay masyadong malaki upang ma-absorb ng selula, kaya sila ay nagiging basura na lamang na inilalabas ng katawan nang hindi epektibo. Ginagamit ng Neumi ang breakthrough na HydraStat Nanotechnology™ upang dagdagan ang bioavailability at epektibong mga produkto sa pamamagitan ng paghiwalay ng malalaking molekula at pag-encapsulate sa mga ito sa ultra-pure water clusters. Ang aming mga sangkap na nanosize ay nasa pagitan ng 10-100 nanometers. Sapat silang maliit upang ma-absorb ng buo sa selula ng tao.",
+    "button_text": "Matuto pa",
     "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
   },
   "video":{
-    "title_sm": "Nanotecnología HydraStat™",
-    "title": "El avance de Neumi"
+    "title_sm": "Hydrastat Nanotechnology™",
+    "title": "Ang natatanging pag-usad ng Neumi"
   },
   "before_and_after":{
-    "title": "Ver antes y después"
+    "title": "Tingnan ang bago at pagkatapos"
   },
   "medical_advisor_board":{
-    "title": "Nuestro consejo médico no remunerado",
+    "title": "Ang aming hindi sweldohang medical advisory board",
     "items":[
       {
         "name": "Douglas Harrington, MD",
@@ -157,43 +157,43 @@
     ]
   },
   "faq":{
-    "title": "Preguntas frecuentes",
-    "icon_class": "clr-primary",
+    "title": "Madalas itanong na mga katanungan",
     "items":[
       {
         "class": "acc-item_active",
-        "header": "Soy un cliente preferencial. ¿Cómo hago un pedido?",
-        "desc": "La mejor manera es visitando <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> y realizando tu pedido ahí."
+        "header": "Ako ay isang preferred customer. Paano ako mag-oorder?",
+        "desc": "Ang pinakamahusay na paraan ay sa pamamagitan ng <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> at maglagay ng iyong order doon."
       },
       {
         "class": "",
-        "header": "¿Por qué Glutatión?",
+        "header": "Bakit Glutathione?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "¿Qué debería sentir?",
+        "header": "Ano ang dapat kong maramdaman?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "¿Cuál es el mejor momento para tomar NutriSwish?",
+        "header": "Ano ang pinakamabuting oras upang uminom ng NutriSwish?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "¿De dónde se obtienen los ingredientes?",
+        "header": "Saan nanggagaling ang mga sangkap?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "¿Cuál es la mejor característica de salud?",
+        "header": "Ano ang pinakamahusay na feature sa kalusugan?",
         "desc": ""
       }
     ]
+
   },
   "cta":{
-    "title": "Un nuevo tú comienza con Neumi."
+    "title": "Ang bagong ikaw ay nagsisimula sa Neumi."
   },
-  "note_desc": "Las declaraciones hechas en este sitio web no han sido evaluadas por la Administración de Alimentos y Medicamentos. Estas declaraciones y los productos de esta compañía no tienen la intención de diagnosticar, tratar, curar o prevenir ninguna enfermedad. Las opiniones y consejos nutricionales expresados por Neumi no tienen la intención de proporcionar asesoramiento médico. Consulta siempre a tu proveedor de atención médica si estás tomando algún medicamento o tienes alguna condición médica. Los resultados individuales pueden variar."
+  "note_desc": "Ang mga pahayag na ginawa sa website na ito ay hindi sinuri ng Food and Drug Administration. Ang mga pahayag at produkto ng kumpanyang ito ay hindi inaasahang magamot, gamutin, lunasan o pigilan ang anumang sakit. Ang mga opinyon at payo sa nutrisyon na inilahad ng Neumi ay hindi inaasahang naglalayong magbigay ng medikal na payo. Mangyaring laging kumonsulta sa iyong healthcare provider kung ikaw ay may iniinom na gamot o may anumang kondisyon sa kalusugan. Ang indibidwal na mga resulta ay maaaring mag-iba-iba."
 }

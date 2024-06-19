@@ -1,24 +1,24 @@
 {
-  "title": "Página de inicio de Neumi",
-  "shop_product_button_text": "Compra nuestros productos",
-  "become_member_button_text": "Hazte miembro",
-  "see_all_product_button_text": "Ver todos los productos",
-  "see_all_text": "Ver todo",
-  "hide_all_text": "Ocultar todo",
-  "language":"es",
+  "title": "Halaman Landing Neumi",
+  "shop_product_button_text": "Belanja produk kami",
+  "become_member_button_text": "Menjadi anggota",
+  "see_all_product_button_text": "Lihat semua produk",
+  "see_all_text": "Lihat semua",
+  "hide_all_text": "Sembunyikan semua",
+  "language":"id",
   "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section":{
-    "title": "Un nuevo tú comienza con Neumi",
-    "title_sm": "La Compañía Nano",
-    "desc": "Transforma tu bienestar con el poder de la nanotecnología HydraStat™ de Neumi."
+    "title": "Sebuah diri baru dimulai dengan Neumi",
+    "title_sm": "Perusahaan Nano",
+    "desc": "Transformasikan Kesejahteraan Anda dengan Kehebatan Nanoteknologi HydraStat™ dari Neumi."
   },
   "asSeenOn": {
-    "title": "Como se ve en"
+    "title": "Seperti yang terlihat di"
   },
   "masonary_section":{
-    "title": "Nuestra línea de productos",
-    "desc": "La vida es mejor cuando te ves y te sientes bien.",
+    "title": "Lineup produk kami",
+    "desc": "Hidup lebih baik saat Anda terlihat dan merasa terbaik.",
     "masonary_product_layout1":{
       "items":[
         {
@@ -45,40 +45,40 @@
     }
   },
   "guarantee":{
-    "title": "La garantía Neumi",
-    "desc":"Independientemente del tipo de cuenta, disfrutarás de:",
-    "alt_text": "producto de Neumi",
+    "title": "Jaminan Neumi",
+    "desc":"Tidak peduli tipe akun Anda, Anda akan menikmati:",
+    "alt_text": "produk neumi",
     "items": [
       {
-        "title":  "Te encanta o es gratis",
-        "desc": "Prueba nuestros productos durante 30 días sin riesgos. Estamos seguros de que te encantarán tanto como a nosotros."
+        "title":  "Suka atau uang kembali",
+        "desc": "Coba produk kami selama 30 hari tanpa risiko. Kami yakin Anda akan menyukai produk kami sebanyak yang kami sukai."
       },
       {
-        "title": "Suscripciones sin complicaciones",
-        "desc": "¿Necesitas omitir un mes o cancelar tu suscripción? ¡No hay problema! Edita tus preferencias en cualquier momento y realiza pedidos con confianza."
+        "title": "Langganan tanpa masalah",
+        "desc": "Perlu melewati bulan atau membatalkan langganan Anda? Tidak masalah! Edit preferensi Anda kapan saja, dan pesan dengan percaya diri."
       },
       {
-        "title": "Producto gratuito",
-        "desc": "Con pedidos superiores a $300, recibirás una botella gratuita para compensar los costos de envío."
+        "title": "Produk gratis",
+        "desc": "Dengan pesanan di atas $300, Anda mendapatkan 1 botol gratis untuk mengurangi biaya pengiriman."
       }
     ]
   },
   "performance":{
-    "title_sm": "Nanotecnología HydraStat™",
-    "title": "Pequeña entrega, gran rendimiento",
-    "desc":"Las moléculas en muchos suplementos son demasiado grandes para ser absorbidas por la célula, por lo que se excretan del cuerpo sin ser utilizadas de manera efectiva. Neumi utiliza la revolucionaria nanotecnología HydraStat™ para aumentar la biodisponibilidad y efectividad de todos sus productos al descomponer moléculas grandes y envolverlas en clusters de agua ultra pura. Nuestros ingredientes de tamaño nano están entre 10 y 100 nanómetros, lo suficientemente pequeños para ser completamente absorbidos por la célula humana.",
-    "button_text": "Más información",
+    "title_sm": "Nanoteknologi HydraStat™",
+    "title": "Pengiriman kecil, kinerja besar",
+    "desc":"Molekul dalam banyak suplemen terlalu besar untuk diserap oleh sel, sehingga dikeluarkan dari tubuh tanpa digunakan secara efektif. Neumi menggunakan Nanoteknologi HydraStat™ terobosan untuk meningkatkan bioavailabilitas dan efektivitas semua produknya dengan memecah molekul besar dan melapisi mereka dengan kluster air ultra-murni. Bahan-bahan kami berukuran nano antara 10-100 nanometer. Mereka cukup kecil untuk sepenuhnya diserap ke dalam sel manusia.",
+    "button_text": "Pelajari lebih lanjut",
     "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
   },
   "video":{
-    "title_sm": "Nanotecnología HydraStat™",
-    "title": "El avance de Neumi"
+    "title_sm": "Nanoteknologi Hydrastat™",
+    "title": "Terobosan Neumi"
   },
   "before_and_after":{
-    "title": "Ver antes y después"
+    "title": "Lihat sebelum & sesudahnya"
   },
   "medical_advisor_board":{
-    "title": "Nuestro consejo médico no remunerado",
+    "title": "Dewan penasihat medis kami",
     "items":[
       {
         "name": "Douglas Harrington, MD",
@@ -157,43 +157,42 @@
     ]
   },
   "faq":{
-    "title": "Preguntas frecuentes",
-    "icon_class": "clr-primary",
+    "title": "Pertanyaan yang Sering Diajukan",
     "items":[
       {
         "class": "acc-item_active",
-        "header": "Soy un cliente preferencial. ¿Cómo hago un pedido?",
-        "desc": "La mejor manera es visitando <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> y realizando tu pedido ahí."
+        "header": "Saya pelanggan pilihan. Bagaimana cara memesan?",
+        "desc": "Cara terbaik adalah dengan pergi ke <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> dan melakukan pemesanan di sana."
       },
       {
         "class": "",
-        "header": "¿Por qué Glutatión?",
+        "header": "Mengapa Glutathione?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "¿Qué debería sentir?",
+        "header": "Apa yang seharusnya saya rasakan?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "¿Cuál es el mejor momento para tomar NutriSwish?",
+        "header": "Kapan waktu terbaik untuk mengonsumsi NutriSwish?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "¿De dónde se obtienen los ingredientes?",
+        "header": "Dari mana bahan-bahan didapatkan?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "¿Cuál es la mejor característica de salud?",
+        "header": "Apa fitur kesehatan terbaik?",
         "desc": ""
       }
     ]
   },
   "cta":{
-    "title": "Un nuevo tú comienza con Neumi."
+    "title": "Sebuah diri baru dimulai dengan Neumi."
   },
-  "note_desc": "Las declaraciones hechas en este sitio web no han sido evaluadas por la Administración de Alimentos y Medicamentos. Estas declaraciones y los productos de esta compañía no tienen la intención de diagnosticar, tratar, curar o prevenir ninguna enfermedad. Las opiniones y consejos nutricionales expresados por Neumi no tienen la intención de proporcionar asesoramiento médico. Consulta siempre a tu proveedor de atención médica si estás tomando algún medicamento o tienes alguna condición médica. Los resultados individuales pueden variar."
+  "note_desc": "Pernyataan yang dibuat dalam situs web ini belum dievaluasi oleh Administrasi Makanan dan Obat-obatan. Pernyataan dan produk dari perusahaan ini tidak dimaksudkan untuk mendiagnosis, mengobati, menyembuhkan, atau mencegah penyakit apa pun. Pandangan dan saran nutrisi yang dinyatakan oleh Neumi tidak dimaksudkan untuk memberikan saran medis. Harap selalu konsultasikan dengan penyedia layanan kesehatan Anda jika Anda sedang mengonsumsi obat atau memiliki kondisi medis. Hasil individu dapat bervariasi."
 }

@@ -1,24 +1,24 @@
 {
-  "title": "Página de inicio de Neumi",
-  "shop_product_button_text": "Compra nuestros productos",
-  "become_member_button_text": "Hazte miembro",
-  "see_all_product_button_text": "Ver todos los productos",
-  "see_all_text": "Ver todo",
-  "hide_all_text": "Ocultar todo",
-  "language":"es",
+  "title": "Neumi Landingspagina",
+  "shop_product_button_text": "Bekijk onze producten",
+  "become_member_button_text": "Word lid",
+  "see_all_product_button_text": "Bekijk alle producten",
+  "see_all_text": "Bekijk alles",
+  "hide_all_text": "Verberg alles",
+  "language":"nl",
   "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section":{
-    "title": "Un nuevo tú comienza con Neumi",
-    "title_sm": "La Compañía Nano",
-    "desc": "Transforma tu bienestar con el poder de la nanotecnología HydraStat™ de Neumi."
+    "title": "Een nieuwe jij begint met Neumi",
+    "title_sm": "Het Nano Bedrijf",
+    "desc": "Transformeer je welzijn met de kracht van Neumi's HydraStat™ Nanotechnologie."
   },
   "asSeenOn": {
-    "title": "Como se ve en"
+    "title": "Zoals gezien op"
   },
   "masonary_section":{
-    "title": "Nuestra línea de productos",
-    "desc": "La vida es mejor cuando te ves y te sientes bien.",
+    "title": "Ons productaanbod",
+    "desc": "Het leven is beter wanneer je er op je best uitziet en je goed voelt.",
     "masonary_product_layout1":{
       "items":[
         {
@@ -44,41 +44,41 @@
       ]
     }
   },
-  "guarantee":{
-    "title": "La garantía Neumi",
-    "desc":"Independientemente del tipo de cuenta, disfrutarás de:",
-    "alt_text": "producto de Neumi",
+  "guarantee": {
+    "title": "De Neumi garantie",
+    "desc": "Ongeacht het type account, geniet je van:",
+    "alt_text": "Neumi product",
     "items": [
       {
-        "title":  "Te encanta o es gratis",
-        "desc": "Prueba nuestros productos durante 30 días sin riesgos. Estamos seguros de que te encantarán tanto como a nosotros."
+        "title": "Love it, or it’s free",
+        "desc": "Probeer onze producten 30 dagen risicovrij. We zijn ervan overtuigd dat je onze producten net zo geweldig zult vinden als wij."
       },
       {
-        "title": "Suscripciones sin complicaciones",
-        "desc": "¿Necesitas omitir un mes o cancelar tu suscripción? ¡No hay problema! Edita tus preferencias en cualquier momento y realiza pedidos con confianza."
+        "title": "Hassle free subscriptions",
+        "desc": "Moet je een maand overslaan of je abonnement annuleren? Geen probleem! Pas je voorkeuren op elk moment aan en bestel met vertrouwen."
       },
       {
-        "title": "Producto gratuito",
-        "desc": "Con pedidos superiores a $300, recibirás una botella gratuita para compensar los costos de envío."
+        "title": "Gratis product",
+        "desc": "Bij bestellingen boven $300 ontvang je 1 gratis fles om de verzendkosten te compenseren."
       }
     ]
   },
   "performance":{
-    "title_sm": "Nanotecnología HydraStat™",
-    "title": "Pequeña entrega, gran rendimiento",
-    "desc":"Las moléculas en muchos suplementos son demasiado grandes para ser absorbidas por la célula, por lo que se excretan del cuerpo sin ser utilizadas de manera efectiva. Neumi utiliza la revolucionaria nanotecnología HydraStat™ para aumentar la biodisponibilidad y efectividad de todos sus productos al descomponer moléculas grandes y envolverlas en clusters de agua ultra pura. Nuestros ingredientes de tamaño nano están entre 10 y 100 nanómetros, lo suficientemente pequeños para ser completamente absorbidos por la célula humana.",
-    "button_text": "Más información",
+    "title_sm": "HydraStat Nanotechnologie™",
+    "title": "Kleine levering, grote prestaties",
+    "desc": "De moleculen in veel supplementen zijn te groot om door de cel te worden opgenomen, dus worden ze ongebruikt uit het lichaam uitgescheiden. Neumi gebruikt baanbrekende HydraStat Nanotechnologie™ om de biobeschikbaarheid en effectiviteit van al zijn producten te verhogen door grote moleculen af te breken en ze in ultrazuivere waterclusters te omhullen. Onze nanogrote ingrediënten zijn tussen de 10-100 nanometer groot. Ze zijn klein genoeg om volledig door de menselijke cel te worden opgenomen.",
+    "button_text": "Lees meer",
     "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
   },
   "video":{
-    "title_sm": "Nanotecnología HydraStat™",
-    "title": "El avance de Neumi"
+    "title_sm": "Hydrastat Nanotechnologie™",
+    "title": "De doorbraak van Neumi"
   },
   "before_and_after":{
-    "title": "Ver antes y después"
+    "title": "Bekijk de voor & na's"
   },
   "medical_advisor_board":{
-    "title": "Nuestro consejo médico no remunerado",
+    "title": "Ons onbetaalde medisch adviesbord",
     "items":[
       {
         "name": "Douglas Harrington, MD",
@@ -156,44 +156,43 @@
       }
     ]
   },
-  "faq":{
-    "title": "Preguntas frecuentes",
-    "icon_class": "clr-primary",
-    "items":[
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "items": [
       {
         "class": "acc-item_active",
-        "header": "Soy un cliente preferencial. ¿Cómo hago un pedido?",
-        "desc": "La mejor manera es visitando <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> y realizando tu pedido ahí."
+        "header": "Ik ben een voorkeursklant. Hoe kan ik bestellen?",
+        "desc": "De beste manier is door naar <a class=\"clr-primary\" href=\"https://neumi.com/\" target=\"_blank\">Neumi.com</a> te gaan en daar je bestelling te plaatsen."
       },
       {
         "class": "",
-        "header": "¿Por qué Glutatión?",
+        "header": "Waarom Glutathion?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "¿Qué debería sentir?",
+        "header": "Wat zou ik moeten voelen?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "¿Cuál es el mejor momento para tomar NutriSwish?",
+        "header": "Wat is de beste tijd om NutriSwish in te nemen?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "¿De dónde se obtienen los ingredientes?",
+        "header": "Waar komen de ingrediënten vandaan?",
         "desc": ""
       },
       {
         "class": "",
-        "header": "¿Cuál es la mejor característica de salud?",
+        "header": "Wat is de beste gezondheidsfunctie?",
         "desc": ""
       }
     ]
   },
-  "cta":{
-    "title": "Un nuevo tú comienza con Neumi."
+  "cta": {
+    "title": "Een nieuwe jij begint met Neumi."
   },
-  "note_desc": "Las declaraciones hechas en este sitio web no han sido evaluadas por la Administración de Alimentos y Medicamentos. Estas declaraciones y los productos de esta compañía no tienen la intención de diagnosticar, tratar, curar o prevenir ninguna enfermedad. Las opiniones y consejos nutricionales expresados por Neumi no tienen la intención de proporcionar asesoramiento médico. Consulta siempre a tu proveedor de atención médica si estás tomando algún medicamento o tienes alguna condición médica. Los resultados individuales pueden variar."
+  "note_desc": "De uitspraken op deze website zijn niet geëvalueerd door de Food and Drug Administration. Deze uitspraken en producten van dit bedrijf zijn niet bedoeld voor diagnose, behandeling, genezing of voorkoming van ziekten. De meningen en voedingsadviezen van Neumi zijn niet bedoeld voor medisch advies. Raadpleeg altijd je zorgverlener als je medicijnen gebruikt of medische aandoeningen hebt. Individuele resultaten kunnen variëren."
 }
