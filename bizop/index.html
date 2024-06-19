@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang='{{language}}'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>{{title}}</title>
+    <!-- css library import -->
+    <link
+      rel='stylesheet'
+      href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css'
+    />
+    <link
+      rel='stylesheet'
+      href='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css'
+    />
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link
+      href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap'
+      rel='stylesheet'
+    />
+    {{>Style}}
+  </head>
+  <body>
+    <div  class='custom-landing-page bizops-landing-page' id='bizops-landing-page'>
+      {{>HeroSection}}
+      {{>AsSeenOn}}
+      {{>VideoLayout}}
+
+      <!-- Tab section -->
+      {{>TabLayout}}
+
+      {{#product_post_list}}
+        <section class="product-post product-style-1 is-flex is-wrap overlay-animation">
+          <div class="col-12 col-lg-6 {{image_ordering_class}}">
+            <div class="image-section">
+              <img src="{{image}}" alt="product">
+              <div class="overlay overlay-{{image_position}}"></div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6  desc clr-bg-white-100 {{desc_ordering_class}}">
+            <div class="wrapper">
+              <h2>{{title}}</h2>
+              <p class="mt-32 clr-body">{{{desc}}}</p>
+              <div class="btn-section mt-32">
+                <button
+                  class="btn text-center btn-primary btn-rounded"
+                  data-target="enroll-pack"
+                >
+                {{get_started_btn_text}}
+                </button>
+              </div>
+            </div>
+          </div><!--.desc-->
+        </section>
+      {{/product_post_list}}
+      {{#trip}}
+        <section class="clr-bg-700_bg page-section text-center product-style-two mt-100">
+          <div class="container">
+            <img src="{{image}}" alt="{{alt_text}}"/>
+            <div class="product-style-two-content">
+              <h2>{{title}}</h2>
+              <p>{{desc}}</p>
+            </div>
+          </div>
+        </section>
+      {{/trip}}
+      {{>Enrollment}}
+      <!-- BEFORE AND AFTER SECTION -->
+      <section class="page-section clr-bg-700_bg product-before-after-result-section">
+        <div class="container">
+          {{#before_and_after}}
+          <h2 class="text-center">{{title}}</h2>
+          <div id="before-after-preview-slider" class="splide before-after-preview-slider mt-32">
+            {{>PrevNext}}
+            <div class="splide__track">
+              <ul class="splide__list">
+                {{#image_list}}
+                <li class="splide__slide">
+                  <img src="{{image}}" alt="before after image">
+                </li>
+                {{/image_list}}
+              </ul>
+            </div>
+          </div>
+          {{/before_and_after}}
+
+          {{#medical_advisor_board}}
+          <div class="medical-advisory-board-section page-section-top">
+            <h4 class="text-center">{{title}}</h4>
+            <div class="row">
+              {{#items}}
+              <div class="col col-12 col-xs-6 col-sm-4 col-lg-3">
+                <div class="advisory-board-card mt-32">
+                  <div class="image-section">
+                    <img src="{{image}}" alt="">
+                  </div>
+                  <div class="desc">
+                    <h5 class="line-height-1">{{name}}</h5>
+                    <p class="trim-2 line-height-1-2 fs-sm mt-4">{{university}}</p>
+                  </div>
+                </div>
+              </div>
+
+              {{/items}}
+            </div>
+            <div class="medical-advisory-content neumi-d-none">
+              <div class="row ">
+                {{#hidden_items}}
+                <div class="col col-12 col-xs-6 col-sm-4 col-lg-3">
+                  <div class="advisory-board-card mt-32">
+                    <div class="image-section">
+                      <img src="{{image}}" alt="">
+                    </div>
+                    <div class="desc">
+                      <h5 class="line-height-1">{{name}}</h5>
+                      <p class="trim-2 line-height-1-2 fs-sm mt-4">{{university}}</p>
+                    </div>
+                  </div>
+                </div>
+
+                {{/hidden_items}}
+              </div>
+            </div>
+
+            <div class="btn-section mt-32">
+              <h5 class="clr-primary text-center">
+                <span class="medical-advisosry-list-toggle-btn is-pointer">
+                  <span class="see-all-caption">{{see_all_text}}</span>
+                  <span class="hide-all-caption neumi-d-none">{{hide_all_text}}</span>
+                </span>
+
+              </h5>
+            </div>
+          </div>
+          {{/medical_advisor_board}}
+
+
+
+
+
+        </div><!-- .container -->
+      </section>
+     <!-- Accordion Section -->
+     {{>FaqAccordionLayout}}
+
+     {{#cta}}
+        <section class="cta-banner-two mt-60 clr-bg-700_bg page-section" >
+          <div class="container">
+            <div class="cta-wrapper" style="background-image: url({{image}})">
+              <div class="cta-content">
+                <h2>{{title}}</h2>
+                <button class="btn text-center btn-primary btn-rounded" data-target="enroll-pack">{{get_started_btn_text}}</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      {{/cta}}
+      <div class="page-note-bizops">
+        <div class="container">
+          <div class="page-note-wrapper">{{note_desc}}</div>
+        </div>
+      </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // video popup
+        $("[data-fancybox]").fancybox({
+          youtube: {
+            controls: 0,
+            modestbranding: 1, // Use modestbranding instead of showinfo
+          },
+        });
+        $(".reviews-pagination a").on("click", function (e) {
+          e.preventDefault();
+        });
+      });
+      document.addEventListener("DOMContentLoaded", function () {
+        // Product Slider
+        const enrollPreviewSlider = new Splide("#enroll-preview-slider ", {
+          pagination: false,
+        });
+        const enrollThumbnailsSlider = new Splide("#enroll-pack-nav-slider", {
+          start: 0,
+          perPage: 1,
+          pagination: false,
+          isNavigation: true,
+        });
+
+        enrollPreviewSlider.sync(enrollThumbnailsSlider);
+        enrollPreviewSlider.mount();
+        enrollThumbnailsSlider.mount();
+
+        //as seen slider
+        var asSeen = new Splide("#as-seen_slider", {
+          autoWidth: true,
+          arrows: false,
+          pagination: false,
+          type: "loop",
+          perPage: 1,
+          autoplay: true,
+          interval: 2000,
+          cover: false,
+          gap: "4rem",
+          breakpoints: {
+            1024: {
+              perPage: 7,
+              gap: "3rem",
+            },
+            576: {
+              perPage: 4,
+            },
+          },
+        });
+
+        asSeen.mount();
+        //Tab
+
+        const tabLists = document.querySelectorAll(".tab-menu");
+
+        function showTab(tabList, index) {
+          const tabsInList = tabList.querySelectorAll(".tab-menu li");
+          const panelsInList =
+            tabList.parentElement.nextElementSibling.querySelectorAll(
+              ".tab-content-item"
+            );
+
+          tabsInList.forEach((tab) => tab.classList.remove("active"));
+          panelsInList.forEach((panel) => panel.classList.remove("active"));
+
+          tabsInList[index].classList.add("active");
+          panelsInList[index].classList.add("active");
+        }
+
+        tabLists.forEach((tabList) => {
+          const tabs = tabList.querySelectorAll(".tab-menu li");
+
+          tabs.forEach((tab, index) => {
+            tab.addEventListener("click", () => showTab(tabList, index));
+          });
+
+          // Show the first tab in each list by default
+          showTab(tabList, 0);
+        });
+
+        //video slider
+        var tabSlider = new Splide("#tab-slider", {
+          arrows: false,
+          pagination: false,
+          type: "loop",
+          perPage: 1,
+          arrows: true,
+          cover: false,
+          gap: "2rem",
+          mediaQuery: "min",
+          breakpoints: {
+            1280: {
+              perPage: 5,
+            },
+            1024: {
+              perPage: 4,
+            },
+            800: {
+              perPage: 3,
+            },
+            768: {
+              perPage: 2,
+            },
+            576: {
+              perPage: 2,
+            },
+          },
+        });
+
+        tabSlider.mount();
+        // key ingredients slider
+        if ($("div").hasClass("key-ingredients-slider")) {
+          var keyIngredientsSlider = new Splide("#key-ingredients-slider", {
+            arrows: false,
+            pagination: false,
+            type: "loop",
+            perPage: 1,
+            arrows: true,
+            cover: false,
+            gap: "2rem",
+            mediaQuery: "min",
+            breakpoints: {
+              1280: {
+                perPage: 4,
+              },
+              1024: {
+                perPage: 3,
+              },
+              768: {
+                perPage: 2,
+              },
+              576: {
+                perPage: 2,
+              },
+            },
+          });
+
+          keyIngredientsSlider.mount();
+        }
+
+        //Accordion
+        const accItem = document.querySelectorAll(".acc-item");
+        accItem.forEach((item, index) => {
+          let accHeader = item.querySelector(".acc-item_header");
+          accHeader.addEventListener("click", () => {
+            let accBody = item.querySelector(".acc-item_body");
+            if (!item.classList.contains("acc-item_active")) {
+              item.classList.add("acc-item_active");
+              accBody.style.maxHeight = accBody.scrollHeight + 32 + "px";
+              accItem.forEach((element, ind) => {
+                let elementBody = element.querySelector(".acc-item_body");
+                if (!(ind === index)) {
+                  element.classList.remove("acc-item_active");
+                  elementBody.style.maxHeight = null;
+                }
+              });
+            } else {
+              item.classList.remove("acc-item_active");
+              accBody.style.maxHeight = null;
+            }
+          });
+        });
+
+        //show more
+        const itemsPerPage = 10;
+        let currentPage = 1;
+        const showMoreBtn = document.querySelector(".showmore");
+        function showMore() {
+          const dataContainer = document.getElementById("acc");
+          const listItems = dataContainer.querySelectorAll(".acc-item");
+          const start = (currentPage - 1) * itemsPerPage;
+          const end = currentPage * itemsPerPage;
+
+          for (let i = 0; i < listItems.length; i++) {
+            if (i >= start && i < end) {
+              listItems[i].style.display = "block";
+            }
+          }
+
+          currentPage++;
+
+          if (end >= listItems.length) {
+            showMoreBtn.style.display = "none";
+          }
+        }
+
+        // key gradient animations
+        const featItems = gsap.utils.toArray(".product-feature-item");
+        featItems.forEach((items) => {
+          gsap.fromTo(
+            items,
+            { opacity: 0, y: 50 },
+            {
+              duration: 1.5,
+              opacity: 1,
+              y: 0,
+              scrollTrigger: {
+                trigger: ".key-ingredients",
+                start: "-30% top",
+                end: "bottom center",
+                scrub: 1,
+              },
+            }
+          );
+        });
+
+        // Select all overlay elements within .page-section
+        const overlays = gsap.utils.toArray(".overlay-animation .overlay-left");
+
+        // Loop through each overlay element
+        overlays.forEach((overlay) => {
+          ScrollTrigger.create({
+            trigger: overlay.closest(".overlay-animation"),
+            start: "-100% top",
+            end: "bottom 20%",
+            onToggle: (self) => {
+              if (self.isActive) {
+                gsap.to(overlay, { duration: 1, x: "-100%" });
+              } else {
+                gsap.to(overlay, { duration: 1, x: 0 });
+              }
+            },
+          });
+        });
+
+        const overlaysRight = gsap.utils.toArray(".overlay-animation .overlay-right");
+
+        // Loop through each overlay element
+        overlaysRight.forEach((overlay) => {
+          ScrollTrigger.create({
+            trigger: overlay.closest(".overlay-animation"),
+            start: "-100% top",
+            end: "bottom 20%",
+            onToggle: (self) => {
+              if (self.isActive) {
+                gsap.to(overlay, { duration: 1, x: "100%" });
+              } else {
+                gsap.to(overlay, { duration: 1, x: 0 });
+              }
+            },
+          });
+        });
+
+        const keyItems = gsap.utils.toArray(".ingredients .item");
+        keyItems.forEach((items) => {
+          gsap.fromTo(
+            items,
+            { opacity: 0, y: 50, stagger: 0.2 },
+            {
+              duration: 1.5,
+              opacity: 1,
+              y: 0,
+              stagger: 0.2,
+              scrollTrigger: {
+                trigger: ".ingredients",
+                start: "-80% top",
+                end: "bottom 20%",
+              },
+            }
+          );
+        });
+
+        const faqs = gsap.utils.toArray(".acc-item");
+
+        gsap.fromTo(
+          faqs,
+          { opacity: 0, y: 50, stagger: 0.3 },
+          {
+            duration: 1.5,
+            opacity: 1,
+            stagger: 0.3,
+            y: 0,
+
+            scrollTrigger: {
+              trigger: ".acc",
+              start: "-100% top",
+              end: "bottom center",
+            },
+          }
+        );
+        const buttons = document.querySelectorAll("button[data-target]");
+
+        // Add click event listener to each button
+        buttons.forEach((button) => {
+          button.addEventListener("click", () => {
+            const targetId = button.getAttribute("data-target");
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+              targetElement.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+            }
+          });
+        });
+      });
+      // before after slider
+      var beforeAfterSlider = new Splide("#before-after-preview-slider", {
+        arrows: true,
+        pagination: false,
+        perPage: 1,
+        mediaQuery: "min",
+        breakpoints: {
+          1024: {
+            perPage: 3,
+
+          },
+          576: {
+            perPage: 2,
+            gap: "12px",
+          },
+        },
+      });
+
+      beforeAfterSlider.mount();
+      $(".medical-advisosry-list-toggle-btn").on("click", function (e) {
+        e.preventDefault();
+        $('.medical-advisory-content').slideToggle();
+        $(".see-all-caption,.hide-all-caption").toggleClass("neumi-d-none");
+      })
+      </script>
+  </body>
+</html>

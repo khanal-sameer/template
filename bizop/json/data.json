@@ -1,0 +1,320 @@
+{
+  "title":"{{title}}",
+  "language": "{{language}}",
+  "total_product_review": "7 Reviews",
+  "get_started_btn_text": "{{get_started_btn_text}}",
+  "see_all_text": "{{see_all_text}}",
+    "hide_all_text": "{{hide_all_text}}",
+  "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
+  "hero_section":{
+    "title":"{{hero_section.title}}",
+    "desc":"{{hero_section.desc}}",
+    "image":"https://cdn.fluid.app/neumi/bizops/hero.jpg"
+  },
+  "asSeenOn": {
+    "title": "{{asSeenOn.title}}",
+    "items": [
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_2.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_3.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_5.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
+      }
+    ]
+  },
+  "video": {
+    "image": "https://cdn.fluid.app/neumi/bizops/video-poster.png",
+    "video_url": "#"
+  },
+  "tab": {
+    "title": "{{tab.title}}",
+    "video_review_title": "{{{tab.video_review_title}}}",
+    "written_review_title": "{{{tab.written_review_title}}}",
+    "rating_text": "{{{tab.rating_text}}}",
+    "video_list": [
+      {
+        "image": "https://cdn.fluid.app/neumi/bizops/video-review-1.png",
+        "video": "#"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/bizops/video-review-2.png",
+        "video": "#"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/bizops/video-review-3.png",
+        "video": "#"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/bizops/video-review-4.png",
+        "video": "#"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/bizops/video-review-5.png",
+        "video": "#"
+      }
+    ],
+    "review_list": [
+      {
+        "reviewer": "{{tab.review_list.0.reviewer}}",
+        "address": "{{tab.review_list.0.address}}",
+        "time": "{{tab.review_list.0.time}}",
+        "review_text": "{{tab.review_list.0.review_text}}"
+      },
+      {
+        "reviewer": "{{tab.review_list.1.reviewer}}",
+        "address": "{{tab.review_list.1.address}}",
+        "time": "{{tab.review_list.1.time}}",
+        "review_text": "{{tab.review_list.1.review_text}}"
+      }
+  ]
+  },
+  "product_post_list": [
+    {
+      "title": "{{product_post_list.0.title}}",
+      "desc": "{{{product_post_list.0.desc}}}",
+      "image": "https://cdn.fluid.app/neumi/bizops/premium-discount.png",
+      "image_position": "right",
+      "desc_ordering_class": "order-lg-1",
+      "image_ordering_class": "order-lg-2"
+    },
+    {
+      "title": "{{product_post_list.1.title}}",
+      "desc": "{{{product_post_list.1.desc}}}",
+      "image": "https://cdn.fluid.app/neumi/bizops/no-enrollment.png",
+      "image_position": "left",
+      "desc_ordering_class": "",
+      "image_ordering_class": ""
+    },
+    {
+      "title": "{{product_post_list.2.title}}",
+      "desc": "{{{product_post_list.2.desc}}}",
+      "image": "https://cdn.fluid.app/neumi/bizops/share-with.png",
+      "image_position": "right",
+      "desc_ordering_class": "order-lg-1",
+      "image_ordering_class": "order-lg-2"
+    },
+    {
+      "title": "{{product_post_list.1.title}}",
+      "desc": "{{{product_post_list.1.desc}}}",
+      "image": "https://cdn.fluid.app/neumi/bizops/get-paid.png",
+      "image_position": "left",
+      "desc_ordering_class": "",
+      "image_ordering_class": ""
+    }
+
+  ],
+  "trip":{
+    "title":"{{trip.title}}",
+    "desc":"{{trip.desc}}",
+    "alt_text":"{{trip.alt_text}}",
+    "image":"https://cdn.fluid.app/neumi/bizops/earn-trip.png"
+  },
+  "enrollment":{
+    "title":"Enrollment packs",
+    "desc":"Get started in just a few minutes by purchasing an enrollment pack of your choice!",
+    "purchase_btn_text":"Purchase membership pack",
+    "alt_text":"enroll pack",
+    "preview_slider":[
+      {
+        "image":"https://cdn.fluid.app/neumi/bizops/enroll-pack.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/bizops/enroll-pack.png"
+      }
+    ],
+    "enrollment_slider":[
+      {
+        "title":"{{enrollment.enrollment_slider.0.title}}",
+        "product_count":"{{enrollment.enrollment_slider.0.product_count}}",
+        "price":"{{enrollment.enrollment_slider.0.price}}"
+      },
+      {
+        "title":"{{enrollment.enrollment_slider.1.title}}",
+        "product_count":"{{enrollment.enrollment_slider.1.product_count}}",
+        "price":"{{enrollment.enrollment_slider.1.price}}"
+      }
+    ]
+  },
+  "before_and_after":{
+    "title": "{{{before_and_after.title}}}",
+    "image_list":[
+      {
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-1.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-2.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-3.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-4.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-5.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-6.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-7.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-8.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/before_after/before-after-6.png"
+      }
+    ]
+  },
+  "medical_advisor_board":{
+    "title": "{{medical_advisor_board.title}}",
+    "items":[
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/douglas.png",
+        "name": "{{medical_advisor_board.items.0.name}}",
+        "university": "{{medical_advisor_board.items.0.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/gordon.png",
+        "name": "{{medical_advisor_board.items.1.name}}",
+        "university": "{{medical_advisor_board.items.1.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/zanetor.png",
+        "name": "{{medical_advisor_board.items.2.name}}",
+        "university": "{{medical_advisor_board.items.2.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/annie.png",
+        "name": "{{medical_advisor_board.items.3.name}}",
+        "university": "{{medical_advisor_board.items.3.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/thomas.jpg",
+        "name": "{{medical_advisor_board.items.4.name}}",
+        "university": "{{medical_advisor_board.items.4.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/eduardo.png",
+        "name": "{{medical_advisor_board.items.5.name}}",
+        "university": "{{medical_advisor_board.items.5.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/ronald.png",
+        "name": "{{medical_advisor_board.items.6.name}}",
+        "university": "{{medical_advisor_board.items.6.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/jose.png",
+        "name": "{{medical_advisor_board.items.7.name}}",
+        "university": "{{medical_advisor_board.items.7.university}}"
+      }
+    ],
+    "hidden_items":[
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/james.webp",
+        "name": "{{medical_advisor_board.hidden_items.0.name}}",
+        "university": "{{medical_advisor_board.hidden_items.0.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/joseph.webp",
+        "name": "{{medical_advisor_board.hidden_items.1.name}}",
+        "university": "{{medical_advisor_board.hidden_items.1.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/steven.webp",
+        "name": "{{medical_advisor_board.hidden_items.2.name}}",
+        "university": "{{medical_advisor_board.hidden_items.2.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/jim.webp",
+        "name": "{{medical_advisor_board.hidden_items.3.name}}",
+        "university": "{{medical_advisor_board.hidden_items.3.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/dean.webp",
+        "name": "{{medical_advisor_board.hidden_items.4.name}}",
+        "university": "{{medical_advisor_board.hidden_items.4.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/tania.webp",
+        "name": "{{medical_advisor_board.hidden_items.5.name}}",
+        "university": "{{medical_advisor_board.hidden_items.5.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/kristen.webp",
+        "name": "{{medical_advisor_board.hidden_items.6.name}}",
+        "university": "{{medical_advisor_board.hidden_items.6.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/luis.webp",
+        "name": "{{medical_advisor_board.hidden_items.7.name}}",
+        "university": "{{medical_advisor_board.hidden_items.7.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/bethany.webp",
+        "name": "{{medical_advisor_board.hidden_items.8.name}}",
+        "university": "{{medical_advisor_board.hidden_items.8.university}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/pacilina.webp",
+        "name": "{{medical_advisor_board.hidden_items.9.name}}",
+        "university": "{{medical_advisor_board.hidden_items.9.university}}"
+      }
+    ]
+  },
+  "faq": {
+    "title": "{{faq.title}}",
+    "icon_class": "clr-primary",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "{{faq.items.0.header}}",
+        "desc": "{{{faq.items.0.desc}}}"
+      },
+      {
+        "class": "",
+        "header": "{{faq.items.1.header}}",
+        "desc": "{{faq.items.1.desc}}"
+      },
+      {
+        "class": "",
+        "header": "{{faq.items.2.header}}",
+        "desc": "{{faq.items.2.desc}}"
+      },
+      {
+        "class": "acc-item_active",
+        "header": "{{faq.items.3.header}}",
+        "desc": "{{faq.items.3.desc}}"
+      },
+      {
+        "class": "",
+        "header": "{{faq.items.4.header}}",
+        "desc": "{{faq.items.4.desc}}"
+      },
+      {
+        "class": "",
+        "header": "{{faq.items.5.header}}",
+        "desc": "{{faq.items.5.desc}}"
+      }
+    ]
+  },
+  "cta":{
+    "title": "{{cta.title}}",
+    "image": "https://cdn.fluid.app/neumi/bizops/cta-background.png"
+  },
+  "note_desc": "{{note_desc}}"
+}
