@@ -87,6 +87,10 @@ export const mapArgs = (actions) => {
   );
 };
 
+const copyFolder=(src,dest)=>{
+  fs.cpSync(src,dest,{recursive:true})
+}
+
 export const createFilePath = (prefix = "", values = {}) => {
   const projects = (values.project || []).filter(Boolean);
   const locales = (values.locale || []).filter(Boolean);
@@ -100,20 +104,30 @@ export const createFilePath = (prefix = "", values = {}) => {
   }
 
   return projects.reduce((acc, project) => {
+    const dataPath = path.join(prefix, project, `json`, 'data.json');
+    const cssPath = path.join(prefix, project, `css`, 'style.css');
+    const template = path.join(prefix, project, 'index.html');
+    const typography = path.join(prefix, project, 'scss', "_typography.scss");
+    const variables = path.join(prefix, project, 'scss', "_variables.scss");
+    const styles = path.join(prefix, project, 'scss', "style.scss");
+    const partials = path.join(prefix,project,"partials")
+    copyFolder(path.join("partials"),partials)
+
+
+
+    acc.push([dataPath],[cssPath],[template],[typography],[variables],[styles],[partials]);
+
     for (const lang of locales) {
-      const langPath = path.join(prefix, project, "locales", `${lang}.json`);
-      const dataPath = path.join(prefix, project, `data.json`);
-      acc.push(langPath,dataPath);
+      const langPath = path.join(prefix, project, "locale", `${lang}.json`);
+      acc.push([langPath]);
     }
     return acc;
   }, []);
 };
 
 export const initProject = (values) => {
-  const base = values.base ? readFile(path.join(values.base[0])) : "";
-  const trees = createFilePath("projects", values);
-
-  trees.forEach((tree) => createFile(tree, base));
+  const trees = createFilePath(".", values);
+  trees.forEach(([tree,value]) => createFile(tree,value || ""));
 };
 
 export const populatePath = (project) => {
@@ -121,27 +135,8 @@ export const populatePath = (project) => {
   const data = path.join(project,"json","data.json")
   const template = path.join(project,"index.html")
   const pages = path.join(project,'pages')
+  const style = path.join(project,"css","style.css")
+  const partials = path.join(project,'partials')
 
-  return [locales, template, data, pages, project]
-
-  // if (!projects.length) {
-  //   throw new Error(
-  //     "Projects not initialized, please run yarn generate to create projects."
-  //   );
-  // }
-
-  // return projects.reduce((acc, item) => {
-  //   const locales = globSync(item + "/locales/*.json");
-  //   const project = path.basename(item);
-  //   const data = path.join(item,"data.json")
-
-
-  //   locales.forEach((locale) => {
-  //     const lang = path.basename(locale, ".json");
-  //     const page = `${item}/pages/${project}_${lang}.html`;
-  //     acc.push([locale, page, data]);
-  //   });
-
-  //   return acc;
-  // }, []);
+  return [locales, template, data, pages, project,style, partials]
 };

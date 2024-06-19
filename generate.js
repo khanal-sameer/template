@@ -1,7 +1,6 @@
 import Mustache from "mustache";
 import path from "node:path";
 
-
 import {
   mapArgs,
   initProject,
@@ -10,6 +9,10 @@ import {
   writeFile,
   readDir,
 } from "./utils.js";
+
+function escape(str) {
+  return str.replace(/#\{([^}]+)\}/g, (_, content) => `{{${content}}}`);
+}
 
 const replaceIterableInt = (nestedString = "", key) => {
   const regex = new RegExp('"' + key + '"\\s*:\\s*(\\d+)', "g");
@@ -20,24 +23,29 @@ const replaceIterableInt = (nestedString = "", key) => {
   });
 };
 
-const populateHTML = (lang, page, lang_temp,pages,project) => {
-  const template = readFile(page);
-  
-  const data = readFile(lang);
-  const temp = readFile(lang_temp)
-  const parsed = JSON.parse(data)
-  const langReplaced = Mustache.render(temp, parsed)
+const populateHTML = (
+  lang,
+  tmpl,
+  lang_tmpl,
+  pages,
+  project,
+  style_tmpl,
+  partials_tmpl
+) => {
+  const data = JSON.parse(readFile(lang));
 
+  if (!data || !tmpl) return;
+
+  const langReplaced = Mustache.render(lang_tmpl, data);
   const replaceData = replaceIterableInt(langReplaced, "rating");
-
   const parsedData = JSON.parse(replaceData);
+  parsedData.style = `<style>
+  ${style_tmpl} </style>
+  `;
 
-  if (!data || !template) return;
-
-  const partials = readDir("partials");
-  const rendered = Mustache.render(template, parsedData, partials)
-  const locale_name = path.parse(lang).name
-  const page_name = path.join(pages,`${project}_${locale_name}.html`)
+  const rendered = Mustache.render(tmpl, parsedData, partials_tmpl, { escape });
+  const locale_name = path.parse(lang).name;
+  const page_name = path.join(pages, `${project}_${locale_name}.html`);
 
   writeFile(page_name, rendered);
 
@@ -66,12 +74,27 @@ const init = (args) => {
 };
 
 const populate = (args) => {
-  const options = {project: false };
+  const options = { project: false };
   checkMultiple(args, options);
-  const [locales, page, lang_temp,pages, project] = populatePath(args?.project[0])
-  
+  const [locales, page, lang_temp, pages, project, style, partials] =
+    populatePath(args?.project[0]);
 
- locales.forEach((lang) => populateHTML(lang, page, lang_temp,pages,project));
+  const tmpl = readFile(page);
+  const lang_tmpl = readFile(lang_temp);
+  const style_tmpl = readFile(style);
+  const partials_tmpl = readDir(partials);
+
+  locales.forEach((lang) =>
+    populateHTML(
+      lang,
+      tmpl,
+      lang_tmpl,
+      pages,
+      project,
+      style_tmpl,
+      partials_tmpl
+    )
+  );
 };
 
 const actions = {
