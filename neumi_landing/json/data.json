@@ -256,7 +256,7 @@
         {
           "class": "acc-item_active",
           "header": "{{faq.items.0.header}}",
-          "desc": "{{faq.items.0.desc}}"
+          "desc": "{{{faq.items.0.desc}}}"
         },
         {
           "class": "",
