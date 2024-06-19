@@ -107,15 +107,13 @@ export const createFilePath = (prefix = "", values = {}) => {
     const dataPath = path.join(prefix, project, `json`, 'data.json');
     const cssPath = path.join(prefix, project, `css`, 'style.css');
     const template = path.join(prefix, project, 'index.html');
-    const typography = path.join(prefix, project, 'scss', "_typography.scss");
-    const variables = path.join(prefix, project, 'scss', "_variables.scss");
-    const styles = path.join(prefix, project, 'scss', "style.scss");
+    const js = path.join(prefix, project,'js', 'main.js');
     const partials = path.join(prefix,project,"partials")
     copyFolder(path.join("partials"),partials)
 
 
 
-    acc.push([dataPath],[cssPath],[template],[typography],[variables],[styles],[partials]);
+    acc.push([dataPath],[cssPath],[template],[partials],[js]);
 
     for (const lang of locales) {
       const langPath = path.join(prefix, project, "locale", `${lang}.json`);
@@ -136,7 +134,8 @@ export const populatePath = (project) => {
   const template = path.join(project,"index.html")
   const pages = path.join(project,'pages')
   const style = path.join(project,"css","style.css")
+  const script = path.join(project,"js","main.js")
   const partials = path.join(project,'partials')
 
-  return [locales, template, data, pages, project,style, partials]
+  return [locales, template, data, pages, project,style, partials,script]
 };
