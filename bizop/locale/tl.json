@@ -160,7 +160,7 @@
     "items": [
       {
         "header": "Paano ako maging kasapi?",
-        "desc": "Maaari kang mag-enroll sa pamamagitan ng pagpunta sa<a href='https://neumi.fluid.app/#{affiliate_guid | default: 'home'}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/pagsali.</a> Maghanap ng iyong sponsor at sundin ang proseso ng pagsasali."
+        "desc": "Maaari kang mag-enroll sa pamamagitan ng pagpunta sa<a href='https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/pagsali.</a> Maghanap ng iyong sponsor at sundin ang proseso ng pagsasali."
       },
       {
         "header": "Mayroon bang mga kontrata?",

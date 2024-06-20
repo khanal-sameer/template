@@ -161,7 +161,7 @@
     "items": [
       {
         "header": "Hoe word ik lid?",
-        "desc": "Je kunt je inschrijven door naar <a href='https://neumi.fluid.app/#{affiliate_guid | default: 'home'}/page/neumi-biz-op' class='clr-primary'>Neumi.com/corporphan/inschrijving</a> te gaan. Zoek je sponsor en volg het inschrijvingsproces."
+        "desc": "Je kunt je inschrijven door naar <a href='https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/page/neumi-biz-op' class='clr-primary'>Neumi.com/corporphan/inschrijving</a> te gaan. Zoek je sponsor en volg het inschrijvingsproces."
       },
       {
         "header": "Zijn er contracten?",

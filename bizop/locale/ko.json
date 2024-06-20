@@ -161,7 +161,7 @@
     "items": [
       {
         "header": "어떻게 회원이 되나요?",
-        "desc": "https://neumi.fluid.app/#{affiliate_guid | default: 'home'}/page/neumi-biz-op 주소로 가셔서 등록할 수 있습니다. 스폰서를 찾고 등록 과정을 따라가세요."
+        "desc": "<a href='https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/page/neumi-biz-op' class='clr-primary'>Neumi.com/corporphan/enrollment</a> 주소로 가셔서 등록할 수 있습니다. 스폰서를 찾고 등록 과정을 따라가세요."
       },
       {
         "header": "계약 조건이 있나요?",

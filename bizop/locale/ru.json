@@ -160,7 +160,7 @@
     "items":[
       {
         "header": "Как стать участником?",
-        "desc": "Вы можете зарегистрироваться, перейдя по ссылке <a href='https://neumi.fluid.app/#{affiliate_guid | default: 'home'}/page/neumi-biz-op' class='clr-primary'>Neumi.com/corporphan/enrollment.</a> Найдите своего спонсора и следуйте процессу регистрации."
+        "desc": "Вы можете зарегистрироваться, перейдя по ссылке <a href='https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/page/neumi-biz-op' class='clr-primary'>Neumi.com/corporphan/enrollment.</a> Найдите своего спонсора и следуйте процессу регистрации."
       },
       {
         "header": "Есть ли контракты?",

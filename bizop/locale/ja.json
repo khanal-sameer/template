@@ -161,7 +161,7 @@
     "items": [
       {
         "header": "どのようにしてメンバーになれますか？",
-        "desc": "あなたは<a href='https://neumi.fluid.app/#{affiliate_guid | default: 'home'}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/enrollment.</a> に行ってスポンサーを検索し、入会プロセスに従うことで参加できます。"
+        "desc": "あなたは<a href='https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/enrollment.</a> に行ってスポンサーを検索し、入会プロセスに従うことで参加できます。"
       },
       {
         "header": "契約はありますか？",

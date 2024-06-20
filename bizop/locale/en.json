@@ -163,7 +163,7 @@
     "items":[
       {
         "header": "How do I become a member?",
-        "desc": "You can enroll by going to<a href='https://neumi.fluid.app/#{affiliate_guid | default: 'home'}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/enrollment.</a> Search for your sponsor and follow the enrollment process."
+        "desc": "You can enroll by going to<a href='https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/enrollment.</a> Search for your sponsor and follow the enrollment process."
       },
       {
         "header": "Are there any contracts?",

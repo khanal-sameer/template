@@ -122,10 +122,10 @@
     "image":"https://cdn.fluid.app/neumi/bizops/earn-trip.png"
   },
   "enrollment":{
-    "title":"Enrollment packs",
-    "desc":"Get started in just a few minutes by purchasing an enrollment pack of your choice!",
-    "purchase_btn_text":"Purchase membership pack",
-    "alt_text":"enroll pack",
+    "title":"{{enrollment.title}}",
+    "desc": "{{enrollment.desc}}",
+    "purchase_btn_text": "{{enrollment.purchase_btn_text}}",
+    "alt_text":"{{enrollment.alt_text}}",
     "preview_slider":[
       {
         "image":"https://cdn.fluid.app/neumi/bizops/enroll-pack.png"
