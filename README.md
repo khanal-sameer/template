@@ -13,8 +13,7 @@ yarn lang -project=p1,p2 -locale=l1,l2
 - p1
   - css
     - style.css  *(This is the main css file that will be included in final html file.)*
-  - js
-    - main.js *(The main javascript file that will be added in the final html file.)*
+  - js *(folder containing js files, each of the file will be added in separate script tag in the final html file.)*
   - json
     - data.json *(This serves as a template file for translation, uses regular `{{variable}}` placeholder which will be replaced if locale like `en.json` has this key. If `{{variable}}` is needed in the final html file, use `#{variable}` instead.)*
   - locale
@@ -27,7 +26,6 @@ yarn lang -project=p1,p2 -locale=l1,l2
   - css
     - style.css
   - js
-    - main.js
   - json
     - data.json
   - locale
