@@ -35,68 +35,6 @@
             </div>
           </div>
         </div>
-       <!--As seen section-->
-        <div class="as-seen page-section-top">
-            <div class="container">
-            <h4 class="text-center fw-600 mb-32">As seen on</h4>
-
-            <div id="as-seen_slider" class="splide">
-                <div class="splide__track">
-                <ul class="splide__list">
-                        <li class="splide__slide">
-                            <div class="as-seen_image">
-                                <img
-                                    src="https://cdn.fluid.app/newulife/as_seen_1.png"
-                                    alt="as seen logo"
-                                />
-                            </div>
-                        </li>
-                        <li class="splide__slide">
-                            <div class="as-seen_image">
-                                <img
-                                    src="https://cdn.fluid.app/newulife/as_seen_2.png"
-                                    alt="as seen logo"
-                                />
-                            </div>
-                        </li>
-                        <li class="splide__slide">
-                            <div class="as-seen_image">
-                                <img
-                                    src="https://cdn.fluid.app/newulife/as_seen_3.png"
-                                    alt="as seen logo"
-                                />
-                            </div>
-                        </li>
-                        <li class="splide__slide">
-                            <div class="as-seen_image">
-                                <img
-                                    src="https://cdn.fluid.app/newulife/as_seen_4.png"
-                                    alt="as seen logo"
-                                />
-                            </div>
-                        </li>
-                        <li class="splide__slide">
-                            <div class="as-seen_image">
-                                <img
-                                    src="https://cdn.fluid.app/newulife/as_seen_5.png"
-                                    alt="as seen logo"
-                                />
-                            </div>
-                        </li>
-                        <li class="splide__slide">
-                            <div class="as-seen_image">
-                                <img
-                                    src="https://cdn.fluid.app/newulife/as_seen_6.png"
-                                    alt="as seen logo"
-                                />
-                            </div>
-                        </li>
-                </ul>
-                </div>
-            </div><!--#as-seen_slider-->
-
-            </div><!--.container---->
-        </div><!--/as-seen-->
         <div class="product-demo-video-section page-section">
           <div class="container">
             <div class="image-section bg-image is-relative" style="background-image: url(https://cdn.fluid.app/neumi/bizops/video-poster.png);">
@@ -1308,30 +1246,7 @@
         enrollPreviewSlider.sync(enrollThumbnailsSlider);
         enrollPreviewSlider.mount();
         enrollThumbnailsSlider.mount();
-
-        //as seen slider
-        var asSeen = new Splide("#as-seen_slider", {
-          autoWidth: true,
-          arrows: false,
-          pagination: false,
-          type: "loop",
-          perPage: 1,
-          autoplay: true,
-          interval: 2000,
-          cover: false,
-          gap: "4rem",
-          breakpoints: {
-            1024: {
-              perPage: 7,
-              gap: "3rem",
-            },
-            576: {
-              perPage: 4,
-            },
-          },
-        });
-
-        asSeen.mount();
+        
         //Tab
 
         const tabLists = document.querySelectorAll(".tab-menu");
