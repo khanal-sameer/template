@@ -107,9 +107,10 @@ export const createFilePath = (prefix = "", values = {}) => {
     const dataPath = path.join(prefix, project, `json`, 'data.json');
     const cssPath = path.join(prefix, project, `css`, 'style.css');
     const template = path.join(prefix, project, 'index.html');
-    const js = path.join(prefix, project,'js', 'main.js');
+    const js = path.join(prefix, project,'js');
     const partials = path.join(prefix,project,"partials")
     copyFolder(path.join("partials"),partials)
+    copyFolder(path.join("js"),js)
 
 
 
@@ -130,12 +131,13 @@ export const initProject = (values) => {
 
 export const populatePath = (project) => {
   const locales = globSync(path.join(project,"locale/*.json"))
+
   const data = path.join(project,"json","data.json")
   const template = path.join(project,"index.html")
   const pages = path.join(project,'pages')
   const style = path.join(project,"css","style.css")
-  const script = path.join(project,"js","main.js")
   const partials = path.join(project,'partials')
+  const scripts = path.join(project,'js')
 
-  return [locales, template, data, pages, project,style, partials,script]
+  return [locales, template, data, pages, project,style, partials, scripts]
 };
