@@ -16,9 +16,9 @@ yarn lang -project=p1,p2 -locale=l1,l2
   - js
     - main.js *(The main javascript file that will be added in the final html file.)*
   - json
-    - data.json *(This serves as a template file for translation, uses regular `{{variable}}` placeholder which will be replaced if locale like `en.json` has this key. If `{{variable}}` is needed in the final html file use `#{variable}` instead.)*
+    - data.json *(This serves as a template file for translation, uses regular `{{variable}}` placeholder which will be replaced if locale like `en.json` has this key. If `{{variable}}` is needed in the final html file, use `#{variable}` instead.)*
   - locale
-    - l1.json  *(json `key-value` pair, which value will be used in place of placeholders in `data.json`, you need to add values to this file.)*
+    - l1.json  *(json `key-value` pair, which value will be used in place of placeholders in `data.json`, you need to add values to this file. If `{{variable}}` is needed in the final html file, it can be kept as it is.)*
     - l2.json
   - partials *(folder that contains the reusable components that can be use for final page generation)*
   - index.html (The template file that will be used for final html generation.)
