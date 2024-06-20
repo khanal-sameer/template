@@ -1,17 +1,4 @@
-$(document).ready(function () {
-    // video popup
-    $("[data-fancybox]").fancybox({
-      youtube: {
-        controls: 0,
-        modestbranding: 1, // Use modestbranding instead of showinfo
-      },
-    });
-    $(".reviews-pagination a").on("click", function (e) {
-      e.preventDefault();
-    });
-  });
-  
-  document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     // 2. Subscribe Card Toggle
     const subscribeCard = document.querySelector(".subscribe-card");
     const subscribeCheckbox = document.getElementById("subscribe");
@@ -65,30 +52,6 @@ $(document).ready(function () {
     previewSlider.sync(thumbnailsSlider);
     previewSlider.mount();
     thumbnailsSlider.mount();
-  
-    //as seen slider
-    var asSeen = new Splide("#as-seen_slider", {
-      autoWidth: true,
-      arrows: false,
-      pagination: false,
-      type: "loop",
-      perPage: 1,
-      autoplay: true,
-      interval: 2000,
-      cover: false,
-      gap: "4rem",
-      breakpoints: {
-        1024: {
-          perPage: 7,
-          gap: "3rem",
-        },
-        576: {
-          perPage: 4,
-        },
-      },
-    });
-  
-    asSeen.mount();
     //Tab
   
     const tabLists = document.querySelectorAll(".tab-menu");
@@ -336,88 +299,5 @@ $(document).ready(function () {
       observer.observe(wrapper);
     });
   });
-  document.addEventListener("DOMContentLoaded", async function () {
-    function extractCookie(...keys) {
-      return document.cookie
-        .split(";")
-        .filter((item) => keys.some((key) => item.includes(key)))
-        .reduce((acc, item) => {
-          const [key, value] = item.trim().split("=");
-          acc[key] = value;
-  
-          return acc;
-        }, {});
-    }
-  
-    const cookie = extractCookie("country");
-    const country = window.country || cookie.country || "us";
-  
-    const container = document.getElementById("hers");
-    const product = container.getAttribute(["data-product"]);
-    const defaultValue = { price: 65, subPrice: 50, currency: "$" };
-  
-    const getCountryData = (variants = []) => {
-      const variant = variants[0];
-  
-      if (!variant) return defaultValue;
-  
-      const {
-        price,
-        subscription_price: subPrice,
-        currency_symbol: currency,
-      } = variant.variant_countries.find(
-        (c) => c.country_iso.toLowerCase() === country
-      );
-  
-      return { price, subPrice, currency };
-    };
-  
-    const fetchVariantsDetail = async (product_id) => {
-      if (!product_id) return defaultValue;
-  
-      const host = window.fcs?.api_url_host || "https://fluid.app";
-  
-      const url = new URL(`${host}/api/products/${product_id}`);
-  
-      try {
-        const res = await fetch(url);
-        const data = await res.json();
-  
-        if (!data) return defaultValue;
-  
-        return getCountryData(data.variants || []);
-      } catch {
-        return defaultValue;
-      }
-    };
-  
-    const updateSave = (price, subPrice, currency) => {
-      const saved = Number(price - subPrice).toFixed(2);
-      const element = document.getElementById("saving");
-      element.textContent = `{currency}${saved}`;
-    };
-  
-    const updateComponent = (price, subPrice) => {
-      const body = document.getElementById("hers");
-      const oneTimePrice = document.getElementById("onetime_order_price");
-      const oneTimePriceCross = document.getElementById("crossed_onetime_price");
-      const subscriptionPrice = document.getElementById("subscribe_price");
-  
-      oneTimePrice.textContent = price;
-      oneTimePriceCross.textContent = price;
-      subscriptionPrice.textContent = subPrice;
-      body.style.display = "";
-    };
-  
-    let { price, subPrice, currency } =
-      (await fetchVariantsDetail(product)) || defaultValue;
-    price = Number(price).toFixed(2);
-    subPrice = Number(subPrice).toFixed(2);
-    updateSave(price, subPrice, currency);
-  
-    subPrice = currency + subPrice + "/mo";
-    price = currency + price;
-  
-    updateComponent(price, subPrice);
-  });
+
   

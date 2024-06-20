@@ -14,7 +14,7 @@
     "discounted_price": "50.00",
     "checklist_items": [
       {
-        "caption": "Mag-subscribe at makatipid <span id='saving'>$15</span>"
+        "caption": "Mag-subscribe at makatipid <span class='price_container is-hide' id='saving'>$15</span>"
       },
       {
         "caption": "Kumita ng Neumi Reward Points"

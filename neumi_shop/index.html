@@ -34,9 +34,6 @@
           </div>
         </div>
       {{/hero_section}}
-      <!--As seen section-->
-
-      {{>AsSeenOn}}
       <!-- Main Product List -->
       {{#product_list}}
         <div class="main-product-list page-section-top" id="shop-product">
@@ -134,116 +131,5 @@
       </div>
 
     </div><!-- .neumi-landing-page -->
-
-    <!-- Js library import -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        //as seen slider
-        var asSeen = new Splide("#as-seen_slider", {
-          autoWidth: true,
-          arrows: false,
-          pagination: false,
-          type: "loop",
-          perPage: 1,
-          autoplay: true,
-          interval: 2000,
-          cover: false,
-          gap: "4rem",
-          breakpoints: {
-            1024: {
-              perPage: 7,
-              gap: "3rem",
-            },
-            576: {
-              perPage: 4,
-            },
-          },
-        });
-
-        asSeen.mount();
-
-      });
-
-      $(".shop-product-button").on("click", function () {
-        $("html,body").animate({
-          scrollTop: $('#shop-product').offset().top + 50 + 'px'
-        }, 1000);
-        return false;
-      });
-
-    </script>
-    <script>
-      $(window).on('load', async function () {
-        console.log('load');
-        function extractCookie(...keys) {
-          return document.cookie.split(";").filter(item => keys.some(key => item.includes(key))).reduce((acc, item) => {
-            const [key, value] = item.trim().split("=")
-            acc[key] = value
-
-            return acc
-          }, {})
-        }
-
-        const cookie = extractCookie('country');
-        const country = window.country || cookie.country || 'us'
-
-        const getCountryData = (variants = []) => {
-          const variant = variants[0]
-
-          if (!variant) return null
-
-          const { price, subscription_price: subPrice, currency_symbol: currency } = variant.variant_countries.find(c => c.country_iso.toLowerCase() === country)
-
-          return { price, subPrice, currency }
-        }
-
-        const fetchVariantsDetail = async (product_id) => {
-
-          if (!product_id) return null
-
-          const host = "https://fluid.app"
-
-          const url = new URL(`${host}/api/products/${product_id}`)
-
-          try {
-            const res = await fetch(url)
-            const data = await res.json()
-
-            if (!data) return null;
-
-            return getCountryData(data.variants || [])
-          }
-          catch {
-            return null
-          }
-        }
-
-        const elements = [...document.querySelectorAll('[id^="product_"]')];
-        const promises = elements.forEach(async element => {
-          const id = element.getAttribute("id").split("_")[1];
-
-          if (!id) {
-            element.style.display = ""
-            return null
-          };
-
-          const res = await fetchVariantsDetail(id)
-
-          if (!res) {
-            element.style.display = ""
-            return null
-          };
-
-          let { price, currency } = res
-
-          price = Number(price).toFixed(2)
-          price = currency + price
-          element.textContent = price
-          element.style.display = ""
-        })
-      })
-    </script>
   </body>
 </html>

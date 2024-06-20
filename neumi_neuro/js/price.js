@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   const cookie = extractCookie('country');
   const country = window.country || cookie.country || 'us'
 
-  const container = document.getElementById('{{product_name}}')
+  const container = document.querySelector('.custom-landing-page')
   const product = container.getAttribute(["data-product"])
 
   const getCountryData = (variants = []) => {
@@ -56,25 +56,30 @@ document.addEventListener('DOMContentLoaded', async function () {
   }
 
   const updateComponent = (price, subPrice) => {
-    const prices = document.getElementsByClassName("price_container")
 
-    const oneTimePrice = document.getElementById("onetime_order_price")
-    const oneTimePriceCross = document.getElementById("crossed_onetime_price")
-    const subscriptionPrice = document.getElementById("subscribe_price")
+    if(price){
+      const oneTimePrice = document.getElementById("onetime_order_price")
+     const oneTimePriceCross = document.getElementById("crossed_onetime_price")
 
-    oneTimePrice.textContent = price
-    oneTimePriceCross.textContent = price
-    subscriptionPrice.textContent = subPrice
+      oneTimePrice.textContent = price
+      oneTimePriceCross.textContent = price
+    }
+    if(subPrice){
+      const subscriptionPrice = document.getElementById("subscribe_price")
+      subscriptionPrice.textContent = subPrice
+    }    
+
+    const containers = document.getElementsByClassName("price_container")
     
-    for(const element of prices){
-        element.style.display = ''
+    for(const element of containers){
+      element.classList.remove("is-hide")
     }
 
   }
 
   const data = await fetchVariantsDetail(product)
 
-  if(!data) return null;
+  if(!data) return updateComponent();
 
   let { price, subPrice, currency } = data;
 

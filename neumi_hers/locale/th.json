@@ -13,7 +13,7 @@
     "frequency_text": "เลือกความถี่",
     "checklist_items": [
       {
-        "caption": "สมัครสมาชิกและประหยัด <span id='saving'>$15</span>"
+        "caption": "สมัครสมาชิกและประหยัด <span class='price_container is-hide' id='saving'>$15</span>"
       },
       {
         "caption": "รับคะแนนสะสม Neumi"

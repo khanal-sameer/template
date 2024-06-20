@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <div  class='custom-landing-page neumi-skin-landing-page' id="neumi-skin" style="display:none;" data-product="9467">
+    <div  class='custom-landing-page neumi-skin-landing-page' id="neumi-skin" data-product="9467">
       <div class="breadcrumb-section">
         <div class="container">
           <div class="breadcrumb is-flex is-align-center col-gap-12 row-gap-8 pb-20">
@@ -249,7 +249,7 @@
                         />
                         <label for="subscribe" class="clr-body">Abonnieren</label>
                       </div>
-                      <div class="is-flex is-end is-align-center col-gap-16 line-height-1">
+                      <div class="is-flex is-end is-align-center col-gap-16 line-height-1 price_container is-hide">
                         <span id="crossed_onetime_price" class="is-strike secondary-text-color fw-500">$65.00</span>
                         <span class="fw-600 clr-primary fs-lg" id="subscribe_price">$50.00</span>
                       </div>
@@ -275,7 +275,7 @@
                                 d="M17.0964 7.39016L9.93641 14.3002L8.03641 12.2702C7.68641 11.9402 7.13641 11.9202 6.73641 12.2002C6.34641 12.4902 6.23641 13.0002 6.47641 13.4102L8.72641 17.0702C8.94641 17.4102 9.32641 17.6202 9.75641 17.6202C10.1664 17.6202 10.5564 17.4102 10.7764 17.0702C11.1364 16.6002 18.0064 8.41016 18.0064 8.41016C18.9064 7.49016 17.8164 6.68016 17.0964 7.38016V7.39016Z"
                                 fill="#079455"
                               />
-                            </svg>                            <span>Abonnieren und sparen <span id='saving'>$15</span></span>
+                            </svg>                            <span>Abonnieren und sparen <span class='price_container is-hide' id='saving'>$15</span></span>
                           </li>
                           <li class="is-flex is-start is-align-start col-gap-12 secondary-text-color fw-500">
                             <svg
@@ -350,7 +350,7 @@
                       />
                       <label for="onetime_order" class="clr-body">Einmalkauf</label>
                     </div>
-                    <div class="is-flex is-end is-align-center col-gap-16">
+                    <div class="is-flex is-end is-align-center col-gap-16 price_container is-hide">
                       <span class="fw-600 clr-body" id="onetime_order_price">$65.00</span>
                     </div>
                   </div>
@@ -394,70 +394,6 @@
           </div><!--.product-wrapper-->
         </div><!--.container-->
       </div>
-
-      <!--As seen section-->
-       <!--As seen section-->
-        <div class="as-seen page-section-top">
-            <div class="container">
-            <h4 class="text-center fw-600 mb-32">Bekannt aus</h4>
-
-            <div id="as-seen_slider" class="splide">
-                <div class="splide__track">
-                <ul class="splide__list">
-                        <li class="splide__slide">
-                            <div class="as-seen_image">
-                                <img
-                                    src="https://cdn.fluid.app/newulife/as_seen_1.png"
-                                    alt="as seen logo"
-                                />
-                            </div>
-                        </li>
-                        <li class="splide__slide">
-                            <div class="as-seen_image">
-                                <img
-                                    src="https://cdn.fluid.app/newulife/as_seen_2.png"
-                                    alt="as seen logo"
-                                />
-                            </div>
-                        </li>
-                        <li class="splide__slide">
-                            <div class="as-seen_image">
-                                <img
-                                    src="https://cdn.fluid.app/newulife/as_seen_3.png"
-                                    alt="as seen logo"
-                                />
-                            </div>
-                        </li>
-                        <li class="splide__slide">
-                            <div class="as-seen_image">
-                                <img
-                                    src="https://cdn.fluid.app/newulife/as_seen_4.png"
-                                    alt="as seen logo"
-                                />
-                            </div>
-                        </li>
-                        <li class="splide__slide">
-                            <div class="as-seen_image">
-                                <img
-                                    src="https://cdn.fluid.app/newulife/as_seen_5.png"
-                                    alt="as seen logo"
-                                />
-                            </div>
-                        </li>
-                        <li class="splide__slide">
-                            <div class="as-seen_image">
-                                <img
-                                    src="https://cdn.fluid.app/newulife/as_seen_6.png"
-                                    alt="as seen logo"
-                                />
-                            </div>
-                        </li>
-                </ul>
-                </div>
-            </div><!--#as-seen_slider-->
-
-            </div><!--.container---->
-        </div><!--/as-seen-->
 
       <!-- Video Section -->
         <div class="product-demo-video-section page-section">
@@ -1383,426 +1319,430 @@
         </div>
       </div><!-- .page-note-section -->    </div>
 
-    <!-- Js library import -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src="https://fastly.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-    <script>
-      $(document).ready(function () {
-      // video popup
-        $("[data-fancybox]").fancybox({
-          youtube: {
-            controls: 0,
-            modestbranding: 1, // Use modestbranding instead of showinfo
-          },
-        });
-        $(".reviews-pagination a").on("click", function (e) {
-          e.preventDefault();
-        });
-      });
+    
+<script defer>
+$(document).ready(function () {
+    // video popup
+    $("[data-fancybox]").fancybox({
+      youtube: {
+        controls: 0,
+        modestbranding: 1, // Use modestbranding instead of showinfo
+      },
+    });
+    $(".reviews-pagination a").on("click", function (e) {
+      e.preventDefault();
+    });
+  });
+</script>
 
-      document.addEventListener("DOMContentLoaded", function () {
-        // 2. Subscribe Card Toggle
-        const subscribeCard = document.querySelector(".subscribe-card");
-        const subscribeCheckbox = document.getElementById("subscribe");
-        const oneTimeOrderCheckbox = document.getElementById("onetime_order");
-
-        const selectQuantityElement = document.getElementById("group-checkout-quantity");
-        const hiddenQuantityInput = document.getElementById("checkout-quantity");
-
-        function updateHiddenInput() {
-            hiddenQuantityInput.value = selectQuantityElement.value;
-        }
-
-        // Function to update hidden input value when select changes
-        selectQuantityElement.addEventListener("change", updateHiddenInput);
-
-        // Initial assignment on page load
-        updateHiddenInput();
-
-        function toggleSubscribeCard(checked) {
-          subscribeCard.classList.toggle("is-active", checked);
-        }
-
-        subscribeCheckbox.addEventListener("change", toggleSubscribeCard);
-        oneTimeOrderCheckbox.addEventListener("change", () =>
-          toggleSubscribeCard(false)
-        );
-        // Product Slider
-        const previewSlider = new Splide("#preview-slider", {
-          rewind: true,
-          pagination: false,
-          arrows: false
-        });
-        const thumbnailsSlider = new Splide("#thumbnail-slider", {
-          start: 0,
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+    // 2. Subscribe Card Toggle
+    const subscribeCard = document.querySelector(".subscribe-card");
+    const subscribeCheckbox = document.getElementById("subscribe");
+    const oneTimeOrderCheckbox = document.getElementById("onetime_order");
+  
+    const selectQuantityElement = document.getElementById(
+      "group-checkout-quantity"
+    );
+    const hiddenQuantityInput = document.getElementById("checkout-quantity");
+  
+    function updateHiddenInput() {
+      hiddenQuantityInput.value = selectQuantityElement.value;
+    }
+  
+    // Function to update hidden input value when select changes
+    selectQuantityElement.addEventListener("change", updateHiddenInput);
+  
+    // Initial assignment on page load
+    updateHiddenInput();
+  
+    function toggleSubscribeCard(checked) {
+      subscribeCard.classList.toggle("is-active", checked);
+    }
+  
+    subscribeCheckbox.addEventListener("change", toggleSubscribeCard);
+    oneTimeOrderCheckbox.addEventListener("change", () =>
+      toggleSubscribeCard(false)
+    );
+    // Product Slider
+    const previewSlider = new Splide("#preview-slider", {
+      rewind: true,
+      pagination: false,
+      arrows: false,
+    });
+    const thumbnailsSlider = new Splide("#thumbnail-slider", {
+      start: 0,
+      perPage: 6,
+      gap: 10,
+      rewind: true,
+      pagination: false,
+      isNavigation: true,
+      mediaQuery: "min",
+      breakpoints: {
+        576: {
           perPage: 6,
-          gap: 10,
-          rewind: true,
-          pagination: false,
-          isNavigation: true,
-          mediaQuery: "min",
-          breakpoints: {
-            576: {
-              perPage: 6,
-              width: 440,
-            },
-          },
-        });
-
-        previewSlider.sync(thumbnailsSlider);
-        previewSlider.mount();
-        thumbnailsSlider.mount();
-
-        //as seen slider
-        var asSeen = new Splide("#as-seen_slider", {
-          autoWidth: true,
-          arrows: false,
-          pagination: false,
-          type: "loop",
-          perPage: 1,
-          autoplay: true,
-          interval: 2000,
-          cover: false,
-          gap: "4rem",
-          breakpoints: {
-            1024: {
-              perPage: 7,
-              gap: "3rem",
-            },
-            576: {
-              perPage: 4,
-            },
-          },
-        });
-
-        asSeen.mount();
-        //Tab
-
-        const tabLists = document.querySelectorAll(".tab-menu");
-
-        function showTab(tabList, index) {
-          const tabsInList = tabList.querySelectorAll(".tab-menu li");
-          const panelsInList =
-          tabList.parentElement.nextElementSibling.querySelectorAll(
-            ".tab-content-item"
-          );
-
-          tabsInList.forEach((tab) => tab.classList.remove("active"));
-          panelsInList.forEach((panel) => panel.classList.remove("active"));
-
-          tabsInList[index].classList.add("active");
-          panelsInList[index].classList.add("active");
-        }
-
-        tabLists.forEach((tabList) => {
-          const tabs = tabList.querySelectorAll(".tab-menu li");
-
-          tabs.forEach((tab, index) => {
-            tab.addEventListener("click", () => showTab(tabList, index));
-          });
-
-          // Show the first tab in each list by default
-          showTab(tabList, 0);
-        });
-
-        //video slider
-        var tabSlider = new Splide("#tab-slider", {
-          arrows: false,
-          pagination: false,
-          type: "loop",
-          perPage: 1,
-          cover: false,
-          gap: "12px",
-          mediaQuery: "min",
-          padding: '5rem',
-          breakpoints: {
-            1280: {
-              perPage: 5,
-            },
-            1024: {
-              perPage: 4,
-            },
-            768: {
-              perPage: 3,
-            },
-            576: {
-              perPage: 2,
-              padding: "0",
-              arrows: true,
-            },
-          },
-        });
-
-        tabSlider.mount();
-      // key ingredients slider
-      var keyIngredientsSliderMobile = new Splide("#key-ingredients-slider-mobile", {
-          arrows: false,
-          pagination: false,
-          type: "loop",
-          perPage: 1,
-          cover: false,
-          gap: "2rem",
-          padding: "5rem",
-          mediaQuery: "min",
-          breakpoints: {
-            576: {
-              perPage: 2,
-            },
-          },
-        });
-
-        keyIngredientsSliderMobile.mount();
-
-        var keyIngredientsSliderDesktop = new Splide("#key-ingredients-slider-desktop", {
-          arrows: false,
-          pagination: false,
-          perPage: 1,
-          arrows: true,
-          cover: false,
-          gap: "2rem",
-          mediaQuery: "min",
-          rewind: false,
-          breakpoints: {
-            1280: {
-              perPage: 4,
-            },
-            1024: {
-              perPage: 3,
-            },
-            768: {
-              perPage: 2,
-            },
-            576: {
-              perPage: 2,
-            },
-          },
-        });
-
-        keyIngredientsSliderDesktop.mount();
-
-
-        //Accordion
-        const accItem = document.querySelectorAll(".acc-item");
-        accItem.forEach((item, index) => {
-          let accHeader = item.querySelector(".acc-item_header");
-          accHeader.addEventListener("click", () => {
-            let accBody = item.querySelector(".acc-item_body");
-            if (!item.classList.contains("acc-item_active")) {
-              item.classList.add("acc-item_active");
-              accBody.style.maxHeight = accBody.scrollHeight + 32 + "px";
-              accItem.forEach((element, ind) => {
-                let elementBody = element.querySelector(".acc-item_body");
-                if (!(ind === index)) {
-                  element.classList.remove("acc-item_active");
-                  elementBody.style.maxHeight = null;
-                }
-              });
-            } else {
-              item.classList.remove("acc-item_active");
-              accBody.style.maxHeight = null;
-            }
-          });
-        });
-        gsap.registerPlugin(ScrollTrigger);
-
-        const featItems = gsap.utils.toArray(".product-feature-item");
-        featItems.forEach((items) => {
-          gsap.fromTo(
-            items,
-            { opacity: 0, y: 50 },
-            {
-              duration: 1.5,
-              opacity: 1,
-              y: 0,
-              scrollTrigger: {
-                trigger: ".key-ingredients",
-                start: "-30% top",
-                end: "bottom center",
-                scrub: 1,
-              },
-            }
-          );
-        });
-
-        // Select all overlay elements within .page-section
-        const overlays = gsap.utils.toArray(".overlay-animation .overlay-left");
-
-        // Loop through each overlay element
-        overlays.forEach((overlay) => {
-          ScrollTrigger.create({
-            trigger: overlay.closest(".overlay-animation"),
-            start: "-100% top",
-            end: "bottom 20%",
-            onToggle: (self) => {
-              if (self.isActive) {
-                gsap.to(overlay, { duration: 1, x: "-100%" });
-              } else {
-                gsap.to(overlay, { duration: 1, x: 0 });
-              }
-            },
-          });
-        });
-
-        const overlaysRight = gsap.utils.toArray(".overlay-animation .overlay-right");
-
-        // Loop through each overlay element
-        overlaysRight.forEach((overlay) => {
-          ScrollTrigger.create({
-            trigger: overlay.closest(".overlay-animation"),
-            start: "-100% top",
-            end: "bottom 20%",
-            onToggle: (self) => {
-              if (self.isActive) {
-                gsap.to(overlay, { duration: 1, x: "100%" });
-              } else {
-                gsap.to(overlay, { duration: 1, x: 0 });
-              }
-            },
-          });
-        });
-
-        const keyItems = gsap.utils.toArray(".ingredients .item");
-        keyItems.forEach((items) => {
-          gsap.fromTo(
-            items,
-            { opacity: 0, y: 50, stagger: 0.2 },
-            {
-              duration: 1.5,
-              opacity: 1,
-              y: 0,
-              stagger: 0.2,
-              scrollTrigger: {
-                trigger: ".ingredients",
-                start: "-80% top",
-                end: "bottom 20%",
-              },
-            }
-          );
-        });
-
-        const faqs = gsap.utils.toArray(".acc-item");
-
-        gsap.fromTo(
-          faqs,
-          { opacity: 0, y: 50, stagger: 0.3 },
-          {
-            duration: 1.5,
-            opacity: 1,
-            stagger: 0.3,
-            y: 0,
-
-            scrollTrigger: {
-              trigger: ".acc",
-              start: "-100% top",
-              end: "bottom center",
-            },
-          }
+          width: 440,
+        },
+      },
+    });
+  
+    previewSlider.sync(thumbnailsSlider);
+    previewSlider.mount();
+    thumbnailsSlider.mount();
+    //Tab
+  
+    const tabLists = document.querySelectorAll(".tab-menu");
+  
+    function showTab(tabList, index) {
+      const tabsInList = tabList.querySelectorAll(".tab-menu li");
+      const panelsInList =
+        tabList.parentElement.nextElementSibling.querySelectorAll(
+          ".tab-content-item"
         );
-
-        const wrappers = document.querySelectorAll(
-          ".key-ingredients , .innovation, .easy-app, .lasting-benefit"
-        );
-        const className = "is-active";
-
-        const observer = new IntersectionObserver((entries) => {
-          for (const entry of entries) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add(className);
-            } else {
-              entry.target.classList.remove(className);
-            }
-          }
-        });
-
-        wrappers.forEach((wrapper) => {
-          observer.observe(wrapper);
-        });
-
+  
+      tabsInList.forEach((tab) => tab.classList.remove("active"));
+      panelsInList.forEach((panel) => panel.classList.remove("active"));
+  
+      tabsInList[index].classList.add("active");
+      panelsInList[index].classList.add("active");
+    }
+  
+    tabLists.forEach((tabList) => {
+      const tabs = tabList.querySelectorAll(".tab-menu li");
+  
+      tabs.forEach((tab, index) => {
+        tab.addEventListener("click", () => showTab(tabList, index));
       });
-
-    </script>
-    <script>
-      document.addEventListener('DOMContentLoaded', async function () {
-        function extractCookie(...keys) {
-          return document.cookie.split(";").filter(item => keys.some(key => item.includes(key))).reduce((acc, item) => {
-            const [key, value] = item.trim().split("=")
-            acc[key] = value
-
-            return acc
-          }, {})
+  
+      // Show the first tab in each list by default
+      showTab(tabList, 0);
+    });
+  
+    //video slider
+    var tabSlider = new Splide("#tab-slider", {
+      arrows: false,
+      pagination: false,
+      type: "loop",
+      perPage: 1,
+      cover: false,
+      gap: "12px",
+      mediaQuery: "min",
+      padding: "5rem",
+      breakpoints: {
+        1280: {
+          perPage: 5,
+        },
+        1024: {
+          perPage: 4,
+        },
+        768: {
+          perPage: 3,
+        },
+        576: {
+          perPage: 2,
+          padding: "0",
+          arrows: true,
+        },
+      },
+    });
+  
+    tabSlider.mount();
+    // key ingredients slider
+    var keyIngredientsSliderMobile = new Splide(
+      "#key-ingredients-slider-mobile",
+      {
+        arrows: false,
+        pagination: false,
+        type: "loop",
+        perPage: 1,
+        cover: false,
+        gap: "2rem",
+        padding: "5rem",
+        mediaQuery: "min",
+        breakpoints: {
+          576: {
+            perPage: 2,
+          },
+        },
+      }
+    );
+  
+    keyIngredientsSliderMobile.mount();
+  
+    var keyIngredientsSliderDesktop = new Splide(
+      "#key-ingredients-slider-desktop",
+      {
+        arrows: false,
+        pagination: false,
+        perPage: 1,
+        arrows: true,
+        cover: false,
+        gap: "2rem",
+        mediaQuery: "min",
+        rewind: false,
+        breakpoints: {
+          1280: {
+            perPage: 4,
+          },
+          1024: {
+            perPage: 3,
+          },
+          768: {
+            perPage: 2,
+          },
+          576: {
+            perPage: 2,
+          },
+        },
+      }
+    );
+  
+    keyIngredientsSliderDesktop.mount();
+  
+    //Accordion
+    const accItem = document.querySelectorAll(".acc-item");
+    accItem.forEach((item, index) => {
+      let accHeader = item.querySelector(".acc-item_header");
+      accHeader.addEventListener("click", () => {
+        let accBody = item.querySelector(".acc-item_body");
+        if (!item.classList.contains("acc-item_active")) {
+          item.classList.add("acc-item_active");
+          accBody.style.maxHeight = accBody.scrollHeight + 32 + "px";
+          accItem.forEach((element, ind) => {
+            let elementBody = element.querySelector(".acc-item_body");
+            if (!(ind === index)) {
+              element.classList.remove("acc-item_active");
+              elementBody.style.maxHeight = null;
+            }
+          });
+        } else {
+          item.classList.remove("acc-item_active");
+          accBody.style.maxHeight = null;
         }
-
-        const cookie = extractCookie('country');
-        const country = window.country || cookie.country || 'us'
-
-        const container = document.getElementById('neumi-skin')
-        const product = container.getAttribute(["data-product"])
-        const defaultValue = { price: 65, subPrice: 50, currency: "$" }
-
-        const getCountryData = (variants = []) => {
-          const variant = variants[0]
-
-          if (!variant) return defaultValue
-
-          const { price, subscription_price: subPrice, currency_symbol: currency } = variant.variant_countries.find(c => c.country_iso.toLowerCase() === country)
-
-          return { price, subPrice, currency }
+      });
+    });
+    gsap.registerPlugin(ScrollTrigger);
+  
+    const featItems = gsap.utils.toArray(".product-feature-item");
+    featItems.forEach((items) => {
+      gsap.fromTo(
+        items,
+        { opacity: 0, y: 50 },
+        {
+          duration: 1.5,
+          opacity: 1,
+          y: 0,
+          scrollTrigger: {
+            trigger: ".key-ingredients",
+            start: "-30% top",
+            end: "bottom center",
+            scrub: 1,
+          },
         }
-
-        const fetchVariantsDetail = async (product_id) => {
-
-          if (!product_id) return defaultValue
-
-          const host = "https://fluid.app"
-
-          const url = new URL(`${host}/api/products/${product_id}`)
-
-          try {
-            const res = await fetch(url)
-            const data = await res.json()
-
-            if (!data) return defaultValue;
-
-            return getCountryData(data.variants || [])
+      );
+    });
+  
+    // Select all overlay elements within .page-section
+    const overlays = gsap.utils.toArray(".overlay-animation .overlay-left");
+  
+    // Loop through each overlay element
+    overlays.forEach((overlay) => {
+      ScrollTrigger.create({
+        trigger: overlay.closest(".overlay-animation"),
+        start: "-100% top",
+        end: "bottom 20%",
+        onToggle: (self) => {
+          if (self.isActive) {
+            gsap.to(overlay, { duration: 1, x: "-100%" });
+          } else {
+            gsap.to(overlay, { duration: 1, x: 0 });
           }
-          catch {
-            return defaultValue
+        },
+      });
+    });
+  
+    const overlaysRight = gsap.utils.toArray(".overlay-animation .overlay-right");
+  
+    // Loop through each overlay element
+    overlaysRight.forEach((overlay) => {
+      ScrollTrigger.create({
+        trigger: overlay.closest(".overlay-animation"),
+        start: "-100% top",
+        end: "bottom 20%",
+        onToggle: (self) => {
+          if (self.isActive) {
+            gsap.to(overlay, { duration: 1, x: "100%" });
+          } else {
+            gsap.to(overlay, { duration: 1, x: 0 });
           }
+        },
+      });
+    });
+  
+    const keyItems = gsap.utils.toArray(".ingredients .item");
+    keyItems.forEach((items) => {
+      gsap.fromTo(
+        items,
+        { opacity: 0, y: 50, stagger: 0.2 },
+        {
+          duration: 1.5,
+          opacity: 1,
+          y: 0,
+          stagger: 0.2,
+          scrollTrigger: {
+            trigger: ".ingredients",
+            start: "-80% top",
+            end: "bottom 20%",
+          },
         }
-
-        const updateSave = (price, subPrice, currency) => {
-          const saved = Number(price - subPrice).toFixed(2);
-          const element = document.getElementById("saving")
-          element.textContent = `${currency}${saved}`
+      );
+    });
+  
+    const faqs = gsap.utils.toArray(".acc-item");
+  
+    gsap.fromTo(
+      faqs,
+      { opacity: 0, y: 50, stagger: 0.3 },
+      {
+        duration: 1.5,
+        opacity: 1,
+        stagger: 0.3,
+        y: 0,
+  
+        scrollTrigger: {
+          trigger: ".acc",
+          start: "-100% top",
+          end: "bottom center",
+        },
+      }
+    );
+  
+    const wrappers = document.querySelectorAll(
+      ".key-ingredients , .innovation, .easy-app, .lasting-benefit"
+    );
+    const className = "is-active";
+  
+    const observer = new IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add(className);
+        } else {
+          entry.target.classList.remove(className);
         }
+      }
+    });
+  
+    wrappers.forEach((wrapper) => {
+      observer.observe(wrapper);
+    });
+  });
 
-        const updateComponent = (price, subPrice) => {
-          const body = document.getElementById('neumi-skin')
-          const oneTimePrice = document.getElementById("onetime_order_price")
-          const oneTimePriceCross = document.getElementById("crossed_onetime_price")
-          const subscriptionPrice = document.getElementById("subscribe_price")
+  
+</script>
 
-          oneTimePrice.textContent = price
-          oneTimePriceCross.textContent = price
-          subscriptionPrice.textContent = subPrice
-          body.style.display = ''
+<script defer>
+document.addEventListener('DOMContentLoaded', async function () {
 
-        }
+  function extractCookie(...keys) {
+    return document.cookie.split(";").filter(item => keys.some(key => item.includes(key))).reduce((acc, item) => {
+      const [key, value] = item.trim().split("=")
+      acc[key] = value
 
-        let { price, subPrice, currency } = await fetchVariantsDetail(product) || defaultValue
-        price = Number(price).toFixed(2)
-        subPrice = Number(subPrice).toFixed(2)
-        updateSave(price, subPrice, currency)
+      return acc
+    }, {})
+  }
 
-        subPrice = currency + subPrice + '/mo'
-        price = currency + price
+  const cookie = extractCookie('country');
+  const country = window.country || cookie.country || 'us'
 
-        updateComponent(price, subPrice)
-      })
-    </script>
+  const container = document.querySelector('.custom-landing-page')
+  const product = container.getAttribute(["data-product"])
+
+  const getCountryData = (variants = []) => {
+    const variant = variants[0]
+
+    if(!variant) return null
+    
+    const found = variant.variant_countries.find(c => c.country_iso.toLowerCase() === country)
+
+    if(!found) return null;
+
+    const { price, subscription_price: subPrice, currency_symbol: currency } = found;
+
+    return { price, subPrice, currency }
+  }
+
+  const fetchVariantsDetail = async (product_id) => {
+
+    if (!product_id) return null
+
+    const host = "https://fluid.app"
+    const url = new URL(`${host}/api/products/${product_id}`)
+
+    try {
+      const res = await fetch(url)
+      const data = await res.json()
+
+      if (!data) return null;
+
+      return getCountryData(data.variants || [])
+    }
+    catch {
+      return null
+    }
+  }
+
+  const updateSave = (price, subPrice, currency) => {
+    const saved = Number(price - subPrice).toFixed(2);
+    const element = document.getElementById("saving")
+    element.textContent = `${currency}${saved}`
+  }
+
+  const updateComponent = (price, subPrice) => {
+
+    if(price){
+      const oneTimePrice = document.getElementById("onetime_order_price")
+     const oneTimePriceCross = document.getElementById("crossed_onetime_price")
+
+      oneTimePrice.textContent = price
+      oneTimePriceCross.textContent = price
+    }
+    if(subPrice){
+      const subscriptionPrice = document.getElementById("subscribe_price")
+      subscriptionPrice.textContent = subPrice
+    }    
+
+    const containers = document.getElementsByClassName("price_container")
+    
+    for(const element of containers){
+      element.classList.remove("is-hide")
+    }
+
+  }
+
+  const data = await fetchVariantsDetail(product)
+
+  if(!data) return updateComponent();
+
+  let { price, subPrice, currency } = data;
+
+  price = Number(price).toFixed(2)
+  subPrice = Number(subPrice).toFixed(2)
+  updateSave(price, subPrice, currency)
+
+  subPrice = currency + subPrice + '/mo'
+  price = currency + price
+
+  updateComponent(price, subPrice)
+})
+</script>
+    
   </body>
 </html>
