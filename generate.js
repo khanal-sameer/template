@@ -90,8 +90,8 @@ const populate = (args) => {
  const style_comp  = `<style>
   ${style_tmpl} </style>
   `;
- const script = Object.values(scripts_tmpl).reduce((acc,script)=>{
-    acc += `\n<script defer>\n${script}\n</script>\n`;
+ const script = Object.entries(scripts_tmpl).reduce((acc,[key,script])=>{
+    acc += `\n<script defer id='script_${key}'>\n${script}\n</script>\n`;
 
     return acc
   },'')
