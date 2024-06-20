@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
   accItem.forEach((item, index) => {
     let accHeader = item.querySelector(".acc-item_header");
     accHeader.onclick = () => {
-      item.classList.add("acc-item_active");
       let accBody = item.querySelector(".acc-item_body");
       if (!item.classList.contains("acc-item_active")) {
+        item.classList.add("acc-item_active");
         accBody.style.maxHeight = accBody.scrollHeight + 32 + "px";
         accItem.forEach((element, ind) => {
           let elementBody = element.querySelector(".acc-item_body");
