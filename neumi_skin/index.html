@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <div  class='custom-landing-page neumi-skin-landing-page' id="neumi-skin" style="display:none;" data-product="{{product_id}}">
+    <div  class='custom-landing-page neumi-skin-landing-page' id="neumi-skin" data-product="{{product_id}}">
       {{>Breadcrumb}}
       <!-- PRODUCT DESCRIPTION -->
       {{>ProductDescriptionLayout}}
@@ -448,7 +448,6 @@
         }
 
         const updateComponent = (price, subPrice) => {
-          const body = document.getElementById('neumi-skin')
           const oneTimePrice = document.getElementById("onetime_order_price")
           const oneTimePriceCross = document.getElementById("crossed_onetime_price")
           const subscriptionPrice = document.getElementById("subscribe_price")
@@ -456,8 +455,6 @@
           oneTimePrice.textContent = price
           oneTimePriceCross.textContent = price
           subscriptionPrice.textContent = subPrice
-          body.style.display = ''
-
         }
 
         let { price, subPrice, currency } = await fetchVariantsDetail(product) || defaultValue

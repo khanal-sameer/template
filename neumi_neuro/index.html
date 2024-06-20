@@ -518,7 +518,6 @@
         }
 
         const updateComponent = (price, subPrice) => {
-          const body = document.getElementById('neuro-landing-page');
           const oneTimePrice = document.getElementById("onetime_order_price")
           const oneTimePriceCross = document.getElementById("crossed_onetime_price")
           const subscriptionPrice = document.getElementById("subscribe_price")
@@ -526,7 +525,6 @@
           oneTimePrice.textContent = price
           oneTimePriceCross.textContent = price
           subscriptionPrice.textContent = subPrice
-          body.style.display = ''
 
         }
 

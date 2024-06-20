@@ -90,7 +90,7 @@
                   />
                   <label for="subscribe" class="clr-body">{{subscribe_text}}</label>
                 </div>
-                <div class="is-flex is-end is-align-center col-gap-16 line-height-1">
+                <div class="is-flex is-end is-align-center col-gap-16 line-height-1 price_container" style="display: none;">
                   <span id="crossed_onetime_price" class="is-strike secondary-text-color fw-500">${{actual_price}}</span>
                   <span class="fw-600 clr-primary fs-lg" id="subscribe_price">${{discounted_price}}</span>
                 </div>
@@ -117,7 +117,7 @@
                 />
                 <label for="onetime_order" class="clr-body">{{one_time_purchase_text}}</label>
               </div>
-              <div class="is-flex is-end is-align-center col-gap-16">
+              <div class="is-flex is-end is-align-center col-gap-16 price_container" style="display: none;">
                 <span class="fw-600 clr-body" id="onetime_order_price">${{actual_price}}</span>
               </div>
             </div>

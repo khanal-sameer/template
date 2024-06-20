@@ -19,7 +19,7 @@
     {{>Style}}
   </head>
   <body>
-    <div  id="nutriwish" class='custom-landing-page neumi-nutriswish-landing-page' data-product="{{product_id}}" style="display:none">
+    <div  id="nutriwish" class='custom-landing-page neumi-nutriswish-landing-page' data-product="{{product_id}}">
       {{>Breadcrumb}}
       <!-- PRODUCT DESCRIPTION -->
       {{>ProductDescriptionLayout}}
@@ -464,7 +464,6 @@
         }
 
         const updateComponent = (price, subPrice) => {
-          const body = document.getElementById('nutriwish')
           const oneTimePrice = document.getElementById("onetime_order_price")
           const oneTimePriceCross = document.getElementById("crossed_onetime_price")
           const subscriptionPrice = document.getElementById("subscribe_price")
@@ -472,7 +471,6 @@
           oneTimePrice.textContent = price
           oneTimePriceCross.textContent = price
           subscriptionPrice.textContent = subPrice
-          body.style.display = ''
 
         }
 

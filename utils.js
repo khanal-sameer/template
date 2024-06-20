@@ -107,9 +107,10 @@ export const createFilePath = (prefix = "", values = {}) => {
     const dataPath = path.join(prefix, project, `json`, 'data.json');
     const cssPath = path.join(prefix, project, `css`, 'style.css');
     const template = path.join(prefix, project, 'index.html');
-    const js = path.join(prefix, project,'js', 'main.js');
+    const js = path.join(prefix, project,'js');
     const partials = path.join(prefix,project,"partials")
     copyFolder(path.join("partials"),partials)
+    copyFolder(path.join("js"),js)
 
 
 
