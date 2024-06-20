@@ -161,7 +161,7 @@
     "items": [
       {
         "header": "如何成为会员？",
-        "desc": "您可以通过<a href='https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/page/neumi-biz-op' class='clr-primary'>Neumi.com/corporphan/enrollment</a>进入注册。搜索您的赞助人，然后按照注册流程操作。"
+        "desc": "您可以通过<a href='https://neumi.fluid.app/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'>Neumi.com/corporphan/enrollment</a>进入注册。搜索您的赞助人，然后按照注册流程操作。"
       },
       {
         "header": "是否有任何合同？",

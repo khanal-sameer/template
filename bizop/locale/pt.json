@@ -161,7 +161,7 @@
     "items": [
       {
         "header": "Como posso me tornar um membro?",
-        "desc": "Você pode se inscrever visitando<a href='https://neumi.fluid.app/{{affiliate_guid | default: 'home'}}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/enrollment.</a> Procure por seu patrocinador e siga o processo de inscrição."
+        "desc": "Você pode se inscrever visitando<a href='https://neumi.fluid.app/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/enrollment.</a> Procure por seu patrocinador e siga o processo de inscrição."
       },
       {
         "header": "Existem contratos?",
