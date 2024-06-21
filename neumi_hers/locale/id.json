@@ -6,7 +6,7 @@
   "select_quantity_text": "Pilih Jumlah",
   "all_product_text": "Semua Produk",
   "add_to_cart_text": "Tambah ke Keranjang",
-  "language": "id",
+  "language": "id", "month": "bulan",
   "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text":"Berlangganan",

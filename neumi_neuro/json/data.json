@@ -10,6 +10,7 @@
   "select_quantity_text": "{{select_quantity_text}}",
   "all_product_text": "{{all_product_text}}",
   "language": "{{language}}",
+  "month": "{{month}}",
   "shop_url": "https://app.neumi.com/#{affiliate_guid | default: 'home'}/shop",
   "productSlider": {
     "items": [

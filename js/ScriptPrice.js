@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   subPrice = Number(subPrice).toFixed(2)
   updateSave(price, subPrice, currency)
 
-  subPrice = currency + subPrice + '/mo'
+  subPrice = currency + subPrice + '/{{month}}'
   price = currency + price
 
   updateComponent(price, subPrice)

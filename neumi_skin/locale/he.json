@@ -6,7 +6,7 @@
   "add_to_cart_text": "הוסף לעגלה",
   "select_quantity_text": "בחר כמות",
   "all_product_text": "כל המוצרים",
-  "language": "he",
+  "language": "he", "month": "חודש",
   "subscribe": {
     "subscribe_text":"הירשם",
     "frequency_text": "בחר תדירות",

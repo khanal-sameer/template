@@ -5,7 +5,7 @@
   "see_all_product_button_text": "查看所有产品",
   "see_all_text": "查看全部",
   "hide_all_text": "隐藏全部",
-  "language":"zh",
+  "language": "zh", "month": "月",
   "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section":{

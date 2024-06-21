@@ -6,7 +6,7 @@
   "add_to_cart_text": "장바구니에 담기",
   "select_quantity_text": "수량 선택",
   "all_product_text": "모든 제품",
-  "langauge": "ko",
+  "language": "ko", "month": "월",
   "subscribe": {
     "subscribe_text": "구독",
     "frequency_text": "빈도 선택",

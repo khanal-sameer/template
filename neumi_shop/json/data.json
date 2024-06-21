@@ -3,6 +3,7 @@
   "shop_product_button_text": "{{shop_product_button_text}}",
   "shop_product_url": "#",
   "language": "{{language}}",
+  "month": "{{month}}",
   "hero_section": {
     "title": "{{hero_section.title}}",
     "desc": "{{hero_section.desc}}",

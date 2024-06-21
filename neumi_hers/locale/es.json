@@ -6,7 +6,7 @@
   "select_quantity_text": "Seleccionar cantidad",
   "all_product_text": "Todos los productos",
   "add_to_cart_text": "Añadir al carrito",
-  "language": "es",
+  "language": "es", "month": "mes",
   "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text": "Suscribirse",

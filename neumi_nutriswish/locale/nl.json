@@ -6,7 +6,7 @@
   "add_to_cart_text": "Voeg toe aan winkelwagen",
   "select_quantity_text": "Selecteer hoeveelheid",
   "all_product_text": "Alle Producten",
-  "language": "nl",
+  "language": "nl", "month": "maand",
   "subscribe": {
     "subscribe_text":"Abonneren",
     "frequency_text": "Selecteer Frequentie",

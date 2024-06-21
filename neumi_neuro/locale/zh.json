@@ -6,7 +6,7 @@
   "add_to_cart_text": "加入购物车",
   "select_quantity_text": "选择数量",
   "all_product_text": "所有产品",
-  "langauge": "zh",
+  "language": "zh", "month": "月",
   "subscribe": {
     "subscribe_text": "订阅",
     "frequency_text": "选择频率",

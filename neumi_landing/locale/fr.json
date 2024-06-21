@@ -5,7 +5,7 @@
   "see_all_product_button_text": "Voir tous les produits",
   "see_all_text": "Voir tout",
   "hide_all_text": "Cacher tout",
-  "language": "fr",
+  "language": "fr", "month": "mois",
   "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section": {

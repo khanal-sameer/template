@@ -5,7 +5,7 @@
   "see_all_product_button_text": "모든 제품 보기",
   "see_all_text": "모두 보기",
   "hide_all_text": "모두 숨기기",
-  "language": "ko",
+  "language": "ko", "month": "월",
   "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section": {

@@ -6,6 +6,7 @@
     "see_all_text": "{{see_all_text}}",
     "hide_all_text": "{{hide_all_text}}",
     "language": "{{language}}",
+    "month": "{{month}}",
     "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
     "shop_product_url": "https://app.neumi.com/#{affiliate_guid | default: 'home'}/shop",
     "become_member_url": "https://app.neumi.com/#{affiliate_guid | default: 'home'}/page/neumi-biz-op",
