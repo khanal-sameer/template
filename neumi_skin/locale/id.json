@@ -186,13 +186,18 @@
       }
     ]
   },
-  "faq":{
+  "faq": {
     "title": "Manfaat Glutathione",
-    "items":[
+    "items": [
       {
         "class": "acc-item_active",
-        "header": "Tingkatkan Sistem Kekebalan Tubuh",
-        "desc": "Glutathione mampu menetralkan radikal bebas, melindungi tubuh dari efek berbahaya mereka. Ini juga dapat mengurangi peradangan dan mendukung kemampuan alami tubuh untuk melawan infeksi. Selain itu, ia berperan dalam sintesis sel-sel kekebalan baru, menjaga sistem kekebalan tubuh Anda berfungsi dengan baik."
+        "header": "Sistem Imun yang Diperkuat",
+        "desc": "Glutathione mampu menetralkan radikal bebas dan melindungi tubuh dari efek berbahaya mereka. Ini juga membantu mengurangi peradangan, dan mendukung kemampuan alami tubuh untuk melawan infeksi. Selain itu, ini berperan dalam sintesis sel-sel imun baru, menjaga sistem kekebalan Anda berfungsi dengan baik."
+      },
+      {
+        "class": "",
+        "header": "Peningkatan Energi",
+        "desc": "Ini juga membantu mengurangi peradangan, dan mendukung kemampuan alami tubuh untuk melawan infeksi. Selain itu, ini berperan dalam sintesis sel-sel imun baru, menjaga sistem kekebalan Anda berfungsi dengan baik."
       }
     ]
   },
