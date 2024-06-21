@@ -85,23 +85,21 @@ const populate = (args) => {
   const scripts_tmpl = readDir(scripts, (key,value) =>`\n<script defer id='${key}'>\n${value}\n</script>\n`)
   const partial = {...partials_tmpl, ...scripts_tmpl}
 
-  console.log(scripts_tmpl)
-
-//  const style_comp  = `<style>
-//   ${style_tmpl} </style>
-//   `;
+ const style_comp  = `<style>
+  ${style_tmpl} </style>
+  `;
   
-//   locales.forEach((lang) =>
-//     populateHTML(
-//       lang,
-//       tmpl,
-//       lang_tmpl,
-//       pages,
-//       project,
-//       style_comp,
-//       partial,
-//     )
-//   );
+  locales.forEach((lang) =>
+    populateHTML(
+      lang,
+      tmpl,
+      lang_tmpl,
+      pages,
+      project,
+      style_comp,
+      partial,
+    )
+  );
 };
 
 const actions = {
