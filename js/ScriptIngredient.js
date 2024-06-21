@@ -18,37 +18,59 @@ document.addEventListener("DOMContentLoaded", function () {    // Product Slider
         },
       }
     );
-  
+
     keyIngredientsSliderMobile.mount();
-  
-    var keyIngredientsSliderDesktop = new Splide(
-      "#key-ingredients-slider-desktop",
-      {
-        arrows: false,
-        pagination: false,
-        perPage: 1,
-        arrows: true,
-        cover: false,
-        gap: "2rem",
-        mediaQuery: "min",
-        rewind: false,
-        breakpoints: {
-          1280: {
-            perPage: 4,
-          },
-          1024: {
-            perPage: 3,
-          },
-          768: {
-            perPage: 2,
-          },
-          576: {
-            perPage: 2,
-          },
+
+    // var keyIngredientsSliderDesktop = new Splide(
+    //   "#key-ingredients-slider-desktop",
+    //   {
+    //     arrows: false,
+    //     pagination: false,
+    //     perPage: 1,
+    //     arrows: true,
+    //     cover: false,
+    //     gap: "2rem",
+    //     mediaQuery: "min",
+    //     rewind: false,
+    //     breakpoints: {
+    //       1280: {
+    //         perPage: 4,
+    //       },
+    //       1024: {
+    //         perPage: 3,
+    //       },
+    //       768: {
+    //         perPage: 2,
+    //       },
+    //       576: {
+    //         perPage: 2,
+    //       },
+    //     },
+    //   }
+    // );
+    var keyIngredientsSliderDesktop = new Splide("#key-ingredients-slider-desktop", {
+      arrows: false,
+      pagination: false,
+      perPage: 1,
+      arrows: true,
+      cover: false,
+      gap: "2rem",
+      mediaQuery: "min",
+      rewind: false,
+      breakpoints: {
+        1280: {
+          perPage: 3,
+          width: "75%"
         },
-      }
-    );
-  
+        768: {
+          perPage: 3,
+        },
+        576: {
+          perPage: 2,
+        },
+      },
+    });
+
     keyIngredientsSliderDesktop.mount();
 
     const keyItems = gsap.utils.toArray(".ingredients .item");
@@ -89,5 +111,3 @@ document.addEventListener("DOMContentLoaded", function () {    // Product Slider
       );
     });
   });
-
-  
