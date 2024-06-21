@@ -252,35 +252,35 @@
     "items_list": [
       {
         "bg_image": "https://cdn.fluid.app/neumi/neuro/avocado.webp",
-        "item_name": "{{key_ingredients.item_list.0.item_name}}"
+        "item_name": "{{key_ingredients.items_list.0.item_name}}"
       },
       {
         "bg_image": "https://cdn.fluid.app/neumi/neuro/serine.png",
-        "item_name": "{{key_ingredients.item_list.1.item_name}}"
+        "item_name": "{{key_ingredients.items_list.1.item_name}}"
       },
       {
         "bg_image": "https://cdn.fluid.app/neumi/neuro/theanine.png",
-        "item_name": "{{key_ingredients.item_list.2.item_name}}"
+        "item_name": "{{key_ingredients.items_list.2.item_name}}"
       },
       {
         "bg_image": "https://cdn.fluid.app/neumi/neuro/pea.png",
-        "item_name": "{{key_ingredients.item_list.3.item_name}}"
+        "item_name": "{{key_ingredients.items_list.3.item_name}}"
       },
       {
         "bg_image": "https://cdn.fluid.app/neumi/neuro/calcium_ascorbate.png",
-        "item_name": "{{key_ingredients.item_list.4.item_name}}"
+        "item_name": "{{key_ingredients.items_list.4.item_name}}"
       },
       {
         "bg_image": "https://cdn.fluid.app/neumi/neuro/curcumin.png",
-        "item_name": "{{key_ingredients.item_list.5.item_name}}"
+        "item_name": "{{key_ingredients.items_list.5.item_name}}"
       },
       {
         "bg_image": "https://cdn.fluid.app/neumi/neuro/cysteine.jpg",
-        "item_name": "{{key_ingredients.item_list.6.item_name}}"
+        "item_name": "{{key_ingredients.items_list.6.item_name}}"
       },
       {
         "bg_image": "https://cdn.fluid.app/neumi/neuro/ginkgo.png",
-        "item_name": "{{key_ingredients.item_list.7.item_name}}"
+        "item_name": "{{key_ingredients.items_list.7.item_name}}"
       }
     ]
   },
