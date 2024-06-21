@@ -214,7 +214,7 @@
         "university": "{{medical_advisor_board.items.5.university}}"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/ronald.png",
+        "image": "https://cdn.fluid.app/neumi/medical_advisory_board/ronald.jpg",
         "name": "{{medical_advisor_board.items.6.name}}",
         "university": "{{medical_advisor_board.items.6.university}}"
       },
