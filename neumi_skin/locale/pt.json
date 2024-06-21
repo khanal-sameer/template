@@ -142,24 +142,27 @@
         ]
       }
     ],
-    "items_list":[
+    "items_list": [
       {
         "item_name": "Glutationa*"
       },
       {
-        "item_name": "Ascorbato de cálcio*"
+        "item_name": "Ascorbato de Cálcio*"
       },
       {
-        "item_name": "Dimetil sulfona*"
+        "item_name": "Dimetil Sulfona*"
       },
       {
-        "item_name": "Hialuronato de sódio*"
+        "item_name": "Hialuronato de Sódio*"
       },
       {
-        "item_name": "Ácido tartárico*"
+        "item_name": "Ácido Tartárico*"
       },
       {
-        "item_name": "Sorbato de potássio*"
+        "item_name": "Sorbato de Potássio*"
+      },
+      {
+        "item_name": "Sorbato de Potássio*"
       },
       {
         "item_name": "Cisteína*"

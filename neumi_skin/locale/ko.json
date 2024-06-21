@@ -142,24 +142,27 @@
         ]
       }
     ],
-    "items_list":[
+    "items_list": [
       {
         "item_name": "글루타티온*"
       },
       {
-        "item_name": "아스코르빈산 칼슘*"
+        "item_name": "칼슘 아스코르베이트*"
       },
       {
         "item_name": "디메틸 설폰*"
       },
       {
-        "item_name": "히알루론산 나트륨*"
+        "item_name": "소듐 히알루로네이트*"
       },
       {
-        "item_name": "주석산*"
+        "item_name": "타르타르산*"
       },
       {
-        "item_name": "소르빈산 칼륨*"
+        "item_name": "포타슘 소르베이트*"
+      },
+      {
+        "item_name": "포타슘 소르베이트*"
       },
       {
         "item_name": "시스테인*"

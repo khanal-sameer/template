@@ -8,12 +8,9 @@
   "add_to_cart_text": "Add to cart",
   "language": "en", 
   "month": "mo",
-  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text":"Subscribe",
     "frequency_text": "Select Frequency",
-    "actual_price" : "65.00",
-    "discounted_price": "50.00",
     "checklist_items":[
       {
         "caption": "Subscribe and save <span class='price_container is-hide' id='saving'>$15</span>"
@@ -48,7 +45,6 @@
   "asSeenOn": {
     "title": "As seen on"
   },
-
   "tab":{
     "title": "See how Hers is changing lives",
     "video_review_title": "Video Reviews <span>(5)</span>",
@@ -71,7 +67,7 @@
   },
   "product_benefits":{
     "title": "Benefits of using Hers",
-    "desc": "<span class='fw-600'>Every woman knows about the inconveniences that cycles and hormone changes can bring into life.</span>Experience rapid results through our HydraStat™ Nanotechnology. Our nano-sized ingredients, wrapped in water clusters, are small enough to be absorbed fully by the human cell, which is right where you need them!",
+    "desc": "<span class='fw-600'>Every woman knows about the inconveniences that cycles and hormone changes can bring into life.</span> Experience rapid results through our HydraStat™ Nanotechnology. Our nano-sized ingredients, wrapped in water clusters, are small enough to be absorbed fully by the human cell, which is right where you need them!",
     "alt_text": "hers product",
     "items": [
       {
@@ -91,19 +87,18 @@
   "product_post_list":[
     {
       "title": "Innovative science",
-      "desc": "Glutathione is the protector and detoxifier of the cell.<span class=fw-600 highlight-text>It’s the key to the life, health, performance, protection and longevity of every human cell.</span>"
+      "desc": "Glutathione is the protector and detoxifier of the cell.<span class=fw-600 highlight-text> It’s the key to the life, health, performance, protection and longevity of every human cell.</span>"
 
     },
     {
       "title": "HydraStat™ nanotechnology",
-      "desc": "<span class=fw-600>Nano-sized particles protected by ultra-pure water clusters.</span>Our nanosized ingredients are small enough to be fully absorbed into the human cell."
+      "desc": "<span class=fw-600>Nano-sized particles protected by ultra-pure water clusters.</span> Our nanosized ingredients are small enough to be fully absorbed into the human cell."
     },
     {
       "title": "Quality over quantity",
-      "desc": " A supplement is only as good as its bioavailability, which is its ability to be absorbed and used by the body.<span class=fw-600 highlight-text>The correct delivery system delivers ingredients to your body in a way that your body can absorb and use.</span>"
+      "desc": " A supplement is only as good as its bioavailability, which is its ability to be absorbed and used by the body.<span class=fw-600 highlight-text> The correct delivery system delivers ingredients to your body in a way that your body can absorb and use.</span>"
     }
   ],
-
   "how_to_use":{
     "title": "How to intake",
     "steps": [
@@ -198,23 +193,18 @@
     "icon_class": "clr-primary",
     "items":[
       {
-        "class": "acc-item_active",
         "header": "Strengthened Immune System",
         "desc": "Glutathione is able to neutralize free radicals and protect the body from their harmful effects.It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
       },
       {
-        "class": "",
         "header": "Increased Energy",
         "desc": "It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
       },
       {
-        "class": "",
         "header": "Enhanced Stamina and Endurance",
         "desc": "It also helps to reduce inflammation, and supports the body's natural ability to fight off infection. In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
       }
-
     ]
-
   },
   "cta":{
     "title": "A new you starts with Neumi",

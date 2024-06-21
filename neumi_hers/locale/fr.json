@@ -7,7 +7,6 @@
   "all_product_text": "Tous les produits",
   "add_to_cart_text": "Ajouter au panier",
   "language": "fr", "month": "mois",
-  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text": "S'abonner",
     "frequency_text": "Sélectionner la fréquence",
@@ -67,7 +66,7 @@
   },
   "product_benefits": {
     "title": "Avantages d'utiliser Hers",
-    "desc": "<span class='fw-600'>Toutes les femmes connaissent les désagréments que les cycles et les changements hormonaux peuvent apporter dans la vie.</span>Découvrez des résultats rapides grâce à notre technologie HydraStat™ Nanotechnology. Nos ingrédients de taille nano, enveloppés dans des clusters d'eau, sont suffisamment petits pour être entièrement absorbés par les cellules humaines, là où vous en avez besoin !",
+    "desc": "<span class='fw-600'>Toutes les femmes connaissent les désagréments que les cycles et les changements hormonaux peuvent apporter dans la vie.</span> Découvrez des résultats rapides grâce à notre technologie HydraStat™ Nanotechnology. Nos ingrédients de taille nano, enveloppés dans des clusters d'eau, sont suffisamment petits pour être entièrement absorbés par les cellules humaines, là où vous en avez besoin !",
     "alt_text": "produit hers",
     "items": [
       {
@@ -87,15 +86,15 @@
   "product_post_list": [
     {
       "title": "Science innovante",
-      "desc": "Le glutathion est le protecteur et le détoxifiant de la cellule.<span class=fw-600 highlight-text>C'est la clé de la vie, de la santé, des performances, de la protection et de la longévité de chaque cellule humaine.</span>"
+      "desc": "Le glutathion est le protecteur et le détoxifiant de la cellule.<span class=fw-600 highlight-text> C'est la clé de la vie, de la santé, des performances, de la protection et de la longévité de chaque cellule humaine.</span>"
     },
     {
       "title": "Nanotechnologie HydraStat™",
-      "desc": "<span class=fw-600>Particules de taille nano protégées par des clusters d'eau ultra-pur.</span>Nos ingrédients de taille nano sont suffisamment petits pour être entièrement absorbés par la cellule humaine."
+      "desc": "<span class=fw-600>Particules de taille nano protégées par des clusters d'eau ultra-pur.</span> Nos ingrédients de taille nano sont suffisamment petits pour être entièrement absorbés par la cellule humaine."
     },
     {
       "title": "Qualité avant la quantité",
-      "desc": "Un complément n'est bon que par sa biodisponibilité, c'est-à-dire sa capacité à être absorbé et utilisé par le corps.<span class=fw-600 highlight-text>Le bon système de diffusion délivre les ingrédients à votre corps de manière à ce que votre corps puisse les absorber et les utiliser.</span>"
+      "desc": "Un complément n'est bon que par sa biodisponibilité, c'est-à-dire sa capacité à être absorbé et utilisé par le corps.<span class=fw-600 highlight-text> Le bon système de diffusion délivre les ingrédients à votre corps de manière à ce que votre corps puisse les absorber et les utiliser.</span>"
     }
   ],
   "how_to_use": {

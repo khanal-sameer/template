@@ -7,7 +7,6 @@
   "all_product_text": "Semua Produk",
   "add_to_cart_text": "Tambah ke Keranjang",
   "language": "id", "month": "bulan",
-  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text":"Berlangganan",
     "frequency_text": "Pilih Frekuensi",
@@ -88,15 +87,15 @@
   "product_post_list":[
     {
       "title": "Ilmu pengetahuan inovatif",
-      "desc": "Glutathione adalah pelindung dan detoksifikasi sel.<span class=fw-600 highlight-text>Ini adalah kunci kehidupan, kesehatan, kinerja, perlindungan, dan umur panjang setiap sel manusia.</span>"
+      "desc": "Glutathione adalah pelindung dan detoksifikasi sel.<span class=fw-600 highlight-text> Ini adalah kunci kehidupan, kesehatan, kinerja, perlindungan, dan umur panjang setiap sel manusia.</span>"
     },
     {
       "title": "Teknologi nano HydraStat™",
-      "desc": "<span class=fw-600>Partikel ukuran nano yang dilindungi oleh kelompok air ultra murni.</span>Bahan ukuran nano kami cukup kecil untuk sepenuhnya diserap ke dalam sel manusia."
+      "desc": "<span class=fw-600>Partikel ukuran nano yang dilindungi oleh kelompok air ultra murni.</span> Bahan ukuran nano kami cukup kecil untuk sepenuhnya diserap ke dalam sel manusia."
     },
     {
       "title": "Kualitas di atas kuantitas",
-      "desc": " Suplemen hanya sebaik ketersediaan hayatinya, yang merupakan kemampuannya untuk diserap dan digunakan oleh tubuh.<span class=fw-600 highlight-text>Sistem pengiriman yang benar mengirimkan bahan ke tubuh Anda dengan cara yang dapat diserap dan digunakan oleh tubuh Anda.</span>"
+      "desc": " Suplemen hanya sebaik ketersediaan hayatinya, yang merupakan kemampuannya untuk diserap dan digunakan oleh tubuh.<span class=fw-600 highlight-text> Sistem pengiriman yang benar mengirimkan bahan ke tubuh Anda dengan cara yang dapat diserap dan digunakan oleh tubuh Anda.</span>"
     }
   ],
 

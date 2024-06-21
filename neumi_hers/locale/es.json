@@ -7,7 +7,6 @@
   "all_product_text": "Todos los productos",
   "add_to_cart_text": "Añadir al carrito",
   "language": "es", "month": "mes",
-  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text": "Suscribirse",
     "frequency_text": "Seleccionar frecuencia",
@@ -67,7 +66,7 @@
   },
   "product_benefits": {
     "title": "Beneficios de usar Hers",
-    "desc": "<span class='fw-600'>Cada mujer conoce los inconvenientes que los ciclos y los cambios hormonales pueden traer a la vida.</span>Experimenta resultados rápidos a través de nuestra nanotecnología HydraStat™. Nuestros ingredientes de tamaño nano, envueltos en clústeres de agua, son lo suficientemente pequeños como para ser absorbidos completamente por la célula humana, ¡justo donde los necesitas!",
+    "desc": "<span class='fw-600'>Cada mujer conoce los inconvenientes que los ciclos y los cambios hormonales pueden traer a la vida.</span> Experimenta resultados rápidos a través de nuestra nanotecnología HydraStat™. Nuestros ingredientes de tamaño nano, envueltos en clústeres de agua, son lo suficientemente pequeños como para ser absorbidos completamente por la célula humana, ¡justo donde los necesitas!",
     "alt_text": "producto hers",
     "items": [
       {
@@ -87,15 +86,15 @@
   "product_post_list": [
     {
       "title": "Ciencia innovadora",
-      "desc": "El glutatión es el protector y desintoxicante de la célula.<span class=fw-600 highlight-text>Es la clave para la vida, la salud, el rendimiento, la protección y la longevidad de cada célula humana.</span>"
+      "desc": "El glutatión es el protector y desintoxicante de la célula.<span class=fw-600 highlight-text> Es la clave para la vida, la salud, el rendimiento, la protección y la longevidad de cada célula humana.</span>"
     },
     {
       "title": "Nanotecnología HydraStat™",
-      "desc": "<span class=fw-600>Partículas de tamaño nano protegidas por clústeres de agua ultrapura.</span>Nuestros ingredientes de tamaño nano son lo suficientemente pequeños como para ser absorbidos completamente por la célula humana."
+      "desc": "<span class=fw-600>Partículas de tamaño nano protegidas por clústeres de agua ultrapura.</span> Nuestros ingredientes de tamaño nano son lo suficientemente pequeños como para ser absorbidos completamente por la célula humana."
     },
     {
       "title": "Calidad sobre cantidad",
-      "desc": "Un suplemento es tan bueno como su biodisponibilidad, es decir, su capacidad para ser absorbido y utilizado por el cuerpo.<span class=fw-600 highlight-text>El sistema de entrega correcto entrega ingredientes a su cuerpo de una manera que su cuerpo puede absorber y usar.</span>"
+      "desc": "Un suplemento es tan bueno como su biodisponibilidad, es decir, su capacidad para ser absorbido y utilizado por el cuerpo.<span class=fw-600 highlight-text> El sistema de entrega correcto entrega ingredientes a su cuerpo de una manera que su cuerpo puede absorber y usar.</span>"
     }
   ],
   "how_to_use": {

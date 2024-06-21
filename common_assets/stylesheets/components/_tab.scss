@@ -1,22 +1,18 @@
 .tab-menu{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 400px;
   max-width: 100%;
+  white-space: nowrap;
   margin: auto;
+  overflow: auto;
   li {
     text-align: center;
-    padding: 10px 5px;
+    padding: 10px 24px;
     cursor: pointer;
     font-weight: 600;
     position: relative;
     transition: all 0.4s ease-in-out;
     border: 1px solid var(--clr-border);
-    white-space: nowrap;
     border-radius: 10px;
-    flex: 0 0 50%;
-    max-width: 50%;
     background-color: var(--clr-gray-0);
     font-size: 14px;
     span {
