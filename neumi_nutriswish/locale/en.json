@@ -6,7 +6,7 @@
   "add_to_cart_text": "Add to cart",
   "select_quantity_text": "Select Quantity",
   "all_product_text": "All Products",
-  "language": "en", 
+  "language": "en",
   "month": "mo",
   "subscribe": {
     "subscribe_text":"Subscribe",
@@ -189,7 +189,7 @@
       {
         "class": "acc-item_active",
         "header": "Strengthened Immune System",
-        "desc": "Glutathione is able to neutralize free radicals and protect the body from their harmful effects.It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
+        "desc": "Glutathione is able to neutralize free radicals and protect the body from their harmful effects. It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
       },
       {
         "class": "",
