@@ -1377,7 +1377,7 @@
     <script src="https://fastly.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-    
+
     <script defer id='ScriptAccordion'>
 
     document.addEventListener("DOMContentLoaded", function () {
@@ -1405,7 +1405,7 @@
       });
 
       const faqs = gsap.utils.toArray(".acc-item");
-      
+
       gsap.fromTo(
         faqs,
         { opacity: 0, y: 50, stagger: 0.3 },
@@ -1507,9 +1507,9 @@
             },
           }
         );
-      
+
         keyIngredientsSliderMobile.mount();
-      
+
         var keyIngredientsSliderDesktop = new Splide(
           "#key-ingredients-slider-desktop",
           {
@@ -1537,7 +1537,7 @@
             },
           }
         );
-      
+
         keyIngredientsSliderDesktop.mount();
 
         const keyItems = gsap.utils.toArray(".ingredients .item");
@@ -1579,7 +1579,7 @@
         });
       });
 
-      
+
     </script>
 
     <script defer id='ScriptInteraction'>
@@ -1588,33 +1588,33 @@
         const subscribeCard = document.querySelector(".subscribe-card");
         const subscribeCheckbox = document.getElementById("subscribe");
         const oneTimeOrderCheckbox = document.getElementById("onetime_order");
-      
+
         const selectQuantityElement = document.getElementById(
           "group-checkout-quantity"
         );
         const hiddenQuantityInput = document.getElementById("checkout-quantity");
-      
+
         function updateHiddenInput() {
           hiddenQuantityInput.value = selectQuantityElement.value;
         }
-      
+
         // Function to update hidden input value when select changes
         selectQuantityElement.addEventListener("change", updateHiddenInput);
-      
+
         // Initial assignment on page load
         updateHiddenInput();
-      
+
         function toggleSubscribeCard(checked) {
           subscribeCard.classList.toggle("is-active", checked);
         }
-      
+
         subscribeCheckbox.addEventListener("change", toggleSubscribeCard);
         oneTimeOrderCheckbox.addEventListener("change", () =>
           toggleSubscribeCard(false)
         );
       });
 
-      
+
     </script>
 
     <script defer id='ScriptPrice'>
@@ -1639,7 +1639,7 @@
         const variant = variants[0]
 
         if(!variant) return null
-        
+
         const found = variant.variant_countries.find(c => c.country_iso.toLowerCase() === country)
 
         if(!found) return null;
@@ -1687,10 +1687,10 @@
         if(subPrice){
           const subscriptionPrice = document.getElementById("subscribe_price")
           subscriptionPrice.textContent = subPrice
-        }    
+        }
 
         const containers = document.getElementsByClassName("price_container")
-        
+
         for(const element of containers){
           element.classList.remove("is-hide")
         }
@@ -1736,45 +1736,45 @@
             },
           },
         });
-      
+
         previewSlider.sync(thumbnailsSlider);
         previewSlider.mount();
         thumbnailsSlider.mount();
       });
 
-      
+
     </script>
 
     <script defer id='ScriptTabs'>
     document.addEventListener("DOMContentLoaded", function () {
         //Tab
         const tabLists = document.querySelectorAll(".tab-menu");
-      
+
         function showTab(tabList, index) {
           const tabsInList = tabList.querySelectorAll(".tab-menu li");
           const panelsInList =
             tabList.parentElement.nextElementSibling.querySelectorAll(
               ".tab-content-item"
             );
-      
+
           tabsInList.forEach((tab) => tab.classList.remove("active"));
           panelsInList.forEach((panel) => panel.classList.remove("active"));
-      
+
           tabsInList[index].classList.add("active");
           panelsInList[index].classList.add("active");
         }
-      
+
         tabLists.forEach((tabList) => {
           const tabs = tabList.querySelectorAll(".tab-menu li");
-      
+
           tabs.forEach((tab, index) => {
             tab.addEventListener("click", () => showTab(tabList, index));
           });
-      
+
           // Show the first tab in each list by default
           showTab(tabList, 0);
         });
-      
+
         //video slider
         var tabSlider = new Splide("#tab-slider", {
           arrows: false,
@@ -1802,11 +1802,11 @@
             },
           },
         });
-      
+
         tabSlider.mount();
       });
 
-      
+
     </script>
 
     <script defer id='ScriptWrapper'>
