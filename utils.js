@@ -24,12 +24,12 @@ const createDir = (dest = "") => {
   fs.mkdirSync(dirname, { recursive: true });
 };
 
-export const readDir = (src) => {
+export const readDir = (src, transform) => {
   try {
     return fs.readdirSync(getPath(src), { ...config }).reduce((acc, file) => {
       const fileName = path.basename(file, path.extname(file));
       const fileRead = readFile(path.join(src, file));
-      acc[fileName] = fileRead;
+      acc[fileName] = transform ?  transform(fileName,fileRead): fileRead;
 
       return acc;
     }, {});
@@ -87,10 +87,6 @@ export const mapArgs = (actions) => {
   );
 };
 
-const copyFolder=(src,dest)=>{
-  fs.cpSync(src,dest,{recursive:true})
-}
-
 export const createFilePath = (prefix = "", values = {}) => {
   const projects = (values.project || []).filter(Boolean);
   const locales = (values.locale || []).filter(Boolean);
@@ -107,14 +103,8 @@ export const createFilePath = (prefix = "", values = {}) => {
     const dataPath = path.join(prefix, project, `json`, 'data.json');
     const cssPath = path.join(prefix, project, `css`, 'style.css');
     const template = path.join(prefix, project, 'index.html');
-    const js = path.join(prefix, project,'js');
-    const partials = path.join(prefix,project,"partials")
-    copyFolder(path.join("partials"),partials)
-    copyFolder(path.join("js"),js)
 
-
-
-    acc.push([dataPath],[cssPath],[template],[partials],[js]);
+    acc.push([dataPath],[cssPath],[template]);
 
     for (const lang of locales) {
       const langPath = path.join(prefix, project, "locale", `${lang}.json`);
@@ -136,8 +126,8 @@ export const populatePath = (project) => {
   const template = path.join(project,"index.html")
   const pages = path.join(project,'pages')
   const style = path.join(project,"css","style.css")
-  const partials = path.join(project,'partials')
-  const scripts = path.join(project,'js')
+  const partials = path.join('partials')
+  const scripts = path.join('js')
 
   return [locales, template, data, pages, project,style, partials, scripts]
 };
