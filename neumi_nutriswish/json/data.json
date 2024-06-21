@@ -35,7 +35,7 @@
       "subscribe_text": "{{subscribe.subscribe_text}}",
       "frequency_text": "{{subscribe.frequency_text}}",
       "actual_price" : "65.00",
-      "discounted_price": "50.00",
+      "discounted_price": "50.00/{{month}}",
       "checklist_items":[
         {
           "caption": "{{{subscribe.checklist_items.0.caption}}}"
