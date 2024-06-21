@@ -2,128 +2,172 @@
   "title": "NutriSwish",
   "product_title": "NutriSwish",
   "total_product_review": "7 Mga Review",
-  "product_desc":  "<span class=fw-600>Isang rebolusyonaryong suplemento sa kalusugan na sinusuportahan ng Nano HydraStat Technology para sa agarang pagsipsip,</span> nagbibigay ng suporta sa kaligtasan sa sakit at kalusugan ng kasukasuan.",
-  "add_to_cart_text": "Idagdag sa Cart",
+  "product_desc": "<span class=fw-600>Ang groundbreaking na suplemento sa kalusugan na pinapagana ng HydraStat Nano-Technology para sa instant absorption,</span> na nagbibigay ng suporta sa immune, kalusugan ng kasukasuan.",
+  "add_to_cart_text": "Idagdag sa cart",
   "select_quantity_text": "Piliin ang Dami",
   "all_product_text": "Lahat ng Produkto",
   "language": "tl",
   "subscribe": {
-    "subscribe_text":"Mag-subscribe",
-    "frequency_text": "Piliin ang Dalas",
-    "checklist_items":[
-      {
-        "caption": "Mag-subscribe at makatipid ng <span class='price_container is-hide' id='saving'>$15</span>"
-      },
-      {
-        "caption": "Kumuha ng Neumi Reward Points"
-      },
-      {
-        "caption": "30-araw na garantiyang ibalik ang pera"
-      },
-      {
-        "caption": "I-update ang iyong subscription anumang oras"
-      }
-    ],
-    "one_time_purchase_text":"Isang beses na pagbili"
+      "subscribe_text": "Mag-subscribe",
+      "frequency_text": "Piliin ang Dalas",
+      "checklist_items": [
+          {
+              "caption": "Mag-subscribe at mag-save <span class='price_container is-hide' id='saving'>$15</span>"
+          },
+          {
+              "caption": "Kumita ng Neumi Reward Points"
+          },
+          {
+              "caption": "30-araw na garantiya ng pera pabalik"
+          },
+          {
+              "caption": "I-update ang iyong subscription anumang oras"
+          }
+      ],
+      "one_time_purchase_text": "One-time purchase"
   },
-  "free_shipping_desc": "Libreng pagpapadala sa US para sa mga order na higit sa $200+",
-  "benefits":{
-    "title": "Mga Benepisyo",
-    "items":[
-      {
-        "caption":"Pangunahing sangkap para sa pinakamainam na araw-araw na pagsipsip at bisa."
-      },
-      {
-        "caption":"Bawat batch ay dumadaan sa mahigpit na pagsubok ng ikatlong partido upang matiyak ang pangako sa kadalisayan at kaligtasan."
-      },
-      {
-        "caption": "Nag-aalok kami ng 30-araw na garantiyang ibalik ang pera nang walang tanong."
-      }
-    ]
+  "free_shipping_desc": "Libreng pagpapadala sa U.S. para sa mga order na higit sa $200+",
+  "benefits": {
+      "title": "Mga Benepisyo",
+      "items": [
+          {
+              "caption": "Mga pangunahing sangkap upang mapakinabangan ang pagsipsip at pagiging epektibo, araw-araw."
+          },
+          {
+              "caption": "Ang bawat batch ay dumaan sa mahigpit na pagsusuri ng third-party upang matiyak ang pangako sa kadalisayan at kaligtasan."
+          },
+          {
+              "caption": "Nag-aalok kami ng 30-araw na garantiya ng pera pabalik, walang tanong na itinanong."
+          }
+      ]
   },
   "asSeenOn": {
-    "title": "Tulad ng nakikita sa"
+      "title": "Nakita sa"
   },
-  "tab":{
-    "title": "Tingnan kung paano binago ng NutriSwish ang buhay",
-    "video_review_title": "Mga Video Review <span>(5)</span>",
-    "written_review_title": "Mga Nakasulat na Review <span>(2)</span>",
-    "rating_text": "5-Star na Rating",
-    "review_list": [
+  "tab": {
+      "title": "Tingnan kung paano binabago ng NutriSwish ang buhay",
+      "video_review_title": "Mga Review ng Video <span>(5)</span>",
+      "written_review_title": "Mga Written Review <span>(2)</span>",
+      "rating_text": "5 Star Rating",
+      "review_list": [
+          {
+              "reviewer": "Aidan D.",
+              "address": "Salt Lake City, UT",
+              "time": "2 oras ang nakalipas",
+              "review_text": "Ang Nutriswish ay nagbago ng aking buhay! Ginagamit ko na ito nang ilang buwan ngayon, at napansin ko ang makabuluhang pagpapabuti sa aking mga antas ng enerhiya at pangkalahatang sigla. Kahanga-hanga kung paano ang isang bagay na napakasimple ay maaaring magkaroon ng malalim na mga epekto. Lubos na inirerekomenda!"
+          },
+          {
+              "reviewer": "Lola P.",
+              "address": "Laie, HI",
+              "time": "2 oras ang nakalipas",
+              "review_text": "Matagal na akong nahihirapan sa pagpapanatili ng balanse ng hormone, ngunit ang Nutriswish ay gumawa ng malaking pagkakaiba. Hindi lamang ako mas balanseng at energized, ngunit napansin ko rin ang mga pagpapabuti sa tono ng aking balat at tono ng kalamnan. Talagang kamangha-mangha!"
+          }
+      ]
+  },
+  "product_benefits": {
+      "title": "Mga Benepisyo ng paggamit ng NutriSwish",
+      "desc": "Upang mapanatili ang pinakamainam na antas, kinakailangan ang madalas at magastos na paggamot ng IV, na maaaring hindi praktikal para sa maraming indibidwal. <span class='fw-600'> Sa kaibahan, gumagamit ang NutriSwish ng nano glutathione, na nag-aalok ng ilang natatanging kalamangan sa mga paggamot sa IV.</span>",
+      "alt_text": "nutriswish produkto",
+      "items_left": [
+          {
+              "title": "Sustained Release",
+              "desc": "Ang oral administration ay nagpapahintulot sa mas pare-pareho at tuloy-tuloy na pagpapalabas ng glutathione sa bloodstream."
+          },
+          {
+              "title": "Enhanced Bioavailability",
+              "desc": "Ang mga nano-sized na particle ng glutathione ay nangangahulugang mas malaking proporsyon ng glutathione ang ginagamit, na pinapakinabangan ang mga benepisyo nitong antioxidant."
+          }
+      ],
+      "items_right": [
+          {
+              "title": "Kaginhawahan",
+              "desc": "Walang kapantay na kaginhawahan kumpara sa mas invasibong at oras na kumukonsumo na mga paggamot sa IV."
+          },
+          {
+              "title": "Cost-Effectiveness",
+              "desc": "Isang mas abot-kayang alternatibo sa mga regular na paggamot sa IV ng glutathione. Tanggalin ang pangangailangan para sa madalas na pagbisita sa klinika, na binabawasan ang pangkalahatang mga gastos."
+          }
+      ]
+  },
+  "product_post_list": [
       {
-          "reviewer": "Aidan D..",
-          "address": "Salt Lake City, UT",
-          "time": "2 oras ang nakalipas",
-          "review_text": "Binago ng Nutriswish ang aking buhay! Ginagamit ko ito sa loob ng ilang buwan ngayon, at napansin ko ang makabuluhang pagpapabuti sa aking antas ng enerhiya at pangkalahatang kalakasan. Kamangha-mangha kung paano ang isang simpleng bagay ay maaaring magkaroon ng malalim na epekto. Lubos na inirerekomenda!"
+          "title": "Makabagong agham",
+          "desc": "Ang glutathione ay ang tagapagtanggol at detoxifier ng cell.<span class=fw-600 highlight-text> Ito ang susi sa buhay, kalusugan, pagganap, proteksyon, at mahabang buhay ng bawat selula ng tao.</span>"
       },
       {
-          "reviewer": "Lola P..",
-          "address": "Laie, HI",
-          "time": "2 oras ang nakalipas",
-          "review_text": "Nagpupumilit akong mapanatili ang balanse ng hormon sa loob ng maraming taon, ngunit ang Nutriswish ay gumawa ng malaking pagkakaiba. Hindi lamang ako nakakaramdam ng mas balanse at puno ng lakas, ngunit napansin ko rin ang pagpapabuti sa kondisyon ng aking balat at kalamnan. Talagang kahanga-hanga ito!"
+          "title": "HydraStat™ nanotechnology",
+          "desc": "<span class=fw-600>Nano-sized na mga particle na protektado ng ultra-pure na mga kumpol ng tubig.</span> Ang aming mga nanosized na sangkap ay sapat na maliit upang ganap na masipsip sa cell ng tao."
+      },
+      {
+          "title": "Kalidad kaysa dami",
+          "desc": " Ang isang suplemento ay kasing ganda lamang ng bioavailability nito, na ang kakayahang masipsip at magamit ng katawan.<span class=fw-600 highlight-text> Ang tamang sistema ng paghahatid ay naghahatid ng mga sangkap sa iyong katawan sa paraang maaaring masipsip at magamit ng iyong katawan.</span>"
       }
-    ]
+  ],
+  "key_ingredients": {
+      "title": "Mga pangunahing sangkap ng NutriSwish",
+      "ingredients": "<span class=fw-600>Aktibong Sangkap:</span>ULTRA-PURE NA TUBIG, GLUTATHIONE, L-CYSTEINE, CALCIUM ASCORBATE, CURCUMIN, TARTARIC ACID, POTASSIUM SORBATE, PEPPERMINT EXTRACT. *ANG LARAWAN AY NAGPAPAKITA NG HALAMAN/PAGKAIN KUNG SAAN MATATAGPUAN ANG AKTIBONG SANGKAP AT HINDI KINAKAILANGAN KUNG SAAN ITO NAHANGO.",
+      "item_list_desktop": [
+          {
+              "item": [
+                  {"item_name": "Glutathione*"},
+                  {"item_name": "Tartaric Acid*"}
+              ]
+          },
+          {
+              "item": [
+                  {"item_name": "Calcium Ascorbate*"},
+                  {"item_name": "Curcumin"}
+              ]
+          },
+          {
+              "item": [
+                  {"item_name": "L-Cysteine*"},
+                  {"item_name": "Potassium Sorbate*"}
+              ]
+          }
+      ],
+      "items_list": [
+          {"item_name": "Glutathione*"},
+          {"item_name": "Calcium Ascorbate*"},
+          {"item_name": "L-Cysteine*"},
+          {"item_name": "Tartaric Acid*"},
+          {"item_name": "Curcumin"},
+          {"item_name": "Potassium Sorbate*"}
+      ]
   },
-  "product_benefits":{
-    "title": "Mga Benepisyo ng Paggamit ng NutriSwish",
-    "desc": "Upang mapanatili ang pinakamainam na antas, kinakailangan ng madalas at mahal na IV na paggamot, na maaaring hindi praktikal para sa maraming tao.<span class='fw-600'> Sa kabilang banda, gumagamit ang NutriSwish ng nano glutathione, na nag-aalok ng ilang mga natatanging benepisyo kumpara sa IV na paggamot.</span>",
-    "alt_text": "produkto ng nutriswish",
-    "items_left": [
-      {
-        "item_name": "L-Cysteine*"
-      },
-      {
-        "item_name": "Tartaric Acid*"
-      },
-      {
-        "item_name": "Curcumin"
-      },
-      {
-        "item_name": "Potassium Sorbate*"
-      }
-    ]
+  "how_to_use": {
+      "title": "Paano uminom",
+      "steps": [
+          {"caption": "Sukatin ang dalawang (2) kutsarita ng produkto. Isang takip = kutsarita."},
+          {"caption": "Haluin sa bibig sa loob ng 30 segundo o higit pa."},
+          {"caption": "Hindi tulad ng mouthwash, maaari mong lunukin ang NutriSwish. Maaari mo rin itong iluwa, kung nais mo."},
+          {"caption": "Ulitin ang mga hakbang na ito ng dalawang beses sa isang araw. Huwag mag-atubiling gamitin ang NutriSwish nang mas madalas, kung ninanais."}
+      ]
   },
-  "how_to_use":{
-    "title": "Paano Gamitin",
-    "steps": [
-      {
-        "caption": "Sukatin ang dalawang (2) kutsarita ng produkto. Isang takip = kutsarita."
-      },
-      {
-        "caption": "Magmumog sa loob ng 30 segundo o higit pa."
-      },
-      {
-        "caption": "Hindi tulad ng mouthwash, maaari mong lunukin ang NutriSwish. Maaari mo rin itong idura, kung gusto mo."
-      },
-      {
-        "caption": "Ulitin ang mga hakbang na ito dalawang beses sa isang araw. Huwag mag-atubiling gamitin ang NutriSwish nang mas madalas kung ninanais."
-      }
-    ]
+  "faq": {
+      "title": "Mga Benepisyo ng Glutathione",
+      "items": [
+          {
+              "class": "acc-item_active",
+              "header": "Pinahusay na Immune System",
+              "desc": "Ang glutathione ay kayang i-neutralize ang mga free radicals at protektahan ang katawan mula sa kanilang mga nakakapinsalang epekto. Ito rin ay tumutulong sa pagpapababa ng pamamaga, at sumusuporta sa natural na kakayahan ng katawan na labanan ang impeksyon. Bukod dito, ito ay may papel sa synthesis ng mga bagong immune cells, pinapanatili ang iyong immune system na gumagana ng pinakamahusay."
+          },
+          {
+              "class": "",
+              "header": "Pinalakas na Enerhiya",
+              "desc": "Ito rin ay tumutulong sa pagpapababa ng pamamaga, at sumusuporta sa natural na kakayahan ng katawan na labanan ang impeksyon. Bukod dito, ito ay may papel sa synthesis ng mga bagong immune cells, pinapanatili ang iyong immune system na gumagana ng pinakamahusay."
+          },
+          {
+              "class": "",
+              "header": "Pinahusay na Tiyaga at Katatagan",
+              "desc": "Ito rin ay tumutulong sa pagpapababa ng pamamaga, at sumusuporta sa natural na kakayahan ng katawan na labanan ang impeksyon. Bukod dito, ito ay may papel sa synthesis ng mga bagong immune cells, pinapanatili ang iyong immune system na gumagana ng pinakamahusay."
+          }
+      ]
   },
-  "faq":{
-    "title": "Mga Benepisyo ng Glutathione",
-    "items":[
-      {
-        "class": "acc-item_active",
-        "header": "Pagpapalakas ng Immune System",
-        "desc": "Ang Glutathione ay maaaring mag-neutralize ng mga libreng radikal at protektahan ang katawan mula sa kanilang mapanganib na mga epekto. Tumutulong din ito na bawasan ang pamamaga, at sinusuportahan ang likas na kakayahan ng katawan na labanan ang mga impeksyon. Bilang karagdagan, ito ay gumaganap ng papel sa pagbubuo ng mga bagong immune cells, pinapanatili ang iyong immune system na nasa pinakamahusay na kondisyon."
-      },
-      {
-        "class": "",
-        "header": "Pagtaas ng Enerhiya",
-        "desc": "Tumutulong din ito na bawasan ang pamamaga, at sinusuportahan ang likas na kakayahan ng katawan na labanan ang mga impeksyon. Bilang karagdagan, ito ay gumaganap ng papel sa pagbubuo ng mga bagong immune cells, pinapanatili ang iyong immune system na nasa pinakamahusay na kondisyon."
-      },
-      {
-        "class": "",
-        "header": "Pagpapalakas ng Tiyaga at Katatagan",
-        "desc": "Tumutulong din ito na bawasan ang pamamaga, at sinusuportahan ang likas na kakayahan ng katawan na labanan ang mga impeksyon. Bilang karagdagan, ito ay gumaganap ng papel sa pagbubuo ng mga bagong immune cells, pinapanatili ang iyong immune system na nasa pinakamahusay na kondisyon."
-      }
-    ]
+  "cta": {
+      "title": "Isang bagong ikaw ang nagsisimula sa Neumi",
+      "subscription_text": "Idagdag sa subscription",
+      "purchase_text": "Isang beses na pagbili"
   },
-  "cta":{
-    "title": "Ang Bagong Ikaw ay Nagsisimula sa Neumi",
-    "subscription_text": "Idagdag sa Subscription",
-    "purchase_text": "Isang beses na pagbili"
-  },
-  "note_desc": "Ang mga pahayag sa website na ito ay hindi nasuri ng Food and Drug Administration. Ang mga pahayag na ito at ang mga produkto ng kumpanyang ito ay hindi inilaan upang mag-diagnose, magpagaling, magpagaling, o maiwasan ang anumang sakit. Ang mga opinyon at nutritional na payo ng Neumi ay hindi inilaan upang magbigay ng medikal na payo. Palaging kumonsulta sa iyong tagapagbigay ng pangangalaga sa kalusugan kung umiinom ka ng gamot o may anumang medikal na kondisyon. Ang mga indibidwal na resulta ay maaaring mag-iba."
+  "note_desc": "Ang mga pahayag na ginawa sa loob ng website na ito ay hindi nasuri ng Food and Drug Administration. Ang mga pahayag na ito at ang mga produkto ng kumpanyang ito ay hindi nilayon upang mag-diagnose, gamutin, pagalingin o maiwasan ang anumang sakit. Ang mga pananaw at payo sa nutrisyon na ipinahayag ng Neumi ay hindi nilayon para sa layunin ng pagbibigay ng medikal na payo. Mangyaring palaging kumunsulta sa iyong tagabigay ng pangangalaga sa kalusugan kung ikaw ay umiinom ng anumang mga gamot o may anumang mga kondisyong medikal. Maaaring mag-iba ang mga resulta ng indibidwal."
 }
