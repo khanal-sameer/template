@@ -6,7 +6,7 @@
   "add_to_cart_text": "เพิ่มในรถเข็น",
   "select_quantity_text": "เลือกจำนวน",
   "all_product_text": "สินค้าทั้งหมด",
-  "language": "th",
+  "language": "th", "month": "เดือน",
   "subscribe": {
     "subscribe_text":"สมัครสมาชิก",
     "frequency_text": "เลือกความถี่",

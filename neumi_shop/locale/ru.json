@@ -1,7 +1,7 @@
 {
   "title": "Страница магазина Neumi",
   "shop_product_button_text": "Купить наши продукты",
-  "language": "ru",
+    "language": "ru", "month": "месяц",
   "hero_section":{
     "title": "Продукты Neumi",
     "desc": "Жизнь лучше, когда вы выглядите и чувствуете себя наилучшим образом."

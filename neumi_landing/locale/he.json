@@ -5,7 +5,7 @@
   "see_all_product_button_text": "ראו את כל המוצרים",
   "see_all_text": "ראו הכל",
   "hide_all_text": "הסתר הכל",
-  "language": "he",
+  "language": "he", "month": "חודש",
   "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section": {

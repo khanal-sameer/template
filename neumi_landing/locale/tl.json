@@ -5,7 +5,7 @@
   "see_all_product_button_text": "Tingnan ang lahat ng mga produkto",
   "see_all_text": "Tingnan lahat",
   "hide_all_text": "Itago ang lahat",
-  "language": "tl",
+   "language": "tl", "month": "buwan",
   "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section":{

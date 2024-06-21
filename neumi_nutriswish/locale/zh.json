@@ -1,129 +1,173 @@
 {
   "title": "NutriSwish",
   "product_title": "NutriSwish",
-  "total_product_review": "7 条评论",
-  "product_desc":  "<span class=fw-600>由HydraStat纳米技术驱动的突破性健康补充剂，瞬间吸收，</span> 提供免疫支持，关节健康。",
+  "total_product_review": "7条评论",
+  "product_desc": "<span class=fw-600>由HydraStat纳米技术支持的突破性健康补充剂，</span>提供免疫支持，关节健康。",
   "add_to_cart_text": "加入购物车",
   "select_quantity_text": "选择数量",
   "all_product_text": "所有产品",
-  "language": "zh",
+  "language": "zh", "month": "月",
   "subscribe": {
-    "subscribe_text":"订阅",
-    "frequency_text": "选择频率",
-    "checklist_items":[
-      {
-        "caption": "订阅并节省<span class='price_container is-hide' id='saving'>$15</span>"
-      },
-      {
-        "caption": "赚取Neumi奖励积分"
-      },
-      {
-        "caption": "30天退款保证"
-      },
-      {
-        "caption": "随时更新您的订阅"
-      }
-    ],
-    "one_time_purchase_text":"一次性购买"
+      "subscribe_text": "订阅",
+      "frequency_text": "选择频率",
+      "checklist_items": [
+          {
+              "caption": "订阅并节省 <span class='price_container is-hide' id='saving'>$15</span>"
+          },
+          {
+              "caption": "赚取Neumi奖励积分"
+          },
+          {
+              "caption": "30天退款保证"
+          },
+          {
+              "caption": "随时更新您的订阅"
+          }
+      ],
+      "one_time_purchase_text": "一次性购买"
   },
-  "free_shipping_desc": "美国境内订单超过$200免费送货",
-  "benefits":{
-    "title": "益处",
-    "items":[
-      {
-        "caption":"关键成分每日最大化吸收和效果。"
-      },
-      {
-        "caption":"每批次都经过严格的第三方测试，以确保纯度和安全性。"
-      },
-      {
-        "caption": "我们提供30天无条件退款保证。"
-      }
-    ]
+  "free_shipping_desc": "美国境内订单满$200免运费",
+  "benefits": {
+      "title": "好处",
+      "items": [
+          {
+              "caption": "关键成分最大化吸收和效果，每天。"
+          },
+          {
+              "caption": "每批产品都经过严格的第三方测试，以确保纯度和安全性。"
+          },
+          {
+              "caption": "我们提供30天无条件退款保证。"
+          }
+      ]
   },
   "asSeenOn": {
-    "title": "如见于"
+      "title": "见于"
   },
-  "tab":{
-    "title": "看看NutriSwish如何改变生活",
-    "video_review_title": "视频评论<span>(5)</span>",
-    "written_review_title": "书面评论<span>(2)</span>",
-    "rating_text": "5星评价",
-    "review_list": [
+  "tab": {
+      "title": "看看NutriSwish如何改变生活",
+      "video_review_title": "视频评论 <span>(5)</span>",
+      "written_review_title": "书面评论 <span>(2)</span>",
+      "rating_text": "五星好评",
+      "review_list": [
+          {
+              "reviewer": "Aidan D.",
+              "address": "盐湖城, 犹他州",
+              "time": "2小时前",
+              "review_text": "Nutriswish改变了我的生活！我已经使用了几个月，明显感觉到我的能量水平和整体活力有了显著提高。令人惊讶的是，简单的东西竟然有如此深远的影响。强烈推荐！"
+          },
+          {
+              "reviewer": "Lola P.",
+              "address": "Laie, 夏威夷",
+              "time": "2小时前",
+              "review_text": "我多年来一直在努力保持激素平衡，但Nutriswish给我带来了巨大的改变。我不仅感觉更加平衡和充满活力，还注意到我的肤色和肌肉张力都有所改善。真是太神奇了！"
+          }
+      ]
+  },
+  "product_benefits": {
+      "title": "使用NutriSwish的好处",
+      "desc": "为了维持最佳水平，需要频繁且昂贵的静脉治疗，这对许多人来说是不现实的。<span class='fw-600'> 相比之下，NutriSwish使用纳米谷胱甘肽，相对于静脉治疗具有多个显著优势。</span>",
+      "alt_text": "nutriswish产品",
+      "items_left": [
+          {
+              "title": "持续释放",
+              "desc": "口服使谷胱甘肽在血液中的释放更为一致和持续。"
+          },
+          {
+              "title": "增强生物利用度",
+              "desc": "纳米级谷胱甘肽颗粒意味着更大比例的谷胱甘肽被利用，最大化其抗氧化效益。"
+          }
+      ],
+      "items_right": [
+          {
+              "title": "方便性",
+              "desc": "与更具侵入性和耗时的静脉治疗相比，无与伦比的便利性。"
+          },
+          {
+              "title": "成本效益",
+              "desc": "相比常规静脉谷胱甘肽治疗，更具成本效益的替代方案。消除频繁的诊所就诊需求，减少总体成本。"
+          }
+      ]
+  },
+  "product_post_list": [
       {
-          "reviewer": "艾丹·D.",
-          "address": "盐湖城，犹他州",
-          "time": "2小时前",
-          "review_text": "Nutriswish对我来说是一个改变游戏规则的产品！我已经用了几个月，发现我的能量水平和整体活力有了显著提高。令人惊讶的是，这么简单的东西竟然能有如此深远的效果。强烈推荐！"
+          "title": "创新科学",
+          "desc": "谷胱甘肽是细胞的保护者和解毒剂。<span class=fw-600 highlight-text> 它是每个细胞生命、健康、性能、保护和长寿的关键。</span>"
       },
       {
-          "reviewer": "洛拉·P.",
-          "address": "拉伊耶，夏威夷",
-          "time": "2小时前",
-          "review_text": "多年来，我一直在努力维持荷尔蒙平衡，但Nutriswish改变了一切。我不仅感觉更加平衡和充满活力，而且还注意到我的皮肤和肌肉状况有所改善。这真是太了不起了！"
+          "title": "HydraStat™纳米技术",
+          "desc": "<span class=fw-600>超纯水簇保护的纳米级颗粒。</span> 我们的纳米成分足够小，可以完全被人体细胞吸收。"
+      },
+      {
+          "title": "质量胜于数量",
+          "desc": " 一种补充剂的好坏取决于其生物利用度，即其被身体吸收和利用的能力。<span class=fw-600 highlight-text> 正确的输送系统以身体能够吸收和利用的方式将成分传递给您的身体。</span>"
       }
-    ]
+  ],
+  "key_ingredients": {
+      "title": "NutriSwish关键成分",
+      "ingredients": "<span class=fw-600>活性成分：</span>超纯水，谷胱甘肽，L-半胱氨酸，抗坏血酸钙，姜黄素，酒石酸，山梨酸钾，薄荷提取物。 *图片显示了活性成分所在的植物/食物，不一定是提取来源。",
+      "item_list_desktop": [
+          {
+              "item": [
+                  {"item_name": "谷胱甘肽*"},
+                  {"item_name": "酒石酸*"}
+              ]
+          },
+          {
+              "item": [
+                  {"item_name": "抗坏血酸钙*"},
+                  {"item_name": "姜黄素"}
+              ]
+          },
+          {
+              "item": [
+                  {"item_name": "L-半胱氨酸*"},
+                  {"item_name": "山梨酸钾*"}
+              ]
+          }
+      ],
+      "items_list": [
+          {"item_name": "谷胱甘肽*"},
+          {"item_name": "抗坏血酸钙*"},
+          {"item_name": "L-半胱氨酸*"},
+          {"item_name": "酒石酸*"},
+          {"item_name": "姜黄素"},
+          {"item_name": "山梨酸钾*"}
+      ]
   },
-  "product_benefits":{
-    "title": "使用NutriSwish的好处",
-    "desc": "要保持最佳水平，需要频繁且昂贵的静脉注射治疗，这对许多人来说是不切实际的。<span class='fw-600'>相比之下，NutriSwish利用纳米谷胱甘肽，与静脉注射治疗相比，具有多个显著优势。</span>",
-    "alt_text": "nutriswish产品",
-    "items_left": [
-      {
-        "item_name": "L-半胱氨酸*"
-      },
-      {
-        "item_name": "酒石酸*"
-      },
-      {
-        "item_name": "姜黄素"
-      },
-      {
-        "item_name": "山梨酸钾*"
-      }
-    ]
+  "how_to_use": {
+      "title": "使用方法",
+      "steps": [
+          {"caption": "测量两（2）茶匙的产品。一瓶盖=一茶匙。"},
+          {"caption": "在口中漱口30秒或更长时间。"},
+          {"caption": "与漱口水不同，您可以吞咽NutriSwish。如果您愿意，也可以吐出。"},
+          {"caption": "每天重复这些步骤两次。如果愿意，可以更频繁地使用NutriSwish。"}
+      ]
   },
-  "how_to_use":{
-    "title": "如何摄取",
-    "steps": [
-      {
-        "caption": "量取两（2）茶匙的产品。一个盖子=茶匙。"
-      },
-      {
-        "caption": "在口中漱30秒或更长时间。"
-      },
-      {
-        "caption": "与漱口水不同，你可以吞下NutriSwish。如果你喜欢，你也可以吐掉。"
-      },
-      {
-        "caption": "每天重复这些步骤两次。如果需要，可以更频繁地使用NutriSwish。"
-      }
-    ]
+  "faq": {
+      "title": "谷胱甘肽的好处",
+      "items": [
+          {
+              "class": "acc-item_active",
+              "header": "增强免疫系统",
+              "desc": "谷胱甘肽能够中和自由基并保护身体免受其有害影响。它还帮助减少炎症，并支持身体对抗感染的自然能力。此外，它在新免疫细胞的合成中起作用，保持您的免疫系统处于最佳状态。"
+          },
+          {
+              "class": "",
+              "header": "增加能量",
+              "desc": "它还帮助减少炎症，并支持身体对抗感染的自然能力。此外，它在新免疫细胞的合成中起作用，保持您的免疫系统处于最佳状态。"
+          },
+          {
+              "class": "",
+              "header": "增强耐力和持久力",
+              "desc": "它还帮助减少炎症，并支持身体对抗感染的自然能力。此外，它在新免疫细胞的合成中起作用，保持您的免疫系统处于最佳状态。"
+          }
+      ]
   },
-  "faq":{
-    "title": "谷胱甘肽的好处",
-    "items":[
-      {
-        "class": "acc-item_active",
-        "header": "增强免疫系统",
-        "desc": "谷胱甘肽能够中和自由基，保护身体免受其有害影响。它还帮助减少炎症，并支持身体抵抗感染的自然能力。此外，它在合成新的免疫细胞方面发挥作用，使你的免疫系统始终处于最佳状态。"
-      },
-      {
-        "class": "",
-        "header": "增加能量",
-        "desc": "它还帮助减少炎症，并支持身体抵抗感染的自然能力。此外，它在合成新的免疫细胞方面发挥作用，使你的免疫系统始终处于最佳状态。"
-      },
-      {
-        "class": "",
-        "header": "增强耐力和持久力",
-        "desc": "它还帮助减少炎症，并支持身体抵抗感染的自然能力。此外，它在合成新的免疫细胞方面发挥作用，使你的免疫系统始终处于最佳状态。"
-      }
-    ]
+  "cta": {
+      "title": "全新的您从Neumi开始",
+      "subscription_text": "添加到订阅",
+      "purchase_text": "一次性购买"
   },
-  "cta":{
-    "title": "全新的你，从Neumi开始",
-    "subscription_text": "加入订阅",
-    "purchase_text": "一次性购买"
-  },
-  "note_desc": "本网站内的陈述尚未经过食品和药物管理局的评估。这些陈述和本公司的产品并非用于诊断、治疗、治愈或预防任何疾病。Neumi表达的观点和营养建议并非旨在提供医疗建议。如果你正在服药或有任何医疗状况，请始终咨询你的医疗保健提供者。个别结果可能会有所不同。"
+  "note_desc": "本网站中的声明未经食品和药物管理局评估。这些声明和本公司产品不用于诊断、治疗、治愈或预防任何疾病。Neumi表达的观点和营养建议不用于提供医学建议。如果您正在服用任何药物或有任何健康状况，请务必咨询您的医疗保健提供者。个人结果可能会有所不同。"
 }

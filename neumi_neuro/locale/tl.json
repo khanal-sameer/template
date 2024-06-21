@@ -6,7 +6,7 @@
   "add_to_cart_text": "Idagdag sa cart",
   "select_quantity_text": "Pumili ng Dami",
   "all_product_text": "Lahat ng Produkto",
-  "langauge": "tl",
+   "language": "tl", "month": "buwan",
   "subscribe": {
     "subscribe_text": "Mag-subscribe",
     "frequency_text": "Pumili ng Dalas",

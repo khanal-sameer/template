@@ -5,7 +5,7 @@
   "see_all_product_button_text": "Bekijk alle producten",
   "see_all_text": "Bekijk alles",
   "hide_all_text": "Verberg alles",
-  "language":"nl",
+  "language": "nl", "month": "maand",
   "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section":{

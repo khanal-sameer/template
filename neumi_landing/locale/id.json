@@ -5,7 +5,7 @@
   "see_all_product_button_text": "Lihat semua produk",
   "see_all_text": "Lihat semua",
   "hide_all_text": "Sembunyikan semua",
-  "language":"id",
+  "language": "id", "month": "bulan",
   "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section":{

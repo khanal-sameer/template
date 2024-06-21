@@ -1,10 +1,11 @@
 {
   "title":"{{title}}",
   "language": "{{language}}",
-  "total_product_review": "7 Reviews",
+  "month": "{{month}}",
+  "total_product_review": "{{total_product_review}}",
   "get_started_btn_text": "{{get_started_btn_text}}",
   "see_all_text": "{{see_all_text}}",
-    "hide_all_text": "{{hide_all_text}}",
+  "hide_all_text": "{{hide_all_text}}",
   "arrow_icon": "https://cdn.fluid.app/newulife/arrow-icon.svg",
   "hero_section":{
     "title":"{{hero_section.title}}",

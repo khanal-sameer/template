@@ -7,7 +7,7 @@
   "add_to_cart_text": "เพิ่มในตะกร้า",
   "select_quantity_text": "เลือกจำนวน",
   "all_product_text": "ผลิตภัณฑ์ทั้งหมด",
-  "langauge": "th",
+  "language": "th", "month": "เดือน",
   "subscribe": {
     "subscribe_text": "สมัครสมาชิก",
     "frequency_text": "เลือกความถี่",

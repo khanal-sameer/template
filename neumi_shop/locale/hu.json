@@ -1,7 +1,7 @@
 {
   "title": "Neumi Shop oldal",
   "shop_product_button_text": "Vásárolja meg termékeinket",
-  "language": "hu",
+  "language": "hu", "month": "hónap",
   "hero_section":{
     "title": "Neumi Termékek",
     "desc": "Az élet jobb, ha a legjobban nézel ki és érzed magad."

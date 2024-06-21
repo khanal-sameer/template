@@ -5,7 +5,7 @@
   "see_all_product_button_text": "Összes termék megtekintése",
   "see_all_text": "Összes megtekintése",
   "hide_all_text": "Összes elrejtése",
-  "language":"hu",
+  "language": "hu", "month": "hónap",
   "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section":{

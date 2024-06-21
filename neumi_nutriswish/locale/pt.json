@@ -6,7 +6,7 @@
   "add_to_cart_text": "Adicionar ao carrinho",
   "select_quantity_text": "Selecionar quantidade",
   "all_product_text": "Todos os produtos",
-  "language": "pt",
+  "language": "pt", "month": "mês",
   "subscribe": {
     "subscribe_text":"Assinar",
     "frequency_text": "Selecionar frequência",

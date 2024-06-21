@@ -6,7 +6,7 @@
   "select_quantity_text": "Выберите количество",
   "all_product_text": "Все продукты",
   "add_to_cart_text": "Добавить в корзину",
-  "language": "ru",
+    "language": "ru", "month": "месяц",
   "subscribe": {
     "subscribe_text":"Подписаться",
     "frequency_text": "Выберите частоту",

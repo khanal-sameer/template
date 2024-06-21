@@ -6,7 +6,7 @@
   "select_quantity_text": "数量を選択",
   "all_product_text": "すべての商品",
   "add_to_cart_text": "カートに追加",
-  "language": "ja",
+  "language": "ja", "month": "月",
   "subscribe": {
     "subscribe_text":"購読する",
     "frequency_text": "頻度を選択",

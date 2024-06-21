@@ -6,7 +6,8 @@
   "add_to_cart_text": "Add to cart",
   "select_quantity_text": "Select Quantity",
   "all_product_text": "All Products",
-  "language": "en",
+  "language": "en", 
+  "month": "mo",
   "subscribe": {
     "subscribe_text":"Subscribe",
     "frequency_text": "Select Frequency",
