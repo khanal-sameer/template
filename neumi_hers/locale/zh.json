@@ -7,7 +7,6 @@
   "all_product_text": "所有产品",
   "add_to_cart_text": "加入购物车",
   "language": "zh",
-  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text": "订阅",
     "frequency_text": "选择频率",
@@ -67,7 +66,7 @@
   },
   "product_benefits": {
     "title": "使用Hers的好处",
-    "desc": "<span class='fw-600'>每个女性都知道周期和激素变化带来的不便。</span>通过我们的HydraStat™纳米技术体验快速效果。我们的纳米级成分，包裹在水团中，小到足以被人体细胞完全吸收，正是您需要的！",
+    "desc": "<span class='fw-600'>每个女性都知道周期和激素变化带来的不便。</span> 通过我们的HydraStat™纳米技术体验快速效果。我们的纳米级成分，包裹在水团中，小到足以被人体细胞完全吸收，正是您需要的！",
     "alt_text": "hers产品",
     "items": [
       {
@@ -87,15 +86,15 @@
   "product_post_list": [
     {
       "title": "创新科学",
-      "desc": "谷胱甘肽是细胞的保护者和解毒剂。<span class=fw-600 highlight-text>它是每个人类细胞的生命、健康、表现、保护和长寿的关键。</span>"
+      "desc": "谷胱甘肽是细胞的保护者和解毒剂。<span class=fw-600 highlight-text> 它是每个人类细胞的生命、健康、表现、保护和长寿的关键。</span>"
     },
     {
       "title": "HydraStat™纳米技术",
-      "desc": "<span class=fw-600>由超纯水团保护的纳米级颗粒。</span>我们的纳米级成分小到足以完全被人体细胞吸收。"
+      "desc": "<span class=fw-600>由超纯水团保护的纳米级颗粒。</span> 我们的纳米级成分小到足以完全被人体细胞吸收。"
     },
     {
       "title": "质量胜于数量",
-      "desc": "一种补充剂的好坏在于其生物利用度，即被身体吸收和使用的能力。<span class=fw-600 highlight-text>正确的递送系统以一种您的身体可以吸收和使用的方式将成分递送到您的身体。</span>"
+      "desc": "一种补充剂的好坏在于其生物利用度，即被身体吸收和使用的能力。<span class=fw-600 highlight-text> 正确的递送系统以一种您的身体可以吸收和使用的方式将成分递送到您的身体。</span>"
     }
   ],
   "how_to_use": {

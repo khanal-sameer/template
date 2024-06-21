@@ -7,7 +7,6 @@
   "all_product_text": "Minden termék",
   "add_to_cart_text": "Kosárba",
   "language": "hu",
-  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text": "Feliratkozás",
     "frequency_text": "Válassza ki a gyakoriságot",
@@ -67,7 +66,7 @@
   },
   "product_benefits": {
     "title": "A Hers használatának előnyei",
-    "desc": "<span class='fw-600'>Minden nő tudja, milyen kellemetlenségeket okozhatnak a ciklusok és a hormonális változások.</span>Tapasztalja meg a gyors eredményeket a HydraStat™ nanotechnológiánk révén. Nano méretű összetevőink, amelyeket vízklaszterekbe burkoltunk, elég kicsik ahhoz, hogy teljesen felszívódjanak az emberi sejtekben, pontosan ott, ahol szükség van rájuk!",
+    "desc": "<span class='fw-600'>Minden nő tudja, milyen kellemetlenségeket okozhatnak a ciklusok és a hormonális változások.</span> Tapasztalja meg a gyors eredményeket a HydraStat™ nanotechnológiánk révén. Nano méretű összetevőink, amelyeket vízklaszterekbe burkoltunk, elég kicsik ahhoz, hogy teljesen felszívódjanak az emberi sejtekben, pontosan ott, ahol szükség van rájuk!",
     "alt_text": "hers termék",
     "items": [
       {
@@ -87,15 +86,15 @@
   "product_post_list": [
     {
       "title": "Innovatív tudomány",
-      "desc": "A glutation a sejtek védelmezője és méregtelenítője.<span class=fw-600 highlight-text>Ez az élet, az egészség, a teljesítmény, a védelem és minden emberi sejt hosszú élettartamának kulcsa.</span>"
+      "desc": "A glutation a sejtek védelmezője és méregtelenítője.<span class=fw-600 highlight-text> Ez az élet, az egészség, a teljesítmény, a védelem és minden emberi sejt hosszú élettartamának kulcsa.</span>"
     },
     {
       "title": "HydraStat™ nanotechnológia",
-      "desc": "<span class=fw-600>Ultra tiszta vízklaszterek által védett nano méretű részecskék.</span>Nano méretű összetevőink elég kicsik ahhoz, hogy teljesen felszívódjanak az emberi sejtekben."
+      "desc": "<span class=fw-600>Ultra tiszta vízklaszterek által védett nano méretű részecskék.</span> Nano méretű összetevőink elég kicsik ahhoz, hogy teljesen felszívódjanak az emberi sejtekben."
     },
     {
       "title": "Minőség a mennyiség fölött",
-      "desc": "Egy kiegészítő csak annyira jó, mint a biohasznosulása, azaz a képessége, hogy a szervezet felszívja és hasznosítsa.<span class=fw-600 highlight-text>A megfelelő szállítórendszer olyan módon juttatja el az összetevőket a szervezetéhez, hogy azt a szervezete fel tudja szívni és hasznosítani tudja.</span>"
+      "desc": "Egy kiegészítő csak annyira jó, mint a biohasznosulása, azaz a képessége, hogy a szervezet felszívja és hasznosítsa.<span class=fw-600 highlight-text> A megfelelő szállítórendszer olyan módon juttatja el az összetevőket a szervezetéhez, hogy azt a szervezete fel tudja szívni és hasznosítani tudja.</span>"
     }
   ],
   "how_to_use": {

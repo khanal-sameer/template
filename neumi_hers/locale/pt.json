@@ -7,7 +7,6 @@
   "all_product_text": "Todos os Produtos",
   "add_to_cart_text": "Adicionar ao Carrinho",
   "language": "pt",
-  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text":"Assinar",
     "frequency_text": "Selecionar Frequência",
@@ -88,7 +87,7 @@
   "product_post_list":[
     {
       "title": "Ciência inovadora",
-      "desc": "O glutationa é o protetor e desintoxicante da célula.<span class=fw-600 highlight-text>É a chave para a vida, saúde, desempenho, proteção e longevidade de cada célula humana.</span>"
+      "desc": "O glutationa é o protetor e desintoxicante da célula.<span class=fw-600 highlight-text> É a chave para a vida, saúde, desempenho, proteção e longevidade de cada célula humana.</span>"
     },
     {
       "title": "Tecnologia HydraStat™",
@@ -96,7 +95,7 @@
     },
     {
       "title": "Qualidade sobre quantidade",
-      "desc": "Um suplemento é tão bom quanto sua biodisponibilidade, que é a sua capacidade de ser absorvido e utilizado pelo corpo.<span class=fw-600 highlight-text>O sistema de entrega correto entrega ingredientes ao seu corpo de uma maneira que seu corpo pode absorver e usar.</span>"
+      "desc": "Um suplemento é tão bom quanto sua biodisponibilidade, que é a sua capacidade de ser absorvido e utilizado pelo corpo.<span class=fw-600 highlight-text> O sistema de entrega correto entrega ingredientes ao seu corpo de uma maneira que seu corpo pode absorver e usar.</span>"
     }
   ],
 

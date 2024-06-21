@@ -7,7 +7,6 @@
   "all_product_text": "Tutti i prodotti",
   "add_to_cart_text": "Aggiungi al carrello",
   "language": "it",
-  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text": "Iscriviti",
     "frequency_text": "Seleziona frequenza",
@@ -67,7 +66,7 @@
   },
   "product_benefits": {
     "title": "Benefici dell'uso di Hers",
-    "desc": "<span class='fw-600'>Ogni donna conosce gli inconvenienti che i cicli e i cambiamenti ormonali possono portare nella vita.</span>Prova risultati rapidi attraverso la nostra nanotecnologia HydraStat™. I nostri ingredienti di dimensioni nano, avvolti in cluster d'acqua, sono abbastanza piccoli da essere completamente assorbiti dalla cellula umana, proprio dove ne hai bisogno!",
+    "desc": "<span class='fw-600'>Ogni donna conosce gli inconvenienti che i cicli e i cambiamenti ormonali possono portare nella vita.</span> Prova risultati rapidi attraverso la nostra nanotecnologia HydraStat™. I nostri ingredienti di dimensioni nano, avvolti in cluster d'acqua, sono abbastanza piccoli da essere completamente assorbiti dalla cellula umana, proprio dove ne hai bisogno!",
     "alt_text": "prodotto hers",
     "items": [
       {
@@ -87,15 +86,15 @@
   "product_post_list": [
     {
       "title": "Scienza innovativa",
-      "desc": "Il glutatione è il protettore e il disintossicante della cellula.<span class=fw-600 highlight-text>È la chiave della vita, della salute, delle prestazioni, della protezione e della longevità di ogni cellula umana.</span>"
+      "desc": "Il glutatione è il protettore e il disintossicante della cellula.<span class=fw-600 highlight-text> È la chiave della vita, della salute, delle prestazioni, della protezione e della longevità di ogni cellula umana.</span>"
     },
     {
       "title": "Nanotecnologia HydraStat™",
-      "desc": "<span class=fw-600>Particelle di dimensioni nano protette da cluster d'acqua ultrapura.</span>I nostri ingredienti di dimensioni nano sono abbastanza piccoli da essere completamente assorbiti dalla cellula umana."
+      "desc": "<span class=fw-600>Particelle di dimensioni nano protette da cluster d'acqua ultrapura.</span> I nostri ingredienti di dimensioni nano sono abbastanza piccoli da essere completamente assorbiti dalla cellula umana."
     },
     {
       "title": "Qualità oltre la quantità",
-      "desc": "Un integratore è valido solo quanto la sua biodisponibilità, cioè la sua capacità di essere assorbito e utilizzato dal corpo.<span class=fw-600 highlight-text>Il sistema di consegna corretto consegna gli ingredienti al tuo corpo in un modo che il tuo corpo può assorbire e utilizzare.</span>"
+      "desc": "Un integratore è valido solo quanto la sua biodisponibilità, cioè la sua capacità di essere assorbito e utilizzato dal corpo.<span class=fw-600 highlight-text> Il sistema di consegna corretto consegna gli ingredienti al tuo corpo in un modo che il tuo corpo può assorbire e utilizzare.</span>"
     }
   ],
   "how_to_use": {

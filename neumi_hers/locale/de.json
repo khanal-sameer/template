@@ -7,7 +7,6 @@
   "all_product_text": "Alle Produkte",
   "add_to_cart_text": "In den Warenkorb",
   "language": "de",
-  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text": "Abonnieren",
     "frequency_text": "Häufigkeit auswählen",
@@ -67,7 +66,7 @@
   },
   "product_benefits": {
     "title": "Vorteile der Verwendung von Hers",
-    "desc": "<span class='fw-600'>Jede Frau kennt die Unannehmlichkeiten, die Zyklen und Hormonveränderungen mit sich bringen können.</span>Erleben Sie schnelle Ergebnisse durch unsere HydraStat™-Nanotechnologie. Unsere nanoskaligen Inhaltsstoffe, eingehüllt in Wassercluster, sind klein genug, um vollständig von der menschlichen Zelle absorbiert zu werden, genau dort, wo Sie sie brauchen!",
+    "desc": "<span class='fw-600'>Jede Frau kennt die Unannehmlichkeiten, die Zyklen und Hormonveränderungen mit sich bringen können.</span> Erleben Sie schnelle Ergebnisse durch unsere HydraStat™-Nanotechnologie. Unsere nanoskaligen Inhaltsstoffe, eingehüllt in Wassercluster, sind klein genug, um vollständig von der menschlichen Zelle absorbiert zu werden, genau dort, wo Sie sie brauchen!",
     "alt_text": "hers Produkt",
     "items": [
       {
@@ -87,15 +86,15 @@
   "product_post_list": [
     {
       "title": "Innovative Wissenschaft",
-      "desc": "Glutathion ist der Beschützer und Entgifter der Zelle.<span class=fw-600 highlight-text>Es ist der Schlüssel zum Leben, zur Gesundheit, Leistung, Schutz und Langlebigkeit jeder menschlichen Zelle.</span>"
+      "desc": "Glutathion ist der Beschützer und Entgifter der Zelle.<span class=fw-600 highlight-text> Es ist der Schlüssel zum Leben, zur Gesundheit, Leistung, Schutz und Langlebigkeit jeder menschlichen Zelle.</span>"
     },
     {
       "title": "HydraStat™-Nanotechnologie",
-      "desc": "<span class=fw-600>Nano-große Partikel, geschützt durch ultrareine Wassercluster.</span>Unsere nanoskaligen Inhaltsstoffe sind klein genug, um vollständig in die menschliche Zelle absorbiert zu werden."
+      "desc": "<span class=fw-600>Nano-große Partikel, geschützt durch ultrareine Wassercluster.</span> Unsere nanoskaligen Inhaltsstoffe sind klein genug, um vollständig in die menschliche Zelle absorbiert zu werden."
     },
     {
       "title": "Qualität über Quantität",
-      "desc": "Ein Supplement ist nur so gut wie seine Bioverfügbarkeit, also seine Fähigkeit, vom Körper absorbiert und genutzt zu werden.<span class=fw-600 highlight-text>Das richtige Liefersystem liefert Inhaltsstoffe auf eine Weise, die Ihr Körper absorbieren und nutzen kann.</span>"
+      "desc": "Ein Supplement ist nur so gut wie seine Bioverfügbarkeit, also seine Fähigkeit, vom Körper absorbiert und genutzt zu werden.<span class=fw-600 highlight-text> Das richtige Liefersystem liefert Inhaltsstoffe auf eine Weise, die Ihr Körper absorbieren und nutzen kann.</span>"
     }
   ],
   "how_to_use": {
@@ -192,17 +191,14 @@
     "icon_class": "clr-primary",
     "items": [
       {
-        "class": "acc-item_active",
         "header": "Gestärktes Immunsystem",
         "desc": "Glutathion kann freie Radikale neutralisieren und den Körper vor deren schädlichen Auswirkungen schützen. Es hilft auch, Entzündungen zu reduzieren und unterstützt die natürliche Fähigkeit des Körpers, Infektionen zu bekämpfen. Darüber hinaus spielt es eine Rolle bei der Synthese neuer Immunzellen, sodass Ihr Immunsystem optimal funktioniert."
       },
       {
-        "class": "",
         "header": "Erhöhte Energie",
         "desc": "Es hilft auch, Entzündungen zu reduzieren und unterstützt die natürliche Fähigkeit des Körpers, Infektionen zu bekämpfen. Darüber hinaus spielt es eine Rolle bei der Synthese neuer Immunzellen, sodass Ihr Immunsystem optimal funktioniert."
       },
       {
-        "class": "",
         "header": "Erhöhte Ausdauer und Leistungsfähigkeit",
         "desc": "Es hilft auch, Entzündungen zu reduzieren und unterstützt die natürliche Fähigkeit des Körpers, Infektionen zu bekämpfen. Darüber hinaus spielt es eine Rolle bei der Synthese neuer Immunzellen, sodass Ihr Immunsystem optimal funktioniert."
       }

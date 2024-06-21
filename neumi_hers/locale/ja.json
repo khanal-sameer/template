@@ -7,7 +7,6 @@
   "all_product_text": "すべての商品",
   "add_to_cart_text": "カートに追加",
   "language": "ja",
-  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text":"購読する",
     "frequency_text": "頻度を選択",
@@ -88,7 +87,7 @@
   "product_post_list":[
     {
       "title": "革新的な科学",
-      "desc": "グルタチオンは細胞の保護者およびデトックス剤です。<span class=fw-600 highlight-text>それはすべての人間の細胞の生命、健康、性能、保護および長寿の鍵です。</span>"
+      "desc": "グルタチオンは細胞の保護者およびデトックス剤です。<span class=fw-600 highlight-text> それはすべての人間の細胞の生命、健康、性能、保護および長寿の鍵です。</span>"
     },
     {
       "title": "HydraStat™ナノテクノロジー",
@@ -96,7 +95,7 @@
     },
     {
       "title": "量より質",
-      "desc": "サプリメントは、そのバイオアベイラビリティ、すなわち体内で吸収および利用される能力に応じてのみ優れています。<span class=fw-600 highlight-text>適切なデリバリーシステムは、体が吸収および利用できる方法で成分を体に届けます。</span>"
+      "desc": "サプリメントは、そのバイオアベイラビリティ、すなわち体内で吸収および利用される能力に応じてのみ優れています。<span class=fw-600 highlight-text> 適切なデリバリーシステムは、体が吸収および利用できる方法で成分を体に届けます。</span>"
     }
   ],
 
