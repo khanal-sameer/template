@@ -1,0 +1,38 @@
+// Media breakpoints defined in settings
+$break-screen-lg:             1050px !default;
+$break-screen-md:             992px !default;
+$break-screen-sm:             768px !default;
+$break-screen-xs:             576px !default;
+$break-screen-larger-screen:  1350px!default;
+$break-screen-md-only:        991.99px !default;
+$break-screen-sm-only:        768px !default;
+$break-screen-xs-only:        575.99px !default;
+$break-screen-big-screen:      1430px !default;
+// Media query mixin
+@mixin media($screen){
+  @if $screen == xs{
+    @media ( min-width: $break-screen-xs ){
+      @content;
+    }
+  }@else if $screen == sm{
+    @media ( min-width: $break-screen-sm ){
+      @content;
+    }
+  }@else if$screen == md{
+    @media ( min-width: $break-screen-md ){
+      @content;
+    }
+  }@else if $screen == lg{
+    @media ( min-width: $break-screen-lg ){
+      @content;
+    }
+  }@else if $screen == largeScreen{
+    @media ( min-width: $break-screen-larger-screen ){
+      @content;
+    }
+  }@else if $screen == bigScreen{
+    @media ( min-width: $break-screen-big-screen ){
+        @content;
+    }
+  }
+}

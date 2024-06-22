@@ -1,0 +1,16 @@
+$spaces: 2, 4, 6, 8, 12, 16, 32;
+//gap
+@each $space in $spaces {
+  //gap
+  .#{$prefix}-gap-#{$space} {
+    gap: ($space / 16) * 1rem;
+  }
+  //row gap
+  .#{$prefix}-row-gap-#{$space} {
+    row-gap: ($space / 16) * 1rem;
+  }
+  //column gap
+  .#{$prefix}-col-gap-#{$space} {
+    column-gap: ($space / 16) * 1rem;
+  }
+}

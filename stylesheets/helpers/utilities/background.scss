@@ -1,0 +1,12 @@
+
+.#{$prefix}-bg-image-cover,
+.#{$prefix}-bg-image-contain{
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.#{$prefix}-bg-image-contain {
+  background-size: contain;
+}
+.#{$prefix}-bg-image-cover {
+  background-size: cover;
+}

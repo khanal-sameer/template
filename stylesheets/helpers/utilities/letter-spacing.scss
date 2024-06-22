@@ -1,0 +1,8 @@
+$letter_spacing:("normal" normal,"0-1" 0.1px,"0-2" 0.2px,"0-3" 0.3px,"0-4" 0.4px,"1-28" 1.28px,"2" 2px,
+"n-0-08" -0.08px,"n-0-4" -0.4px,"n-0-27" -0.27px,"n-0-36" -0.36px);//1st index:classname,last index: styles
+
+@each $letterSpacing in $letter_spacing{
+  .#{$prefix}-letter-spacing-#{nth($letterSpacing,1)}{
+    letter-spacing: nth($letterSpacing,2);
+  }
+}

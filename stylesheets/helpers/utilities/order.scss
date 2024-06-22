@@ -1,0 +1,16 @@
+$screen_size: xs,sm,md,lg,largeScreen;
+$orderCount: 1,2,3;
+@each $ordering in $orderCount{
+  .#{$prefix}-order-#{$ordering}{
+    order: $ordering;
+  }
+}
+@each $screen_size in $screen_size {
+  @each $ordering in $orderCount{
+    .#{$prefix}-#{$screen_size}-order-#{$ordering} {
+      @include media($screen_size) {
+        order: $ordering;
+      }
+    }
+  }
+}
