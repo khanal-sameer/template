@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <!-- css library import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <div  class='cp-demo-company cp-page-bottom-section'>
+      <!-- HERO SECTION -->
+      {{#hero_section}}
+        <div class="cp-banner-layout-1 cp-bg-image" style="background-image: url({{image}})">
+          <div class="cp-container cp-position-relative">
+            <div class="cp-wrapper cp-m-auto cp-position-relative cp-z-index-2 cp-items-center">
+              <h1 class="cp-text-white cp-text-center">{{title}}</h1>
+              <div class="cp-btn-section cp-d-flex cp-justify-center cp-col-gap-12">
+                  <a class="cp-btn cp-btn-white-border cp-mt-24" href="{{browse_more_product_url}}">
+                    {{browse_more_product_text}}
+                    <span class="cp-ml-8">
+                      {{chevron_arrow_right_icon}}
+                    </span>
+                  </a>
+                  <a class="cp-btn cp-btn-primary-bg cp-mt-24" href="{{sign_up_url}}">
+                    {{sign_up_text}}
+                    <span class="cp-ml-8">
+                      {{chevron_arrow_right_icon}}
+                    </span>
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/hero_section}}
+      {{>DemoMasonaryProduct}}
+      {{#feature_product_1}}
+        <div class="cp-feature-product-post cp-page-section-md cp-bg-white-smoke">
+          <div class="cp-container">
+            <div class="cp-row">
+              <div class="cp-col cp-col-12 cp-col-sm-6">
+                <div class="cp-image-section cp-bg-image cp-border-radius-40 cp-image-h-md" style="background-image: url({{image}})">
+                </div>
+              </div><!-- .cp-col -->
+
+              <div class="cp-col cp-col-12 cp-col-sm-6">
+                <div class="cp-desc cp-items-center cp-h-full">
+                  <div class="cp-category-section">
+                    <span class="cp-category-tag">{{category}}</span>
+                  </div>
+                  <h3 class="cp-mt-12 cp-mb-0">{{title}}</h3>
+                  <p class="cp-mt-16 cp-mb-0">{{desc}}</p>
+                  <h2 class="cp-price cp-mt-32 cp-mb-0">{{price}}</h2>
+                  <div class="cp-btn-section cp-mt-18">
+                    <button class="cp-btn cp-btn-primary-bg">
+                      <span class="cp-mr-4 cp-plus-icon cp-position-relative cp-top-1">
+                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.6 9.032V6.856H16.312V9.032H0.6ZM7.192 15.656V0.199999H9.656V15.656H7.192Z" fill="currentColor"/>
+                        </svg>
+                      </span>
+
+                      {{add_to_cart_text}}
+                    </button>
+                  </div> <!-- .cp-btn-section -->
+                </div><!-- .cp-desc -->
+              </div><!-- .cp-col -->
+            </div><!-- .cp-row -->
+          </div><!-- .cp-container -->
+        </div><!-- .cp-product-post -->
+      {{/feature_product_1}}
+      {{#hassle_free_subscription}}
+        <div class="cp-free-subscription-section cp-page-section cp-text-center">
+          <div class="cp-container">
+            <h2 class="cp-m-0">{{title}}</h2>
+            <p class="cp-mt-32 cp-mb-0">{{desc}}</p>
+            <div class="cp-btn-section cp-mt-32">
+              <a class="cp-btn cp-btn-primary-bg" href="{{sign_up_url}}">
+                {{sign_up_text}}
+                <span class="cp-ml-8">
+                  {{chevron_arrow_right_icon}}
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      {{/hassle_free_subscription}}
+
+      {{#product_feature_list}}
+        <div class="cp-product-feature-section cp-page-section-md cp-bg-white-smoke">
+          <div class="cp-container">
+            <div class="cp-row">
+              <div class="cp-col cp-col-12 cp-col-sm-6">
+                <div class="cp-image-section cp-bg-image cp-border-radius-40 cp-image-h-md" style="background-image: url({{image}})"></div>
+              </div><!-- .cp-col -->
+              <div class="cp-col cp-col-12 cp-col-sm-6"> 
+                <div class="cp-desc cp-items-list cp-pt-28">
+                  {{#items}}
+                    <div class="cp-product-feature-item cp-product-feature-item-style-1 cp-d-flex cp-mt-32">
+                      <div class="cp-icon-section">
+                        {{{icon}}}
+                      </div>
+                      <div class="cp-item-desc">
+                        <h3 class="cp-m-0">{{title}}</h3>
+                        <p class="cp-mt-16 cp-mb-0">{{desc}}</p>
+                      </div>
+                    </div>
+                  {{/items}}
+                  </div>
+              </div>
+            </div><!-- .cp-row -->
+          </div><!-- .cp-container -->
+        </div><!-- .cp-feature-post-section -->
+      {{/product_feature_list}}
+      {{#video_section}}
+        <div class="cp-video-section cp-page-top-section cp-text-center">
+          <div class="cp-container">
+            <h2 class="cp-m-0">{{title}}</h2>
+            <p class="cp-mt-16 cp-mb-0">{{desc}}</p>
+            <div class="cp-image-section cp-bg-image cp-border-radius-40 cp-items-center cp-mt-44" style="background-image: url({{image}})">
+              <a href="{{url}}" class="cp-play-icon cp-m-auto">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 2.86688V16.7331C4.99996 16.8873 5.04106 17.0387 5.11906 17.1718C5.19706 17.3048 5.30915 17.4146 5.44374 17.4898C5.57834 17.5651 5.73057 17.603 5.88474 17.5998C6.03891 17.5966 6.18942 17.5523 6.32076 17.4715L17.5871 10.5384C17.7133 10.4608 17.8175 10.3523 17.8898 10.223C17.962 10.0937 18 9.94811 18 9.80001C18 9.6519 17.962 9.50627 17.8898 9.37701C17.8175 9.24775 17.7133 9.13917 17.5871 9.06163L6.32076 2.12851C6.18942 2.04771 6.03891 2.00341 5.88474 2.00019C5.73057 1.99697 5.57834 2.03494 5.44374 2.11019C5.30915 2.18543 5.19706 2.29523 5.11906 2.42825C5.04106 2.56126 4.99996 2.71268 5 2.86688Z"
+                    fill="#C8D6DE"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      {{/video_section}}
+      {{>DemoTestimonial}}
+      {{#feature_product_2}}
+        <div class="cp-feature-product-post cp-page-section-md cp-bg-white-smoke">
+          <div class="cp-container">
+            <div class="cp-row">
+              <div class="cp-col cp-col-12 cp-col-sm-6">
+                <div class="cp-image-section cp-bg-image cp-border-radius-40 cp-image-h-md" style="background-image: url({{image}})">
+                </div>
+              </div><!-- .cp-col -->
+
+              <div class="cp-col cp-col-12 cp-col-sm-6">
+                <div class="cp-desc cp-items-center cp-h-full">
+                  <div class="cp-category-section">
+                    <span class="cp-category-tag">{{category}}</span>
+                  </div>
+                  <h3 class="cp-mt-12 cp-mb-0">{{title}}</h3>
+                  <p class="cp-mt-16 cp-mb-0">{{desc}}</p>
+                  <div class="cp-btn-section cp-mt-18">
+                    <a class="cp-btn cp-btn-primary-bg" hrfe="{{url}}">{{btn_text}}</a>
+                  </div> <!-- .cp-btn-section -->
+                </div><!-- .cp-desc -->
+              </div><!-- .cp-col -->
+            </div><!-- .cp-row -->
+          </div><!-- .cp-container -->
+        </div><!-- .cp-product-post -->
+      {{/feature_product_2}}
+      
+      {{>DemoAccordion}}
+      {{#cta}}
+        <div class="cp-cta-section">
+          <div class="cp-container">
+            <div class="cp-banner-layout-1 cp-bg-image cp-border-radius-40" style="background-image: url({{image}})">
+              <div class="cp-position-relative">
+                <div class="cp-wrapper cp-m-auto cp-position-relative cp-z-index-2 cp-items-center">
+                  <div class="cp-text-white cp-text-center cp-fs-xxl cp-fw-bold">{{title}}</div>
+                  <div class="cp-btn-section cp-d-flex cp-justify-center cp-col-gap-12">
+                      <a class="cp-btn cp-btn-white-border cp-mt-24" href="{{browse_more_product_url}}">
+                        {{browse_more_product_text}}
+                        <span class="cp-ml-8">
+                          {{chevron_arrow_right_icon}}
+                        </span>
+                      </a>
+                      <a class="cp-btn cp-btn-primary-bg cp-mt-24" href="{{sign_up_url}}">
+                        {{sign_up_text}}
+                        <span class="cp-ml-8">
+                          {{chevron_arrow_right_icon}}
+                        </span>
+                      </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/cta}}
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {   
+        var testimonialSlider = new Splide("#testimonial-slider",{
+          arrows: false,
+          pagination: false,
+          perPage: 1,
+          arrows: true,
+          cover: false,
+          gap: "20px",
+          mediaQuery: "min",
+          rewind: false,
+          breakpoints: {
+            768: {
+              perPage: 2,
+            },
+            576: {
+              perPage: 1,
+            },
+          },
+        });
+        testimonialSlider.mount();
+      });
+     
+      $(document).ready(function(){
+        $(document).on("click",".accordion-header",function(){
+          $(".accordion-content").not($(this).next()).slideUp();
+          $(".accordion-item").not($(this).parent()).removeClass("active");
+          $(this).next(".accordion-content").slideToggle();
+          $(this).parent(".accordion-item").toggleClass("active");
+        });
+      })
+    
+    </script>
+    
+  </body>
+</html>

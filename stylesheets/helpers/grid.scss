@@ -23,13 +23,13 @@ $columns:(
 
 .#{$prefix}-row {
   @extend %display-flex;
-  margin-right: -7.5px;
-  margin-left: -7.5px;
+  margin-right: -17px;
+  margin-left: -17px;
 }
 
 .#{$prefix}-col {
-  padding-left: 7.5px;
-  padding-right: 7.5px;
+  padding-left: 17px;
+  padding-right: 17px;
 }
 
 @each $col in $columns{

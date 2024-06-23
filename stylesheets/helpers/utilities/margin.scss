@@ -24,7 +24,7 @@ $corner:(
 
 @each $margin in $corner{
   @for $i from 0 through 32{
-  .#{nth($margin,1)}-#{$i * 2}{
+  .#{$prefix}-#{nth($margin,1)}-#{$i * 2}{
       #{nth($margin,2)} : $i * 2px;
     }
   }
