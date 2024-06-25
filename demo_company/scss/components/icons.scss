@@ -1,0 +1,25 @@
+.cp-play-icon{
+  height: 102px;
+  width: 102px;
+  border-radius:100%;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg{
+    height: 32px;
+    width: 32px;
+  }
+}
+.cp-arrow-icon-box{
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: $primary;
+  color: $primary_bg_text_color;
+  text-align: center;
+  line-height: 40px;
+  svg{
+    width: 14px;
+  }
+}

@@ -1,0 +1,36 @@
+%overlay{
+  position: relative;
+  &:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+    display: block;
+  }
+  &.cp-border-radius-40{
+    &:before{
+      border-radius: 40px
+    }
+  }
+  
+}
+.cp-image-overlay{
+  @extend %overlay;
+  &:before{
+    background-color: rgba(0,0,0,0.52);
+  }
+}
+.cp-image-overlay-gradient{
+  @extend %overlay;
+  &:before{
+    background: linear-gradient(rgba(1, 1, 1, 0) 25%, rgba(1, 1, 1, 0.63) 50%);
+  }
+} 
+
+
+

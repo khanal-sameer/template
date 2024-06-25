@@ -1,17 +1,8 @@
 .cp-masonary-product-section{
   .cp-image-section{
-    border-radius: 40px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    position: relative;
-   
-  }
-  .cp-lg-image{
-    height: 602px;
-  }
-  .cp-sm-image{
-    height: 284px;
   }
   .cp-product-title{
     a{
@@ -27,16 +18,3 @@
     }
   }
 }
-.cp-arrow-icon-box{
-  height: 40px;
-  width: 40px;
-  border-radius: 100%;
-  background-color: $primary;
-  color: $primary_bg_text_color;
-  text-align: center;
-  line-height: 40px;
-  svg{
-    width: 14px;
-  }
-}
-

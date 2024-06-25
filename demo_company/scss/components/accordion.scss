@@ -1,0 +1,42 @@
+.cp-accordion-item{
+  padding: 44px 56px;
+  border-radius: 20px;
+  .cp-minus{
+    display: none;
+  }
+  &.active{
+    background-color:#313D50;
+    color: $white;
+    .cp-title{
+      color: $white;
+    }
+    .cp-icon{
+      background-color: $white;
+    }
+    .cp-plus{
+      display: none;
+    }
+    .cp-minus{
+      display: flex;
+    }
+  }
+  .cp-accordion-header{
+    cursor: pointer;
+    .cp-title{
+      font-size: 24px;
+      line-height: 1.2;
+      @include flex-width(calc(100% - 28px));
+    }
+    .cp-icon{
+      height: 28px;
+      @include flex-width(28px);
+      border-radius: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .cp-accordion-content{
+    padding-top: 12px;
+  }
+}

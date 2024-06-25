@@ -1,0 +1,10 @@
+.cp-category-tag{
+  @include border(1.5px,solid);
+  border-color: $black;
+  color: $black;
+  border-radius: 30px;
+  padding: 4px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}

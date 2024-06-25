@@ -1,0 +1,31 @@
+.cp-page-section{
+  padding: 96px 0;
+}
+.cp-page-section-md{
+  padding: 74px 0;
+}
+.cp-page-top-section{
+  padding-top: 96px;
+}
+.cp-page-bottom-section{
+  padding-bottom: 96px;
+}
+.#{$prefix}-container{
+  width: 1110px;
+  padding: 0 30px;
+  margin: auto;
+  max-width: 100%;
+  @include media(xs){
+    padding: 0 60px;
+  }
+  @include media(sm){
+    padding: 0 30px;
+  }
+  @include media(largeScreen){
+    padding: 0 15px;
+  }
+}
+.cp-w-500{
+  width: 500px;
+  max-width: 100%;
+}

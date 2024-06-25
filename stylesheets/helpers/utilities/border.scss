@@ -9,6 +9,9 @@
     border-radius: #{$i}px;
   }
 }
+.cp-border-radius-40{
+  border-radius: 40px;
+}
 .#{$prefix}-border-radius-rounded {
   border-radius: 100%;
 }

@@ -1,0 +1,21 @@
+.cp-slider-section {
+  .cp-arrow{
+   color: $black;
+   svg{
+     transform: none;
+   }
+   &:disabled{
+     color: #BEBEBE;
+     opacity: 0.8;
+   }
+  }
+  .cp-arrow-prev{
+   left: -30px;
+  }
+  .cp-arrow-next{
+   right: -30px;
+  }
+  button{
+   background-color: transparent ;
+  }
+ }
