@@ -129,22 +129,27 @@
     "alt_text":"{{enrollment.alt_text}}",
     "preview_slider":[
       {
-        "image":"https://cdn.fluid.app/neumi/bizops/enroll-pack.png"
+        "product_id": "1"
       },
       {
-        "image": "https://cdn.fluid.app/neumi/bizops/enroll-pack.png"
+        "product_id": "24"
+      },
+      {
+        "product_id": "25"
       }
     ],
     "enrollment_slider":[
       {
-        "title":"{{enrollment.enrollment_slider.0.title}}",
-        "product_count":"{{enrollment.enrollment_slider.0.product_count}}",
-        "price":"{{enrollment.enrollment_slider.0.price}}"
+        "product_id": "1",
+        "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/enrollments/vxNiSag1c2aikwSAamR21nSq?preview=true"
       },
       {
-        "title":"{{enrollment.enrollment_slider.1.title}}",
-        "product_count":"{{enrollment.enrollment_slider.1.product_count}}",
-        "price":"{{enrollment.enrollment_slider.1.price}}"
+        "product_id": "24",
+        "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/enrollments/XdgFyjQjUjoo9uJza5kKDUpC?preview=true"
+      },
+      {
+        "product_id": "25",
+        "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/enrollments/9Ec9HUzWkj1tnskKmocrGJPg?preview=true"
       }
     ]
   },

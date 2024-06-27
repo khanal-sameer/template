@@ -1,5 +1,5 @@
 {{#enrollment}}
-  <section class="enroll-pack page-section" id="enroll-pack">
+  <section class="enroll-pack page-section is-hide" id="enroll-pack">
     <div class="container">
       <div class="enroll-pack-row row">
         <div class="col col-12 col-lg-6">
@@ -7,11 +7,11 @@
             <div class="splide__track">
               <ul class="splide__list">
                 {{#preview_slider}}
-                <li class="splide__slide">
+                <li data-product="product_{{product_id}}" class="splide__slide">
                   <img
                     src="{{image}}"
                     alt="{{alt_text}}"
-                    class="w-full"
+                    class="w-full p-image"
                   />
                 </li>
                 {{/preview_slider}}
@@ -43,14 +43,14 @@
               <div class="splide__track">
                 <ul class="splide__list">
                   {{#enrollment_slider}}
-                    <li class="splide__slide">
+                    <li data-product="enrollment_{{product_id}}" class="splide__slide">
                       <div class="enroll-pack-dsc">
-                        <h3>{{title}}</h3>
-                        <p class="is-flex gap-4 text-sm">{{product_count}}</p>
-                        <div class="price fw-600">
+                        <h3 class="p-title" >{{title}}</h3>
+                        <p class="is-flex gap-4 text-sm p-desc">{{product_count}}</p>
+                        <div class="price fw-600 p-price">
                           {{price}}
                         </div>
-                        <button class="btn text-center btn-primary btn-rounded">{{purchase_btn_text}}</button>
+                        <a href="{{url}}" class="btn text-center btn-primary btn-rounded">{{purchase_btn_text}}</a>
                       </div>
                     </li>
                   {{/enrollment_slider}}
