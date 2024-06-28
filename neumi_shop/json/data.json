@@ -38,16 +38,19 @@
       {
         "title": "NutriSwish",
         "product_id": "9474",
+        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish.png",
         "url":"https://app.neumi.com/#{affiliate_guid | default:'home'}/page/nutriswish?preview=true"
       },
       {
         "title": "Neumi Skin",
         "product_id": "9467",
+        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin.png",
         "url":"https://app.neumi.com/#{affiliate_guid | default:'home'}/page/neumi-skin?preview=true"
       },
       {
         "title": "Hers",
         "product_id": "9410",
+        "image": "https://cdn.fluid.app/neumi/shop/images/hers.png",
         "url":"https://app.neumi.com/#{affiliate_guid | default:'home'}/page/hers?preview=true"
       }
     ]

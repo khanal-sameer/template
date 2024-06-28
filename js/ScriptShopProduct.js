@@ -69,7 +69,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         const price = element.querySelector('.p-price')
         if( img != null){
           img.src = image_url
-        }else{
+        }
+        if(bg_image != null){
           bg_image.style.backgroundImage = `url(${image_url})`
         }
         name.textContent = title;

@@ -45,7 +45,7 @@
                     <div class="main-product-item mt-30">
                       <div class="image-section">
                         <a href="https://app.neumi.com/{{affiliate_guid | default:'home'}}/page/nutriswish?preview=true">
-                          <img src="" alt="" class="w-full p-image">
+                          <img src="https://cdn.fluid.app/neumi/shop/images/nutriswish.png" alt="" class="w-full p-image--">
                         </a>
                       </div>
                       <div class="fs-md fw-600 clr-body mt-12">
@@ -59,7 +59,7 @@
                     <div class="main-product-item mt-30">
                       <div class="image-section">
                         <a href="https://app.neumi.com/{{affiliate_guid | default:'home'}}/page/neumi-skin?preview=true">
-                          <img src="" alt="" class="w-full p-image">
+                          <img src="https://cdn.fluid.app/neumi/shop/images/neumiskin.png" alt="" class="w-full p-image--">
                         </a>
                       </div>
                       <div class="fs-md fw-600 clr-body mt-12">
@@ -73,7 +73,7 @@
                     <div class="main-product-item mt-30">
                       <div class="image-section">
                         <a href="https://app.neumi.com/{{affiliate_guid | default:'home'}}/page/hers?preview=true">
-                          <img src="" alt="" class="w-full p-image">
+                          <img src="https://cdn.fluid.app/neumi/shop/images/hers.png" alt="" class="w-full p-image--">
                         </a>
                       </div>
                       <div class="fs-md fw-600 clr-body mt-12">
@@ -379,7 +379,8 @@
             const price = element.querySelector('.p-price')
             if( img != null){
               img.src = image_url
-            }else{
+            }
+            if(bg_image != null){
               bg_image.style.backgroundImage = `url(${image_url})`
             }
             name.textContent = title;
