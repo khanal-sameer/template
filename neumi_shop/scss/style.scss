@@ -20,12 +20,11 @@
     background-image: url('https://cdn.fluid.app/neumi/shop/images/banner_bg_web.jpeg');
   }
 }
-.image-hover-effect{
-  overflow: hidden;
-  img{
-    @include transition(all 0.3s ease-in-out);
-    &:hover{
-     @include transform(scale(1.1));
+.multiple-product-list{
+  .image-section{
+    height: 200px;
+    @include breakpoint-up("xl-phone"){
+      height: 280px;
     }
   }
 }
