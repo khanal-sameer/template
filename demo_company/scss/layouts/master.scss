@@ -1,6 +1,15 @@
 @import 'masonary';
+@import 'trusted-partner';
 .cp-video-section{
   .cp-image-section{
     height: 862px;
+  }
+}
+.cp-hero-section{
+  .cp-wrapper{
+    height: 400px;
+    @include media(sm){
+      height: 470px;
+    }
   }
 }

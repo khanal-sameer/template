@@ -9,11 +9,26 @@
   "masonary_section":{
     "title": "Browse our products",
     "desc": "Choose from our collection of wide range of products.",
-    "vertical_image":{
+    "masonary_product_col1":{
       "product_name": "Asea SKin"
-
     },
-    "masonary_product_list":{
+    "masonary_product_col2":{
+      "items":[
+        {
+          "product_name": "For her"
+        },
+        {
+          "product_name": "For Him"
+        },
+        {
+          "product_name": "Asea Makeup"
+        },
+        {
+          "product_name": "Asea Skin"
+        }
+      ]
+    },
+    "masonary_product_col3":{
       "items":[
         {
           "product_name": "For her"

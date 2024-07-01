@@ -1,14 +1,32 @@
 .cp-page-section{
-  padding: 96px 0;
+  padding: 40px 0;
+  @include media(sm){
+    padding: 96px 0;
+  }
 }
 .cp-page-section-md{
-  padding: 74px 0;
+  padding: 40px 0;
+  @include media(sm){
+    padding: 74px 0;
+  }
 }
 .cp-page-top-section{
-  padding-top: 96px;
+  padding-top: 40px;
+  @include media(sm){
+    padding-top: 96px;
+  }
 }
 .cp-page-bottom-section{
-  padding-bottom: 96px;
+  padding-top: 40px;
+  @include media(sm){
+    padding-bottom: 96px;
+  }
+}
+.cp-sm-page-top-section{
+  padding-top: 40px;
+  @include media(sm){
+    padding-top: 54px;
+  }
 }
 .#{$prefix}-container{
   width: 1110px;
@@ -23,6 +41,25 @@
   }
   @include media(largeScreen){
     padding: 0 15px;
+  }
+}
+.#{$prefix}-row {
+  margin: 0 -2px;
+  @include media(xs){
+    margin: 0 -10px;
+  }
+  @include media(sm){
+    margin: 0 -17px;
+  }
+}
+
+.#{$prefix}-col {
+  padding: 0 2px;
+  @include media(xs){
+    padding: 0 10px;
+  }
+  @include media(sm){
+    padding: 0 17px;
   }
 }
 .cp-w-500{

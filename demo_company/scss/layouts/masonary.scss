@@ -1,20 +1,83 @@
 .cp-masonary-product-section{
+  .#{$prefix}-row {
+    margin: 0 -4px;
+    @include media(xs){
+      margin: 0 -10px;
+    }
+    @include media(sm){
+      margin: 0 -17px;
+    }
+  }
+  .#{$prefix}-col {
+    padding: 0 4px;
+    @include media(xs){
+      padding: 0 10px;
+    }
+    @include media(sm){
+      padding: 0 17px;
+    }
+  }
   .cp-image-section{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-top: 8px;
+    @include media(xs){
+      margin-top: 10px;
+    }
+    @include media(sm){
+      margin-top: 34px;
+    }
+  }
+  .cp-sm-image{
+    height: 132px;
+    @include media(lg){
+      height: 284px;
+    }
+  }
+  .cp-lg-image{
+    height: 268px;
+    @include media(lg){
+      height: 602px;
+    }
   }
   .cp-product-title{
+    position: relative;
+    z-index: 2;
     a{
-      padding: 0 42px 30px 33px;
-      display: flex;
       width: 100%;
-      justify-content: space-between;
-      align-items: center;
       color: #fff;
+      padding: 0 20px 24px;
+      @include media(sm){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 42px 30px 33px;
+      }
       &:hover{
         opacity: 0.9;
       }
     }
+    span{
+      display: block;
+      @include media(sm){
+        display: inline-block;
+      }
+    }
+    .cp-arrow-icon-box{
+      margin-top: 12px;
+      @include media(sm){
+        margin-top: 0;
+      }
+    }
+  }
+}
+.cp-default-border-radius{
+  border-radius: 16px;
+  &:before{
+    border-radius: inherit;
+  }
+  @include media(sm){
+    border-radius: 40px;
   }
 }

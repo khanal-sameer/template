@@ -1,0 +1,8 @@
+.cp-trusted-partner-section{
+  .cp-slider-section{
+    padding: 32px 0;
+    @include media(sm){
+      padding: 74px 0;
+    }
+  }
+}

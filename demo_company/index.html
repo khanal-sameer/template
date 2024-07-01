@@ -18,31 +18,31 @@
       {{#hero_section}}
         <div class="cp-hero-section cp-bg-image cp-image-overlay" style="background-image: url({{image}})">
           <div class="cp-container">
-            <div class="cp-wrapper cp-m-auto cp-w-500 cp-position-relative cp-image-h-500 cp-z-index-2 cp-items-center">
+            <div class="cp-wrapper cp-m-auto cp-w-500 cp-position-relative cp-z-index-2 cp-items-center">
               <h1 class="cp-text-white cp-text-center">{{title}}</h1>
-              <div class="cp-btn-section cp-d-flex cp-justify-center cp-col-gap-12">
-                  <a class="cp-btn cp-btn-white-border cp-mt-24" href="{{browse_more_product_url}}">
-                    {{browse_more_product_text}}
-                    <span class="cp-ml-8">
-                      {{chevron_arrow_right_icon}}
-                    </span>
-                  </a>
-                  <a class="cp-btn cp-btn-primary-bg cp-mt-24" href="{{sign_up_url}}">
-                    {{sign_up_text}}
-                    <span class="cp-ml-8">
-                      {{chevron_arrow_right_icon}}
-                    </span>
-                  </a>
+              <div class="cp-btn-section cp-d-flex cp-justify-center cp-col-gap-12 cp-pt-4 cp-sm-pt-12">
+                <a class="cp-btn cp-btn-white-border cp-mt-12" href="{{browse_more_product_url}}">
+                  {{browse_more_product_text}}
+                  <span class="cp-ml-8">
+                    {{chevron_arrow_right_icon}}
+                  </span>
+                </a>
+                <a class="cp-btn cp-btn-primary-bg cp-mt-12" href="{{sign_up_url}}">
+                  {{sign_up_text}}
+                  <span class="cp-ml-8">
+                    {{chevron_arrow_right_icon}}
+                  </span>
+                </a>
               </div>
             </div>
           </div>
         </div>
       {{/hero_section}}
       {{#trusted_by}}
-        <div class="cp-pt-54">
-          <h3 class="cp-m-0 cp-text-center">{{title}}</h3>
-          <div class="cp-mt-32 cp-bg-white-smoke cp-pt-32 cp-pb-32">
-            <div id="trusted-by-slider" class="splide">
+        <div class="cp-trusted-partner-section cp-pt-32 cp-sm-pt-54">
+          <h5 class="cp-m-0 cp-text-center">{{title}}</h5>
+          <div class="cp-mt-16 cp-sm-mt-32 cp-bg-white-smoke">
+            <div id="trusted-by-slider" class="splide cp-slider-section">
               <div class="splide__track">
                 <ul class="splide__list">
                   {{#items}}
@@ -120,7 +120,7 @@
               <div class="cp-col cp-col-12 cp-col-sm-6">
                 <div class="cp-image-section cp-bg-image cp-border-radius-40 cp-image-h-md" style="background-image: url({{image}})"></div>
               </div><!-- .cp-col -->
-              <div class="cp-col cp-col-12 cp-col-sm-6"> 
+              <div class="cp-col cp-col-12 cp-col-sm-6">
                 <div class="cp-desc cp-items-list cp-pt-28">
                   {{#items}}
                     <div class="cp-product-feature-item cp-product-feature-item-style-1 cp-d-flex cp-mt-32">
@@ -190,7 +190,7 @@
           </div><!-- .cp-container -->
         </div><!-- .cp-product-post -->
       {{/feature_product_2}}
-      
+
       {{>DemoAccordion}}
       {{#cta}}
         <div class="cp-cta-section">
@@ -228,7 +228,7 @@
 
 
 
-      document.addEventListener("DOMContentLoaded", function () {  
+      document.addEventListener("DOMContentLoaded", function () {
         var trustedBy = new Splide("#trusted-by-slider", {
           autoWidth: true,
           arrows: false,
@@ -249,7 +249,7 @@
             },
           },
         });
-        trustedBy.mount(); 
+        trustedBy.mount();
         var testimonialSlider = new Splide("#testimonial-slider",{
           arrows: false,
           pagination: false,
@@ -270,7 +270,7 @@
         });
         testimonialSlider.mount();
       });
-     
+
       $(document).ready(function(){
         $(document).on("click",".accordion-header",function(){
           $(".accordion-content").not($(this).next()).slideUp();
@@ -279,8 +279,8 @@
           $(this).parent(".accordion-item").toggleClass("active");
         });
       })
-    
+
     </script>
-    
+
   </body>
 </html>
