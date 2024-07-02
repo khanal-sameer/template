@@ -1,10 +1,17 @@
 .cp-product-feature-item-style-1{
   .cp-icon-section{
-    @include flex-width(36px);
+    @include flex-width(28px);
+    @include media(sm){
+      @include flex-width(36px);
+    }
   }
   .cp-item-desc{
-    @include flex-width(calc(100% - 36px));
-    padding-left: 46px;
+    padding-left: 16px;
+    @include flex-width(calc(100% - 28px));
+    @include media(sm){
+      padding-left: 30px;
+      @include flex-width(calc(100% - 36px));
+    }
   }
 }
 .cp-product-feature-section,
@@ -17,4 +24,9 @@
       padding-left: 112px;
     }
   }
+}
+svg{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
 }

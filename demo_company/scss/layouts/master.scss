@@ -18,6 +18,21 @@
       width: 500px;
     }
   }
+}
+.cp-testimonial-section{
+  .cp-slider-container{
+    padding-right: 0;
+  }
+}
+.cp-cta-section{
+  .cp-wrapper{
+    max-width: 100%;
+    padding: 116px 24px 24px;
+    @include media(sm){
+      padding: 200px 0 68px;
+      width: 500px;
+    }
+  }
   .cp-btn-section{
     .cp-btn-wrapper{
       @include media(sm){

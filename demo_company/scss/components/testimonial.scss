@@ -1,13 +1,28 @@
 .cp-testimonial-post{
-  padding: 60px;
+  padding: 24px;
+  @include media(sm){
+    padding: 60px;
+  }
   .cp-desc{
-    min-height: 272px;
+    @include media(sm){
+      min-height: 272px;
+    }
+    p{
+      line-height: 20px;
+      @include media(sm){
+        font-size: 20px;
+        line-height: 32px;
+      }
+    }
   }
   .cp-author-info{
-    margin-top: 60px;
     .cp-image{
-      height:44px;
-      width: 44px;
+      height: 38px;
+      width: 38px;
+      @include media(sm){
+        height: 44px;
+        width: 44px;
+      }
     }
   }
 }

@@ -1,6 +1,10 @@
 .cp-accordion-item{
-  padding: 44px 56px;
-  border-radius: 20px;
+  padding: 24px;
+  border-radius: 8px;
+  @include media(sm){
+    padding: 44px 56px;
+    border-radius: 20px;
+  }
   .cp-minus{
     display: none;
   }
@@ -23,17 +27,32 @@
   .cp-accordion-header{
     cursor: pointer;
     .cp-title{
-      font-size: 24px;
-      line-height: 1.2;
-      @include flex-width(calc(100% - 28px));
+      font-size: 16px;
+      line-height: 20px;
+      @include flex-width(calc(100% - 24px));
+      @include media(sm){
+        font-size: 24px;
+        line-height: 32px;
+        @include flex-width(calc(100% - 28px));
+      }
     }
     .cp-icon{
-      height: 28px;
-      @include flex-width(28px);
+      height: 24px;
+      @include flex-width(24px);
       border-radius: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
+      svg{
+        width: 12px;
+      }
+      @include media(sm){
+        height: 28px;
+        @include flex-width(28px);
+        svg{
+          width: 16px;
+        }
+      }
     }
   }
   .cp-accordion-content{
