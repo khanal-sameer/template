@@ -1,0 +1,11 @@
+.#{$prefix}-hero-section{
+  .#{$prefix}-wrapper{
+    width: 275px;
+    max-width: 100%;
+    padding: 200px 0 38px;
+    @include media(sm){
+      padding: 232px 0 70px;
+      width: 500px;
+    }
+  }
+}

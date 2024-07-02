@@ -1,5 +1,5 @@
-.cp-masonary-product-section{
-  .cp-product-title{
+.#{$prefix}-masonary-product-section{
+  .#{$prefix}-product-title{
     position: relative;
     z-index: 2;
     a{
@@ -19,14 +19,14 @@
       }
     }
 
-    .cp-arrow-icon-box{
+    .#{$prefix}-arrow-icon-box{
       margin-top: 12px;
       @include media(sm){
         margin-top: 0;
       }
     }
   }
-  .cp-product-list{
+  .#{$prefix}-product-list{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
@@ -36,7 +36,7 @@
     @include media(lg){
       grid-template-columns: repeat(3, 1fr);
     }
-    .cp-image-section{
+    .#{$prefix}-image-section{
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
@@ -61,7 +61,7 @@
     }
   }
 }
-.cp-default-border-radius{
+.#{$prefix}-default-border-radius{
   border-radius: 16px;
   &:before{
     border-radius: inherit;

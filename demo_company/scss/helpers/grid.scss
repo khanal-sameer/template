@@ -1,33 +1,4 @@
-.cp-page-section{
-  padding: 40px 0;
-  @include media(sm){
-    padding: 96px 0;
-  }
-}
-.cp-page-section-md{
-  padding: 32px 0;
-  @include media(sm){
-    padding: 74px 0;
-  }
-}
-.cp-page-top-section{
-  padding-top: 40px;
-  @include media(sm){
-    padding-top: 96px;
-  }
-}
-.cp-page-bottom-section{
-  padding-top: 40px;
-  @include media(sm){
-    padding-bottom: 96px;
-  }
-}
-.cp-page-top-section-sm{
-  padding-top: 40px;
-  @include media(sm){
-    padding-top: 54px;
-  }
-}
+
 .#{$prefix}-container{
   width: 1110px;
   padding: 0 24px;
@@ -44,30 +15,39 @@
   }
 }
 .#{$prefix}-row {
-  margin: 0 -2px;
-  @include media(xs){
-    margin: 0 -10px;
-  }
+  margin: 0 -10px;
   @include media(sm){
     margin: 0 -17px;
   }
 }
-
 .#{$prefix}-col {
-  padding: 0 2px;
-  @include media(xs){
-    padding: 0 10px;
-  }
+  padding: 0 10px;
   @include media(sm){
     padding: 0 17px;
   }
 }
-.cp-w-500{
-  width: 500px;
-  max-width: 100%;
-}
-.cp-sm-w-fit-content{
+
+.#{$prefix}-page-section{
+  padding: 40px 0;
   @include media(sm){
-    width: fit-content;
+    padding: 96px 0;
+  }
+}
+.#{$prefix}-page-section-md{
+  padding: 32px 0;
+  @include media(sm){
+    padding: 74px 0;
+  }
+}
+.#{$prefix}-page-top-section{
+  padding-top: 40px;
+  @include media(sm){
+    padding-top: 96px;
+  }
+}
+.#{$prefix}-page-bottom-section{
+  padding-bottom: 40px;
+  @include media(sm){
+    padding-bottom: 96px;
   }
 }

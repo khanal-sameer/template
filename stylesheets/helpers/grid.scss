@@ -20,6 +20,13 @@ $columns:(
 .#{$prefix}-w-fit-content {
   width: fit-content;
 }
+@each $screenSize in $screen_size{
+  .#{$prefix}-#{$screenSize}-w-fit-content{
+    @include media($screenSize){
+      width: fit-content;
+    }
+  }
+}
 
 .#{$prefix}-row {
   @extend %display-flex;

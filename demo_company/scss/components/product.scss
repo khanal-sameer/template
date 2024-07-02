@@ -1,11 +1,11 @@
-.cp-product-feature-item-style-1{
-  .cp-icon-section{
+.#{$prefix}-product-feature-item-style-1{
+  .#{$prefix}-icon-section{
     @include flex-width(28px);
     @include media(sm){
       @include flex-width(36px);
     }
   }
-  .cp-item-desc{
+  .#{$prefix}-item-desc{
     padding-left: 16px;
     @include flex-width(calc(100% - 28px));
     @include media(sm){
@@ -14,9 +14,9 @@
     }
   }
 }
-.cp-product-feature-section,
-.cp-feature-product-post{
-  .cp-desc{
+.#{$prefix}-product-feature-section,
+.#{$prefix}-feature-product-post{
+  .#{$prefix}-desc{
     @include media(sm){
       padding-left: 60px;
     }
@@ -24,9 +24,4 @@
       padding-left: 112px;
     }
   }
-}
-svg{
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
 }

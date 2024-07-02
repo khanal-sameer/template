@@ -1,3 +1,28 @@
-body{
-  
+$screen_size: xs,sm,md,lg,largeScreen;
+.#{$prefix}-fw-regular{
+  font-weight: 400;
+}
+.#{$prefix}-fw-medium{
+  font-weight: 500;
+}
+.#{$prefix}-fw-semi-bold{
+  font-weight: 600;
+}
+.#{$prefix}-fw-bold{
+  font-weight: bold;
+}
+@for $i from 7 through 20 {
+  .#{$prefix}-fs-#{$i}x {
+    font-size: $i * 2px;
+  }
+}
+// Responsive
+@each $screenSize in $screen_size{
+  @for $i from 7 through 20 {
+    .#{$prefix}-#{$screenSize}-fs-#{$i}x {
+      @include media($screenSize){
+        font-size: $i * 2px;
+      }
+    }
+  }
 }

@@ -1,4 +1,4 @@
-.cp-category-tag{
+.#{$prefix}-category-tag{
   @include border(1.5px,solid);
   border-color: $black;
   color: $black;

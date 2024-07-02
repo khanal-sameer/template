@@ -1,0 +1,8 @@
+.#{$prefix}-video-section{
+  .#{$prefix}-image-section{
+    height: 233px;
+    @include media(sm){
+      height: 862px;
+    }
+  }
+}

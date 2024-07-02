@@ -1,10 +1,7 @@
 
-.cp-image-h-md{
+.#{$prefix}-image-h-md{
   height: 218px;
   @include media(sm){
     height: 435px;
   }
-}
-.cp-image-h-500{
-  height:500px
 }

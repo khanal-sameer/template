@@ -44,7 +44,7 @@ $line_limit: 1,2,3,4;
 .#{$prefix}-line-height-2{
   line-height: 2;
 }
-@for $i from 10 through 12 {
+@for $i from 10 through 16 {
   .#{$prefix}-line-height-#{$i}x{ //$i*2
     line-height: $i *2px;
   }

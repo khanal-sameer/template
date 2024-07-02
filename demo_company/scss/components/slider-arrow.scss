@@ -1,5 +1,5 @@
-.cp-slider-section {
-  .cp-arrow{
+.#{$prefix}-slider-section {
+  .#{$prefix}-arrow{
    color: $black;
    svg{
      transform: none;
@@ -9,10 +9,10 @@
      opacity: 0.8;
    }
   }
-  .cp-arrow-prev{
+  .#{$prefix}-arrow-prev{
    left: -30px;
   }
-  .cp-arrow-next{
+  .#{$prefix}-arrow-next{
    right: -30px;
   }
   button{

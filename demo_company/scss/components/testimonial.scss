@@ -1,9 +1,9 @@
-.cp-testimonial-post{
+.#{$prefix}-testimonial-post{
   padding: 24px;
   @include media(sm){
     padding: 60px;
   }
-  .cp-desc{
+  .#{$prefix}-desc{
     @include media(sm){
       min-height: 272px;
     }
@@ -15,8 +15,8 @@
       }
     }
   }
-  .cp-author-info{
-    .cp-image{
+  .#{$prefix}-author-info{
+    .#{$prefix}-image{
       height: 38px;
       width: 38px;
       @include media(sm){

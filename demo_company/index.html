@@ -38,8 +38,9 @@
           </div>
         </div>
       {{/hero_section}}
+
       {{#trusted_by}}
-        <div class="cp-trusted-partner-section cp-page-top-section-sm">
+        <div class="cp-trusted-partner-section cp-pt-40 cp-sm-pt-54">
           <h5 class="cp-m-0 cp-text-center">{{title}}</h5>
           <div class="cp-mt-16 cp-sm-mt-32 cp-bg-white-smoke">
             <div id="trusted-by-slider" class="splide cp-slider-section">
@@ -61,7 +62,9 @@
           </div>
         </div>
       {{/trusted_by}}
+
       {{>DemoMasonaryProduct}}
+
       {{#feature_product_1}}
         <div class="cp-feature-product-post cp-page-section-md cp-bg-white-smoke">
           <div class="cp-container">
@@ -79,8 +82,8 @@
                   <h3 class="cp-mt-12 cp-mb-0 ">{{title}}</h3>
                   <p class="cp-mt-10 cp-sm-mt-16 cp-mb-0">{{desc}}</p>
                   <div class="cp-price cp-mt-16 cp-sm-mt-32 cp-mb-0 cp-fw-medium cp-heading-text-color cp-secondary-letter-spacing cp-fs-10x cp-sm-fs-16x">{{price}}</div>
-                  <div class="cp-btn-section cp-mt-18">
-                    <button class="cp-btn cp-btn-primary-bg cp-w-full cp-sm-w-fit-content">
+                  <div class="cp-btn-section cp-mt-16 cp-sm-mt-18">
+                    <button class="cp-btn cp-btn-primary-bg cp-w-full cp-sm-w-fit-content"  data-fluid-checkout="{{product_id}}">
                       <span class="cp-mr-4 cp-plus-icon cp-position-relative cp-top-1">
                         <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M0.6 9.032V6.856H16.312V9.032H0.6ZM7.192 15.656V0.199999H9.656V15.656H7.192Z" fill="currentColor"/>
@@ -96,6 +99,7 @@
           </div><!-- .cp-container -->
         </div><!-- .cp-product-post -->
       {{/feature_product_1}}
+
       {{#hassle_free_subscription}}
         <div class="cp-free-subscription-section cp-page-section cp-text-center">
           <div class="cp-container">
@@ -146,17 +150,8 @@
             <p class="cp-mt-16 cp-mb-0">{{desc}}</p>
             <div class="cp-image-section cp-bg-image cp-default-border-radius cp-items-center cp-mt-24 cp-sm-mt-54" style="background-image: url({{image}})">
               <a href="{{url}}" class="cp-play-icon cp-m-auto">
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M5 2.86688V16.7331C4.99996 16.8873 5.04106 17.0387 5.11906 17.1718C5.19706 17.3048 5.30915 17.4146 5.44374 17.4898C5.57834 17.5651 5.73057 17.603 5.88474 17.5998C6.03891 17.5966 6.18942 17.5523 6.32076 17.4715L17.5871 10.5384C17.7133 10.4608 17.8175 10.3523 17.8898 10.223C17.962 10.0937 18 9.94811 18 9.80001C18 9.6519 17.962 9.50627 17.8898 9.37701C17.8175 9.24775 17.7133 9.13917 17.5871 9.06163L6.32076 2.12851C6.18942 2.04771 6.03891 2.00341 5.88474 2.00019C5.73057 1.99697 5.57834 2.03494 5.44374 2.11019C5.30915 2.18543 5.19706 2.29523 5.11906 2.42825C5.04106 2.56126 4.99996 2.71268 5 2.86688Z"
-                    fill="#C8D6DE"
-                  />
+                <svg width="102" height="102" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M51.0001 102C79.1666 102 102 79.1665 102 51C102 22.8335 79.1666 0 51.0001 0C22.8336 0 0.00012207 22.8335 0.00012207 51C0.00012207 79.1665 22.8336 102 51.0001 102ZM45.9612 36.3531C43.2948 34.8532 40.0001 36.7801 40.0001 39.8394V62.1606C40.0001 65.2199 43.2948 67.1468 45.9612 65.6469L65.8023 54.4863C68.5209 52.9571 68.5209 49.0429 65.8023 47.5137L45.9612 36.3531Z" fill="white"/>
                 </svg>
               </a>
             </div>
@@ -165,6 +160,7 @@
         </div>
       {{/video_section}}
       {{>DemoTestimonial}}
+
       {{#feature_product_2}}
         <div class="cp-feature-product-post cp-page-section-md cp-bg-white-smoke">
           <div class="cp-container">
@@ -181,7 +177,7 @@
                   </div>
                   <h3 class="cp-mt-12 cp-mb-0">{{title}}</h3>
                   <p class="cp-mt-10 cp-sm-mt-16 cp-mb-0">{{desc}}</p>
-                  <div class="cp-btn-section cp-mt-18">
+                  <div class="cp-btn-section cp-mt-16 cp-sm-mt-24">
                     <a class="cp-btn cp-btn-primary-bg cp-w-full cp-sm-w-fit-content" hrfe="{{url}}">{{btn_text}}</a>
                   </div> <!-- .cp-btn-section -->
                 </div><!-- .cp-desc -->
@@ -192,6 +188,7 @@
       {{/feature_product_2}}
 
       {{>DemoAccordion}}
+
       {{#cta}}
         <div class="cp-cta-section">
           <div class="cp-container">
@@ -223,27 +220,26 @@
     <script src="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script>
-
       document.addEventListener("DOMContentLoaded", function () {
         var trustedBy = new Splide("#trusted-by-slider", {
           autoWidth: true,
-          arrows: false,
-          pagination: false,
-          type: "loop",
-          perPage: 1,
-          autoplay: true,
-          interval: 2000,
-          cover: false,
-          gap: "4rem",
-          breakpoints: {
-            1024: {
-              perPage: 7,
-              gap: "3rem",
+            arrows: false,
+            pagination: false,
+            type: "loop",
+            perPage: 2,
+            autoplay: true,
+            interval: 2000,
+            cover: false,
+            gap: "4rem",
+            breakpoints: {
+              1024: {
+                perPage: 7,
+                gap: "3rem",
+              },
+              576: {
+                perPage: 3,
+              },
             },
-            576: {
-              perPage: 4,
-            },
-          },
         });
         trustedBy.mount();
         var testimonialSlider = new Splide("#testimonial-slider",{
@@ -278,7 +274,6 @@
           $(this).parent(".accordion-item").toggleClass("active");
         });
       })
-
     </script>
 
   </body>

@@ -23,3 +23,9 @@ span{
 .#{$prefix}-transition-ease{
   @include transition(all,0.3s,ease);
 }
+img,
+svg{
+  height: auto;
+  vertical-align: middle;
+  max-width: 100%;
+}

@@ -12,12 +12,12 @@ body{
     letter-spacing: -0.05em;
     margin: 0;
     color: #000;
-    .cp-text-white{
+    .#{$prefix}-text-white{
       color: white;
     }
   }
   h1,
-  .cp-fs-xxl{
+  .#{$prefix}-fs-xxl{
     font-size: 24px;
     line-height: 28px;
     @include media(sm){
@@ -25,8 +25,8 @@ body{
       line-height: 44px;
     }
   }
-  .cp-fs-xxl,
-  .cp-secondary-letter-spacing{
+  .#{$prefix}-fs-xxl,
+  .#{$prefix}-secondary-letter-spacing{
     letter-spacing: -0.05em;
   }
   h2{
@@ -57,36 +57,12 @@ body{
   a{
     text-decoration: none;
   }
-  .cp-fw-regular{
-    font-weight: 400;
-  }
-  .cp-fw-medium{
-    font-weight: 500;
-  }
-  .cp-fw-semi-bold{
-    font-weight: 600;
-  }
-  .cp-fw-bold{
-    font-weight: bold;
-  }
   p{
     line-height: 20px;
   }
-  .cp-fs-md{
-    font-size: 20px;
-  }
-  .cp-line-height-16x{
-    line-height: 32px;
-  }
-  .cp-heading-text-color{
+
+  .#{$prefix}-heading-text-color{
     color: #000;
   }
-  .cp-fs-10x{
-    font-size: 20px;
-  }
-  .cp-sm-fs-16x{
-    @include media(sm){
-      font-size: 32px;
-    }
-  }
+
 }

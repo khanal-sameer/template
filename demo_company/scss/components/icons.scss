@@ -1,36 +1,15 @@
-$arrow_icon_size_mobile: 12px;
-$arrow_icon_size_sm_device: 14px;
-$arrow_icon_box_size_mobile: 30px;
-$arrow_icon_box_size_sm_device: 40px;
-
-.cp-play-icon{
-  height: 50px;
-  width: 50px;
-  border-radius:100%;
-  background-color: $white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  @include media(xs){
-
-  }
+.#{$prefix}-play-icon{
+  width: 51px;
   @include media(sm){
-    height: 102px;
     width: 102px;
   }
-  svg{
-    height: 18px;
-    width: 18px;
-    @include media(sm){
-      height: 32px;
-      width: 32px;
-    }
+  &:hover{
+    opacity: 0.9;
   }
 }
-.cp-arrow-icon-box{
-  height: $arrow_icon_box_size_mobile;
-  width: $arrow_icon_box_size_mobile;
-  line-height: $arrow_icon_box_size_mobile;
+.#{$prefix}-arrow-icon-box{
+  @include box-size(30px,30px);
+  line-height: 30px;
   border-radius: 100%;
   background-color: $primary;
   color: $primary_bg_text_color;
@@ -39,14 +18,13 @@ $arrow_icon_box_size_sm_device: 40px;
   align-items: center;
   justify-content: center;
   @include media(sm){
-    height: $arrow_icon_box_size_sm_device;
-    width: $arrow_icon_box_size_sm_device;
-    line-height: $arrow_icon_box_size_sm_device;
+    @include box-size(40px,40px);
+    line-height: 40px;
   }
   svg{
-    width: $arrow_icon_size_mobile;
+    width: 12px;
     @include media(sm){
-      width: $arrow_icon_size_sm_device;
+      width: 14px;
     }
   }
 }

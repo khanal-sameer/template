@@ -36,7 +36,7 @@ $corner:(
     }
   }
   @each $margin in $corner{
-    @for $i from 0 through 12{
+    @for $i from 0 through 32{
       .#{$prefix}-#{$screenSize}-#{nth($margin,1)}-#{$i*2}{
         @include media($screenSize){
           #{nth($margin,2)} : $i * 2px;

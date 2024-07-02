@@ -1,43 +1,6 @@
-@import 'masonary';
-@import 'trusted-partner';
-.cp-video-section{
-  .cp-image-section{
-    height: 233px;
-    @include media(sm){
-      height: 862px;
-    }
-  }
-}
-.cp-hero-section{
-  .cp-wrapper{
-    width: 275px;
-    max-width: 100%;
-    padding: 200px 0 38px;
-    @include media(sm){
-      padding: 242px 0 70px;
-      width: 500px;
-    }
-  }
-}
-.cp-testimonial-section{
-  .cp-slider-container{
-    padding-right: 0;
-  }
-}
-.cp-cta-section{
-  .cp-wrapper{
-    max-width: 100%;
-    padding: 116px 24px 24px;
-    @include media(sm){
-      padding: 200px 0 68px;
-      width: 500px;
-    }
-  }
-  .cp-btn-section{
-    .cp-btn-wrapper{
-      @include media(sm){
-        flex: auto;
-      }
-    }
-  }
-}
+@import 'cta',
+        'hero-section',
+        'masonary',
+        'testimonial',
+        'trusted-partner',
+        'video';

@@ -4,6 +4,7 @@
   "add_to_cart_text": "{{add_to_cart_text}}",
   "browse_more_product_url": "#",
   "sign_up_url":"#",
+  "product_id": "123",
   "chevron_arrow_right_icon": "<svg width=\"7\" height=\"9\" viewBox=\"0 0 7 9\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1.61597 8.02222L5.43292 4.50906L1.5065 0.73456\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>",
   "hero_section":{
     "title": "{{hero_section.title}}",
@@ -13,28 +14,25 @@
     "title": "Trusted By",
     "items": [
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
+        "image": "file:///home/kalpana/Desktop/template/demo_company/images/trusted_by1.png"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_2.png"
+        "image": "file:///home/kalpana/Desktop/template/demo_company/images/trusted_by2.png"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
+        "image": "file:///home/kalpana/Desktop/template/demo_company/images/trusted_by3.png"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
+        "image": "file:///home/kalpana/Desktop/template/demo_company/images/trusted_by4.png"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_5.png"
+        "image": "file:///home/kalpana/Desktop/template/demo_company/images/trusted_by5.png"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
+        "image": "file:///home/kalpana/Desktop/template/demo_company/images/trusted_by6.png"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
+        "image": "file:///home/kalpana/Desktop/template/demo_company/images/trusted_by7.png"
       }
     ]
   },
@@ -134,10 +132,10 @@
         "recommended_text_class": "cp-d-none"
       },
       {
-        "author_name": "{{testimonials.items.0.author_name}}",
-        "address":"{{testimonials.items.0.address}}",
-        "recommended_text": "{{testimonials.items.0.recommended_text}}",
-        "review_text": "{{testimonials.items.0.review_text}}",
+        "author_name": "{{testimonials.items.1.author_name}}",
+        "address":"{{testimonials.items.1.address}}",
+        "recommended_text": "{{testimonials.items.1.recommended_text}}",
+        "review_text": "{{testimonials.items.1.review_text}}",
         "image":"file:///home/kalpana/Desktop/template/demo_company/images/leon.jpg",
         "recommended_text_class": ""
       }
@@ -164,6 +162,30 @@
       {
         "title": "{{faq.items.1.title}}",
         "desc":"{{faq.items.1.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.2.title}}",
+        "desc":"{{faq.items.2.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.3.title}}",
+        "desc":"{{faq.items.3.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.4.title}}",
+        "desc":"{{faq.items.4.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.5.title}}",
+        "desc":"{{faq.items.5.desc}}",
         "item_class":"",
         "content_class":"cp-d-none"
       }
