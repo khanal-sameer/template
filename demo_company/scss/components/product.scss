@@ -10,8 +10,11 @@
 .cp-product-feature-section,
 .cp-feature-product-post{
   .cp-desc{
+    @include media(sm){
+      padding-left: 60px;
+    }
     @include media(lg){
-      padding-left: 78px;
+      padding-left: 112px;
     }
   }
 }

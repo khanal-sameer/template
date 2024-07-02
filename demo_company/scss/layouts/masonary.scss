@@ -1,37 +1,24 @@
 .cp-masonary-product-section{
-
-  .cp-image-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 132px;
-    @include media(xs){
-      height: 284px;
-    }
-  }
   .cp-product-title{
     position: relative;
     z-index: 2;
     a{
       width: 100%;
       color: #fff;
-      padding: 0 20px 24px;
+      padding: 0 16px 13px;
+      display: flex;
+      flex-direction: column;
       @include media(sm){
-        display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-direction: row;
         padding: 0 42px 30px 33px;
       }
       &:hover{
         opacity: 0.9;
       }
     }
-    span{
-      display: block;
-      @include media(sm){
-        display: inline-block;
-      }
-    }
+
     .cp-arrow-icon-box{
       margin-top: 12px;
       @include media(sm){
@@ -50,17 +37,25 @@
       grid-template-columns: repeat(3, 1fr);
     }
     .cp-image-section{
-      &:nth-child(1){
-        grid-row: span 2;
-          height: 268px;
-          @include media(xs){
-            height: 602px;
-          }
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 132px;
+      @include media(xs){
+        height: 284px;
       }
-      &:last-child{
-        grid-column: span 2;
+      &:first-child,
+      &:nth-last-child(2){
+        grid-row: span 2;
+        height: 268px;
+        @include media(xs){
+          height: 602px;
+        }
+      }
+      &:nth-last-child(2){
         @include media(lg){
-          grid-column: span 1;
+          grid-row: span 1;
+          height: 284px;
         }
       }
     }

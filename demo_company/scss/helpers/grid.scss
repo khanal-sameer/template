@@ -5,7 +5,7 @@
   }
 }
 .cp-page-section-md{
-  padding: 40px 0;
+  padding: 32px 0;
   @include media(sm){
     padding: 74px 0;
   }
@@ -30,7 +30,7 @@
 }
 .#{$prefix}-container{
   width: 1110px;
-  padding: 0 30px;
+  padding: 0 24px;
   margin: auto;
   max-width: 100%;
   @include media(xs){
@@ -65,4 +65,9 @@
 .cp-w-500{
   width: 500px;
   max-width: 100%;
+}
+.cp-sm-w-fit-content{
+  @include media(sm){
+    width: fit-content;
+  }
 }

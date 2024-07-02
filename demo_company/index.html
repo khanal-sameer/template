@@ -18,28 +18,32 @@
       {{#hero_section}}
         <div class="cp-hero-section cp-bg-image cp-image-overlay" style="background-image: url({{image}})">
           <div class="cp-container">
-            <div class="cp-wrapper cp-m-auto cp-w-500 cp-position-relative cp-z-index-2 cp-items-center">
+            <div class="cp-wrapper cp-m-auto cp-position-relative cp-z-index-2">
               <h1 class="cp-text-white cp-text-center">{{title}}</h1>
               <div class="cp-btn-section cp-d-flex cp-justify-center cp-col-gap-12 cp-pt-4 cp-sm-pt-12">
-                <a class="cp-btn cp-btn-white-border cp-mt-12" href="{{browse_more_product_url}}">
-                  {{browse_more_product_text}}
-                  <span class="cp-ml-8">
-                    {{chevron_arrow_right_icon}}
-                  </span>
-                </a>
-                <a class="cp-btn cp-btn-primary-bg cp-mt-12" href="{{sign_up_url}}">
-                  {{sign_up_text}}
-                  <span class="cp-ml-8">
-                    {{chevron_arrow_right_icon}}
-                  </span>
-                </a>
+                <div class="cp-btn-wrapper cp-col-12">
+                  <a class="cp-btn cp-btn-white-border cp-mt-12 cp-w-full" href="{{browse_more_product_url}}">
+                    {{browse_more_product_text}}
+                    <span class="cp-ml-8">
+                      {{chevron_arrow_right_icon}}
+                    </span>
+                  </a>
+                </div>
+                <div class="cp-btn-wrapper cp-col-12">
+                  <a class="cp-btn cp-btn-primary-bg cp-mt-12 cp-w-full" href="{{sign_up_url}}">
+                    {{sign_up_text}}
+                    <span class="cp-ml-8">
+                      {{chevron_arrow_right_icon}}
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       {{/hero_section}}
       {{#trusted_by}}
-        <div class="cp-trusted-partner-section cp-pt-32 cp-sm-pt-54">
+        <div class="cp-trusted-partner-section cp-page-top-section-sm">
           <h5 class="cp-m-0 cp-text-center">{{title}}</h5>
           <div class="cp-mt-16 cp-sm-mt-32 cp-bg-white-smoke">
             <div id="trusted-by-slider" class="splide cp-slider-section">
@@ -65,22 +69,22 @@
       {{#feature_product_1}}
         <div class="cp-feature-product-post cp-page-section-md cp-bg-white-smoke">
           <div class="cp-container">
-            <div class="cp-row">
-              <div class="cp-col cp-col-12 cp-col-sm-6">
-                <div class="cp-image-section cp-bg-image cp-border-radius-40 cp-image-h-md" style="background-image: url({{image}})">
+            <div class="cp-d-flex cp-align-center">
+              <div class="cp-col-12 cp-col-sm-6">
+                <div class="cp-image-section cp-bg-image cp-default-border-radius cp-image-h-md" style="background-image: url({{image}})">
                 </div>
               </div><!-- .cp-col -->
 
-              <div class="cp-col cp-col-12 cp-col-sm-6">
-                <div class="cp-desc cp-items-center cp-h-full">
+              <div class="cp-col-12 cp-col-sm-6">
+                <div class="cp-desc cp-mt-24 cp-sm-mt-0">
                   <div class="cp-category-section">
                     <span class="cp-category-tag">{{category}}</span>
                   </div>
                   <h3 class="cp-mt-12 cp-mb-0">{{title}}</h3>
-                  <p class="cp-mt-16 cp-mb-0">{{desc}}</p>
-                  <h2 class="cp-price cp-mt-32 cp-mb-0">{{price}}</h2>
-                  <div class="cp-btn-section cp-mt-18">
-                    <button class="cp-btn cp-btn-primary-bg">
+                  <p class="cp-mt-10 cp-sm-mt-16 cp-mb-0">{{desc}}</p>
+                  <div class="cp-price cp-mt-16 cp-sm-mt-32 cp-mb-0 cp-fw-medium cp-heading-text-color cp-secondary-letter-spacing cp-fs-10x cp-sm-fs-16x">{{price}}</div>
+                  <div class="cp-btn-section cp-mt-8 cp-sm-mt-18">
+                    <button class="cp-btn cp-btn-primary-bg cp-w-full cp-sm-w-fit-content">
                       <span class="cp-mr-4 cp-plus-icon cp-position-relative cp-top-1">
                         <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M0.6 9.032V6.856H16.312V9.032H0.6ZM7.192 15.656V0.199999H9.656V15.656H7.192Z" fill="currentColor"/>
@@ -92,7 +96,7 @@
                   </div> <!-- .cp-btn-section -->
                 </div><!-- .cp-desc -->
               </div><!-- .cp-col -->
-            </div><!-- .cp-row -->
+            </div><!-- .cp-row --> 
           </div><!-- .cp-container -->
         </div><!-- .cp-product-post -->
       {{/feature_product_1}}

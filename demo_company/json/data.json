@@ -7,7 +7,7 @@
   "chevron_arrow_right_icon": "<svg width=\"7\" height=\"9\" viewBox=\"0 0 7 9\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1.61597 8.02222L5.43292 4.50906L1.5065 0.73456\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>",
   "hero_section":{
     "title": "{{hero_section.title}}",
-    "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/banner.jpg"
+    "image": "file:///home/kalpana/Desktop/template/demo_company/images/banner.jpg"
   },
   "trusted_by":{
     "title": "Trusted By",
@@ -44,59 +44,59 @@
     "items":[
       {
         "product_name": "{{masonary_section.items.0.product_name}}",
-        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product1.jpg",
+        "image": "file:///home/kalpana/Desktop/template/demo_company/images/product1.jpg",
         "url":""
       },
       {
         "product_name": "{{masonary_section.items.1.product_name}}",
-        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product2.jpg",
+        "image": "file:///home/kalpana/Desktop/template/demo_company/images/product2.jpg",
         "url": ""
       },
       {
         "product_name": "{{masonary_section.items.2.product_name}}",
-        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product3.jpg",
+        "image": "file:///home/kalpana/Desktop/template/demo_company/images/product3.jpg",
         "url": ""
       },
       {
         "product_name": "{{masonary_section.items.3.product_name}}",
-        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product4.jpg",
+        "image": "file:///home/kalpana/Desktop/template/demo_company/images/product4.jpg",
         "url": ""
       },
       {
         "product_name": "{{masonary_section.items.4.product_name}}",
-        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product5.jpg",
+        "image": "file:///home/kalpana/Desktop/template/demo_company/images/product5.jpg",
         "url": ""
       },
       {
         "product_name": "{{masonary_section.items.5.product_name}}",
-        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product6.jpg",
+        "image": "file:///home/kalpana/Desktop/template/demo_company/images/product6.jpg",
         "url": ""
       },
       {
         "product_name": "{{masonary_section.items.6.product_name}}",
-        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product7.jpg",
+        "image": "file:///home/kalpana/Desktop/template/demo_company/images/product7.jpg",
         "url": ""
       },
       {
         "product_name": "{{masonary_section.items.7.product_name}}",
-        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product8.jpg",
+        "image": "file:///home/kalpana/Desktop/template/demo_company/images/product8.jpg",
         "url": ""
       }
-    ] 
+    ]
   },
   "feature_product_1":{
     "category": "{{feature_product_1.category}}",
     "title": "{{feature_product_1.title}}",
     "desc": "{{feature_product_1.desc}}",
     "price":"$87",
-    "image":"file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/feature_product1.jpg"
+    "image":"file:///home/kalpana/Desktop/template/demo_company/images/feature_product1.jpg"
   },
   "hassle_free_subscription":{
     "title": "{{hassle_free_subscription.title}}",
     "desc": "{{hassle_free_subscription.desc}}"
   },
   "product_feature_list":{
-    "image":"file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product_feature_bg.jpg",
+    "image":"file:///home/kalpana/Desktop/template/demo_company/images/product_feature_bg.jpg",
     "items":[
       {
         "title": "{{product_feature_list.items.0.title}}",
@@ -118,7 +118,7 @@
   "video_section":{
     "title": "{{video_section.title}}",
     "desc": "{{video_section.desc}}",
-    "image":"file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/video_bg.jpg",
+    "image":"file:///home/kalpana/Desktop/template/demo_company/images/video_bg.jpg",
     "url":""
   },
   "testimonials":{
@@ -130,7 +130,7 @@
         "address":"{{testimonials.items.0.address}}",
         "recommended_text": "{{testimonials.items.0.recommended_text}}",
         "review_text": "{{testimonials.items.0.review_text}}",
-        "image":"file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/mia.jpg",
+        "image":"file:///home/kalpana/Desktop/template/demo_company/images/mia.jpg",
         "recommended_text_class": "cp-d-none"
       },
       {
@@ -138,7 +138,7 @@
         "address":"{{testimonials.items.0.address}}",
         "recommended_text": "{{testimonials.items.0.recommended_text}}",
         "review_text": "{{testimonials.items.0.review_text}}",
-        "image":"file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/leon.jpg",
+        "image":"file:///home/kalpana/Desktop/template/demo_company/images/leon.jpg",
         "recommended_text_class": ""
       }
     ]
@@ -148,7 +148,7 @@
     "title": "{{feature_product_2.title}}",
     "btn_text": "{{feature_product_2.btn_text}}",
     "desc": "{{feature_product_2.desc}}",
-    "image":"file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/feature_product2.jpg",
+    "image":"file:///home/kalpana/Desktop/template/demo_company/images/feature_product2.jpg",
     "url":""
   },
   "faq":{
@@ -171,6 +171,6 @@
   },
   "cta":{
     "title": "{{cta.title}}",
-    "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/cta.jpg"
+    "image": "file:///home/kalpana/Desktop/template/demo_company/images/cta.jpg"
   }
 }

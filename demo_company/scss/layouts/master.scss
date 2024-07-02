@@ -10,9 +10,19 @@
 }
 .cp-hero-section{
   .cp-wrapper{
-    height: 400px;
+    width: 275px;
+    max-width: 100%;
+    padding: 200px 0 38px;
     @include media(sm){
-      height: 470px;
+      padding: 242px 0 70px;
+      width: 500px;
+    }
+  }
+  .cp-btn-section{
+    .cp-btn-wrapper{
+      @include media(sm){
+        flex: auto;
+      }
     }
   }
 }

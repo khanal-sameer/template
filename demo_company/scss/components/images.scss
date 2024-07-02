@@ -1,6 +1,9 @@
 
 .cp-image-h-md{
-  height: 435px;
+  height: 218px;
+  @include media(sm){
+    height: 435px;
+  }
 }
 .cp-image-h-500{
   height:500px
