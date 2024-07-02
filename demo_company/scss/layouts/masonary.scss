@@ -1,44 +1,12 @@
 .cp-masonary-product-section{
-  .#{$prefix}-row {
-    margin: 0 -4px;
-    @include media(xs){
-      margin: 0 -10px;
-    }
-    @include media(sm){
-      margin: 0 -17px;
-    }
-  }
-  .#{$prefix}-col {
-    padding: 0 4px;
-    @include media(xs){
-      padding: 0 10px;
-    }
-    @include media(sm){
-      padding: 0 17px;
-    }
-  }
+
   .cp-image-section{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-top: 8px;
-    @include media(xs){
-      margin-top: 10px;
-    }
-    @include media(sm){
-      margin-top: 34px;
-    }
-  }
-  .cp-sm-image{
     height: 132px;
-    @include media(lg){
+    @include media(xs){
       height: 284px;
-    }
-  }
-  .cp-lg-image{
-    height: 268px;
-    @include media(lg){
-      height: 602px;
     }
   }
   .cp-product-title{
@@ -68,6 +36,32 @@
       margin-top: 12px;
       @include media(sm){
         margin-top: 0;
+      }
+    }
+  }
+  .cp-product-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    @include media(xs){
+      gap: 34px;
+    }
+    @include media(lg){
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .cp-image-section{
+      &:nth-child(1){
+        grid-row: span 2;
+          height: 268px;
+          @include media(xs){
+            height: 602px;
+          }
+      }
+      &:last-child{
+        grid-column: span 2;
+        @include media(lg){
+          grid-column: span 1;
+        }
       }
     }
   }

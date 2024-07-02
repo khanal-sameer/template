@@ -2,7 +2,10 @@
 @import 'trusted-partner';
 .cp-video-section{
   .cp-image-section{
-    height: 862px;
+    height: 233px;
+    @include media(sm){
+      height: 862px;
+    }
   }
 }
 .cp-hero-section{
