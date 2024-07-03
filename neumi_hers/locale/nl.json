@@ -7,7 +7,7 @@
   "all_product_text": "Alle producten",
   "add_to_cart_text": "In winkelwagen",
   "language": "nl", "month": "maand",
-  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "shop_url": "https://app.neumi.com/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text": "Abonneren",
     "frequency_text": "Selecteer frequentie",

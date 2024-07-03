@@ -160,7 +160,7 @@
     "items": [
       {
         "header": "כיצד אני מצטרף כחבר?",
-        "desc": "ניתן להירשם על ידי כניסה ל<a href='https://neumi.fluid.app/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/enrollment.</a> חפשו את המפרסם שלכם ועקבו אחרי תהליך ההרשמה."
+        "desc": "ניתן להירשם על ידי כניסה ל<a href='https://app.neumi.com/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/enrollment.</a> חפשו את המפרסם שלכם ועקבו אחרי תהליך ההרשמה."
       },
       {
         "header": "ישנם חוזים בהצטרפות?",

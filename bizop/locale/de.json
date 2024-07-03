@@ -161,7 +161,7 @@
     "items": [
       {
         "header": "Wie werde ich Mitglied?",
-        "desc": "Sie können sich registrieren, indem Sie auf <a href='https://neumi.fluid.app/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'>Neumi.com/corporphan/enrollment</a> gehen. Suchen Sie nach Ihrem Sponsor und folgen Sie dem Anmeldeprozess."
+        "desc": "Sie können sich registrieren, indem Sie auf <a href='https://app.neumi.com/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'>Neumi.com/corporphan/enrollment</a> gehen. Suchen Sie nach Ihrem Sponsor und folgen Sie dem Anmeldeprozess."
       },
       {
         "header": "Gibt es Verträge?",
