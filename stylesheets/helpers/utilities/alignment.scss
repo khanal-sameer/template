@@ -11,9 +11,13 @@ $justify_content:(initial initial,start flex-start,center center,between space-b
 }
 // Items Alignment
 .#{$prefix}-items-center{
-  display: flex;
-  flex-wrap: wrap;
+  @extend %display-flex;
+  flex-direction: column;
   justify-content: center;
+}
+.#{$prefix}-items-end{
+  @extend %display-flex;
+  justify-content: end;
   flex-direction: column;
 }
 @each $textAlign in $text_align{// Text align

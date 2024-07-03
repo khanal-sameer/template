@@ -14,6 +14,9 @@ $columns:(
 .#{$prefix}-w-full {
   width: 100%;
 }
+.#{$prefix}-max-w-full{
+  max-width: 100%;
+}
 .#{$prefix}-w-auto {
   width: auto;
 }
