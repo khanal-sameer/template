@@ -1,19 +1,20 @@
 body{
   margin: 0;
-  font-family: "Lexend";
-  font-weight: 400;
-  font-size: 14px;
+  font-family: $root_font;
+  font-weight: $root_font_weight;
+  font-size: $root_font_size;
   letter-spacing: -0.02em;
-  color: #626262;
+  color: $root_text_color;
   @include media(sm){
-    font-size: 16px;
+    font-size: $root_font_size_lg_device;
   }
   h1,h2,h3,h4,h5{
     letter-spacing: -0.05em;
     margin: 0;
-    color: #000;
+    font-family: $root_font;
+    color: $heading_text_color;
     .#{$prefix}-text-white{
-      color: white;
+      color: $white;
     }
   }
   h1,

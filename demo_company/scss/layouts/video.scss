@@ -2,7 +2,13 @@
   .#{$prefix}-image-section{
     height: 233px;
     @include media(sm){
-      height: 862px;
+      height: 350px;
+    }
+    @include media(sm){
+      height:500px;
+    }
+    @include media(lg){
+      height: 650px;
     }
   }
 }

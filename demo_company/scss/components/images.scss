@@ -1,6 +1,9 @@
 
 .#{$prefix}-image-h-md{
   height: 218px;
+  @include media(xs){
+    height: 300px;
+  }
   @include media(sm){
     height: 435px;
   }

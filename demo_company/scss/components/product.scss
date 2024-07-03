@@ -18,9 +18,12 @@
 .#{$prefix}-feature-product-post{
   .#{$prefix}-desc{
     @include media(sm){
-      padding-left: 60px;
+      padding-left: 44px;
     }
     @include media(lg){
+      padding-left: 60px;
+    }
+    @include media(largeScreen){
       padding-left: 112px;
     }
   }
