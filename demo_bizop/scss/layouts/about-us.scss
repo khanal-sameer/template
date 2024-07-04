@@ -5,11 +5,19 @@
     max-width: 100%;
   }
   .cp-title-section{
-    @include flex-width(460px);
+    @include media(lg){
+      @include flex-width(460px);
+    }
   }
   .cp-desc{
-    @include flex-width(calc(100% - 460px));
-    padding-left: 96px;
+    @include media(lg){
+      padding-left: 45px;
+      @include flex-width(calc(100% - 460px));
+    }
+    @include media(largeScreen){
+      padding-left: 96px;
+
+    }
   }
   .cp-image-section {
     height: 244px;

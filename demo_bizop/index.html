@@ -26,7 +26,7 @@
               <div class="cp-desc cp-col-sm-6">
                 <p class="cp-mt-16 cp-sm-mt-0 cp-mb-0">{{desc}}</p>
                 <div class="cp-btn-section cp-mt-18 cp-sm-mt-24">
-                  <a class="cp-btn cp-btn-primary-bg cp-w-full cp-sm-w-fit-content" href="{{sign_up_url}}">
+                  <a class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" href="{{sign_up_url}}">
                     {{btn_text}}
                     <span class="cp-ml-8">
                       {{chevron_arrow_right_icon}}
@@ -83,8 +83,8 @@
               <h2 class="cp-m-0 cp-pl-22 cp-pr-22 cp-sm-p-0">{{title}}</h2>
               <p class="cp-mb-0 cp-mt-16 cp-sm-mt-32">{{desc}}</p>
               <div class="cp-btn-section cp-mt-18 cp-sm-mt-32">
-                <a class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" href="{{url}}">
-                  {{btn_text}}
+                <a class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" href="{{learn_more_url}}">
+                  {{learn_more_text}}
                   <span class="cp-ml-8">
                     {{chevron_arrow_right_icon}}
                   </span>
@@ -106,8 +106,8 @@
                 <h2 class="cp-mb-0 cp-mt-18">{{{title}}}</h2>
                 <p class="cp-mb-0 cp-mt-18 cp-sm-mt-32">{{desc}}</p>
                 <div class="cp-btn-section cp-mt-18 cp-sm-mt-32">
-                  <a class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" href="{{url}}">
-                    {{btn_text}}
+                  <a class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" href="{{sign_up_url}}">
+                    {{sign_up_text}}
                     <span class="cp-ml-8">
                       {{chevron_arrow_right_icon}}
                     </span>
@@ -144,13 +144,79 @@
           </div>
         </div>
       {{/service_list}}
+      {{#faq}}
+        <div class="cp-accordion-section cp-page-section">
+          <div class="cp-container">
+            <div class="cp-wrapper cp-ml-auto cp-mr-auto cp-max-w-full">
+              <h2 class="cp-text-center cp-sm-text-left cp-m-0 cp-pl-20 cp-pr-20 cp-sm-p-0">{{title}}</h2>
+              <div class="cp-accordion-list cp-pt-10 cp-sm-pt-38">
+                {{#items}}
+                  <div class="cp-accordion-item accordion-item cp-bg-white-smoke cp-mt-6 cp-sm-mt-16 {{item_class}}">
+                    <div class="cp-accordion-header accordion-header cp-d-flex">
+                      <div class="cp-title cp-text-black">{{title}}</div>
+                      <div class="cp-icon">
+                        <span class="cp-plus">
+                          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.1 9.032V6.856H15.812V9.032H0.1ZM6.692 15.656V0.199999H9.156V15.656H6.692Z" fill="black"/>
+                          </svg>
+                        </span>
+                        <span class="cp-minus">
+                          <svg width="11" height="4" viewBox="0 0 11 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.647813 3.072V0.976H10.3598V3.072H0.647813Z" fill="#313D50"/>
+                          </svg>
+                        </span>
+                      </div><!-- .cp-icon -->
+                    </div><!-- .cp-accordion-header -->
+
+                    <div class="cp-accordion-content accordion-content cp-pt-10 cp-pr-10 cp-sm-pt-12 cp-sm-pr-20 {{content_class}}">
+                      <p class="cp-m-0">{{desc}}</p>
+                    </div>
+                  </div>
+                {{/items}}
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/faq}}
+      {{#cta}}
+        <div class="cp-cta-section">
+          <div class="cp-container">
+            <div class="cp-bg-image cp-default-border-radius cp-image-overlay" style="background-image: url({{image}})">
+              <div class="cp-wrapper cp-m-auto cp-position-relative cp-z-index-2">
+                <div class="cp-text-white cp-text-center cp-fs-xxl cp-fw-medium">{{title}}</div>
+                <div class="cp-btn-section cp-d-flex cp-justify-center cp-col-gap-12-- cp-mt-4 cp-sm-mt-12">
+                  <a class="cp-btn cp-btn-white-text  cp-mt-12 " href="{{learn_more_url}}">
+                    {{learn_more_text}}
+                    <span class="cp-ml-8">
+                      {{chevron_arrow_right_icon}}
+                    </span>
+                  </a>
+                  <a class="cp-btn cp-btn-primary-bg cp-mt-12 " href="{{sign_up_url}}" target="_blank">
+                    {{sign_up_text}}
+                    <span class="cp-ml-8">
+                      {{chevron_arrow_right_icon}}
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/cta}}
+
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script>
-
+      $(document).ready(function(){
+        $(document).on("click",".accordion-header",function(){
+          $(".accordion-content").not($(this).next()).slideUp();
+          $(".accordion-item").not($(this).parent()).removeClass("active");
+          $(this).next(".accordion-content").slideToggle();
+          $(this).parent(".accordion-item").toggleClass("active");
+        });
+      })
     </script>
-
   </body>
 </html>

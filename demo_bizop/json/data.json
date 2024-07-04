@@ -1,8 +1,12 @@
 {
   "page_title": "Demo Bizop",
+  "sign_up_text": "Sign up",
+  "sign_up_url":"https://www.fluid.app/users/sign_up",
+  "learn_more_text": "Learn More",
+  "learn_more_url": "#",
   "chevron_arrow_right_icon": "<svg width=\"7\" height=\"9\" viewBox=\"0 0 7 9\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1.61597 8.02222L5.43292 4.50906L1.5065 0.73456\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>",
   "about_us":{
-    "title": "Elevate your business,<br/>unlock new horizons.",
+    "title": "Elevate your business, unlock new horizons.",
     "desc": "We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the flexibility to grow your business according to your own vision, whether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings.",
     "btn_text": "Enroll Now",
     "image":"file:///home/kalpana/Desktop/template/demo_bizop/images/banner.jpeg"
@@ -22,15 +26,11 @@
   },
   "work_life_balance":{
     "title":"Determine your ideal work-life balance",
-    "desc": "We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the flexibility to grow your business according to your own vision, whether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings.",
-    "btn_text": "Learn More",
-    "url":"#"
+    "desc": "We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the flexibility to grow your business according to your own vision, whether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings."
   },
   "feature_post": {
-    "title": "Elevate your business,<br/>unlock new horizons.",
+    "title": "Elevate your business, unlock new horizons.",
     "desc": "We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the flexibility to grow your business according to your own vision, whether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings.",
-    "btn_text": "Sign up",
-    "url":"https://www.fluid.app/users/sign_up",
     "image":"file:///home/kalpana/Desktop/template/demo_bizop/images/feature.jpeg"
   },
   "service_list":{
@@ -53,8 +53,53 @@
       {
         "title":"Earn trips to dream destination",
         "image":"file:///home/kalpana/Desktop/template/demo_bizop/images/service4.jpeg",
-        "icon":"<svg width=\"58\" height=\"75\" viewBox=\"0 0 58 75\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M28.9995 72.8267L31.7573 69.7192C34.8866 66.1354 37.7012 62.7351 40.2056 59.5009L42.2728 56.7737C50.9046 45.1437 55.2227 35.9132 55.2227 29.0908C55.2227 14.5282 43.4835 2.72339 28.9995 2.72339C14.5156 2.72339 2.77637 14.5282 2.77637 29.0908C2.77637 35.9132 7.09445 45.1437 15.7262 56.7737L17.7935 59.5009C21.3661 64.0786 25.1039 68.5205 28.9995 72.8267Z\" stroke=\"white\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M28.9996 39.8729C35.034 39.8729 39.9259 34.981 39.9259 28.9466C39.9259 22.9121 35.034 18.0203 28.9996 18.0203C22.9651 18.0203 18.0732 22.9121 18.0732 28.9466C18.0732 34.981 22.9651 39.8729 28.9996 39.8729Z\" stroke=\"white\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+        "icon":"<svg width=\"58\" height=\"75\" viewBox=\"0 0 58 75\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M28.9995 72.8267L31.7573 69.7192C34.8866 66.1354 37.7012 62.7351 40.2056 59.5009L42.2728 56.7737C50.9046 45.1437 55.2227 35.9132 55.2227 29.0908C55.2227 14.5282 43.4835 2.72339 28.9995 2.72339C14.5156 2.72339 2.77637 14.5282 2.77637 29.0908C2.77637 35.9132 7.09445 45.1437 15.7262 56.7737L17.7935 59.5009C21.3661 64.0786 25.1039 68.5205 28.9995 72.8267Z\" stroke=\"white\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M28.9996 39.8729C35.034 39.8729 39.9259 34.981 39.9259 28.9466C39.9259 22.9121 35.034 18.0203 28.9996 18.0203C22.9651 18.0203 18.0732 22.9121 18.0732 28.9466C18.0732 34.981 22.9651 39.8729 28.9996 39.8729Z\" stroke=\"white\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
       }
      ]
+  },
+  "faq":{
+    "title":"{{faq.title}}",
+    "items":[
+      {
+        "title": "{{faq.items.0.title}}",
+        "desc":"{{faq.items.0.desc}}",
+        "item_class":"active",
+        "content_class":""
+      },
+      {
+        "title": "{{faq.items.1.title}}",
+        "desc":"{{faq.items.1.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.2.title}}",
+        "desc":"{{faq.items.2.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.3.title}}",
+        "desc":"{{faq.items.3.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.4.title}}",
+        "desc":"{{faq.items.4.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.5.title}}",
+        "desc":"{{faq.items.5.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      }
+    ]
+  },
+  "cta":{
+    "title": "{{cta.title}}",
+    "image": "http://cdn.fluid.app/demo_company/landing/cta.jpg"
   }
 }

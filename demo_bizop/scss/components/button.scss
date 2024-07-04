@@ -16,6 +16,9 @@
       width: 12px;
     }
   }
+  &.#{$prefix}-btn-border-0{
+    border: 0;
+  }
   &:hover{
     opacity: 0.9;
   }
@@ -27,8 +30,8 @@
   border-color: $primary;
 
 }
-.#{$prefix}-btn-white-border{
+.#{$prefix}-btn-white-text{
   background-color: transparent;
   color: $white;
-  border-color: $white;
+  border-color: transparent;
 }
