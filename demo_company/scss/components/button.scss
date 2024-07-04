@@ -25,10 +25,16 @@
   background-color: $primary;
   color: $primary_bg_text_color;
   border-color: $primary;
+  &:hover{
+    color: $white;
+  }
 
 }
 .#{$prefix}-btn-white-border{
   background-color: transparent;
   color: $white;
   border-color: $white;
+  &:hover{
+    color: $white;
+  }
 }
