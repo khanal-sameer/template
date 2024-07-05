@@ -1,0 +1,30 @@
+.cp-get-started-section{
+  .cp-image-section{
+    padding: 0 20px 24px;
+    height: 310px;
+    @include media(xs){
+      height: 400px;
+      padding: 0 60px 40px;
+    }
+    @include media(lg){
+      height: 650px;
+      padding: 0 92px 75px;
+    }
+  }
+  .cp-desc{
+    @include media(md){
+      @include flex-width(60%);
+    }
+    @include media(lg){
+      @include flex-width(637px);
+    }
+  }
+  .cp-btn-section{
+    @include media(md){
+      @include flex-width(40%);
+    }
+    @include media(lg){
+      @include flex-width(calc(100% - 637px));
+    }
+  }
+}

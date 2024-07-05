@@ -9,20 +9,21 @@
     }
   }
 }
-
 .#{$prefix}-service-post{
   .#{$prefix}-image-section{
     height: 112px;
     border-radius: 10px;
-    padding-left: 36px;
-    padding-right: 36px;
-    padding-bottom: 27px;
+    @include padding(0,26px,27px,36px);
     @include media(xs){
       height: 250px;
       border-radius: 16px;
       padding-bottom: 30px;
     }
-    @include media(sm){
+    @include media(lg){
+      height: 300px;
+      border-radius: 25px;
+    }
+    @include media(largeScreen){
       height: 414px;
       border-radius: 40px;
       padding-bottom: 60px;

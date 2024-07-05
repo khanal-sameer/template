@@ -1,13 +1,4 @@
 .#{$prefix}-service-post-section{
-  .#{$prefix}-service-post{
-    margin-top: 8px;
-    @include media(xs){
-      margin-top: 16px;
-    }
-    @include media(sm){
-      margin-top: 20px;
-    }
-  }
   .cp-col{
     &:first-child{
       .#{$prefix}-service-post{

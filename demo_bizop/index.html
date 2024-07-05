@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    {{>Style}}
   </head>
   <body>
     <div  class='cp-demo-bizop-page cp-page-bottom-section'>
@@ -20,12 +21,12 @@
 
             <div class="cp-wrapper cp-page-section-md cp-sm-d-flex">
               <div class="cp-title-section cp-col-sm-6">
-                <h2>{{{title}}}</h2>
+                <h2 class="cp-m-0 cp-pr-4 cp-xs-pr-0">{{{title}}}</h2>
               </div>
 
               <div class="cp-desc cp-col-sm-6">
                 <p class="cp-mt-4 cp-sm-mt-0 cp-mb-0">{{desc}}</p>
-                <div class="cp-btn-section cp-mt-5 cp-sm-mt-6">
+                <div class="cp-btn-section cp-mt-4 cp-sm-mt-6">
                   <a class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" href="{{sign_up_url}}">
                     {{btn_text}}
                     <span class="cp-ml-2">
@@ -57,7 +58,7 @@
       {{#get_started}}
         <div class="cp-get-started-section cp-mt-8">
           <div class="cp-container">
-            <div class="cp-image-section cp-bg-image cp-image-overlay-gradient cp-default-border-radius" style="background-image: url({{image}});">
+            <div class="cp-image-section cp-bg-image cp-items-end cp-image-overlay-gradient cp-default-border-radius" style="background-image: url({{image}});">
               <div class="cp-wrapper cp-position-relative cp-z-index-2 cp-md-d-flex cp-align-end">
                 <div class="cp-desc cp-text-white">
                   <h2 class="cp-text-white cp-m-0">{{title}}</h2>
@@ -82,7 +83,7 @@
             <div class="cp-xs-pl-8 cp-xs-pr-8">
               <h2 class="cp-m-0 cp-pl-6 cp-pr-6 cp-sm-p-0">{{title}}</h2>
               <p class="cp-mb-0 cp-mt-4 cp-sm-mt-8">{{desc}}</p>
-              <div class="cp-btn-section cp-mt-5 cp-sm-mt-8">
+              <div class="cp-btn-section cp-mt-4 cp-sm-mt-8">
                 <a class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" href="{{learn_more_url}}">
                   {{learn_more_text}}
                   <span class="cp-ml-2">
@@ -104,7 +105,7 @@
             <div class="cp-col-12 cp-col-lg-6">
               <div class="cp-desc cp-xs-pl-10 cp-xs-10 cp-lg-p-0">
                 <h2 class="cp-mb-0 cp-mt-4">{{{title}}}</h2>
-                <p class="cp-mb-0 cp-mt-4 cp-sm-mt-8">{{desc}}</p>
+                <p class="cp-mb-0 cp-mt-4 cp-sm-mt-8 cp-secondary-text-color">{{desc}}</p>
                 <div class="cp-btn-section cp-mt-4 cp-sm-mt-8">
                   <a class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" href="{{sign_up_url}}">
                     {{sign_up_text}}
@@ -126,7 +127,7 @@
             <div class="cp-row">
               {{#items}}
                 <div class="cp-col cp-col-12 cp-col-xs-6">
-                  <div class="cp-service-post">
+                  <div class="cp-service-post cp-mt-2 cp-xs-mt-4 cp-sm-mt-5">
                     <div class="cp-image-section cp-image-overlay-gradient cp-bg-image cp-items-end" style="background-image: url({{image}});">
                       <div class="cp-desc cp-position-relative cp-z-index-2 cp-ml-auto cp-mr-auto cp-max-w-full cp-text-center">
                         <div class="cp-icon-section">
@@ -134,7 +135,7 @@
                             {{{icon}}}
                           </div>
                         </div>
-                        <h3 class="cp-mb-0 cp-mt-2 cp-xs-mt-4 cp-sm-mt-6 cp-text-white">{{title}}</h3>
+                        <h3 class="cp-mb-0 cp-mt-3 cp-xs-mt-4 cp-sm-mt-6 cp-text-white">{{title}}</h3>
                       </div>
                     </div><!-- .cp-image-section -->
                   </div><!-- .cp-service-post -->
@@ -144,6 +145,7 @@
           </div>
         </div>
       {{/service_list}}
+
       {{#faq}}
         <div class="cp-accordion-section cp-page-section">
           <div class="cp-container">
@@ -151,7 +153,7 @@
               <h2 class="cp-text-center cp-sm-text-left cp-m-0 cp-pl-5 cp-pr-5 cp-sm-p-0">{{title}}</h2>
               <div class="cp-accordion-list cp-pt-3 cp-sm-pt-9">
                 {{#items}}
-                  <div class="cp-accordion-item accordion-item cp-bg-white-smoke cp-mt-2 cp-sm-mt-4 {{item_class}}">
+                  <div class="cp-accordion-item accordion-item cp-bg-white-smoke cp-mt-3 cp-sm-mt-4 {{item_class}}">
                     <div class="cp-accordion-header accordion-header cp-d-flex">
                       <div class="cp-title cp-text-black">{{title}}</div>
                       <div class="cp-icon">
@@ -181,17 +183,17 @@
       {{#cta}}
         <div class="cp-cta-section">
           <div class="cp-container">
-            <div class="cp-bg-image cp-default-border-radius cp-image-overlay" style="background-image: url({{image}})">
-              <div class="cp-wrapper cp-m-auto cp-position-relative cp-z-index-2">
-                <div class="cp-text-white cp-text-center cp-fs-xxl cp-fw-medium">{{title}}</div>
-                <div class="cp-btn-section cp-d-flex cp-justify-center cp-col-gap-12-- cp-mt-1 cp-sm-mt-3">
+            <div class="cp-image-section cp-bg-image cp-default-border-radius cp-image-overlay cp-items-end" style="background-image: url({{image}})">
+              <div class="cp-wrapper cp-position-relative cp-z-index-2">
+                <div class="cp-text-white cp-text-center cp-fs-xxl cp-secondary-letter-spacing cp-fw-bold">{{title}}</div>
+                <div class="cp-btn-section cp-d-flex cp-justify-center cp-mt-1 cp-sm-mt-3">
                   <a class="cp-btn cp-btn-white-text  cp-mt-3" href="{{learn_more_url}}">
                     {{learn_more_text}}
                     <span class="cp-ml-2">
                       {{chevron_arrow_right_icon}}
                     </span>
                   </a>
-                  <a class="cp-btn cp-btn-primary-bg cp-mt-3" href="{{sign_up_url}}" target="_blank">
+                  <a class="cp-btn cp-btn-primary-bg cp-mt-3 cp-xs-ml-2" href="{{sign_up_url}}" target="_blank">
                     {{sign_up_text}}
                     <span class="cp-ml-2">
                       {{chevron_arrow_right_icon}}
