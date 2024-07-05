@@ -1,0 +1,11 @@
+.#{$prefix}-trusted-partner-section{
+  .#{$prefix}-slider-section{
+    padding: 32px 0;
+    @include media(sm){
+      padding: 74px 0;
+    }
+  }
+  ul{
+    align-items: center;
+  }
+}
