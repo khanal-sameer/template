@@ -1,0 +1,23 @@
+{
+  "title": "Demo Product",
+  "chevron_arrow_right_icon": "<svg width=\"7\" height=\"9\" viewBox=\"0 0 7 9\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1.61597 8.02222L5.43292 4.50906L1.5065 0.73456\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>",
+  "productSlider":{
+    "items":[
+      {
+        "image": "https://cdn.fluid.app/neumi/nutriswish/slider_1.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/nutriswish/slider_2.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/nutriswish/slider_3.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/nutriswish/slider_4.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/neumi/nutriswish/slider_5.png"
+      }
+    ]
+  }
+}

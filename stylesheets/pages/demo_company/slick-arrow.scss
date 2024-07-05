@@ -1,0 +1,21 @@
+.#{$prefix}-slider-section {
+  .#{$prefix}-arrow{
+   color: $black;
+   svg{
+     transform: none;
+   }
+   &:disabled{
+     color: #BEBEBE;
+     opacity: 0.8;
+   }
+  }
+  .#{$prefix}-arrow-prev{
+   left: -30px;
+  }
+  .#{$prefix}-arrow-next{
+   right: -30px;
+  }
+  button{
+   background-color: transparent ;
+  }
+ }

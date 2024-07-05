@@ -1,0 +1,16 @@
+
+.cp-product-thumbnail-slider{
+  .cp-slider-item{
+    &.is-active{
+      border: 2px solid $primary !important;
+      border-radius: 10px;
+      img{
+        border-radius: 6px;
+      }
+    }
+  }
+
+}
+.cp-product-preview-slider{
+
+}
