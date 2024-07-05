@@ -1,1 +1,20 @@
-{}
+{
+  "testimonials":{
+    "title": "Hear from our clients",
+    "desc": "We invite you to explore a world of untapped opportunities.",
+    "items":[
+      {
+        "author_name": "Mia Ol’ Wallace",
+        "address":"Arizona, US",
+        "recommended_text": "",
+        "review_text":"I couldn't be happier with my purchase! The quality is top-notch, and the customer service was outstanding. I highly recommend this store to anyone looking for great products and excellent support."
+      },
+      {
+        "author_name": "Leon Chumsky",
+        "address":"Heathrow, UK",
+        "recommended_text": "Highly recommend!",
+        "review_text": "Amazing experience from start to finish! The website was easy to navigate, and my order arrived quickly and in perfect condition."
+      }
+    ]
+  }
+}

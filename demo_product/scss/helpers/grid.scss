@@ -1,6 +1,6 @@
 
 .#{$prefix}-container{
-  width: 1320px;
+  width: 1144px; //1096+48
   padding: 0 24px;
   margin: auto;
   max-width: 100%;
@@ -12,10 +12,10 @@
   }
 
   &.#{$prefix}-sm{
-    width: 1144px; //1096+48
+    // width: 1144px; //1096+48
   }
   &.#{$prefix}-md{
-    width: 1184px; //1136+48
+    // width: 1184px; //1136+48
   }
 }
 .#{$prefix}-row {
@@ -34,7 +34,12 @@
 .#{$prefix}-page-section-md{
   padding: 24px 0;
   @include media(sm){
-    padding: 70px 0;
+    padding: 54px 0;
+  }
+}
+.#{$prefix}-page-top-section-md{
+  @include media(sm){
+    padding-top: 54px;
   }
 }
 .#{$prefix}-page-top-section{

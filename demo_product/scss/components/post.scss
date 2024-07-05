@@ -12,5 +12,72 @@
 
 }
 .cp-product-preview-slider{
+  max-width: 550px;
+  margin: auto;
+}
+.cp-product-desc{
+  padding-left: 112px;
+  .cp-subscribe-card{
+    @include padding(20px,32px,32px,32px);
+    border-radius: 16px;
+  }
+  .cp-items-list{
+    .cp-icon{
+      @include flex-width(20px);
+      position: relative;
+      top: -1px;
+    }
+    .cp-caption{
+      @include flex-width(calc(100% - 20px));
+      padding-left: 12px;
+    }
+  }
+}
+.cp-one-time-purchase-card{
+  background-color: #F8FBFF;
+  // border-color: #F8FBFF;
+  @include border();
+  @include padding(12px,32px,24px,32px);
+  border-radius: 16px;
+  border-color: $primary;
+}
 
+.cp-product-feature-post{
+  padding: 60px 40px;
+  border-color: #EBEBEB;
+}
+.#{$prefix}-product-feature-item-style-1{
+  .#{$prefix}-icon-section{
+    @include flex-width(28px);
+    @include media(sm){
+      @include flex-width(36px);
+    }
+  }
+  .#{$prefix}-item-desc{
+    padding-left: 16px;
+    @include flex-width(calc(100% - 28px));
+    @include media(sm){
+      padding-left: 30px;
+      @include flex-width(calc(100% - 36px));
+    }
+  }
+}
+.cp-product-benefits-section{
+  .cp-desc-wrapper{
+    width: 1020px;
+  }
+  .cp-image-section{
+    height: 680px;
+  }
+  .#{$prefix}-desc{
+    @include media(sm){
+      padding-left: 44px;
+    }
+    @include media(lg){
+      padding-left: 60px;
+    }
+    @include media(largeScreen){
+      padding-left: 112px;
+    }
+  }
 }

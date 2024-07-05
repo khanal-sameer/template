@@ -1,4 +1,4 @@
-<div class="cp-product-description-section">
+<div class="cp-product-description-section cp-mt-8">
   <div class="cp-container">
     <div class="cp-d-flex">
 
@@ -44,7 +44,63 @@
       </div><!-- .cp-col -->
 
       <div class="cp-col-12 cp-col-sm-6">
+          <div class="cp-product-desc">
+            <h2>{{product_title}}</h2>
+            <div class="cp-rating-section cp-d-flex cp-align-center cp-mt-3">
+              {{>FiveStarRating}}
+              <span class="cp-secondary-text-color">{{total_reviewa}}</span>
+            </div>
+            <p>{{product_desc}}</p>
 
+            {{#subscribe}}
+              <div class="cp-subscribe-card cp-default-bg cp-mt-8 cp-text-black">
+                <div class="cp-title-section cp-d-flex cp-align-center cp-justify-between">
+                  <div class="cp-radio-button-section">
+                    <div class="cp-radio-btn cp-mt-3">
+                      <input
+                        type="radio"
+                        id="subscribe"
+                        name="fluid-checkout-subscribe"
+                        value="subscription"
+                        checked
+                      />
+                      <label for="subscribe" class="cp-text-black"><span>{{subscribe_text}}</span></label>
+                    </div>
+                  </div>
+                  <div class="cp-price-section cp-fs-10x cp-line-height-1 cp-d-flex cp-col-gap-3 cp-mt-3">
+                    <span id="crossed_onetime_price" class="cp-is-strike  cp-fw-medium">${{actual_price}}</span>
+                    <span class="cp-fw-semi-bold cp-text-primary" id="subscribe_price">${{subscribed_price}}</span>
+                  </div>
+                </div>
+                <ul class="cp-reset-ul cp-items-list cp-pt-2">
+                  {{#checklist_items}}
+                    <li class="cp-d-flex cp-align-center cp-mt-2">
+                      <span class="cp-icon">{{>BadgeIcon}}</span>
+                      <span class="cp-caption">{{caption}}</span>
+                    </li>
+                  {{/checklist_items}}
+                </ul>
+              </div>
+              <div class="cp-one-time-purchase-card cp-d-flex cp-align-center cp-justify-between cp-mt-3">
+                <div class="cp-radio-btn cp-mt-3">
+                  <input
+                    type="radio"
+                    id="one-time"
+                    name="fluid-checkout-subscribe"
+                    value="subscription"
+                    checked
+                  />
+                  <label for="one-time" class="cp-text-black"><span>{{one_time_purchase_text}}<span></label>
+                </div>
+                <div class="cp-price-section cp-fs-10x cp-line-height-1 cp-mt-3">
+                  <span class="cp-fw-semi-bold cp-text-black" id="onetime_order_price">${{subscribed_price}}</span>
+                </div>
+
+              </div>
+            {{/subscribe}}
+            
+
+          </div>
       </div><!-- .cp-col -->
 
     </div><!-- .cp-d-flex -->
