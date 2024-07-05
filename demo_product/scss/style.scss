@@ -1,12 +1,12 @@
 
 @import 'helpers/variables',
         '../../stylesheets/share',
-        '../../stylesheets/pages/demo_company/accordion',
-        '../../stylesheets/pages/demo_company/slick-arrow',
-        '../../stylesheets/pages/demo_company/video',
-        '../../stylesheets/pages/demo_company/testimonial',
-        '../../stylesheets/pages/demo_company/trusted-partner',
         'helpers/master',
         'base/master',
         'components/master',
-        'layouts/master';
+        'layouts/master',
+        '../../stylesheets/pages/demo_company/components/slick-arrow',
+        '../../stylesheets/pages/demo_company/components/testimonial',
+        '../../stylesheets/pages/demo_company/layouts/accordion',
+        '../../stylesheets/pages/demo_company/layouts/trusted-partner',
+        '../../stylesheets/pages/demo_company/layouts/video';

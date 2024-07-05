@@ -9,19 +9,19 @@
   "productSlider":{
     "items":[
       {
-        "image": "file:///home/kalpana/Desktop/template/demo_product/images/slider_1.png"
+        "image": "../images/slider_1.png"
       },
       {
-        "image": "file:///home/kalpana/Desktop/template/demo_product/images/slider_1.png"
+        "image": "../images/slider_1.png"
       },
       {
-        "image": "file:///home/kalpana/Desktop/template/demo_product/images/slider_1.png"
+        "image": "../images/slider_1.png"
       },
       {
-        "image": "file:///home/kalpana/Desktop/template/demo_product/images/slider_1.png"
+        "image": "../images/slider_1.png"
       },
       {
-        "image": "file:///home/kalpana/Desktop/template/demo_product/images/slider_1.png"
+        "image": "../images/slider_1.png"
       }
     ]
   },
@@ -97,7 +97,7 @@
   "benefits":{
     "title": "Benefits of using Mani Moisturising Serum",
     "desc": "<span class=\"cp-fw-bold\">Every woman knows about the inconveniences that cycles and hormone changes can bring into life.</span> Experience rapid results through our HydraStat™ Nanotechnology. Our nano-sized ingredients, wrapped in water clusters, are small enough to be absorbed fully by the human cell, which is right where you need them!",
-    "image": "file:///home/kalpana/Desktop/template/demo_product/images/benefits.jpg",
+    "image": "../images/benefits.jpg",
     "items":[
       {
         "title": "Eco-Friendly",
@@ -119,8 +119,8 @@
   "review":{
     "title": "Hear from our clients",
     "desc": "Choose from our collection of wide range of products.",
-    "written_review_text": "Written Reviews(3)",
-    "video_review_text": "Video Reviews(1)"
+    "written_review_text": "Written Reviews (3)",
+    "video_review_text": "Video Reviews (1)"
   },
   "testimonials":{
     "title": "{{testimonials.title}}",

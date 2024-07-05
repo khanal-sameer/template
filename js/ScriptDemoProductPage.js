@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+function productSlider(){
   const previewSlider = new Splide("#preview-slider", {
     rewind: true,
     pagination: false,
@@ -23,30 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
   previewSlider.sync(thumbnailsSlider);
   previewSlider.mount();
   thumbnailsSlider.mount();
-
-  var trustedBy = new Splide("#trusted-by-slider", {
-    autoWidth: true,
-      arrows: false,
-      pagination: false,
-      type: "loop",
-      perPage: 7,
-      autoplay: true,
-      interval: 2000,
-      cover: false,
-      gap: "4rem",
-      breakpoints: {
-        1024: {
-          perPage: 6,
-          gap: "4rem",
-        },
-        576: {
-          perPage: 7,
-        },
-      },
-  });
-  trustedBy.mount();
-
-  var testimonialSlider = new Splide("#testimonial-slider",{
+}
+function testimonialSlider(){
+  var slider = new Splide("#testimonial-slider",{
     arrows: false,
     pagination: false,
     perPage: 1,
@@ -67,5 +46,66 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     },
   });
-  testimonialSlider.mount();
+  slider.mount();
+}
+function trustedBySlider(){
+  var slider = new Splide("#trusted-by-slider", {
+    arrows: false,
+    pagination: false,
+    type: "loop",
+    perPage: 2,
+    autoplay: true,
+    interval: 2000,
+    cover: false,
+    gap: 20,
+    mediaQuery: "min",
+    rewind: true,
+    breakpoints: {
+      1024: {
+        perPage: 7,
+        gap: 40,
+      },
+      576: {
+        perPage: 3,
+      },
+    },
+  });
+  slider.mount();
+}
+function subscribe(){
+  $(document).on('click','#subscribe',function(){
+    $('.subscribe-card').addClass('active');
+    $('.one-time-purchase-card').removeClass('active');
+  })
+  $(document).on('click','#one-time',function(){
+    $('.one-time-purchase-card').addClass('active');
+    $('.subscribe-card').removeClass('active');
+  });
+}
+
+function quantity(){
+  const quantitySelector = $("#quantity");
+  var value = parseInt(quantitySelector.val());
+
+  $(document).on('click','#increase-btn',function(){
+    value++;
+    quantitySelector.val(value);
+  });
+
+  $(document).on('click','#decrease-btn',function(){
+    if (value === 1) {
+      return;
+    }
+    value--;
+    quantitySelector.val(value);
+  })
+  
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  productSlider();
+  testimonialSlider();
+  trustedBySlider();
+  subscribe();
+  quantity();
 });

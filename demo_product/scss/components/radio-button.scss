@@ -1,11 +1,13 @@
 .cp-radio-btn {
   position: relative;
+  min-height: 22px;
   label {
     min-height: 20px;
     font-weight: $font_semibold;
     color: $black;
     padding-left: 32px;
     line-height: 1;
+    cursor: pointer;
     &:before {
       content: "";
       position: absolute;
