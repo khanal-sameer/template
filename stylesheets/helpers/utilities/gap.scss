@@ -1,16 +1,13 @@
-$spaces: 2, 4, 6, 8, 10, 12, 16, 32;
-//gap
-@each $space in $spaces {
-  //gap
-  .#{$prefix}-gap-#{$space} {
-    gap: ($space / 16) * 1rem;
+@for $i from 1 through 8{
+  .#{$prefix}-gap-#{$i} {
+    gap: $i * 4px;
   }
   //row gap
   .#{$prefix}-row-gap-#{$space} {
-    row-gap: ($space / 16) * 1rem;
+    row-gap: $i * 4px;
   }
   //column gap
   .#{$prefix}-col-gap-#{$space} {
-    column-gap: ($space / 16) * 1rem;
+    column-gap: $i * 4px;
   }
 }
