@@ -1,34 +1,25 @@
 {{#faq}}
-  <div class="cp-accordion-section cp-page-section">
-    <div class="cp-container">
-      <h2 class="cp-text-center cp-m-0 cp-pl-5 cp-pr-5 cp-sm-p-0">{{title}}</h2>
-      <p class="cp-mt-3 cp-sm-mt-4 cp-mb-0 cp-text-center">{{desc}}</p>
-      <div class="cp-accordion-list cp-pt-3 cp-sm-pt-9">
-        {{#items}}
-          <div class="cp-accordion-item accordion-item cp-bg-white-smoke cp-mt-2 cp-sm-mt-4 {{item_class}}">
-            <div class="cp-accordion-header accordion-header cp-d-flex">
-              <div class="cp-title cp-text-black">{{title}}</div>
-              <div class="cp-icon">
-                <span class="cp-plus">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0.1 9.032V6.856H15.812V9.032H0.1ZM6.692 15.656V0.199999H9.156V15.656H6.692Z" fill="black"/>
-                  </svg>
-                </span>
-                <span class="cp-minus">
-                  <svg width="11" height="4" viewBox="0 0 11 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0.647813 3.072V0.976H10.3598V3.072H0.647813Z" fill="#313D50"/>
-                  </svg>
-                </span>
-              </div><!-- .cp-icon -->
-            </div><!-- .cp-accordion-header -->
+  {{#items}}
+    <div class="cp-accordion-item accordion-item cp-bg-white-smoke cp-mt-2 cp-sm-mt-4 {{item_class}}">
+      <div class="cp-accordion-header accordion-header cp-d-flex">
+        <div class="cp-title cp-text-black">{{title}}</div>
+        <div class="cp-icon">
+          <span class="cp-plus">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.1 9.032V6.856H15.812V9.032H0.1ZM6.692 15.656V0.199999H9.156V15.656H6.692Z" fill="black"/>
+            </svg>
+          </span>
+          <span class="cp-minus">
+            <svg width="11" height="4" viewBox="0 0 11 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.647813 3.072V0.976H10.3598V3.072H0.647813Z" fill="#313D50"/>
+            </svg>
+          </span>
+        </div><!-- .cp-icon -->
+      </div><!-- .cp-accordion-header -->
 
-            <div class="cp-accordion-content accordion-content cp-pt-3 cp-pr-3 cp-sm-pt-3 cp-sm-pr-5 {{content_class}}">
-              <p class="cp-m-0">{{desc}}</p>
-            </div>
-          </div>
-        {{/items}}
+      <div class="cp-accordion-content accordion-content cp-pt-3 cp-pr-3 cp-sm-pt-3 cp-sm-pr-5 {{content_class}}">
+        <p class="cp-m-0">{{desc}}</p>
       </div>
-
     </div>
-  </div>
+  {{/items}}
 {{/faq}}

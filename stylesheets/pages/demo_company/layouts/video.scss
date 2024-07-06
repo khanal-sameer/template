@@ -11,4 +11,13 @@
       height: 650px;
     }
   }
+  .#{$prefix}-play-icon{
+    width: 51px;
+    @include media(sm){
+      width: 102px;
+    }
+    &:hover{
+      opacity: 0.9;
+    }
+  }
 }

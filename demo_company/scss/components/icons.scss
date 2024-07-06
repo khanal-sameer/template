@@ -1,12 +1,3 @@
-.#{$prefix}-play-icon{
-  width: 51px;
-  @include media(sm){
-    width: 102px;
-  }
-  &:hover{
-    opacity: 0.9;
-  }
-}
 .#{$prefix}-arrow-icon-box{
   @include box-size(30px,30px);
   line-height: 30px;

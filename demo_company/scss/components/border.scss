@@ -1,9 +1,0 @@
-.#{$prefix}-default-border-radius{
-  border-radius: 16px;
-  &:before{
-    border-radius: inherit;
-  }
-  @include media(sm){
-    border-radius: 40px;
-  }
-}

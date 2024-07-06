@@ -122,9 +122,9 @@
     "written_review_text": "Written Reviews (3)",
     "video_review_text": "Video Reviews (1)"
   },
+  "testimonial_section_title": "Hear from our clients",
+  "testimonial_desc": "We invite you to explore a world of untapped opportunities.",
   "testimonials":{
-    "title": "{{testimonials.title}}",
-    "desc": "{{testimonials.desc}}",
     "items":[
       {
         "author_name": "{{testimonials.items.0.author_name}}",
