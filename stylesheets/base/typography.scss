@@ -7,14 +7,13 @@ body{
   letter-spacing: -0.02em;
   color: $root_text_color;
   line-height: 1.2;
-  @include media(sm){
+  @include media(xs){
     font-size: $root_font_size_lg_device;
   }
   h1,h2,h3,h4,h5{
     font-family: $root_font;
   }
 }
-
 .#{$prefix}-fw-regular{
   font-weight: 400;
 }
@@ -26,6 +25,9 @@ body{
 }
 .#{$prefix}-fw-bold{
   font-weight: bold;
+}
+.cp-fs-xs{
+  font-size: 12px;
 }
 @for $i from 7 through 20 {
   .#{$prefix}-fs-#{$i}x {

@@ -3,7 +3,6 @@ body{
     letter-spacing: -0.05em;
     margin: 0;
     color: #000;
-    font-weight: 700;
     .#{$prefix}-text-white{
       color: white;
     }
@@ -15,10 +14,12 @@ body{
       @include font-size(38px);
     }
   }
+
   .#{$prefix}-secondary-letter-spacing{
     letter-spacing: -0.05em;
   }
   h2{
+    font-weight: 500;
     @include font-size(24px);
     @include media(sm){
       @include font-size(32px);
@@ -26,7 +27,7 @@ body{
   }
   h3{
     font-weight: 400;
-    // @include font-size(16px);
+    @include font-size(16px);
     @include media(sm){
       @include font-size(24px);
     }
@@ -43,13 +44,18 @@ body{
     text-decoration: none;
   }
   p{
-    line-height: 20px;
+    line-height: 1.3;
   }
-
   .#{$prefix}-heading-text-color{
     color: #000;
   }
   .#{$prefix}-secondary-text-color{
     color: $secondary_text_color;
+  }
+  .cp-root-font-size{
+    font-size: $root_font_size_lg_device;
+  }
+  .#{$prefix}-secondary-letter-spacing{
+    letter-spacing: -0.05em;
   }
 }

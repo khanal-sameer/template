@@ -14,17 +14,43 @@
     }
   }
 }
-.#{$prefix}-product-feature-section,
+// .#{$prefix}-product-feature-section,
+// .#{$prefix}-feature-product-post{
+//   .#{$prefix}-desc{
+//     @include media(sm){
+//       padding-left: 44px;
+//     }
+//     @include media(lg){
+//       padding-left: 60px;
+//     }
+//     @include media(largeScreen){
+//       padding-left: 112px;
+//     }
+//   }
+// }
 .#{$prefix}-feature-product-post{
   .#{$prefix}-desc{
-    @include media(sm){
-      padding-left: 44px;
+    &.#{$prefix}-desc-left{
+      @include media(md){
+        padding-left: 44px;
+      }
+      @include media(lg){
+        padding-left: 60px;
+      }
+      @include media(largeScreen){
+        padding-left: 112px;
+      }
     }
-    @include media(lg){
-      padding-left: 60px;
-    }
-    @include media(largeScreen){
-      padding-left: 112px;
+    &.#{$prefix}-desc-right{
+      @include media(md){
+        padding-right: 44px;
+      }
+      @include media(lg){
+        padding-right: 60px;
+      }
+      @include media(largeScreen){
+        padding-right: 112px;
+      }
     }
   }
 }

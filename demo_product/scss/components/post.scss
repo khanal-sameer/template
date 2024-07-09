@@ -1,55 +1,11 @@
 
-.cp-product-thumbnail-slider{
-  .cp-slider-item{
-    &.is-active{
-      border: 2px solid $primary !important;
-      border-radius: 10px;
-      img{
-        border-radius: 6px;
-      }
-    }
-  }
-
-}
-.cp-product-preview-slider{
-  max-width: 550px;
-  margin: auto;
-}
-.cp-product-desc{
-  padding-left: 112px;
-  .cp-subscribe-card,
-  .cp-one-time-purchase-card{
-    border-color: #F8FBFF;
-    @include border();
-    border-radius: 16px;
-    &.active{
-      border-color: $primary;
-    }
-  }
-  .cp-subscribe-card{
-    @include padding(20px,32px,32px,32px);
-  }
-  .cp-items-list{
-    .cp-icon{
-      @include flex-width(20px);
-      position: relative;
-      top: -1px;
-    }
-    .cp-caption{
-      @include flex-width(calc(100% - 20px));
-      padding-left: 12px;
-    }
-  }
-  .cp-one-time-purchase-card{
-    background-color: #F8FBFF;
-    padding: 8px 32px 20px;
-  }
-}
 
 
 .cp-product-feature-post{
-  padding: 60px 40px;
-  border-color: #EBEBEB;
+  padding: 24px 32px;
+  @include media(xs){
+    padding: 60px 40px;
+  }
 }
 .#{$prefix}-product-feature-item-style-1{
   .#{$prefix}-icon-section{
@@ -72,10 +28,19 @@
     width: 1020px;
   }
   .cp-image-section{
-    height: 680px;
+    img{
+      max-height: 250px;
+      @include media(xs){
+        max-height: 350px;
+      }
+      @include media(sm){
+        max-height: 680px;
+
+      }
+    }
   }
   .#{$prefix}-desc{
-    @include media(sm){
+    @include media(md){
       padding-left: 44px;
     }
     @include media(lg){
@@ -86,43 +51,80 @@
     }
   }
 }
-.cp-quantity-section{
-  width: 134px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  border: 1px solid $primary;
-  border-radius: 8px;
-  button{
-    height: 38px;
-    width: 30px;
-    line-height: 38px;
-    padding: 0;
-    background-color: transparent;
-    border: 0;
-    cursor: pointer;
-    &:hover{
-      background-color: red;
-    };
+.cp-ingredients-item{
+  .cp-image-section{
+    img{
+      @include box-size(80px,80px);
+      border-radius: 16px;
+      @include media(sm){
+        @include box-size(123px,123px);
+      border-radius: 26px;
+      }
+    }
   }
-  input{
-    width: 30px;
-    height: 38px;
-    line-height: 38px;
-    border: 0;
-    padding: 0;
-    text-align: center;
-    -webkit-appearance: none;
-  }
-}
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
 
-// /* Firefox */
-// input[type=number] {
-//   -moz-appearance: textfield;
-// }
+}
+.cp-how-to-use-steps-item{
+  padding: 24px 0;
+  @include border-top();
+  border-color: #D8D8D8;
+  @include media(sm){
+    padding: 32px 0;
+  }
+  &:last-child{
+    @include border-bottom();
+  }
+  .cp-step-count-section{
+    @include flex-width(40px);
+    @include media(sm){
+      @include flex-width(60px);
+    }
+    @include media(largeScreen){
+      @include flex-width(80px);
+    }
+  }
+  .cp-step-count{
+    border-radius: 100%;
+    @include border();
+    color: $primary;
+    border-color: $primary;
+    font-weight: 200;
+    font-size: 16px;
+    @include box-size(40px,40px);
+    @include media(sm){
+      font-size: 26px;
+      @include box-size(60px,60px);
+      @include border(2px,solid);
+    }
+    @include media(largeScreen){
+      font-size: 36px;
+      @include box-size(80px,80px);
+    }
+  }
+  .cp-step-desc{
+    letter-spacing: -0.05em;
+    color: $black;
+    font-size: 18px;
+    padding-left: 24px;
+    @include flex-width(calc(100% - 40px));
+    @include media(sm){
+      font-size: 20px;
+      padding-left: 32px;
+      @include flex-width(calc(100% - 60px));
+    }
+    @include media(largeScreen){
+      font-size: 24px;
+      padding-left: 60px;
+      @include flex-width(calc(100% - 80px));
+    }
+  }
+}
+.cp-note{
+  @include border();
+  border-color: #D9D9D9;
+  border-radius: 20px;
+  padding: 24px;
+  @include media(sm){
+    padding: 20px 48px;
+  }
+}

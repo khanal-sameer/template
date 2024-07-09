@@ -16,16 +16,15 @@
     <div  class='cp-demo-product-page cp-page-bottom-section cp-bg-white'>
       {{>DemoProductDescription}}
       {{#product_feature_list}}
-        <div class="cp-feature-section cp-mt-10">
+        <div class="cp-feature-section cp-mt-2 cp-xs-mt-8">
           <div class="cp-container">
-            <div class="cp-row">
+            <div class="cp-row cp-justify-center">
               {{#items}}
-                <div class="cp-col cp-col-12 col-col-xs-6 cp-col-md-4">
-                  <div class="cp-product-feature-post cp-border cp-mt-3 cp-default-border-radius cp-text-center">
+                <div class="cp-col cp-col-12 cp-col-xs-6 cp-col-md-4">
+                  <div class="cp-product-feature-post cp-border cp-default-bg cp-default-border-color cp-mt-6 cp-default-border-radius cp-text-center">
                     <div class="cp-icon-section">{{icon}}</div>
                     <h3 class="cp-mb-0 cp-mt-4">{{title}}</h3>
                     <p class="cp-mb-0 cp-mt-4 cp-secondary-text-color">{{desc}}</p>
-
                   </div>
                 </div>
               {{/items}}
@@ -33,7 +32,6 @@
           </div>
         </div>
       {{/product_feature_list}}
-
       {{#video_section}}
         <div class="cp-video-section cp-page-top-section cp-text-center">
           <div class="cp-container">
@@ -47,7 +45,6 @@
           </div>
         </div>
       {{/video_section}}
-
       {{#trusted_by}}
         <div class="cp-trusted-partner-section cp-page-top-section">
           <h3 class="cp-m-0 cp-text-center">{{title}}</h3>
@@ -71,22 +68,23 @@
           </div>
         </div>
       {{/trusted_by}}
-
       {{#benefits}}
         <div class="cp-product-benefits-section cp-page-top-section">
           <div class="cp-container">
-            <div class="cp-desc-wrapper cp-ml-auto cp-mr-auto cp-max-w-full">
-              <h2 class="cp-m-0 cp-text-center cp-fw-medium">{{title}}</h2>
-              <p class="cp-m-0 cp-pt-5 cp-text-center">{{{desc}}}</p>
+            <div class="cp-desc-wrapper cp-ml-auto cp-mr-auto cp-max-w-full cp-xs-text-center">
+              <h2 class="cp-m-0  cp-fw-medium">{{title}}</h2>
+              <p class="cp-m-0 cp-pt-3 cp-xs-pt-5 ">{{{desc}}}</p>
             </div>
-            <div class="cp-d-flex cp-pt-8">
-              <div class="cp-col-12 cp-col-sm-6">
-                <div class="cp-image-section cp-bg-image cp-default-border-radius cp-mt-6" style="background-image: url({{image}})"></div>
+            <div class="cp-d-flex cp-sm-pt-8">
+              <div class="cp-col-12 cp-col-md-6">
+                <div class="cp-image-section cp-bg-image cp-mt-6">
+                  <img src="{{image}}" alt="{{product_title}}" class="cp-image-cover cp-default-border-radius">
+                </div>
               </div><!-- .cp-col -->
-              <div class="cp-col-12 cp-col-sm-6">
-                <div class="cp-desc cp-items-list cp-pt-3 cp-mt-6">
+              <div class="cp-col-12 cp-col-md-6">
+                <div class="cp-desc cp-items-list cp-pt-3 cp-md-mt-6">
                   {{#items}}
-                    <div class="cp-product-feature-item cp-product-feature-item-style-1 cp-d-flex cp-mt-12">
+                    <div class="cp-product-feature-item cp-product-feature-item-style-1 cp-d-flex cp-mt-6 cp-md-mt-12">
                       <div class="cp-icon-section">
                         {{{icon}}}
                       </div>
@@ -96,7 +94,7 @@
                       </div>
                     </div>
                   {{/items}}
-                  <div class="cp-btn-section cp-mt-12">
+                  <div class="cp-btn-section cp-mt-6 cp-md-mt-12">
                     <button class="cp-btn cp-btn-primary-bg cp-w-full"  data-fluid-checkout="{{product_id}}">
                       {{>PlusIcon}}
                       {{add_to_cart_text}}
@@ -108,10 +106,98 @@
           </div><!-- .cp-container -->
         </div><!-- .cp-feature-post-section -->
       {{/benefits}}
-
       {{>DemoProductReviewTab}}
+      {{>DemoKeyIngredientsTab}}
+      {{#feature_product_list}}
+        <div class="cp-feature-product-post cp-page-section-md {{bg_classes}}">
+          <div class="cp-container">
+            <div class="cp-d-flex cp-align-center">
+              <div class="cp-col-12 cp-col-md-6 {{image_ordering_class}}">
+                <div class="cp-image-section cp-bg-image cp-default-border-radius">
+                  <img src="{{image}}" alt="{{product_alt_text}}" class="cp-image-h-435 cp-image-cover cp-default-border-radius ">
+                </div>
+              </div><!-- .cp-col -->
+              <div class="cp-col-12 cp-col-md-6 {{desc_ordering_class}}">
+                <div class="cp-desc cp-mt-7 cp-md-mt-0 {{desc_classes}}">
+                  <h3 class="cp-mt-3 cp-mb-0 cp-fw-medium">{{title}}</h3>
+                  <p class="cp-mt-4 cp-mb-0 cp-line-height-11x">{{desc}}</p>
+                  <div class="cp-btn-section cp-mt-6">
+                    <button class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" data-fluid-checkout="{{product_id}}">
+                      {{buy_now_text}}
+                    </button>
+                  </div> <!-- .cp-btn-section -->
+                </div><!-- .cp-desc -->
+              </div><!-- .cp-col -->
+            </div><!-- .cp-row -->
+          </div><!-- .cp-container -->
+        </div><!-- .cp-product-post -->
+      {{/feature_product_list}}
+      {{#how_to_use}}
+        <div class="cp-how-to-use-section cp-page-top-section">
+          <div class="cp-header-section cp-text-center">
+            <div class="cp-container">
+              <h2 class="cp-m-0">{{title}}</h2>
+              <p class="cp-mb-0 cp-mt-4">{{desc}}</p>
+            </div>
+          </div>
+          <div class="cp-steps-list cp-page-top-section-md">
+            {{#steps}}
+              <div class="cp-how-to-use-steps-item">
+                  <div class="cp-container">
+                    <div class="cp-d-flex cp-align-center">
+                      <div class="cp-step-count-section">
+                        <div class="cp-step-count cp-items-center cp-align-center">{{step_count}}</div>
+                      </div>
+                      <div class="cp-step-desc">{{step_text}}</div>
+                    </div>
+                </div>
+              </div>
+            {{/steps}}
+          </div>
+        </div>
+      {{/how_to_use}}
 
-
+      {{#faq}}
+        <div class="cp-accordion-section cp-page-section">
+          <div class="cp-container">
+            <h2 class="cp-text-center cp-m-0 cp-pl-5 cp-pr-5 cp-sm-p-0">{{title}}</h2>
+            <p class="cp-mt-3 cp-sm-mt-4 cp-mb-0 cp-text-center">{{desc}}</p>
+            <div class="cp-accordion-list cp-pt-3 cp-sm-pt-9">
+              {{>DemoAccordion}}
+            </div>
+          </div>
+        </div>
+      {{/faq}}
+      {{#cta}}
+        <div class="cp-cta-section">
+          <div class="cp-container">
+            <div class="cp-bg-image cp-default-border-radius cp-image-overlay" style="background-image: url({{image}})">
+              <div class="cp-wrapper cp-m-auto cp-position-relative cp-z-index-2">
+                <div class="cp-text-white cp-text-center cp-fs-xxl cp-fw-bold cp-secondary-letter-spacing">{{title}}</div>
+                <div class="cp-btn-section cp-d-flex cp-justify-center cp-col-gap-3 cp-mt-1 cp-sm-mt-3">
+                  <button class="cp-btn cp-btn-white-border cp-mt-3 cp-w-full cp-xs-w-fit-content" data-fluid-subscription-checkout="{{product_id}}">
+                    {{purchase_one_time_text}}
+                    <span class="cp-ml-2">
+                      {{chevron_arrow_right_icon}}
+                    </span>
+                  </button>
+                  <button class="cp-btn cp-btn-primary-bg cp-mt-3  cp-w-full cp-xs-w-fit-content" data-fluid-checkout="{{product_id}}">
+                    {{add_to_subscription_text}}
+                    <span class="cp-ml-2">
+                      {{chevron_arrow_right_icon}}
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/cta}}
+      <div class="cp-notes-section cp-page-top-section-md">
+        <div class="cp-container">
+          <div class="cp-note cp-line-height-11x">{{notes}}</div>
+        </div>
+      </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>

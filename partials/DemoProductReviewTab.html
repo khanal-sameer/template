@@ -1,21 +1,30 @@
 {{#review}}
   <div class="cp-review-tab-section cp-page-top-section">
-    <div class="cp-container">
-      <div class="cp-desc-wrapper cp-text-center">
+    <div class="cp-desc-wrapper cp-text-center">
+      <div class="container">
         <h2 class="cp-m-0">{{title}}</h2>
-        <p>{{desc}}</p>
+        <p class="cp-mb-0 cp-mt-4">{{desc}}</p>
       </div>
-      <ul class="cp-tab-menu cp-reset-ul cp-page-top-section-md">
-        <li class="active"><span>{{written_review_text}}</span></li>
-        <li><span>{{video_review_text}}</span></li>
-      </ul>
-      <ul class="cp-reset-ul cp-tab-menu-content cp-page-top-section-md">
-        <li>
-          <div class="cp-testimonial-section cp-pl-10 cp-pr-10">
-            {{>DemoTestimonialSlider}}
-          </div>
-        </li>
-      </ul>
+    </div>
+    <div class="cp-tab-menu-content-section">
+      <div class="cp-container">
+        <ul class="cp-tab-menu cp-reset-ul cp-page-top-section-md">
+          <li class="active" id="written-review"><span>{{written_review_text}}</span></li>
+          <li id="video-review"><span>{{video_review_text}}</span></li>
+        </ul>
+        <ul class="cp-tab-menu-content cp-reset-ul cp-page-top-section-md">
+          <li class="written-review-content">
+            <div class="cp-testimonial-section cp-pl-6 cp-xs-pl-8 cp-xs-pr-8 cp-lg-pl-10 cp-sm-pr-10">
+              {{>DemoTestimonialSlider}}
+            </div>
+          </li>
+          <li class="video-review-content cp-d-none">
+            <div class="cp-video-section cp-pl-6 cp-xs-pl-8 cp-xs-pr-8 cp-lg-pl-10 cp-sm-pr-10">
+              <h3 class="cp-text-center cp-secondary-text-color">Video Review is not available</h3>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 {{/review}}

@@ -30,7 +30,7 @@
       @include flex-width(calc(100% - 24px));
       @include font-size(16px,20px);
       @include media(sm){
-        font-weight: $font_medium;
+        font-weight: $root_font_weight;
         @include font-size(24px,32px);
         @include flex-width(calc(100% - 28px));
       }

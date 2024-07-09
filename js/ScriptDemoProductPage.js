@@ -37,12 +37,12 @@ function testimonialSlider(){
     mediaQuery: "min",
     rewind: false,
     breakpoints: {
-      768: {
+      576: {
         perPage: 2,
         arrows: true,
         padding: {
-        right: "0px"
-      },
+          right: "0px"
+        },
       },
     },
   });
@@ -53,20 +53,23 @@ function trustedBySlider(){
     arrows: false,
     pagination: false,
     type: "loop",
-    perPage: 2,
+    perPage: 3,
     autoplay: true,
     interval: 2000,
     cover: false,
-    gap: 20,
+    gap: 30,
     mediaQuery: "min",
     rewind: true,
     breakpoints: {
-      1024: {
+      1350:{
         perPage: 7,
         gap: 40,
       },
-      576: {
-        perPage: 3,
+      1024: {
+        perPage: 5,
+      },
+      768: {
+        perPage: 4,
       },
     },
   });
@@ -99,13 +102,38 @@ function quantity(){
     value--;
     quantitySelector.val(value);
   })
-  
 }
+function accordion(){
+  $(document).on("click",".accordion-header",function(){
+    $(".accordion-content").not($(this).next()).slideUp();
+    $(".accordion-item").not($(this).parent()).removeClass("active");
+    $(this).next(".accordion-content").slideToggle();
+    $(this).parent(".accordion-item").toggleClass("active");
+  });
+}
+function tabMenu(){
+  $(document).on("click", ".cp-tab-menu li", function(e){
+    e.preventDefault();
+    var itemID = $(this).attr('id');
+    var tabContentSelector = $(this).closest('.cp-tab-menu').next('.cp-tab-menu-content');
+    // add active class on tab menu item
+    $(this).siblings('li').removeClass("active");
+    $(this).addClass("active");
 
+    // show/hide tab content
+    tabContentSelector.children('li').css('display','none');
+    tabContentSelector.children('li').removeClass('active');
+    tabContentSelector.children('.' + itemID + '-content').css('display','block');
+    tabContentSelector.children('.' + itemID + '-content').addClass('active');
+
+  })
+}
 document.addEventListener("DOMContentLoaded", function () {
   productSlider();
   testimonialSlider();
   trustedBySlider();
   subscribe();
   quantity();
+  accordion();
+  tabMenu();
 });

@@ -8,3 +8,12 @@
     height: 440px;
   }
 }
+.cp-image-h-435{
+  max-height: 250px;
+  @include media(xs){
+    max-height: 300px;
+  }
+  @include media(sm){
+    max-height: 435px;
+  }
+}

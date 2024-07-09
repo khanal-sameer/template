@@ -11,12 +11,6 @@
     padding: 0 24px;
   }
 
-  &.#{$prefix}-sm{
-    // width: 1144px; //1096+48
-  }
-  &.#{$prefix}-md{
-    // width: 1184px; //1136+48
-  }
 }
 .#{$prefix}-row {
   margin: 0 -10px;
@@ -32,12 +26,13 @@
   }
 }
 .#{$prefix}-page-section-md{
-  padding: 24px 0;
+  padding: 32px 0;
   @include media(sm){
     padding: 54px 0;
   }
 }
 .#{$prefix}-page-top-section-md{
+  padding-top: 32px;
   @include media(sm){
     padding-top: 54px;
   }

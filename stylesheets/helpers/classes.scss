@@ -23,9 +23,16 @@ span{
 .#{$prefix}-transition-ease{
   @include transition(all,0.3s,ease);
 }
+img{
+  vertical-align: middle;
+}
 img,
 svg{
   height: auto;
-  vertical-align: middle;
   max-width: 100%;
+}
+.#{$prefix}-image-cover{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }

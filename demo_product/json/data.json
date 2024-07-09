@@ -1,27 +1,30 @@
 {
   "title": "Demo Product",
-  "total_reviews": "5 Reviews",
+  "total_reviews": "3 Reviews",
   "product_title": "Mani Moisture Hydrating Serum",
   "product_desc": "Choose from our collection of wide range of products from moisturiser range for oily skin.",
   "add_to_cart_text": "Add to Cart",
+  "buy_now_text": "Buy Now",
   "product_id": "",
+  "product_alt_text": "Mani Moisture Hydrating Serum",
+  "ratingSvgColor": "#2079FF",
   "chevron_arrow_right_icon": "<svg width=\"7\" height=\"9\" viewBox=\"0 0 7 9\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1.61597 8.02222L5.43292 4.50906L1.5065 0.73456\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>",
   "productSlider":{
     "items":[
       {
-        "image": "../images/slider_1.png"
+        "image": "../images/slider_1.jpg"
       },
       {
-        "image": "../images/slider_1.png"
+        "image": "../images/slider_2.jpg"
       },
       {
-        "image": "../images/slider_1.png"
+        "image": "../images/slider_3.jpg"
       },
       {
-        "image": "../images/slider_1.png"
+        "image": "../images/slider_4.jpg"
       },
       {
-        "image": "../images/slider_1.png"
+        "image": "../images/slider_5.jpg"
       }
     ]
   },
@@ -65,7 +68,7 @@
     ]
   },
   "video_section":{
-    "image":"http://cdn.fluid.app/demo_company/landing/video_bg.jpg",
+    "image":"../images/video_bg.jpg",
     "url":""
   },
   "trusted_by":{
@@ -96,7 +99,7 @@
   },
   "benefits":{
     "title": "Benefits of using Mani Moisturising Serum",
-    "desc": "<span class=\"cp-fw-bold\">Every woman knows about the inconveniences that cycles and hormone changes can bring into life.</span> Experience rapid results through our HydraStat™ Nanotechnology. Our nano-sized ingredients, wrapped in water clusters, are small enough to be absorbed fully by the human cell, which is right where you need them!",
+    "desc": "<strong class=\"cp-fw-bold\">Every woman knows about the inconveniences that cycles and hormone changes can bring into life.</strong> Experience rapid results through our HydraStat™ Nanotechnology. Our nano-sized ingredients, wrapped in water clusters, are small enough to be absorbed fully by the human cell, which is right where you need them!",
     "image": "../images/benefits.jpg",
     "items":[
       {
@@ -120,7 +123,7 @@
     "title": "Hear from our clients",
     "desc": "Choose from our collection of wide range of products.",
     "written_review_text": "Written Reviews (3)",
-    "video_review_text": "Video Reviews (1)"
+    "video_review_text": "Video Reviews (0)"
   },
   "testimonial_section_title": "Hear from our clients",
   "testimonial_desc": "We invite you to explore a world of untapped opportunities.",
@@ -131,7 +134,7 @@
         "address":"{{testimonials.items.0.address}}",
         "recommended_text": "{{testimonials.items.0.recommended_text}}",
         "review_text": "{{testimonials.items.0.review_text}}",
-        "image":"http://cdn.fluid.app/demo_company/landing/mia.jpg",
+        "image":"../images/mia.jpg",
         "recommended_text_class": "cp-d-none"
       },
       {
@@ -139,9 +142,207 @@
         "address":"{{testimonials.items.1.address}}",
         "recommended_text": "{{testimonials.items.1.recommended_text}}",
         "review_text": "{{testimonials.items.1.review_text}}",
-        "image":"http://cdn.fluid.app/demo_company/landing/leon.jpg",
+        "image":"../images/leon.jpg",
+        "recommended_text_class": ""
+      },
+      {
+        "author_name": "{{testimonials.items.2.author_name}}",
+        "address":"{{testimonials.items.2.address}}",
+        "recommended_text": "{{testimonials.items.2.recommended_text}}",
+        "review_text": "{{testimonials.items.2.review_text}}",
+        "image":"../images/leon.jpg",
         "recommended_text_class": ""
       }
     ]
-  }
+  },
+  "ingredients":{
+    "title": "The best product for beautiful and healthy skin",
+    "desc": "Experience rapid results through our HydraStat™ Nanotechnology.",
+    "key_ingredient_text_text": "Key Ingredients",
+    "active_ingredient_text": "Active Ingredients"
+  },
+  "key_ingredients":[
+    {
+      "name": "Ginger",
+      "alt_text": "ginger",
+      "image": "../images/ginger.jpg"
+    },
+    {
+      "name": "Kakai Root",
+      "alt_text": "kakai root",
+      "image": "../images/kakai_root.jpg"
+    },
+    {
+      "name": "Doncai",
+      "alt_text": "doncai",
+      "image": "../images/doncai.jpg"
+    },
+    {
+      "name": "Aswagandha",
+      "alt_text": "aswagandha",
+      "image": "../images/aswagandha.jpg"
+    },
+    {
+      "name": "Maca Root",
+      "alt_text": "maca root",
+      "image": "../images/maca_root.jpg"
+    },
+    {
+      "name": "Chestberry Extract",
+      "alt_text": "chestberry extract",
+      "image": "../images/chestberry_extract.jpg"
+    },
+    {
+      "name": "Ginger",
+      "alt_text": "ginger",
+      "image": "../images/ginger.jpg"
+    },
+    {
+      "name": "Kakai Root",
+      "alt_text": "kakai root",
+      "image": "../images/kakai_root.jpg"
+    }
+  ],
+  "active_ingredients":[
+    {
+      "name": "Aswagandha",
+      "alt_text": "aswagandha",
+      "image": "../images/aswagandha.jpg"
+    },
+    {
+      "name": "Maca Root",
+      "alt_text": "maca root",
+      "image": "../images/maca_root.jpg"
+    },
+    {
+      "name": "Ginger",
+      "alt_text": "ginger",
+      "image": "../images/ginger.jpg"
+    },
+    {
+      "name": "Kakai Root",
+      "alt_text": "kakai root",
+      "image": "../images/kakai_root.jpg"
+    },
+    {
+      "name": "Doncai",
+      "alt_text": "doncai",
+      "image": "../images/doncai.jpg"
+    },
+    {
+      "name": "Chestberry Extract",
+      "alt_text": "chestberry extract",
+      "image": "../images/chestberry_extract.jpg"
+    },
+    {
+      "name": "Doncai",
+      "alt_text": "doncai",
+      "image": "../images/doncai.jpg"
+    },
+    {
+      "name": "Aswagandha",
+      "alt_text": "aswagandha",
+      "image": "../images/aswagandha.jpg"
+    }
+  ],
+  "feature_product_list":[
+    {
+      "title": "Innovative Science",
+      "desc": "The molecules in many supplements are too large to be absorbed by the cell, so they get excreted from the body without being used effectively. Neumi uses breakthrough HydraStat Nanotechnology™ to increase the bio.",
+      "image": "../images/innovative.jpg",
+      "bg_classes": "cp-bg-white-smoke",
+      "desc_classes": "cp-desc-left",
+      "desc_ordering_class": "",
+      "image_ordering_class": ""
+    },
+    {
+      "title": "Nanotechnology",
+      "desc": "The molecules in many supplements are too large to be absorbed by the cell, so they get excreted from the body without being used effectively. Neumi uses breakthrough HydraStat Nanotechnology™ to increase the bio.",
+      "image": "../images/nano.jpg",
+      "bg_classes": "cp-bg-white",
+      "desc_classes": "cp-desc-right",
+      "desc_ordering_class": "cp-md-order-1",
+      "image_ordering_class": "cp-md-order-2"
+    },
+    {
+      "title": "Quality over quantity",
+      "desc": "The molecules in many supplements are too large to be absorbed by the cell, so they get excreted from the body without being used effectively. Neumi uses breakthrough HydraStat Nanotechnology™ to increase the bio.",
+      "image": "../images/quality.jpg",
+      "bg_classes": "cp-bg-white-smoke",
+      "desc_classes": "cp-desc-left",
+      "desc_ordering_class": "",
+      "image_ordering_class": ""
+    }
+  ],
+  "how_to_use":{
+    "title": "How to use",
+    "desc": "Following are the steps to intake the products.",
+    "steps":[
+      {
+        "step_count": "1",
+        "step_text": "Measure two (2) teaspoons of product. One capful = teaspoon."
+      },
+      {
+        "step_count": "2",
+        "step_text": "Swish in your mouth for 30 seconds or more."
+      },
+      {
+        "step_count": "3",
+        "step_text": "Unlike mouthwash, you can swallow Mani. You can also spit it out, if you prefer."
+      },
+      {
+        "step_count": "4",
+        "step_text": "Repeat these steps twice a day. Feel free to use Mani more often, if desired."
+      }
+    ]
+  },
+  "faq":{
+    "title":"{{faq.title}}",
+    "desc":"{{faq.desc}}",
+    "items":[
+      {
+        "title": "{{faq.items.0.title}}",
+        "desc":"{{faq.items.0.desc}}",
+        "item_class":"active",
+        "content_class":""
+      },
+      {
+        "title": "{{faq.items.1.title}}",
+        "desc":"{{faq.items.1.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.2.title}}",
+        "desc":"{{faq.items.2.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.3.title}}",
+        "desc":"{{faq.items.3.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.4.title}}",
+        "desc":"{{faq.items.4.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.5.title}}",
+        "desc":"{{faq.items.5.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      }
+    ]
+  },
+  "cta":{
+    "title": "Find your next favourite product - shop now",
+    "image": "../images/cta.jpg",
+    "purchase_one_time_text": "Purchase One Time",
+    "add_to_subscription_text": "Add to Subscription "
+  },
+  "notes": "The statements made within this website have not been evaluated by the Food and Drug Administration. These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The statements made within this website have not been evaluated by the Food and Drug Administration. These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease."
 }
