@@ -1,4 +1,4 @@
-.cp-bg-image{
+.#{$prefix}-bg-image{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,7 +8,9 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
-.cp-bg-white-smoke{
+.#{$prefix}-bg-white-smoke{
   background-color: $white_smoke;
 }
-  
+.#{$prefix}-bg-white{
+  background-color: $white;
+}
