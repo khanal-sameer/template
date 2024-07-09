@@ -12,19 +12,19 @@
   "productSlider":{
     "items":[
       {
-        "image": "../images/slider_1.jpg"
+        "image": "http://cdn.fluid.app/demo_company/product/slider_1.jpg"
       },
       {
-        "image": "../images/slider_2.jpg"
+        "image": "http://cdn.fluid.app/demo_company/product/slider_2.jpg"
       },
       {
-        "image": "../images/slider_3.jpg"
+        "image": "http://cdn.fluid.app/demo_company/product/slider_3.jpg"
       },
       {
-        "image": "../images/slider_4.jpg"
+        "image": "http://cdn.fluid.app/demo_company/product/slider_4.jpg"
       },
       {
-        "image": "../images/slider_5.jpg"
+        "image": "http://cdn.fluid.app/demo_company/product/slider_5.jpg"
       }
     ]
   },
@@ -68,7 +68,7 @@
     ]
   },
   "video_section":{
-    "image":"../images/video_bg.jpg",
+    "image":"http://cdn.fluid.app/demo_company/product/video_bg.jpg",
     "url":""
   },
   "trusted_by":{
@@ -100,7 +100,7 @@
   "benefits":{
     "title": "Benefits of using Mani Moisturising Serum",
     "desc": "<strong class=\"cp-fw-bold\">Every woman knows about the inconveniences that cycles and hormone changes can bring into life.</strong> Experience rapid results through our HydraStat™ Nanotechnology. Our nano-sized ingredients, wrapped in water clusters, are small enough to be absorbed fully by the human cell, which is right where you need them!",
-    "image": "../images/benefits.jpg",
+    "image": "http://cdn.fluid.app/demo_company/product/benefits.jpg",
     "items":[
       {
         "title": "Eco-Friendly",
@@ -134,7 +134,7 @@
         "address":"{{testimonials.items.0.address}}",
         "recommended_text": "{{testimonials.items.0.recommended_text}}",
         "review_text": "{{testimonials.items.0.review_text}}",
-        "image":"../images/mia.jpg",
+        "image":"http://cdn.fluid.app/demo_company/product/mia.jpg",
         "recommended_text_class": "cp-d-none"
       },
       {
@@ -142,7 +142,7 @@
         "address":"{{testimonials.items.1.address}}",
         "recommended_text": "{{testimonials.items.1.recommended_text}}",
         "review_text": "{{testimonials.items.1.review_text}}",
-        "image":"../images/leon.jpg",
+        "image":"http://cdn.fluid.app/demo_company/product/leon.jpg",
         "recommended_text_class": ""
       },
       {
@@ -150,7 +150,7 @@
         "address":"{{testimonials.items.2.address}}",
         "recommended_text": "{{testimonials.items.2.recommended_text}}",
         "review_text": "{{testimonials.items.2.review_text}}",
-        "image":"../images/leon.jpg",
+        "image":"http://cdn.fluid.app/demo_company/product/leon.jpg",
         "recommended_text_class": ""
       }
     ]
@@ -165,91 +165,91 @@
     {
       "name": "Ginger",
       "alt_text": "ginger",
-      "image": "../images/ginger.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/ginger.jpg"
     },
     {
       "name": "Kakai Root",
       "alt_text": "kakai root",
-      "image": "../images/kakai_root.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/kakai_root.jpg"
     },
     {
       "name": "Doncai",
       "alt_text": "doncai",
-      "image": "../images/doncai.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/doncai.jpg"
     },
     {
       "name": "Aswagandha",
       "alt_text": "aswagandha",
-      "image": "../images/aswagandha.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/aswagandha.jpg"
     },
     {
       "name": "Maca Root",
       "alt_text": "maca root",
-      "image": "../images/maca_root.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/maca_root.jpg"
     },
     {
       "name": "Chestberry Extract",
       "alt_text": "chestberry extract",
-      "image": "../images/chestberry_extract.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/chestberry_extract.jpg"
     },
     {
       "name": "Ginger",
       "alt_text": "ginger",
-      "image": "../images/ginger.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/ginger.jpg"
     },
     {
       "name": "Kakai Root",
       "alt_text": "kakai root",
-      "image": "../images/kakai_root.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/kakai_root.jpg"
     }
   ],
   "active_ingredients":[
     {
       "name": "Aswagandha",
       "alt_text": "aswagandha",
-      "image": "../images/aswagandha.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/aswagandha.jpg"
     },
     {
       "name": "Maca Root",
       "alt_text": "maca root",
-      "image": "../images/maca_root.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/maca_root.jpg"
     },
     {
       "name": "Ginger",
       "alt_text": "ginger",
-      "image": "../images/ginger.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/ginger.jpg"
     },
     {
       "name": "Kakai Root",
       "alt_text": "kakai root",
-      "image": "../images/kakai_root.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/kakai_root.jpg"
     },
     {
       "name": "Doncai",
       "alt_text": "doncai",
-      "image": "../images/doncai.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/doncai.jpg"
     },
     {
       "name": "Chestberry Extract",
       "alt_text": "chestberry extract",
-      "image": "../images/chestberry_extract.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/chestberry_extract.jpg"
     },
     {
       "name": "Doncai",
       "alt_text": "doncai",
-      "image": "../images/doncai.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/doncai.jpg"
     },
     {
       "name": "Aswagandha",
       "alt_text": "aswagandha",
-      "image": "../images/aswagandha.jpg"
+      "image": "http://cdn.fluid.app/demo_company/product/aswagandha.jpg"
     }
   ],
   "feature_product_list":[
     {
       "title": "Innovative Science",
       "desc": "The molecules in many supplements are too large to be absorbed by the cell, so they get excreted from the body without being used effectively. Neumi uses breakthrough HydraStat Nanotechnology™ to increase the bio.",
-      "image": "../images/innovative.jpg",
+      "image": "http://cdn.fluid.app/demo_company/product/innovative.jpg",
       "bg_classes": "cp-bg-white-smoke",
       "desc_classes": "cp-desc-left",
       "desc_ordering_class": "",
@@ -258,7 +258,7 @@
     {
       "title": "Nanotechnology",
       "desc": "The molecules in many supplements are too large to be absorbed by the cell, so they get excreted from the body without being used effectively. Neumi uses breakthrough HydraStat Nanotechnology™ to increase the bio.",
-      "image": "../images/nano.jpg",
+      "image": "http://cdn.fluid.app/demo_company/product/nano.jpg",
       "bg_classes": "cp-bg-white",
       "desc_classes": "cp-desc-right",
       "desc_ordering_class": "cp-md-order-1",
@@ -267,7 +267,7 @@
     {
       "title": "Quality over quantity",
       "desc": "The molecules in many supplements are too large to be absorbed by the cell, so they get excreted from the body without being used effectively. Neumi uses breakthrough HydraStat Nanotechnology™ to increase the bio.",
-      "image": "../images/quality.jpg",
+      "image": "http://cdn.fluid.app/demo_company/product/quality.jpg",
       "bg_classes": "cp-bg-white-smoke",
       "desc_classes": "cp-desc-left",
       "desc_ordering_class": "",
@@ -340,7 +340,7 @@
   },
   "cta":{
     "title": "Find your next favourite product - shop now",
-    "image": "../images/cta.jpg",
+    "image": "http://cdn.fluid.app/demo_company/product/cta.jpg",
     "purchase_one_time_text": "Purchase One Time",
     "add_to_subscription_text": "Add to Subscription "
   },

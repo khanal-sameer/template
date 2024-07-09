@@ -35,7 +35,6 @@ $radio_checked_size_xs: 14px;
   input {
     position: absolute;
     left: 0;
-    left: 0;
     top: 1px;
     opacity: 0;
     outline: none;
@@ -59,8 +58,8 @@ $radio_checked_size_xs: 14px;
           border-radius: 50%;
           @include media(xs){
             @include box-size($radio_checked_size_xs,$radio_checked_size_xs);
-            left: 4px;
-            top: 5px;
+            // left: 4px;
+            // top: 5px;
           }
         }
         &:before {

@@ -8,4 +8,9 @@
   ul{
     align-items: center;
   }
+  // overwrite
+  .splide__slide img{
+    vertical-align: middle;
+    width: auto;
+  }
 }

@@ -10,10 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    {{>Style}}
   </head>
   <body>
-    <div  class='cp-demo-product-page cp-page-bottom-section cp-bg-white'>
+    <div  class='cp-demo-product-page cp-pt-8 cp-page-bottom-section cp-bg-white'>
       {{>DemoProductDescription}}
       {{#product_feature_list}}
         <div class="cp-feature-section cp-mt-2 cp-xs-mt-8">
@@ -201,6 +202,7 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-    <script src="../../js/ScriptDemoProductPage.js"></script>
+    <!-- <script src="../../js/ScriptDemoProductPage.js"></script> -->
+    {{>ScriptDemoProductPage}}
   </body>
 </html>
