@@ -1,0 +1,70 @@
+{
+  "title": "Pahina ng Neumi Shop",
+  "shop_product_button_text": "Bilhin ang aming mga produkto",
+   "language": "tl", "month": "buwan",
+  "hero_section":{
+    "title": "Mga Produkto ng Neumi",
+    "desc": "Mas maganda ang buhay kapag ikaw ay mukhang maganda at maganda ang pakiramdam."
+  },
+  "asSeenOn": {
+    "title": "Tulad ng nakita sa"
+  },
+  "product_list":{
+    "title": "Mga isahang bote",
+    "items":[
+      {
+        "product_name": "NutriSwish",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+      },
+      {
+        "product_name": "Neumi Skin",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+      },
+      {
+        "product_name": "Hers",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+      },
+      {
+        "product_name": "Neuro",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+      }
+    ]
+  },
+  "product_bundle":{
+    "title": "Mga Bundle",
+    "product_name": "Neumi OG Pack",
+    "url": ""
+  },
+  "multiple_product":{
+    "items":[
+      {
+        "product_name": "Hers Essential Pack w/ Neumi Skin",
+        "url": ""
+      },
+      {
+        "product_name": "Hers Essential Pack w/ NutriSwish",
+        "url": ""
+      },
+      {
+        "product_name": "Neumi Skin Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "NutriSwish Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "Classic Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "Hers Premium Pack",
+        "url": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ang bagong ikaw ay nagsisimula sa Neumi."
+  },
+  "note_desc": "Ang mga pahayag na ginawa sa loob ng website na ito ay hindi nasuri ng Food and Drug Administration. Ang mga pahayag na ito at ang mga produkto ng kumpanyang ito ay hindi inilaan upang mag-diagnose, magpagaling, magpagaling o mag-prevent ng anumang sakit. Ang mga pananaw at payo sa nutrisyon na ipinahayag ng Neumi ay hindi inilaan para sa layunin ng pagbibigay ng medikal na payo. Mangyaring laging kumunsulta sa iyong tagapagbigay ng pangangalagang pangkalusugan kung ikaw ay umiinom ng anumang mga gamot o may anumang mga kondisyong medikal. Ang mga indibidwal na resulta ay maaaring mag-iba."
+}

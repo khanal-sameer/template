@@ -1,0 +1,192 @@
+{
+  "title": "Neumi Bizop Oldal",
+  "language": "hu", "month": "hónap",
+  "total_product_review": "7 Vélemény",
+  "get_started_btn_text": "Kezdd el most",
+  "see_all_text": "Mindent látni",
+  "hide_all_text": "Mindet elrejteni",
+  "hero_section": {
+    "title": "Iratkozz fel Neumi Tagként",
+    "desc": "Kezdd meg vállalkozói utadat a Neumival. Csatlakozz hozzánk, hogy hozzáférj a kiváló minőségű kiegészítőkhöz és bőrápoló termékekhez, és lehetőséged legyen saját sikereidet építeni."
+  },
+  "asSeenOn": {
+    "title": "Ahogy látható"
+  },
+  "tab": {
+    "title": "Fedezd fel, hogyan változtatja meg a Neumi az életeket",
+    "video_review_title": "Videós Vélemények <span>(5)</span>",
+    "written_review_title": "Írásos Vélemények <span>(2)</span>",
+    "rating_text": "5 Csillagos Értékelés",
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "Salt Lake City, UT",
+        "time": "2 órája",
+        "review_text": "A Neumi hatalmas változást hozott nekem! Néhány hónapja használom, és jelentős javulást vettem észre az energiaszintemben és az általános vitalitásomban. Hihetetlen, hogy valami ilyen egyszerű ilyen mélyreható hatásokat okozhat. Nagyon ajánlom!"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "Laie, HI",
+        "time": "2 órája",
+        "review_text": "Évekig nehezen tartottam egyensúlyban a hormonháztartásomat, de a Neumi óriási változást hozott. Nemcsak kiegyensúlyozottabbnak és energikusabbnak érzem magam, hanem a bőröm és izmaim tónusában is javulást vettem észre. Tényleg rendkívüli!"
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "Prémium Kedvezmények",
+      "desc": "Élvezd az exkluzív tagkedvezményeket a kiváló minőségű kiegészítőinkre és bőrápoló termékeinkre. Minőségi termékek, több megtakarítás, több lehetőség."
+    },
+    {
+      "title": "Nincs regisztrációs díj",
+      "desc": "Kezdd el a Neumi utadat regisztrációs díj nélkül. Merülj el közvetlenül az üzleted építésében kezdő akadályok nélkül."
+    },
+    {
+      "title": "Oszd meg barátaiddal és családoddal",
+      "desc": "Bővítsd a Neumi hálózatodat úgy, hogy megosztod az előnyöket a barátaiddal és a családoddal. Minden kapcsolat új lehetőségeket nyit."
+    },
+    {
+      "title": "Heti és havi kifizetések",
+      "desc": "A Neumi rendszeresen jutalmazza az erőfeszítéseidet heti és havi keresetekkel. Növeld a hálózatodat, építsd az üzletedet és élvezd a pénzügyi előnyöket."
+    }
+  ],
+  "trip": {
+    "title": "Nyerj utazásokat álomhelyszínekre",
+    "desc": "Miközben építed az üzletedet és gazdagítod azok életét, akik körülötted vannak, elismeréseket kapsz és lehetőséget szerezhetsz csodálatos utazásokra. Nyerj lehetőséget, hogy álomhelyszíneket látogass meg Mexikótól Thaiföldig Monte Carlóig, és bónuszként magaddal vihetsz egy vendéget, hogy együtt élvezzétek az élményt.",
+    "alt_text": "nyerj utazást"
+  },
+  "enrollment": {
+    "title": "Regisztrációs csomagok",
+    "desc": "Kezdd el percek alatt egy általad választott regisztrációs csomag megvásárlásával!",
+    "purchase_btn_text": "Vásárold meg a regisztrációs csomagot",
+    "alt_text": "regisztrációs csomag",
+    "enrollment_slider": [
+      {
+        "title": "Életmód Csomag",
+        "product_count": "8 Neumi Skin + 17 NutriSwish",
+        "price": "1.300,00+$1.000/hónap"
+      },
+      {
+        "title": "Életmód Csomag",
+        "product_count": "8 Neumi Skin + 17 NutriSwish",
+        "price": "1.300,00+$1.000/hónap"
+      }
+    ]
+  },
+  "before_and_after": {
+    "title": "Nézd meg az előtte-utána képeket"
+  },
+  "medical_advisor_board": {
+    "title": "A mi nem fizetett orvosi tanácsadó testületünk",
+    "items": [
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck Orvostudományi Iskola"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMU Osteopátiás Orvostudományi Főiskola"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Írországi Királyi Sebészek Kollégiuma"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Georgia Orvosi Főiskola"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Ösztöndíjas"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "Barcelonai Egyetem Orvostudományi Iskola Traumatológia"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Klinikai Ösztöndíjas"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Orvostudományi és Sebészeti Kar"
+      }
+    ],
+    "hidden_items": [
+      {
+        "name": "James Jian Ho, MD",
+        "university": "Mayo Ösztöndíjas"
+      },
+      {
+        "name": "Joseph Kaplan, MD",
+        "university": "Alabama Egyetem Orvostudományi Iskola"
+      },
+      {
+        "name": "Steven Petrosino, PhD",
+        "university": "LaSalle Egyetem"
+      },
+      {
+        "name": "Jim Hayes, MD",
+        "university": "Sürgősségi Orvoslás. A Sürgősségi Orvosok Szövetségének korábbi elnöke"
+      },
+      {
+        "name": "Dean Stubbs, MD",
+        "university": "Ausztráliai Integratív Orvoslás Vezetője"
+      },
+      {
+        "name": "Tania Ash, MD",
+        "university": "Ausztráliai Integratív Orvoslás Szakértője"
+      },
+      {
+        "name": "Kristin Hieshetter, DC",
+        "university": "Csontkovács Doktor. Metabolikus biokémikus. Táplálkozási tanácsadó. Nem invazív lézerspecialista."
+      },
+      {
+        "name": "Luis Miguel Valdes, MD",
+        "university": "Fül-orr-gégészeti szakember."
+      },
+      {
+        "name": "Bethany Dixon, DC",
+        "university": "Csontkovács és Minősített Orvosi Vizsgáztató. Orvos és tanácsadó a közlekedési iparban."
+      },
+      {
+        "name": "Pacilina Estrella-Barotil, MD",
+        "university": "Családorvos, Kórházvezetési mesterfokozattal; A Wholeness Family Medical Center, Inc. tulajdonosa és orvosi igazgatója, Silang, Fülöp-szigetek."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Gyakran Ismételt Kérdések",
+    "icon_class": "clr-primary",
+    "items": [
+      {
+        "header": "Hogyan lehetek tag?",
+        "desc": "Feliratkozhatsz az alábbi linken: <a href='https://neumi.fluid.app/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/enrollment.</a> Keresd meg a szponzorodat és kövesd a regisztrációs folyamatot."
+      },
+      {
+        "header": "Vannak szerződések?",
+        "desc": ""
+      },
+      {
+        "header": "Bármikor lemondhatom?",
+        "desc": ""
+      },
+      {
+        "header": "Milyen kedvezményeket kapok tagként?",
+        "desc": ""
+      },
+      {
+        "header": "Hogyan működnek a jutalékok és bónuszok?",
+        "desc": ""
+      },
+      {
+        "header": "Milyen ösztönző programok vannak?",
+        "desc": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Egy új te kezdődik a Neumival. Valósítsd meg álmaidat!"
+  },
+  "note_desc": "A webhelyen tett kijelentéseket nem értékelte az Élelmiszer- és Gyógyszerügyi Hivatal. Ezek a kijelentések és a cég termékei nem alkalmasak betegségek diagnosztizálására, kezelésére, gyógyítására vagy megelőzésére. A Neumi által kifejtett vélemények és táplálkozási tanácsok nem szolgálnak orvosi tanácsként. Mindig konzultálj orvosoddal, ha gyógyszereket szedsz vagy egészségügyi problémáid vannak. Az egyéni eredmények változhatnak."
+}

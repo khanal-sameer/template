@@ -1,0 +1,38 @@
+
+a,
+span{
+  display: inline-block;
+}
+.#{$prefix}-img{
+  vertical-align: middle;
+  height: auto;
+  max-width: 100%;
+}
+.#{$prefix}-v-align-middle{
+  vertical-align: middle;
+}
+// height
+.#{$prefix}-h-100{
+  height: 100%;
+}
+// Reset
+.#{$prefix}-reset-ul{
+  @extend %reset-ul;
+}
+// transition
+.#{$prefix}-transition-ease{
+  @include transition(all,0.3s,ease);
+}
+img{
+  vertical-align: middle;
+}
+img,
+svg{
+  height: auto;
+  max-width: 100%;
+}
+.#{$prefix}-image-cover{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}

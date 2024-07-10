@@ -1,0 +1,206 @@
+{
+  "title": "NutriSwish",
+  "product_title": "NutriSwish",
+  "total_product_review": "7 Recensioni",
+  "product_desc":  "<span class=fw-600>Il rivoluzionario integratore alimentare alimentato dalla tecnologia HydraStat Nano per un'assorbimento istantaneo,</span> offrendo supporto immunitario e salute delle articolazioni.",
+  "add_to_cart_text": "Aggiungi al carrello",
+  "select_quantity_text": "Seleziona quantità",
+  "all_product_text": "Tutti i prodotti",
+  "language": "it", "month": "mese",
+  "subscribe": {
+    "subscribe_text":"Abbonati",
+    "frequency_text": "Seleziona frequenza",
+    "checklist_items":[
+      {
+        "caption": "Abbonati e risparmia <span class='price_container is-hide' id='saving'>$15</span>"
+      },
+      {
+        "caption": "Guadagna punti premio Neumi"
+      },
+      {
+        "caption": "Garanzia di rimborso di 30 giorni"
+      },
+      {
+        "caption": "Aggiorna il tuo abbonamento in qualsiasi momento"
+      }
+    ],
+    "one_time_purchase_text":"Acquisto singolo"
+  },
+  "free_shipping_desc": "Spedizione gratuita negli Stati Uniti per ordini superiori a $200",
+  "benefits":{
+    "title": "Benefici",
+    "items":[
+      {
+        "caption":"Ingredienti chiave per massimizzare l'assorbimento e l'efficacia, ogni giorno."
+      },
+      {
+        "caption":"Ogni lotto è sottoposto a rigorosi test di terze parti per garantire l'impegno alla purezza e alla sicurezza."
+      },
+      {
+        "caption": "Offriamo una garanzia di rimborso di 30 giorni, senza fare domande."
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Come visto su"
+  },
+
+  "tab":{
+    "title": "Guarda come NutriSwish sta cambiando le vite",
+    "video_review_title": "Recensioni video <span>(5)</span>",
+    "written_review_title": "Recensioni scritte <span>(2)</span>",
+    "rating_text": "Valutazione a 5 stelle",
+    "review_list": [
+      {
+          "reviewer": "Aidan D.",
+          "address": "Salt Lake City, UT",
+          "time": "2 ore fa",
+          "review_text": "Nutriswish è stato un cambiamento radicale per me! Lo uso da alcuni mesi ormai e ho notato un miglioramento significativo nei miei livelli di energia e nella vitalità generale. È incredibile come qualcosa di così semplice possa avere effetti così profondi. Altamente raccomandato!"
+      },
+      {
+          "reviewer": "Lola P.",
+          "address": "Laie, HI",
+          "time": "2 ore fa",
+          "review_text": "Ho avuto difficoltà a mantenere l'equilibrio ormonale per anni, ma Nutriswish ha fatto una grande differenza. Non solo mi sento più equilibrata ed energica, ma ho anche notato miglioramenti nel tono della pelle e del tono muscolare. È davvero notevole!"
+      }
+    ]
+  },
+  "product_benefits":{
+    "title": "Benefici dell'uso di NutriSwish",
+    "desc": "Per mantenere livelli ottimali, sono necessari trattamenti IV frequenti e costosi, che possono essere poco pratici per molte persone.<span class='fw-600'> Al contrario, NutriSwish utilizza il nano glutatione, che offre diversi vantaggi distinti rispetto ai trattamenti IV.</span>",
+    "alt_text": "prodotto nutriswish",
+    "items_left": [
+      {
+        "title": "Rilascio sostenuto",
+        "desc": "La somministrazione orale consente un rilascio più costante e sostenuto del glutatione nel flusso sanguigno."
+      },
+      {
+        "title": "Maggiore biodisponibilità",
+        "desc": "Le particelle di glutatione di dimensioni nanometriche significano che una maggiore proporzione di glutatione viene utilizzata, massimizzando i suoi benefici antiossidanti."
+      }
+    ],
+    "items_right": [
+      {
+        "title": "Convenienza",
+        "desc": "Convenienza senza pari rispetto ai trattamenti IV più invasivi e che richiedono tempo."
+      },
+      {
+        "title": "Convenienza economica",
+        "desc": "Un'alternativa più conveniente ai trattamenti regolari di glutatione IV. Elimina la necessità di visite frequenti in clinica, riducendo i costi complessivi."
+      }
+    ]
+  },
+  "product_post_list":[
+    {
+      "title": "Scienza innovativa",
+      "desc": "Il glutatione è il protettore e disintossicante della cellula.<span class=fw-600 highlight-text> È la chiave per la vita, la salute, le prestazioni, la protezione e la longevità di ogni cellula umana.</span>"
+    },
+    {
+      "title": "Nanotecnologia HydraStat™",
+      "desc": "<span class=fw-600>Particelle di dimensioni nanometriche protette da cluster di acqua ultra pura.</span> I nostri ingredienti di dimensioni nanometriche sono abbastanza piccoli da essere completamente assorbiti nella cellula umana."
+    },
+    {
+      "title": "Qualità sulla quantità",
+      "desc": " Un integratore è buono quanto la sua biodisponibilità, che è la sua capacità di essere assorbito e utilizzato dal corpo.<span class=fw-600 highlight-text> Il sistema di consegna corretto consegna gli ingredienti al tuo corpo in un modo che il tuo corpo può assorbire e utilizzare.</span>"
+    }
+  ],
+  "key_ingredients":{
+    "title": "Ingredienti chiave di NutriSwish",
+    "ingredients": "<span class=fw-600>Ingredienti attivi:</span>ACQUA ULTRA PURA, GLUTATIONE, L-CISTEINA, ASCORBATO DI CALCIO, CURCUMINA, ACIDO TARTARICO, SORBATO DI POTASSIO, ESTRATTO DI MENTA PIPERITA. *L'IMMAGINE MOSTRA UNA PIANTA/ALIMENTO IN CUI L'INGREDIENTE ATTIVO È PRESENTE E NON NECESSARIAMENTE LA FONTE DA CUI VIENE ESTRATTO.",
+    "item_list_desktop":[
+      {
+        "item":[
+          {
+            "item_name": "Glutatione*"
+          },
+          {
+            "item_name": "Acido tartarico*"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "Ascorbato di calcio*"
+          },
+          {
+            "item_name": "Curcumina"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "L-Cisteina*"
+          },
+          {
+            "item_name": "Sorbato di potassio*"
+          }
+        ]
+      }
+    ],
+    "items_list":[
+      {
+        "item_name": "Glutatione*"
+      },
+      {
+        "item_name": "Ascorbato di calcio*"
+      },
+      {
+        "item_name": "L-Cisteina*"
+      },
+      {
+        "item_name": "Acido tartarico*"
+      },
+      {
+        "item_name": "Curcumina"
+      },
+      {
+        "item_name": "Sorbato di potassio*"
+      }
+    ]
+  },
+  "how_to_use":{
+    "title": "Come assumere",
+    "steps": [
+      {
+        "caption": "Misurare due (2) cucchiaini di prodotto. Un tappo = cucchiaino."
+      },
+      {
+        "caption": "Sciacquare in bocca per 30 secondi o più."
+      },
+      {
+        "caption": "A differenza del collutorio, puoi ingoiare NutriSwish. Puoi anche sputarlo, se preferisci."
+      },
+      {
+        "caption": "Ripeti questi passaggi due volte al giorno. Sentiti libero di usare NutriSwish più spesso, se lo desideri."
+      }
+    ]
+  },
+  "faq":{
+    "title": "Benefici del glutatione",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "Sistema immunitario rafforzato",
+        "desc": "Il glutatione può neutralizzare i radicali liberi e proteggere il corpo dai loro effetti dannosi. Aiuta anche a ridurre l'infiammazione e supporta la capacità naturale del corpo di combattere le infezioni. Inoltre, svolge un ruolo nella sintesi di nuove cellule immunitarie, mantenendo il sistema immunitario al meglio."
+      },
+      {
+        "class": "",
+        "header": "Maggiore energia",
+        "desc": "Aiuta anche a ridurre l'infiammazione e supporta la capacità naturale del corpo di combattere le infezioni. Inoltre, svolge un ruolo nella sintesi di nuove cellule immunitarie, mantenendo il sistema immunitario al meglio."
+      },
+      {
+        "class": "",
+        "header": "Maggiore resistenza e stamina",
+        "desc": "Aiuta anche a ridurre l'infiammazione e supporta la capacità naturale del corpo di combattere le infezioni. Inoltre, svolge un ruolo nella sintesi di nuove cellule immunitarie, mantenendo il sistema immunitario al meglio."
+      }
+    ]
+  },
+  "cta":{
+    "title": "Un nuovo te inizia con Neumi",
+    "subscription_text": "Aggiungi all'abbonamento",
+    "purchase_text": "Acquisto singolo"
+  },
+  "note_desc": "Le dichiarazioni fatte su questo sito Web non sono state valutate dalla Food and Drug Administration. Queste dichiarazioni e i prodotti di questa azienda non sono destinati a diagnosticare, trattare, curare o prevenire alcuna malattia. Le opinioni e i consigli nutrizionali espressi da Neumi non hanno lo scopo di fornire consigli medici. Consultare sempre il proprio medico se si stanno assumendo farmaci o si hanno condizioni mediche. I risultati individuali possono variare."
+}

@@ -1,0 +1,34 @@
+$screen_size: xs,sm,md,lg,largeScreen;
+$corner:(
+  pt padding-top,
+  pl padding-left,
+  pb padding-bottom,
+  pr padding-right
+);
+
+.#{$prefix}-p-0{
+  padding: 0;
+}
+@each $padding in $corner{
+  @for $i from 0 through 32{
+    .#{$prefix}-#{nth($padding,1)}-#{$i}{
+      #{nth($padding,2)} : $i * 4px;
+    }
+  }
+}
+@each $screenSize in $screen_size{
+  .#{$prefix}-#{$screenSize}-p-0{
+    @include media($screenSize){
+      padding: 0;
+    }
+  }
+  @each $padding in $corner{
+    @for $i from 0 through 32{
+      .#{$prefix}-#{$screenSize}-#{nth($padding,1)}-#{$i}{
+        @include media($screenSize){
+          #{nth($padding,2)} : $i * 4px;
+        }
+      }
+    }
+  }
+}

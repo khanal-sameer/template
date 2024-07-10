@@ -1,0 +1,52 @@
+{{#ingredients}}
+  <div class="cp-ingredients-section cp-page-section">
+    <div class="cp-container">
+      <div class="cp-desc-wrapper cp-text-center cp-pl-4 cp-pr-4 cp-xs-p-0">
+        <h2 class="cp-m-0">{{title}}</h2>
+        <p class="cp-mb-0 cp-mt-4">{{desc}}</p>
+      </div>
+    </div>
+    <div class="cp-tab-menu-content-section">
+      <div class="cp-container">
+        <ul class="cp-tab-menu cp-reset-ul cp-page-top-section-md">
+          <li class="active" id="key-ingredient"><span>{{key_ingredient_text_text}}</span></li>
+          <li id="active-ingredient"><span>{{active_ingredient_text}}</span></li>
+        </ul>
+        <ul class="cp-reset-ul cp-tab-menu-content cp-sm-pt-5 cp-pl-6 cp-pr-6">
+          <li class="key-ingredient-content">
+            <div class="cp-key-ingredient-section">
+              <div class="cp-row cp-justify-center">
+                {{#key_ingredients}}
+                  <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                    <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                      <div class="cp-image-section">
+                        <img src="{{image}}" alt="{{alt_text}}" class="cp-image-cover ">
+                      </div>
+                      <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">{{name}}</div>
+                    </div>
+                  </div>
+                {{/key_ingredients}}
+              </div>
+            </div>
+          </li>
+          <li class="active-ingredient-content cp-d-none">
+            <div class="cp-active-ingredient-section">
+              <div class="cp-row cp-justify-center">
+                {{#active_ingredients}}
+                  <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                    <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                      <div class="cp-image-section">
+                        <img src="{{image}}" alt="{{alt_text}}" class="cp-image-cover ">
+                      </div>
+                      <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">{{name}}</div>
+                    </div>
+                  </div>
+                {{/active_ingredients}}
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+{{/ingredients}}

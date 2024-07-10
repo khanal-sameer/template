@@ -1,0 +1,192 @@
+{
+  "title": "Neumi Bizop 페이지",
+  "language": "ko", "month": "월",
+  "total_product_review": "7 리뷰",
+  "get_started_btn_text": "시작하기",
+  "see_all_text": "모두 보기",
+  "hide_all_text": "모두 숨기기",
+  "hero_section": {
+    "title": "Neumi 회원으로 등록하세요",
+    "desc": "Neumi와 함께하는 기업가의 여정을 시작하세요. 프리미엄 보충제와 스킨케어 제품에 접근하고, 자신의 성공을 창조할 기회를 만나보세요."
+  },
+  "asSeenOn": {
+    "title": "다음과 같이 본"
+  },
+  "tab": {
+    "title": "Neumi가 삶을 어떻게 변화시키는지 보세요",
+    "video_review_title": "비디오 리뷰 <span>(5)</span>",
+    "written_review_title": "글로 된 리뷰 <span>(2)</span>",
+    "rating_text": "5성급 평가",
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "UT, 솔트레이크시티",
+        "time": "2시간 전",
+        "review_text": "Neumi는 저에게 혁신적인 변화를 가져왔습니다! 몇 달간 사용한 결과, 에너지 수준과 전반적인 활력 개선을 눈에 띄게 느끼고 있습니다. 이렇게 간단한 것이 이처럼 깊은 영향을 미칠 수 있다니 놀랍습니다. 강력 추천합니다!"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "HI, Laie",
+        "time": "2시간 전",
+        "review_text": "여러 해 동안 호르몬 균형을 유지하는 데 어려움을 겪었지만, Neumi는 큰 도움이 되었습니다. 균형 잡힌 느낌과 더불어 피부 톤과 근육 톤 개선도 느껴지고 있습니다. 정말 놀라운 제품입니다!"
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "프리미엄 할인",
+      "desc": "우리의 최고급 보충제 및 스킨케어 제품에 대해 회원 전용 할인을 즐기세요. 품질 높은 제품과 더 많은 절감, 더 큰 기회를 제공합니다."
+    },
+    {
+      "title": "등록 수수료 없음",
+      "desc": "Neumi 여정을 등록 수수료 없이 시작하세요. 초기 장벽 없이 비즈니스 구축에 곧바로 뛰어들 수 있습니다."
+    },
+    {
+      "title": "친구 및 가족과 공유",
+      "desc": "친구와 가족에게 혜택을 공유함으로써 Neumi 네트워크를 확장하세요. 각 연결은 더 큰 가능성의 문을 엽니다."
+    },
+    {
+      "title": "주간 및 월간 보상 받기",
+      "desc": "Neumi는 귀하의 노력을 정기적으로 주간 및 월간 수익으로 보상합니다. 네트워크를 성장시키고 비즈니스를 구축하며 재정적 보상을 누려보세요."
+    }
+  ],
+  "trip": {
+    "title": "꿈의 목적지로의 여행 획득",
+    "desc": "귀하의 비즈니스를 성장시키고 주변 사람들의 삶을 더욱 풍요롭게 만들면서, 인정을 받고 멋진 여행 자격을 얻으세요. 멕시코부터 태국, 몬테카를로까지 버킷리스트 목적지 방문의 기회를 얻으세요. 추가로 게스트를 초대해 경험을 함께 나눌 수 있습니다.",
+    "alt_text": "여행 획득"
+  },
+  "enrollment": {
+    "title": "등록 팩",
+    "desc": "원하는 등록 팩을 구매하여 몇 분 만에 시작하세요!",
+    "purchase_btn_text": "회원 팩 구매",
+    "alt_text": "등록 팩",
+    "enrollment_slider": [
+      {
+        "title": "라이프스타일 번들 팩",
+        "product_count": "8 Neumi Skin + 17 NutriSwish",
+        "price": "1,300.00+$1,000/mo"
+      },
+      {
+        "title": "라이프스타일 번들 팩",
+        "product_count": "8 Neumi Skin + 17 NutriSwish",
+        "price": "1,300.00+$1,000/mo"
+      }
+    ]
+  },
+  "before_and_after": {
+    "title": "변화를 확인하세요"
+  },
+  "medical_advisor_board": {
+    "title": "우리의 비유금 의료 자문 위원회",
+    "items": [
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck School of Medicine"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMU College of Osteopathic Medicine"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Royal College of Surgeons in Ireland"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Medical College of Georgia"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Fellow"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "University of Barcelona School of Medicine Traumatology"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Clinical Fellow"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Faculty of Medicine and Surgery"
+      }
+    ],
+    "hidden_items": [
+      {
+        "name": "James Jian Ho, MD",
+        "university": "Mayo Fellow"
+      },
+      {
+        "name": "Joseph Kaplan, MD",
+        "university": "University of Alabama School of Medicine"
+      },
+      {
+        "name": "Steven Petrosino, PhD",
+        "university": "LaSalle University"
+      },
+      {
+        "name": "Jim Hayes, MD",
+        "university": "Emergency Medicine. Past President of the Association of Emergency Physicians"
+      },
+      {
+        "name": "Dean Stubbs, MD",
+        "university": "Australian Leader in Integrative Medicine"
+      },
+      {
+        "name": "Tania Ash, MD",
+        "university": "Australian Integrative Medicine Specialist"
+      },
+      {
+        "name": "Kristin Hieshetter, DC",
+        "university": "Doctor of Chiropractic. Metabolic biochemist. Certified in Nutrition. Non-invasive Laser specialist."
+      },
+      {
+        "name": "Luis Miguel Valdes, MD",
+        "university": "Medical Specialist Ear Nose and Throat."
+      },
+      {
+        "name": "Bethany Dixon, DC",
+        "university": "Chiropractor and Certified Medical Examiner. Physician and consultant to the transportation industry."
+      },
+      {
+        "name": "Pacilina estrella-Barotil, MD",
+        "university": "Family Practitioner with a Masters degree in Hospital Administration;  Owner and Medical Director of Wholeness Family Medical Center, Inc., Silang, Philippines."
+      }
+    ]
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "icon_class": "clr-primary",
+    "items": [
+      {
+        "header": "어떻게 회원이 되나요?",
+        "desc": "<a href='https://neumi.fluid.app/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'>Neumi.com/corporphan/enrollment</a> 주소로 가셔서 등록할 수 있습니다. 스폰서를 찾고 등록 과정을 따라가세요."
+      },
+      {
+        "header": "계약 조건이 있나요?",
+        "desc": ""
+      },
+      {
+        "header": "언제든지 취소할 수 있나요?",
+        "desc": ""
+      },
+      {
+        "header": "회원으로 어떤 할인 혜택을 받나요?",
+        "desc": ""
+      },
+      {
+        "header": "커미션과 보너스는 어떻게 작동하나요?",
+        "desc": ""
+      },
+      {
+        "header": "인센티브 프로그램은 무엇인가요?",
+        "desc": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "새로운 자신을 Neumi와 함께 만들어 보세요. 꿈을 현실로 만들어보세요!"
+  },
+  "note_desc": "본 웹사이트에서 제시된 주장은 식품 및 의약품 관리청(FDA)에 의해 검증되지 않았습니다. 이러한 주장과 이 회사의 제품은 질병을 진단, 치료, 예방하기 위한 것이 아닙니다. Neumi가 제공하는 의견과 영양 조언은 의료 조언을 제공하기 위한 목적으로 사용되지 않습니다. 약물을 복용 중이거나 의료 상태가 있는 경우 언제든지 건강 관리 제공자와 상의하십시오. 개인 결과는 다를 수 있습니다."
+}

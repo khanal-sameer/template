@@ -1,0 +1,70 @@
+{
+  "title": "หน้าร้าน Neumi",
+  "shop_product_button_text": "ช็อปสินค้าของเรา",
+  "language": "th", "month": "เดือน",
+  "hero_section":{
+    "title": "ผลิตภัณฑ์ Neumi",
+    "desc": "ชีวิตดีขึ้นเมื่อคุณดูแลตัวเองให้ดีและรู้สึกดี"
+  },
+  "asSeenOn": {
+    "title": "เห็นได้ใน"
+  },
+  "product_list":{
+    "title": "ขวดเดี่ยว",
+    "items":[
+      {
+        "product_name": "NutriSwish",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+      },
+      {
+        "product_name": "Neumi Skin",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+      },
+      {
+        "product_name": "Hers",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+      },
+      {
+        "product_name": "Neuro",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+      }
+    ]
+  },
+  "product_bundle":{
+    "title": "ชุดสินค้า",
+    "product_name": "ชุด Neumi OG",
+    "url": ""
+  },
+  "multiple_product":{
+    "items":[
+      {
+        "product_name": "ชุด Hers Essential Pack พร้อม Neumi Skin",
+        "url": ""
+      },
+      {
+        "product_name": "ชุด Hers Essential Pack พร้อม NutriSwish",
+        "url": ""
+      },
+      {
+        "product_name": "ชุด Neumi Skin Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "ชุด NutriSwish Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "ชุด Classic Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "ชุด Hers Premium Pack",
+        "url": ""
+      }
+    ]
+  },
+  "cta":{
+    "title": "การเริ่มต้นความเป็นคุณใหม่เริ่มต้นที่ Neumi"
+  },
+  "note_desc": "ข้อความที่แสดงในเว็บไซต์นี้ยังไม่ได้รับการตรวจสอบโดยองค์การอาหารและยา ข้อความเหล่านี้และผลิตภัณฑ์ของบริษัทนี้ไม่ได้มีวัตถุประสงค์ในการวินิจฉัย รักษา บรรเทา หรือป้องกันโรคใด ๆ มุมมองและคำแนะนำทางโภชนาการที่แสดงโดย Neumi ไม่ได้มีจุดประสงค์เพื่อให้คำปรึกษาทางการแพทย์ กรุณาปรึกษาแพทย์ผู้เชี่ยวชาญเสมอหากคุณกำลังทานยาหรือมีภาวะทางการแพทย์ใด ๆ ผลลัพธ์ของแต่ละบุคคลอาจแตกต่างกันไป"
+}

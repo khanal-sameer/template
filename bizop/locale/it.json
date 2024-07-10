@@ -1,0 +1,192 @@
+{
+  "title": "Pagina Neumi Bizop",
+  "language": "it", "month": "mese",
+  "total_product_review": "7 Recensioni",
+  "get_started_btn_text": "Inizia ora",
+  "see_all_text": "Vedi tutto",
+  "hide_all_text": "Nascondi tutto",
+  "hero_section": {
+    "title": "Iscriviti come Membro Neumi",
+    "desc": "Inizia il tuo viaggio imprenditoriale con Neumi. Unisciti a noi per accedere a integratori e prodotti per la cura della pelle di alta qualità e avere la possibilità di costruire il tuo successo."
+  },
+  "asSeenOn": {
+    "title": "Come visto su"
+  },
+  "tab": {
+    "title": "Scopri come Neumi sta cambiando le vite",
+    "video_review_title": "Recensioni Video <span>(5)</span>",
+    "written_review_title": "Recensioni Scritte <span>(2)</span>",
+    "rating_text": "Valutazione 5 Stelle",
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "Salt Lake City, UT",
+        "time": "2 ore fa",
+        "review_text": "Neumi è stato un cambiamento radicale per me! Lo uso da alcuni mesi e ho notato un miglioramento significativo nei miei livelli di energia e nella vitalità generale. È incredibile come qualcosa di così semplice possa avere effetti così profondi. Altamente raccomandato!"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "Laie, HI",
+        "time": "2 ore fa",
+        "review_text": "Ho avuto difficoltà a mantenere l'equilibrio ormonale per anni, ma Neumi ha fatto una differenza enorme. Non solo mi sento più equilibrata ed energica, ma ho anche notato miglioramenti nel tono della pelle e dei muscoli. È davvero straordinario!"
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "Sconti Premium",
+      "desc": "Goditi sconti esclusivi per i membri sui nostri integratori e prodotti per la cura della pelle di alta qualità. Prodotti di qualità, più risparmi, maggiori opportunità."
+    },
+    {
+      "title": "Nessuna tassa di iscrizione",
+      "desc": "Inizia il tuo viaggio con Neumi senza tasse di iscrizione. Immergiti direttamente nella costruzione del tuo business senza barriere iniziali."
+    },
+    {
+      "title": "Condividi con amici e famiglia",
+      "desc": "Espandi la tua rete Neumi condividendo i benefici con amici e familiari. Ogni connessione apre una porta a maggiori possibilità."
+    },
+    {
+      "title": "Pagamenti settimanali e mensili",
+      "desc": "Neumi ricompensa i tuoi sforzi con guadagni settimanali e mensili regolari. Cresci la tua rete, costruisci il tuo business e goditi i benefici finanziari."
+    }
+  ],
+  "trip": {
+    "title": "Guadagna viaggi verso destinazioni da sogno",
+    "desc": "Mentre costruisci il tuo business e arricchisci la vita di chi ti circonda, ricevi riconoscimenti e puoi qualificarti per incredibili viaggi. Guadagna l'opportunità di visitare destinazioni da sogno dal Messico alla Thailandia a Monte Carlo e, come bonus, puoi portare un ospite per condividere l'esperienza insieme.",
+    "alt_text": "guadagna viaggio"
+  },
+  "enrollment": {
+    "title": "Pacchetti di iscrizione",
+    "desc": "Inizia in pochi minuti acquistando un pacchetto di iscrizione a tua scelta!",
+    "purchase_btn_text": "Acquista il pacchetto di iscrizione",
+    "alt_text": "pacchetto di iscrizione",
+    "enrollment_slider": [
+      {
+        "title": "Pacchetto Lifestyle",
+        "product_count": "8 Neumi Skin + 17 NutriSwish",
+        "price": "1.300,00+$1.000/mese"
+      },
+      {
+        "title": "Pacchetto Lifestyle",
+        "product_count": "8 Neumi Skin + 17 NutriSwish",
+        "price": "1.300,00+$1.000/mese"
+      }
+    ]
+  },
+  "before_and_after": {
+    "title": "Guarda i prima e dopo"
+  },
+  "medical_advisor_board": {
+    "title": "Il nostro consiglio medico non remunerato",
+    "items": [
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck School of Medicine"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMU College of Osteopathic Medicine"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Royal College of Surgeons in Ireland"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Medical College of Georgia"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Fellow"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "University of Barcelona School of Medicine Traumatology"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Clinical Fellow"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Faculty of Medicine and Surgery"
+      }
+    ],
+    "hidden_items": [
+      {
+        "name": "James Jian Ho, MD",
+        "university": "Mayo Fellow"
+      },
+      {
+        "name": "Joseph Kaplan, MD",
+        "university": "University of Alabama School of Medicine"
+      },
+      {
+        "name": "Steven Petrosino, PhD",
+        "university": "LaSalle University"
+      },
+      {
+        "name": "Jim Hayes, MD",
+        "university": "Emergency Medicine. Past President of the Association of Emergency Physicians"
+      },
+      {
+        "name": "Dean Stubbs, MD",
+        "university": "Australian Leader in Integrative Medicine"
+      },
+      {
+        "name": "Tania Ash, MD",
+        "university": "Australian Integrative Medicine Specialist"
+      },
+      {
+        "name": "Kristin Hieshetter, DC",
+        "university": "Doctor of Chiropractic. Metabolic biochemist. Certified in Nutrition. Non-invasive Laser specialist."
+      },
+      {
+        "name": "Luis Miguel Valdes, MD",
+        "university": "Medical Specialist Ear Nose and Throat."
+      },
+      {
+        "name": "Bethany Dixon, DC",
+        "university": "Chiropractor and Certified Medical Examiner. Physician and consultant to the transportation industry."
+      },
+      {
+        "name": "Pacilina Estrella-Barotil, MD",
+        "university": "Family Practitioner with a Masters degree in Hospital Administration;  Owner and Medical Director of Wholeness Family Medical Center, Inc., Silang, Philippines."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "icon_class": "clr-primary",
+    "items": [
+      {
+        "header": "Come divento un membro?",
+        "desc": "Puoi iscriverti andando su<a href='https://neumi.fluid.app/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/enrollment.</a> Cerca il tuo sponsor e segui il processo di iscrizione."
+      },
+      {
+        "header": "Ci sono contratti?",
+        "desc": ""
+      },
+      {
+        "header": "Posso cancellare in qualsiasi momento?",
+        "desc": ""
+      },
+      {
+        "header": "Quali sconti ottengo come membro?",
+        "desc": ""
+      },
+      {
+        "header": "Come funzionano le commissioni e i bonus?",
+        "desc": ""
+      },
+      {
+        "header": "Quali sono i programmi di incentivi?",
+        "desc": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Una nuova te inizia con Neumi. Realizza i tuoi sogni!"
+  },
+  "note_desc": "Le dichiarazioni fatte in questo sito non sono state valutate dalla Food and Drug Administration. Queste dichiarazioni e i prodotti di questa azienda non sono intesi per diagnosticare, trattare, curare o prevenire alcuna malattia. Le opinioni e i consigli nutrizionali espressi da Neumi non sono intesi per fornire consulenza medica. Consulta sempre il tuo medico se stai assumendo farmaci o hai condizioni mediche. I risultati individuali possono variare."
+}

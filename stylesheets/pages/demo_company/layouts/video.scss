@@ -1,0 +1,23 @@
+.#{$prefix}-video-section{
+  .#{$prefix}-image-section{
+    height: 233px;
+    @include media(sm){
+      height: 350px;
+    }
+    @include media(sm){
+      height:500px;
+    }
+    @include media(lg){
+      height: 650px;
+    }
+  }
+  .#{$prefix}-play-icon{
+    width: 51px;
+    @include media(sm){
+      width: 102px;
+    }
+    &:hover{
+      opacity: 0.9;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.cp-default-border-radius{
+  border-radius: 16px;
+  &:before{
+    border-radius: inherit;
+  }
+  @include media(sm){
+    border-radius: 40px;
+  }
+}
+.cp-default-border-color{
+  border-color: #EBEBEB;
+}

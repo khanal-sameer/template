@@ -1,0 +1,191 @@
+{
+  "title": "หน้า Bizop ของ Neumi",
+  "language": "th", "month": "เดือน",
+  "total_product_review": "7 รีวิว",
+  "get_started_btn_text": "เริ่มต้น",
+  "see_all_text": "ดูทั้งหมด",
+  "hide_all_text": "ซ่อนทั้งหมด",
+  "hero_section": {
+    "title": "สมัครเป็นสมาชิก Neumi",
+    "desc": "เริ่มการเป็นนักธุรกิจของคุณกับ Neumi พร้อมเข้าร่วมด้วยกันเพื่อใช้ผลิตภัณฑ์เสริมอาหารและผลิตภัณฑ์ดูแลผิวที่ดี และมีโอกาสสร้างความสำเร็จของคุณเอง"
+  },
+  "asSeenOn": {
+    "title": "เห็นได้ใน"
+  },
+  "tab": {
+    "title": "ดูว่า Neumi ได้เปลี่ยนชีวิตคนอื่นอย่างไร",
+    "video_review_title": "รีวิววีดีโอ <span>(5)</span>",
+    "written_review_title": "รีวิวเขียน <span>(2)</span>",
+    "rating_text": "คะแนน 5 ดาว",
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "Salt Lake City, UT",
+        "time": "2 ชั่วโมงที่ผ่านมา",
+        "review_text": "Neumi เป็นเกมเปลี่ยนแปลงสำหรับฉัน! ฉันใช้มันมาหลายเดือนแล้ว และฉันได้สังเกตการดีขึ้นอย่างมากในระดับพลังงานและความสดชื่นทั่วไปของฉัน มันน่าแปลกใจว่าสิ่งที่ง่ายๆ สามารถมีผลกระทบที่หลากหลายได้ถึงระดับนี้ แนะนำให้ลอง!"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "Laie, HI",
+        "time": "2 ชั่วโมงที่ผ่านมา",
+        "review_text": "ฉันต่อสู้กับการรักษาสมดุลฮอร์โมนมาหลายปีแล้ว แต่ Neumi ทำให้เปลี่ยนแปลงได้มาก ไม่เพียงแต่ฉันรู้สึกมีสมดุลและพลังในการทำงานมากขึ้น แต่ฉันยังสังเกตการดีขึ้นในโทนผิวและกล้ามเนื้อ มันเป็นสิ่งที่น่าอัศจรรย์จริงๆ!"
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "ส่วนลดพิเศษ",
+      "desc": "เพลิดเพลินกับส่วนลดสมาชิกพิเศษในช่วงผลิตภัณฑ์และรายการดูแลผิวที่ดี ผลิตภัณฑ์คุณภาพ ประหยัดมากขึ้น โอกาสใหญ่มากขึ้น"
+    },
+    {
+      "title": "ไม่มีค่าบันทึก",
+      "desc": "เริ่มการเดินทาง Neumi ของคุณโดยไม่มีค่าบันทึก พุ่งตรงไปสู่การสร้างธุรกิจของคุณโดยไม่มีอุปสรรคเริ่มต้น"
+    },
+    {
+      "title": "แบ่งปันกับเพื่อนและครอบครัว",
+      "desc": "ขยายเครือข่าย Neumi ของคุณด้วยการแบ่งปันประโยชน์กับเพื่อนและครอบครัว แต่ละความเชื่อมโยงเปิดประตูเข้าสู่โอกาสที่ใหญ่ขึ้น"
+    },
+    {
+      "title": "ได้รับรายได้รายสัปดาห์และรายเดือน",
+      "desc": "Neumi รางวัลความพยายามของคุณด้วยรายได้ที่ประจำทุกสัปดาห์และรายเดือน เพิ่มเครือข่ายของคุณ สร้างธุรกิจของคุณ และเพลิดเพลินกับผลตอบแทนทางการเงิน"
+    }
+  ],
+  "trip": {
+    "title": "ได้รับทริปไปยังปลายทางในฝัน",
+    "desc": "เมื่อคุณสร้างธุรกิจของคุณและเพิ่มคุณค่าให้กับผู้รอบข้าง คุณจะได้รับการยอมรับและสามารถมีสิทธิ์ไปที่ทริปที่น่าตื่นตาตื่นใจ ได้รับโอกาสในการเยี่ยมชมที่สำคัญจากเม็กซิโกไปจนถึงไทยและมอนเตคาร์โล และเป็นโบนัสคุณยังสามารถนำเพื่อนร่วมทางมาเพื่อแบ่งปันประสบการณ์ร่วมกัน"
+  },
+  "enrollment": {
+    "title": "แพ็กเกจการสมัคร",
+    "desc": "เริ่มต้นในไม่กี่นาทีโดยการซื้อแพ็กเกจการสมัครสมาชิกของคุณ!",
+    "purchase_btn_text": "ซื้อแพ็กเกจสมาชิก",
+    "alt_text": "แพ็กเกจการลงทะเบียน",
+    "enrollment_slider": [
+      {
+        "title": "แพ็กเกจกลุ่มไลฟ์สไตล์",
+        "product_count": "8 Neumi Skin + 17 NutriSwish",
+        "price": "1,300.00+$1,000/mo"
+      },
+      {
+        "title": "แพ็กเกจกลุ่มไลฟ์สไตล์",
+        "product_count": "8 Neumi Skin + 17 NutriSwish",
+        "price": "1,300.00+$1,000/mo"
+      }
+    ]
+  },
+  "before_and_after": {
+    "title": "ดูการเปรียบเทียบก่อนหลัง"
+  },
+  "medical_advisor_board": {
+    "title": "คณะกรรมการที่ปรึกษาทางการแพทย์ที่ไม่ได้รับค่าตอบแทนของเรา",
+    "items": [
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck School of Medicine"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMU College of Osteopathic Medicine"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Royal College of Surgeons in Ireland"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Medical College of Georgia"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Fellow"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "University of Barcelona School of Medicine Traumatology"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Clinical Fellow"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Faculty of Medicine and Surgery"
+      }
+    ],
+    "hidden_items": [
+      {
+        "name": "James Jian Ho, MD",
+        "university": "Mayo Fellow"
+      },
+      {
+        "name": "Joseph Kaplan, MD",
+        "university": "University of Alabama School of Medicine"
+      },
+      {
+        "name": "Steven Petrosino, PhD",
+        "university": "LaSalle University"
+      },
+      {
+        "name": "Jim Hayes, MD",
+        "university": "Emergency Medicine. อดีตประธานสมาคมแพทย์ฉุกเฉิน"
+      },
+      {
+        "name": "Dean Stubbs, MD",
+        "university": "ผู้นำชั้นนำในการแพทย์อิสระ"
+      },
+      {
+        "name": "Tania Ash, MD",
+        "university": "ผู้เชี่ยวชาญการแพทย์อิสระออสเตรเลีย"
+      },
+      {
+        "name": "Kristin Hieshetter, DC",
+        "university": "แพทย์ที่ไม่เข้ารหัสแพทย์ ชีวเคมีแบบเมตาบอลิก มีใบรับรองในด้านโภชนาการ ผู้เชี่ยวชาญทางการเลเซอร์ที่ไม่บาดเจ็บ"
+      },
+      {
+        "name": "Luis Miguel Valdes, MD",
+        "university": "ผู้เชี่ยวชาญทางการแพทย์ หู คอ จมูก"
+      },
+      {
+        "name": "Bethany Dixon, DC",
+        "university": "นักจัดการจราจรและผู้เชี่ยวชาญในการตรวจสอบการแพทย์ แพทย์และที่ปรึกษากับอุตสาหกรรมการขนส่ง"
+      },
+      {
+        "name": "Pacilina estrella-Barotil, MD",
+        "university": "แพทย์ครอบครัวพิเศษกับปริญญาโทในการบริหารการบริหารโรงพยาบาล; เจ้าของและผู้อำนวยการทางการแพทย์ของ Wholeness Family Medical Center, Inc., Silang, Philippines."
+      }
+    ]
+  },
+  "faq": {
+    "title": "คำถามที่พบบ่อย",
+    "icon_class": "clr-primary",
+    "items": [
+      {
+        "header": "ฉันจะเป็นสมาชิกได้อย่างไร?",
+        "desc": "คุณสามารถลงทะเบียนได้ที่<a href='https://neumi.fluid.app/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/enrollment.</a> ค้นหาผู้ให้การสนับสนุนของคุณและปฏิบัติตามกระบวนการการลงทะเบียน"
+      },
+      {
+        "header": "มีสัญญาหรือไม่?",
+        "desc": ""
+      },
+      {
+        "header": "ฉันสามารถยกเลิกได้ทุกเมื่อไหม?",
+        "desc": ""
+      },
+      {
+        "header": "ฉันจะได้รับส่วนลดอะไรในฐานะสมาชิก?",
+        "desc": ""
+      },
+      {
+        "header": "โบนัสและโปรแกรมสิ่งประกอบทางสร้างสรรค์ทำงานอย่างไร?",
+        "desc": ""
+      },
+      {
+        "header": "โปรแกรมสิ่งตั้งใจทำงานอย่างไร?",
+        "desc": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "คุณใหม่เริ่มต้นด้วย Neumi ทำให้ความฝันของคุณเป็นจริง!"
+  },
+  "note_desc": "คำแถลงในเว็บไซต์นี้ยังไม่ได้รับการตรวจสอบโดยองค์การอาหารและยา คำแถลงและผลิตภัณฑ์ของบริษัทนี้ไม่ได้มีวัตถุประสงค์ในการวินิจฉัย รักษา บางโรคหรือป้องกันใดๆ มุ่งมั่นในการให้คำแนะนำทางโภชนาการ กรุณาปรึกษาแพทย์ผู้เชี่ยวชาญเสมอหากคุณกำลังรับประทานยาหรือมีโรคประจำตัว ผลลัพธ์แต่ละรายอาจแตกต่างกัน"
+}

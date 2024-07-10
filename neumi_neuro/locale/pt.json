@@ -1,0 +1,220 @@
+{
+  "title": "Neuro",
+  "product_title": "Neuro",
+  "total_product_review": "7 Avaliações",
+  "product_desc": "Apresentando o Neuro,<span class='fw-600'> nossa fórmula revolucionária de nano cérebro, projetada para otimizar a função cognitiva, melhorar o foco e apoiar a saúde geral do cérebro.</span> Utilizando a mesma avançada Nanotecnologia HydraStat que o NutriSwish, o Neuro garante máxima absorção e eficácia de seus ingredientes meticulosamente selecionados.",
+  "add_to_cart_text": "Adicionar ao carrinho",
+  "select_quantity_text": "Selecionar Quantidade",
+  "all_product_text": "Todos os Produtos",
+  "language": "pt", "month": "mês",
+  "subscribe": {
+    "subscribe_text": "Assinar",
+    "frequency_text": "Selecionar Frequência",
+    "actual_price": "65,00",
+    "discounted_price": "50,00",
+    "checklist_items": [
+      {
+        "caption": "Assine e economize <span class='price_container is-hide' id='saving'>$15</span>"
+      },
+      {
+        "caption": "Ganhe Pontos de Recompensa Neumi"
+      },
+      {
+        "caption": "Garantia de devolução do dinheiro em 30 dias"
+      },
+      {
+        "caption": "Atualize sua assinatura a qualquer momento"
+      }
+    ],
+    "one_time_purchase_text": "Compra única"
+  },
+  "free_shipping_desc": "Frete grátis nos EUA para pedidos acima de $200+",
+  "benefits": {
+    "title": "Benefícios",
+    "items": [
+      {
+        "caption": "Ingredientes-chave para maximizar a absorção e eficácia, diariamente."
+      },
+      {
+        "caption": "Cada lote passa por rigorosos testes de terceiros para garantir compromisso com a pureza e segurança."
+      },
+      {
+        "caption": "Oferecemos uma garantia de devolução do dinheiro em 30 dias, sem perguntas."
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Visto em"
+  },
+  "tab": {
+    "title": "Veja como o Neuro está mudando vidas",
+    "video_review_title": "Avaliações em Vídeo <span>(5)</span>",
+    "written_review_title": "Avaliações Escritas <span>(2)</span>",
+    "rating_text": "Classificação de 5 Estrelas",
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "Salt Lake City, UT",
+        "time": "2 horas atrás",
+        "review_text": "O Neuro mudou minha vida! Estou usando há alguns meses e notei uma melhora significativa nos meus níveis de energia e vitalidade geral. É incrível como algo tão simples pode ter efeitos tão profundos. Altamente recomendado!"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "Laie, HI",
+        "time": "2 horas atrás",
+        "review_text": "Luto para manter o equilíbrio hormonal há anos, mas o Neuro fez uma grande diferença. Não só me sinto mais equilibrada e energizada, mas também notei melhorias no tom da pele e no tônus muscular. É realmente notável!"
+      }
+    ]
+  },
+  "product_benefits": {
+    "title": "Experimente os benefícios transformadores do Neuro",
+    "desc": "Desbloqueie seu potencial cognitivo e alcance o desempenho mental máximo com a poderosa mistura do Neuro. Se você precisa<span class='fw-600'> melhorar o foco, aumentar a energia mental ou apoiar a saúde cerebral a longo prazo,</span> o Neuro é seu aliado definitivo.",
+    "alt_text": "produto neuro",
+    "items_left": [
+      {
+        "title": "Liberação Sustentada",
+        "desc": "A administração oral permite uma liberação mais consistente e sustentada de glutationa na corrente sanguínea."
+      },
+      {
+        "title": "Biodisponibilidade Aumentada",
+        "desc": "Partículas de glutationa em tamanho nano significam que uma maior proporção de glutationa é utilizada, maximizando seus benefícios antioxidantes."
+      }
+    ],
+    "items_right": [
+      {
+        "title": "Conveniência",
+        "desc": "Conveniência incomparável em comparação com os tratamentos intravenosos mais invasivos e demorados."
+      },
+      {
+        "title": "Custo-benefício",
+        "desc": "Uma alternativa mais acessível aos tratamentos regulares de glutationa intravenosa. Elimine a necessidade de visitas frequentes à clínica, reduzindo os custos gerais."
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "Ciência inovadora",
+      "desc": "A glutationa é a protetora e desintoxicante da célula.<span class='fw-600'> É a chave para a vida, saúde, desempenho, proteção e longevidade de cada célula humana.</span>"
+    },
+    {
+      "title": "Nanotecnologia HydraStat™",
+      "desc": "<span class='fw-600'>Partículas em tamanho nano protegidas por clusters de água ultra pura.</span> Nossos ingredientes em tamanho nano são pequenos o suficiente para serem totalmente absorvidos pela célula humana."
+    },
+    {
+      "title": "Pureza e qualidade",
+      "desc": "O Neuro passa por rigorosos testes de terceiros para garantir que atenda aos mais altos padrões de pureza e qualidade. Apoiamo-nos no nosso produto com uma garantia de devolução do dinheiro em 30 dias, confiantes na sua capacidade de fornecer benefícios significativos para a saúde."
+    }
+  ],
+  "key_ingredients": {
+    "title": "Ingredientes chave no Neuro",
+    "ingredients": "<span class='fw-600 is-uppercase'>outros ingredientes chave:</span> <span class='is-uppercase'>CAFEÍNA, GLUCONATO DE MAGNÉSIO, ALFA GPC, ACETIL-L-CARNITINA, MSM, PIRIDOXAL 5-FOSFATO. *A IMAGEM MOSTRA UMA PLANTA/ALIMENTO EM QUE O INGREDIENTE ATIVO É ENCONTRADO E NÃO NECESSARIAMENTE DE ONDE ELE É EXTRAÍDO.</span>",
+    "item_list_desktop": [
+      {
+        "item": [
+          {
+            "item_name": "L-Glutationa*"
+          },
+          {
+            "item_name": "Ascorbato de Cálcio*"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Fosfatidil Serina*"
+          },
+          {
+            "item_name": "Curcumina"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "L-Teanina*"
+          },
+          {
+            "item_name": "L-Cisteína*"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Arginina*"
+          },
+          {
+            "item_name": "Ginkgo Biloba"
+          }
+        ]
+      }
+    ],
+    "items_list": [
+      {
+        "item_name": "L-Glutationa*"
+      },
+      {
+        "item_name": "Fosfatidil Serina*"
+      },
+      {
+        "item_name": "L-Teanina*"
+      },
+      {
+        "item_name": "Arginina*"
+      },
+      {
+        "item_name": "Ascorbato de Cálcio*"
+      },
+      {
+        "item_name": "Curcumina"
+      },
+      {
+        "item_name": "L-Cisteína*"
+      },
+      {
+        "item_name": "Ginkgo Biloba"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "Instruções de uso",
+    "desc": "Para experimentar todos os benefícios, bocheche a dose recomendada de Neuro na boca por 30 segundos antes de engolir. Este método garante a absorção ideal dos ingredientes nanoformulados."
+  },
+  "faq": {
+    "title": "Benefícios da Glutationa",
+    "items": [
+      {
+        "header": "Sistema Imunológico Fortalecido",
+        "desc": "A glutationa é capaz de neutralizar os radicais livres e proteger o corpo de seus efeitos nocivos. Também ajuda a reduzir a inflamação e apoia a capacidade natural do corpo de combater infecções. Além disso, desempenha um papel na síntese de novas células imunológicas, mantendo seu sistema imunológico funcionando da melhor forma."
+      },
+      {
+        "header": "Aumento de Energia",
+        "desc": ""
+      },
+      {
+        "header": "Maior Resistência e Endurance",
+        "desc": ""
+      },
+      {
+        "header": "Melhores Tempos de Recuperação do Exercício",
+        "desc": ""
+      },
+      {
+        "header": "Maior Clareza e Foco Mental",
+        "desc": ""
+      },
+      {
+        "header": "Maior Qualidade e Longevidade de Vida",
+        "desc": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Um novo você começa com Neumi",
+    "desc": "Desbloqueie suas capacidades cognitivas e atinja o desempenho mental máximo com Neuro, sua dose diária de saúde cerebral em uma garrafa.",
+    "subscription_text": "Adicionar à assinatura",
+    "purchase_text": "Compra única"
+  },
+  "note_desc": "As declarações feitas neste site não foram avaliadas pela Food and Drug Administration. Estas declarações e os produtos desta empresa não se destinam a diagnosticar, tratar, curar ou prevenir qualquer doença. As opiniões e conselhos nutricionais expressos pela Neumi não se destinam a fornecer aconselhamento médico. Consulte sempre seu profissional de saúde se estiver tomando qualquer medicação ou tiver alguma condição médica. Os resultados individuais podem variar."
+}

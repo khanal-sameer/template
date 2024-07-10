@@ -1,0 +1,199 @@
+{
+  "title": "Neumi Landing oldal",
+  "shop_product_button_text": "Vásárolja meg termékeinket",
+  "become_member_button_text": "Legyen tag",
+  "see_all_product_button_text": "Összes termék megtekintése",
+  "see_all_text": "Összes megtekintése",
+  "hide_all_text": "Összes elrejtése",
+  "language": "hu", "month": "hónap",
+  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
+  "hero_section":{
+    "title": "Az új én Neumi-vel kezdődik",
+    "title_sm": "A Nano Cég",
+    "desc": "Változtassa meg jólétét Neumi HydraStat™ nanotechnológiájának erejével."
+  },
+  "asSeenOn": {
+    "title": "Látható"
+  },
+  "masonary_section":{
+    "title": "Termékkínálatunk",
+    "desc": "Az élet szebb, amikor jobban nézel ki és érzed magad.",
+    "masonary_product_layout1":{
+      "items":[
+        {
+          "product_name": "Hers",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+        },
+        {
+          "product_name": "Neumi Skin",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+        }
+      ]
+    },
+    "masonary_product_layout2":{
+      "items":[
+        {
+          "product_name": "NutriSwish",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+        },
+        {
+          "product_name": "Neuro",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+        }
+      ]
+    }
+  },
+  "guarantee":{
+    "title": "A Neumi garancia",
+    "desc":"Függetlenül a fiók típusától, élvezheti:",
+    "alt_text": "neumi termék",
+    "items": [
+      {
+        "title":  "Szeresse vagy ingyen kapja vissza",
+        "desc": "Próbálja ki termékeinket 30 napos kockázatmentes próbaidőszakban. Biztosak vagyunk benne, hogy szeretni fogja termékeinket, ahogy mi is."
+      },
+      {
+        "title": "Problémamentes előfizetés",
+        "desc": "Szüksége van egy hónap kihagyására vagy előfizetésének lemondására? Semmi gond! Bármikor szerkesztheti beállításait és rendelhet bizalommal."
+      },
+      {
+        "title": "Ingyenes termék",
+        "desc": "300 dollár feletti rendelés esetén 1 ingyenes palackot kap ajándékba a szállítási költségek fedezésére."
+      }
+    ]
+  },
+  "performance":{
+    "title_sm": "HydraStat Nanotechnológia™",
+    "title": "Kis méretű szállítás, nagy teljesítmény",
+    "desc":"A molekulák számos kiegészítőben túl nagyok ahhoz, hogy a sejt által felszívódjanak, így hatástalanul kiválasztódnak a szervezetből. A Neumi áttörő HydraStat Nanotechnológiáját használja, hogy növelje termékeinek biológiai hozzáférhetőségét és hatékonyságát, nagy molekulákat lebontva és ultratiszta vízklaszterekbe burkolva. Nanoméretű összetevőink 10-100 nanométer között vannak. Elég kicsik ahhoz, hogy teljes mértékben felszívódjanak az emberi sejtbe.",
+    "button_text": "Tudjon meg többet",
+    "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
+  },
+  "video":{
+    "title_sm": "Hydrastat Nanotechnológia™",
+    "title": "A Neumi áttörése"
+  },
+  "before_and_after":{
+    "title": "Nézze meg a előtte és utána"
+  },
+  "medical_advisor_board":{
+    "title": "Fizetés nélküli orvosi tanácsadó testületünk",
+    "items":[
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck School of Medicine"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMU College of Osteopathic Medicine"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Royal College of Surgeons in Ireland"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Medical College of Georgia"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Fellow"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "University of Barcelona School of Medicine Traumatology"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Clinical Fellow"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Faculty of Medicine and Surgery"
+      }
+    ],
+    "hidden_items":[
+      {
+        "name": "James Jian Ho, MD",
+        "university": "Mayo Fellow"
+      },
+      {
+        "name": "Joseph Kaplan, MD",
+        "university": "University of Alabama School of Medicine"
+      },
+      {
+        "name": "Steven Petrosino, PhD",
+        "university": "LaSalle University"
+      },
+      {
+        "name": "Jim Hayes, MD",
+        "university": "Emergency Medicine. Past President of the Association of Emergency Physicians"
+      },
+      {
+        "name": "Dean Stubbs, MD",
+        "university": "Australian Leader in Integrative Medicine"
+      },
+      {
+        "name": "Tania Ash, MD",
+        "university": "Australian Integrative Medicine Specialist"
+      },
+      {
+        "name": "Kristin Hieshetter, DC",
+        "university": "Doctor of Chiropractic. Metabolic biochemist. Certified in Nutrition. Non-invasive Laser specialist."
+      },
+      {
+        "name": "Luis Miguel Valdes, MD",
+        "university": "Medical Specialist Ear Nose and Throat."
+      },
+      {
+        "name": "Bethany Dixon, DC",
+        "university": "Chiropractor and Certified Medical Examiner. Physician and consultant to the transportation industry."
+      },
+      {
+        "name": "Pacilina estrella-Barotil, MD",
+        "university": "Family Practitioner with a Masters degree in Hospital Administration;  Owner and Medical Director of Wholeness Family Medical Center, Inc., Silang, Philippines."
+      }
+    ]
+  },
+  "faq":{
+    "title": "Gyakran Ismételt Kérdések",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "Preferált ügyfél vagyok. Hogyan rendeljek?",
+        "desc": "A legjobb módszer az, ha ellátogat a <a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a> weboldalra és ott adja le rendelését."
+      },
+      {
+        "class": "",
+        "header": "Miért Glutathione?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "Mit kellene érezni?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "Mikor a legjobb idő a NutriSwish bevétele?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "Honnan származnak az összetevők?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "Mi a legjobb egészségügyi jellemző?",
+        "desc": ""
+      }
+    ]
+
+  },
+  "cta":{
+    "title": "Az új én Neumi-vel kezdődik."
+  },
+  "note_desc": "E weboldalon közölt állításokat nem vizsgálta meg az Élelmiszer- és Gyógyszerügyi Hatóság. Ezek az állítások és a cég termékei nem szolgálnak diagnózisra, kezelésre, gyógyításra vagy bármely betegség megelőzésére. A Neumi által kifejtett nézetek és táplálkozási tanácsadás nem orvosi tanácsadás céljából születtek. Kérjük, mindig konzultáljon egészségügyi szolgáltatójával, ha gyógyszereket szed vagy bármilyen egészségügyi problémája van. Az egyéni eredmények eltérhetnek."
+}

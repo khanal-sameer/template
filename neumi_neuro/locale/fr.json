@@ -1,0 +1,220 @@
+{
+  "title": "Neuro",
+  "product_title": "Neuro",
+  "total_product_review": "7 Avis",
+  "product_desc": "Présentation de Neuro,<span class='fw-600'> notre formule révolutionnaire pour le cerveau en nano, conçue pour optimiser la fonction cognitive, améliorer la concentration et soutenir la santé globale du cerveau.</span> Utilisant la même Nanotechnologie HydraStat avancée que NutriSwish, Neuro assure une absorption maximale et une efficacité de ses ingrédients soigneusement sélectionnés.",
+  "add_to_cart_text": "Ajouter au panier",
+  "select_quantity_text": "Sélectionner la quantité",
+  "all_product_text": "Tous les produits",
+  "language": "fr", "month": "mois",
+  "subscribe": {
+    "subscribe_text": "S'abonner",
+    "frequency_text": "Sélectionner la fréquence",
+    "actual_price": "65.00",
+    "discounted_price": "50.00",
+    "checklist_items": [
+      {
+        "caption": "S'abonner et économiser <span class='price_container is-hide' id='saving'>$15</span>"
+      },
+      {
+        "caption": "Gagner des points de récompense Neumi"
+      },
+      {
+        "caption": "Garantie de remboursement de 30 jours"
+      },
+      {
+        "caption": "Mettre à jour votre abonnement à tout moment"
+      }
+    ],
+    "one_time_purchase_text": "Achat unique"
+  },
+  "free_shipping_desc": "Livraison gratuite aux États-Unis pour les commandes de plus de $200+",
+  "benefits": {
+    "title": "Avantages",
+    "items": [
+      {
+        "caption": "Ingrédients clés pour maximiser l'absorption et l'efficacité, quotidiennement."
+      },
+      {
+        "caption": "Chaque lot subit des tests rigoureux par des tiers pour garantir l'engagement envers la pureté et la sécurité."
+      },
+      {
+        "caption": "Nous offrons une garantie de remboursement de 30 jours, sans poser de questions."
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Vu sur"
+  },
+  "tab": {
+    "title": "Voyez comment Neuro change des vies",
+    "video_review_title": "Avis en vidéo <span>(5)</span>",
+    "written_review_title": "Avis écrits <span>(2)</span>",
+    "rating_text": "Évaluation de 5 étoiles",
+    "review_list": [
+      {
+        "reviewer": "Aidan D.",
+        "address": "Salt Lake City, UT",
+        "time": "il y a 2 heures",
+        "review_text": "Neuro a changé ma vie ! Je l'utilise depuis quelques mois maintenant et j'ai remarqué une amélioration significative de mes niveaux d'énergie et de ma vitalité générale. C'est incroyable de voir comment quelque chose de si simple peut avoir des effets aussi profonds. Hautement recommandé !"
+      },
+      {
+        "reviewer": "Lola P.",
+        "address": "Laie, HI",
+        "time": "il y a 2 heures",
+        "review_text": "J'ai eu du mal à maintenir un équilibre hormonal pendant des années, mais Neuro a fait une énorme différence. Non seulement je me sens plus équilibrée et énergisée, mais j'ai également remarqué des améliorations dans le ton de ma peau et de mes muscles. C'est vraiment remarquable !"
+      }
+    ]
+  },
+  "product_benefits": {
+    "title": "Découvrez les bienfaits transformateurs de Neuro",
+    "desc": "Débloquez votre potentiel cognitif et atteignez des performances mentales optimales avec le mélange puissant de Neuro. Que vous ayez besoin de <span class='fw-600'>améliorer la concentration, augmenter l'énergie mentale ou soutenir la santé cérébrale à long terme,</span> Neuro est votre allié ultime.",
+    "alt_text": "produit Neuro",
+    "items_left": [
+      {
+        "title": "Libération soutenue",
+        "desc": "L'administration orale permet une libération plus constante et soutenue de la glutathion dans le sang."
+      },
+      {
+        "title": "Biodisponibilité améliorée",
+        "desc": "Les particules de glutathion de taille nano signifient qu'une plus grande proportion de glutathion est utilisée, maximisant ses bienfaits antioxydants."
+      }
+    ],
+    "items_right": [
+      {
+        "title": "Commodité",
+        "desc": "Une commodité inégalée par rapport aux traitements IV plus invasifs et chronophages."
+      },
+      {
+        "title": "Rentabilité",
+        "desc": "Une alternative plus abordable aux traitements réguliers de glutathion IV. Élimine le besoin de visites fréquentes à la clinique, réduisant ainsi les coûts globaux."
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "Science innovante",
+      "desc": "Le glutathion est le protecteur et le détoxifiant de la cellule.<span class='fw-600'> C'est la clé de la vie, de la santé, de la performance, de la protection et de la longévité de chaque cellule humaine.</span>"
+    },
+    {
+      "title": "Nanotechnologie HydraStat™",
+      "desc": "<span class='fw-600'>Particules de taille nano protégées par des clusters d'eau ultra-pure.</span> Nos ingrédients de taille nano sont suffisamment petits pour être complètement absorbés par la cellule humaine."
+    },
+    {
+      "title": "Pureté et qualité",
+      "desc": "Neuro subit des tests rigoureux par des tiers pour s'assurer qu'il respecte les normes les plus élevées de pureté et de qualité. Nous soutenons notre produit avec une garantie de remboursement de 30 jours, confiants dans sa capacité à offrir des avantages significatifs pour la santé."
+    }
+  ],
+  "key_ingredients": {
+    "title": "Ingrédients clés dans Neuro",
+    "ingredients": "<span class='fw-600 is-uppercase'>Autres ingrédients clés:</span> <span class='is-uppercase'>CAFÉINE, GLUCONATE DE MAGNÉSIUM, ALPHA GPC, ACÉTYL-L-CARNITINE, MSM, PYRIDOXAL 5-PHOSPHATE. *L'IMAGE MONTRE UNE PLANTE/ALIMENT DANS LAQUELLE L'INGRÉDIENT ACTIF SE TROUVE ET NON NÉCESSAIREMENT D'OÙ IL EST EXTRAIT.</span>",
+    "item_list_desktop": [
+      {
+        "item": [
+          {
+            "item_name": "L-Glutathion*"
+          },
+          {
+            "item_name": "Ascorbate de Calcium*"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Phosphatidyl Serine*"
+          },
+          {
+            "item_name": "Curcumine"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "L-Théanine*"
+          },
+          {
+            "item_name": "L-Cystéine*"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Arginine*"
+          },
+          {
+            "item_name": "Ginkgo Biloba"
+          }
+        ]
+      }
+    ],
+    "items_list": [
+      {
+        "item_name": "L-Glutathion*"
+      },
+      {
+        "item_name": "Phosphatidyl Serine*"
+      },
+      {
+        "item_name": "L-Théanine*"
+      },
+      {
+        "item_name": "Arginine*"
+      },
+      {
+        "item_name": "Ascorbate de Calcium*"
+      },
+      {
+        "item_name": "Curcumine"
+      },
+      {
+        "item_name": "L-Cystéine*"
+      },
+      {
+        "item_name": "Ginkgo Biloba"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "Mode d'emploi",
+    "desc": "Pour profiter pleinement des bienfaits, rincez la dose recommandée de Neuro dans votre bouche pendant 30 secondes avant d'avaler. Cette méthode assure une absorption optimale des ingrédients formulés en nano."
+  },
+  "faq": {
+    "title": "Avantages du Glutathion",
+    "items": [
+      {
+        "header": "Système immunitaire renforcé",
+        "desc": "Le glutathion est capable de neutraliser les radicaux libres et de protéger le corps de leurs effets nocifs. Il aide également à réduire l'inflammation et soutient la capacité naturelle du corps à combattre les infections. De plus, il joue un rôle dans la synthèse de nouvelles cellules immunitaires, maintenant le système immunitaire à son meilleur."
+      },
+      {
+        "header": "Augmentation de l'énergie",
+        "desc": ""
+      },
+      {
+        "header": "Amélioration de l'endurance et de la résistance",
+        "desc": ""
+      },
+      {
+        "header": "Amélioration des temps de récupération après l'exercice",
+        "desc": ""
+      },
+      {
+        "header": "Plus grande clarté mentale et concentration",
+        "desc": ""
+      },
+      {
+        "header": "Amélioration de la qualité et de la durée de vie",
+        "desc": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Un nouveau vous commence avec Neumi",
+    "desc": "Débloquez vos capacités cognitives et atteignez des performances mentales optimales avec Neuro, votre dose quotidienne de santé cérébrale en bouteille.",
+    "subscription_text": "Ajouter à l'abonnement",
+    "purchase_text": "Achat unique"
+  },
+  "note_desc": "Les déclarations faites sur ce site n'ont pas été évaluées par la Food and Drug Administration. Ces déclarations et les produits de cette entreprise ne sont pas destinés à diagnostiquer, traiter, guérir ou prévenir une maladie quelconque. Les opinions et les conseils nutritionnels exprimés par Neumi ne sont pas destinés à fournir des conseils médicaux. Consultez toujours votre prestataire de soins de santé si vous prenez des médicaments ou avez des problèmes de santé. Les résultats individuels peuvent varier."
+}

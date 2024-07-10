@@ -1,0 +1,210 @@
+{
+  "title": "Neumi peau",
+  "product_title": "Neumi peau",
+  "total_product_review": "7 Avis",
+  "product_desc": "<span class='fw-600'>La solution de soin de la peau révolutionnée avec la technologie HydraStat Nano</span> pour une absorption rapide et une application en spray pratique.",
+  "add_to_cart_text": "Ajouter au panier",
+  "select_quantity_text": "Sélectionner la quantité",
+  "all_product_text": "Tous les produits",
+  "language": "fr", "month": "mois",
+  "subscribe": {
+    "subscribe_text": "S'abonner",
+    "frequency_text": "Sélectionner la fréquence",
+    "checklist_items": [
+      {
+        "caption": "Abonnez-vous et économisez <span class='price_container is-hide' id='saving'>$15</span>"
+      },
+      {
+        "caption": "Gagnez des points de récompense Neumi"
+      },
+      {
+        "caption": "Garantie de remboursement de 30 jours"
+      },
+      {
+        "caption": "Mettez à jour votre abonnement à tout moment"
+      }
+    ],
+    "one_time_purchase_text": "Achat unique"
+  },
+  "free_shipping_desc": "Livraison gratuite aux États-Unis pour les commandes de plus de 200 $",
+  "benefits": {
+    "title": "Avantages",
+    "items": [
+      {
+        "caption": "Ingrédients clés pour maximiser l'absorption et l'efficacité, quotidiennement."
+      },
+      {
+        "caption": "Chaque lot subit des tests rigoureux par des tiers pour garantir l'engagement envers la pureté et la sécurité."
+      },
+      {
+        "caption": "Nous offrons une garantie de remboursement de 30 jours, sans poser de questions."
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Vu sur"
+  },
+  "tab": {
+    "title": "Découvrez comment Neumi Skin change des vies",
+    "video_review_title": "Avis vidéo <span>(5)</span>",
+    "written_review_title": "Avis écrits <span>(2)</span>",
+    "rating_text": "Note 5 étoiles",
+    "review_list": [
+      {
+        "reviewer": "Aidan D.",
+        "address": "Salt Lake City, UT",
+        "time": "il y a 2 heures",
+        "review_text": "Neumi Skin a été un changement radical pour moi ! Je l'utilise depuis quelques mois maintenant et j'ai remarqué une amélioration significative de mes niveaux d'énergie et de ma vitalité générale. C'est incroyable comment quelque chose de si simple peut avoir des effets aussi profonds. Je recommande vivement !"
+      },
+      {
+        "reviewer": "Lola P.",
+        "address": "Laie, HI",
+        "time": "il y a 2 heures",
+        "review_text": "J'ai eu du mal à maintenir l'équilibre hormonal pendant des années, mais Neumi Skin a fait une grande différence. Non seulement je me sens plus équilibrée et énergique, mais j'ai aussi remarqué des améliorations de mon teint et de ma tonicité musculaire. C'est vraiment remarquable !"
+      }
+    ]
+  },
+  "product_benefits": {
+    "title": "Avantages de l'utilisation de Neumi Skin",
+    "desc": "La technologie révolutionnaire de Neumi Skin réduit en nano-taille les ingrédients essentiels, rendant l'absorption rapide et efficace. <span class='fw-600'>Notre système de diffusion en spray permet une application facile de Neumi Skin plusieurs fois par jour sous ou sur le maquillage.</span>",
+    "alt_text": "produit Neumi skin",
+    "items": [
+      {
+        "title": "Des ingrédients de confiance",
+        "desc": "Neumi Skin utilise notre système de diffusion nano HydraStat™ pour maximiser l'absorption et l'efficacité des ingrédients suivants : glutathion, acide hyaluronique, collagène et curcumine."
+      },
+      {
+        "title": "Des résultats visibles",
+        "desc": "Notre technologie unique HydraStat Nano réduit les ingrédients en minuscules particules, garantissant qu'ils atteignent profondément votre peau pour des résultats plus rapides et améliorés. Faites l'expérience de pores minimisés, de fermeté relevée, de lignes fines lissées et d'un teint plus lumineux. L'innovation de Neumi offre une peau radieuse et fraîche avec la technologie révolutionnaire Nano !"
+      },
+      {
+        "title": "Application facile",
+        "desc": "Simplifiez votre routine de soins avec Neumi Skin. Il suffit de vaporiser et de laisser sécher à l'air libre, sous ou sur le maquillage !"
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "Science innovante",
+      "desc": "Le glutathion est le protecteur et le détoxifiant de la cellule. <span class='fw-600 highlight-text'>C'est la clé de la vie, de la santé, de la performance, de la protection et de la longévité de chaque cellule humaine.</span>"
+    },
+    {
+      "title": "Technologie nanotechnologique HydraStat™",
+      "desc": "<span class='fw-600 highlight-text'>Particules de taille nanométrique protégées par des clusters d'eau ultra-pure.</span> Nos ingrédients de taille nanométrique sont suffisamment petits pour être entièrement absorbés par la cellule humaine."
+    },
+    {
+      "title": "Qualité plutôt que quantité",
+      "desc": "Un supplément n'est utile que s'il est biodisponible, c'est-à-dire s'il peut être absorbé et utilisé par le corps. <span class='fw-600 highlight-text'>Le bon système de diffusion délivre les ingrédients à votre corps de manière à ce qu'il puisse les absorber et les utiliser.</span>"
+    }
+  ],
+  "key_ingredients": {
+    "title": "Ingrédients clés de Neumi Skin",
+    "ingredients": "<span class='fw-600'>Ingrédients actifs :</span> <span class='is-uppercase'>EAU ULTRA-PURE, GLUTATHION, Diméthyl Sulfone, Hyaluronate de Sodium, Cystéine, Proline, Ascorbate de Calcium, Glycine, Arginine, Valine, Curcumine, Hydroxyproline, Collagène, Sorbate de Potassium, Acide Tartrique. *L'IMAGE MONTRE UNE PLANTE/ALIMENT DANS LEQUEL L'INGRÉDIENT ACTIF SE TROUVE ET NON NÉCESSAIREMENT D'OÙ IL EST EXTRAIT.</span>",
+    "item_list_desktop": [
+      {
+        "item": [
+          {
+            "item_name": "Glutathion*"
+          },
+          {
+            "item_name": "Acide Tartrique*"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Ascorbate de Calcium*"
+          },
+          {
+            "item_name": "Curcuma"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Diméthyl Sulfone*"
+          },
+          {
+            "item_name": "Sorbate de Potassium*"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Hyaluronate de Sodium*"
+          },
+          {
+            "item_name": "Cystéine*"
+          }
+        ]
+      }
+    ],
+    "items_list": [
+      {
+        "item_name": "Glutathion*"
+      },
+      {
+        "item_name": "Ascorbate de Calcium*"
+      },
+      {
+        "item_name": "Diméthyl Sulfone*"
+      },
+      {
+        "item_name": "Hyaluronate de Sodium*"
+      },
+      {
+        "item_name": "Acide Tartrique*"
+      },
+      {
+        "item_name": "curcuma*"
+      },
+      {
+        "item_name": "Sorbate de Potassium*"
+      },
+      {
+        "item_name": "Cystéine*"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "Comment appliquer",
+    "steps": [
+      {
+        "caption": "Tenez le vaporisateur à environ 8-10 pouces de votre visage et vaporisez partout. Cela peut être fait avant ou après le maquillage."
+      },
+      {
+        "caption": "Pour de meilleurs résultats, laissez la brume sécher à l'air sans frotter."
+      },
+      {
+        "caption": "Répétez ces étapes deux fois par jour. N'hésitez pas à utiliser Neumi Skin plus souvent, si vous le souhaitez."
+      },
+      {
+        "caption": "Neumi Skin est mieux associé à un hydratant et à un SPF."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Avantages du glutathion",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "Système immunitaire renforcé",
+        "desc": "Le glutathion est capable de neutraliser les radicaux libres et de protéger le corps contre leurs effets nocifs. Il aide également à réduire l'inflammation et soutient la capacité naturelle du corps à combattre les infections. En outre, il joue un rôle dans la synthèse de nouvelles cellules immunitaires, gardant votre système immunitaire à son meilleur."
+      },
+      {
+        "class": "",
+        "header": "Énergie accrue",
+        "desc": "Il aide également à réduire l'inflammation et soutient la capacité naturelle du corps à combattre les infections. En outre, il joue un rôle dans la synthèse de nouvelles cellules immunitaires, gardant votre système immunitaire à son meilleur."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Un nouveau vous commence avec Neumi",
+    "subscription_text": "Ajouter à l'abonnement",
+    "purchase_text": "Acheter une fois"
+  },
+  "note_desc": "Les déclarations faites sur ce site n'ont pas été évaluées par la Food and Drug Administration. Ces déclarations et les produits de cette entreprise ne sont pas destinés à diagnostiquer, traiter, guérir ou prévenir toute maladie. Les opinions et conseils nutritionnels exprimés par Neumi ne sont pas destinés à fournir des conseils médicaux. Veuillez toujours consulter votre prestataire de soins de santé si vous prenez des médicaments ou si vous avez des conditions médicales. Les résultats individuels peuvent varier."
+}

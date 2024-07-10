@@ -1,0 +1,199 @@
+{
+  "title": "Página de inicio de Neumi",
+  "shop_product_button_text": "Compra nuestros productos",
+  "become_member_button_text": "Hazte miembro",
+  "see_all_product_button_text": "Ver todos los productos",
+  "see_all_text": "Ver todo",
+  "hide_all_text": "Ocultar todo",
+  "language": "es", "month": "mes",
+  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
+  "hero_section":{
+    "title": "Un nuevo tú comienza con Neumi",
+    "title_sm": "La Compañía Nano",
+    "desc": "Transforma tu bienestar con el poder de la nanotecnología HydraStat™ de Neumi."
+  },
+  "asSeenOn": {
+    "title": "Como se ve en"
+  },
+  "masonary_section":{
+    "title": "Nuestra línea de productos",
+    "desc": "La vida es mejor cuando te ves y te sientes bien.",
+    "masonary_product_layout1":{
+      "items":[
+        {
+          "product_name": "Hers",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+        },
+        {
+          "product_name": "Neumi Skin",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+        }
+      ]
+    },
+    "masonary_product_layout2":{
+      "items":[
+        {
+          "product_name": "NutriSwish",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+        },
+        {
+          "product_name": "Neuro",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+        }
+      ]
+    }
+  },
+  "guarantee":{
+    "title": "La garantía Neumi",
+    "desc":"Independientemente del tipo de cuenta, disfrutarás de:",
+    "alt_text": "producto de Neumi",
+    "items": [
+      {
+        "title":  "Te encanta o es gratis",
+        "desc": "Prueba nuestros productos durante 30 días sin riesgos. Estamos seguros de que te encantarán tanto como a nosotros."
+      },
+      {
+        "title": "Suscripciones sin complicaciones",
+        "desc": "¿Necesitas omitir un mes o cancelar tu suscripción? ¡No hay problema! Edita tus preferencias en cualquier momento y realiza pedidos con confianza."
+      },
+      {
+        "title": "Producto gratuito",
+        "desc": "Con pedidos superiores a $300, recibirás una botella gratuita para compensar los costos de envío."
+      }
+    ]
+  },
+  "performance":{
+    "title_sm": "Nanotecnología HydraStat™",
+    "title": "Pequeña entrega, gran rendimiento",
+    "desc":"Las moléculas en muchos suplementos son demasiado grandes para ser absorbidas por la célula, por lo que se excretan del cuerpo sin ser utilizadas de manera efectiva. Neumi utiliza la revolucionaria nanotecnología HydraStat™ para aumentar la biodisponibilidad y efectividad de todos sus productos al descomponer moléculas grandes y envolverlas en clusters de agua ultra pura. Nuestros ingredientes de tamaño nano están entre 10 y 100 nanómetros, lo suficientemente pequeños para ser completamente absorbidos por la célula humana.",
+    "button_text": "Más información",
+    "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
+  },
+  "video":{
+    "title_sm": "Nanotecnología HydraStat™",
+    "title": "El avance de Neumi"
+  },
+  "before_and_after":{
+    "title": "Ver antes y después"
+  },
+  "medical_advisor_board":{
+    "title": "Nuestro consejo médico no remunerado",
+    "items":[
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck School of Medicine"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMU College of Osteopathic Medicine"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Royal College of Surgeons in Ireland"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Medical College of Georgia"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Fellow"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "University of Barcelona School of Medicine Traumatology"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Clinical Fellow"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Faculty of Medicine and Surgery"
+      }
+    ],
+    "hidden_items":[
+      {
+        "name": "James Jian Ho, MD",
+        "university": "Mayo Fellow"
+      },
+      {
+        "name": "Joseph Kaplan, MD",
+        "university": "University of Alabama School of Medicine"
+      },
+      {
+        "name": "Steven Petrosino, PhD",
+        "university": "LaSalle University"
+      },
+      {
+        "name": "Jim Hayes, MD",
+        "university": "Emergency Medicine. Past President of the Association of Emergency Physicians"
+      },
+      {
+        "name": "Dean Stubbs, MD",
+        "university": "Australian Leader in Integrative Medicine"
+      },
+      {
+        "name": "Tania Ash, MD",
+        "university": "Australian Integrative Medicine Specialist"
+      },
+      {
+        "name": "Kristin Hieshetter, DC",
+        "university": "Doctor of Chiropractic. Metabolic biochemist. Certified in Nutrition. Non-invasive Laser specialist."
+      },
+      {
+        "name": "Luis Miguel Valdes, MD",
+        "university": "Medical Specialist Ear Nose and Throat."
+      },
+      {
+        "name": "Bethany Dixon, DC",
+        "university": "Chiropractor and Certified Medical Examiner. Physician and consultant to the transportation industry."
+      },
+      {
+        "name": "Pacilina estrella-Barotil, MD",
+        "university": "Family Practitioner with a Masters degree in Hospital Administration;  Owner and Medical Director of Wholeness Family Medical Center, Inc., Silang, Philippines."
+      }
+    ]
+  },
+  "faq":{
+    "title": "Preguntas frecuentes",
+    "icon_class": "clr-primary",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "Soy un cliente preferencial. ¿Cómo hago un pedido?",
+        "desc": "La mejor manera es visitando <a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a> y realizando tu pedido ahí."
+      },
+      {
+        "class": "",
+        "header": "¿Por qué Glutatión?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "¿Qué debería sentir?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "¿Cuál es el mejor momento para tomar NutriSwish?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "¿De dónde se obtienen los ingredientes?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "¿Cuál es la mejor característica de salud?",
+        "desc": ""
+      }
+    ]
+  },
+  "cta":{
+    "title": "Un nuevo tú comienza con Neumi."
+  },
+  "note_desc": "Las declaraciones hechas en este sitio web no han sido evaluadas por la Administración de Alimentos y Medicamentos. Estas declaraciones y los productos de esta compañía no tienen la intención de diagnosticar, tratar, curar o prevenir ninguna enfermedad. Las opiniones y consejos nutricionales expresados por Neumi no tienen la intención de proporcionar asesoramiento médico. Consulta siempre a tu proveedor de atención médica si estás tomando algún medicamento o tienes alguna condición médica. Los resultados individuales pueden variar."
+}

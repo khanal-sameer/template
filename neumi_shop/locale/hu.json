@@ -1,0 +1,70 @@
+{
+  "title": "Neumi Shop oldal",
+  "shop_product_button_text": "Vásárolja meg termékeinket",
+  "language": "hu", "month": "hónap",
+  "hero_section":{
+    "title": "Neumi Termékek",
+    "desc": "Az élet jobb, ha a legjobban nézel ki és érzed magad."
+  },
+  "asSeenOn": {
+    "title": "Látható volt"
+  },
+  "product_list":{
+    "title": "Egyedi palackok",
+    "items":[
+      {
+        "product_name": "NutriSwish",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+      },
+      {
+        "product_name": "Neumi Skin",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+      },
+      {
+        "product_name": "Hers",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+      },
+      {
+        "product_name": "Neuro",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+      }
+    ]
+  },
+  "product_bundle":{
+    "title": "Csomagok",
+    "product_name": "Neumi OG Csomag",
+    "url": ""
+  },
+  "multiple_product":{
+    "items":[
+      {
+        "product_name": "Hers Essential Csomag Neumi Skin-nel",
+        "url": ""
+      },
+      {
+        "product_name": "Hers Essential Csomag NutriSwish-sel",
+        "url": ""
+      },
+      {
+        "product_name": "Neumi Skin Essential Csomag",
+        "url": ""
+      },
+      {
+        "product_name": "NutriSwish Essential Csomag",
+        "url": ""
+      },
+      {
+        "product_name": "Klasszikus Essential Csomag",
+        "url": ""
+      },
+      {
+        "product_name": "Hers Premium Csomag",
+        "url": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Egy új te kezdődik a Neumi-val."
+  },
+  "note_desc": "A weboldalon szereplő állításokat az Élelmiszer- és Gyógyszerügyi Hatóság nem értékelte. Ezek az állítások és a cég termékei nem alkalmasak betegségek diagnosztizálására, kezelésére, gyógyítására vagy megelőzésére. A Neumi által kifejtett nézetek és táplálkozási tanácsok nem szolgálnak orvosi tanácsadás céljából. Kérjük, mindig konzultáljon egészségügyi szolgáltatójával, ha bármilyen gyógyszert szed, vagy bármilyen egészségügyi állapota van. Az egyéni eredmények változhatnak."
+}

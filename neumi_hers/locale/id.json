@@ -1,0 +1,218 @@
+{
+  "title": "Hers",
+  "product_title": "Hers",
+  "total_product_review": "7 Ulasan",
+  "product_desc": "<span class=fw-600>Suplemen nutrisi premium yang dirancang dengan cermat untuk wanita, </span> menampilkan Teknologi Nano Hydrastat perintis untuk penyerapan optimal.",
+  "select_quantity_text": "Pilih Jumlah",
+  "all_product_text": "Semua Produk",
+  "add_to_cart_text": "Tambah ke Keranjang",
+  "language": "id", "month": "bulan",
+  "subscribe": {
+    "subscribe_text":"Berlangganan",
+    "frequency_text": "Pilih Frekuensi",
+    "checklist_items":[
+      {
+        "caption": "Berlangganan dan hemat <span class='price_container is-hide' id='saving'>$15</span>"
+      },
+      {
+        "caption": "Dapatkan Poin Reward Neumi"
+      },
+      {
+        "caption": "Garansi uang kembali 30 hari"
+      },
+      {
+        "caption": "Perbarui langganan Anda kapan saja"
+      }
+    ],
+    "one_time_purchase_text":"Pembelian satu kali"
+  },
+  "free_shipping_desc": "Pengiriman gratis di AS untuk pesanan lebih dari $200+",
+  "benefits":{
+    "title": "Manfaat",
+    "items":[
+      {
+        "caption":"Bahan utama untuk menyeimbangkan dan mendukung kesehatan hormon Anda setiap hari."
+      },
+      {
+        "caption":"Untuk setiap tahap kehidupan - menstruasi aktif, pra/aktif/pasca menopause"
+      },
+      {
+        "caption": "Meningkatkan bantuan signifikan dari hot flash atau kram dalam waktu hanya 20 menit setelah konsumsi"
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Dilihat di"
+  },
+
+  "tab":{
+    "title": "Lihat bagaimana Hers mengubah kehidupan",
+    "video_review_title": "Ulasan Video <span>(5)</span>",
+    "written_review_title": "Ulasan Tertulis <span>(2)</span>",
+    "rating_text": "Peringkat 5 Bintang",
+    "review_list": [
+      {
+          "reviewer": "Aidan D..",
+          "address": "Salt Lake City, UT",
+          "time": "2 jam yang lalu",
+          "review_text": "Hers telah menjadi pengubah permainan bagi saya! Saya telah menggunakannya selama beberapa bulan sekarang, dan saya telah melihat peningkatan yang signifikan dalam tingkat energi dan vitalitas keseluruhan saya. Sangat menakjubkan bagaimana sesuatu yang begitu sederhana dapat memiliki efek yang begitu mendalam. Sangat direkomendasikan!"
+      },
+      {
+          "reviewer": "Lola P..",
+          "address": "Laie, HI",
+          "time": "2 jam yang lalu",
+          "review_text": "Saya telah berjuang untuk mempertahankan keseimbangan hormon selama bertahun-tahun, tetapi Hers telah membuat perbedaan besar. Tidak hanya saya merasa lebih seimbang dan bertenaga, tetapi saya juga melihat peningkatan pada warna kulit dan nada otot saya. Ini benar-benar luar biasa!"
+      }
+    ]
+  },
+  "product_benefits":{
+    "title": "Manfaat menggunakan Hers",
+    "desc": "<span class='fw-600'>Setiap wanita tahu tentang ketidaknyamanan yang dapat dibawa oleh siklus dan perubahan hormon ke dalam kehidupan.</span> Rasakan hasil cepat melalui Teknologi Nano HydraStat™ kami. Bahan-bahan ukuran nano kami, yang dibungkus dalam kelompok air, cukup kecil untuk diserap sepenuhnya oleh sel manusia, yang tepat di tempat yang Anda butuhkan!",
+    "alt_text": "produk hers",
+    "items": [
+      {
+        "title": "Bahan yang Dapat Anda Percaya",
+        "desc": "Hers menggunakan sistem pengiriman nano HydraStat™ kami untuk memaksimalkan penyerapan dan efektivitas bahan-bahan berikut: ekstrak peony putih, chaste berry, dong quai, akar maca, ashwagandha, dan nutrisi lainnya."
+      },
+      {
+        "title": "Hasil yang Dapat Anda Andalkan",
+        "desc": "Kami melakukan uji klinis double-blind, dan 80% peserta, mulai dari menstruasi aktif hingga pascamenopause, melihat peningkatan yang signifikan dalam gejala mereka. Terutama beberapa yang mengalami hot flash atau kram melaporkan bantuan signifikan dalam waktu hanya 20 menit setelah konsumsi."
+      },
+      {
+        "title": "Untuk Setiap Tahap Kehidupan",
+        "desc": "Hers dirancang untuk semua wanita, di setiap tahap kehidupan. Setiap bahan dalam formula botani kami dipilih dengan cermat untuk menciptakan campuran manfaat yang seimbang. Dengan Hers, setiap wanita bisa berkembang."
+      }
+    ]
+  },
+  "product_post_list":[
+    {
+      "title": "Ilmu pengetahuan inovatif",
+      "desc": "Glutathione adalah pelindung dan detoksifikasi sel.<span class=fw-600 highlight-text> Ini adalah kunci kehidupan, kesehatan, kinerja, perlindungan, dan umur panjang setiap sel manusia.</span>"
+    },
+    {
+      "title": "Teknologi nano HydraStat™",
+      "desc": "<span class=fw-600>Partikel ukuran nano yang dilindungi oleh kelompok air ultra murni.</span> Bahan ukuran nano kami cukup kecil untuk sepenuhnya diserap ke dalam sel manusia."
+    },
+    {
+      "title": "Kualitas di atas kuantitas",
+      "desc": " Suplemen hanya sebaik ketersediaan hayatinya, yang merupakan kemampuannya untuk diserap dan digunakan oleh tubuh.<span class=fw-600 highlight-text> Sistem pengiriman yang benar mengirimkan bahan ke tubuh Anda dengan cara yang dapat diserap dan digunakan oleh tubuh Anda.</span>"
+    }
+  ],
+
+  "how_to_use":{
+    "title": "Cara Mengkonsumsi",
+    "steps": [
+      {
+        "caption": "Ukur dua (2) sendok teh produk. Satu tutup botol = sendok teh."
+      },
+      {
+        "caption": "Kumur di mulut selama 30 detik atau lebih."
+      },
+      {
+        "caption": "Tidak seperti obat kumur, Anda bisa menelan Hers. Anda juga bisa meludahkannya, jika Anda mau."
+      },
+      {
+        "caption": "Ulangi langkah-langkah ini dua kali sehari. Jangan ragu untuk menggunakan Hers lebih sering, jika diinginkan."
+      }
+    ]
+  },
+  "key_ingredients":{
+    "title": "Bahan utama Hers",
+    "ingredients": "<span class=fw-600>Bahan Aktif:</span> AIR ULTRA-PURE, B6, B12, KALIUM SORBAT, SODIUM BENZOATE, EKSTRAK SPEARMINT.",
+    "item_list_desktop":[
+      {
+        "item":[
+          {
+            "item_name": "Damiana"
+          },
+          {
+            "item_name": "Akar Dong Quai"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "Jahe"
+          },
+          {
+            "item_name": "Ekstrak Chasteberry"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "Akar Maca"
+          },
+          {
+            "item_name": "Black Cohosh"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "Ashwagandha"
+          },
+          {
+            "item_name": "Akar Peony Putih"
+          }
+        ]
+      }
+    ],
+    "items_list":[
+      {
+        "item_name": "Damiana"
+      },
+      {
+        "item_name": "Jahe"
+      },
+      {
+        "item_name": "Akar Maca"
+      },
+      {
+        "item_name": "Ashwagandha"
+      },
+      {
+        "item_name": "Akar Dong Quai"
+      },
+      {
+        "item_name": "Ekstrak Chasteberry"
+      },
+      {
+        "item_name": "Black Cohosh"
+      },
+      {
+        "item_name": "Akar Peony Putih"
+      }
+    ]
+  },
+  "faq":{
+    "title": "Manfaat Glutathione",
+    "icon_class": "clr-primary",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "Sistem Kekebalan Tubuh yang Kuat",
+        "desc": "Glutathione dapat menetralkan radikal bebas dan melindungi tubuh dari efek berbahaya mereka. Ini juga membantu mengurangi peradangan, dan mendukung kemampuan alami tubuh untuk melawan infeksi. Selain itu, ia berperan dalam sintesis sel kekebalan baru, menjaga sistem kekebalan tubuh Anda berfungsi dengan baik."
+      },
+      {
+        "class": "",
+        "header": "Energi yang Meningkat",
+        "desc": "Ini juga membantu mengurangi peradangan, dan mendukung kemampuan alami tubuh untuk melawan infeksi. Selain itu, ia berperan dalam sintesis sel kekebalan baru, menjaga sistem kekebalan tubuh Anda berfungsi dengan baik."
+      },
+      {
+        "class": "",
+        "header": "Daya Tahan dan Ketahanan yang Ditingkatkan",
+        "desc": "Ini juga membantu mengurangi peradangan, dan mendukung kemampuan alami tubuh untuk melawan infeksi. Selain itu, ia berperan dalam sintesis sel kekebalan baru, menjaga sistem kekebalan tubuh Anda berfungsi dengan baik."
+      }
+    ]
+  },
+  "cta":{
+    "title": "Anda yang baru dimulai dengan Neumi",
+    "subscription_text": "Tambahkan ke langganan",
+    "purchase_text": "Pembelian satu kali"
+  },
+  "note_desc": "Pernyataan yang dibuat di situs web ini belum dievaluasi oleh Food and Drug Administration. Pernyataan ini dan produk dari perusahaan ini tidak dimaksudkan untuk mendiagnosis, mengobati, menyembuhkan, atau mencegah penyakit apa pun. Pandangan dan saran nutrisi yang diungkapkan oleh Neumi tidak dimaksudkan untuk memberikan nasihat medis. Harap selalu berkonsultasi dengan penyedia layanan kesehatan Anda jika Anda sedang mengonsumsi obat apa pun atau memiliki kondisi medis. Hasil individu dapat bervariasi."
+}

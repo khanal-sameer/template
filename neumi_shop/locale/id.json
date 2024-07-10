@@ -1,0 +1,70 @@
+{
+  "title": "Halaman Toko Neumi",
+  "shop_product_button_text": "Beli produk kami",
+  "language": "id", "month": "bulan",
+  "hero_section":{
+    "title": "Produk Neumi",
+    "desc": "Hidup lebih baik ketika Anda terlihat dan merasa terbaik."
+  },
+  "asSeenOn": {
+    "title":"Seperti yang terlihat di"
+  },
+  "product_list":{
+    "title": "Botol tunggal",
+    "items":[
+      {
+        "product_name": "NutriSwish",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+      },
+      {
+        "product_name": "Neumi Skin",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+      },
+      {
+        "product_name": "Hers",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+      },
+      {
+        "product_name": "Neuro",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+      }
+    ]
+  },
+  "product_bundle":{
+    "title": "Paket",
+    "product_name": "Neumi OG Pack",
+    "url": ""
+  },
+  "multiple_product":{
+    "items":[
+      {
+        "product_name": "Paket Esensial Hers dengan Neumi Skin",
+        "url": ""
+      },
+      {
+        "product_name": "Paket Esensial Hers dengan NutriSwish",
+        "url": ""
+      },
+      {
+        "product_name": "Paket Esensial Neumi Skin",
+        "url": ""
+      },
+      {
+        "product_name": "Paket Esensial NutriSwish",
+        "url": ""
+      },
+      {
+        "product_name": "Paket Esensial Klasik",
+        "url": ""
+      },
+      {
+        "product_name": "Paket Premium Hers",
+        "url": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Anda yang baru dimulai dengan Neumi."
+  },
+  "note_desc": "Pernyataan yang dibuat dalam situs web ini belum dievaluasi oleh Food and Drug Administration. Pernyataan ini dan produk dari perusahaan ini tidak dimaksudkan untuk mendiagnosis, mengobati, menyembuhkan atau mencegah penyakit apa pun. Pandangan dan saran gizi yang diungkapkan oleh Neumi tidak dimaksudkan untuk tujuan memberikan nasihat medis. Harap selalu berkonsultasi dengan penyedia layanan kesehatan Anda jika Anda mengonsumsi obat apa pun atau memiliki kondisi medis. Hasil individu dapat bervariasi."
+}

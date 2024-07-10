@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="{{language}}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}}</title>
+  <!-- css library import -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  {{>Style}}
+</head>
+
+<body>
+  <div class='custom-landing-page neumi-home-page no-spacing'>
+    <!-- HERO SECTION -->
+    {{#hero_section}}
+    <section class="banner-layout-1" style="background-image: url({{image}});">
+      <div class="container">
+        <div class="wrapper clr-white">
+          <h5 class="clr-white">{{title_sm}}</h5>
+          <h1 class="clr-white mt-8">{{title}}</h1>
+          <p class="mt-8">{{desc}}</p>
+          <div class="btn-section is-flex is-wrap col-gap-12">
+            <a href="{{shop_product_url}}" class="btn btn-primary btn-rounded mt-24">{{shop_product_button_text}}</a>
+            <a href="{{become_member_url}}" class="btn btn-white btn-rounded mt-24">{{become_member_button_text}}</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{/hero_section}}
+    <!-- Masonary Product List -->
+    {{#masonary_section}}
+    <section class="masonary-product-section page-section">
+      <div class="container">
+        <h2>{{title}}</h2>
+        <p class="clr-body mt-12">{{desc}}</p>
+        {{#masonary_product_layout1}}
+        <div class="product-list">
+          <div class="row">
+
+            <div class="col col-12 col-lg-4">
+              <div class="image-section lg-image bg-image mt-30" style="background-image: url({{vertical_image}});">
+              </div>
+            </div>
+
+            <div class="col col-12 col-lg-8">
+              <div class="row">
+                {{#items}}
+                <div class="col col-12 col-xs-6 mt-30">
+                  <div class="image-section bg-image sm-image" style="background-image: url({{image}});">
+                    <h4 class="product-title">
+                      <a href="{{url}}" {{{bg_color}}} target="_blank">
+                        <span>{{product_name}}</span>
+                        <div class="icon">{{{arrow}}}</div>
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+                {{/items}}
+              </div><!-- .row -->
+
+              <div class="image-section bg-image sm-image mt-30" style="background-image: url({{horizontal_image}});">
+              </div>
+            </div><!-- .col col-12 col-lg-4 -->
+
+          </div><!-- .row -->
+        </div><!-- .product-list -->
+        {{/masonary_product_layout1}}
+
+        {{#masonary_product_layout2}}
+        <div class="product-list">
+          <div class="row">
+
+            <div class="col col-12 col-lg-8">
+
+              <div class="image-section bg-image sm-image mt-30" style="background-image: url({{horizontal_image}})">
+              </div>
+
+              <div class="row">
+                {{#items}}
+                <div class="col col-12 col-xs-6 mt-30">
+                  <div class="image-section bg-image sm-image bg-image-top" style="background-image: url({{image}})">
+                    <h4 class="product-title">
+                      <a href="{{url}}" {{{bg_color}}} target="_blank">
+                        <span>{{product_name}}</span>
+                        <div class="icon">{{{arrow}}}</div>
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+                {{/items}}
+              </div><!-- .row -->
+
+            </div><!-- .col col-12 col-lg-8-->
+
+            <div class="col col-12 col-lg-4">
+              <div class="image-section lg-image bg-image mt-30" style="background-image: url({{vertical_image}})">
+              </div>
+            </div>
+
+          </div><!-- .row -->
+        </div><!-- .product-list -->
+        {{/masonary_product_layout2}}
+
+        <div class="btn-section mt-32 text-center">
+          <a href="{{shop_product_url}}" class="btn btn-primary btn-rounded">{{see_all_product_button_text}}</a>
+        </div>
+
+
+      </div> <!-- .container -->
+    </section>
+    {{/masonary_section}}
+    <!-- BEFORE AND AFTER SECTION -->
+    <section class="page-section clr-bg-700_bg product-before-after-result-section">
+      <div class="container">
+        {{#before_and_after}}
+        <h2 class="text-center">{{title}}</h2>
+        <div id="before-after-preview-slider" class="splide before-after-preview-slider mt-32">
+          {{>PrevNext}}
+          <div class="splide__track">
+            <ul class="splide__list">
+              {{#image_list}}
+              <li class="splide__slide">
+                <img src="{{image}}" alt="before after image">
+              </li>
+              {{/image_list}}
+            </ul>
+          </div>
+        </div>
+        {{/before_and_after}}
+
+        {{#medical_advisor_board}}
+        <div class="medical-advisory-board-section page-section-top">
+          <h4 class="text-center">{{title}}</h4>
+          <div class="row">
+            {{#items}}
+            <div class="col col-12 col-xs-6 col-sm-4 col-lg-3">
+              <div class="advisory-board-card mt-32">
+                <div class="image-section">
+                  <img src="{{image}}" alt="">
+                </div>
+                <div class="desc">
+                  <h5 class="line-height-1">{{name}}</h5>
+                  <p class="trim-2 line-height-1-2 fs-sm mt-4">{{university}}</p>
+                </div>
+              </div>
+            </div>
+
+            {{/items}}
+          </div>
+          <div class="medical-advisory-content neumi-d-none">
+            <div class="row ">
+              {{#hidden_items}}
+              <div class="col col-12 col-xs-6 col-sm-4 col-lg-3">
+                <div class="advisory-board-card mt-32">
+                  <div class="image-section">
+                    <img src="{{image}}" alt="">
+                  </div>
+                  <div class="desc">
+                    <h5 class="line-height-1">{{name}}</h5>
+                    <p class="trim-2 line-height-1-2 fs-sm mt-4">{{university}}</p>
+                  </div>
+                </div>
+              </div>
+
+              {{/hidden_items}}
+            </div>
+          </div>
+
+          <div class="btn-section mt-32">
+            <h5 class="clr-primary text-center">
+              <span class="medical-advisosry-list-toggle-btn is-pointer">
+                <span class="see-all-caption">{{see_all_text}}</span>
+                <span class="hide-all-caption neumi-d-none">{{hide_all_text}}</span>
+              </span>
+
+            </h5>
+          </div>
+        </div>
+        {{/medical_advisor_board}}
+
+      </div><!-- .container -->
+    </section>
+
+    <!-- PRODUCT LIST -->
+
+    {{#guarantee}}
+    <section class="product-post product-style-1 is-flex is-wrap overlay-animation">
+      <div class="col-12 col-lg-6">
+        <div class="image-section">
+          <img src="{{image}}" alt="product">
+          <div class="overlay overlay-{{image_position}}"></div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 desc clr-bg-700_bg">
+        <div class="wrapper">
+          <h2>{{title}}</h2>
+          <p class="mt-28 clr-body">{{{desc}}}</p>
+          <div class="feature-item-list">
+            {{#items}}
+            <div class="product-feature-item product-feature-item-style-1 mt-32">
+              <div class="icon-section">
+                {{{icon}}}
+              </div><!--.icon-section-->
+
+              <div class="desc pl-20">
+                <h4>{{title}}</h4>
+                <p class="mt-16">{{desc}}</p>
+              </div>
+            </div><!--.product-feature-item-style-1-->
+            {{/items}}
+          </div><!--.feature-item-list-->
+        </div>
+      </div><!--.desc-->
+    </section>
+    {{/guarantee}}
+
+    {{#performance}}
+    <section class="product-post product-style-1 is-flex is-wrap overlay-animation">
+      <div class="col-12 col-lg-6 {{image_ordering_class}}">
+        <div class="image-section">
+          <img src="{{image}}" alt="product">
+          <div class="overlay overlay-{{image_position}}"></div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 desc clr-bg-700_bg {{desc_ordering_class}}">
+        <div class="wrapper">
+          <h5>{{title_sm}}</h5>
+          <h2>{{title}}</h2>
+          <p class="mt-32 clr-body">{{{desc}}}</p>
+          <div class="btn-section mt-32">
+            <a href="{{url}}" class="btn btn-primary btn-rounded" target="_blank">{{button_text}}</a>
+          </div>
+        </div>
+      </div><!--.desc-->
+    </section>
+    {{/performance}}
+
+    <!-- Video Layout -->
+    {{#video}}
+    <section class="product-demo-video-section page-section">
+      <div class="container">
+        <h2 class="text-center">{{title}}</h2>
+        <h5 class="text-center mt-12">{{title_sm}}</h5>
+        <div class="image-section bg-image is-relative mt-32" style="background-image: url({{image}})">
+          <a data-fancybox="" href="{{video_url}}" class="play-icon play-icon-lg play-icon-bg-white">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M5 2.86688V16.7331C4.99996 16.8873 5.04106 17.0387 5.11906 17.1718C5.19706 17.3048 5.30915 17.4146 5.44374 17.4898C5.57834 17.5651 5.73057 17.603 5.88474 17.5998C6.03891 17.5966 6.18942 17.5523 6.32076 17.4715L17.5871 10.5384C17.7133 10.4608 17.8175 10.3523 17.8898 10.223C17.962 10.0937 18 9.94811 18 9.80001C18 9.6519 17.962 9.50627 17.8898 9.37701C17.8175 9.24775 17.7133 9.13917 17.5871 9.06163L6.32076 2.12851C6.18942 2.04771 6.03891 2.00341 5.88474 2.00019C5.73057 1.99697 5.57834 2.03494 5.44374 2.11019C5.30915 2.18543 5.19706 2.29523 5.11906 2.42825C5.04106 2.56126 4.99996 2.71268 5 2.86688Z"
+                fill="currentColor" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    {{/video}}
+
+    <!-- Accordion Section -->
+    {{>FaqAccordionLayout}}
+
+    {{#cta}}
+    <section class="cta-section cta-layout-2 page-section clr-bg-700_bg">
+      <div class="container">
+        <div class="wrapper bg-image image-section overlay overlay-rounded-8" style="background-image: url({{image}})">
+          <div class="desc-wrapper">
+            <h2 class="clr-white">{{title}}</h2>
+            <div class="btn-section is-flex is-wrap col-gap-12 mt-8">
+              <a href="{{shop_product_url}}" class="btn btn-primary btn-rounded mt-24">{{shop_product_button_text}}</a>
+              <a href="{{become_member_url}}" class="btn btn-white btn-rounded mt-24">{{become_member_button_text}}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {{/cta}}
+
+    <div class="page-note-section pt-32 pb-32">
+      <div class="container">
+        <div class="caption">
+          <span>{{note_desc}}</span>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- .neumi-landing-page -->
+
+  {{>Scripts}}
+  {{>ScriptAccordion}}
+  {{>ScriptBeforeAndAfter}}
+  {{>ScriptGsap}}
+  {{>ScriptWrapper}}
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+{
+  "title": "Neumiショップページ",
+  "shop_product_button_text": "製品を購入",
+  "language": "ja", "month": "月",
+  "hero_section": {
+    "title": "Neumi製品",
+    "desc": "最高の見た目と気分で、人生はより良くなります。"
+  },
+  "asSeenOn": {
+    "title": "メディア掲載"
+  },
+  "product_list": {
+    "title": "シングルボトル",
+    "items": [
+      {
+        "product_name": "NutriSwish",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+      },
+      {
+        "product_name": "Neumi Skin",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+      },
+      {
+        "product_name": "Hers",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+      },
+      {
+        "product_name": "Neuro",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+      }
+    ]
+  },
+  "product_bundle": {
+    "title": "バンドル",
+    "product_name": "Neumi OGパック",
+    "url": ""
+  },
+  "multiple_product": {
+    "items": [
+      {
+        "product_name": "Hers Essential Pack w/ Neumi Skin",
+        "url": ""
+      },
+      {
+        "product_name": "Hers Essential Pack w/ NutriSwish",
+        "url": ""
+      },
+      {
+        "product_name": "Neumi Skin Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "NutriSwish Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "クラシックエッセンシャルパック",
+        "url": ""
+      },
+      {
+        "product_name": "Hers Premium Pack",
+        "url": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "新しいあなたはNeumiから始まります。"
+  },
+  "note_desc": "このウェブサイト内で行われた声明は、食品医薬品局によって評価されていません。これらの声明とこの会社の製品は、病気を診断、治療、治癒、または予防することを目的としていません。Neumiによって表現された見解と栄養アドバイスは、医療アドバイスを提供する目的ではありません。薬を服用している場合や医療状態がある場合は、常に医療提供者に相談してください。個々の結果は異なる場合があります。"
+}

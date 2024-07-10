@@ -1,0 +1,71 @@
+{
+  "title": "Neumi Shop page",
+  "shop_product_button_text": "Shop our products",
+  "language": "en",
+  "month": "mo",
+  "hero_section":{
+    "title": "Neumi Products",
+    "desc": "Life is better when you look and feel your best."
+  },
+  "asSeenOn": {
+    "title": "As seen on"
+  },
+  "product_list":{
+    "title": "Single bottles ashgdahsg",
+    "items":[
+      {
+        "product_name": "NutriSwish",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+      },
+      {
+        "product_name": "Neumi Skin",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+      },
+      {
+        "product_name": "Hers",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+      },
+      {
+        "product_name": "Neuro",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+      }
+    ]
+  },
+  "product_bundle":{
+    "title": "Bundles",
+    "product_name": "Neumi OG Pack",
+    "url": ""
+  },
+  "multiple_product":{
+    "items":[
+      {
+        "product_name": "Hers Essential Pack w/ Neumi Skin",
+        "url": ""
+      },
+      {
+        "product_name": "Hers Essential Pack w/ NutriSwish",
+        "url": ""
+      },
+      {
+        "product_name": "Neumi Skin Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "NutriSwish Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "Classic Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "Hers Premium Pack",
+        "url": ""
+      }
+    ]
+  },
+  "cta":{
+    "title": "A new you starts with Neumi."
+  },
+  "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration. These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
+}

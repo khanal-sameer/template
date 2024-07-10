@@ -1,0 +1,93 @@
+$spaces: 2, 4, 6, 8, 12, 16, 32;
+//gap
+@each $space in $spaces {
+  //gap
+  .gap-#{$space} {
+    gap: ($space / 16) * 1rem;
+  }
+  //row gap
+  .row-gap-#{$space} {
+    row-gap: ($space / 16) * 1rem;
+  }
+  //column gap
+  .col-gap-#{$space} {
+    column-gap: ($space / 16) * 1rem;
+  }
+  //Radius
+  // .radius-#{$space} {
+  //   border-radius: ($space / 16) * 1rem;
+  // }
+}
+.radius-8{
+  border-radius: 8px;
+}
+$marginCorner:(
+  mt margin-top,
+  ml margin-left,
+  mb margin-bottom,
+  mr margin-right
+);
+$paddingCorner:(
+  pt padding-top,
+  pl padding-left,
+  pb padding-bottom,
+  pr padding-right
+);
+.m-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@each $margin in $marginCorner{
+  @for $i from 0 through 32{
+  .#{nth($margin,1)}-#{$i * 2}{
+      #{nth($margin,2)} : $i * 2px;
+    }
+  }
+}
+.mr-lg-0{
+  @include breakpoint-up(lg-tab){
+    margin-right: 0;
+  }
+}
+
+.mt-lg-50{
+  @include breakpoint-up(lg-tab){
+    margin-top: 50px;
+  }
+}
+@each $padding in $paddingCorner{
+  @for $i from 0 through 32{
+    .#{nth($padding,1)}-#{$i * 2}{
+      #{nth($padding,2)} : $i * 2px;
+    }
+  }
+}
+.pt-lg-0{
+  @include breakpoint-up(lg-tab){
+    padding-top: 0;
+  }
+}
+.pl-lg-0{
+  @include breakpoint-up(lg-tab){
+    padding-left: 0;
+  }
+}
+.pr-lg-20{
+  @include breakpoint-up(lg-tab){
+    padding-right: 20px;
+  }
+}
+.pr-lg-24 {
+  @include breakpoint-up(lg-tab) {
+    padding-right: 24px;
+  }
+}
+
+.mt-100 {
+  margin-top: 50px;
+  @include breakpoint-up(lg-tab) {
+    margin-top: 100px;
+  }
+}

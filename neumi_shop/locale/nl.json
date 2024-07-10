@@ -1,0 +1,70 @@
+{
+  "title": "Neumi Winkelpagina",
+  "shop_product_button_text": "Koop onze producten",
+  "language": "nl", "month": "maand",
+  "hero_section":{
+    "title": "Neumi Producten",
+    "desc": "Het leven is beter als je er op je best uitziet en je goed voelt."
+  },
+  "asSeenOn": {
+    "title": "Zoals gezien op"
+  },
+  "product_list":{
+    "title": "Enkele flessen",
+    "items":[
+      {
+        "product_name": "NutriSwish",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+      },
+      {
+        "product_name": "Neumi Skin",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+      },
+      {
+        "product_name": "Hers",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+      },
+      {
+        "product_name": "Neuro",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+      }
+    ]
+  },
+  "product_bundle":{
+    "title": "Pakketten",
+    "product_name": "Neumi OG Pack",
+    "url": ""
+  },
+  "multiple_product":{
+    "items":[
+      {
+        "product_name": "Hers Essential Pack met Neumi Skin",
+        "url": ""
+      },
+      {
+        "product_name": "Hers Essential Pack met NutriSwish",
+        "url": ""
+      },
+      {
+        "product_name": "Neumi Skin Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "NutriSwish Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "Classic Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "Hers Premium Pack",
+        "url": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Een nieuw jij begint met Neumi."
+  },
+  "note_desc": "De verklaringen op deze website zijn niet geëvalueerd door de Food and Drug Administration. Deze verklaringen en de producten van dit bedrijf zijn niet bedoeld om een ziekte te diagnosticeren, behandelen, genezen of voorkomen. De meningen en voedingsadviezen van Neumi zijn niet bedoeld om medisch advies te geven. Raadpleeg altijd uw zorgverlener als u medicijnen gebruikt of medische aandoeningen heeft. Individuele resultaten kunnen variëren."
+}

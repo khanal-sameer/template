@@ -1,0 +1,70 @@
+{
+  "title": "Neumi-Shop-Seite",
+  "shop_product_button_text": "Unsere Produkte kaufen",
+  "language": "de", "month": "Monat",
+  "hero_section":{
+    "title": "Neumi-Produkte",
+    "desc": "Das Leben ist besser, wenn du dich von deiner besten Seite zeigst und fühlst."
+  },
+  "asSeenOn": {
+    "title":"Wie gesehen bei"
+  },
+  "product_list":{
+    "title": "Einzelflaschen",
+    "items":[
+      {
+        "product_name": "NutriSwish",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+      },
+      {
+        "product_name": "Neumi Skin",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+      },
+      {
+        "product_name": "Hers",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+      },
+      {
+        "product_name": "Neuro",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+      }
+    ]
+  },
+  "product_bundle":{
+    "title": "Pakete",
+    "product_name": "Neumi OG Pack",
+    "url": ""
+  },
+  "multiple_product":{
+    "items":[
+      {
+        "product_name": "Hers Essential Pack mit Neumi Skin",
+        "url": ""
+      },
+      {
+        "product_name": "Hers Essential Pack mit NutriSwish",
+        "url": ""
+      },
+      {
+        "product_name": "Neumi Skin Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "NutriSwish Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "Classic Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "Hers Premium Pack",
+        "url": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ein neues Du beginnt mit Neumi."
+  },
+  "note_desc": "Die Aussagen auf dieser Website wurden nicht von der Food and Drug Administration bewertet. Diese Aussagen und die Produkte dieses Unternehmens sind nicht dazu bestimmt, Krankheiten zu diagnostizieren, zu behandeln, zu heilen oder zu verhindern. Die Ansichten und Ernährungsratschläge von Neumi sind nicht zur Erteilung medizinischer Beratung gedacht. Bitte konsultieren Sie immer Ihren Arzt, wenn Sie Medikamente einnehmen oder gesundheitliche Probleme haben. Individuelle Ergebnisse können variieren."
+}

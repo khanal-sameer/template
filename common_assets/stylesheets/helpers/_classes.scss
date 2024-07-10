@@ -1,0 +1,56 @@
+body {
+  position: relative;
+}
+.is-pointer {
+  cursor: pointer;
+}
+.is-uppercase {
+  text-transform: uppercase;
+}
+.line-height-initial{
+  line-height: initial;
+}
+.line-height-1 {
+  line-height: 1;
+}
+.line-height-1-2 {
+  line-height: 1.2;
+}
+.is-strike{
+  text-decoration: line-through;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.secondary-font{
+  font-family: $secondary_font;
+}
+.image-section{
+  &.overlay{
+    position: relative;
+    &:before{
+      content: '';
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      display: inline-block;
+      background-color: rgba(0,0,0,0.4);
+      z-index: 1;
+    }
+    .desc-wrapper{
+      position: relative;
+      z-index: 2;
+    }
+  }
+}
+.overlay-rounded-8{
+  &:before{
+    border-radius: 8px;
+  }
+}
+.trim-2{
+  @include trim(2);
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Pagina del negozio Neumi",
+  "shop_product_button_text": "Acquista i nostri prodotti",
+  "language": "it", "month": "mese",
+  "hero_section":{
+    "title": "Prodotti Neumi",
+    "desc": "La vita è migliore quando ti senti e appari al meglio."
+  },
+  "asSeenOn": {
+    "title": "Come visto su"
+  },
+  "product_list":{
+    "title": "Bottiglie singole",
+    "items":[
+      {
+        "product_name": "NutriSwish",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+      },
+      {
+        "product_name": "Neumi Skin",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+      },
+      {
+        "product_name": "Hers",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+      },
+      {
+        "product_name": "Neuro",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+      }
+    ]
+  },
+  "product_bundle":{
+    "title": "Pacchetti",
+    "product_name": "Neumi OG Pack",
+    "url": ""
+  },
+  "multiple_product":{
+    "items":[
+      {
+        "product_name": "Pacchetto Essenziale Hers con Neumi Skin",
+        "url": ""
+      },
+      {
+        "product_name": "Pacchetto Essenziale Hers con NutriSwish",
+        "url": ""
+      },
+      {
+        "product_name": "Pacchetto Essenziale Neumi Skin",
+        "url": ""
+      },
+      {
+        "product_name": "Pacchetto Essenziale NutriSwish",
+        "url": ""
+      },
+      {
+        "product_name": "Pacchetto Essenziale Classico",
+        "url": ""
+      },
+      {
+        "product_name": "Pacchetto Premium Hers",
+        "url": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Un nuovo te inizia con Neumi."
+  },
+  "note_desc": "Le dichiarazioni fatte in questo sito web non sono state valutate dalla Food and Drug Administration. Queste dichiarazioni e i prodotti di questa azienda non sono destinati a diagnosticare, trattare, curare o prevenire alcuna malattia. Le opinioni e i consigli nutrizionali espressi da Neumi non sono destinati a fornire consulenza medica. Si prega di consultare sempre il proprio medico se si stanno assumendo farmaci o si hanno condizioni mediche. I risultati individuali possono variare."
+}

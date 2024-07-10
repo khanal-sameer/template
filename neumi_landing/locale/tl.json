@@ -1,0 +1,199 @@
+{
+  "title": "Neumi Landing page",
+  "shop_product_button_text": "Mag-shop ng aming mga produkto",
+  "become_member_button_text": "Maging miyembro",
+  "see_all_product_button_text": "Tingnan ang lahat ng mga produkto",
+  "see_all_text": "Tingnan lahat",
+  "hide_all_text": "Itago ang lahat",
+   "language": "tl", "month": "buwan",
+  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
+  "hero_section":{
+    "title": "Ang bagong ikaw ay nagsisimula sa Neumi",
+    "title_sm": "Ang Nano Kompanya",
+    "desc": "Baguhin ang iyong kabutihan gamit ang Kapangyarihan ng HydraStat™ Nanoteknolohiya ng Neumi."
+  },
+  "asSeenOn": {
+    "title": "Tulad ng nakikita sa"
+  },
+  "masonary_section":{
+    "title": "Ang aming hanay ng mga produkto",
+    "desc": "Mas maganda ang buhay kapag ikaw ay maganda at kumportable.",
+    "masonary_product_layout1":{
+      "items":[
+        {
+          "product_name": "Hers",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+        },
+        {
+          "product_name": "Neumi Skin",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+        }
+      ]
+    },
+    "masonary_product_layout2":{
+      "items":[
+        {
+          "product_name": "NutriSwish",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+        },
+        {
+          "product_name": "Neuro",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+        }
+      ]
+    }
+  },
+  "guarantee":{
+    "title": "Ang garantiya ng Neumi",
+    "desc":"Anuman ang uri ng account, tiyak kang mag-e-enjoy ng:",
+    "alt_text": "produktong neumi",
+    "items": [
+      {
+        "title":  "Mahalin mo o libre ito",
+        "desc": "Subukan ang aming mga produkto nang walang risk sa loob ng 30 araw. Kumpiyansa kami na mamahalin mo ang aming mga produkto tulad ng pagmamahal namin dito."
+      },
+      {
+        "title": "Walang abalang mga subscription",
+        "desc": "Kailangan mag-skip ng isang buwan o kanselahin ang iyong subscription? Walang problema! Baguhin ang iyong mga preference anumang oras, at umorder nang may tiwala."
+      },
+      {
+        "title": "Libreng produkto",
+        "desc": "Sa mga order na lampas $300, makakatanggap ka ng 1 libreng bote upang mapababa ang mga gastos sa pagpapadala."
+      }
+    ]
+  },
+  "performance":{
+    "title_sm": "HydraStat Nanotechnology™",
+    "title": "Maliit na delivery, malaking performance",
+    "desc":"Ang mga molekula sa maraming suplemento ay masyadong malaki upang ma-absorb ng selula, kaya sila ay nagiging basura na lamang na inilalabas ng katawan nang hindi epektibo. Ginagamit ng Neumi ang breakthrough na HydraStat Nanotechnology™ upang dagdagan ang bioavailability at epektibong mga produkto sa pamamagitan ng paghiwalay ng malalaking molekula at pag-encapsulate sa mga ito sa ultra-pure water clusters. Ang aming mga sangkap na nanosize ay nasa pagitan ng 10-100 nanometers. Sapat silang maliit upang ma-absorb ng buo sa selula ng tao.",
+    "button_text": "Matuto pa",
+    "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
+  },
+  "video":{
+    "title_sm": "Hydrastat Nanotechnology™",
+    "title": "Ang natatanging pag-usad ng Neumi"
+  },
+  "before_and_after":{
+    "title": "Tingnan ang bago at pagkatapos"
+  },
+  "medical_advisor_board":{
+    "title": "Ang aming hindi sweldohang medical advisory board",
+    "items":[
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck School of Medicine"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMU College of Osteopathic Medicine"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Royal College of Surgeons in Ireland"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Medical College of Georgia"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Fellow"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "University of Barcelona School of Medicine Traumatology"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Clinical Fellow"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Faculty of Medicine and Surgery"
+      }
+    ],
+    "hidden_items":[
+      {
+        "name": "James Jian Ho, MD",
+        "university": "Mayo Fellow"
+      },
+      {
+        "name": "Joseph Kaplan, MD",
+        "university": "University of Alabama School of Medicine"
+      },
+      {
+        "name": "Steven Petrosino, PhD",
+        "university": "LaSalle University"
+      },
+      {
+        "name": "Jim Hayes, MD",
+        "university": "Emergency Medicine. Past President of the Association of Emergency Physicians"
+      },
+      {
+        "name": "Dean Stubbs, MD",
+        "university": "Australian Leader in Integrative Medicine"
+      },
+      {
+        "name": "Tania Ash, MD",
+        "university": "Australian Integrative Medicine Specialist"
+      },
+      {
+        "name": "Kristin Hieshetter, DC",
+        "university": "Doctor of Chiropractic. Metabolic biochemist. Certified in Nutrition. Non-invasive Laser specialist."
+      },
+      {
+        "name": "Luis Miguel Valdes, MD",
+        "university": "Medical Specialist Ear Nose and Throat."
+      },
+      {
+        "name": "Bethany Dixon, DC",
+        "university": "Chiropractor and Certified Medical Examiner. Physician and consultant to the transportation industry."
+      },
+      {
+        "name": "Pacilina estrella-Barotil, MD",
+        "university": "Family Practitioner with a Masters degree in Hospital Administration;  Owner and Medical Director of Wholeness Family Medical Center, Inc., Silang, Philippines."
+      }
+    ]
+  },
+  "faq":{
+    "title": "Madalas itanong na mga katanungan",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "Ako ay isang preferred customer. Paano ako mag-oorder?",
+        "desc": "Ang pinakamahusay na paraan ay sa pamamagitan ng <a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a> at maglagay ng iyong order doon."
+      },
+      {
+        "class": "",
+        "header": "Bakit Glutathione?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "Ano ang dapat kong maramdaman?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "Ano ang pinakamabuting oras upang uminom ng NutriSwish?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "Saan nanggagaling ang mga sangkap?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "Ano ang pinakamahusay na feature sa kalusugan?",
+        "desc": ""
+      }
+    ]
+
+  },
+  "cta":{
+    "title": "Ang bagong ikaw ay nagsisimula sa Neumi."
+  },
+  "note_desc": "Ang mga pahayag na ginawa sa website na ito ay hindi sinuri ng Food and Drug Administration. Ang mga pahayag at produkto ng kumpanyang ito ay hindi inaasahang magamot, gamutin, lunasan o pigilan ang anumang sakit. Ang mga opinyon at payo sa nutrisyon na inilahad ng Neumi ay hindi inaasahang naglalayong magbigay ng medikal na payo. Mangyaring laging kumonsulta sa iyong healthcare provider kung ikaw ay may iniinom na gamot o may anumang kondisyon sa kalusugan. Ang indibidwal na mga resulta ay maaaring mag-iba-iba."
+}

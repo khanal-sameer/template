@@ -1,0 +1,23 @@
+.cp-total-customer-section{
+  .cp-image-section{
+    height: 165px;
+    @include media(sm){
+      height: 327px;
+    }
+  }
+  p{
+    color: #D8E7FF;
+    @include font-size($root_font_size_lg_device,1);
+    @include media(sm){
+      @include font-size(28px,1);
+    }
+  }
+  .cp-title{
+    font-size: 24px;
+    font-weight: $font_bold;
+    @include font-size(24px,1);
+    @include media(sm){
+      @include font-size(58px,1);
+    }
+  }
+}

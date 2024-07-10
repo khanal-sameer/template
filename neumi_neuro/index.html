@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="{{language}}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <!-- css library import -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    {{>Style}}
+  </head>
+  <body>
+    <div  class='custom-landing-page neuro-landing-page' id="neuro-landing-page" data-product="{{product_id}}" >
+      {{>Breadcrumb}}
+      <!-- PRODUCT DESCRIPTION -->
+      {{>ProductDescriptionLayout}}
+
+      <!-- Video Section -->
+      {{>VideoLayout}}
+
+      <!-- Tab section -->
+      {{>TabLayout}}
+
+      <!-- Benefits -->
+      {{>BenefitsLayout2}}
+
+      <!-- Product List(square image) -->
+      {{>ProductPostListLayout}}
+
+      <!-- Key ingredients section -->
+      {{>KeyIngredientsLayout}}
+
+
+      <!-- How to use -->
+      {{#how_to_use}}
+        <section class="page-section page-section_howtouse clr-bg-white-100 how-to-use-section">
+          <div class="container">
+            <div class="row">
+
+              <div class="col col-12 col-lg-6">
+                <div class="image-section bg-image" style="background-image: url({{bg_image}})"></div>
+              </div>
+
+              <div class="col col-lg-6 pt-32 pt-lg-0">
+                <div class="desc items-center h-full">
+                  <h2>{{title}}</h2>
+                  <p class="mt-20">{{desc}}</p>
+                </div>
+              </div>
+
+            </div><!-- .row -->
+          </div><!-- .container -->
+        </section>
+      {{/how_to_use}}
+      <!-- FAQS  -->
+      {{>FaqAccordionLayout}}
+      <!-- Support -->
+      {{#cta}}
+        <section class="cta-section cta-layout-1">
+          <div class="container">
+            <div class="cta-banner-wrapper">
+              <div class="cta-banner-content">
+                <h2 class="clr-white">{{title}}</h2>
+                <p class="fs-lg">{{desc}}</p>
+                <div class="btn-section mt-20">
+                  <div class="row">
+                    <div class="col col-12 col-xs-6">
+                      <button
+                        class="btn btn-white btn-rounded  mt-12"
+                        data-fluid-subscription-checkout="{{product_id}}"
+                      >
+                      {{subscription_text}}
+                      </button>
+                    </div>
+
+                    <div class="col col-12 col-xs-6">
+                      <button
+                        class="btn btn-border btn-border_white btn-rounded  mt-12"
+                        data-fluid-checkout="{{product_id}}"
+                      >
+                        {{purchase_text}}
+                      </button>
+                    </div>
+                  </div><!-- .row -->
+                </div><!-- .btns-->
+              </div>
+
+              <div class="cta-banner-figure">
+                <img
+                  src="{{image}}"
+                  alt="cta support"
+                />
+              </div>
+            </div><!-- .cta-banner_wrap -->
+          </div><!-- .container -->
+        </section>
+      {{/cta}}
+      <!-- NOTE SECTION -->
+      <div class="page-note-section pb-32">
+        <div class="container">
+          <div class="caption">
+            <span class="fs-sm">{{note_desc}}</span>
+          </div>
+        </div>
+      </div><!-- .page-note-section -->
+
+    </div><!-- .custom-landing-page -->
+
+    {{>Scripts}}
+    {{>ScriptAccordion}}
+    {{>ScriptFancybox}}
+    {{>ScriptGsap}}
+    {{>ScriptIngredient}}
+    {{>ScriptInteraction}}
+    {{>ScriptPrice}}
+    {{>ScriptProduct}}
+    {{>ScriptTabs}}
+    {{>ScriptWrapper}}
+  </body>
+</html>

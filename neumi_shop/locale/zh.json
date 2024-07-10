@@ -1,0 +1,70 @@
+{
+  "title": "Neumi商店页面",
+  "shop_product_button_text": "购买我们的产品",
+  "language": "zh", "month": "月",
+  "hero_section":{
+    "title": "Neumi产品",
+    "desc": "当您看起来和感觉最好时，生活就更美好。"
+  },
+  "asSeenOn": {
+    "title": "如何看待"
+  },
+  "product_list":{
+    "title": "单品",
+    "items":[
+      {
+        "product_name": "NutriSwish",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+      },
+      {
+        "product_name": "Neumi Skin",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+      },
+      {
+        "product_name": "Hers",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+      },
+      {
+        "product_name": "Neuro",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+      }
+    ]
+  },
+  "product_bundle":{
+    "title": "套餐",
+    "product_name": "Neumi经典套装",
+    "url": ""
+  },
+  "multiple_product":{
+    "items":[
+      {
+        "product_name": "Hers基础套装附Neumi Skin",
+        "url": ""
+      },
+      {
+        "product_name": "Hers基础套装附NutriSwish",
+        "url": ""
+      },
+      {
+        "product_name": "Neumi Skin基础套装",
+        "url": ""
+      },
+      {
+        "product_name": "NutriSwish基础套装",
+        "url": ""
+      },
+      {
+        "product_name": "经典基础套装",
+        "url": ""
+      },
+      {
+        "product_name": "Hers高级套装",
+        "url": ""
+      }
+    ]
+  },
+  "cta":{
+    "title": "全新的自己从Neumi开始。"
+  },
+  "note_desc": "本网站中的声明未经食品和药物管理局评估。本公司的声明和产品不旨在诊断、治疗、治愈或预防任何疾病。Neumi表达的观点和营养建议并非旨在提供医疗建议。如果您正在服用任何药物或有任何健康问题，请务必咨询您的医疗保健提供者。个体结果可能有所不同。"
+}

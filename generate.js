@@ -1,4 +1,5 @@
 import Mustache from "mustache";
+import path from "node:path";
 
 import {
   mapArgs,
@@ -9,6 +10,10 @@ import {
   readDir,
 } from "./utils.js";
 
+function escape(str) {
+  return str.replace(/#\{([^}]+)\}/g, (_, content) => `{{${content}}}`);
+}
+
 const replaceIterableInt = (nestedString = "", key) => {
   const regex = new RegExp('"' + key + '"\\s*:\\s*(\\d+)', "g");
   return nestedString.replace(regex, function (_, value) {
@@ -18,19 +23,30 @@ const replaceIterableInt = (nestedString = "", key) => {
   });
 };
 
-const populateHTML = (lang, page, base = "base/template.html") => {
-  const template = readFile(base);
-  const data = readFile(lang);
-  const partials = readDir("partials");
+const populateHTML = (
+  lang,
+  tmpl,
+  lang_tmpl,
+  pages,
+  project,
+  style_tmpl,
+  partials_tmpl,
+) => {
+  const data = JSON.parse(readFile(lang));
 
-  const replaceData = replaceIterableInt(data, "rating");
+  if (!data || !tmpl) return;
+
+  const langReplaced = Mustache.render(lang_tmpl, data);
+  const replaceData = replaceIterableInt(langReplaced, "rating");
   const parsedData = JSON.parse(replaceData);
+  
+  parsedData.style = style_tmpl
 
-  if (!data || !template) return;
+  const rendered = Mustache.render(tmpl, parsedData, partials_tmpl, { escape });
+  const locale_name = path.parse(lang).name;
+  const page_name = path.join(pages, `${project}_${locale_name}.html`);
 
-  const rendered = Mustache.render(template, parsedData, partials);
-
-  writeFile(page, rendered);
+  writeFile(page_name, rendered);
 
   return rendered;
 };
@@ -57,10 +73,33 @@ const init = (args) => {
 };
 
 const populate = (args) => {
-  const options = { base: false };
+  const options = { project: false };
   checkMultiple(args, options);
+  const [locales, page, lang_temp, pages, project, style, partials,scripts] =
+    populatePath(args?.project[0]);
 
-  populatePath().forEach((item) => populateHTML(...item, args.base));
+  const tmpl = readFile(page);
+  const lang_tmpl = readFile(lang_temp);
+  const style_tmpl = readFile(style);
+  const partials_tmpl = readDir(partials);
+  const scripts_tmpl = readDir(scripts, (key,value) =>`\n<script defer id='${key}'>\n${value}\n</script>\n`)
+  const partial = {...partials_tmpl, ...scripts_tmpl}
+
+ const style_comp  = `<style>
+  ${style_tmpl} </style>
+  `;
+  
+  locales.forEach((lang) =>
+    populateHTML(
+      lang,
+      tmpl,
+      lang_tmpl,
+      pages,
+      project,
+      style_comp,
+      partial,
+    )
+  );
 };
 
 const actions = {

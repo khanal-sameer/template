@@ -1,0 +1,199 @@
+{
+  "title": "หน้าแรก Neumi",
+  "shop_product_button_text": "ช็อปผลิตภัณฑ์ของเรา",
+  "become_member_button_text": "เป็นสมาชิก",
+  "see_all_product_button_text": "ดูผลิตภัณฑ์ทั้งหมด",
+  "see_all_text": "ดูทั้งหมด",
+  "hide_all_text": "ซ่อนทั้งหมด",
+  "language": "th", "month": "เดือน",
+  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
+  "hero_section":{
+    "title": "คุณใหม่เริ่มต้นที่ Neumi",
+    "title_sm": "บริษัท Nano",
+    "desc": "เปลี่ยนแปลงสุขภาพด้วยพลังของเทคโนโลยีไฮดราสแทต™ ของ Neumi"
+  },
+  "asSeenOn": {
+    "title": "ตามที่เห็นใน"
+  },
+  "masonary_section":{
+    "title": "สินค้าของเรา",
+    "desc": "ชีวิตดีขึ้นเมื่อคุณดูแลตัวเองให้ดีที่สุด",
+    "masonary_product_layout1":{
+      "items":[
+        {
+          "product_name": "Hers",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+        },
+        {
+          "product_name": "Neumi Skin",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+        }
+      ]
+    },
+    "masonary_product_layout2":{
+      "items":[
+        {
+          "product_name": "NutriSwish",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+        },
+        {
+          "product_name": "Neuro",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+        }
+      ]
+    }
+  },
+  "guarantee":{
+    "title": "การรับประกันของ Neumi",
+    "desc":"ไม่ว่าจะเป็นประเภทบัญชีใด ๆ คุณก็จะได้รับ:",
+    "alt_text": "ผลิตภัณฑ์ neumi",
+    "items": [
+      {
+        "title":  "ชอบหรือไม่ได้ก็ได้",
+        "desc": "ลองผลิตภัณฑ์ของเราได้ภายใน 30 วันโดยไม่มีความเสี่ยง พวกเรามั่นใจว่าคุณจะชอบผลิตภัณฑ์ของเราเท่าเทียมกับเรา"
+      },
+      {
+        "title": "บริการสมาชิกที่ง่ายดาย",
+        "desc": "ต้องการข้ามเดือนหรือยกเลิกการสมัครสมาชิก? ไม่มีปัญหา! แก้ไขการตั้งค่าของคุณได้ตลอดเวลา และสั่งซื้อได้อย่างมั่นใจ"
+      },
+      {
+        "title": "ฟรีผลิตภัณฑ์",
+        "desc": "ซื้อสินค้าครบ 300 ดอลลาร์ขึ้นไป คุณจะได้รับขวดฟรี 1 ขวดเพื่อลดค่าจัดส่ง"
+      }
+    ]
+  },
+  "performance":{
+    "title_sm": "เทคโนโลยีไฮดราสแทต™",
+    "title": "ส่งผลดีในทุกการใช้งาน",
+    "desc":"โมเลกุลในสารอาหารหลายชนิดมีขนาดใหญ่เกินไปที่จะถูกดูดซึมโดยเซลล์ ดังนั้นพวกเขาถูกขับออกจากร่างกายโดยที่ไม่ได้ใช้งานอย่างมีประสิทธิภาพ Neumi ใช้เทคโนโลยีไฮดราสแทต™ แบบพิเศษเพื่อเพิ่มประสิทธิภาพในการดูดซึมและความมีประสิทธิภาพของผลิตภัณฑ์ทั้งหมดของมันโดยการทำให้โมเลกุลขนาดใหญ่แตกตัวและห่อหุ้มด้วยกลุ่มน้ำที่บริสุทธิ์สุด โมเลกุลขนาดเล็กของเราอยู่ระหว่าง 10-100 นาโนเมตร พวกเขามีขนาดเล็กพอที่จะถูกดูดซึมเต็มที่เข้าสู่เซลล์มนุษย์",
+    "button_text": "เรียนรู้เพิ่มเติม",
+    "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
+  },
+  "video":{
+    "title_sm": "เทคโนโลยีไฮดราสแทต™",
+    "title": "การประดิษฐ์ Neumi"
+  },
+  "before_and_after":{
+    "title": "ดูผลก่อนและหลัง"
+  },
+  "medical_advisor_board":{
+    "title": "คณะกรรมการที่ปรึกษาทางการแพทย์ของเรา",
+    "items":[
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck School of Medicine"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMU College of Osteopathic Medicine"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Royal College of Surgeons in Ireland"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Medical College of Georgia"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Fellow"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "University of Barcelona School of Medicine Traumatology"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Clinical Fellow"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Faculty of Medicine and Surgery"
+      }
+    ],
+    "hidden_items":[
+      {
+        "name": "James Jian Ho, MD",
+        "university": "Mayo Fellow"
+      },
+      {
+        "name": "Joseph Kaplan, MD",
+        "university": "University of Alabama School of Medicine"
+      },
+      {
+        "name": "Steven Petrosino, PhD",
+        "university": "LaSalle University"
+      },
+      {
+        "name": "Jim Hayes, MD",
+        "university": "Emergency Medicine. Past President of the Association of Emergency Physicians"
+      },
+      {
+        "name": "Dean Stubbs, MD",
+        "university": "Australian Leader in Integrative Medicine"
+      },
+      {
+        "name": "Tania Ash, MD",
+        "university": "Australian Integrative Medicine Specialist"
+      },
+      {
+        "name": "Kristin Hieshetter, DC",
+        "university": "Doctor of Chiropractic. Metabolic biochemist. Certified in Nutrition. Non-invasive Laser specialist."
+      },
+      {
+        "name": "Luis Miguel Valdes, MD",
+        "university": "Medical Specialist Ear Nose and Throat."
+      },
+      {
+        "name": "Bethany Dixon, DC",
+        "university": "Chiropractor and Certified Medical Examiner. Physician and consultant to the transportation industry."
+      },
+      {
+        "name": "Pacilina estrella-Barotil, MD",
+        "university": "Family Practitioner with a Masters degree in Hospital Administration;  Owner and Medical Director of Wholeness Family Medical Center, Inc., Silang, Philippines."
+      }
+    ]
+  },
+  "faq":{
+    "title": "คำถามที่พบบ่อย",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "ฉันเป็นลูกค้าที่ชื่นชอบ ฉันจะสั่งซื้ออย่างไร?",
+        "desc": "วิธีที่ดีที่สุดคือไปที่ <a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a> และสั่งซื้อที่นั่น"
+      },
+      {
+        "class": "",
+        "header": "ทำไมต้องใช้ Glutathione?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "ฉันควรรู้สึกอย่างไร?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "เวลาที่ดีที่สุดในการทาน NutriSwish คือเมื่อไหร่?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "สารอาหารที่มีอยู่ที่ไหน?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "คุณสมบัติสุขภาพที่ดีที่สุดคืออะไร?",
+        "desc": ""
+      }
+    ]
+
+  },
+  "cta":{
+    "title": "คุณใหม่เริ่มต้นที่ Neumi"
+  },
+  "note_desc": "คำแถลงการณ์ที่ได้รับการวิจารณ์จาก องค์การอาหารและยายังไม่ได้รับการประเมิน และคำแถลงการณ์เหล่านี้และผลิตภัณฑ์ของบริษัทนี้ไม่ได้มีวัตถุประสงค์ที่จะวินิจฉัย รักษา หายเป็นหรือป้องกันโรคใดๆ มุ่งหวังในคำแนะนำทางโภชนาการและทิศทางทางการแพทย์ที่ Neumi ได้ออกแบบขึ้น หากท่านกำลังรับประทานยาหรือมีโรคประจำตัว กรุณาปรึกษาแพทย์ผู้เชี่ยวชาญด้านสุขภาพของท่านเสมอ ผลลัพธ์ของแต่ละบุคคลอาจแตกต่างกันไป"
+}

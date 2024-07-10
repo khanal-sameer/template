@@ -1,0 +1,191 @@
+{
+  "title": "Neumi Bizop page",
+   "language": "tl", "month": "buwan",
+  "total_product_review": "7 Pagsusuri",
+  "get_started_btn_text": "Simulan",
+  "see_all_text": "Tingnan lahat",
+  "hide_all_text": "Itago ang lahat",
+  "hero_section": {
+    "title": "Maging Kasapi ng Neumi",
+    "desc": "Magsimula sa iyong paglalakbay sa negosyo kasama ang Neumi. Sumali sa amin para sa access sa piling supplements at skincare products, at pagkakataon na itaguyod ang iyong sariling tagumpay."
+  },
+  "asSeenOn": {
+    "title": "Nakikita sa"
+  },
+  "tab": {
+    "title": "Makita kung paano binabago ng Neumi ang buhay",
+    "video_review_title": "Video Pagsusuri <span>(5)</span>",
+    "written_review_title": "Mga Pagsusuri sa Sulat <span>(2)</span>",
+    "rating_text": "5 Bituin na Rating",
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "Salt Lake City, UT",
+        "time": "2 oras na nakalipas",
+        "review_text": "Ang Neumi ay nag-iba ng laro para sa akin! Ginagamit ko ito ng ilang buwan na at napansin ko ang malaking pagpapabuti sa aking energy levels at kabuuang kalakasan. Kamangha-mangha kung paano ang isang bagay na ganun kasimple ay maaaring magkaroon ng napakalalim na epekto. Highly recommend!"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "Laie, HI",
+        "time": "2 oras na nakalipas",
+        "review_text": "Nahihirapan ako sa pag-maintain ng balanseng hormone sa loob ng mga taon, ngunit nagdulot ang Neumi ng napakalaking pagbabago. Hindi lamang ako mas balanseng at may enerhiya, ngunit napansin ko rin ang pagpapabuti sa tono ng aking balat at tono ng aking mga kalamnan. Tunay na kahanga-hanga!"
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "Mga Premium na Diskwento",
+      "desc": "Tumangkilik ng eksklusibong mga diskwento para sa mga miyembro sa aming mataas na kalidad na mga supplements at skincare range. Mga produkto ng kalidad, mas maraming matitipid, mas malalaking oportunidad."
+    },
+    {
+      "title": "Walang Bayad sa Pagsali",
+      "desc": "Simulan ang iyong paglalakbay sa Neumi nang walang bayad sa pagsali. Lumubog diretso sa pagbuo ng iyong negosyo nang walang anumang unang balakid."
+    },
+    {
+      "title": "Ibahagi sa mga kaibigan at pamilya",
+      "desc": "Paramihin ang iyong network sa Neumi sa pamamagitan ng pagbahagi ng mga benepisyo sa mga kaibigan at pamilya. Bawat koneksyon ay nagbubukas ng pintuan sa mas malalaking posibilidad."
+    },
+    {
+      "title": "Kumita ng lingguhan at buwanang kita",
+      "desc": "Pinagpapala ng Neumi ang iyong mga pagsisikap sa regular na lingguhang at buwanang kita. Paramihin ang iyong network, itaguyod ang iyong negosyo, at tamasahin ang pinansyal na gantimpala."
+    }
+  ],
+  "trip": {
+    "title": "Kumita ng mga biyahe sa mga pangarap na destinasyon",
+    "desc": "Habang binubuo mo ang iyong negosyo at pinapayaman ang buhay ng mga nasa paligid mo, natatanggap mo ang pagkilala at maaaring mag-qualify para sa mga kahanga-hangang biyahe. Kumita ng pagkakataon na bisitahin ang mga magagandang destinasyon mula sa Mexico hanggang Thailand hanggang Monte Carlo at bilang bonus, maaari kang magdala ng kasamang bisita upang ibahagi ang karanasan."
+  },
+  "enrollment": {
+    "title": "Mga Pagsasali sa Programa",
+    "desc": "Magsimula sa loob ng ilang minuto sa pamamagitan ng pagbili ng pagsali sa program na pinipili mo!",
+    "purchase_btn_text": "Bumili ng pack ng pagiging miyembro",
+    "alt_text": "enroll pack",
+    "enrollment_slider": [
+      {
+        "title": "Lifestyle Bundle Pack",
+        "product_count": "8 Neumi Skin + 17 NutriSwish",
+        "price": "1,300.00+$1,000/buwan"
+      },
+      {
+        "title": "Lifestyle Bundle Pack",
+        "product_count": "8 Neumi Skin + 17 NutriSwish",
+        "price": "1,300.00+$1,000/buwan"
+      }
+    ]
+  },
+  "before_and_after": {
+    "title": "Tingnan ang Bago at Pagkatapos"
+  },
+  "medical_advisor_board": {
+    "title": "Ang aming walang bayad na medical advisory board",
+    "items": [
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck School of Medicine"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMU College of Osteopathic Medicine"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Royal College of Surgeons in Ireland"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Medical College of Georgia"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Fellow"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "University of Barcelona School of Medicine Traumatology"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Clinical Fellow"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Faculty of Medicine and Surgery"
+      },
+      {
+        "name": "James Jian Ho, MD",
+        "university": "Mayo Fellow"
+      },
+      {
+        "name": "Joseph Kaplan, MD",
+        "university": "University of Alabama School of Medicine"
+      }
+    ],
+    "hidden_items": [
+      {
+        "name": "Steven Petrosino, PhD",
+        "university": "LaSalle University"
+      },
+      {
+        "name": "Jim Hayes, MD",
+        "university": "Emergency Medicine. Past President of the Association of Emergency Physicians"
+      },
+      {
+        "name": "Dean Stubbs, MD",
+        "university": "Australian Leader in Integrative Medicine"
+      },
+      {
+        "name": "Tania Ash, MD",
+        "university": "Australian Integrative Medicine Specialist"
+      },
+      {
+        "name": "Kristin Hieshetter, DC",
+        "university": "Doctor of Chiropractic. Metabolic biochemist. Certified in Nutrition. Non-invasive Laser specialist."
+      },
+      {
+        "name": "Luis Miguel Valdes, MD",
+        "university": "Medical Specialist Ear Nose and Throat."
+      },
+      {
+        "name": "Bethany Dixon, DC",
+        "university": "Chiropractor and Certified Medical Examiner. Physician and consultant to the transportation industry."
+      },
+      {
+        "name": "Pacilina estrella-Barotil, MD",
+        "university": "Family Practitioner with a Masters degree in Hospital Administration;  Owner and Medical Director of Wholeness Family Medical Center, Inc., Silang, Philippines."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Madalas itanong na mga katanungan",
+    "icon_class": "clr-primary",
+    "items": [
+      {
+        "header": "Paano ako maging kasapi?",
+        "desc": "Maaari kang mag-enroll sa pamamagitan ng pagpunta sa<a href='https://neumi.fluid.app/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/pagsali.</a> Maghanap ng iyong sponsor at sundin ang proseso ng pagsasali."
+      },
+      {
+        "header": "Mayroon bang mga kontrata?",
+        "desc": ""
+      },
+      {
+        "header": "Pwede ba akong mag-cancel kahit kailan?",
+        "desc": ""
+      },
+      {
+        "header": "Ano ang mga diskwento na matatanggap ko bilang kasapi?",
+        "desc": ""
+      },
+      {
+        "header": "Paano gumagana ang komisyon at mga bonus?",
+        "desc": ""
+      },
+      {
+        "header": "Ano ang mga programa ng insentibo?",
+        "desc": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ang bagong ikaw ay nagsisimula sa Neumi. Gawin ang iyong mga pangarap na realidad!"
+  },
+  "note_desc": "Ang mga pahayag na ginawa sa loob ng website na ito ay hindi sinuri ng Food and Drug Administration. Ang mga pahayag at mga produkto ng kumpanyang ito ay hindi inilalayong magdiagnose, gamutin, lunasan o pigilan ang anumang sakit. Ang mga opinyon at nutrisyonal na payo na ipinahayag ng Neumi ay hindi inilaan para sa layunin ng pagbibigay ng medikal na payo. Paki-consulto palagi ang iyong healthcare provider kung ikaw ay umiinom ng anumang gamot o may anumang medikal na kondisyon. Ang indibidwal na resulta ay maaaring mag-iba."
+}

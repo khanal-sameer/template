@@ -1,0 +1,225 @@
+  {
+    "title": "Hers",
+    "product_title": "Hers",
+    "total_product_review": "7 Reviews",
+    "product_desc":  "<span class=fw-600>A premium nutritional supplement meticulously designed for women, </span> featuring pioneering Hydrastat Nano Technology for optimal absorption.",
+    "select_quantity_text": "Select Quantity",
+    "all_product_text": "All Products",
+    "add_to_cart_text": "Add to cart",
+    "language": "",
+    "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+    "subscribe": {
+      "subscribe_text":"Subscribe",
+      "frequency_text": "Select Frequency",
+      "actual_price" : "65.00",
+      "discounted_price": "50.00",
+      "checklist_items":[
+        {
+          "caption": "Subscribe and save <span id='pricing'>$15</span>"
+        },
+        {
+          "caption": "Earn Neumi Reward Points"
+        },
+        {
+          "caption": "30-day money-back guarantee"
+        },
+        {
+          "caption": "Update your subscription anytime"
+        }
+      ],
+      "one_time_purchase_text":"One-time purchase"
+    },
+    "free_shipping_desc": "Free U.S. shipping for orders over $200+",
+    "benefits":{
+      "title": "Benefits",
+      "items":[
+        {
+          "caption":"Key ingredients to balance and support your hormone health, daily."
+        },
+        {
+          "caption":"For every season in life–active menstruation, pre/active/post menopause"
+        },
+        {
+          "caption": "Increase significant relief of hot flashes or cramps within just 20 minutes of consumption"
+        }
+      ]
+    },
+    "asSeenOn": {
+      "title": "As seen on"
+    },
+
+    "tab":{
+      "title": "See how Hers is changing lives",
+      "video_review_title": "Video Reviews <span>(5)</span>",
+      "written_review_title": "Written Reviews <span>(2)</span>",
+      "rating_text": "5 Star Rating",
+      "review_list": [
+        {
+            "reviewer": "Aidan D..",
+            "address": "Salt Lake City, UT",
+            "time": "2 hour ago",
+            "review_text": "Hers has been a game-changer for me! I've been using it for a few months now, and I've noticed a significant improvement in my energy levels and overall vitality. It's amazing how something so simple can have such profound effects. Highly recommend!"
+        },
+        {
+            "reviewer": "Lola P..",
+            "address": "Laie, HI",
+            "time": "2 hour ago",
+            "review_text": "I've struggled with maintaining hormone balance for years, but Hers has made a world of difference. Not only do I feel more balanced and energized, but I've also noticed improvements in my skin tone and muscle tone. It's truly remarkable!"
+        }
+      ]
+    },
+    "product_benefits":{
+      "title": "Benefits of using Hers",
+      "desc": "<span class='fw-600'>Every woman knows about the inconveniences that cycles and hormone changes can bring into life.</span>Experience rapid results through our HydraStat™ Nanotechnology. Our nano-sized ingredients, wrapped in water clusters, are small enough to be absorbed fully by the human cell, which is right where you need them!",
+      "alt_text": "hers product",
+      "items": [
+        {
+          "title": "Ingredients You Can Trust",
+          "desc": "Hers uses our HydraStat™ nano-delivery system to maximize absorption and effectiveness of the following ingredients: white peony extract, chaste berry, dong quai, maca root, ashwagandha and other nutrients."
+        },
+        {
+          "title": "Results You Can Count On",
+          "desc": "We conducted a double-blind clinical trial, and 80% of participants, spanning from active menstruation to post-menopause, saw a marked improvement in their symptoms. Notably some experiencing hot flashes or cramps reported significant relief within just 20 minutes of consumption."
+        },
+        {
+          "title": "For Every Season Of Life",
+          "desc": "Hers is designed for all women, in every season of life. Every ingredient in our botanical formula was carefully selected to create a well-rounded blend of benefits. With Hers, every woman can flourish."
+        }
+      ]
+    },
+    "product_post_list":[
+      {
+        "title": "Innovative science",
+        "desc": "Glutathione is the protector and detoxifier of the cell.<span class=fw-600 highlight-text>It’s the key to the life, health, performance, protection and longevity of every human cell.</span>"
+
+      },
+      {
+        "title": "HydraStat™ nanotechnology",
+        "desc": "<span class=fw-600>Nano-sized particles protected by ultra-pure water clusters.</span>Our nanosized ingredients are small enough to be fully absorbed into the human cell."
+      },
+      {
+        "title": "Quality over quantity",
+        "desc": " A supplement is only as good as its bioavailability, which is its ability to be absorbed and used by the body.<span class=fw-600 highlight-text>The correct delivery system delivers ingredients to your body in a way that your body can absorb and use.</span>"
+      }
+    ],
+
+    "how_to_use":{
+      "title": "How to intake",
+      "steps": [
+        {
+          "caption": "Measure two (2) teaspoons of product. One capful = teaspoon."
+        },
+        {
+          "caption": "Swish in your mouth for 30 seconds or more."
+        },
+        {
+          "caption": "Unlike mouthwash, you can swallow Hers. You can also spit it out, if you prefer."
+        },
+        {
+          "caption": "Repeat these steps twice a day. Feel free to use Hers  more often, if desired."
+        }
+      ]
+    },
+    "key_ingredients":{
+      "title": "Hers key ingredients",
+      "ingredients": "<span class=fw-600>Active Ingredients:</span> ULTRA-PURE WATER, B6, B12, POTASSIUM SORBATE, SODIUM BENZOATE, SPEARMINT EXTRACT.",
+      "item_list_desktop":[
+        {
+          "item":[
+            {
+              "item_name": "Damiana"
+            },
+            {
+              "item_name": "Dong Quai Root"
+            }
+          ]
+        },
+        {
+          "item":[
+            {
+              "item_name": "Ginger"
+            },
+            {
+              "item_name": "Chasteberry Extract"
+            }
+          ]
+        },
+        {
+          "item":[
+            {
+              "item_name": "Maca Root"
+            },
+            {
+              "item_name": "Black Cohosh"
+            }
+          ]
+        },
+        {
+          "item":[
+            {
+              "item_name": "Ashwagandha"
+            },
+            {
+              "item_name": "Peony White Root"
+            }
+          ]
+        }
+      ],
+      "items_list":[
+        {
+          "item_name": "Damiana"
+        },
+        {
+          "item_name": "Ginger"
+        },
+        {
+          "item_name": "Maca Root"
+        },
+        {
+          "item_name": "Ashwagandha"
+        },
+        {
+          "item_name": "Dong Quai Root"
+        },
+        {
+          "item_name": "Chasteberry Extract"
+        },
+        {
+          "item_name": "Black Cohosh"
+        },
+        {
+          "item_name": "Peony White Root"
+        }
+      ]
+    },
+    "faq":{
+      "title": "Benefits of Glutathione",
+      "icon_class": "clr-primary",
+      "items":[
+        {
+          "class": "acc-item_active",
+          "header": "Strengthened Immune System",
+          "desc": "Glutathione is able to neutralize free radicals and protect the body from their harmful effects.It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
+        },
+        {
+          "class": "",
+          "header": "Increased Energy",
+          "desc": "It also helps to reduce inflammation, and supports the body's natural ability to fight off infection.In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
+        },
+        {
+          "class": "",
+          "header": "Enhanced Stamina and Endurance",
+          "desc": "It also helps to reduce inflammation, and supports the body's natural ability to fight off infection. In addition, it plays a role in the synthesis of new immune cells, keeping your immune system functioning at its best."
+        }
+
+      ]
+
+    },
+    "cta":{
+      "title": "A new you starts with Neumi",
+      "subscription_text": "Add to subscription",
+      "purchase_text": " Purchase one-time",
+      "image": "https://cdn.fluid.app/neumi/hers/images/cta.png"
+    },
+    "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration.These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
+  }

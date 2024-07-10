@@ -18,17 +18,18 @@ const rootAbs = [".", "/", "./"];
 
 const createDir = (dest = "") => {
   const dirname = path.dirname(dest);
+  
   if (rootAbs.includes(dirname)) return;
 
   fs.mkdirSync(dirname, { recursive: true });
 };
 
-export const readDir = (src) => {
+export const readDir = (src, transform) => {
   try {
     return fs.readdirSync(getPath(src), { ...config }).reduce((acc, file) => {
       const fileName = path.basename(file, path.extname(file));
       const fileRead = readFile(path.join(src, file));
-      acc[fileName] = fileRead;
+      acc[fileName] = transform ?  transform(fileName,fileRead): fileRead;
 
       return acc;
     }, {});
@@ -99,40 +100,34 @@ export const createFilePath = (prefix = "", values = {}) => {
   }
 
   return projects.reduce((acc, project) => {
+    const dataPath = path.join(prefix, project, `json`, 'data.json');
+    const cssPath = path.join(prefix, project, `css`, 'style.css');
+    const template = path.join(prefix, project, 'index.html');
+
+    acc.push([dataPath],[cssPath],[template]);
+
     for (const lang of locales) {
-      const langPath = path.join(prefix, project, "locales", `${lang}.json`);
-      acc.push(langPath);
+      const langPath = path.join(prefix, project, "locale", `${lang}.json`);
+      acc.push([langPath]);
     }
     return acc;
   }, []);
 };
 
 export const initProject = (values) => {
-  const base = values.base ? readFile(path.join(values.base[0])) : "";
-  const trees = createFilePath("projects", values);
-
-  trees.forEach((tree) => createFile(tree, base));
+  const trees = createFilePath(".", values);
+  trees.forEach(([tree,value]) => createFile(tree,value || ""));
 };
 
-export const populatePath = () => {
-  const projects = globSync("projects/*");
+export const populatePath = (project) => {
+  const locales = globSync(path.join(project,"locale/*.json"))
 
-  if (!projects.length) {
-    throw new Error(
-      "Projects not initialized, please run yarn generate to create projects."
-    );
-  }
+  const data = path.join(project,"json","data.json")
+  const template = path.join(project,"index.html")
+  const pages = path.join(project,'pages')
+  const style = path.join(project,"css","style.css")
+  const partials = path.join('partials')
+  const scripts = path.join('js')
 
-  return projects.reduce((acc, item) => {
-    const locales = globSync(item + "/locales/*.json");
-    const project = path.basename(item);
-
-    locales.forEach((locale) => {
-      const lang = path.basename(locale, ".json");
-      const page = `${item}/pages/${project}_${lang}.html`;
-      acc.push([locale, page]);
-    });
-
-    return acc;
-  }, []);
+  return [locales, template, data, pages, project,style, partials, scripts]
 };

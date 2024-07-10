@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="{{language}}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <!-- css library import -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    {{>Style}}
+  </head>
+  <body>
+    <div  class='custom-landing-page neumi-shop-page no-spacing'>
+      <!-- HERO SECTION -->
+      {{#hero_section}}
+        <div class="banner-layout-1 bg-image shop-banner">
+          <div class="container">
+            <div class="wrapper clr-white">
+              <h1 class="clr-white">{{title}}</h1>
+              <p class="mt-8">{{desc}}</p>
+              <div class="btn-section is-flex is-wrap col-gap-12">
+                <span class="btn btn-primary btn-rounded mt-24 shop-product-button">{{shop_product_button_text}}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/hero_section}}
+      <!-- Main Product List -->
+      {{#product_list}}
+        <div class="main-product-list page-section-top" id="shop-product">
+          <div class="container">
+            <h2>{{title}}</h2>
+            <div class="product-list mt-2">
+              <div class="row">
+                {{#items}}
+                  <div class="col col-12 col-xs-6">
+                    <div class="main-product-item mt-30">
+                      <div class="image-section">
+                        <a href="{{url}}">
+                          <img src="{{image}}" alt="" class="w-full">
+                        </a>
+                      </div>
+                      <div class="fs-md fw-600 clr-body mt-12">
+                        <a href="{{url}}">{{product_name}}</a>
+                      </div>
+                      <div class="price mt-4 price-color" style="display: none;" id="product_{{product_id}}">$<span>{{price}}</span></div>
+
+                    </div>
+                  </div>
+                {{/items}}
+              </div><!--.row---->
+            </div><!-- .product-list -->
+
+          </div><!-- .container -->
+        </div><!-- .main-product-list -->
+      {{/product_list}}
+
+      <!-- bundle and multiple product-->
+      <div class="page-section">
+        <div class="container">
+          <!-- Product Bundle section -->
+          {{#product_bundle}}
+            <div class="product-bundle-section">
+              <h2>{{title}}</h2>
+              <div class="image-section mt-32">
+                <a href="{{url}}">
+                  <img src="{{image}}" alt="product" class="w-full"/>
+                </a>
+              </div>
+              <div class="fs-md fw-600 clr-body mt-12">
+                <a href="{{url}}">{{product_name}}</a></div>
+              <div class="price mt-4 price-color">${{price}}</div>
+            </div>
+          {{/product_bundle}}
+
+          {{#multiple_product}}
+            <div class="multiple-product-list">
+              <div class="row">
+                {{#items}}
+                  <div class="col col-12 col-xs-6 col-lg-4">
+                    <div class="product-item mt-30">
+                      <div class="image-section">
+                        <a href="{{url}}">
+                          <img src="{{image}}" alt="product">
+                        </a>
+                      </div>
+                      <div class="fs-md fw-600 clr-body mt-12">
+                        <a href="{{url}}">{{product_name}}</a>
+                      </div>
+                      <div class="price mt-4 price-color">${{price}}</div>
+
+                    </div>
+                  </div>
+                {{/items}}
+              </div><!-- .row -->
+            </div><!-- .multiple-product-list -->
+          {{/multiple_product}}
+        </div>
+      </div>
+
+      {{#cta}}
+        <div class="cta-section cta-layout-2 page-section clr-bg-700_bg">
+          <div class="container">
+            <div class="wrapper bg-image image-section overlay overlay-rounded-8" style="background-image: url({{image}});">
+              <div class="desc-wrapper">
+                <h2 class="clr-white">{{title}}</h2>
+                <div class="btn-section is-flex is-wrap col-gap-12 mt-8">
+                  <span class="btn btn-primary btn-rounded mt-24 shop-product-button">{{shop_product_button_text}}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/cta}}
+
+      <div class="page-note-section pt-32 pb-32">
+        <div class="container">
+          <div class="caption fs-sm">
+            <span>{{note_desc}}</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- .neumi-landing-page -->
+
+    {{>Scripts}}
+    {{>ScriptFancybox}}
+    {{>ScriptGsap}}
+    {{>ScriptWrapper}}
+  </body>
+</html>

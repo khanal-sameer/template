@@ -1,0 +1,70 @@
+{
+  "title": "עמוד החנות של Neumi",
+  "shop_product_button_text": "קנה את המוצרים שלנו",
+  "language": "he", "month": "חודש",
+  "hero_section": {
+    "title": "מוצרי Neumi",
+    "desc": "החיים טובים יותר כשאתה נראה ומרגיש במיטבך."
+  },
+  "asSeenOn": {
+    "title": "כפי שנראה ב"
+  },
+  "product_list": {
+    "title": "בקבוקים בודדים",
+    "items": [
+      {
+        "product_name": "NutriSwish",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+      },
+      {
+        "product_name": "Neumi Skin",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+      },
+      {
+        "product_name": "Hers",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+      },
+      {
+        "product_name": "Neuro",
+        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+      }
+    ]
+  },
+  "product_bundle": {
+    "title": "חבילות",
+    "product_name": "Neumi OG Pack",
+    "url":""
+  },
+  "multiple_product": {
+    "items": [
+      {
+        "product_name": "חבילת יסוד לנשים עם Neumi Skin",
+        "url": ""
+      },
+      {
+        "product_name": "חבילת יסוד לנשים עם NutriSwish",
+        "url": ""
+      },
+      {
+        "product_name": "חבילת יסוד Neumi Skin",
+        "url": ""
+      },
+      {
+        "product_name": "חבילת יסוד NutriSwish",
+        "url": ""
+      },
+      {
+        "product_name": "חבילת יסוד קלאסית",
+        "url": ""
+      },
+      {
+        "product_name": "חבילת פרימיום לנשים",
+        "url": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "אני חדש מתחיל עם Neumi."
+  },
+  "note_desc": "ההצהרות שנעשו באתר זה לא הוערכו על ידי מינהל המזון והתרופות. הצהרות אלו ומוצרי החברה אינם מיועדים לאבחן, לטפל, לרפא או למנוע מחלות כלשהן. הדעות והעצות התזונתיות המובעות על ידי Neumi אינן מיועדות לספק ייעוץ רפואי. תמיד התייעץ עם ספק שירותי הבריאות שלך אם אתה נוטל תרופות כלשהן או שיש לך מצבים רפואיים כלשהם. התוצאות האישיות עשויות להשתנות."
+}

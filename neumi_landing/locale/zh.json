@@ -1,0 +1,198 @@
+{
+  "title": "Neumi登陆页",
+  "shop_product_button_text": "购买我们的产品",
+  "become_member_button_text": "成为会员",
+  "see_all_product_button_text": "查看所有产品",
+  "see_all_text": "查看全部",
+  "hide_all_text": "隐藏全部",
+  "language": "zh", "month": "月",
+  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
+  "hero_section":{
+    "title": "Neumi开启新的自我",
+    "title_sm": "纳米科技公司",
+    "desc": "利用Neumi的HydraStat™纳米技术，改变您的健康与幸福。"
+  },
+  "asSeenOn": {
+    "title": "如见于"
+  },
+  "masonary_section":{
+    "title": "我们的产品系列",
+    "desc": "当您感觉最好时，生活也变得更美好。",
+    "masonary_product_layout1":{
+      "items":[
+        {
+          "product_name": "Hers（女性产品）",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+        },
+        {
+          "product_name": "Neumi Skin（Neumi皮肤产品）",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+        }
+      ]
+    },
+    "masonary_product_layout2":{
+      "items":[
+        {
+          "product_name": "NutriSwish（营养液）",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+        },
+        {
+          "product_name": "Neuro（神经产品）",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+        }
+      ]
+    }
+  },
+  "guarantee":{
+    "title": "Neumi保证",
+    "desc":"无论账户类型如何，您都将享受以下权益：",
+    "alt_text": "Neumi产品",
+    "items": [
+      {
+        "title":  "喜爱或免费",
+        "desc": "我们的产品支持30天无风险试用。我们对产品的质量有着极大的信心，希望您也能喜爱。"
+      },
+      {
+        "title": "免费订阅服务",
+        "desc": "需要跳过某个月份或取消订阅？没问题！随时编辑您的偏好，放心下单。"
+      },
+      {
+        "title": "免费产品",
+        "desc": "订单满$300，即可获得一瓶免费产品，以抵扣运费。"
+      }
+    ]
+  },
+  "performance":{
+    "title_sm": "HydraStat™纳米技术",
+    "title": "小尺寸输送，大效能",
+    "desc":"许多补充剂中的分子过大，无法被细胞有效吸收，最终被排出体外。Neumi采用突破性的HydraStat™纳米技术，通过将大分子分解并包裹在超纯水团簇中，提高产品的生物利用度和有效性。我们的纳米尺寸成分在10-100纳米之间，足够小，能完全被人体细胞吸收。",
+    "button_text": "了解更多",
+    "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
+  },
+  "video":{
+    "title_sm": "Hydrastat™纳米技术",
+    "title": "Neumi的突破"
+  },
+  "before_and_after":{
+    "title": "查看前后效果"
+  },
+  "medical_advisor_board": {
+    "title": "我们的无偿医学顾问委员会",
+    "items": [
+      {
+        "name": "道格拉斯·哈灵顿（Douglas Harrington, MD）",
+        "university": "南加州大学凯克医学院（USC Keck School of Medicine）"
+      },
+      {
+        "name": "戈登·克罗齐尔（Gordon Crozier, DO）",
+        "university": "德莫因大学骨科医学院（DMU College of Osteopathic Medicine）"
+      },
+      {
+        "name": "扎内托尔·阿吉曼-罗林斯医生（Dr. Zanetor Agyeman-Rawlings, MD）",
+        "university": "爱尔兰皇家外科学院（Royal College of Surgeons in Ireland）"
+      },
+      {
+        "name": "安妮·瓦鲁吉斯医生（Annie Varughese, MD, FAAC）",
+        "university": "乔治亚医科大学（Medical College of Georgia）"
+      },
+      {
+        "name": "托马斯·雷德纳医生（Thomas Redner, MD）",
+        "university": "哈佛大学研究员（Harvard Fellow）"
+      },
+      {
+        "name": "爱德华多·桑切斯-奥索里奥·尼古拉斯医生（Eduardo Sánchez-Osorio Nicolás, MD）",
+        "university": "巴塞罗那大学医学院创伤学（University of Barcelona School of Medicine Traumatology）"
+      },
+      {
+        "name": "罗纳德·D·弗里德曼医生（Ronald D. Friedman, MD）",
+        "university": "哈佛临床研究员（Harvard Clinical Fellow）"
+      },
+      {
+        "name": "何塞·桑蒂亚纳·亚马莫托爵士医生（Sir José Santillana Yamamoto, MD）",
+        "university": "UST医学与外科学院（UST Faculty of Medicine and Surgery）"
+      }
+    ],
+    "hidden_items": [
+      {
+        "name": "詹姆斯·简·何医生（James Jian Ho, MD）",
+        "university": "梅奥医学院研究员（Mayo Fellow）"
+      },
+      {
+        "name": "约瑟夫·卡普兰医生（Joseph Kaplan, MD）",
+        "university": "阿拉巴马大学医学院（University of Alabama School of Medicine）"
+      },
+      {
+        "name": "史蒂文·佩特罗西诺博士（Steven Petrosino, PhD）",
+        "university": "拉萨尔大学（LaSalle University）"
+      },
+      {
+        "name": "吉姆·海斯医生（Jim Hayes, MD）",
+        "university": "急诊医学专家，急诊医生协会前主席"
+      },
+      {
+        "name": "迪恩·斯塔布斯医生（Dean Stubbs, MD）",
+        "university": "澳大利亚整合医学领袖"
+      },
+      {
+        "name": "塔尼亚·艾许医生（Tania Ash, MD）",
+        "university": "澳大利亚整合医学专家"
+      },
+      {
+        "name": "克里斯汀·希舍特尔博士（Kristin Hieshetter, DC）",
+        "university": "脊椎神经系统医学博士，营养学认证，非侵入激光专家"
+      },
+      {
+        "name": "路易斯·米格尔·瓦尔德斯医生（Luis Miguel Valdes, MD）",
+        "university": "耳鼻喉科医学专家"
+      },
+      {
+        "name": "贝瑟尼·迪克森博士（Bethany Dixon, DC）",
+        "university": "脊椎医师和认证医疗检查员，运输行业医生和顾问"
+      },
+      {
+        "name": "帕西利娜·埃斯特雷拉-巴罗蒂尔医生（Pacilina estrella-Barotil, MD）",
+        "university": "家庭医生，拥有医院管理硕士学位，菲律宾Silang Wholeness Family Medical Center, Inc.的所有者兼医疗主任"
+      }
+    ]
+  },
+  "faq":{
+    "title": "常见问题",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "我是优惠客户，如何订购？",
+        "desc": "最佳方式是访问<a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a>并在那里下单。"
+      },
+      {
+        "class": "",
+        "header": "为什么选择谷胱甘肽？",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "使用后应该感觉到什么？",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "NutriSwish最佳服用时间？",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "成分来源地？",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "最佳健康特性是什么？",
+        "desc": ""
+      }
+    ]
+  },
+  "cta":{
+    "title": "Neumi，开启新的自我。"
+  },
+  "note_desc": "本网站所述观点未经食品和药物管理局评估。本公司的产品和观点并非旨在诊断、治疗、治愈或预防任何疾病。Neumi表达的观点和营养建议并非旨在提供医疗建议。如果您正在服用任何药物或有任何健康问题，请务必咨询您的医疗保健提供者。个人效果可能有所不同。"
+}

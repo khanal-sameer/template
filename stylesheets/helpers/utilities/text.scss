@@ -1,0 +1,51 @@
+/*
+  1. Text transform
+  2. Clipping text
+  3. Word Break
+  4. Text decoration
+  5. Line Height
+*/
+$text_transform: uppercase,capitalize,lowercase;
+$line_limit: 1,2,3,4;
+// Text transform
+@each $textTransform in $text_transform{
+  .#{$prefix}-text-#{$textTransform} {
+    text-transform: $textTransform;
+  }
+}
+// Clipping text
+@each $lineLimit in $line_limit{
+  .#{$prefix}-line-limit-#{$lineLimit}{
+    @include line-limit(#{$lineLimit});
+  }
+}
+// Word Break
+.#{$prefix}-word-break{
+  word-break: break-word;
+}
+.#{$prefix}-word-break-all{
+  word-break: break-all;
+}
+
+.#{$prefix}-pre{
+  white-space: break-spaces;
+}
+// Text Decoration
+.#{$prefix}-text-underline{
+  text-decoration: underline;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+// Line height
+.#{$prefix}-line-height-1{
+  line-height: 1;
+}
+.#{$prefix}-line-height-2{
+  line-height: 2;
+}
+@for $i from 10 through 16 {
+  .#{$prefix}-line-height-#{$i}x{ //$i*2
+    line-height: $i *2px;
+  }
+}

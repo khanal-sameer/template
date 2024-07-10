@@ -1,0 +1,16 @@
+.#{$prefix}-service-post-section{
+  .cp-col{
+    &:first-child{
+      .#{$prefix}-service-post{
+        margin-top: 0;
+      }
+    }
+    &:nth-child(2){
+      .#{$prefix}-service-post{
+        @include media(xs){
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

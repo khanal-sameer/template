@@ -1,0 +1,198 @@
+{
+  "title": "Neumi 랜딩 페이지",
+  "shop_product_button_text": "제품 구매하기",
+  "become_member_button_text": "회원이 되기",
+  "see_all_product_button_text": "모든 제품 보기",
+  "see_all_text": "모두 보기",
+  "hide_all_text": "모두 숨기기",
+  "language": "ko", "month": "월",
+  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
+  "hero_section": {
+    "title": "Neumi로 시작하는 새로운 당신",
+    "title_sm": "나노 컴퍼니",
+    "desc": "Neumi의 HydraStat™ 나노 기술의 힘으로 당신의 웰빙을 변화시키세요."
+  },
+  "asSeenOn": {
+    "title": "출연 매체"
+  },
+  "masonary_section": {
+    "title": "우리의 제품 라인업",
+    "desc": "최고로 보이고 느낄 때 삶은 더 좋습니다.",
+    "masonary_product_layout1":{
+      "items":[
+        {
+          "product_name": "Hers",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+        },
+        {
+          "product_name": "Neumi Skin",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+        }
+      ]
+    },
+    "masonary_product_layout2":{
+      "items":[
+        {
+          "product_name": "NutriSwish",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+        },
+        {
+          "product_name": "Neuro",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+        }
+      ]
+    }
+  },
+  "guarantee": {
+    "title": "Neumi 보증",
+    "desc": "계정 유형에 관계없이, 다음을 즐기실 수 있습니다:",
+    "alt_text": "neumi 제품",
+    "items": [
+      {
+        "title": "만족하지 않으면 무료",
+        "desc": "제품을 30일 동안 무위험으로 사용해보세요. 우리가 제품을 좋아하는 것만큼 여러분도 제품을 좋아하게 될 것이라고 확신합니다."
+      },
+      {
+        "title": "번거롭지 않은 구독",
+        "desc": "한 달을 건너뛰거나 구독을 취소해야 합니까? 문제 없습니다! 언제든지 설정을 편집하고 자신 있게 주문하세요."
+      },
+      {
+        "title": "무료 제품",
+        "desc": "$300 이상 주문 시 배송비를 상쇄하기 위해 무료 병 1개를 제공합니다."
+      }
+    ]
+  },
+  "performance": {
+    "title_sm": "HydraStat 나노 기술™",
+    "title": "작은 전달, 큰 성과",
+    "desc": "많은 보충제의 분자는 세포에 흡수되기에는 너무 커서 효과적으로 사용되지 않고 체외로 배출됩니다. Neumi는 혁신적인 HydraStat 나노 기술™을 사용하여 큰 분자를 분해하고 초순수 물 클러스터로 감싸 모든 제품의 생체이용률과 효과를 높입니다. 우리의 나노 크기 성분은 10-100 나노미터 사이입니다. 인간 세포에 완전히 흡수될 만큼 작습니다.",
+    "button_text": "더 알아보기",
+    "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
+  },
+  "video": {
+    "title_sm": "Hydrastat 나노 기술™",
+    "title": "Neumi의 혁신"
+  },
+  "before_and_after": {
+    "title": "비포 & 애프터 보기"
+  },
+  "medical_advisor_board": {
+    "title": "우리의 무급 의료 자문위원회",
+    "items": [
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck 의과대학"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMU 오스테오패시 의과대학"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "아일랜드 왕립 외과 대학"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "조지아 의과대학"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "하버드 펠로우"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "바르셀로나 대학 의과대학 외상학과"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "하버드 임상 펠로우"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST 의과대학 및 외과대학"
+      }
+    ],
+    "hidden_items": [
+      {
+        "name": "James Jian Ho, MD",
+        "university": "메이오 펠로우"
+      },
+      {
+        "name": "Joseph Kaplan, MD",
+        "university": "앨라배마 대학 의과대학"
+      },
+      {
+        "name": "Steven Petrosino, PhD",
+        "university": "라살 대학교"
+      },
+      {
+        "name": "Jim Hayes, MD",
+        "university": "응급 의학. 응급 의사 협회 전 회장"
+      },
+      {
+        "name": "Dean Stubbs, MD",
+        "university": "호주 통합 의학 리더"
+      },
+      {
+        "name": "Tania Ash, MD",
+        "university": "호주 통합 의학 전문가"
+      },
+      {
+        "name": "Kristin Hieshetter, DC",
+        "university": "카이로프랙틱 의사. 대사 생화학자. 영양학 인증. 비침습 레이저 전문가."
+      },
+      {
+        "name": "Luis Miguel Valdes, MD",
+        "university": "이비인후과 전문의."
+      },
+      {
+        "name": "Bethany Dixon, DC",
+        "university": "카이로프랙터 및 인증된 의료 검사관. 운송 산업의 의사 및 컨설턴트."
+      },
+      {
+        "name": "Pacilina estrella-Barotil, MD",
+        "university": "병원 관리 석사 학위를 가진 가정 의사; 필리핀 실랑에 있는 Wholeness Family Medical Center, Inc.의 소유주 및 의료 책임자."
+      }
+    ]
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "저는 선호 고객입니다. 어떻게 주문하나요?",
+        "desc": "<a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a>에 방문하여 주문하는 것이 가장 좋습니다."
+      },
+      {
+        "class": "",
+        "header": "왜 글루타티온인가요?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "무엇을 느껴야 하나요?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "NutriSwish를 복용하기 가장 좋은 시간은 언제인가요?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "성분은 어디에서 구하나요?",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "최고의 건강 기능은 무엇인가요?",
+        "desc": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Neumi로 시작하는 새로운 당신."
+  },
+  "note_desc": "이 웹사이트 내의 성명은 식품의약국(FDA)에서 평가하지 않았습니다. 이 성명과 이 회사의 제품은 질병을 진단, 치료, 치료 또는 예방하려는 목적이 아닙니다. Neumi의 견해와 영양 조언은 의료 조언을 제공하기 위한 것이 아닙니다. 약물을 복용하거나 의학적 상태가 있는 경우 항상 의료 제공자와 상담하십시오. 개인 결과는 다를 수 있습니다."
+}

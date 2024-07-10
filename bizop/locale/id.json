@@ -1,0 +1,148 @@
+{
+  "title": "Halaman Neumi Bizop",
+  "language": "id", "month": "bulan",
+  "total_product_review": "7 Ulasan",
+  "get_started_btn_text": "Mulai",
+  "see_all_text": "Lihat semua",
+  "hide_all_text": "Sembunyikan semua",
+  "hero_section": {
+    "title": "Daftar sebagai Anggota Neumi",
+    "desc": "Mulailah perjalanan wirausaha Anda dengan Neumi. Bergabunglah dengan kami untuk mengakses suplemen premium dan produk perawatan kulit, serta kesempatan untuk membentuk kesuksesan Anda sendiri."
+  },
+  "asSeenOn": {
+    "title": "Seperti yang terlihat di"
+  },
+  "tab": {
+    "title": "Lihat bagaimana Neumi mengubah hidup",
+    "video_review_title": "Ulasan Video <span>(5)</span>",
+    "written_review_title": "Ulasan Tertulis <span>(2)</span>",
+    "rating_text": "Rating 5 Bintang",
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "Salt Lake City, UT",
+        "time": "2 jam yang lalu",
+        "review_text": "Neumi telah mengubah hidup saya! Saya telah menggunakannya selama beberapa bulan sekarang, dan saya telah melihat peningkatan yang signifikan dalam tingkat energi dan vitalitas saya secara keseluruhan. Luar biasa bagaimana sesuatu yang begitu sederhana bisa memiliki efek yang begitu besar. Sangat direkomendasikan!"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "Laie, HI",
+        "time": "2 jam yang lalu",
+        "review_text": "Saya telah berjuang dengan menjaga keseimbangan hormon selama bertahun-tahun, tetapi Neumi telah membuat perbedaan besar. Tidak hanya saya merasa lebih seimbang dan bertenaga, tetapi saya juga melihat perbaikan dalam warna kulit dan tonus otot saya. Sungguh luar biasa!"
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "Diskon Premium",
+      "desc": "Nikmati diskon anggota eksklusif untuk rangkaian suplemen dan perawatan kulit premium kami. Produk berkualitas, lebih banyak penghematan, peluang lebih besar."
+    },
+    {
+      "title": "Tidak Ada Biaya Pendaftaran",
+      "desc": "Mulailah perjalanan Neumi Anda tanpa biaya pendaftaran. Langsung terjun membangun bisnis Anda tanpa hambatan awal."
+    },
+    {
+      "title": "Bagikan dengan Teman & Keluarga",
+      "desc": "Perluas jaringan Neumi Anda dengan membagikan manfaatnya kepada teman dan keluarga. Setiap hubungan membuka pintu ke peluang yang lebih besar."
+    },
+    {
+      "title": "Dibayar Mingguan & Bulanan",
+      "desc": "Neumi menghargai usaha Anda dengan pendapatan mingguan dan bulanan secara teratur. Bangun jaringan Anda, bangun bisnis Anda, dan nikmati imbalan keuangan."
+    }
+  ],
+  "trip": {
+    "title": "Dapatkan perjalanan ke tujuan impian",
+    "desc": "Saat Anda membangun bisnis Anda dan memperkaya kehidupan orang-orang di sekitar Anda, Anda akan menerima pengakuan dan dapat memenuhi syarat untuk perjalanan luar biasa. Raih kesempatan untuk mengunjungi tujuan impian dari Meksiko hingga Thailand hingga Monte Carlo dan sebagai bonus, Anda dapat membawa tamu untuk berbagi pengalaman bersama."
+  },
+  "enrollment": {
+    "title": "Paket Pendaftaran",
+    "desc": "Mulailah dalam beberapa menit dengan membeli paket pendaftaran pilihan Anda!",
+    "purchase_btn_text": "Beli paket keanggotaan",
+    "enrollment_slider": [
+      {
+        "title": "Paket Bundel Gaya Hidup",
+        "product_count": "8 Neumi Skin + 17 NutriSwish",
+        "price": "1.300,00 + $1.000/bulan"
+      },
+      {
+        "title": "Paket Bundel Gaya Hidup",
+        "product_count": "8 Neumi Skin + 17 NutriSwish",
+        "price": "1.300,00 + $1.000/bulan"
+      }
+    ]
+  },
+  "before_and_after": {
+    "title": "Lihat sebelum & sesudahnya"
+  },
+  "medical_advisor_board": {
+    "title": "Dewan Penasehat Medis Kami",
+    "items": [
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck School of Medicine"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMU College of Osteopathic Medicine"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Royal College of Surgeons in Ireland"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Medical College of Georgia"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Fellow"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "University of Barcelona School of Medicine Traumatology"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Clinical Fellow"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Faculty of Medicine and Surgery"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "icon_class": "clr-primary",
+    "items": [
+      {
+        "header": "Bagaimana cara saya menjadi anggota?",
+        "desc": "Anda dapat mendaftar dengan pergi ke <a href='https://neumi.fluid.app/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'>Neumi.com/corporphan/enrollment.</a> Cari sponsor Anda dan ikuti proses pendaftaran."
+      },
+      {
+        "header": "Apakah ada kontrak?",
+        "desc": ""
+      },
+      {
+        "header": "Dapatkah saya membatalkan kapan saja?",
+        "desc": ""
+      },
+      {
+        "header": "Apa diskon yang saya dapatkan sebagai anggota?",
+        "desc": ""
+      },
+      {
+        "header": "Bagaimana komisi dan bonus bekerja?",
+        "desc": ""
+      },
+      {
+        "header": "Apa program insentifnya?",
+        "desc": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Kehidupan baru dimulai dengan Neumi. Wujudkan impian Anda menjadi kenyataan!"
+  },
+  "note_desc": "Pernyataan yang terdapat dalam situs web ini belum dievaluasi oleh Administrasi Makanan dan Obat-obatan. Pernyataan ini dan produk dari perusahaan ini tidak dimaksudkan untuk mendiagnosis, mengobati, menyembuhkan, atau mencegah penyakit apa pun. Pandangan dan saran gizi yang disampaikan oleh Neumi tidak dimaksudkan untuk memberikan saran medis. Selalu berkonsultasi dengan penyedia layanan kesehatan Anda jika Anda sedang mengonsumsi obat-obatan atau memiliki kondisi medis tertentu. Hasil individu dapat bervariasi."
+}

@@ -1,0 +1,219 @@
+{
+  "title": "Hers",
+  "product_title": "Hers",
+  "total_product_review": "7 리뷰",
+  "product_desc":  "<span class=fw-600>여성을 위해 세심하게 설계된 프리미엄 영양 보충제,</span> 최적의 흡수를 위한 혁신적인 Hydrastat Nano 기술이 특징입니다.",
+  "select_quantity_text": "수량 선택",
+  "all_product_text": "모든 제품",
+  "add_to_cart_text": "장바구니에 담기",
+  "language": "ko", "month": "월",
+  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "subscribe": {
+    "subscribe_text":"구독",
+    "frequency_text": "빈도 선택",
+    "checklist_items":[
+      {
+        "caption": "구독하고 <span class='price_container is-hide' id='saving'>$15</span> 절약"
+      },
+      {
+        "caption": "Neumi 리워드 포인트 적립"
+      },
+      {
+        "caption": "30일 환불 보장"
+      },
+      {
+        "caption": "언제든지 구독 업데이트 가능"
+      }
+    ],
+    "one_time_purchase_text":"일회성 구매"
+  },
+  "free_shipping_desc": "$200 이상 주문 시 미국 내 무료 배송",
+  "benefits":{
+    "title": "혜택",
+    "items":[
+      {
+        "caption":"매일 호르몬 건강을 균형 잡고 지원하는 주요 성분."
+      },
+      {
+        "caption":"인생의 모든 계절에 – 활동적인 월경, 폐경 전/중/후"
+      },
+      {
+        "caption": "섭취 후 20분 만에 열감이나 경련의 현저한 완화 증가"
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "소개된 매체"
+  },
+
+  "tab":{
+    "title": "Hers가 삶을 어떻게 변화시키는지 보세요",
+    "video_review_title": "비디오 리뷰 <span>(5)</span>",
+    "written_review_title": "서면 리뷰 <span>(2)</span>",
+    "rating_text": "5성급 평가",
+    "review_list": [
+      {
+          "reviewer": "에이든 D.",
+          "address": "솔트레이크 시티, UT",
+          "time": "2시간 전",
+          "review_text": "Hers는 제 인생을 바꿔놓았습니다! 몇 달 동안 사용하고 있는데, 에너지 수준과 전반적인 활력이 크게 향상된 것을 느꼈습니다. 이렇게 간단한 것이 이렇게 깊은 영향을 미칠 수 있다는 것이 놀랍습니다. 강력 추천합니다!"
+      },
+      {
+          "reviewer": "롤라 P.",
+          "address": "라에, HI",
+          "time": "2시간 전",
+          "review_text": "몇 년 동안 호르몬 균형을 유지하는 데 어려움을 겪어왔지만, Hers가 큰 차이를 만들었습니다. 더 균형 잡히고 에너지가 넘칠 뿐만 아니라, 피부 톤과 근육 톤에서도 개선이 있음을 느꼈습니다. 정말 놀랍습니다!"
+      }
+    ]
+  },
+  "product_benefits":{
+    "title": "Hers 사용의 이점",
+    "desc": "<span class='fw-600'>모든 여성은 생리 주기와 호르몬 변화가 삶에 가져올 수 있는 불편함을 알고 있습니다.</span> 우리의 HydraStat™ 나노 기술을 통해 빠른 결과를 경험하세요. 물 클러스터로 감싸인 나노 크기의 성분은 인간 세포에 완전히 흡수될 수 있을 만큼 작아서 필요한 바로 그곳에 도달합니다!",
+    "alt_text": "hers product",
+    "items": [
+      {
+        "title": "신뢰할 수 있는 성분",
+        "desc": "Hers는 HydraStat™ 나노 전달 시스템을 사용하여 다음 성분의 흡수와 효과를 극대화합니다: 흰 모란 추출물, 체스트베리, 당귀, 마카 뿌리, 아슈와간다 및 기타 영양소."
+      },
+      {
+        "title": "믿을 수 있는 결과",
+        "desc": "우리는 이중 맹검 임상 시험을 실시했으며, 활동적인 월경에서 폐경 후까지의 참가자의 80%가 증상이 크게 개선된 것을 보았습니다. 특히, 열감이나 경련을 경험한 일부 참가자는 섭취 후 20분 만에 현저한 완화를 보고했습니다."
+      },
+      {
+        "title": "모든 계절의 삶을 위해",
+        "desc": "Hers는 모든 여성의 삶의 모든 계절에 맞게 설계되었습니다. 우리의 식물 공식의 모든 성분은 균형 잡힌 이점의 혼합을 만들기 위해 신중하게 선택되었습니다. Hers와 함께라면 모든 여성이 번성할 수 있습니다."
+      }
+    ]
+  },
+  "product_post_list":[
+    {
+      "title": "혁신적인 과학",
+      "desc": "글루타티온은 세포의 보호자이자 해독제입니다. <span class=fw-600 highlight-text> 모든 인간 세포의 생명, 건강, 성능, 보호 및 장수의 열쇠입니다.</span>"
+    },
+    {
+      "title": "HydraStat™ 나노 기술",
+      "desc": "<span class=fw-600>초순수 물 클러스터로 보호된 나노 크기의 입자.</span> 우리의 나노 크기 성분은 인간 세포에 완전히 흡수될 수 있을 만큼 작습니다."
+    },
+    {
+      "title": "품질 우선",
+      "desc": "보충제는 생체이용률, 즉 몸에 흡수되고 사용될 수 있는 능력에 따라 좋습니다. <span class=fw-600 highlight-text> 올바른 전달 시스템은 성분을 몸이 흡수하고 사용할 수 있는 방식으로 전달합니다.</span>"
+    }
+  ],
+
+  "how_to_use":{
+    "title": "섭취 방법",
+    "steps": [
+      {
+        "caption": "제품을 두 (2) 티스푼 측정합니다. 한 캡슐 = 티스푼."
+      },
+      {
+        "caption": "입 안에서 30초 이상 가글하세요."
+      },
+      {
+        "caption": "가글과 달리 Hers를 삼킬 수 있습니다. 원하시면 뱉어내도 됩니다."
+      },
+      {
+        "caption": "이 단계를 하루 두 번 반복합니다. 원하시면 Hers를 더 자주 사용해도 됩니다."
+      }
+    ]
+  },
+  "key_ingredients":{
+    "title": "Hers 주요 성분",
+    "ingredients": "<span class=fw-600>활성 성분:</span> 초순수 물, B6, B12, 칼륨 소르베이트, 소듐 벤조에이트, 스피어민트 추출물.",
+    "item_list_desktop":[
+      {
+        "item":[
+          {
+            "item_name": "다미아나"
+          },
+          {
+            "item_name": "당귀 뿌리"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "생강"
+          },
+          {
+            "item_name": "체스트베리 추출물"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "마카 뿌리"
+          },
+          {
+            "item_name": "블랙 코호시"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "아슈와간다"
+          },
+          {
+            "item_name": "흰 모란 뿌리"
+          }
+        ]
+      }
+    ],
+    "items_list":[
+      {
+        "item_name": "다미아나"
+      },
+      {
+        "item_name": "생강"
+      },
+      {
+        "item_name": "마카 뿌리"
+      },
+      {
+        "item_name": "아슈와간다"
+      },
+      {
+        "item_name": "당귀 뿌리"
+      },
+      {
+        "item_name": "체스트베리 추출물"
+      },
+      {
+        "item_name": "블랙 코호시"
+      },
+      {
+        "item_name": "흰 모란 뿌리"
+      }
+    ]
+  },
+  "faq":{
+    "title": "글루타티온의 이점",
+    "icon_class": "clr-primary",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "면역 체계 강화",
+        "desc": "글루타티온은 자유 라디칼을 중화하고 그 해로운 영향으로부터 몸을 보호할 수 있습니다. 또한 염증을 줄이는 데 도움이 되며, 감염을 퇴치하는 신체의 자연 능력을 지원합니다. 또한 새로운 면역 세포의 합성에 역할을 하여, 면역 체계가 최상의 상태로 기능하도록 유지합니다."
+      },
+      {
+        "class": "",
+        "header": "에너지 증가",
+        "desc": "또한 염증을 줄이는 데 도움이 되며, 감염을 퇴치하는 신체의 자연 능력을 지원합니다. 또한 새로운 면역 세포의 합성에 역할을 하여, 면역 체계가 최상의 상태로 기능하도록 유지합니다."
+      },
+      {
+        "class": "",
+        "header": "향상된 지구력 및 인내력",
+        "desc": "또한 염증을 줄이는 데 도움이 되며, 감염을 퇴치하는 신체의 자연 능력을 지원합니다. 또한 새로운 면역 세포의 합성에 역할을 하여, 면역 체계가 최상의 상태로 기능하도록 유지합니다."
+      }
+    ]
+  },
+  "cta":{
+    "title": "새로운 당신은 Neumi로 시작됩니다",
+    "subscription_text": "구독에 추가",
+    "purchase_text": "일회성 구매"
+  },
+  "note_desc": "이 웹사이트 내에서 작성된 진술은 식품의약국(FDA)에 의해 평가되지 않았습니다. 이 진술과 이 회사의 제품은 어떤 질병을 진단, 치료, 치유 또는 예방할 의도가 없습니다. Neumi가 표현한 견해와 영양 조언은 의료 조언을 제공하기 위한 것이 아닙니다. 약물을 복용 중이거나 의학적 상태가 있는 경우 항상 건강 관리 제공자와 상담하십시오. 개별 결과는 다를 수 있습니다."
+}

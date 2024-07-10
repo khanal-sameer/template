@@ -1,0 +1,36 @@
+.key-ingredients-section{
+  .key-ingredients-slider-mobile-section{
+    .container{
+      @include breakpoint-down("xl-phone"){
+        padding: 0;
+      }
+    }
+    .ingredient-name{
+      opacity: 0;
+    }
+    li.is-active{
+     .ingredient-name{
+      opacity: 1;
+     }
+    }
+    @include breakpoint-up("xl-phone"){
+      display: none;
+    }
+  }
+  .key-ingredients-slider-desktop-section{
+    display: none;
+    @include breakpoint-up("xl-phone"){
+      display: block;
+    }
+    .custom-page-slider-arrow-section{
+      .splide__arrow{
+        &.arrow-prev{
+          left: -2.5rem;
+        }
+        &.arrow-next{
+          right: -2.5rem;
+        }
+      }
+    }
+  }
+}

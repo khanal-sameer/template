@@ -1,0 +1,210 @@
+{
+  "title": "Neumi 皮肤",
+  "product_title": "Neumi 皮肤",
+  "total_product_review": "7 条评论",
+  "product_desc":  "<span class='fw-600'>采用HydraStat纳米技术的护肤解决方案 </span>，快速吸收且使用方便喷雾。",
+  "add_to_cart_text": "加入购物车",
+  "select_quantity_text": "选择数量",
+  "all_product_text": "所有产品",
+  "language": "zh", "month": "月",
+  "subscribe": {
+    "subscribe_text":"订阅",
+    "frequency_text": "选择频率",
+    "checklist_items":[
+      {
+        "caption": "订阅并节省 <span class='price_container is-hide' id='saving'>$15</span>"
+      },
+      {
+        "caption": "赚取Neumi奖励积分"
+      },
+      {
+        "caption": "30天退款保证"
+      },
+      {
+        "caption": "随时更新您的订阅"
+      }
+    ],
+    "one_time_purchase_text":"一次性购买"
+  },
+  "free_shipping_desc": "美国订单满$200免运费",
+  "benefits":{
+    "title": "好处",
+    "items":[
+      {
+        "caption":"每天关键成分以最大化吸收和效果。"
+      },
+      {
+        "caption":"每批次都经过严格的第三方测试，以确保对纯度和安全性的承诺。"
+      },
+      {
+        "caption": "我们提供30天无条件退款保证。"
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "曾被报道在"
+  },
+  "tab":{
+    "title": "看看Neumi Skin如何改变生活",
+    "video_review_title": "视频评论 <span>(5)</span>",
+    "written_review_title": "书面评论 <span>(2)</span>",
+    "rating_text": "5星评级",
+    "review_list": [
+      {
+          "reviewer": "Aidan D..",
+          "address": "盐湖城, UT",
+          "time": "2小时前",
+          "review_text": "Neumi Skin对我来说是一个游戏改变者！我已经用了几个月了，我注意到我的能量水平和整体活力有了显著改善。令人惊讶的是，这么简单的东西会有如此深远的效果。强烈推荐！"
+      },
+      {
+          "reviewer": "Lola P..",
+          "address": "Laie, HI",
+          "time": "2小时前",
+          "review_text": "我多年来一直难以维持激素平衡，但Neumi Skin带来了巨大的变化。我不仅感到更加平衡和精力充沛，而且我的肤色和肌肉张力也有所改善。真的很了不起！"
+      }
+    ]
+  },
+  "product_benefits":{
+    "title": "使用Neumi Skin的好处",
+    "desc": "Neumi Skin的突破性技术将关键成分纳米化，使吸收迅速有效。 <span class='fw-600'>我们的喷雾系统使Neumi Skin易于多次使用，妆前或妆后皆可。</span>",
+    "alt_text": "neumi皮肤产品",
+    "items": [
+      {
+        "title": "您可以信赖的成分",
+        "desc": "Neumi Skin使用我们的HydraStat™纳米输送系统，以最大化以下成分的吸收和效果：谷胱甘肽、透明质酸、胶原蛋白和姜黄素。"
+      },
+      {
+          "title": "可见的效果",
+          "desc": "我们独特的HydraStat纳米技术将成分分解成微小颗粒，确保它们深入皮肤，获得更快和增强的效果。体验毛孔减少、紧致度提升、细纹平滑和肤色亮丽。Neumi的创新通过突破性的纳米技术提供光彩照人的新鲜肌肤！"
+      },
+      {
+          "title": "简便的使用",
+          "desc":"用Neumi Skin简化您的护肤程序。只需喷一喷，自然风干，妆前或妆后皆可！"
+      }
+    ]
+  },
+  "product_post_list":[
+    {
+      "title": "创新科学",
+      "desc": "谷胱甘肽是细胞的保护者和解毒剂。<span class='fw-600 highlight-text'>它是每个人类细胞的生命、健康、性能、保护和寿命的关键。</span>"
+    },
+    {
+      "title": "HydraStat™纳米技术",
+      "desc": "<span class='fw-600 highlight-text'>被超纯水簇保护的纳米级颗粒。</span>  我们的纳米级成分小到足以被人体细胞完全吸收。"
+    },
+    {
+      "title": "质量胜于数量",
+      "desc": "补充剂只有在其生物利用度，即被身体吸收和利用的能力上才有效。<span class='fw-600 highlight-text'>正确的输送系统将成分以身体可以吸收和利用的方式传递给身体。</span>"
+    }
+  ],
+  "key_ingredients":{
+    "title": "Neumi Skin关键成分",
+    "ingredients": "<span class='fw-600'>活性成分：</span> <span class='is-uppercase'> 超纯水，谷胱甘肽，二甲基砜，透明质酸钠，半胱氨酸，脯氨酸，抗坏血酸钙，甘氨酸，精氨酸，缬氨酸，姜黄素，羟脯氨酸，胶原蛋白，山梨酸钾，酒石酸。 *图像显示了发现活性成分的植物/食物，而不一定是从中提取的地方。</span>",
+    "item_list_desktop":[
+      {
+        "item":[
+          {
+            "item_name": "谷胱甘肽*"
+          },
+          {
+            "item_name": "酒石酸*"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "抗坏血酸钙*"
+          },
+          {
+            "item_name": "姜黄"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "二甲基砜*"
+          },
+          {
+            "item_name": "山梨酸钾*"
+          }
+        ]
+      },
+      {
+        "item":[
+          {
+            "item_name": "透明质酸钠*"
+          },
+          {
+            "item_name": "半胱氨酸*"
+          }
+        ]
+      }
+    ],
+    "items_list":[
+      {
+        "item_name": "谷胱甘肽*"
+      },
+      {
+        "item_name": "抗坏血酸钙*"
+      },
+      {
+        "item_name": "二甲基砜*"
+      },
+      {
+        "item_name": "透明质酸钠*"
+      },
+      {
+        "item_name": "酒石酸*"
+      },
+      {
+        "item_name": "姜黄*"
+      },
+      {
+        "item_name": "山梨酸钾*"
+      },
+      {
+        "item_name": "半胱氨酸*"
+      }
+    ]
+  },
+  "how_to_use":{
+    "title": "如何使用",
+    "steps": [
+      {
+        "caption": "将喷雾器置于距离面部约8-10英寸处，均匀喷洒。可以在化妆前或化妆后进行。"
+      },
+      {
+        "caption": "为了达到最佳效果，让喷雾自然风干，不要擦拭。"
+      },
+      {
+        "caption": "每天重复这两个步骤两次。如有需要，可更频繁使用Neumi Skin。"
+      },
+      {
+        "caption": "Neumi Skin最好搭配保湿霜和防晒霜使用。"
+      }
+    ]
+  },
+  "faq":{
+    "title": "谷胱甘肽的好处",
+    "items":[
+      {
+        "class": "acc-item_active",
+        "header": "增强免疫系统",
+        "desc": "谷胱甘肽能够中和自由基，保护身体免受其有害影响。它还可以减少炎症，支持身体对抗感染的自然能力。此外，它在新免疫细胞的合成中也起作用，保持您的免疫系统正常运作。"
+      },
+      {
+        "class": "",
+        "header": "增加能量",
+        "desc": "它还可以减少炎症，支持身体对抗感染的自然能力。此外，它在新免疫细胞的合成中也起作用，保持您的免疫系统正常运作。"
+      }
+    ]
+  },
+  "cta":{
+    "title": "全新的你从Neumi开始",
+    "subscription_text": "加入订阅",
+    "purchase_text": " 一次性购买"
+  },
+  "note_desc": " 本网站上的声明未经美国食品和药物管理局评估。 本公司产品的声明和声明并非旨在诊断、治疗、治愈或预防任何疾病。 Neumi的意见和营养建议并非旨在作为医学建议。 如果您正在服用药物或有医疗状况，请务必咨询您的医疗保健提供者。 个人结果可能会有所不同。"
+}

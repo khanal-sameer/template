@@ -1,0 +1,117 @@
+{
+  "browse_more_product_text": "Browse More Products",
+  "sign_up_text": "Sign up",
+  "add_to_cart_text": "Add to cart",
+  "hero_section":{
+    "title": "Find your next favourite product - shop now"
+  },
+  "masonary_section":{
+    "title": "Browse our products",
+    "desc": "Choose from our collection of wide range of products.",
+    "vertical_image":{
+      "product_name": "Asea SKin"
+
+    },
+    "masonary_product_list":{
+      "items":[
+        {
+          "product_name": "For her"
+        },
+        {
+          "product_name": "For Him"
+        },
+        {
+          "product_name": "Asea Makeup"
+        },
+        {
+          "product_name": "Asea Skin"
+        }
+      ]
+    },
+    "grid_product_list":{
+      "items":[
+        {
+          "product_name": "Asea Makeup"
+        },
+        {
+          "product_name": "Asea Skincare"
+        },
+        {
+          "product_name": "Ases Makeup"
+        }
+      ]
+    }
+  },
+  "feature_product_1":{
+    "category": "Asea Skincare",
+    "title": "Mani Moisture Hydrating Serum",
+    "desc": "Choose from our collection of wide range of products from moisturiser range for oily skin."
+  },
+  "hassle_free_subscription":{
+    "title": "Enjoy hassle free subscriptions",
+    "desc":"We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the flexibility to grow your business according to your own vision, whether you seek to diversify."
+  },
+  "product_feature_list":{
+    "items":[
+      {
+        "title": "Eco-friendly",
+        "desc": "Choose from our collection of wide range of products from moisturiser range for oily skin."
+      },
+      {
+        "title": "Vegan",
+        "desc": "Choose from our collection of wide range of products from moisturiser range for oily skin."
+      },
+      {
+        "title": "Cruelty Free",
+        "desc": "Choose from our collection of wide range of products from moisturiser range for oily skin."
+      }
+    ]
+  },
+  "video_section":{
+    "title": "Hear from our clients",
+    "desc": "Choose from our collection of wide range of products."
+  },
+  "testimonials":{
+    "title": "Hear from our clients",
+    "desc": "Choose from our collection of wide range of products.",
+    "items":[
+      {
+        "author_name": "Mia Ol’ Wallace",
+        "address":"Arizona, US",
+        "recommended_text": "",
+        "review_text":"I couldn't be happier with my purchase! The quality is top-notch, and the customer service was outstanding. I highly recommend this store to anyone looking for great products and excellent support."
+      },
+      {
+        "author_name": "Leon Chumsky",
+        "address":"Heathrow, UK",
+        "recommended_text": "Highly recommend!",
+        "review_text": "Amazing experience from start to finish! The website was easy to navigate, and my order arrived quickly and in perfect condition."
+      }
+    ]
+  },
+  "feature_product_2":{
+    "category": "Asea Skincare",
+    "title": "Mani Moisture Hydrating Serum",
+    "btn_text": "Learn More",
+    "desc": "The molecules in many supplements are too large to be absorbed by the cell, so they get excreted from the body without being used effectively. Neumi uses breakthrough HydraStat Nanotechnology™ to increase the bio."
+  },
+  "faq":{
+    "title":"Frequently Asked Questions",
+    "desc":"Choose from our collection of wide range of products from this range.",
+    "items":[
+      {
+        "title": "How much does it cost?",
+        "desc":"We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the there flexibility to grow your business according to your own vision, awhether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings."
+      },
+      {
+        "title": "Are there any contracts?",
+        "desc":"We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the there flexibility to grow your business according to your own vision, awhether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings."
+      }
+    ]
+  },
+  "cta":{
+    "title": "Find your next favourite product - shop now"
+  }
+}
+
+

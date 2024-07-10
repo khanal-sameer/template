@@ -1,0 +1,210 @@
+{
+  "title": "Neumi skin",
+  "product_title": "Neumi skin",
+  "total_product_review": "7 Mga Review",
+  "product_desc": "<span class='fw-600'>Ang solusyon sa skincare na nag-rebolusyon gamit ang HydraStat Nano-Technology</span> para sa mabilis na pagsipsip at may maginhawang spray application.",
+  "add_to_cart_text": "Idagdag sa cart",
+  "select_quantity_text": "Piliin ang Dami",
+  "all_product_text": "Lahat ng Produkto",
+   "language": "tl", "month": "buwan",
+  "subscribe": {
+    "subscribe_text": "Mag-subscribe",
+    "frequency_text": "Piliin ang Dalas",
+    "checklist_items": [
+      {
+        "caption": "Mag-subscribe at makatipid ng <span class='price_container is-hide' id='saving'>$15</span>"
+      },
+      {
+        "caption": "Kumita ng Neumi Reward Points"
+      },
+      {
+        "caption": "30-araw na garantiyang ibabalik ang pera"
+      },
+      {
+        "caption": "I-update ang iyong subscription anumang oras"
+      }
+    ],
+    "one_time_purchase_text": "Isang beses na pagbili"
+  },
+  "free_shipping_desc": "Libreng pagpapadala sa U.S. para sa mga order na higit sa $200+",
+  "benefits": {
+    "title": "Mga Benepisyo",
+    "items": [
+      {
+        "caption": "Pangunahing mga sangkap para sa maximum na pagsipsip at pagiging epektibo, araw-araw."
+      },
+      {
+        "caption": "Ang bawat batch ay sumasailalim sa masusing pagsubok ng ikatlong partido upang matiyak ang dedikasyon sa kadalisayan at kaligtasan."
+      },
+      {
+        "caption": "Nag-aalok kami ng 30-araw na garantiyang ibabalik ang pera, walang mga katanungan."
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Tulad ng nakita sa"
+  },
+  "tab": {
+    "title": "Tingnan kung paano binabago ng Neumi Skin ang mga buhay",
+    "video_review_title": "Mga Video Review <span>(5)</span>",
+    "written_review_title": "Mga Nakasulat na Review <span>(2)</span>",
+    "rating_text": "5 Star Rating",
+    "review_list": [
+      {
+        "reviewer": "Aidan D..",
+        "address": "Salt Lake City, UT",
+        "time": "2 oras ang nakalipas",
+        "review_text": "Ang Neumi Skin ay naging game-changer para sa akin! Ilang buwan ko na itong ginagamit, at napansin ko ang makabuluhang pagbuti sa aking antas ng enerhiya at pangkalahatang sigla. Kamangha-mangha kung paano ang isang simpleng bagay ay maaaring magkaroon ng malalim na epekto. Lubos kong inirerekomenda!"
+      },
+      {
+        "reviewer": "Lola P..",
+        "address": "Laie, HI",
+        "time": "2 oras ang nakalipas",
+        "review_text": "Matagal na akong nahihirapan sa pagpapanatili ng hormone balance, ngunit ang Neumi Skin ay nagbigay ng malaking pagbabago. Hindi lamang ako nararamdaman na mas balanse at masigla, ngunit napansin ko rin ang mga pagpapabuti sa aking balat at tono ng kalamnan. Talagang kamangha-mangha!"
+      }
+    ]
+  },
+  "product_benefits": {
+    "title": "Mga Benepisyo ng paggamit ng Neumi Skin",
+    "desc": "Ang breakthrough technology ng Neumi Skin ay nag- nano-size ng mga kritikal na sangkap, na nagpapabilis at nagpapabisa sa pagsipsip. <span class='fw-600'>Ang aming spray delivery system ay nagpapadali sa pag-aapply ng Neumi Skin ilang beses sa isang araw, sa ilalim o ibabaw ng makeup.</span>",
+    "alt_text": "produkto ng neumi skin",
+    "items": [
+      {
+        "title": "Mga Sangkap na Maaari Mong Pagkatiwalaan",
+        "desc": "Ang Neumi Skin ay gumagamit ng aming HydraStat™ nano-delivery system upang mapakinabangan ang pagsipsip at pagiging epektibo ng mga sumusunod na sangkap: glutathione, hyaluronic acid, collagen, at curcumin."
+      },
+      {
+        "title": "Mga Resultang Makikita",
+        "desc": "Ang natatanging HydraStat Nano-Technology namin ay naghahati sa mga sangkap sa maliliit na partikulo, na tinitiyak na maabot nila ang malalim sa iyong balat para sa mas mabilis at pinahusay na resulta. Maranasan ang minimal na pores, pinataas na katatagan, pinalambot na mga pinong linya, at mas maliwanag na balat. Ang inobasyon ng Neumi ay nagdadala ng mas nagliliwanag, sariwang balat gamit ang breakthrough Nano-Technology!"
+      },
+      {
+        "title": "Madaling Aplikasyon",
+        "desc": "Pasimplehin ang iyong skincare routine gamit ang Neumi Skin. I-spray lang at hayaan itong matuyo sa hangin, sa ilalim o ibabaw ng makeup!"
+      }
+    ]
+  },
+  "product_post_list": [
+    {
+      "title": "Inobatibong agham",
+      "desc": "Ang glutathione ay ang tagapagtanggol at tagalinis ng selula. <span class='fw-600 highlight-text'>Ito ang susi sa buhay, kalusugan, pagganap, proteksyon at kahabaan ng buhay ng bawat selula ng tao.</span>"
+    },
+    {
+      "title": "HydraStat™ nanotechnology",
+      "desc": "<span class='fw-600 highlight-text'>Nano-sized na mga partikulo na protektado ng ultra-purong water clusters.</span> Ang aming nanosized na mga sangkap ay sapat na maliit upang ganap na maabsorb sa selula ng tao."
+    },
+    {
+      "title": "Kalidad higit sa dami",
+      "desc": "Ang suplemento ay mabisa lamang kung ito ay maaaring masipsip at magamit ng katawan.<span class='fw-600 highlight-text'> Ang tamang sistema ng paghahatid ay naghahatid ng mga sangkap sa iyong katawan sa paraang masisipsip at magagamit ito ng iyong katawan.</span>"
+    }
+  ],
+  "key_ingredients": {
+    "title": "Pangunahing mga sangkap ng Neumi Skin",
+    "ingredients": "<span class='fw-600'>Mga Aktibong Sangkap:</span> <span class='is-uppercase'> ULTRA-PURONG TUBIG, GLUTATHIONE, Dimethyl Sulfone, Sodium Hyaluronate, Cysteine, Proline, Calcium Ascorbate, Glycine, Arginine, Valine, Curcumin, Hydroxyproline, Collagen, Potassium Sorbate, Tartaric Acid. *ANG LARAWAN AY NAGPAPAKITA NG HALAMAN/PAGKAIN KUNG SAAN MATATAGPUAN ANG AKTIBONG SANGKAP AT HINDI NECESSARILY KUNG SAAN ITO EXTRACTED.</span>",
+    "item_list_desktop": [
+      {
+        "item": [
+          {
+            "item_name": "Glutathione*"
+          },
+          {
+            "item_name": "Tartaric Acid*"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Calcium Ascorbate*"
+          },
+          {
+            "item_name": "Turmeric"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Dimethyl Sulfone*"
+          },
+          {
+            "item_name": "Potassium Sorbate*"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "item_name": "Sodium Hyaluronate*"
+          },
+          {
+            "item_name": "Cysteine*"
+          }
+        ]
+      }
+    ],
+    "items_list": [
+      {
+        "item_name": "Glutathione*"
+      },
+      {
+        "item_name": "Calcium Ascorbate*"
+      },
+      {
+        "item_name": "Dimethyl Sulfone*"
+      },
+      {
+        "item_name": "Sodium Hyaluronate*"
+      },
+      {
+        "item_name": "Tartaric Acid*"
+      },
+      {
+        "item_name": "luyang dilaw*"
+      },
+      {
+        "item_name": "Potassium Sorbate*"
+      },
+      {
+        "item_name": "Cysteine*"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "Paano ilapat",
+    "steps": [
+      {
+        "caption": "Hawakan ang sprayer mga 8-10 pulgada mula sa iyong mukha at i-spray sa lahat ng bahagi. Ito ay maaaring gawin bago o pagkatapos ng makeup."
+      },
+      {
+        "caption": "Para sa pinakamainam na resulta, hayaang matuyo ang mist sa hangin nang hindi hinihimas."
+      },
+      {
+        "caption": "Ulitin ang mga hakbang na ito dalawang beses sa isang araw. Maaari ding gamitin ang Neumi Skin nang mas madalas kung nais."
+      },
+      {
+        "caption": "Ang Neumi Skin ay pinakamainam na pinapartner sa isang moisturizer at SPF."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Mga Benepisyo ng Glutathione",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "Pinatibay na Immune System",
+        "desc": "Ang glutathione ay kayang neutralisahin ang mga free radicals at protektahan ang katawan mula sa kanilang mapaminsalang epekto. Tinutulungan din nito ang pagpapababa ng pamamaga, at sinusuportahan ang natural na kakayahan ng katawan na labanan ang impeksyon. Bukod pa rito, mayroon itong papel sa synthesis ng mga bagong immune cells, na nagpapanatili sa immune system sa pinakamainam na kondisyon."
+      },
+      {
+        "class": "",
+        "header": "Tumaas na Enerhiya",
+        "desc": "Tinutulungan din nito ang pagpapababa ng pamamaga, at sinusuportahan ang natural na kakayahan ng katawan na labanan ang impeksyon. Bukod pa rito, mayroon itong papel sa synthesis ng mga bagong immune cells, na nagpapanatili sa immune system sa pinakamainam na kondisyon."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ang bagong ikaw ay nagsisimula sa Neumi",
+    "subscription_text": "Idagdag sa subscription",
+    "purchase_text": " Bilhin nang isang beses"
+  },
+  "note_desc": " Ang mga pahayag na ginawa sa website na ito ay hindi pa nasusuri ng Food and Drug Administration. Ang mga pahayag na ito at ang mga produkto ng kumpanyang ito ay hindi inilaan upang mag-diagnose, magpagaling, magpagaling, o maiwasan ang anumang sakit. Ang mga pananaw at payo sa nutrisyon na ipinahayag ng Neumi ay hindi inilaan para sa layunin ng pagbibigay ng medikal na payo. Palaging kumunsulta sa iyong tagapangalaga ng kalusugan kung ikaw ay umiinom ng anumang gamot o may anumang kondisyong medikal. Ang mga indibidwal na resulta ay maaaring mag-iba."
+}

@@ -1,0 +1,198 @@
+{
+  "title": "Neumiランディングページ",
+  "shop_product_button_text": "製品を購入",
+  "become_member_button_text": "メンバーになる",
+  "see_all_product_button_text": "すべての製品を見る",
+  "see_all_text": "すべて見る",
+  "hide_all_text": "すべて隠す",
+  "language": "ja", "month": "月",
+  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
+  "hero_section": {
+    "title": "Neumiで新しい自分が始まる",
+    "title_sm": "ナノカンパニー",
+    "desc": "NeumiのHydraStat™ナノテクノロジーの力であなたの健康を変革します。"
+  },
+  "asSeenOn": {
+    "title": "紹介されたメディア"
+  },
+  "masonary_section": {
+    "title": "私たちの製品ラインアップ",
+    "desc": "見た目も気分も最高のとき、人生はより良いものです。",
+    "masonary_product_layout1":{
+      "items":[
+        {
+          "product_name": "Hers",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+        },
+        {
+          "product_name": "Neumi Skin",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+        }
+      ]
+    },
+    "masonary_product_layout2":{
+      "items":[
+        {
+          "product_name": "NutriSwish",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+        },
+        {
+          "product_name": "Neuro",
+          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+        }
+      ]
+    }
+  },
+  "guarantee": {
+    "title": "Neumi保証",
+    "desc": "アカウントタイプに関係なく、以下をお楽しみいただけます：",
+    "alt_text": "neumi製品",
+    "items": [
+      {
+        "title": "満足しないなら無料",
+        "desc": "製品を30日間リスクなしでお試しください。私たちが製品を気に入っているのと同じくらい、あなたも気に入ると確信しています。"
+      },
+      {
+        "title": "手間のかからないサブスクリプション",
+        "desc": "月をスキップする必要がありますか？またはサブスクリプションをキャンセルしますか？問題ありません！いつでも設定を編集し、自信を持って注文してください。"
+      },
+      {
+        "title": "無料製品",
+        "desc": "注文が$300を超える場合、1本の無料ボトルを提供して送料を補います。"
+      }
+    ]
+  },
+  "performance": {
+    "title_sm": "HydraStatナノテクノロジー™",
+    "title": "小さなデリバリー、大きなパフォーマンス",
+    "desc": "多くのサプリメントの分子は細胞に吸収されるには大きすぎるため、体内で効果的に使用されることなく排出されます。Neumiは、すべての製品の生物学的利用率と効果を高めるために、革新的なHydraStatナノテクノロジー™を使用して大きな分子を分解し、超純水クラスターに包み込みます。当社のナノサイズの成分は10〜100ナノメートルで、人間の細胞に完全に吸収されるのに十分小さいです。",
+    "button_text": "詳細を知る",
+    "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
+  },
+  "video": {
+    "title_sm": "Hydrastatナノテクノロジー™",
+    "title": "Neumiの革新"
+  },
+  "before_and_after": {
+    "title": "ビフォー＆アフターを見る"
+  },
+  "medical_advisor_board": {
+    "title": "無給の医療諮問委員会",
+    "items": [
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USCケック医科大学"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMUオステオパシー医科大学"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "アイルランド王立外科医学院"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "ジョージア医科大学"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "ハーバードフェロー"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "バルセロナ大学医学部外傷科"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "ハーバード臨床フェロー"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST医学外科部"
+      }
+    ],
+    "hidden_items": [
+      {
+        "name": "James Jian Ho, MD",
+        "university": "メイヨーフェロー"
+      },
+      {
+        "name": "Joseph Kaplan, MD",
+        "university": "アラバマ大学医学部"
+      },
+      {
+        "name": "Steven Petrosino, PhD",
+        "university": "ラサール大学"
+      },
+      {
+        "name": "Jim Hayes, MD",
+        "university": "救急医学。救急医師協会の元会長"
+      },
+      {
+        "name": "Dean Stubbs, MD",
+        "university": "オーストラリア統合医学リーダー"
+      },
+      {
+        "name": "Tania Ash, MD",
+        "university": "オーストラリア統合医学専門医"
+      },
+      {
+        "name": "Kristin Hieshetter, DC",
+        "university": "カイロプラクティックの医師。代謝生化学者。栄養学に認定。非侵襲的レーザー専門家。"
+      },
+      {
+        "name": "Luis Miguel Valdes, MD",
+        "university": "耳鼻咽喉科の専門医。"
+      },
+      {
+        "name": "Bethany Dixon, DC",
+        "university": "カイロプラクターおよび認定医療検査官。輸送業界の医師およびコンサルタント。"
+      },
+      {
+        "name": "Pacilina estrella-Barotil, MD",
+        "university": "病院管理の修士号を持つ家庭医；フィリピンのシランにあるホールネスファミリーメディカルセンター社のオーナーおよび医療ディレクター。"
+      }
+    ]
+  },
+  "faq": {
+    "title": "よくある質問",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "私は優先顧客です。注文する方法は？",
+        "desc": "<a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</>にアクセスして注文するのが最良の方法です。"
+      },
+      {
+        "class": "",
+        "header": "なぜグルタチオンですか？",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "何を感じるべきですか？",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "NutriSwishを取るのに最適な時間は？",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "成分はどこから調達されていますか？",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "最高の健康機能は何ですか？",
+        "desc": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Neumiで新しい自分が始まります。"
+  },
+  "note_desc": "このウェブサイト内での声明は、食品医薬品局によって評価されていません。これらの声明とこの会社の製品は、病気の診断、治療、治癒、または予防を目的としたものではありません。Neumiが表明する見解と栄養アドバイスは、医療アドバイスを提供することを目的としたものではありません。薬を服用している場合や、医療状態がある場合は、必ず医療提供者に相談してください。個々の結果は異なる場合があります。"
+}
