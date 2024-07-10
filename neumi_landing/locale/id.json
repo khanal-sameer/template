@@ -6,8 +6,8 @@
   "see_all_text": "Lihat semua",
   "hide_all_text": "Sembunyikan semua",
   "language": "id", "month": "bulan",
-  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
-  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
+  "shop_product_url": "https://app.neumi.com/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://app.neumi.com/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section":{
     "title": "Sebuah diri baru dimulai dengan Neumi",
     "title_sm": "Perusahaan Nano",
@@ -23,11 +23,19 @@
       "items":[
         {
           "product_name": "Hers",
-          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+          "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
         },
         {
           "product_name": "Neumi Skin",
-          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+          "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+        },
+        {
+          "product_name": "NutriSwish",
+          "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+        },
+        {
+          "product_name": "Neuro",
+          "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
         }
       ]
     },
@@ -35,11 +43,11 @@
       "items":[
         {
           "product_name": "NutriSwish",
-          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+          "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
         },
         {
           "product_name": "Neuro",
-          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+          "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
         }
       ]
     }
@@ -68,7 +76,7 @@
     "title": "Pengiriman kecil, kinerja besar",
     "desc":"Molekul dalam banyak suplemen terlalu besar untuk diserap oleh sel, sehingga dikeluarkan dari tubuh tanpa digunakan secara efektif. Neumi menggunakan Nanoteknologi HydraStat™ terobosan untuk meningkatkan bioavailabilitas dan efektivitas semua produknya dengan memecah molekul besar dan melapisi mereka dengan kluster air ultra-murni. Bahan-bahan kami berukuran nano antara 10-100 nanometer. Mereka cukup kecil untuk sepenuhnya diserap ke dalam sel manusia.",
     "button_text": "Pelajari lebih lanjut",
-    "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
+    "url": "https://app.neumi.com/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
   },
   "video":{
     "title_sm": "Nanoteknologi Hydrastat™",

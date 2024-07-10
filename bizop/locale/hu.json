@@ -161,7 +161,7 @@
     "items": [
       {
         "header": "Hogyan lehetek tag?",
-        "desc": "Feliratkozhatsz az alábbi linken: <a href='https://neumi.fluid.app/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/enrollment.</a> Keresd meg a szponzorodat és kövesd a regisztrációs folyamatot."
+        "desc": "Feliratkozhatsz az alábbi linken: <a href='https://app.neumi.com/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'> Neumi.com/corporphan/enrollment.</a> Keresd meg a szponzorodat és kövesd a regisztrációs folyamatot."
       },
       {
         "header": "Vannak szerződések?",

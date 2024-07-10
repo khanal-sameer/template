@@ -6,8 +6,8 @@
   "see_all_text": "Voir tout",
   "hide_all_text": "Cacher tout",
   "language": "fr", "month": "mois",
-  "shop_product_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
-  "become_member_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
+  "shop_product_url": "https://app.neumi.com/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://app.neumi.com/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
   "hero_section": {
     "title": "Un nouveau vous commence avec Neumi",
     "title_sm": "La société Nano",
@@ -23,11 +23,19 @@
       "items":[
         {
           "product_name": "Hers",
-          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+          "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
         },
         {
           "product_name": "Neumi Skin",
-          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+          "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+        },
+        {
+          "product_name": "NutriSwish",
+          "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+        },
+        {
+          "product_name": "Neuro",
+          "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
         }
       ]
     },
@@ -35,11 +43,11 @@
       "items":[
         {
           "product_name": "NutriSwish",
-          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+          "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
         },
         {
           "product_name": "Neuro",
-          "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+          "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
         }
       ]
     }
@@ -68,7 +76,7 @@
     "title": "Petite livraison, grande performance",
     "desc": "Les molécules de nombreux compléments alimentaires sont trop grosses pour être absorbées par la cellule, elles sont donc excrétées du corps sans être utilisées efficacement. Neumi utilise la nanotechnologie révolutionnaire HydraStat™ pour augmenter la biodisponibilité et l'efficacité de tous ses produits en décomposant les grosses molécules et en les enveloppant dans des clusters d'eau ultra-pure. Nos ingrédients de taille nanométrique mesurent entre 10 et 100 nanomètres. Ils sont suffisamment petits pour être entièrement absorbés par la cellule humaine.",
     "button_text": "En savoir plus",
-    "url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
+    "url": "https://app.neumi.com/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
   },
   "video": {
     "title_sm": "Nanotechnologie Hydrastat™",

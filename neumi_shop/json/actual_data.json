@@ -38,28 +38,28 @@
         "product_name": "NutriSwish",
         "price":"65.00",
         "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/nutriswish?preview=true",
+        "url":"https://app.neumi.com/{{affiliate_guid | default:'home'}}/page/nutriswish?preview=true",
         "product_id":"9474"
       },
       {
         "product_name": "Neumi Skin",
         "price":"65.00",
         "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neumi-skin?preview=true",
+        "url":"https://app.neumi.com/{{affiliate_guid | default:'home'}}/page/neumi-skin?preview=true",
         "product_id":"9467"
       },
       {
         "product_name": "Hers",
         "price":"65.00",
         "image": "https://cdn.fluid.app/neumi/shop/images/hers.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/hers?preview=true",
+        "url":"https://app.neumi.com/{{affiliate_guid | default:'home'}}/page/hers?preview=true",
         "product_id":"9410"
       },
       {
         "product_name": "Neuro",
         "price":"65.00",
         "image": "https://cdn.fluid.app/neumi/shop/images/neuro.png",
-        "url":"https://neumi.fluid.app/{{affiliate_guid | default:'home'}}/page/neuro?preview=true",
+        "url":"https://app.neumi.com/{{affiliate_guid | default:'home'}}/page/neuro?preview=true",
         "product_id":""
       }
     ]

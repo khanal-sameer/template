@@ -564,25 +564,32 @@
             </div>
           </div>
         </section>
-        <section class="enroll-pack page-section" id="enroll-pack">
+        <section class="enroll-pack page-section is-hide" id="enroll-pack">
           <div class="container">
             <div class="enroll-pack-row row">
               <div class="col col-12 col-lg-6">
                 <div id="enroll-preview-slider" class="splide enroll-preview-slider">
                   <div class="splide__track">
                     <ul class="splide__list">
-                      <li class="splide__slide">
+                      <li data-product="product_1" class="splide__slide">
                         <img
-                          src="https://cdn.fluid.app/neumi/bizops/enroll-pack.png"
+                          src=""
                           alt="注册包"
-                          class="w-full"
+                          class="w-full p-image"
                         />
                       </li>
-                      <li class="splide__slide">
+                      <li data-product="product_24" class="splide__slide">
                         <img
-                          src="https://cdn.fluid.app/neumi/bizops/enroll-pack.png"
+                          src=""
                           alt="注册包"
-                          class="w-full"
+                          class="w-full p-image"
+                        />
+                      </li>
+                      <li data-product="product_25" class="splide__slide">
+                        <img
+                          src=""
+                          alt="注册包"
+                          class="w-full p-image"
                         />
                       </li>
                     </ul>
@@ -612,24 +619,34 @@
                     </div>
                     <div class="splide__track">
                       <ul class="splide__list">
-                          <li class="splide__slide">
+                          <li data-product="enrollment_1" class="splide__slide">
                             <div class="enroll-pack-dsc">
-                              <h3>生活方式捆绑包</h3>
-                              <p class="is-flex gap-4 text-sm">8 Neumi皮肤 + 17 NutriSwish</p>
-                              <div class="price fw-600">
-                                1,300.00+$1,000&#x2F;月
+                              <h3 class="p-title" >注册包</h3>
+                              <p class="is-flex gap-4 text-sm p-desc"></p>
+                              <div class="price fw-600 p-price">
+                                
                               </div>
-                              <button class="btn text-center btn-primary btn-rounded">购买会员包</button>
+                              <a href="https://app.neumi.com/{{affiliate_guid | default:'home'}}/enrollments/vxNiSag1c2aikwSAamR21nSq?preview=true" class="btn text-center btn-primary btn-rounded">购买会员包</a>
                             </div>
                           </li>
-                          <li class="splide__slide">
+                          <li data-product="enrollment_24" class="splide__slide">
                             <div class="enroll-pack-dsc">
-                              <h3>生活方式捆绑包</h3>
-                              <p class="is-flex gap-4 text-sm">8 Neumi皮肤 + 17 NutriSwish</p>
-                              <div class="price fw-600">
-                                1,300.00+$1,000&#x2F;月
+                              <h3 class="p-title" >注册包</h3>
+                              <p class="is-flex gap-4 text-sm p-desc"></p>
+                              <div class="price fw-600 p-price">
+                                
                               </div>
-                              <button class="btn text-center btn-primary btn-rounded">购买会员包</button>
+                              <a href="https://app.neumi.com/{{affiliate_guid | default:'home'}}/enrollments/XdgFyjQjUjoo9uJza5kKDUpC?preview=true" class="btn text-center btn-primary btn-rounded">购买会员包</a>
+                            </div>
+                          </li>
+                          <li data-product="enrollment_25" class="splide__slide">
+                            <div class="enroll-pack-dsc">
+                              <h3 class="p-title" >注册包</h3>
+                              <p class="is-flex gap-4 text-sm p-desc"></p>
+                              <div class="price fw-600 p-price">
+                                
+                              </div>
+                              <a href="https://app.neumi.com/{{affiliate_guid | default:'home'}}/enrollments/9Ec9HUzWkj1tnskKmocrGJPg?preview=true" class="btn text-center btn-primary btn-rounded">购买会员包</a>
                             </div>
                           </li>
                       </ul>
@@ -973,7 +990,7 @@
                      </svg>                   </div>
                  </div>
 
-                 <div class="acc-item_body">您可以通过<a href='https://neumi.fluid.app/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'>Neumi.com/corporphan/enrollment</a>进入注册。搜索您的赞助人，然后按照注册流程操作。</div>
+                 <div class="acc-item_body">您可以通过<a href='https://app.neumi.com/{{affiliate_guid | default: `home`}}/page/neumi-biz-op' class='clr-primary'>Neumi.com/corporphan/enrollment</a>进入注册。搜索您的赞助人，然后按照注册流程操作。</div>
 
                </div>
                <div class="acc-item ">
@@ -1516,6 +1533,84 @@
         $('.medical-advisory-content').slideToggle();
         $(".see-all-caption,.hide-all-caption").toggleClass("neumi-d-none");
       })
+      </script>
+
+      <script defer id='ScriptEnrollment'>
+      document.addEventListener('DOMContentLoaded', async function () {
+
+          function extractCookie(...keys) {
+            return document.cookie.split(";").filter(item => keys.some(key => item.includes(key))).reduce((acc, item) => {
+              const [key, value] = item.trim().split("=")
+              acc[key] = value
+        
+              return acc
+            }, {})
+          }
+        
+          const cookie = extractCookie('country', "locale");
+          const country = window.country || cookie.country || 'us'
+          const locale = window.locale || cookie.locale || 'en'
+          const selector = '[data-product^="product_"]'
+
+        
+          const container = document.getElementById("enroll-pack")
+          const containers = container.querySelectorAll(selector)
+
+          const extractId = (id="") => id.split("_").pop()
+          
+          const fetchEnrollmentDetail = async (product_id) => {
+        
+            if (!product_id) return null
+        
+            const host = "https://app.neumi.com"
+            const url = new URL(`${host}/api/v1/enrollment_packs/${product_id}?country_iso=${country}&language_iso=${locale}`)
+        
+            try {
+              const res = await fetch(url)
+              const data = await res.json()
+
+              return data
+            }
+            catch {
+              return null
+            }
+          }
+
+          containers.forEach(async (element, index)=> {
+              const productId = element.getAttribute("data-product")
+              const id = extractId(productId);
+          
+              const data = await fetchEnrollmentDetail(id) || {}
+              const { display_price: p, image_url, title, membership_products,subscription_products } = data;
+
+              if(!p) return ;
+
+              const sub =  subscription_products?.map(i=>i.title).join(",")
+
+              let one_time = membership_products?.map(i=>i.title).join(",")
+              one_time = (sub && one_time) ? one_time + " + " : one_time
+
+              const des = one_time + sub
+
+
+
+              const img = element.querySelector('.p-image')
+              img.src = image_url
+
+              const enroll = container.querySelector(`[data-product="enrollment_${id}"]`)
+
+              const desc = enroll.querySelector('.p-desc')
+              const name = enroll.querySelector('.p-title')
+              const price = enroll.querySelector('.p-price')
+
+              name.textContent = title;
+              price.textContent = p
+              desc.textContent = des
+
+
+              if(containers.length === index + 1) container.classList.remove("is-hide")
+          })
+        })
       </script>
   </body>
 </html>

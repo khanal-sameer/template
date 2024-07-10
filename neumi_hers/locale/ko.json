@@ -7,7 +7,7 @@
   "all_product_text": "모든 제품",
   "add_to_cart_text": "장바구니에 담기",
   "language": "ko", "month": "월",
-  "shop_url": "https://neumi.fluid.app/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "shop_url": "https://app.neumi.com/<%={{affiliate_guid | default: 'home'}}=%>/shop",
   "subscribe": {
     "subscribe_text":"구독",
     "frequency_text": "빈도 선택",

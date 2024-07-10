@@ -14,19 +14,19 @@
     "items": [
       {
         "product_name": "NutriSwish",
-        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+        "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
       },
       {
         "product_name": "Neumi Skin",
-        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+        "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
       },
       {
         "product_name": "Hers",
-        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+        "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
       },
       {
         "product_name": "Neuro",
-        "url":"https://neumi.fluid.app/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+        "url":"https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
       }
     ]
   },

@@ -76,16 +76,40 @@
                     </h4>
                   </div>
                 </div>
+                <div class="col col-12 col-xs-6 mt-30">
+                  <div class="image-section bg-image sm-image" style="background-image: url(https://cdn.fluid.app/neumi/landing/images/nutriswish.png);">
+                    <h4 class="product-title">
+                      <a href="https://app.neumi.com/{{affiliate_guid | default:'home'}}/page/nutriswish?preview=true" style="background-color:rgba(41,77,226,0.8)" target="_blank">
+                        <span>NutriSwish</span>
+                        <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+ </div>
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+                <div class="col col-12 col-xs-6 mt-30">
+                  <div class="image-section bg-image sm-image" style="background-image: url(https://cdn.fluid.app/neumi/landing/images/neuro.png);">
+                    <h4 class="product-title">
+                      <a href="https://app.neumi.com/{{affiliate_guid | default:'home'}}/page/neuro?preview=true" style="background-color:rgba(254,152,46,0.8)" target="_blank">
+                        <span>Neuro</span>
+                        <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+ </div>
+                      </a>
+                    </h4>
+                  </div>
+                </div>
               </div><!-- .row -->
 
-              <div class="image-section bg-image sm-image mt-30" style="background-image: url(https://cdn.fluid.app/neumi/landing/images/horizontal1.png);">
-              </div>
             </div><!-- .col col-12 col-lg-4 -->
 
           </div><!-- .row -->
         </div><!-- .product-list -->
 
-        <div class="product-list">
+        <div class="product-list neumi-d-none">
           <div class="row">
 
             <div class="col col-12 col-lg-8">
@@ -827,23 +851,20 @@
         let accBody = item.querySelector(".acc-item_body");
         if (!item.classList.contains("acc-item_active")) {
           item.classList.add("acc-item_active");
-          accBody.style.maxHeight = accBody.scrollHeight + 32 + "px";
           accItem.forEach((element, ind) => {
             let elementBody = element.querySelector(".acc-item_body");
             if (!(ind === index)) {
               element.classList.remove("acc-item_active");
-              elementBody.style.maxHeight = null;
             }
           });
         } else {
           item.classList.remove("acc-item_active");
-          accBody.style.maxHeight = null;
         }
       };
     });
 
     const faqs = gsap.utils.toArray(".acc-item");
-    
+
     gsap.fromTo(
       faqs,
       { opacity: 0, y: 50, stagger: 0.3 },

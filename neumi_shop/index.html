@@ -42,17 +42,17 @@
             <div class="product-list mt-2">
               <div class="row">
                 {{#items}}
-                  <div class="col col-12 col-xs-6">
+                  <div id="product_{{product_id}}" class="col col-12 col-xs-6 is-hide">
                     <div class="main-product-item mt-30">
                       <div class="image-section">
                         <a href="{{url}}">
-                          <img src="{{image}}" alt="" class="w-full">
+                          <img src="{{image}}" alt="" class="w-full p-image--">
                         </a>
                       </div>
                       <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="{{url}}">{{product_name}}</a>
+                        <a href="{{url}}" class="p-name">{{product_name}}</a>
                       </div>
-                      <div class="price mt-4 price-color" style="display: none;" id="product_{{product_id}}">$<span>{{price}}</span></div>
+                      <div class="price mt-4 price-color p-price">$<span>{{price}}</span></div>
 
                     </div>
                   </div>
@@ -68,7 +68,7 @@
       <div class="page-section">
         <div class="container">
           <!-- Product Bundle section -->
-          {{#product_bundle}}
+          <!-- {{#product_bundle}}
             <div class="product-bundle-section">
               <h2>{{title}}</h2>
               <div class="image-section mt-32">
@@ -80,30 +80,37 @@
                 <a href="{{url}}">{{product_name}}</a></div>
               <div class="price mt-4 price-color">${{price}}</div>
             </div>
-          {{/product_bundle}}
+          {{/product_bundle}} -->
 
-          {{#multiple_product}}
+          {{#product_bundle}}
+          <div class="product-bundle-section">
+            <h2>{{title}}</h2>
+
+            {{#product}}
             <div class="multiple-product-list">
               <div class="row">
                 {{#items}}
-                  <div class="col col-12 col-xs-6 col-lg-4">
+                  <div id="product_{{product_id}}" class="col col-12 col-xs-6 col-lg-4 is-hide">
                     <div class="product-item mt-30">
-                      <div class="image-section">
+                      <div class="image-section bg-image bg-contain">
                         <a href="{{url}}">
-                          <img src="{{image}}" alt="product">
                         </a>
                       </div>
                       <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="{{url}}">{{product_name}}</a>
+                        <a href="{{url}}" class="p-name">{{product_name}}</a>
                       </div>
-                      <div class="price mt-4 price-color">${{price}}</div>
+                      <div class="price mt-4 price-color p-price">${{price}}</div>
 
                     </div>
                   </div>
                 {{/items}}
               </div><!-- .row -->
             </div><!-- .multiple-product-list -->
-          {{/multiple_product}}
+          {{/product}}
+
+          </div>
+        {{/product_bundle}}
+
         </div>
       </div>
 
@@ -136,5 +143,19 @@
     {{>ScriptFancybox}}
     {{>ScriptGsap}}
     {{>ScriptWrapper}}
+
+    {{#dynamic_product}}
+    {{>ScriptShopProduct}}
+    {{/dynamic_product}}
+    <script>
+      $(document).ready(function(){
+        $(".shop-product-button").on("click", function () {
+          $("html,body").animate({
+            scrollTop: $('#shop-product').offset().top + 50 + 'px'
+          }, 1000);
+          return false;
+        });
+      })
+    </script>
   </body>
 </html>
