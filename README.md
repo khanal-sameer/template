@@ -1,9 +1,10 @@
 # Template Generation
 
 ## Initialize
-``` 
-yarn lang -project=p1,p2 -locale=l1,l2 
 ```
+yarn lang -project=p1,p2 -locale=l1,l2
+```
+
 
 - For multiple project, give comma separated values in `project` option.
 - Same for multiple language, comma separate values in `locale` option.

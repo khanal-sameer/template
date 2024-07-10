@@ -1,0 +1,62 @@
+.cp-tab-menu{
+  @include border-bottom();
+  border-color: #D9D9D9;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  overflow-x: auto;
+  li{
+    color: $secondary_text_color;
+    padding: 0 16px;
+    @include media(xs){
+      padding: 0 24px;
+    }
+    @include media(sm){
+      padding: 0 32px;
+    }
+    @include media(largeScreen){
+      padding: 0 130px;
+    }
+    span{
+      padding-bottom: 16px;
+      cursor: pointer;
+      position: relative;
+      &:hover{
+        &:before{
+          background-color: $primary;
+        }
+      }
+      &::before{
+        content: '';
+        display: inline-block;
+        position: absolute;
+        height: 2px;
+        background-color: transparent;
+        width: 60px;
+        left: 50%;
+        @include transform(translateX(-50%));
+        bottom: 0;
+        @include transition();
+        @include media(xs){
+          width: 100%;
+        }
+      }
+    }
+    &.active{
+      color: $black;
+      span{
+        &:before{
+          background-color: $primary;
+        }
+      }
+    }
+  }
+}
+.cp-tab-menu-content-section{
+  .cp-container{
+    padding: 0;
+    @include media(sm){
+      padding: 0 24px;
+    }
+  }
+}

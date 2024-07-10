@@ -1,0 +1,40 @@
+.#{$prefix}-btn{
+  display: inline-block;
+  padding: 8px 16px 10px;
+  font-weight: 500;
+  @include border();
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: inherit;
+  letter-spacing: -0.02em;
+  text-align: center;
+  @include font-size($root_font_size,20px);
+  @include media(sm){
+    padding: 14px 20px 16px;
+    font-size: $root_font_size_lg_device;
+  }
+  .#{$prefix}-plus-icon{
+    svg{
+      height:12px;
+      width: 12px;
+    }
+  }
+  &.#{$prefix}-btn-border-0{
+    border: 0;
+  }
+  &:hover{
+    opacity: 0.9;
+  }
+}
+
+.#{$prefix}-btn-primary-bg{
+  background-color: $primary;
+  color: $primary_bg_text_color;
+  border-color: $primary;
+
+}
+.#{$prefix}-btn-white-text{
+  background-color: transparent;
+  color: $white;
+  border-color: transparent;
+}

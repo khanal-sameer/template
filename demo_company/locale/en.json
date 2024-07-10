@@ -9,39 +9,32 @@
   "masonary_section":{
     "title": "Browse our products",
     "desc": "Choose from our collection of wide range of products.",
-    "vertical_image":{
-      "product_name": "Asea SKin"
-
-    },
-    "masonary_product_list":{
-      "items":[
-        {
-          "product_name": "For her"
-        },
-        {
-          "product_name": "For Him"
-        },
-        {
-          "product_name": "Asea Makeup"
-        },
-        {
-          "product_name": "Asea Skin"
-        }
-      ]
-    },
-    "grid_product_list":{
-      "items":[
-        {
-          "product_name": "Asea Makeup"
-        },
-        {
-          "product_name": "Asea Skincare"
-        },
-        {
-          "product_name": "Ases Makeup"
-        }
-      ]
-    }
+    "items":[
+      {
+        "product_name": "Asea SKin"
+      },
+      {
+        "product_name": "For her"
+      },
+      {
+        "product_name": "For Him"
+      },
+      {
+        "product_name": "Asea Makeup"
+      },
+      {
+        "product_name": "Asea Skin"
+      },
+      {
+        "product_name": "Asea Makeup"
+      },
+      {
+        "product_name": "Asea Skincare"
+      },
+      {
+        "product_name": "Ases Makeup"
+      }
+    ]
   },
   "feature_product_1":{
     "category": "Asea Skincare",
@@ -69,12 +62,13 @@
     ]
   },
   "video_section":{
-    "title": "Hear from our clients",
+    "title": "Our Best Seller",
     "desc": "Choose from our collection of wide range of products."
   },
+  
   "testimonials":{
     "title": "Hear from our clients",
-    "desc": "Choose from our collection of wide range of products.",
+    "desc": "We invite you to explore a world of untapped opportunities.",
     "items":[
       {
         "author_name": "Mia Ol’ Wallace",
@@ -106,6 +100,22 @@
       },
       {
         "title": "Are there any contracts?",
+        "desc":"We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the there flexibility to grow your business according to your own vision, awhether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings."
+      },
+      {
+        "title": "What discounts do I get as an associate?",
+        "desc":"We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the there flexibility to grow your business according to your own vision, awhether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings."
+      },
+      {
+        "title": "Can I cancel anytime?",
+        "desc":"We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the there flexibility to grow your business according to your own vision, awhether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings."
+      },
+      {
+        "title": "What are the incentive programs?",
+        "desc":"We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the there flexibility to grow your business according to your own vision, awhether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings."
+      },
+      {
+        "title": "How do commissions and bonuses work?",
         "desc":"We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the there flexibility to grow your business according to your own vision, awhether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings."
       }
     ]

@@ -3,106 +3,98 @@
   "sign_up_text": "{{sign_up_text}}",
   "add_to_cart_text": "{{add_to_cart_text}}",
   "browse_more_product_url": "#",
-  "sign_up_url":"#",
+  "sign_up_url": "https://www.fluid.app/users/sign_up",
+  "product_id": "123",
   "chevron_arrow_right_icon": "<svg width=\"7\" height=\"9\" viewBox=\"0 0 7 9\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1.61597 8.02222L5.43292 4.50906L1.5065 0.73456\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg>",
   "hero_section":{
     "title": "{{hero_section.title}}",
-    "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/banner.jpg"
+    "image": "http://cdn.fluid.app/demo_company/landing/banner.jpg"
   },
   "trusted_by":{
     "title": "Trusted By",
     "items": [
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
+        "image": "http://cdn.fluid.app/demo_company/trusted_by/trusted_by1.png"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_2.png"
+        "image": "http://cdn.fluid.app/demo_company/trusted_by/trusted_by2.png"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
+        "image": "http://cdn.fluid.app/demo_company/trusted_by/trusted_by3.png"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
+        "image": "http://cdn.fluid.app/demo_company/trusted_by/trusted_by4.png"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_5.png"
+        "image": "http://cdn.fluid.app/demo_company/trusted_by/trusted_by5.png"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
+        "image": "http://cdn.fluid.app/demo_company/trusted_by/trusted_by6.png"
       },
       {
-        "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
+        "image": "http://cdn.fluid.app/demo_company/trusted_by/trusted_by7.png"
       }
     ]
   },
   "masonary_section":{
     "title": "{{masonary_section.title}}",
     "desc": "{{masonary_section.desc}}",
-    "vertical_image":{
-      "product_name": "{{masonary_section.vertical_image.product_name}}",
-      "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product1.jpg",
-      "url":""
-    },
-    "masonary_product_list":{
-      "items":[
-        {
-          "product_name": "{{masonary_section.masonary_product_list.items.0.product_name}}",
-          "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product2.jpg",
-          "url": ""
-        },
-        {
-          "product_name": "{{masonary_section.masonary_product_list.items.1.product_name}}",
-          "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product3.jpg",
-          "url": ""
-        },
-        {
-          "product_name": "{{masonary_section.masonary_product_list.items.2.product_name}}",
-          "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product4.jpg",
-          "url": ""
-        },
-        {
-          "product_name": "{{masonary_section.masonary_product_list.items.3.product_name}}",
-          "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product5.jpg",
-          "url": ""
-        }
-      ]
-    },
-    "grid_product_list":{
-      "items":[
-        {
-          "product_name":  "{{masonary_section.grid_product_list.items.0.product_name}}",
-          "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product6.jpg",
-          "url": ""
-        },
-        {
-          "product_name": "{{masonary_section.grid_product_list.items.1.product_name}}",
-          "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product7.jpg",
-          "url": ""
-        },
-        {
-          "product_name":"{{masonary_section.grid_product_list.items.2.product_name}}",
-          "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product8.jpg",
-          "url": ""
-        }
-      ]
-    }
+    "items":[
+      {
+        "product_name": "{{masonary_section.items.0.product_name}}",
+        "image": "http://cdn.fluid.app/demo_company/landing/product1.jpg",
+        "url":""
+      },
+      {
+        "product_name": "{{masonary_section.items.1.product_name}}",
+        "image": "http://cdn.fluid.app/demo_company/landing/product2.jpg",
+        "url": ""
+      },
+      {
+        "product_name": "{{masonary_section.items.2.product_name}}",
+        "image": "http://cdn.fluid.app/demo_company/landing/product3.jpg",
+        "url": ""
+      },
+      {
+        "product_name": "{{masonary_section.items.3.product_name}}",
+        "image": "http://cdn.fluid.app/demo_company/landing/product4.jpg",
+        "url": ""
+      },
+      {
+        "product_name": "{{masonary_section.items.4.product_name}}",
+        "image": "http://cdn.fluid.app/demo_company/landing/product5.jpg",
+        "url": ""
+      },
+      {
+        "product_name": "{{masonary_section.items.5.product_name}}",
+        "image": "http://cdn.fluid.app/demo_company/landing/product6.jpg",
+        "url": ""
+      },
+      {
+        "product_name": "{{masonary_section.items.6.product_name}}",
+        "image": "http://cdn.fluid.app/demo_company/landing/product7.jpg",
+        "url": ""
+      },
+      {
+        "product_name": "{{masonary_section.items.7.product_name}}",
+        "image": "http://cdn.fluid.app/demo_company/landing/product8.jpg",
+        "url": ""
+      }
+    ]
   },
   "feature_product_1":{
     "category": "{{feature_product_1.category}}",
     "title": "{{feature_product_1.title}}",
     "desc": "{{feature_product_1.desc}}",
     "price":"$87",
-    "image":"file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/feature_product1.jpg"
+    "image":"http://cdn.fluid.app/demo_company/landing/feature_product1.jpg"
   },
   "hassle_free_subscription":{
     "title": "{{hassle_free_subscription.title}}",
     "desc": "{{hassle_free_subscription.desc}}"
   },
   "product_feature_list":{
-    "image":"file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/product_feature_bg.jpg",
+    "image":"http://cdn.fluid.app/demo_company/landing/product_feature_bg.jpg",
     "items":[
       {
         "title": "{{product_feature_list.items.0.title}}",
@@ -124,7 +116,7 @@
   "video_section":{
     "title": "{{video_section.title}}",
     "desc": "{{video_section.desc}}",
-    "image":"file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/video_bg.jpg",
+    "image":"http://cdn.fluid.app/demo_company/landing/video_bg.jpg",
     "url":""
   },
   "testimonials":{
@@ -136,15 +128,15 @@
         "address":"{{testimonials.items.0.address}}",
         "recommended_text": "{{testimonials.items.0.recommended_text}}",
         "review_text": "{{testimonials.items.0.review_text}}",
-        "image":"file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/mia.jpg",
+        "image":"http://cdn.fluid.app/demo_company/landing/mia.jpg",
         "recommended_text_class": "cp-d-none"
       },
       {
-        "author_name": "{{testimonials.items.0.author_name}}",
-        "address":"{{testimonials.items.0.address}}",
-        "recommended_text": "{{testimonials.items.0.recommended_text}}",
-        "review_text": "{{testimonials.items.0.review_text}}",
-        "image":"file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/leon.jpg",
+        "author_name": "{{testimonials.items.1.author_name}}",
+        "address":"{{testimonials.items.1.address}}",
+        "recommended_text": "{{testimonials.items.1.recommended_text}}",
+        "review_text": "{{testimonials.items.1.review_text}}",
+        "image":"http://cdn.fluid.app/demo_company/landing/leon.jpg",
         "recommended_text_class": ""
       }
     ]
@@ -154,7 +146,7 @@
     "title": "{{feature_product_2.title}}",
     "btn_text": "{{feature_product_2.btn_text}}",
     "desc": "{{feature_product_2.desc}}",
-    "image":"file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/feature_product2.jpg",
+    "image":"http://cdn.fluid.app/demo_company/landing/feature_product2.jpg",
     "url":""
   },
   "faq":{
@@ -172,13 +164,35 @@
         "desc":"{{faq.items.1.desc}}",
         "item_class":"",
         "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.2.title}}",
+        "desc":"{{faq.items.2.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.3.title}}",
+        "desc":"{{faq.items.3.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.4.title}}",
+        "desc":"{{faq.items.4.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
+      },
+      {
+        "title": "{{faq.items.5.title}}",
+        "desc":"{{faq.items.5.desc}}",
+        "item_class":"",
+        "content_class":"cp-d-none"
       }
     ]
   },
   "cta":{
     "title": "{{cta.title}}",
-    "image": "file:///Users/kalpana/Desktop/DanpheProject/template/demo_company/images/cta.jpg"
+    "image": "http://cdn.fluid.app/demo_company/landing/cta.jpg"
   }
 }
-
-

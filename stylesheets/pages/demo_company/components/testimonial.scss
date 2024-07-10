@@ -1,0 +1,28 @@
+.#{$prefix}-testimonial-post{
+  padding: 24px;
+  @include media(sm){
+    padding: 60px;
+  }
+  .#{$prefix}-desc{
+    @include media(sm){
+      min-height: 272px;
+    }
+    p{
+      line-height: 20px;
+      @include media(sm){
+        font-size: 20px;
+        line-height: 32px;
+      }
+    }
+  }
+  .#{$prefix}-author-info{
+    .#{$prefix}-image{
+      height: 38px;
+      width: 38px;
+      @include media(sm){
+        height: 44px;
+        width: 44px;
+      }
+    }
+  }
+}

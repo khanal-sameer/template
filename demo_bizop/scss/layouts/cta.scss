@@ -1,0 +1,9 @@
+.#{$prefix}-cta-section{
+  .#{$prefix}-image-section{
+    padding-bottom: 40px;
+    height: 248px;
+    @include media(sm){
+      height: 390px;
+    }
+  }
+}

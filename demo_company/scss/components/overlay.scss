@@ -17,20 +17,17 @@
       border-radius: 40px
     }
   }
-  
+
 }
-.cp-image-overlay{
+.#{$prefix}-image-overlay{
   @extend %overlay;
   &:before{
     background-color: rgba(0,0,0,0.52);
   }
 }
-.cp-image-overlay-gradient{
+.#{$prefix}-image-overlay-gradient{
   @extend %overlay;
   &:before{
-    background: linear-gradient(rgba(1, 1, 1, 0) 25%, rgba(1, 1, 1, 0.63) 50%);
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0) 19.25%, rgba(0, 0, 0, 0.4) 76.31%);
   }
-} 
-
-
-
+}

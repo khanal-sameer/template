@@ -1,5 +1,6 @@
 $screen_size: xs,sm,md,lg,largeScreen;
 $columns:(
+  (col:2,width:16.66%),
   (col:3,width:25%),
   (col:4,width:33.33%),
   (col:5,width:41.67%),
@@ -11,8 +12,11 @@ $columns:(
 * {
   box-sizing: border-box;
 }
-.#{$prefix}-w-100 {
+.#{$prefix}-w-full {
   width: 100%;
+}
+.#{$prefix}-max-w-full{
+  max-width: 100%;
 }
 .#{$prefix}-w-auto {
   width: auto;
@@ -20,16 +24,16 @@ $columns:(
 .#{$prefix}-w-fit-content {
   width: fit-content;
 }
+@each $screenSize in $screen_size{
+  .#{$prefix}-#{$screenSize}-w-fit-content{
+    @include media($screenSize){
+      width: fit-content;
+    }
+  }
+}
 
 .#{$prefix}-row {
   @extend %display-flex;
-  margin-right: -17px;
-  margin-left: -17px;
-}
-
-.#{$prefix}-col {
-  padding-left: 17px;
-  padding-right: 17px;
 }
 
 @each $col in $columns{

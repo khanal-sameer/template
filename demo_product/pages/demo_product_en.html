@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo product</title>
+    <!-- css library import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <style>
+  .cp-reset-ul{list-style:none;margin:0;padding:0}.cp-row,.cp-items-center,.cp-items-end{display:flex;flex-wrap:wrap}a,span{display:inline-block}.cp-img{vertical-align:middle;height:auto;max-width:100%}.cp-v-align-middle{vertical-align:middle}.cp-h-100{height:100%}.cp-transition-ease{transition:all .3s ease;-webkit-transition:all .3s ease;-moz-transition:all .3s ease}img{vertical-align:middle}img,svg{height:auto;max-width:100%}.cp-image-cover{width:100%;object-fit:cover;object-position:center}*{box-sizing:border-box}.cp-w-full{width:100%}.cp-max-w-full{max-width:100%}.cp-w-auto{width:auto}.cp-w-fit-content{width:fit-content}@media (min-width: 576px){.cp-xs-w-fit-content{width:fit-content}}@media (min-width: 768px){.cp-sm-w-fit-content{width:fit-content}}@media (min-width: 992px){.cp-md-w-fit-content{width:fit-content}}@media (min-width: 1050px){.cp-lg-w-fit-content{width:fit-content}}@media (min-width: 1350px){.cp-largeScreen-w-fit-content{width:fit-content}}.cp-col-2{flex:0 0 16.66%;max-width:16.66%}.cp-col-3{flex:0 0 25%;max-width:25%}.cp-col-4{flex:0 0 33.33%;max-width:33.33%}.cp-col-5{flex:0 0 41.67%;max-width:41.67%}.cp-col-6{flex:0 0 50%;max-width:50%}.cp-col-8{flex:0 0 66.67%;max-width:66.67%}.cp-col-9{flex:0 0 75%;max-width:75%}.cp-col-12{flex:0 0 100%;max-width:100%}@media (min-width: 576px){.cp-col-xs-2{flex:0 0 16.66%;max-width:16.66%}}@media (min-width: 576px){.cp-col-xs-3{flex:0 0 25%;max-width:25%}}@media (min-width: 576px){.cp-col-xs-4{flex:0 0 33.33%;max-width:33.33%}}@media (min-width: 576px){.cp-col-xs-5{flex:0 0 41.67%;max-width:41.67%}}@media (min-width: 576px){.cp-col-xs-6{flex:0 0 50%;max-width:50%}}@media (min-width: 576px){.cp-col-xs-8{flex:0 0 66.67%;max-width:66.67%}}@media (min-width: 576px){.cp-col-xs-9{flex:0 0 75%;max-width:75%}}@media (min-width: 576px){.cp-col-xs-12{flex:0 0 100%;max-width:100%}}@media (min-width: 768px){.cp-col-sm-2{flex:0 0 16.66%;max-width:16.66%}}@media (min-width: 768px){.cp-col-sm-3{flex:0 0 25%;max-width:25%}}@media (min-width: 768px){.cp-col-sm-4{flex:0 0 33.33%;max-width:33.33%}}@media (min-width: 768px){.cp-col-sm-5{flex:0 0 41.67%;max-width:41.67%}}@media (min-width: 768px){.cp-col-sm-6{flex:0 0 50%;max-width:50%}}@media (min-width: 768px){.cp-col-sm-8{flex:0 0 66.67%;max-width:66.67%}}@media (min-width: 768px){.cp-col-sm-9{flex:0 0 75%;max-width:75%}}@media (min-width: 768px){.cp-col-sm-12{flex:0 0 100%;max-width:100%}}@media (min-width: 992px){.cp-col-md-2{flex:0 0 16.66%;max-width:16.66%}}@media (min-width: 992px){.cp-col-md-3{flex:0 0 25%;max-width:25%}}@media (min-width: 992px){.cp-col-md-4{flex:0 0 33.33%;max-width:33.33%}}@media (min-width: 992px){.cp-col-md-5{flex:0 0 41.67%;max-width:41.67%}}@media (min-width: 992px){.cp-col-md-6{flex:0 0 50%;max-width:50%}}@media (min-width: 992px){.cp-col-md-8{flex:0 0 66.67%;max-width:66.67%}}@media (min-width: 992px){.cp-col-md-9{flex:0 0 75%;max-width:75%}}@media (min-width: 992px){.cp-col-md-12{flex:0 0 100%;max-width:100%}}@media (min-width: 1050px){.cp-col-lg-2{flex:0 0 16.66%;max-width:16.66%}}@media (min-width: 1050px){.cp-col-lg-3{flex:0 0 25%;max-width:25%}}@media (min-width: 1050px){.cp-col-lg-4{flex:0 0 33.33%;max-width:33.33%}}@media (min-width: 1050px){.cp-col-lg-5{flex:0 0 41.67%;max-width:41.67%}}@media (min-width: 1050px){.cp-col-lg-6{flex:0 0 50%;max-width:50%}}@media (min-width: 1050px){.cp-col-lg-8{flex:0 0 66.67%;max-width:66.67%}}@media (min-width: 1050px){.cp-col-lg-9{flex:0 0 75%;max-width:75%}}@media (min-width: 1050px){.cp-col-lg-12{flex:0 0 100%;max-width:100%}}@media (min-width: 1350px){.cp-col-largeScreen-2{flex:0 0 16.66%;max-width:16.66%}}@media (min-width: 1350px){.cp-col-largeScreen-3{flex:0 0 25%;max-width:25%}}@media (min-width: 1350px){.cp-col-largeScreen-4{flex:0 0 33.33%;max-width:33.33%}}@media (min-width: 1350px){.cp-col-largeScreen-5{flex:0 0 41.67%;max-width:41.67%}}@media (min-width: 1350px){.cp-col-largeScreen-6{flex:0 0 50%;max-width:50%}}@media (min-width: 1350px){.cp-col-largeScreen-8{flex:0 0 66.67%;max-width:66.67%}}@media (min-width: 1350px){.cp-col-largeScreen-9{flex:0 0 75%;max-width:75%}}@media (min-width: 1350px){.cp-col-largeScreen-12{flex:0 0 100%;max-width:100%}}.cp-flex-d-col{flex-direction:column}.cp-flex-d-row{flex-direction:row}.cp-items-center{flex-direction:column;justify-content:center}.cp-items-end{justify-content:end;flex-direction:column}.cp-text-center{text-align:center}.cp-text-left{text-align:left}.cp-text-right{text-align:right}.cp-align-initial{align-items:initial}.cp-align-start{align-items:flex-start}.cp-align-center{align-items:center}.cp-align-end{align-items:flex-end}.cp-align-base{align-items:baseline}.cp-justify-initial{justify-content:initial}.cp-justify-start{justify-content:flex-start}.cp-justify-center{justify-content:center}.cp-justify-between{justify-content:space-between}.cp-justify-end{justify-content:flex-end}.cp-justify-around{justify-content:space-around}.cp-justify-even{justify-content:space-evenly}@media (min-width: 576px){.cp-xs-text-center{text-align:center}}@media (min-width: 576px){.cp-xs-text-left{text-align:left}}@media (min-width: 576px){.cp-xs-text-right{text-align:right}}@media (min-width: 576px){.cp-xs-align-initial{align-items:initial}}@media (min-width: 576px){.cp-xs-align-start{align-items:flex-start}}@media (min-width: 576px){.cp-xs-align-center{align-items:center}}@media (min-width: 576px){.cp-xs-align-end{align-items:flex-end}}@media (min-width: 576px){.cp-xs-align-base{align-items:baseline}}@media (min-width: 576px){.cp-xs-justify-initial{justify-content:initial}}@media (min-width: 576px){.cp-xs-justify-start{justify-content:flex-start}}@media (min-width: 576px){.cp-xs-justify-center{justify-content:center}}@media (min-width: 576px){.cp-xs-justify-between{justify-content:space-between}}@media (min-width: 576px){.cp-xs-justify-end{justify-content:flex-end}}@media (min-width: 576px){.cp-xs-justify-around{justify-content:space-around}}@media (min-width: 576px){.cp-xs-justify-even{justify-content:space-evenly}}@media (min-width: 768px){.cp-sm-text-center{text-align:center}}@media (min-width: 768px){.cp-sm-text-left{text-align:left}}@media (min-width: 768px){.cp-sm-text-right{text-align:right}}@media (min-width: 768px){.cp-sm-align-initial{align-items:initial}}@media (min-width: 768px){.cp-sm-align-start{align-items:flex-start}}@media (min-width: 768px){.cp-sm-align-center{align-items:center}}@media (min-width: 768px){.cp-sm-align-end{align-items:flex-end}}@media (min-width: 768px){.cp-sm-align-base{align-items:baseline}}@media (min-width: 768px){.cp-sm-justify-initial{justify-content:initial}}@media (min-width: 768px){.cp-sm-justify-start{justify-content:flex-start}}@media (min-width: 768px){.cp-sm-justify-center{justify-content:center}}@media (min-width: 768px){.cp-sm-justify-between{justify-content:space-between}}@media (min-width: 768px){.cp-sm-justify-end{justify-content:flex-end}}@media (min-width: 768px){.cp-sm-justify-around{justify-content:space-around}}@media (min-width: 768px){.cp-sm-justify-even{justify-content:space-evenly}}@media (min-width: 992px){.cp-md-text-center{text-align:center}}@media (min-width: 992px){.cp-md-text-left{text-align:left}}@media (min-width: 992px){.cp-md-text-right{text-align:right}}@media (min-width: 992px){.cp-md-align-initial{align-items:initial}}@media (min-width: 992px){.cp-md-align-start{align-items:flex-start}}@media (min-width: 992px){.cp-md-align-center{align-items:center}}@media (min-width: 992px){.cp-md-align-end{align-items:flex-end}}@media (min-width: 992px){.cp-md-align-base{align-items:baseline}}@media (min-width: 992px){.cp-md-justify-initial{justify-content:initial}}@media (min-width: 992px){.cp-md-justify-start{justify-content:flex-start}}@media (min-width: 992px){.cp-md-justify-center{justify-content:center}}@media (min-width: 992px){.cp-md-justify-between{justify-content:space-between}}@media (min-width: 992px){.cp-md-justify-end{justify-content:flex-end}}@media (min-width: 992px){.cp-md-justify-around{justify-content:space-around}}@media (min-width: 992px){.cp-md-justify-even{justify-content:space-evenly}}@media (min-width: 1050px){.cp-lg-text-center{text-align:center}}@media (min-width: 1050px){.cp-lg-text-left{text-align:left}}@media (min-width: 1050px){.cp-lg-text-right{text-align:right}}@media (min-width: 1050px){.cp-lg-align-initial{align-items:initial}}@media (min-width: 1050px){.cp-lg-align-start{align-items:flex-start}}@media (min-width: 1050px){.cp-lg-align-center{align-items:center}}@media (min-width: 1050px){.cp-lg-align-end{align-items:flex-end}}@media (min-width: 1050px){.cp-lg-align-base{align-items:baseline}}@media (min-width: 1050px){.cp-lg-justify-initial{justify-content:initial}}@media (min-width: 1050px){.cp-lg-justify-start{justify-content:flex-start}}@media (min-width: 1050px){.cp-lg-justify-center{justify-content:center}}@media (min-width: 1050px){.cp-lg-justify-between{justify-content:space-between}}@media (min-width: 1050px){.cp-lg-justify-end{justify-content:flex-end}}@media (min-width: 1050px){.cp-lg-justify-around{justify-content:space-around}}@media (min-width: 1050px){.cp-lg-justify-even{justify-content:space-evenly}}@media (min-width: 1350px){.cp-largeScreen-text-center{text-align:center}}@media (min-width: 1350px){.cp-largeScreen-text-left{text-align:left}}@media (min-width: 1350px){.cp-largeScreen-text-right{text-align:right}}@media (min-width: 1350px){.cp-largeScreen-align-initial{align-items:initial}}@media (min-width: 1350px){.cp-largeScreen-align-start{align-items:flex-start}}@media (min-width: 1350px){.cp-largeScreen-align-center{align-items:center}}@media (min-width: 1350px){.cp-largeScreen-align-end{align-items:flex-end}}@media (min-width: 1350px){.cp-largeScreen-align-base{align-items:baseline}}@media (min-width: 1350px){.cp-largeScreen-justify-initial{justify-content:initial}}@media (min-width: 1350px){.cp-largeScreen-justify-start{justify-content:flex-start}}@media (min-width: 1350px){.cp-largeScreen-justify-center{justify-content:center}}@media (min-width: 1350px){.cp-largeScreen-justify-between{justify-content:space-between}}@media (min-width: 1350px){.cp-largeScreen-justify-end{justify-content:flex-end}}@media (min-width: 1350px){.cp-largeScreen-justify-around{justify-content:space-around}}@media (min-width: 1350px){.cp-largeScreen-justify-even{justify-content:space-evenly}}.cp-bg-image{background-position:center;background-repeat:no-repeat;background-size:cover}.cp-bg-image-contain{background-position:center;background-repeat:no-repeat;background-size:contain}.cp-bg-white-smoke{background-color:#F8F8F8}.cp-bg-white{background-color:#fff}.cp-border-0{border:0}.cp-border-radius-2{border-radius:2px}.cp-border-radius-3{border-radius:3px}.cp-border-radius-4{border-radius:4px}.cp-border-radius-5{border-radius:5px}.cp-border-radius-6{border-radius:6px}.cp-border-radius-7{border-radius:7px}.cp-border-radius-8{border-radius:8px}.cp-border-radius-9{border-radius:9px}.cp-border-radius-10{border-radius:10px}.cp-border-radius-11{border-radius:11px}.cp-border-radius-12{border-radius:12px}.cp-border-radius-13{border-radius:13px}.cp-border-radius-14{border-radius:14px}.cp-border-radius-15{border-radius:15px}.cp-border-radius-16{border-radius:16px}.cp-border-radius-17{border-radius:17px}.cp-border-radius-18{border-radius:18px}.cp-border-radius-19{border-radius:19px}.cp-border-radius-20{border-radius:20px}.cp-border-radius-21{border-radius:21px}.cp-border-radius-22{border-radius:22px}.cp-border-radius-23{border-radius:23px}.cp-border-radius-24{border-radius:24px}.cp-border-radius-25{border-radius:25px}.cp-border-radius-rounded{border-radius:100%}.cp-border{border-style:solid;border-width:1px}.cp-border-top{border-top-style:solid;border-top-width:1px}.cp-border-left{border-left-style:solid;border-left-width:1px}.cp-border-bottom{border-bottom-style:solid;border-bottom-width:1px}.cp-border-right{border-right-style:solid;border-right-width:1px}.cp-cursor-pointer{cursor:pointer}.cp-cursor-not-allowed{cursor:not-allowed}.cp-pointer-events-none{pointer-events:none}.cp-direction-column{flex-direction:column}.cp-direction-row{flex-direction:row}.cp-only-d-flex{display:flex}.cp-d-flex{display:flex;flex-wrap:wrap}.cp-d-none{display:none}.cp-d-block{display:block}.cp-d-initial{display:initial}.cp-d-inline-block{display:inline-block}@media (min-width: 576px){.cp-xs-d-flex{display:flex;flex-wrap:wrap}}@media (min-width: 576px){.cp-xs-d-none{display:none}}@media (min-width: 576px){.cp-xs-d-block{display:block}}@media (min-width: 576px){.cp-xs-d-initial{display:initial}}@media (min-width: 576px){.cp-xs-d-inline-block{display:inline-block}}@media (min-width: 768px){.cp-sm-d-flex{display:flex;flex-wrap:wrap}}@media (min-width: 768px){.cp-sm-d-none{display:none}}@media (min-width: 768px){.cp-sm-d-block{display:block}}@media (min-width: 768px){.cp-sm-d-initial{display:initial}}@media (min-width: 768px){.cp-sm-d-inline-block{display:inline-block}}@media (min-width: 992px){.cp-md-d-flex{display:flex;flex-wrap:wrap}}@media (min-width: 992px){.cp-md-d-none{display:none}}@media (min-width: 992px){.cp-md-d-block{display:block}}@media (min-width: 992px){.cp-md-d-initial{display:initial}}@media (min-width: 992px){.cp-md-d-inline-block{display:inline-block}}@media (min-width: 1050px){.cp-lg-d-flex{display:flex;flex-wrap:wrap}}@media (min-width: 1050px){.cp-lg-d-none{display:none}}@media (min-width: 1050px){.cp-lg-d-block{display:block}}@media (min-width: 1050px){.cp-lg-d-initial{display:initial}}@media (min-width: 1050px){.cp-lg-d-inline-block{display:inline-block}}@media (min-width: 1350px){.cp-largeScreen-d-flex{display:flex;flex-wrap:wrap}}@media (min-width: 1350px){.cp-largeScreen-d-none{display:none}}@media (min-width: 1350px){.cp-largeScreen-d-block{display:block}}@media (min-width: 1350px){.cp-largeScreen-d-initial{display:initial}}@media (min-width: 1350px){.cp-largeScreen-d-inline-block{display:inline-block}}.cp-gap-1{gap:4px}.cp-row-gap-1{row-gap:4px}.cp-col-gap-1{column-gap:4px}.cp-gap-2{gap:8px}.cp-row-gap-2{row-gap:8px}.cp-col-gap-2{column-gap:8px}.cp-gap-3{gap:12px}.cp-row-gap-3{row-gap:12px}.cp-col-gap-3{column-gap:12px}.cp-gap-4{gap:16px}.cp-row-gap-4{row-gap:16px}.cp-col-gap-4{column-gap:16px}.cp-gap-5{gap:20px}.cp-row-gap-5{row-gap:20px}.cp-col-gap-5{column-gap:20px}.cp-gap-6{gap:24px}.cp-row-gap-6{row-gap:24px}.cp-col-gap-6{column-gap:24px}.cp-gap-7{gap:28px}.cp-row-gap-7{row-gap:28px}.cp-col-gap-7{column-gap:28px}.cp-gap-8{gap:32px}.cp-row-gap-8{row-gap:32px}.cp-col-gap-8{column-gap:32px}.cp-m-auto{margin-left:auto;margin-right:auto}.cp-ml-auto{margin-left:auto}.cp-mr-auto{margin-right:auto}.cp-m-0{margin:0}.cp-mt-0{margin-top:0px}.cp-mt-1{margin-top:4px}.cp-mt-2{margin-top:8px}.cp-mt-3{margin-top:12px}.cp-mt-4{margin-top:16px}.cp-mt-5{margin-top:20px}.cp-mt-6{margin-top:24px}.cp-mt-7{margin-top:28px}.cp-mt-8{margin-top:32px}.cp-mt-9{margin-top:36px}.cp-mt-10{margin-top:40px}.cp-mt-11{margin-top:44px}.cp-mt-12{margin-top:48px}.cp-mt-13{margin-top:52px}.cp-mt-14{margin-top:56px}.cp-mt-15{margin-top:60px}.cp-mt-16{margin-top:64px}.cp-ml-0{margin-left:0px}.cp-ml-1{margin-left:4px}.cp-ml-2{margin-left:8px}.cp-ml-3{margin-left:12px}.cp-ml-4{margin-left:16px}.cp-ml-5{margin-left:20px}.cp-ml-6{margin-left:24px}.cp-ml-7{margin-left:28px}.cp-ml-8{margin-left:32px}.cp-ml-9{margin-left:36px}.cp-ml-10{margin-left:40px}.cp-ml-11{margin-left:44px}.cp-ml-12{margin-left:48px}.cp-ml-13{margin-left:52px}.cp-ml-14{margin-left:56px}.cp-ml-15{margin-left:60px}.cp-ml-16{margin-left:64px}.cp-mb-0{margin-bottom:0px}.cp-mb-1{margin-bottom:4px}.cp-mb-2{margin-bottom:8px}.cp-mb-3{margin-bottom:12px}.cp-mb-4{margin-bottom:16px}.cp-mb-5{margin-bottom:20px}.cp-mb-6{margin-bottom:24px}.cp-mb-7{margin-bottom:28px}.cp-mb-8{margin-bottom:32px}.cp-mb-9{margin-bottom:36px}.cp-mb-10{margin-bottom:40px}.cp-mb-11{margin-bottom:44px}.cp-mb-12{margin-bottom:48px}.cp-mb-13{margin-bottom:52px}.cp-mb-14{margin-bottom:56px}.cp-mb-15{margin-bottom:60px}.cp-mb-16{margin-bottom:64px}.cp-mr-0{margin-right:0px}.cp-mr-1{margin-right:4px}.cp-mr-2{margin-right:8px}.cp-mr-3{margin-right:12px}.cp-mr-4{margin-right:16px}.cp-mr-5{margin-right:20px}.cp-mr-6{margin-right:24px}.cp-mr-7{margin-right:28px}.cp-mr-8{margin-right:32px}.cp-mr-9{margin-right:36px}.cp-mr-10{margin-right:40px}.cp-mr-11{margin-right:44px}.cp-mr-12{margin-right:48px}.cp-mr-13{margin-right:52px}.cp-mr-14{margin-right:56px}.cp-mr-15{margin-right:60px}.cp-mr-16{margin-right:64px}@media (min-width: 576px){.cp-xs-m-0{margin:0}}@media (min-width: 576px){.cp-xs-mt-0{margin-top:0px}}@media (min-width: 576px){.cp-xs-mt-1{margin-top:4px}}@media (min-width: 576px){.cp-xs-mt-2{margin-top:8px}}@media (min-width: 576px){.cp-xs-mt-3{margin-top:12px}}@media (min-width: 576px){.cp-xs-mt-4{margin-top:16px}}@media (min-width: 576px){.cp-xs-mt-5{margin-top:20px}}@media (min-width: 576px){.cp-xs-mt-6{margin-top:24px}}@media (min-width: 576px){.cp-xs-mt-7{margin-top:28px}}@media (min-width: 576px){.cp-xs-mt-8{margin-top:32px}}@media (min-width: 576px){.cp-xs-mt-9{margin-top:36px}}@media (min-width: 576px){.cp-xs-mt-10{margin-top:40px}}@media (min-width: 576px){.cp-xs-mt-11{margin-top:44px}}@media (min-width: 576px){.cp-xs-mt-12{margin-top:48px}}@media (min-width: 576px){.cp-xs-mt-13{margin-top:52px}}@media (min-width: 576px){.cp-xs-mt-14{margin-top:56px}}@media (min-width: 576px){.cp-xs-mt-15{margin-top:60px}}@media (min-width: 576px){.cp-xs-mt-16{margin-top:64px}}@media (min-width: 576px){.cp-xs-ml-0{margin-left:0px}}@media (min-width: 576px){.cp-xs-ml-1{margin-left:4px}}@media (min-width: 576px){.cp-xs-ml-2{margin-left:8px}}@media (min-width: 576px){.cp-xs-ml-3{margin-left:12px}}@media (min-width: 576px){.cp-xs-ml-4{margin-left:16px}}@media (min-width: 576px){.cp-xs-ml-5{margin-left:20px}}@media (min-width: 576px){.cp-xs-ml-6{margin-left:24px}}@media (min-width: 576px){.cp-xs-ml-7{margin-left:28px}}@media (min-width: 576px){.cp-xs-ml-8{margin-left:32px}}@media (min-width: 576px){.cp-xs-ml-9{margin-left:36px}}@media (min-width: 576px){.cp-xs-ml-10{margin-left:40px}}@media (min-width: 576px){.cp-xs-ml-11{margin-left:44px}}@media (min-width: 576px){.cp-xs-ml-12{margin-left:48px}}@media (min-width: 576px){.cp-xs-ml-13{margin-left:52px}}@media (min-width: 576px){.cp-xs-ml-14{margin-left:56px}}@media (min-width: 576px){.cp-xs-ml-15{margin-left:60px}}@media (min-width: 576px){.cp-xs-ml-16{margin-left:64px}}@media (min-width: 576px){.cp-xs-mb-0{margin-bottom:0px}}@media (min-width: 576px){.cp-xs-mb-1{margin-bottom:4px}}@media (min-width: 576px){.cp-xs-mb-2{margin-bottom:8px}}@media (min-width: 576px){.cp-xs-mb-3{margin-bottom:12px}}@media (min-width: 576px){.cp-xs-mb-4{margin-bottom:16px}}@media (min-width: 576px){.cp-xs-mb-5{margin-bottom:20px}}@media (min-width: 576px){.cp-xs-mb-6{margin-bottom:24px}}@media (min-width: 576px){.cp-xs-mb-7{margin-bottom:28px}}@media (min-width: 576px){.cp-xs-mb-8{margin-bottom:32px}}@media (min-width: 576px){.cp-xs-mb-9{margin-bottom:36px}}@media (min-width: 576px){.cp-xs-mb-10{margin-bottom:40px}}@media (min-width: 576px){.cp-xs-mb-11{margin-bottom:44px}}@media (min-width: 576px){.cp-xs-mb-12{margin-bottom:48px}}@media (min-width: 576px){.cp-xs-mb-13{margin-bottom:52px}}@media (min-width: 576px){.cp-xs-mb-14{margin-bottom:56px}}@media (min-width: 576px){.cp-xs-mb-15{margin-bottom:60px}}@media (min-width: 576px){.cp-xs-mb-16{margin-bottom:64px}}@media (min-width: 576px){.cp-xs-mr-0{margin-right:0px}}@media (min-width: 576px){.cp-xs-mr-1{margin-right:4px}}@media (min-width: 576px){.cp-xs-mr-2{margin-right:8px}}@media (min-width: 576px){.cp-xs-mr-3{margin-right:12px}}@media (min-width: 576px){.cp-xs-mr-4{margin-right:16px}}@media (min-width: 576px){.cp-xs-mr-5{margin-right:20px}}@media (min-width: 576px){.cp-xs-mr-6{margin-right:24px}}@media (min-width: 576px){.cp-xs-mr-7{margin-right:28px}}@media (min-width: 576px){.cp-xs-mr-8{margin-right:32px}}@media (min-width: 576px){.cp-xs-mr-9{margin-right:36px}}@media (min-width: 576px){.cp-xs-mr-10{margin-right:40px}}@media (min-width: 576px){.cp-xs-mr-11{margin-right:44px}}@media (min-width: 576px){.cp-xs-mr-12{margin-right:48px}}@media (min-width: 576px){.cp-xs-mr-13{margin-right:52px}}@media (min-width: 576px){.cp-xs-mr-14{margin-right:56px}}@media (min-width: 576px){.cp-xs-mr-15{margin-right:60px}}@media (min-width: 576px){.cp-xs-mr-16{margin-right:64px}}@media (min-width: 768px){.cp-sm-m-0{margin:0}}@media (min-width: 768px){.cp-sm-mt-0{margin-top:0px}}@media (min-width: 768px){.cp-sm-mt-1{margin-top:4px}}@media (min-width: 768px){.cp-sm-mt-2{margin-top:8px}}@media (min-width: 768px){.cp-sm-mt-3{margin-top:12px}}@media (min-width: 768px){.cp-sm-mt-4{margin-top:16px}}@media (min-width: 768px){.cp-sm-mt-5{margin-top:20px}}@media (min-width: 768px){.cp-sm-mt-6{margin-top:24px}}@media (min-width: 768px){.cp-sm-mt-7{margin-top:28px}}@media (min-width: 768px){.cp-sm-mt-8{margin-top:32px}}@media (min-width: 768px){.cp-sm-mt-9{margin-top:36px}}@media (min-width: 768px){.cp-sm-mt-10{margin-top:40px}}@media (min-width: 768px){.cp-sm-mt-11{margin-top:44px}}@media (min-width: 768px){.cp-sm-mt-12{margin-top:48px}}@media (min-width: 768px){.cp-sm-mt-13{margin-top:52px}}@media (min-width: 768px){.cp-sm-mt-14{margin-top:56px}}@media (min-width: 768px){.cp-sm-mt-15{margin-top:60px}}@media (min-width: 768px){.cp-sm-mt-16{margin-top:64px}}@media (min-width: 768px){.cp-sm-ml-0{margin-left:0px}}@media (min-width: 768px){.cp-sm-ml-1{margin-left:4px}}@media (min-width: 768px){.cp-sm-ml-2{margin-left:8px}}@media (min-width: 768px){.cp-sm-ml-3{margin-left:12px}}@media (min-width: 768px){.cp-sm-ml-4{margin-left:16px}}@media (min-width: 768px){.cp-sm-ml-5{margin-left:20px}}@media (min-width: 768px){.cp-sm-ml-6{margin-left:24px}}@media (min-width: 768px){.cp-sm-ml-7{margin-left:28px}}@media (min-width: 768px){.cp-sm-ml-8{margin-left:32px}}@media (min-width: 768px){.cp-sm-ml-9{margin-left:36px}}@media (min-width: 768px){.cp-sm-ml-10{margin-left:40px}}@media (min-width: 768px){.cp-sm-ml-11{margin-left:44px}}@media (min-width: 768px){.cp-sm-ml-12{margin-left:48px}}@media (min-width: 768px){.cp-sm-ml-13{margin-left:52px}}@media (min-width: 768px){.cp-sm-ml-14{margin-left:56px}}@media (min-width: 768px){.cp-sm-ml-15{margin-left:60px}}@media (min-width: 768px){.cp-sm-ml-16{margin-left:64px}}@media (min-width: 768px){.cp-sm-mb-0{margin-bottom:0px}}@media (min-width: 768px){.cp-sm-mb-1{margin-bottom:4px}}@media (min-width: 768px){.cp-sm-mb-2{margin-bottom:8px}}@media (min-width: 768px){.cp-sm-mb-3{margin-bottom:12px}}@media (min-width: 768px){.cp-sm-mb-4{margin-bottom:16px}}@media (min-width: 768px){.cp-sm-mb-5{margin-bottom:20px}}@media (min-width: 768px){.cp-sm-mb-6{margin-bottom:24px}}@media (min-width: 768px){.cp-sm-mb-7{margin-bottom:28px}}@media (min-width: 768px){.cp-sm-mb-8{margin-bottom:32px}}@media (min-width: 768px){.cp-sm-mb-9{margin-bottom:36px}}@media (min-width: 768px){.cp-sm-mb-10{margin-bottom:40px}}@media (min-width: 768px){.cp-sm-mb-11{margin-bottom:44px}}@media (min-width: 768px){.cp-sm-mb-12{margin-bottom:48px}}@media (min-width: 768px){.cp-sm-mb-13{margin-bottom:52px}}@media (min-width: 768px){.cp-sm-mb-14{margin-bottom:56px}}@media (min-width: 768px){.cp-sm-mb-15{margin-bottom:60px}}@media (min-width: 768px){.cp-sm-mb-16{margin-bottom:64px}}@media (min-width: 768px){.cp-sm-mr-0{margin-right:0px}}@media (min-width: 768px){.cp-sm-mr-1{margin-right:4px}}@media (min-width: 768px){.cp-sm-mr-2{margin-right:8px}}@media (min-width: 768px){.cp-sm-mr-3{margin-right:12px}}@media (min-width: 768px){.cp-sm-mr-4{margin-right:16px}}@media (min-width: 768px){.cp-sm-mr-5{margin-right:20px}}@media (min-width: 768px){.cp-sm-mr-6{margin-right:24px}}@media (min-width: 768px){.cp-sm-mr-7{margin-right:28px}}@media (min-width: 768px){.cp-sm-mr-8{margin-right:32px}}@media (min-width: 768px){.cp-sm-mr-9{margin-right:36px}}@media (min-width: 768px){.cp-sm-mr-10{margin-right:40px}}@media (min-width: 768px){.cp-sm-mr-11{margin-right:44px}}@media (min-width: 768px){.cp-sm-mr-12{margin-right:48px}}@media (min-width: 768px){.cp-sm-mr-13{margin-right:52px}}@media (min-width: 768px){.cp-sm-mr-14{margin-right:56px}}@media (min-width: 768px){.cp-sm-mr-15{margin-right:60px}}@media (min-width: 768px){.cp-sm-mr-16{margin-right:64px}}@media (min-width: 992px){.cp-md-m-0{margin:0}}@media (min-width: 992px){.cp-md-mt-0{margin-top:0px}}@media (min-width: 992px){.cp-md-mt-1{margin-top:4px}}@media (min-width: 992px){.cp-md-mt-2{margin-top:8px}}@media (min-width: 992px){.cp-md-mt-3{margin-top:12px}}@media (min-width: 992px){.cp-md-mt-4{margin-top:16px}}@media (min-width: 992px){.cp-md-mt-5{margin-top:20px}}@media (min-width: 992px){.cp-md-mt-6{margin-top:24px}}@media (min-width: 992px){.cp-md-mt-7{margin-top:28px}}@media (min-width: 992px){.cp-md-mt-8{margin-top:32px}}@media (min-width: 992px){.cp-md-mt-9{margin-top:36px}}@media (min-width: 992px){.cp-md-mt-10{margin-top:40px}}@media (min-width: 992px){.cp-md-mt-11{margin-top:44px}}@media (min-width: 992px){.cp-md-mt-12{margin-top:48px}}@media (min-width: 992px){.cp-md-mt-13{margin-top:52px}}@media (min-width: 992px){.cp-md-mt-14{margin-top:56px}}@media (min-width: 992px){.cp-md-mt-15{margin-top:60px}}@media (min-width: 992px){.cp-md-mt-16{margin-top:64px}}@media (min-width: 992px){.cp-md-ml-0{margin-left:0px}}@media (min-width: 992px){.cp-md-ml-1{margin-left:4px}}@media (min-width: 992px){.cp-md-ml-2{margin-left:8px}}@media (min-width: 992px){.cp-md-ml-3{margin-left:12px}}@media (min-width: 992px){.cp-md-ml-4{margin-left:16px}}@media (min-width: 992px){.cp-md-ml-5{margin-left:20px}}@media (min-width: 992px){.cp-md-ml-6{margin-left:24px}}@media (min-width: 992px){.cp-md-ml-7{margin-left:28px}}@media (min-width: 992px){.cp-md-ml-8{margin-left:32px}}@media (min-width: 992px){.cp-md-ml-9{margin-left:36px}}@media (min-width: 992px){.cp-md-ml-10{margin-left:40px}}@media (min-width: 992px){.cp-md-ml-11{margin-left:44px}}@media (min-width: 992px){.cp-md-ml-12{margin-left:48px}}@media (min-width: 992px){.cp-md-ml-13{margin-left:52px}}@media (min-width: 992px){.cp-md-ml-14{margin-left:56px}}@media (min-width: 992px){.cp-md-ml-15{margin-left:60px}}@media (min-width: 992px){.cp-md-ml-16{margin-left:64px}}@media (min-width: 992px){.cp-md-mb-0{margin-bottom:0px}}@media (min-width: 992px){.cp-md-mb-1{margin-bottom:4px}}@media (min-width: 992px){.cp-md-mb-2{margin-bottom:8px}}@media (min-width: 992px){.cp-md-mb-3{margin-bottom:12px}}@media (min-width: 992px){.cp-md-mb-4{margin-bottom:16px}}@media (min-width: 992px){.cp-md-mb-5{margin-bottom:20px}}@media (min-width: 992px){.cp-md-mb-6{margin-bottom:24px}}@media (min-width: 992px){.cp-md-mb-7{margin-bottom:28px}}@media (min-width: 992px){.cp-md-mb-8{margin-bottom:32px}}@media (min-width: 992px){.cp-md-mb-9{margin-bottom:36px}}@media (min-width: 992px){.cp-md-mb-10{margin-bottom:40px}}@media (min-width: 992px){.cp-md-mb-11{margin-bottom:44px}}@media (min-width: 992px){.cp-md-mb-12{margin-bottom:48px}}@media (min-width: 992px){.cp-md-mb-13{margin-bottom:52px}}@media (min-width: 992px){.cp-md-mb-14{margin-bottom:56px}}@media (min-width: 992px){.cp-md-mb-15{margin-bottom:60px}}@media (min-width: 992px){.cp-md-mb-16{margin-bottom:64px}}@media (min-width: 992px){.cp-md-mr-0{margin-right:0px}}@media (min-width: 992px){.cp-md-mr-1{margin-right:4px}}@media (min-width: 992px){.cp-md-mr-2{margin-right:8px}}@media (min-width: 992px){.cp-md-mr-3{margin-right:12px}}@media (min-width: 992px){.cp-md-mr-4{margin-right:16px}}@media (min-width: 992px){.cp-md-mr-5{margin-right:20px}}@media (min-width: 992px){.cp-md-mr-6{margin-right:24px}}@media (min-width: 992px){.cp-md-mr-7{margin-right:28px}}@media (min-width: 992px){.cp-md-mr-8{margin-right:32px}}@media (min-width: 992px){.cp-md-mr-9{margin-right:36px}}@media (min-width: 992px){.cp-md-mr-10{margin-right:40px}}@media (min-width: 992px){.cp-md-mr-11{margin-right:44px}}@media (min-width: 992px){.cp-md-mr-12{margin-right:48px}}@media (min-width: 992px){.cp-md-mr-13{margin-right:52px}}@media (min-width: 992px){.cp-md-mr-14{margin-right:56px}}@media (min-width: 992px){.cp-md-mr-15{margin-right:60px}}@media (min-width: 992px){.cp-md-mr-16{margin-right:64px}}@media (min-width: 1050px){.cp-lg-m-0{margin:0}}@media (min-width: 1050px){.cp-lg-mt-0{margin-top:0px}}@media (min-width: 1050px){.cp-lg-mt-1{margin-top:4px}}@media (min-width: 1050px){.cp-lg-mt-2{margin-top:8px}}@media (min-width: 1050px){.cp-lg-mt-3{margin-top:12px}}@media (min-width: 1050px){.cp-lg-mt-4{margin-top:16px}}@media (min-width: 1050px){.cp-lg-mt-5{margin-top:20px}}@media (min-width: 1050px){.cp-lg-mt-6{margin-top:24px}}@media (min-width: 1050px){.cp-lg-mt-7{margin-top:28px}}@media (min-width: 1050px){.cp-lg-mt-8{margin-top:32px}}@media (min-width: 1050px){.cp-lg-mt-9{margin-top:36px}}@media (min-width: 1050px){.cp-lg-mt-10{margin-top:40px}}@media (min-width: 1050px){.cp-lg-mt-11{margin-top:44px}}@media (min-width: 1050px){.cp-lg-mt-12{margin-top:48px}}@media (min-width: 1050px){.cp-lg-mt-13{margin-top:52px}}@media (min-width: 1050px){.cp-lg-mt-14{margin-top:56px}}@media (min-width: 1050px){.cp-lg-mt-15{margin-top:60px}}@media (min-width: 1050px){.cp-lg-mt-16{margin-top:64px}}@media (min-width: 1050px){.cp-lg-ml-0{margin-left:0px}}@media (min-width: 1050px){.cp-lg-ml-1{margin-left:4px}}@media (min-width: 1050px){.cp-lg-ml-2{margin-left:8px}}@media (min-width: 1050px){.cp-lg-ml-3{margin-left:12px}}@media (min-width: 1050px){.cp-lg-ml-4{margin-left:16px}}@media (min-width: 1050px){.cp-lg-ml-5{margin-left:20px}}@media (min-width: 1050px){.cp-lg-ml-6{margin-left:24px}}@media (min-width: 1050px){.cp-lg-ml-7{margin-left:28px}}@media (min-width: 1050px){.cp-lg-ml-8{margin-left:32px}}@media (min-width: 1050px){.cp-lg-ml-9{margin-left:36px}}@media (min-width: 1050px){.cp-lg-ml-10{margin-left:40px}}@media (min-width: 1050px){.cp-lg-ml-11{margin-left:44px}}@media (min-width: 1050px){.cp-lg-ml-12{margin-left:48px}}@media (min-width: 1050px){.cp-lg-ml-13{margin-left:52px}}@media (min-width: 1050px){.cp-lg-ml-14{margin-left:56px}}@media (min-width: 1050px){.cp-lg-ml-15{margin-left:60px}}@media (min-width: 1050px){.cp-lg-ml-16{margin-left:64px}}@media (min-width: 1050px){.cp-lg-mb-0{margin-bottom:0px}}@media (min-width: 1050px){.cp-lg-mb-1{margin-bottom:4px}}@media (min-width: 1050px){.cp-lg-mb-2{margin-bottom:8px}}@media (min-width: 1050px){.cp-lg-mb-3{margin-bottom:12px}}@media (min-width: 1050px){.cp-lg-mb-4{margin-bottom:16px}}@media (min-width: 1050px){.cp-lg-mb-5{margin-bottom:20px}}@media (min-width: 1050px){.cp-lg-mb-6{margin-bottom:24px}}@media (min-width: 1050px){.cp-lg-mb-7{margin-bottom:28px}}@media (min-width: 1050px){.cp-lg-mb-8{margin-bottom:32px}}@media (min-width: 1050px){.cp-lg-mb-9{margin-bottom:36px}}@media (min-width: 1050px){.cp-lg-mb-10{margin-bottom:40px}}@media (min-width: 1050px){.cp-lg-mb-11{margin-bottom:44px}}@media (min-width: 1050px){.cp-lg-mb-12{margin-bottom:48px}}@media (min-width: 1050px){.cp-lg-mb-13{margin-bottom:52px}}@media (min-width: 1050px){.cp-lg-mb-14{margin-bottom:56px}}@media (min-width: 1050px){.cp-lg-mb-15{margin-bottom:60px}}@media (min-width: 1050px){.cp-lg-mb-16{margin-bottom:64px}}@media (min-width: 1050px){.cp-lg-mr-0{margin-right:0px}}@media (min-width: 1050px){.cp-lg-mr-1{margin-right:4px}}@media (min-width: 1050px){.cp-lg-mr-2{margin-right:8px}}@media (min-width: 1050px){.cp-lg-mr-3{margin-right:12px}}@media (min-width: 1050px){.cp-lg-mr-4{margin-right:16px}}@media (min-width: 1050px){.cp-lg-mr-5{margin-right:20px}}@media (min-width: 1050px){.cp-lg-mr-6{margin-right:24px}}@media (min-width: 1050px){.cp-lg-mr-7{margin-right:28px}}@media (min-width: 1050px){.cp-lg-mr-8{margin-right:32px}}@media (min-width: 1050px){.cp-lg-mr-9{margin-right:36px}}@media (min-width: 1050px){.cp-lg-mr-10{margin-right:40px}}@media (min-width: 1050px){.cp-lg-mr-11{margin-right:44px}}@media (min-width: 1050px){.cp-lg-mr-12{margin-right:48px}}@media (min-width: 1050px){.cp-lg-mr-13{margin-right:52px}}@media (min-width: 1050px){.cp-lg-mr-14{margin-right:56px}}@media (min-width: 1050px){.cp-lg-mr-15{margin-right:60px}}@media (min-width: 1050px){.cp-lg-mr-16{margin-right:64px}}@media (min-width: 1350px){.cp-largeScreen-m-0{margin:0}}@media (min-width: 1350px){.cp-largeScreen-mt-0{margin-top:0px}}@media (min-width: 1350px){.cp-largeScreen-mt-1{margin-top:4px}}@media (min-width: 1350px){.cp-largeScreen-mt-2{margin-top:8px}}@media (min-width: 1350px){.cp-largeScreen-mt-3{margin-top:12px}}@media (min-width: 1350px){.cp-largeScreen-mt-4{margin-top:16px}}@media (min-width: 1350px){.cp-largeScreen-mt-5{margin-top:20px}}@media (min-width: 1350px){.cp-largeScreen-mt-6{margin-top:24px}}@media (min-width: 1350px){.cp-largeScreen-mt-7{margin-top:28px}}@media (min-width: 1350px){.cp-largeScreen-mt-8{margin-top:32px}}@media (min-width: 1350px){.cp-largeScreen-mt-9{margin-top:36px}}@media (min-width: 1350px){.cp-largeScreen-mt-10{margin-top:40px}}@media (min-width: 1350px){.cp-largeScreen-mt-11{margin-top:44px}}@media (min-width: 1350px){.cp-largeScreen-mt-12{margin-top:48px}}@media (min-width: 1350px){.cp-largeScreen-mt-13{margin-top:52px}}@media (min-width: 1350px){.cp-largeScreen-mt-14{margin-top:56px}}@media (min-width: 1350px){.cp-largeScreen-mt-15{margin-top:60px}}@media (min-width: 1350px){.cp-largeScreen-mt-16{margin-top:64px}}@media (min-width: 1350px){.cp-largeScreen-ml-0{margin-left:0px}}@media (min-width: 1350px){.cp-largeScreen-ml-1{margin-left:4px}}@media (min-width: 1350px){.cp-largeScreen-ml-2{margin-left:8px}}@media (min-width: 1350px){.cp-largeScreen-ml-3{margin-left:12px}}@media (min-width: 1350px){.cp-largeScreen-ml-4{margin-left:16px}}@media (min-width: 1350px){.cp-largeScreen-ml-5{margin-left:20px}}@media (min-width: 1350px){.cp-largeScreen-ml-6{margin-left:24px}}@media (min-width: 1350px){.cp-largeScreen-ml-7{margin-left:28px}}@media (min-width: 1350px){.cp-largeScreen-ml-8{margin-left:32px}}@media (min-width: 1350px){.cp-largeScreen-ml-9{margin-left:36px}}@media (min-width: 1350px){.cp-largeScreen-ml-10{margin-left:40px}}@media (min-width: 1350px){.cp-largeScreen-ml-11{margin-left:44px}}@media (min-width: 1350px){.cp-largeScreen-ml-12{margin-left:48px}}@media (min-width: 1350px){.cp-largeScreen-ml-13{margin-left:52px}}@media (min-width: 1350px){.cp-largeScreen-ml-14{margin-left:56px}}@media (min-width: 1350px){.cp-largeScreen-ml-15{margin-left:60px}}@media (min-width: 1350px){.cp-largeScreen-ml-16{margin-left:64px}}@media (min-width: 1350px){.cp-largeScreen-mb-0{margin-bottom:0px}}@media (min-width: 1350px){.cp-largeScreen-mb-1{margin-bottom:4px}}@media (min-width: 1350px){.cp-largeScreen-mb-2{margin-bottom:8px}}@media (min-width: 1350px){.cp-largeScreen-mb-3{margin-bottom:12px}}@media (min-width: 1350px){.cp-largeScreen-mb-4{margin-bottom:16px}}@media (min-width: 1350px){.cp-largeScreen-mb-5{margin-bottom:20px}}@media (min-width: 1350px){.cp-largeScreen-mb-6{margin-bottom:24px}}@media (min-width: 1350px){.cp-largeScreen-mb-7{margin-bottom:28px}}@media (min-width: 1350px){.cp-largeScreen-mb-8{margin-bottom:32px}}@media (min-width: 1350px){.cp-largeScreen-mb-9{margin-bottom:36px}}@media (min-width: 1350px){.cp-largeScreen-mb-10{margin-bottom:40px}}@media (min-width: 1350px){.cp-largeScreen-mb-11{margin-bottom:44px}}@media (min-width: 1350px){.cp-largeScreen-mb-12{margin-bottom:48px}}@media (min-width: 1350px){.cp-largeScreen-mb-13{margin-bottom:52px}}@media (min-width: 1350px){.cp-largeScreen-mb-14{margin-bottom:56px}}@media (min-width: 1350px){.cp-largeScreen-mb-15{margin-bottom:60px}}@media (min-width: 1350px){.cp-largeScreen-mb-16{margin-bottom:64px}}@media (min-width: 1350px){.cp-largeScreen-mr-0{margin-right:0px}}@media (min-width: 1350px){.cp-largeScreen-mr-1{margin-right:4px}}@media (min-width: 1350px){.cp-largeScreen-mr-2{margin-right:8px}}@media (min-width: 1350px){.cp-largeScreen-mr-3{margin-right:12px}}@media (min-width: 1350px){.cp-largeScreen-mr-4{margin-right:16px}}@media (min-width: 1350px){.cp-largeScreen-mr-5{margin-right:20px}}@media (min-width: 1350px){.cp-largeScreen-mr-6{margin-right:24px}}@media (min-width: 1350px){.cp-largeScreen-mr-7{margin-right:28px}}@media (min-width: 1350px){.cp-largeScreen-mr-8{margin-right:32px}}@media (min-width: 1350px){.cp-largeScreen-mr-9{margin-right:36px}}@media (min-width: 1350px){.cp-largeScreen-mr-10{margin-right:40px}}@media (min-width: 1350px){.cp-largeScreen-mr-11{margin-right:44px}}@media (min-width: 1350px){.cp-largeScreen-mr-12{margin-right:48px}}@media (min-width: 1350px){.cp-largeScreen-mr-13{margin-right:52px}}@media (min-width: 1350px){.cp-largeScreen-mr-14{margin-right:56px}}@media (min-width: 1350px){.cp-largeScreen-mr-15{margin-right:60px}}@media (min-width: 1350px){.cp-largeScreen-mr-16{margin-right:64px}}.cp-opacity-0{opacity:0}.cp-opacity-1{opacity:1}.cp-opacity-0-5{opacity:0.5}.cp-opacity-0-7{opacity:0.7}.cp-order-1{order:1}.cp-order-2{order:2}.cp-order-3{order:3}@media (min-width: 576px){.cp-xs-order-1{order:1}}@media (min-width: 576px){.cp-xs-order-2{order:2}}@media (min-width: 576px){.cp-xs-order-3{order:3}}@media (min-width: 768px){.cp-sm-order-1{order:1}}@media (min-width: 768px){.cp-sm-order-2{order:2}}@media (min-width: 768px){.cp-sm-order-3{order:3}}@media (min-width: 992px){.cp-md-order-1{order:1}}@media (min-width: 992px){.cp-md-order-2{order:2}}@media (min-width: 992px){.cp-md-order-3{order:3}}@media (min-width: 1050px){.cp-lg-order-1{order:1}}@media (min-width: 1050px){.cp-lg-order-2{order:2}}@media (min-width: 1050px){.cp-lg-order-3{order:3}}@media (min-width: 1350px){.cp-largeScreen-order-1{order:1}}@media (min-width: 1350px){.cp-largeScreen-order-2{order:2}}@media (min-width: 1350px){.cp-largeScreen-order-3{order:3}}.cp-overflow-visible{overflow:visible}.cp-visibility-hidden{visibility:hidden}.cp-overflow-hidden{overflow:hidden}.cp-overflow-y-auto{overflow-y:auto}.cp-overflow-y-hidden{overflow-y:hidden}.cp-overflow-x-auto{overflow-x:auto}.cp-overflow-x-hidden{overflow-x:hidden}.cp-p-0{padding:0}.cp-pt-0{padding-top:0px}.cp-pt-1{padding-top:4px}.cp-pt-2{padding-top:8px}.cp-pt-3{padding-top:12px}.cp-pt-4{padding-top:16px}.cp-pt-5{padding-top:20px}.cp-pt-6{padding-top:24px}.cp-pt-7{padding-top:28px}.cp-pt-8{padding-top:32px}.cp-pt-9{padding-top:36px}.cp-pt-10{padding-top:40px}.cp-pt-11{padding-top:44px}.cp-pt-12{padding-top:48px}.cp-pt-13{padding-top:52px}.cp-pt-14{padding-top:56px}.cp-pt-15{padding-top:60px}.cp-pt-16{padding-top:64px}.cp-pt-17{padding-top:68px}.cp-pt-18{padding-top:72px}.cp-pt-19{padding-top:76px}.cp-pt-20{padding-top:80px}.cp-pt-21{padding-top:84px}.cp-pt-22{padding-top:88px}.cp-pt-23{padding-top:92px}.cp-pt-24{padding-top:96px}.cp-pt-25{padding-top:100px}.cp-pt-26{padding-top:104px}.cp-pt-27{padding-top:108px}.cp-pt-28{padding-top:112px}.cp-pt-29{padding-top:116px}.cp-pt-30{padding-top:120px}.cp-pt-31{padding-top:124px}.cp-pt-32{padding-top:128px}.cp-pl-0{padding-left:0px}.cp-pl-1{padding-left:4px}.cp-pl-2{padding-left:8px}.cp-pl-3{padding-left:12px}.cp-pl-4{padding-left:16px}.cp-pl-5{padding-left:20px}.cp-pl-6{padding-left:24px}.cp-pl-7{padding-left:28px}.cp-pl-8{padding-left:32px}.cp-pl-9{padding-left:36px}.cp-pl-10{padding-left:40px}.cp-pl-11{padding-left:44px}.cp-pl-12{padding-left:48px}.cp-pl-13{padding-left:52px}.cp-pl-14{padding-left:56px}.cp-pl-15{padding-left:60px}.cp-pl-16{padding-left:64px}.cp-pl-17{padding-left:68px}.cp-pl-18{padding-left:72px}.cp-pl-19{padding-left:76px}.cp-pl-20{padding-left:80px}.cp-pl-21{padding-left:84px}.cp-pl-22{padding-left:88px}.cp-pl-23{padding-left:92px}.cp-pl-24{padding-left:96px}.cp-pl-25{padding-left:100px}.cp-pl-26{padding-left:104px}.cp-pl-27{padding-left:108px}.cp-pl-28{padding-left:112px}.cp-pl-29{padding-left:116px}.cp-pl-30{padding-left:120px}.cp-pl-31{padding-left:124px}.cp-pl-32{padding-left:128px}.cp-pb-0{padding-bottom:0px}.cp-pb-1{padding-bottom:4px}.cp-pb-2{padding-bottom:8px}.cp-pb-3{padding-bottom:12px}.cp-pb-4{padding-bottom:16px}.cp-pb-5{padding-bottom:20px}.cp-pb-6{padding-bottom:24px}.cp-pb-7{padding-bottom:28px}.cp-pb-8{padding-bottom:32px}.cp-pb-9{padding-bottom:36px}.cp-pb-10{padding-bottom:40px}.cp-pb-11{padding-bottom:44px}.cp-pb-12{padding-bottom:48px}.cp-pb-13{padding-bottom:52px}.cp-pb-14{padding-bottom:56px}.cp-pb-15{padding-bottom:60px}.cp-pb-16{padding-bottom:64px}.cp-pb-17{padding-bottom:68px}.cp-pb-18{padding-bottom:72px}.cp-pb-19{padding-bottom:76px}.cp-pb-20{padding-bottom:80px}.cp-pb-21{padding-bottom:84px}.cp-pb-22{padding-bottom:88px}.cp-pb-23{padding-bottom:92px}.cp-pb-24{padding-bottom:96px}.cp-pb-25{padding-bottom:100px}.cp-pb-26{padding-bottom:104px}.cp-pb-27{padding-bottom:108px}.cp-pb-28{padding-bottom:112px}.cp-pb-29{padding-bottom:116px}.cp-pb-30{padding-bottom:120px}.cp-pb-31{padding-bottom:124px}.cp-pb-32{padding-bottom:128px}.cp-pr-0{padding-right:0px}.cp-pr-1{padding-right:4px}.cp-pr-2{padding-right:8px}.cp-pr-3{padding-right:12px}.cp-pr-4{padding-right:16px}.cp-pr-5{padding-right:20px}.cp-pr-6{padding-right:24px}.cp-pr-7{padding-right:28px}.cp-pr-8{padding-right:32px}.cp-pr-9{padding-right:36px}.cp-pr-10{padding-right:40px}.cp-pr-11{padding-right:44px}.cp-pr-12{padding-right:48px}.cp-pr-13{padding-right:52px}.cp-pr-14{padding-right:56px}.cp-pr-15{padding-right:60px}.cp-pr-16{padding-right:64px}.cp-pr-17{padding-right:68px}.cp-pr-18{padding-right:72px}.cp-pr-19{padding-right:76px}.cp-pr-20{padding-right:80px}.cp-pr-21{padding-right:84px}.cp-pr-22{padding-right:88px}.cp-pr-23{padding-right:92px}.cp-pr-24{padding-right:96px}.cp-pr-25{padding-right:100px}.cp-pr-26{padding-right:104px}.cp-pr-27{padding-right:108px}.cp-pr-28{padding-right:112px}.cp-pr-29{padding-right:116px}.cp-pr-30{padding-right:120px}.cp-pr-31{padding-right:124px}.cp-pr-32{padding-right:128px}@media (min-width: 576px){.cp-xs-p-0{padding:0}}@media (min-width: 576px){.cp-xs-pt-0{padding-top:0px}}@media (min-width: 576px){.cp-xs-pt-1{padding-top:4px}}@media (min-width: 576px){.cp-xs-pt-2{padding-top:8px}}@media (min-width: 576px){.cp-xs-pt-3{padding-top:12px}}@media (min-width: 576px){.cp-xs-pt-4{padding-top:16px}}@media (min-width: 576px){.cp-xs-pt-5{padding-top:20px}}@media (min-width: 576px){.cp-xs-pt-6{padding-top:24px}}@media (min-width: 576px){.cp-xs-pt-7{padding-top:28px}}@media (min-width: 576px){.cp-xs-pt-8{padding-top:32px}}@media (min-width: 576px){.cp-xs-pt-9{padding-top:36px}}@media (min-width: 576px){.cp-xs-pt-10{padding-top:40px}}@media (min-width: 576px){.cp-xs-pt-11{padding-top:44px}}@media (min-width: 576px){.cp-xs-pt-12{padding-top:48px}}@media (min-width: 576px){.cp-xs-pt-13{padding-top:52px}}@media (min-width: 576px){.cp-xs-pt-14{padding-top:56px}}@media (min-width: 576px){.cp-xs-pt-15{padding-top:60px}}@media (min-width: 576px){.cp-xs-pt-16{padding-top:64px}}@media (min-width: 576px){.cp-xs-pt-17{padding-top:68px}}@media (min-width: 576px){.cp-xs-pt-18{padding-top:72px}}@media (min-width: 576px){.cp-xs-pt-19{padding-top:76px}}@media (min-width: 576px){.cp-xs-pt-20{padding-top:80px}}@media (min-width: 576px){.cp-xs-pt-21{padding-top:84px}}@media (min-width: 576px){.cp-xs-pt-22{padding-top:88px}}@media (min-width: 576px){.cp-xs-pt-23{padding-top:92px}}@media (min-width: 576px){.cp-xs-pt-24{padding-top:96px}}@media (min-width: 576px){.cp-xs-pt-25{padding-top:100px}}@media (min-width: 576px){.cp-xs-pt-26{padding-top:104px}}@media (min-width: 576px){.cp-xs-pt-27{padding-top:108px}}@media (min-width: 576px){.cp-xs-pt-28{padding-top:112px}}@media (min-width: 576px){.cp-xs-pt-29{padding-top:116px}}@media (min-width: 576px){.cp-xs-pt-30{padding-top:120px}}@media (min-width: 576px){.cp-xs-pt-31{padding-top:124px}}@media (min-width: 576px){.cp-xs-pt-32{padding-top:128px}}@media (min-width: 576px){.cp-xs-pl-0{padding-left:0px}}@media (min-width: 576px){.cp-xs-pl-1{padding-left:4px}}@media (min-width: 576px){.cp-xs-pl-2{padding-left:8px}}@media (min-width: 576px){.cp-xs-pl-3{padding-left:12px}}@media (min-width: 576px){.cp-xs-pl-4{padding-left:16px}}@media (min-width: 576px){.cp-xs-pl-5{padding-left:20px}}@media (min-width: 576px){.cp-xs-pl-6{padding-left:24px}}@media (min-width: 576px){.cp-xs-pl-7{padding-left:28px}}@media (min-width: 576px){.cp-xs-pl-8{padding-left:32px}}@media (min-width: 576px){.cp-xs-pl-9{padding-left:36px}}@media (min-width: 576px){.cp-xs-pl-10{padding-left:40px}}@media (min-width: 576px){.cp-xs-pl-11{padding-left:44px}}@media (min-width: 576px){.cp-xs-pl-12{padding-left:48px}}@media (min-width: 576px){.cp-xs-pl-13{padding-left:52px}}@media (min-width: 576px){.cp-xs-pl-14{padding-left:56px}}@media (min-width: 576px){.cp-xs-pl-15{padding-left:60px}}@media (min-width: 576px){.cp-xs-pl-16{padding-left:64px}}@media (min-width: 576px){.cp-xs-pl-17{padding-left:68px}}@media (min-width: 576px){.cp-xs-pl-18{padding-left:72px}}@media (min-width: 576px){.cp-xs-pl-19{padding-left:76px}}@media (min-width: 576px){.cp-xs-pl-20{padding-left:80px}}@media (min-width: 576px){.cp-xs-pl-21{padding-left:84px}}@media (min-width: 576px){.cp-xs-pl-22{padding-left:88px}}@media (min-width: 576px){.cp-xs-pl-23{padding-left:92px}}@media (min-width: 576px){.cp-xs-pl-24{padding-left:96px}}@media (min-width: 576px){.cp-xs-pl-25{padding-left:100px}}@media (min-width: 576px){.cp-xs-pl-26{padding-left:104px}}@media (min-width: 576px){.cp-xs-pl-27{padding-left:108px}}@media (min-width: 576px){.cp-xs-pl-28{padding-left:112px}}@media (min-width: 576px){.cp-xs-pl-29{padding-left:116px}}@media (min-width: 576px){.cp-xs-pl-30{padding-left:120px}}@media (min-width: 576px){.cp-xs-pl-31{padding-left:124px}}@media (min-width: 576px){.cp-xs-pl-32{padding-left:128px}}@media (min-width: 576px){.cp-xs-pb-0{padding-bottom:0px}}@media (min-width: 576px){.cp-xs-pb-1{padding-bottom:4px}}@media (min-width: 576px){.cp-xs-pb-2{padding-bottom:8px}}@media (min-width: 576px){.cp-xs-pb-3{padding-bottom:12px}}@media (min-width: 576px){.cp-xs-pb-4{padding-bottom:16px}}@media (min-width: 576px){.cp-xs-pb-5{padding-bottom:20px}}@media (min-width: 576px){.cp-xs-pb-6{padding-bottom:24px}}@media (min-width: 576px){.cp-xs-pb-7{padding-bottom:28px}}@media (min-width: 576px){.cp-xs-pb-8{padding-bottom:32px}}@media (min-width: 576px){.cp-xs-pb-9{padding-bottom:36px}}@media (min-width: 576px){.cp-xs-pb-10{padding-bottom:40px}}@media (min-width: 576px){.cp-xs-pb-11{padding-bottom:44px}}@media (min-width: 576px){.cp-xs-pb-12{padding-bottom:48px}}@media (min-width: 576px){.cp-xs-pb-13{padding-bottom:52px}}@media (min-width: 576px){.cp-xs-pb-14{padding-bottom:56px}}@media (min-width: 576px){.cp-xs-pb-15{padding-bottom:60px}}@media (min-width: 576px){.cp-xs-pb-16{padding-bottom:64px}}@media (min-width: 576px){.cp-xs-pb-17{padding-bottom:68px}}@media (min-width: 576px){.cp-xs-pb-18{padding-bottom:72px}}@media (min-width: 576px){.cp-xs-pb-19{padding-bottom:76px}}@media (min-width: 576px){.cp-xs-pb-20{padding-bottom:80px}}@media (min-width: 576px){.cp-xs-pb-21{padding-bottom:84px}}@media (min-width: 576px){.cp-xs-pb-22{padding-bottom:88px}}@media (min-width: 576px){.cp-xs-pb-23{padding-bottom:92px}}@media (min-width: 576px){.cp-xs-pb-24{padding-bottom:96px}}@media (min-width: 576px){.cp-xs-pb-25{padding-bottom:100px}}@media (min-width: 576px){.cp-xs-pb-26{padding-bottom:104px}}@media (min-width: 576px){.cp-xs-pb-27{padding-bottom:108px}}@media (min-width: 576px){.cp-xs-pb-28{padding-bottom:112px}}@media (min-width: 576px){.cp-xs-pb-29{padding-bottom:116px}}@media (min-width: 576px){.cp-xs-pb-30{padding-bottom:120px}}@media (min-width: 576px){.cp-xs-pb-31{padding-bottom:124px}}@media (min-width: 576px){.cp-xs-pb-32{padding-bottom:128px}}@media (min-width: 576px){.cp-xs-pr-0{padding-right:0px}}@media (min-width: 576px){.cp-xs-pr-1{padding-right:4px}}@media (min-width: 576px){.cp-xs-pr-2{padding-right:8px}}@media (min-width: 576px){.cp-xs-pr-3{padding-right:12px}}@media (min-width: 576px){.cp-xs-pr-4{padding-right:16px}}@media (min-width: 576px){.cp-xs-pr-5{padding-right:20px}}@media (min-width: 576px){.cp-xs-pr-6{padding-right:24px}}@media (min-width: 576px){.cp-xs-pr-7{padding-right:28px}}@media (min-width: 576px){.cp-xs-pr-8{padding-right:32px}}@media (min-width: 576px){.cp-xs-pr-9{padding-right:36px}}@media (min-width: 576px){.cp-xs-pr-10{padding-right:40px}}@media (min-width: 576px){.cp-xs-pr-11{padding-right:44px}}@media (min-width: 576px){.cp-xs-pr-12{padding-right:48px}}@media (min-width: 576px){.cp-xs-pr-13{padding-right:52px}}@media (min-width: 576px){.cp-xs-pr-14{padding-right:56px}}@media (min-width: 576px){.cp-xs-pr-15{padding-right:60px}}@media (min-width: 576px){.cp-xs-pr-16{padding-right:64px}}@media (min-width: 576px){.cp-xs-pr-17{padding-right:68px}}@media (min-width: 576px){.cp-xs-pr-18{padding-right:72px}}@media (min-width: 576px){.cp-xs-pr-19{padding-right:76px}}@media (min-width: 576px){.cp-xs-pr-20{padding-right:80px}}@media (min-width: 576px){.cp-xs-pr-21{padding-right:84px}}@media (min-width: 576px){.cp-xs-pr-22{padding-right:88px}}@media (min-width: 576px){.cp-xs-pr-23{padding-right:92px}}@media (min-width: 576px){.cp-xs-pr-24{padding-right:96px}}@media (min-width: 576px){.cp-xs-pr-25{padding-right:100px}}@media (min-width: 576px){.cp-xs-pr-26{padding-right:104px}}@media (min-width: 576px){.cp-xs-pr-27{padding-right:108px}}@media (min-width: 576px){.cp-xs-pr-28{padding-right:112px}}@media (min-width: 576px){.cp-xs-pr-29{padding-right:116px}}@media (min-width: 576px){.cp-xs-pr-30{padding-right:120px}}@media (min-width: 576px){.cp-xs-pr-31{padding-right:124px}}@media (min-width: 576px){.cp-xs-pr-32{padding-right:128px}}@media (min-width: 768px){.cp-sm-p-0{padding:0}}@media (min-width: 768px){.cp-sm-pt-0{padding-top:0px}}@media (min-width: 768px){.cp-sm-pt-1{padding-top:4px}}@media (min-width: 768px){.cp-sm-pt-2{padding-top:8px}}@media (min-width: 768px){.cp-sm-pt-3{padding-top:12px}}@media (min-width: 768px){.cp-sm-pt-4{padding-top:16px}}@media (min-width: 768px){.cp-sm-pt-5{padding-top:20px}}@media (min-width: 768px){.cp-sm-pt-6{padding-top:24px}}@media (min-width: 768px){.cp-sm-pt-7{padding-top:28px}}@media (min-width: 768px){.cp-sm-pt-8{padding-top:32px}}@media (min-width: 768px){.cp-sm-pt-9{padding-top:36px}}@media (min-width: 768px){.cp-sm-pt-10{padding-top:40px}}@media (min-width: 768px){.cp-sm-pt-11{padding-top:44px}}@media (min-width: 768px){.cp-sm-pt-12{padding-top:48px}}@media (min-width: 768px){.cp-sm-pt-13{padding-top:52px}}@media (min-width: 768px){.cp-sm-pt-14{padding-top:56px}}@media (min-width: 768px){.cp-sm-pt-15{padding-top:60px}}@media (min-width: 768px){.cp-sm-pt-16{padding-top:64px}}@media (min-width: 768px){.cp-sm-pt-17{padding-top:68px}}@media (min-width: 768px){.cp-sm-pt-18{padding-top:72px}}@media (min-width: 768px){.cp-sm-pt-19{padding-top:76px}}@media (min-width: 768px){.cp-sm-pt-20{padding-top:80px}}@media (min-width: 768px){.cp-sm-pt-21{padding-top:84px}}@media (min-width: 768px){.cp-sm-pt-22{padding-top:88px}}@media (min-width: 768px){.cp-sm-pt-23{padding-top:92px}}@media (min-width: 768px){.cp-sm-pt-24{padding-top:96px}}@media (min-width: 768px){.cp-sm-pt-25{padding-top:100px}}@media (min-width: 768px){.cp-sm-pt-26{padding-top:104px}}@media (min-width: 768px){.cp-sm-pt-27{padding-top:108px}}@media (min-width: 768px){.cp-sm-pt-28{padding-top:112px}}@media (min-width: 768px){.cp-sm-pt-29{padding-top:116px}}@media (min-width: 768px){.cp-sm-pt-30{padding-top:120px}}@media (min-width: 768px){.cp-sm-pt-31{padding-top:124px}}@media (min-width: 768px){.cp-sm-pt-32{padding-top:128px}}@media (min-width: 768px){.cp-sm-pl-0{padding-left:0px}}@media (min-width: 768px){.cp-sm-pl-1{padding-left:4px}}@media (min-width: 768px){.cp-sm-pl-2{padding-left:8px}}@media (min-width: 768px){.cp-sm-pl-3{padding-left:12px}}@media (min-width: 768px){.cp-sm-pl-4{padding-left:16px}}@media (min-width: 768px){.cp-sm-pl-5{padding-left:20px}}@media (min-width: 768px){.cp-sm-pl-6{padding-left:24px}}@media (min-width: 768px){.cp-sm-pl-7{padding-left:28px}}@media (min-width: 768px){.cp-sm-pl-8{padding-left:32px}}@media (min-width: 768px){.cp-sm-pl-9{padding-left:36px}}@media (min-width: 768px){.cp-sm-pl-10{padding-left:40px}}@media (min-width: 768px){.cp-sm-pl-11{padding-left:44px}}@media (min-width: 768px){.cp-sm-pl-12{padding-left:48px}}@media (min-width: 768px){.cp-sm-pl-13{padding-left:52px}}@media (min-width: 768px){.cp-sm-pl-14{padding-left:56px}}@media (min-width: 768px){.cp-sm-pl-15{padding-left:60px}}@media (min-width: 768px){.cp-sm-pl-16{padding-left:64px}}@media (min-width: 768px){.cp-sm-pl-17{padding-left:68px}}@media (min-width: 768px){.cp-sm-pl-18{padding-left:72px}}@media (min-width: 768px){.cp-sm-pl-19{padding-left:76px}}@media (min-width: 768px){.cp-sm-pl-20{padding-left:80px}}@media (min-width: 768px){.cp-sm-pl-21{padding-left:84px}}@media (min-width: 768px){.cp-sm-pl-22{padding-left:88px}}@media (min-width: 768px){.cp-sm-pl-23{padding-left:92px}}@media (min-width: 768px){.cp-sm-pl-24{padding-left:96px}}@media (min-width: 768px){.cp-sm-pl-25{padding-left:100px}}@media (min-width: 768px){.cp-sm-pl-26{padding-left:104px}}@media (min-width: 768px){.cp-sm-pl-27{padding-left:108px}}@media (min-width: 768px){.cp-sm-pl-28{padding-left:112px}}@media (min-width: 768px){.cp-sm-pl-29{padding-left:116px}}@media (min-width: 768px){.cp-sm-pl-30{padding-left:120px}}@media (min-width: 768px){.cp-sm-pl-31{padding-left:124px}}@media (min-width: 768px){.cp-sm-pl-32{padding-left:128px}}@media (min-width: 768px){.cp-sm-pb-0{padding-bottom:0px}}@media (min-width: 768px){.cp-sm-pb-1{padding-bottom:4px}}@media (min-width: 768px){.cp-sm-pb-2{padding-bottom:8px}}@media (min-width: 768px){.cp-sm-pb-3{padding-bottom:12px}}@media (min-width: 768px){.cp-sm-pb-4{padding-bottom:16px}}@media (min-width: 768px){.cp-sm-pb-5{padding-bottom:20px}}@media (min-width: 768px){.cp-sm-pb-6{padding-bottom:24px}}@media (min-width: 768px){.cp-sm-pb-7{padding-bottom:28px}}@media (min-width: 768px){.cp-sm-pb-8{padding-bottom:32px}}@media (min-width: 768px){.cp-sm-pb-9{padding-bottom:36px}}@media (min-width: 768px){.cp-sm-pb-10{padding-bottom:40px}}@media (min-width: 768px){.cp-sm-pb-11{padding-bottom:44px}}@media (min-width: 768px){.cp-sm-pb-12{padding-bottom:48px}}@media (min-width: 768px){.cp-sm-pb-13{padding-bottom:52px}}@media (min-width: 768px){.cp-sm-pb-14{padding-bottom:56px}}@media (min-width: 768px){.cp-sm-pb-15{padding-bottom:60px}}@media (min-width: 768px){.cp-sm-pb-16{padding-bottom:64px}}@media (min-width: 768px){.cp-sm-pb-17{padding-bottom:68px}}@media (min-width: 768px){.cp-sm-pb-18{padding-bottom:72px}}@media (min-width: 768px){.cp-sm-pb-19{padding-bottom:76px}}@media (min-width: 768px){.cp-sm-pb-20{padding-bottom:80px}}@media (min-width: 768px){.cp-sm-pb-21{padding-bottom:84px}}@media (min-width: 768px){.cp-sm-pb-22{padding-bottom:88px}}@media (min-width: 768px){.cp-sm-pb-23{padding-bottom:92px}}@media (min-width: 768px){.cp-sm-pb-24{padding-bottom:96px}}@media (min-width: 768px){.cp-sm-pb-25{padding-bottom:100px}}@media (min-width: 768px){.cp-sm-pb-26{padding-bottom:104px}}@media (min-width: 768px){.cp-sm-pb-27{padding-bottom:108px}}@media (min-width: 768px){.cp-sm-pb-28{padding-bottom:112px}}@media (min-width: 768px){.cp-sm-pb-29{padding-bottom:116px}}@media (min-width: 768px){.cp-sm-pb-30{padding-bottom:120px}}@media (min-width: 768px){.cp-sm-pb-31{padding-bottom:124px}}@media (min-width: 768px){.cp-sm-pb-32{padding-bottom:128px}}@media (min-width: 768px){.cp-sm-pr-0{padding-right:0px}}@media (min-width: 768px){.cp-sm-pr-1{padding-right:4px}}@media (min-width: 768px){.cp-sm-pr-2{padding-right:8px}}@media (min-width: 768px){.cp-sm-pr-3{padding-right:12px}}@media (min-width: 768px){.cp-sm-pr-4{padding-right:16px}}@media (min-width: 768px){.cp-sm-pr-5{padding-right:20px}}@media (min-width: 768px){.cp-sm-pr-6{padding-right:24px}}@media (min-width: 768px){.cp-sm-pr-7{padding-right:28px}}@media (min-width: 768px){.cp-sm-pr-8{padding-right:32px}}@media (min-width: 768px){.cp-sm-pr-9{padding-right:36px}}@media (min-width: 768px){.cp-sm-pr-10{padding-right:40px}}@media (min-width: 768px){.cp-sm-pr-11{padding-right:44px}}@media (min-width: 768px){.cp-sm-pr-12{padding-right:48px}}@media (min-width: 768px){.cp-sm-pr-13{padding-right:52px}}@media (min-width: 768px){.cp-sm-pr-14{padding-right:56px}}@media (min-width: 768px){.cp-sm-pr-15{padding-right:60px}}@media (min-width: 768px){.cp-sm-pr-16{padding-right:64px}}@media (min-width: 768px){.cp-sm-pr-17{padding-right:68px}}@media (min-width: 768px){.cp-sm-pr-18{padding-right:72px}}@media (min-width: 768px){.cp-sm-pr-19{padding-right:76px}}@media (min-width: 768px){.cp-sm-pr-20{padding-right:80px}}@media (min-width: 768px){.cp-sm-pr-21{padding-right:84px}}@media (min-width: 768px){.cp-sm-pr-22{padding-right:88px}}@media (min-width: 768px){.cp-sm-pr-23{padding-right:92px}}@media (min-width: 768px){.cp-sm-pr-24{padding-right:96px}}@media (min-width: 768px){.cp-sm-pr-25{padding-right:100px}}@media (min-width: 768px){.cp-sm-pr-26{padding-right:104px}}@media (min-width: 768px){.cp-sm-pr-27{padding-right:108px}}@media (min-width: 768px){.cp-sm-pr-28{padding-right:112px}}@media (min-width: 768px){.cp-sm-pr-29{padding-right:116px}}@media (min-width: 768px){.cp-sm-pr-30{padding-right:120px}}@media (min-width: 768px){.cp-sm-pr-31{padding-right:124px}}@media (min-width: 768px){.cp-sm-pr-32{padding-right:128px}}@media (min-width: 992px){.cp-md-p-0{padding:0}}@media (min-width: 992px){.cp-md-pt-0{padding-top:0px}}@media (min-width: 992px){.cp-md-pt-1{padding-top:4px}}@media (min-width: 992px){.cp-md-pt-2{padding-top:8px}}@media (min-width: 992px){.cp-md-pt-3{padding-top:12px}}@media (min-width: 992px){.cp-md-pt-4{padding-top:16px}}@media (min-width: 992px){.cp-md-pt-5{padding-top:20px}}@media (min-width: 992px){.cp-md-pt-6{padding-top:24px}}@media (min-width: 992px){.cp-md-pt-7{padding-top:28px}}@media (min-width: 992px){.cp-md-pt-8{padding-top:32px}}@media (min-width: 992px){.cp-md-pt-9{padding-top:36px}}@media (min-width: 992px){.cp-md-pt-10{padding-top:40px}}@media (min-width: 992px){.cp-md-pt-11{padding-top:44px}}@media (min-width: 992px){.cp-md-pt-12{padding-top:48px}}@media (min-width: 992px){.cp-md-pt-13{padding-top:52px}}@media (min-width: 992px){.cp-md-pt-14{padding-top:56px}}@media (min-width: 992px){.cp-md-pt-15{padding-top:60px}}@media (min-width: 992px){.cp-md-pt-16{padding-top:64px}}@media (min-width: 992px){.cp-md-pt-17{padding-top:68px}}@media (min-width: 992px){.cp-md-pt-18{padding-top:72px}}@media (min-width: 992px){.cp-md-pt-19{padding-top:76px}}@media (min-width: 992px){.cp-md-pt-20{padding-top:80px}}@media (min-width: 992px){.cp-md-pt-21{padding-top:84px}}@media (min-width: 992px){.cp-md-pt-22{padding-top:88px}}@media (min-width: 992px){.cp-md-pt-23{padding-top:92px}}@media (min-width: 992px){.cp-md-pt-24{padding-top:96px}}@media (min-width: 992px){.cp-md-pt-25{padding-top:100px}}@media (min-width: 992px){.cp-md-pt-26{padding-top:104px}}@media (min-width: 992px){.cp-md-pt-27{padding-top:108px}}@media (min-width: 992px){.cp-md-pt-28{padding-top:112px}}@media (min-width: 992px){.cp-md-pt-29{padding-top:116px}}@media (min-width: 992px){.cp-md-pt-30{padding-top:120px}}@media (min-width: 992px){.cp-md-pt-31{padding-top:124px}}@media (min-width: 992px){.cp-md-pt-32{padding-top:128px}}@media (min-width: 992px){.cp-md-pl-0{padding-left:0px}}@media (min-width: 992px){.cp-md-pl-1{padding-left:4px}}@media (min-width: 992px){.cp-md-pl-2{padding-left:8px}}@media (min-width: 992px){.cp-md-pl-3{padding-left:12px}}@media (min-width: 992px){.cp-md-pl-4{padding-left:16px}}@media (min-width: 992px){.cp-md-pl-5{padding-left:20px}}@media (min-width: 992px){.cp-md-pl-6{padding-left:24px}}@media (min-width: 992px){.cp-md-pl-7{padding-left:28px}}@media (min-width: 992px){.cp-md-pl-8{padding-left:32px}}@media (min-width: 992px){.cp-md-pl-9{padding-left:36px}}@media (min-width: 992px){.cp-md-pl-10{padding-left:40px}}@media (min-width: 992px){.cp-md-pl-11{padding-left:44px}}@media (min-width: 992px){.cp-md-pl-12{padding-left:48px}}@media (min-width: 992px){.cp-md-pl-13{padding-left:52px}}@media (min-width: 992px){.cp-md-pl-14{padding-left:56px}}@media (min-width: 992px){.cp-md-pl-15{padding-left:60px}}@media (min-width: 992px){.cp-md-pl-16{padding-left:64px}}@media (min-width: 992px){.cp-md-pl-17{padding-left:68px}}@media (min-width: 992px){.cp-md-pl-18{padding-left:72px}}@media (min-width: 992px){.cp-md-pl-19{padding-left:76px}}@media (min-width: 992px){.cp-md-pl-20{padding-left:80px}}@media (min-width: 992px){.cp-md-pl-21{padding-left:84px}}@media (min-width: 992px){.cp-md-pl-22{padding-left:88px}}@media (min-width: 992px){.cp-md-pl-23{padding-left:92px}}@media (min-width: 992px){.cp-md-pl-24{padding-left:96px}}@media (min-width: 992px){.cp-md-pl-25{padding-left:100px}}@media (min-width: 992px){.cp-md-pl-26{padding-left:104px}}@media (min-width: 992px){.cp-md-pl-27{padding-left:108px}}@media (min-width: 992px){.cp-md-pl-28{padding-left:112px}}@media (min-width: 992px){.cp-md-pl-29{padding-left:116px}}@media (min-width: 992px){.cp-md-pl-30{padding-left:120px}}@media (min-width: 992px){.cp-md-pl-31{padding-left:124px}}@media (min-width: 992px){.cp-md-pl-32{padding-left:128px}}@media (min-width: 992px){.cp-md-pb-0{padding-bottom:0px}}@media (min-width: 992px){.cp-md-pb-1{padding-bottom:4px}}@media (min-width: 992px){.cp-md-pb-2{padding-bottom:8px}}@media (min-width: 992px){.cp-md-pb-3{padding-bottom:12px}}@media (min-width: 992px){.cp-md-pb-4{padding-bottom:16px}}@media (min-width: 992px){.cp-md-pb-5{padding-bottom:20px}}@media (min-width: 992px){.cp-md-pb-6{padding-bottom:24px}}@media (min-width: 992px){.cp-md-pb-7{padding-bottom:28px}}@media (min-width: 992px){.cp-md-pb-8{padding-bottom:32px}}@media (min-width: 992px){.cp-md-pb-9{padding-bottom:36px}}@media (min-width: 992px){.cp-md-pb-10{padding-bottom:40px}}@media (min-width: 992px){.cp-md-pb-11{padding-bottom:44px}}@media (min-width: 992px){.cp-md-pb-12{padding-bottom:48px}}@media (min-width: 992px){.cp-md-pb-13{padding-bottom:52px}}@media (min-width: 992px){.cp-md-pb-14{padding-bottom:56px}}@media (min-width: 992px){.cp-md-pb-15{padding-bottom:60px}}@media (min-width: 992px){.cp-md-pb-16{padding-bottom:64px}}@media (min-width: 992px){.cp-md-pb-17{padding-bottom:68px}}@media (min-width: 992px){.cp-md-pb-18{padding-bottom:72px}}@media (min-width: 992px){.cp-md-pb-19{padding-bottom:76px}}@media (min-width: 992px){.cp-md-pb-20{padding-bottom:80px}}@media (min-width: 992px){.cp-md-pb-21{padding-bottom:84px}}@media (min-width: 992px){.cp-md-pb-22{padding-bottom:88px}}@media (min-width: 992px){.cp-md-pb-23{padding-bottom:92px}}@media (min-width: 992px){.cp-md-pb-24{padding-bottom:96px}}@media (min-width: 992px){.cp-md-pb-25{padding-bottom:100px}}@media (min-width: 992px){.cp-md-pb-26{padding-bottom:104px}}@media (min-width: 992px){.cp-md-pb-27{padding-bottom:108px}}@media (min-width: 992px){.cp-md-pb-28{padding-bottom:112px}}@media (min-width: 992px){.cp-md-pb-29{padding-bottom:116px}}@media (min-width: 992px){.cp-md-pb-30{padding-bottom:120px}}@media (min-width: 992px){.cp-md-pb-31{padding-bottom:124px}}@media (min-width: 992px){.cp-md-pb-32{padding-bottom:128px}}@media (min-width: 992px){.cp-md-pr-0{padding-right:0px}}@media (min-width: 992px){.cp-md-pr-1{padding-right:4px}}@media (min-width: 992px){.cp-md-pr-2{padding-right:8px}}@media (min-width: 992px){.cp-md-pr-3{padding-right:12px}}@media (min-width: 992px){.cp-md-pr-4{padding-right:16px}}@media (min-width: 992px){.cp-md-pr-5{padding-right:20px}}@media (min-width: 992px){.cp-md-pr-6{padding-right:24px}}@media (min-width: 992px){.cp-md-pr-7{padding-right:28px}}@media (min-width: 992px){.cp-md-pr-8{padding-right:32px}}@media (min-width: 992px){.cp-md-pr-9{padding-right:36px}}@media (min-width: 992px){.cp-md-pr-10{padding-right:40px}}@media (min-width: 992px){.cp-md-pr-11{padding-right:44px}}@media (min-width: 992px){.cp-md-pr-12{padding-right:48px}}@media (min-width: 992px){.cp-md-pr-13{padding-right:52px}}@media (min-width: 992px){.cp-md-pr-14{padding-right:56px}}@media (min-width: 992px){.cp-md-pr-15{padding-right:60px}}@media (min-width: 992px){.cp-md-pr-16{padding-right:64px}}@media (min-width: 992px){.cp-md-pr-17{padding-right:68px}}@media (min-width: 992px){.cp-md-pr-18{padding-right:72px}}@media (min-width: 992px){.cp-md-pr-19{padding-right:76px}}@media (min-width: 992px){.cp-md-pr-20{padding-right:80px}}@media (min-width: 992px){.cp-md-pr-21{padding-right:84px}}@media (min-width: 992px){.cp-md-pr-22{padding-right:88px}}@media (min-width: 992px){.cp-md-pr-23{padding-right:92px}}@media (min-width: 992px){.cp-md-pr-24{padding-right:96px}}@media (min-width: 992px){.cp-md-pr-25{padding-right:100px}}@media (min-width: 992px){.cp-md-pr-26{padding-right:104px}}@media (min-width: 992px){.cp-md-pr-27{padding-right:108px}}@media (min-width: 992px){.cp-md-pr-28{padding-right:112px}}@media (min-width: 992px){.cp-md-pr-29{padding-right:116px}}@media (min-width: 992px){.cp-md-pr-30{padding-right:120px}}@media (min-width: 992px){.cp-md-pr-31{padding-right:124px}}@media (min-width: 992px){.cp-md-pr-32{padding-right:128px}}@media (min-width: 1050px){.cp-lg-p-0{padding:0}}@media (min-width: 1050px){.cp-lg-pt-0{padding-top:0px}}@media (min-width: 1050px){.cp-lg-pt-1{padding-top:4px}}@media (min-width: 1050px){.cp-lg-pt-2{padding-top:8px}}@media (min-width: 1050px){.cp-lg-pt-3{padding-top:12px}}@media (min-width: 1050px){.cp-lg-pt-4{padding-top:16px}}@media (min-width: 1050px){.cp-lg-pt-5{padding-top:20px}}@media (min-width: 1050px){.cp-lg-pt-6{padding-top:24px}}@media (min-width: 1050px){.cp-lg-pt-7{padding-top:28px}}@media (min-width: 1050px){.cp-lg-pt-8{padding-top:32px}}@media (min-width: 1050px){.cp-lg-pt-9{padding-top:36px}}@media (min-width: 1050px){.cp-lg-pt-10{padding-top:40px}}@media (min-width: 1050px){.cp-lg-pt-11{padding-top:44px}}@media (min-width: 1050px){.cp-lg-pt-12{padding-top:48px}}@media (min-width: 1050px){.cp-lg-pt-13{padding-top:52px}}@media (min-width: 1050px){.cp-lg-pt-14{padding-top:56px}}@media (min-width: 1050px){.cp-lg-pt-15{padding-top:60px}}@media (min-width: 1050px){.cp-lg-pt-16{padding-top:64px}}@media (min-width: 1050px){.cp-lg-pt-17{padding-top:68px}}@media (min-width: 1050px){.cp-lg-pt-18{padding-top:72px}}@media (min-width: 1050px){.cp-lg-pt-19{padding-top:76px}}@media (min-width: 1050px){.cp-lg-pt-20{padding-top:80px}}@media (min-width: 1050px){.cp-lg-pt-21{padding-top:84px}}@media (min-width: 1050px){.cp-lg-pt-22{padding-top:88px}}@media (min-width: 1050px){.cp-lg-pt-23{padding-top:92px}}@media (min-width: 1050px){.cp-lg-pt-24{padding-top:96px}}@media (min-width: 1050px){.cp-lg-pt-25{padding-top:100px}}@media (min-width: 1050px){.cp-lg-pt-26{padding-top:104px}}@media (min-width: 1050px){.cp-lg-pt-27{padding-top:108px}}@media (min-width: 1050px){.cp-lg-pt-28{padding-top:112px}}@media (min-width: 1050px){.cp-lg-pt-29{padding-top:116px}}@media (min-width: 1050px){.cp-lg-pt-30{padding-top:120px}}@media (min-width: 1050px){.cp-lg-pt-31{padding-top:124px}}@media (min-width: 1050px){.cp-lg-pt-32{padding-top:128px}}@media (min-width: 1050px){.cp-lg-pl-0{padding-left:0px}}@media (min-width: 1050px){.cp-lg-pl-1{padding-left:4px}}@media (min-width: 1050px){.cp-lg-pl-2{padding-left:8px}}@media (min-width: 1050px){.cp-lg-pl-3{padding-left:12px}}@media (min-width: 1050px){.cp-lg-pl-4{padding-left:16px}}@media (min-width: 1050px){.cp-lg-pl-5{padding-left:20px}}@media (min-width: 1050px){.cp-lg-pl-6{padding-left:24px}}@media (min-width: 1050px){.cp-lg-pl-7{padding-left:28px}}@media (min-width: 1050px){.cp-lg-pl-8{padding-left:32px}}@media (min-width: 1050px){.cp-lg-pl-9{padding-left:36px}}@media (min-width: 1050px){.cp-lg-pl-10{padding-left:40px}}@media (min-width: 1050px){.cp-lg-pl-11{padding-left:44px}}@media (min-width: 1050px){.cp-lg-pl-12{padding-left:48px}}@media (min-width: 1050px){.cp-lg-pl-13{padding-left:52px}}@media (min-width: 1050px){.cp-lg-pl-14{padding-left:56px}}@media (min-width: 1050px){.cp-lg-pl-15{padding-left:60px}}@media (min-width: 1050px){.cp-lg-pl-16{padding-left:64px}}@media (min-width: 1050px){.cp-lg-pl-17{padding-left:68px}}@media (min-width: 1050px){.cp-lg-pl-18{padding-left:72px}}@media (min-width: 1050px){.cp-lg-pl-19{padding-left:76px}}@media (min-width: 1050px){.cp-lg-pl-20{padding-left:80px}}@media (min-width: 1050px){.cp-lg-pl-21{padding-left:84px}}@media (min-width: 1050px){.cp-lg-pl-22{padding-left:88px}}@media (min-width: 1050px){.cp-lg-pl-23{padding-left:92px}}@media (min-width: 1050px){.cp-lg-pl-24{padding-left:96px}}@media (min-width: 1050px){.cp-lg-pl-25{padding-left:100px}}@media (min-width: 1050px){.cp-lg-pl-26{padding-left:104px}}@media (min-width: 1050px){.cp-lg-pl-27{padding-left:108px}}@media (min-width: 1050px){.cp-lg-pl-28{padding-left:112px}}@media (min-width: 1050px){.cp-lg-pl-29{padding-left:116px}}@media (min-width: 1050px){.cp-lg-pl-30{padding-left:120px}}@media (min-width: 1050px){.cp-lg-pl-31{padding-left:124px}}@media (min-width: 1050px){.cp-lg-pl-32{padding-left:128px}}@media (min-width: 1050px){.cp-lg-pb-0{padding-bottom:0px}}@media (min-width: 1050px){.cp-lg-pb-1{padding-bottom:4px}}@media (min-width: 1050px){.cp-lg-pb-2{padding-bottom:8px}}@media (min-width: 1050px){.cp-lg-pb-3{padding-bottom:12px}}@media (min-width: 1050px){.cp-lg-pb-4{padding-bottom:16px}}@media (min-width: 1050px){.cp-lg-pb-5{padding-bottom:20px}}@media (min-width: 1050px){.cp-lg-pb-6{padding-bottom:24px}}@media (min-width: 1050px){.cp-lg-pb-7{padding-bottom:28px}}@media (min-width: 1050px){.cp-lg-pb-8{padding-bottom:32px}}@media (min-width: 1050px){.cp-lg-pb-9{padding-bottom:36px}}@media (min-width: 1050px){.cp-lg-pb-10{padding-bottom:40px}}@media (min-width: 1050px){.cp-lg-pb-11{padding-bottom:44px}}@media (min-width: 1050px){.cp-lg-pb-12{padding-bottom:48px}}@media (min-width: 1050px){.cp-lg-pb-13{padding-bottom:52px}}@media (min-width: 1050px){.cp-lg-pb-14{padding-bottom:56px}}@media (min-width: 1050px){.cp-lg-pb-15{padding-bottom:60px}}@media (min-width: 1050px){.cp-lg-pb-16{padding-bottom:64px}}@media (min-width: 1050px){.cp-lg-pb-17{padding-bottom:68px}}@media (min-width: 1050px){.cp-lg-pb-18{padding-bottom:72px}}@media (min-width: 1050px){.cp-lg-pb-19{padding-bottom:76px}}@media (min-width: 1050px){.cp-lg-pb-20{padding-bottom:80px}}@media (min-width: 1050px){.cp-lg-pb-21{padding-bottom:84px}}@media (min-width: 1050px){.cp-lg-pb-22{padding-bottom:88px}}@media (min-width: 1050px){.cp-lg-pb-23{padding-bottom:92px}}@media (min-width: 1050px){.cp-lg-pb-24{padding-bottom:96px}}@media (min-width: 1050px){.cp-lg-pb-25{padding-bottom:100px}}@media (min-width: 1050px){.cp-lg-pb-26{padding-bottom:104px}}@media (min-width: 1050px){.cp-lg-pb-27{padding-bottom:108px}}@media (min-width: 1050px){.cp-lg-pb-28{padding-bottom:112px}}@media (min-width: 1050px){.cp-lg-pb-29{padding-bottom:116px}}@media (min-width: 1050px){.cp-lg-pb-30{padding-bottom:120px}}@media (min-width: 1050px){.cp-lg-pb-31{padding-bottom:124px}}@media (min-width: 1050px){.cp-lg-pb-32{padding-bottom:128px}}@media (min-width: 1050px){.cp-lg-pr-0{padding-right:0px}}@media (min-width: 1050px){.cp-lg-pr-1{padding-right:4px}}@media (min-width: 1050px){.cp-lg-pr-2{padding-right:8px}}@media (min-width: 1050px){.cp-lg-pr-3{padding-right:12px}}@media (min-width: 1050px){.cp-lg-pr-4{padding-right:16px}}@media (min-width: 1050px){.cp-lg-pr-5{padding-right:20px}}@media (min-width: 1050px){.cp-lg-pr-6{padding-right:24px}}@media (min-width: 1050px){.cp-lg-pr-7{padding-right:28px}}@media (min-width: 1050px){.cp-lg-pr-8{padding-right:32px}}@media (min-width: 1050px){.cp-lg-pr-9{padding-right:36px}}@media (min-width: 1050px){.cp-lg-pr-10{padding-right:40px}}@media (min-width: 1050px){.cp-lg-pr-11{padding-right:44px}}@media (min-width: 1050px){.cp-lg-pr-12{padding-right:48px}}@media (min-width: 1050px){.cp-lg-pr-13{padding-right:52px}}@media (min-width: 1050px){.cp-lg-pr-14{padding-right:56px}}@media (min-width: 1050px){.cp-lg-pr-15{padding-right:60px}}@media (min-width: 1050px){.cp-lg-pr-16{padding-right:64px}}@media (min-width: 1050px){.cp-lg-pr-17{padding-right:68px}}@media (min-width: 1050px){.cp-lg-pr-18{padding-right:72px}}@media (min-width: 1050px){.cp-lg-pr-19{padding-right:76px}}@media (min-width: 1050px){.cp-lg-pr-20{padding-right:80px}}@media (min-width: 1050px){.cp-lg-pr-21{padding-right:84px}}@media (min-width: 1050px){.cp-lg-pr-22{padding-right:88px}}@media (min-width: 1050px){.cp-lg-pr-23{padding-right:92px}}@media (min-width: 1050px){.cp-lg-pr-24{padding-right:96px}}@media (min-width: 1050px){.cp-lg-pr-25{padding-right:100px}}@media (min-width: 1050px){.cp-lg-pr-26{padding-right:104px}}@media (min-width: 1050px){.cp-lg-pr-27{padding-right:108px}}@media (min-width: 1050px){.cp-lg-pr-28{padding-right:112px}}@media (min-width: 1050px){.cp-lg-pr-29{padding-right:116px}}@media (min-width: 1050px){.cp-lg-pr-30{padding-right:120px}}@media (min-width: 1050px){.cp-lg-pr-31{padding-right:124px}}@media (min-width: 1050px){.cp-lg-pr-32{padding-right:128px}}@media (min-width: 1350px){.cp-largeScreen-p-0{padding:0}}@media (min-width: 1350px){.cp-largeScreen-pt-0{padding-top:0px}}@media (min-width: 1350px){.cp-largeScreen-pt-1{padding-top:4px}}@media (min-width: 1350px){.cp-largeScreen-pt-2{padding-top:8px}}@media (min-width: 1350px){.cp-largeScreen-pt-3{padding-top:12px}}@media (min-width: 1350px){.cp-largeScreen-pt-4{padding-top:16px}}@media (min-width: 1350px){.cp-largeScreen-pt-5{padding-top:20px}}@media (min-width: 1350px){.cp-largeScreen-pt-6{padding-top:24px}}@media (min-width: 1350px){.cp-largeScreen-pt-7{padding-top:28px}}@media (min-width: 1350px){.cp-largeScreen-pt-8{padding-top:32px}}@media (min-width: 1350px){.cp-largeScreen-pt-9{padding-top:36px}}@media (min-width: 1350px){.cp-largeScreen-pt-10{padding-top:40px}}@media (min-width: 1350px){.cp-largeScreen-pt-11{padding-top:44px}}@media (min-width: 1350px){.cp-largeScreen-pt-12{padding-top:48px}}@media (min-width: 1350px){.cp-largeScreen-pt-13{padding-top:52px}}@media (min-width: 1350px){.cp-largeScreen-pt-14{padding-top:56px}}@media (min-width: 1350px){.cp-largeScreen-pt-15{padding-top:60px}}@media (min-width: 1350px){.cp-largeScreen-pt-16{padding-top:64px}}@media (min-width: 1350px){.cp-largeScreen-pt-17{padding-top:68px}}@media (min-width: 1350px){.cp-largeScreen-pt-18{padding-top:72px}}@media (min-width: 1350px){.cp-largeScreen-pt-19{padding-top:76px}}@media (min-width: 1350px){.cp-largeScreen-pt-20{padding-top:80px}}@media (min-width: 1350px){.cp-largeScreen-pt-21{padding-top:84px}}@media (min-width: 1350px){.cp-largeScreen-pt-22{padding-top:88px}}@media (min-width: 1350px){.cp-largeScreen-pt-23{padding-top:92px}}@media (min-width: 1350px){.cp-largeScreen-pt-24{padding-top:96px}}@media (min-width: 1350px){.cp-largeScreen-pt-25{padding-top:100px}}@media (min-width: 1350px){.cp-largeScreen-pt-26{padding-top:104px}}@media (min-width: 1350px){.cp-largeScreen-pt-27{padding-top:108px}}@media (min-width: 1350px){.cp-largeScreen-pt-28{padding-top:112px}}@media (min-width: 1350px){.cp-largeScreen-pt-29{padding-top:116px}}@media (min-width: 1350px){.cp-largeScreen-pt-30{padding-top:120px}}@media (min-width: 1350px){.cp-largeScreen-pt-31{padding-top:124px}}@media (min-width: 1350px){.cp-largeScreen-pt-32{padding-top:128px}}@media (min-width: 1350px){.cp-largeScreen-pl-0{padding-left:0px}}@media (min-width: 1350px){.cp-largeScreen-pl-1{padding-left:4px}}@media (min-width: 1350px){.cp-largeScreen-pl-2{padding-left:8px}}@media (min-width: 1350px){.cp-largeScreen-pl-3{padding-left:12px}}@media (min-width: 1350px){.cp-largeScreen-pl-4{padding-left:16px}}@media (min-width: 1350px){.cp-largeScreen-pl-5{padding-left:20px}}@media (min-width: 1350px){.cp-largeScreen-pl-6{padding-left:24px}}@media (min-width: 1350px){.cp-largeScreen-pl-7{padding-left:28px}}@media (min-width: 1350px){.cp-largeScreen-pl-8{padding-left:32px}}@media (min-width: 1350px){.cp-largeScreen-pl-9{padding-left:36px}}@media (min-width: 1350px){.cp-largeScreen-pl-10{padding-left:40px}}@media (min-width: 1350px){.cp-largeScreen-pl-11{padding-left:44px}}@media (min-width: 1350px){.cp-largeScreen-pl-12{padding-left:48px}}@media (min-width: 1350px){.cp-largeScreen-pl-13{padding-left:52px}}@media (min-width: 1350px){.cp-largeScreen-pl-14{padding-left:56px}}@media (min-width: 1350px){.cp-largeScreen-pl-15{padding-left:60px}}@media (min-width: 1350px){.cp-largeScreen-pl-16{padding-left:64px}}@media (min-width: 1350px){.cp-largeScreen-pl-17{padding-left:68px}}@media (min-width: 1350px){.cp-largeScreen-pl-18{padding-left:72px}}@media (min-width: 1350px){.cp-largeScreen-pl-19{padding-left:76px}}@media (min-width: 1350px){.cp-largeScreen-pl-20{padding-left:80px}}@media (min-width: 1350px){.cp-largeScreen-pl-21{padding-left:84px}}@media (min-width: 1350px){.cp-largeScreen-pl-22{padding-left:88px}}@media (min-width: 1350px){.cp-largeScreen-pl-23{padding-left:92px}}@media (min-width: 1350px){.cp-largeScreen-pl-24{padding-left:96px}}@media (min-width: 1350px){.cp-largeScreen-pl-25{padding-left:100px}}@media (min-width: 1350px){.cp-largeScreen-pl-26{padding-left:104px}}@media (min-width: 1350px){.cp-largeScreen-pl-27{padding-left:108px}}@media (min-width: 1350px){.cp-largeScreen-pl-28{padding-left:112px}}@media (min-width: 1350px){.cp-largeScreen-pl-29{padding-left:116px}}@media (min-width: 1350px){.cp-largeScreen-pl-30{padding-left:120px}}@media (min-width: 1350px){.cp-largeScreen-pl-31{padding-left:124px}}@media (min-width: 1350px){.cp-largeScreen-pl-32{padding-left:128px}}@media (min-width: 1350px){.cp-largeScreen-pb-0{padding-bottom:0px}}@media (min-width: 1350px){.cp-largeScreen-pb-1{padding-bottom:4px}}@media (min-width: 1350px){.cp-largeScreen-pb-2{padding-bottom:8px}}@media (min-width: 1350px){.cp-largeScreen-pb-3{padding-bottom:12px}}@media (min-width: 1350px){.cp-largeScreen-pb-4{padding-bottom:16px}}@media (min-width: 1350px){.cp-largeScreen-pb-5{padding-bottom:20px}}@media (min-width: 1350px){.cp-largeScreen-pb-6{padding-bottom:24px}}@media (min-width: 1350px){.cp-largeScreen-pb-7{padding-bottom:28px}}@media (min-width: 1350px){.cp-largeScreen-pb-8{padding-bottom:32px}}@media (min-width: 1350px){.cp-largeScreen-pb-9{padding-bottom:36px}}@media (min-width: 1350px){.cp-largeScreen-pb-10{padding-bottom:40px}}@media (min-width: 1350px){.cp-largeScreen-pb-11{padding-bottom:44px}}@media (min-width: 1350px){.cp-largeScreen-pb-12{padding-bottom:48px}}@media (min-width: 1350px){.cp-largeScreen-pb-13{padding-bottom:52px}}@media (min-width: 1350px){.cp-largeScreen-pb-14{padding-bottom:56px}}@media (min-width: 1350px){.cp-largeScreen-pb-15{padding-bottom:60px}}@media (min-width: 1350px){.cp-largeScreen-pb-16{padding-bottom:64px}}@media (min-width: 1350px){.cp-largeScreen-pb-17{padding-bottom:68px}}@media (min-width: 1350px){.cp-largeScreen-pb-18{padding-bottom:72px}}@media (min-width: 1350px){.cp-largeScreen-pb-19{padding-bottom:76px}}@media (min-width: 1350px){.cp-largeScreen-pb-20{padding-bottom:80px}}@media (min-width: 1350px){.cp-largeScreen-pb-21{padding-bottom:84px}}@media (min-width: 1350px){.cp-largeScreen-pb-22{padding-bottom:88px}}@media (min-width: 1350px){.cp-largeScreen-pb-23{padding-bottom:92px}}@media (min-width: 1350px){.cp-largeScreen-pb-24{padding-bottom:96px}}@media (min-width: 1350px){.cp-largeScreen-pb-25{padding-bottom:100px}}@media (min-width: 1350px){.cp-largeScreen-pb-26{padding-bottom:104px}}@media (min-width: 1350px){.cp-largeScreen-pb-27{padding-bottom:108px}}@media (min-width: 1350px){.cp-largeScreen-pb-28{padding-bottom:112px}}@media (min-width: 1350px){.cp-largeScreen-pb-29{padding-bottom:116px}}@media (min-width: 1350px){.cp-largeScreen-pb-30{padding-bottom:120px}}@media (min-width: 1350px){.cp-largeScreen-pb-31{padding-bottom:124px}}@media (min-width: 1350px){.cp-largeScreen-pb-32{padding-bottom:128px}}@media (min-width: 1350px){.cp-largeScreen-pr-0{padding-right:0px}}@media (min-width: 1350px){.cp-largeScreen-pr-1{padding-right:4px}}@media (min-width: 1350px){.cp-largeScreen-pr-2{padding-right:8px}}@media (min-width: 1350px){.cp-largeScreen-pr-3{padding-right:12px}}@media (min-width: 1350px){.cp-largeScreen-pr-4{padding-right:16px}}@media (min-width: 1350px){.cp-largeScreen-pr-5{padding-right:20px}}@media (min-width: 1350px){.cp-largeScreen-pr-6{padding-right:24px}}@media (min-width: 1350px){.cp-largeScreen-pr-7{padding-right:28px}}@media (min-width: 1350px){.cp-largeScreen-pr-8{padding-right:32px}}@media (min-width: 1350px){.cp-largeScreen-pr-9{padding-right:36px}}@media (min-width: 1350px){.cp-largeScreen-pr-10{padding-right:40px}}@media (min-width: 1350px){.cp-largeScreen-pr-11{padding-right:44px}}@media (min-width: 1350px){.cp-largeScreen-pr-12{padding-right:48px}}@media (min-width: 1350px){.cp-largeScreen-pr-13{padding-right:52px}}@media (min-width: 1350px){.cp-largeScreen-pr-14{padding-right:56px}}@media (min-width: 1350px){.cp-largeScreen-pr-15{padding-right:60px}}@media (min-width: 1350px){.cp-largeScreen-pr-16{padding-right:64px}}@media (min-width: 1350px){.cp-largeScreen-pr-17{padding-right:68px}}@media (min-width: 1350px){.cp-largeScreen-pr-18{padding-right:72px}}@media (min-width: 1350px){.cp-largeScreen-pr-19{padding-right:76px}}@media (min-width: 1350px){.cp-largeScreen-pr-20{padding-right:80px}}@media (min-width: 1350px){.cp-largeScreen-pr-21{padding-right:84px}}@media (min-width: 1350px){.cp-largeScreen-pr-22{padding-right:88px}}@media (min-width: 1350px){.cp-largeScreen-pr-23{padding-right:92px}}@media (min-width: 1350px){.cp-largeScreen-pr-24{padding-right:96px}}@media (min-width: 1350px){.cp-largeScreen-pr-25{padding-right:100px}}@media (min-width: 1350px){.cp-largeScreen-pr-26{padding-right:104px}}@media (min-width: 1350px){.cp-largeScreen-pr-27{padding-right:108px}}@media (min-width: 1350px){.cp-largeScreen-pr-28{padding-right:112px}}@media (min-width: 1350px){.cp-largeScreen-pr-29{padding-right:116px}}@media (min-width: 1350px){.cp-largeScreen-pr-30{padding-right:120px}}@media (min-width: 1350px){.cp-largeScreen-pr-31{padding-right:124px}}@media (min-width: 1350px){.cp-largeScreen-pr-32{padding-right:128px}}.cp-position-relative{position:relative}.cp-position-absolute{position:absolute}.cp-top-0{top:0px}.cp-left-0{left:0px}.cp-top-1{top:1px}.cp-left-1{left:1px}.cp-top-2{top:2px}.cp-left-2{left:2px}.cp-top-3{top:3px}.cp-left-3{left:3px}.cp-top-4{top:4px}.cp-left-4{left:4px}.cp-top-5{top:5px}.cp-left-5{left:5px}.cp-top-6{top:6px}.cp-left-6{left:6px}.cp-top-7{top:7px}.cp-left-7{left:7px}.cp-top-8{top:8px}.cp-left-8{left:8px}.cp-top-9{top:9px}.cp-left-9{left:9px}.cp-top-10{top:10px}.cp-left-10{left:10px}.cp-top-11{top:11px}.cp-left-11{left:11px}.cp-top-12{top:12px}.cp-left-12{left:12px}.cp-top-13{top:13px}.cp-left-13{left:13px}.cp-top-14{top:14px}.cp-left-14{left:14px}.cp-top-15{top:15px}.cp-left-15{left:15px}.cp-text-uppercase{text-transform:uppercase}.cp-text-capitalize{text-transform:capitalize}.cp-text-lowercase{text-transform:lowercase}.cp-line-limit-1{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;box-orient:vertical;line-clamp:1;-webkit-line-clamp:1}.cp-line-limit-2{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;box-orient:vertical;line-clamp:2;-webkit-line-clamp:2}.cp-line-limit-3{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;box-orient:vertical;line-clamp:3;-webkit-line-clamp:3}.cp-line-limit-4{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;box-orient:vertical;line-clamp:4;-webkit-line-clamp:4}.cp-word-break{word-break:break-word}.cp-word-break-all{word-break:break-all}.cp-pre{white-space:break-spaces}.cp-text-underline{text-decoration:underline}.cp-text-underline:hover{text-decoration:underline}.cp-line-height-1{line-height:1}.cp-line-height-2{line-height:2}.cp-line-height-10x{line-height:20px}.cp-line-height-11x{line-height:22px}.cp-line-height-12x{line-height:24px}.cp-line-height-13x{line-height:26px}.cp-line-height-14x{line-height:28px}.cp-line-height-15x{line-height:30px}.cp-line-height-16x{line-height:32px}.cp-z-index-1{z-index:1}.cp-z-index-2{z-index:2}.cp-z-index-3{z-index:3}.cp-z-index-4{z-index:4}.cp-z-index-5{z-index:5}.cp-z-index-6{z-index:6}.cp-z-index-7{z-index:7}.cp-z-index-8{z-index:8}.cp-z-index-9{z-index:9}.cp-z-index-10{z-index:10}.cp-z-index-n-1{z-index:-1}.cp-text-white{color:white}.cp-text-black{color:#000}.cp-text-primary{color:#2079FF}.cp-custom-page ul{margin:0;padding:0;list-style:none}.cp-custom-page a{text-decoration:none}.cp-custom-page input,.cp-custom-page button,.cp-custom-page textarea{font-family:inherit}body{margin:0;font-family:"Lexend",sans-serif;font-weight:400;font-size:14px;letter-spacing:-0.02em;color:#626262;line-height:1.2}@media (min-width: 576px){body{font-size:16px}}body h1,body h2,body h3,body h4,body h5{font-family:"Lexend",sans-serif}.cp-fw-regular{font-weight:400}.cp-fw-medium{font-weight:500}.cp-fw-semi-bold{font-weight:600}.cp-fw-bold{font-weight:bold}.cp-fs-xs{font-size:12px}.cp-fs-7x{font-size:14px}.cp-fs-8x{font-size:16px}.cp-fs-9x{font-size:18px}.cp-fs-10x{font-size:20px}.cp-fs-11x{font-size:22px}.cp-fs-12x{font-size:24px}.cp-fs-13x{font-size:26px}.cp-fs-14x{font-size:28px}.cp-fs-15x{font-size:30px}.cp-fs-16x{font-size:32px}.cp-fs-17x{font-size:34px}.cp-fs-18x{font-size:36px}.cp-fs-19x{font-size:38px}.cp-fs-20x{font-size:40px}@media (min-width: 576px){.cp-xs-fs-7x{font-size:14px}}@media (min-width: 576px){.cp-xs-fs-8x{font-size:16px}}@media (min-width: 576px){.cp-xs-fs-9x{font-size:18px}}@media (min-width: 576px){.cp-xs-fs-10x{font-size:20px}}@media (min-width: 576px){.cp-xs-fs-11x{font-size:22px}}@media (min-width: 576px){.cp-xs-fs-12x{font-size:24px}}@media (min-width: 576px){.cp-xs-fs-13x{font-size:26px}}@media (min-width: 576px){.cp-xs-fs-14x{font-size:28px}}@media (min-width: 576px){.cp-xs-fs-15x{font-size:30px}}@media (min-width: 576px){.cp-xs-fs-16x{font-size:32px}}@media (min-width: 576px){.cp-xs-fs-17x{font-size:34px}}@media (min-width: 576px){.cp-xs-fs-18x{font-size:36px}}@media (min-width: 576px){.cp-xs-fs-19x{font-size:38px}}@media (min-width: 576px){.cp-xs-fs-20x{font-size:40px}}@media (min-width: 768px){.cp-sm-fs-7x{font-size:14px}}@media (min-width: 768px){.cp-sm-fs-8x{font-size:16px}}@media (min-width: 768px){.cp-sm-fs-9x{font-size:18px}}@media (min-width: 768px){.cp-sm-fs-10x{font-size:20px}}@media (min-width: 768px){.cp-sm-fs-11x{font-size:22px}}@media (min-width: 768px){.cp-sm-fs-12x{font-size:24px}}@media (min-width: 768px){.cp-sm-fs-13x{font-size:26px}}@media (min-width: 768px){.cp-sm-fs-14x{font-size:28px}}@media (min-width: 768px){.cp-sm-fs-15x{font-size:30px}}@media (min-width: 768px){.cp-sm-fs-16x{font-size:32px}}@media (min-width: 768px){.cp-sm-fs-17x{font-size:34px}}@media (min-width: 768px){.cp-sm-fs-18x{font-size:36px}}@media (min-width: 768px){.cp-sm-fs-19x{font-size:38px}}@media (min-width: 768px){.cp-sm-fs-20x{font-size:40px}}@media (min-width: 992px){.cp-md-fs-7x{font-size:14px}}@media (min-width: 992px){.cp-md-fs-8x{font-size:16px}}@media (min-width: 992px){.cp-md-fs-9x{font-size:18px}}@media (min-width: 992px){.cp-md-fs-10x{font-size:20px}}@media (min-width: 992px){.cp-md-fs-11x{font-size:22px}}@media (min-width: 992px){.cp-md-fs-12x{font-size:24px}}@media (min-width: 992px){.cp-md-fs-13x{font-size:26px}}@media (min-width: 992px){.cp-md-fs-14x{font-size:28px}}@media (min-width: 992px){.cp-md-fs-15x{font-size:30px}}@media (min-width: 992px){.cp-md-fs-16x{font-size:32px}}@media (min-width: 992px){.cp-md-fs-17x{font-size:34px}}@media (min-width: 992px){.cp-md-fs-18x{font-size:36px}}@media (min-width: 992px){.cp-md-fs-19x{font-size:38px}}@media (min-width: 992px){.cp-md-fs-20x{font-size:40px}}@media (min-width: 1050px){.cp-lg-fs-7x{font-size:14px}}@media (min-width: 1050px){.cp-lg-fs-8x{font-size:16px}}@media (min-width: 1050px){.cp-lg-fs-9x{font-size:18px}}@media (min-width: 1050px){.cp-lg-fs-10x{font-size:20px}}@media (min-width: 1050px){.cp-lg-fs-11x{font-size:22px}}@media (min-width: 1050px){.cp-lg-fs-12x{font-size:24px}}@media (min-width: 1050px){.cp-lg-fs-13x{font-size:26px}}@media (min-width: 1050px){.cp-lg-fs-14x{font-size:28px}}@media (min-width: 1050px){.cp-lg-fs-15x{font-size:30px}}@media (min-width: 1050px){.cp-lg-fs-16x{font-size:32px}}@media (min-width: 1050px){.cp-lg-fs-17x{font-size:34px}}@media (min-width: 1050px){.cp-lg-fs-18x{font-size:36px}}@media (min-width: 1050px){.cp-lg-fs-19x{font-size:38px}}@media (min-width: 1050px){.cp-lg-fs-20x{font-size:40px}}@media (min-width: 1350px){.cp-largeScreen-fs-7x{font-size:14px}}@media (min-width: 1350px){.cp-largeScreen-fs-8x{font-size:16px}}@media (min-width: 1350px){.cp-largeScreen-fs-9x{font-size:18px}}@media (min-width: 1350px){.cp-largeScreen-fs-10x{font-size:20px}}@media (min-width: 1350px){.cp-largeScreen-fs-11x{font-size:22px}}@media (min-width: 1350px){.cp-largeScreen-fs-12x{font-size:24px}}@media (min-width: 1350px){.cp-largeScreen-fs-13x{font-size:26px}}@media (min-width: 1350px){.cp-largeScreen-fs-14x{font-size:28px}}@media (min-width: 1350px){.cp-largeScreen-fs-15x{font-size:30px}}@media (min-width: 1350px){.cp-largeScreen-fs-16x{font-size:32px}}@media (min-width: 1350px){.cp-largeScreen-fs-17x{font-size:34px}}@media (min-width: 1350px){.cp-largeScreen-fs-18x{font-size:36px}}@media (min-width: 1350px){.cp-largeScreen-fs-19x{font-size:38px}}@media (min-width: 1350px){.cp-largeScreen-fs-20x{font-size:40px}}.cp-default-border-radius{border-radius:16px}.cp-default-border-radius:before{border-radius:inherit}@media (min-width: 768px){.cp-default-border-radius{border-radius:40px}}.cp-default-border-color{border-color:#EBEBEB}.cp-container{width:1144px;padding:0 24px;margin:auto;max-width:100%}@media (min-width: 576px){.cp-container{padding:0 60px}}@media (min-width: 1350px){.cp-container{padding:0 24px}}.cp-row{margin:0 -10px}.cp-col{padding:0 10px}.cp-page-section{padding:32px 0}@media (min-width: 768px){.cp-page-section{padding:96px 0}}.cp-page-section-md{padding:32px 0}@media (min-width: 768px){.cp-page-section-md{padding:54px 0}}.cp-page-top-section-md{padding-top:32px}@media (min-width: 768px){.cp-page-top-section-md{padding-top:54px}}.cp-page-top-section{padding-top:32px}@media (min-width: 768px){.cp-page-top-section{padding-top:96px}}.cp-page-bottom-section{padding-bottom:32px}@media (min-width: 768px){.cp-page-bottom-section{padding-bottom:96px}}.cp-default-bg{background-color:#F8F8F8}.cp-is-strike{text-decoration:line-through}body h1,body h2,body h3,body h4,body h5{letter-spacing:-0.05em;margin:0;color:#000}body h1 .cp-text-white,body h2 .cp-text-white,body h3 .cp-text-white,body h4 .cp-text-white,body h5 .cp-text-white{color:white}body h1,body .cp-fs-xxl{font-size:24px;line-height:1.1}@media (min-width: 768px){body h1,body .cp-fs-xxl{font-size:38px;line-height:1.1}}body .cp-secondary-letter-spacing{letter-spacing:-0.05em}body h2{font-weight:500;font-size:24px;line-height:1.1}@media (min-width: 768px){body h2{font-size:32px;line-height:1.1}}body h3{font-weight:400;font-size:16px;line-height:1.1}@media (min-width: 768px){body h3{font-size:24px;line-height:1.1}}body h5{letter-spacing:0.02em;font-weight:400;font-size:14px;line-height:1.1}@media (min-width: 768px){body h5{font-size:16px;line-height:1.1}}body a{text-decoration:none}body p{line-height:1.3}body .cp-heading-text-color{color:#000}body .cp-secondary-text-color{color:#979797}body .cp-root-font-size{font-size:16px}body .cp-secondary-letter-spacing{letter-spacing:-0.05em}.cp-btn{display:inline-block;padding:8px 16px 10px;font-weight:500;border-style:solid;border-width:1px;border-radius:10px;cursor:pointer;font-family:inherit;letter-spacing:-0.02em;text-align:center;font-size:14px;line-height:20px}@media (min-width: 576px){.cp-btn{padding:14px 28px 16px;font-size:16px}}.cp-btn .cp-plus-icon svg{height:12px;width:12px}.cp-btn.cp-btn-border-0{border:0}.cp-btn:hover{opacity:0.9}.cp-btn-primary-bg{background-color:#2079FF;color:#fff;border-color:#2079FF}.cp-btn-primary-bg:hover{color:#fff}.cp-btn-white-border{background-color:transparent;color:#fff;border-color:#fff}.cp-btn-white-border:hover{color:#fff}.cp-image-h-440{height:244px}@media (min-width: 576px){.cp-image-h-440{height:300px}}@media (min-width: 768px){.cp-image-h-440{height:440px}}.cp-image-h-435{max-height:250px}@media (min-width: 576px){.cp-image-h-435{max-height:300px}}@media (min-width: 768px){.cp-image-h-435{max-height:435px}}.cp-image-overlay,.cp-image-overlay-gradient{position:relative}.cp-image-overlay:before,.cp-image-overlay-gradient:before{content:'';width:100%;height:100%;top:0;left:0;right:0;bottom:0;position:absolute;z-index:1;display:block;border-radius:inherit}.cp-image-overlay:before{background-color:rgba(0,0,0,0.52)}.cp-image-overlay-gradient:before{background:linear-gradient(187.21deg, transparent 25.5%, rgba(0,0,0,0.75) 81.2%)}.cp-product-feature-post{padding:24px 32px}@media (min-width: 576px){.cp-product-feature-post{padding:60px 40px}}.cp-product-feature-item-style-1 .cp-icon-section{flex:0 0 28px;max-width:28px}@media (min-width: 768px){.cp-product-feature-item-style-1 .cp-icon-section{flex:0 0 36px;max-width:36px}}.cp-product-feature-item-style-1 .cp-item-desc{padding-left:16px;flex:0 0 calc(100% - 28px);max-width:calc(100% - 28px)}@media (min-width: 768px){.cp-product-feature-item-style-1 .cp-item-desc{padding-left:30px;flex:0 0 calc(100% - 36px);max-width:calc(100% - 36px)}}.cp-product-benefits-section .cp-desc-wrapper{width:1020px}.cp-product-benefits-section .cp-image-section img{max-height:250px}@media (min-width: 576px){.cp-product-benefits-section .cp-image-section img{max-height:350px}}@media (min-width: 768px){.cp-product-benefits-section .cp-image-section img{max-height:680px}}@media (min-width: 992px){.cp-product-benefits-section .cp-desc{padding-left:44px}}@media (min-width: 1050px){.cp-product-benefits-section .cp-desc{padding-left:60px}}@media (min-width: 1350px){.cp-product-benefits-section .cp-desc{padding-left:112px}}.cp-ingredients-item .cp-image-section img{width:80px;height:80px;border-radius:16px}@media (min-width: 768px){.cp-ingredients-item .cp-image-section img{width:123px;height:123px;border-radius:26px}}.cp-how-to-use-steps-item{padding:24px 0;border-top-style:solid;border-top-width:1px;border-color:#D8D8D8}@media (min-width: 768px){.cp-how-to-use-steps-item{padding:32px 0}}.cp-how-to-use-steps-item:last-child{border-bottom-style:solid;border-bottom-width:1px}.cp-how-to-use-steps-item .cp-step-count-section{flex:0 0 40px;max-width:40px}@media (min-width: 768px){.cp-how-to-use-steps-item .cp-step-count-section{flex:0 0 60px;max-width:60px}}@media (min-width: 1350px){.cp-how-to-use-steps-item .cp-step-count-section{flex:0 0 80px;max-width:80px}}.cp-how-to-use-steps-item .cp-step-count{border-radius:100%;border-style:solid;border-width:1px;color:#2079FF;border-color:#2079FF;font-weight:200;font-size:16px;width:40px;height:40px}@media (min-width: 768px){.cp-how-to-use-steps-item .cp-step-count{font-size:26px;width:60px;height:60px;border-style:solid;border-width:2px}}@media (min-width: 1350px){.cp-how-to-use-steps-item .cp-step-count{font-size:36px;width:80px;height:80px}}.cp-how-to-use-steps-item .cp-step-desc{letter-spacing:-0.05em;color:#000;font-size:18px;padding-left:24px;flex:0 0 calc(100% - 40px);max-width:calc(100% - 40px)}@media (min-width: 768px){.cp-how-to-use-steps-item .cp-step-desc{font-size:20px;padding-left:32px;flex:0 0 calc(100% - 60px);max-width:calc(100% - 60px)}}@media (min-width: 1350px){.cp-how-to-use-steps-item .cp-step-desc{font-size:24px;padding-left:60px;flex:0 0 calc(100% - 80px);max-width:calc(100% - 80px)}}.cp-note{border-style:solid;border-width:1px;border-color:#D9D9D9;border-radius:20px;padding:24px}@media (min-width: 768px){.cp-note{padding:20px 48px}}.cp-quantity-input button,.cp-quantity-input input{width:30px;height:36px;line-height:36px;padding:0;border:0;background-color:transparent;text-align:center}@media (min-width: 576px){.cp-quantity-input button,.cp-quantity-input input{height:48px;line-height:48px}}.cp-quantity-input{width:134px;height:40px;display:flex;justify-content:center;border-style:solid;border-width:2px;border-color:#000;border-radius:10px;color:#000}@media (min-width: 576px){.cp-quantity-input{height:52px}}.cp-quantity-input button{cursor:pointer;font-size:16px}.cp-quantity-input input{-webkit-appearance:none;font-size:20px}input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}.cp-radio-btn{position:relative;min-height:22px}.cp-radio-btn label{min-height:20px;font-weight:600;color:#000;padding-left:32px;line-height:1;cursor:pointer}.cp-radio-btn label:before{content:"";position:absolute;display:inline-block;border-radius:100%;width:16px;height:16px;left:0;top:1px;border-style:solid;border-width:1px;border-color:#000;background-color:#fff}@media (min-width: 576px){.cp-radio-btn label:before{width:20px;height:20px}}.cp-radio-btn label span{position:relative;top:2px}.cp-radio-btn input{position:absolute;left:0;top:1px;opacity:0;outline:none;z-index:3;border-radius:100%;padding:0;margin:0;width:16px;height:16px}@media (min-width: 576px){.cp-radio-btn input{width:20px;height:20px}}.cp-radio-btn input:checked ~ label::after{content:"";position:absolute;left:3px;top:4px;width:12px;height:12px;background-color:#2079FF;border-radius:50%}@media (min-width: 576px){.cp-radio-btn input:checked ~ label::after{width:14px;height:14px}}.cp-radio-btn input:checked ~ label:before{border-color:#2079FF}.cp-product-thumbnail-slider{width:85%}@media (min-width: 576px){.cp-product-thumbnail-slider{width:100%}}.cp-product-thumbnail-slider .cp-slider-item img{border-radius:6px}@media (min-width: 576px){.cp-product-thumbnail-slider .cp-slider-item img{border-radius:10px}}.cp-product-thumbnail-slider .cp-slider-item.is-active{border:2px solid #2079FF !important;border-radius:10px}.cp-product-thumbnail-slider .cp-slider-item.is-active img{border-radius:6px}.cp-product-preview-slider{max-width:550px;margin:auto}.cp-product-preview-slider img{max-height:500px}.cp-product-desc .cp-subscribe-card,.cp-product-desc .cp-one-time-purchase-card{border-style:solid;border-width:1px;border-color:#EBEBEB;border-radius:8px}@media (min-width: 576px){.cp-product-desc .cp-subscribe-card,.cp-product-desc .cp-one-time-purchase-card{border-radius:16px}}.cp-product-desc .cp-subscribe-card.active,.cp-product-desc .cp-one-time-purchase-card.active{border-color:#2079FF;background-color:#F8FBFF}.cp-product-desc .cp-subscribe-card{padding:20px 24px 24px}@media (min-width: 576px){.cp-product-desc .cp-subscribe-card{padding:20px 32px 32px}}.cp-product-desc .cp-items-list li{line-height:1}.cp-product-desc .cp-items-list .cp-icon{flex:0 0 20px;max-width:20px}.cp-product-desc .cp-items-list .cp-caption{flex:0 0 calc(100% - 20px);max-width:calc(100% - 20px);padding-left:12px}.cp-product-desc .cp-one-time-purchase-card{padding:12px 24px 24px}@media (min-width: 576px){.cp-product-desc .cp-one-time-purchase-card{padding:12px 32px 24px}}.cp-product-desc .cp-btn-section .cp-quantity-section{flex:0 0 134px;max-width:134px}.cp-product-desc .cp-btn-section .cp-add-to-card-btn-section{flex:0 0 calc(100% - 134px);max-width:calc(100% - 134px)}.cp-tab-menu{border-bottom-style:solid;border-bottom-width:1px;border-color:#D9D9D9;display:flex;justify-content:center;white-space:nowrap;overflow-x:auto}.cp-tab-menu li{color:#979797;padding:0 16px}@media (min-width: 576px){.cp-tab-menu li{padding:0 24px}}@media (min-width: 768px){.cp-tab-menu li{padding:0 32px}}@media (min-width: 1350px){.cp-tab-menu li{padding:0 130px}}.cp-tab-menu li span{padding-bottom:16px;cursor:pointer;position:relative}.cp-tab-menu li span:hover:before{background-color:#2079FF}.cp-tab-menu li span::before{content:'';display:inline-block;position:absolute;height:2px;background-color:transparent;width:60px;left:50%;transform:translateX(-50%);-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);bottom:0;transition:all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear}@media (min-width: 576px){.cp-tab-menu li span::before{width:100%}}.cp-tab-menu li.active{color:#000}.cp-tab-menu li.active span:before{background-color:#2079FF}.cp-tab-menu-content-section .cp-container{padding:0}@media (min-width: 768px){.cp-tab-menu-content-section .cp-container{padding:0 24px}}.cp-cta-section .cp-wrapper{max-width:100%;padding:116px 24px 24px}@media (min-width: 768px){.cp-cta-section .cp-wrapper{padding:200px 0 68px;width:500px}}@media (min-width: 768px){.cp-cta-section .cp-btn-section .cp-btn-wrapper{flex:auto}}.cp-product-feature-item-style-1 .cp-icon-section{flex:0 0 28px;max-width:28px}@media (min-width: 768px){.cp-product-feature-item-style-1 .cp-icon-section{flex:0 0 36px;max-width:36px}}.cp-product-feature-item-style-1 .cp-item-desc{padding-left:16px;flex:0 0 calc(100% - 28px);max-width:calc(100% - 28px)}@media (min-width: 768px){.cp-product-feature-item-style-1 .cp-item-desc{padding-left:30px;flex:0 0 calc(100% - 36px);max-width:calc(100% - 36px)}}@media (min-width: 992px){.cp-feature-product-post .cp-desc.cp-desc-left{padding-left:44px}}@media (min-width: 1050px){.cp-feature-product-post .cp-desc.cp-desc-left{padding-left:60px}}@media (min-width: 1350px){.cp-feature-product-post .cp-desc.cp-desc-left{padding-left:112px}}@media (min-width: 992px){.cp-feature-product-post .cp-desc.cp-desc-right{padding-right:44px}}@media (min-width: 1050px){.cp-feature-product-post .cp-desc.cp-desc-right{padding-right:60px}}@media (min-width: 1350px){.cp-feature-product-post .cp-desc.cp-desc-right{padding-right:112px}}.cp-slider-section .cp-arrow{color:#000}.cp-slider-section .cp-arrow svg{transform:none}.cp-slider-section .cp-arrow:disabled{color:#BEBEBE;opacity:0.8}.cp-slider-section .cp-arrow-prev{left:-30px}.cp-slider-section .cp-arrow-next{right:-30px}.cp-slider-section button{background-color:transparent}.cp-testimonial-post{padding:24px}@media (min-width: 768px){.cp-testimonial-post{padding:60px}}@media (min-width: 768px){.cp-testimonial-post .cp-desc{min-height:272px}}.cp-testimonial-post .cp-desc p{line-height:20px}@media (min-width: 768px){.cp-testimonial-post .cp-desc p{font-size:20px;line-height:32px}}.cp-testimonial-post .cp-author-info .cp-image{height:38px;width:38px}@media (min-width: 768px){.cp-testimonial-post .cp-author-info .cp-image{height:44px;width:44px}}.cp-accordion-item{padding:24px;border-radius:8px}@media (min-width: 768px){.cp-accordion-item{padding:44px 56px;border-radius:20px}}.cp-accordion-item .cp-minus{display:none}.cp-accordion-item.active{background-color:#313D50;color:#fff}.cp-accordion-item.active .cp-title{color:#fff}.cp-accordion-item.active .cp-icon{background-color:#fff}.cp-accordion-item.active .cp-plus{display:none}.cp-accordion-item.active .cp-minus{display:flex}.cp-accordion-item .cp-accordion-header{cursor:pointer}.cp-accordion-item .cp-accordion-header .cp-title{flex:0 0 calc(100% - 24px);max-width:calc(100% - 24px);font-size:16px;line-height:20px}@media (min-width: 768px){.cp-accordion-item .cp-accordion-header .cp-title{font-weight:400;font-size:24px;line-height:32px;flex:0 0 calc(100% - 28px);max-width:calc(100% - 28px)}}.cp-accordion-item .cp-accordion-header .cp-icon{height:24px;flex:0 0 24px;max-width:24px;border-radius:100%;display:flex;align-items:center;justify-content:center}.cp-accordion-item .cp-accordion-header .cp-icon svg{width:12px}@media (min-width: 768px){.cp-accordion-item .cp-accordion-header .cp-icon{height:28px;flex:0 0 28px;max-width:28px}.cp-accordion-item .cp-accordion-header .cp-icon svg{width:16px}}.cp-trusted-partner-section .cp-slider-section{padding:32px 0}@media (min-width: 768px){.cp-trusted-partner-section .cp-slider-section{padding:74px 0}}.cp-trusted-partner-section ul{align-items:center}.cp-trusted-partner-section .splide__slide img{vertical-align:middle;width:auto}.cp-video-section .cp-image-section{height:233px}@media (min-width: 768px){.cp-video-section .cp-image-section{height:350px}}@media (min-width: 768px){.cp-video-section .cp-image-section{height:500px}}@media (min-width: 1050px){.cp-video-section .cp-image-section{height:650px}}.cp-video-section .cp-play-icon{width:51px}@media (min-width: 768px){.cp-video-section .cp-play-icon{width:102px}}.cp-video-section .cp-play-icon:hover{opacity:0.9}
+/*# sourceMappingURL=style.css.map */
+ </style>
+    </head>
+  <body>
+    <div  class='cp-demo-product-page cp-pt-8 cp-page-bottom-section cp-bg-white'>
+      <div class="cp-product-description-section cp-mt-8">
+        <div class="cp-container">
+          <div class="cp-d-flex">
+
+            <div class="cp-col-12 cp-col-md-6">
+              <!-- Preview slider -->
+              <div id="preview-slider" class="splide cp-product-preview-slider">
+                  <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                          <img
+                            src="http://cdn.fluid.app/demo_company/product/slider_1.jpg"
+                            alt="product"
+                            class="cp-image-cover cp-default-border-radius"
+                          />
+                        </li>
+                        <li class="splide__slide">
+                          <img
+                            src="http://cdn.fluid.app/demo_company/product/slider_2.jpg"
+                            alt="product"
+                            class="cp-image-cover cp-default-border-radius"
+                          />
+                        </li>
+                        <li class="splide__slide">
+                          <img
+                            src="http://cdn.fluid.app/demo_company/product/slider_3.jpg"
+                            alt="product"
+                            class="cp-image-cover cp-default-border-radius"
+                          />
+                        </li>
+                        <li class="splide__slide">
+                          <img
+                            src="http://cdn.fluid.app/demo_company/product/slider_4.jpg"
+                            alt="product"
+                            class="cp-image-cover cp-default-border-radius"
+                          />
+                        </li>
+                        <li class="splide__slide">
+                          <img
+                            src="http://cdn.fluid.app/demo_company/product/slider_5.jpg"
+                            alt="product"
+                            class="cp-image-cover cp-default-border-radius"
+                          />
+                        </li>
+                    </ul>
+                  </div>
+              </div>
+              <!-- Thumbnail slider -->
+              <div id="thumbnail-slider" class="splide cp-product-thumbnail-slider cp-slider-section cp-ml-auto cp-mr-auto cp-mt-3">
+                <div class="splide__arrows cp-slider-arrow-section">
+                  <button class="splide__arrow splide__arrow--prev cp-arrow cp-arrow-prev">
+                    <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.283405 11.6542L10.4666 21.2504C10.6365 21.4106 10.8623 21.5 11.097 21.5C11.3318 21.5 11.5575 21.4106 11.7274 21.2504L11.7384 21.2396C11.821 21.1619 11.8869 21.0684 11.9318 20.9648C11.9768 20.8612 12 20.7496 12 20.6369C12 20.5241 11.9768 20.4126 11.9318 20.3089C11.8869 20.2053 11.821 20.1119 11.7384 20.0342L2.14902 10.9982L11.7384 1.96581C11.821 1.88815 11.8869 1.79467 11.9318 1.69106C11.9768 1.58745 12 1.47587 12 1.36311C12 1.25035 11.9768 1.13878 11.9318 1.03516C11.8869 0.931552 11.821 0.838071 11.7384 0.76041L11.7274 0.749567C11.5575 0.589368 11.3318 0.5 11.097 0.5C10.8623 0.5 10.6365 0.589368 10.4666 0.749567L0.283405 10.3458C0.193848 10.4302 0.122551 10.5317 0.073835 10.6441C0.0251193 10.7566 -4.64317e-07 10.8777 -4.5897e-07 11C-4.53622e-07 11.1223 0.0251193 11.2434 0.073835 11.3559C0.122551 11.4683 0.193848 11.5698 0.283405 11.6542Z" fill="currentColor"/>
+                    </svg>
+                  </button>
+                  <button class="splide__arrow splide__arrow--next cp-arrow cp-arrow-next">
+                    <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.7166 11.6542L1.53337 21.2504C1.36346 21.4106 1.13772 21.5 0.902976 21.5C0.668229 21.5 0.442492 21.4106 0.272579 21.2504L0.261615 21.2396C0.17896 21.1619 0.113143 21.0684 0.0681677 20.9648C0.0231924 20.8612 -9.20875e-07 20.7496 -9.15947e-07 20.6369C-9.11018e-07 20.5241 0.0231925 20.4126 0.0681677 20.3089C0.113143 20.2053 0.17896 20.1118 0.261615 20.0342L9.85098 10.9982L0.261616 1.96581C0.178961 1.88815 0.113144 1.79467 0.0681686 1.69106C0.0231933 1.58745 -7.83917e-08 1.47587 -7.3463e-08 1.36311C-6.85342e-08 1.25035 0.0231933 1.13878 0.0681686 1.03516C0.113144 0.93155 0.178961 0.838071 0.261616 0.76041L0.27258 0.749567C0.442492 0.589368 0.66823 0.5 0.902977 0.5C1.13772 0.5 1.36346 0.589368 1.53338 0.749567L11.7166 10.3458C11.8062 10.4302 11.8774 10.5317 11.9262 10.6441C11.9749 10.7566 12 10.8777 12 11C12 11.1223 11.9749 11.2434 11.9262 11.3559C11.8774 11.4683 11.8062 11.5698 11.7166 11.6542Z" fill="currentColor"/>
+                    </svg>
+                  </button>
+                </div>                  <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide cp-slider-item">
+                          <img
+                            src="http://cdn.fluid.app/demo_company/product/slider_1.jpg"
+                            alt="product"
+                          />
+                        </li>
+                        <li class="splide__slide cp-slider-item">
+                          <img
+                            src="http://cdn.fluid.app/demo_company/product/slider_2.jpg"
+                            alt="product"
+                          />
+                        </li>
+                        <li class="splide__slide cp-slider-item">
+                          <img
+                            src="http://cdn.fluid.app/demo_company/product/slider_3.jpg"
+                            alt="product"
+                          />
+                        </li>
+                        <li class="splide__slide cp-slider-item">
+                          <img
+                            src="http://cdn.fluid.app/demo_company/product/slider_4.jpg"
+                            alt="product"
+                          />
+                        </li>
+                        <li class="splide__slide cp-slider-item">
+                          <img
+                            src="http://cdn.fluid.app/demo_company/product/slider_5.jpg"
+                            alt="product"
+                          />
+                        </li>
+                    </ul>
+                  </div>
+              </div>
+
+            </div><!-- .cp-col -->
+
+            <div class="cp-col-12 cp-col-md-6 cp-feature-product-post">
+              <div class="cp-product-desc cp-desc cp-desc-left cp-pt-8 cp-md-pt-0">
+                <h2 class="cp-m-0">Mani Moisture Hydrating Serum</h2>
+                <div class="cp-rating-section cp-d-flex cp-align-center cp-mt-3 cp-line-height-1">
+                  <div class="ratings">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        id="Icon_Review_Start_Yellow"
+                        data-name="Icon/Review Start/Yellow"
+                        d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                        transform="translate(0 -11.796)"
+                        fill="#2079FF"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        id="Icon_Review_Start_Yellow"
+                        data-name="Icon/Review Start/Yellow"
+                        d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                        transform="translate(0 -11.796)"
+                        fill="#2079FF"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        id="Icon_Review_Start_Yellow"
+                        data-name="Icon/Review Start/Yellow"
+                        d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                        transform="translate(0 -11.796)"
+                        fill="#2079FF"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        id="Icon_Review_Start_Yellow"
+                        data-name="Icon/Review Start/Yellow"
+                        d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                        transform="translate(0 -11.796)"
+                        fill="#2079FF"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        id="Icon_Review_Start_Yellow"
+                        data-name="Icon/Review Start/Yellow"
+                        d="M15.977,17.872a.475.475,0,0,0-.378-.334l-4.96-.756L8.42,12.07a.459.459,0,0,0-.841,0L5.361,16.782.4,17.537a.475.475,0,0,0-.378.334.508.508,0,0,0,.119.5l3.589,3.668-.847,5.179a.5.5,0,0,0,.186.481.451.451,0,0,0,.494.037L8,25.294l4.436,2.445a.451.451,0,0,0,.494-.037.5.5,0,0,0,.187-.481l-.847-5.179,3.589-3.668A.508.508,0,0,0,15.977,17.872Z"
+                        transform="translate(0 -11.796)"
+                        fill="#2079FF"
+                      />
+                    </svg>
+                  </div>                  <span class="cp-secondary-text-color cp-pl-3">3 Reviews</span>
+                </div>
+                <p class="cp-mb-0 cp-mt-4">Choose from our collection of wide range of products from moisturiser range for oily skin.</p>
+                  <div class="cp-subscribe-card cp-default-bg cp-mt-6 cp-xs-mt-8 cp-text-black subscribe-card active">
+                    <div class="cp-title-section cp-d-flex cp-align-center cp-justify-between">
+                      <div class="cp-radio-button-section">
+                        <div class="cp-radio-btn cp-mt-3">
+                          <input
+                            type="radio"
+                            id="subscribe"
+                            name="fluid-checkout-subscribe"
+                            value="subscription"
+                            checked
+                          />
+                          <label for="subscribe" class="cp-text-black"><span>Subscribe</span></label>
+                        </div>
+                      </div>
+                      <div class="cp-price-section cp-fs-8x cp-sm-fs-10x cp-line-height-1 cp-d-flex cp-col-gap-3 cp-mt-3">
+                        <span id="crossed_onetime_price" class="cp-is-strike  cp-fw-medium">$87.00</span>
+                        <span class="cp-fw-semi-bold cp-text-primary" id="subscribe_price">$60.00/mo</span>
+                      </div>
+                    </div>
+                    <ul class="cp-reset-ul cp-items-list cp-pt-2">
+                        <li class="cp-d-flex cp-align-center cp-mt-2">
+                          <span class="cp-icon"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M9.59413 11.9641L11.111 14.9974L12.651 13.4182L15 13.4417L12.8145 9.10171V9.09424M6.40587 11.9641L4.88901 14.9974L3.34901 13.4182L1 13.4417L3.18549 9.10171V9.09424" fill="#D9D9D9"/>
+                                                  <path d="M9.59413 11.9641L11.111 14.9974L12.651 13.4182L15 13.4417L12.8145 9.10171V9.09424M6.40587 11.9641L4.88901 14.9974L3.34901 13.4182L1 13.4417L3.18549 9.10171V9.09424" stroke="#313D50" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M13.6623 6.44172C13.6623 7.03308 13.1412 7.53073 12.9698 8.05974C12.7988 8.58838 12.9157 9.3119 12.5812 9.77073C12.2467 10.2296 11.531 10.3307 11.111 10.6731C10.691 11.0154 10.3333 11.6531 9.78902 11.8319C9.24432 12.0107 8.62982 11.6684 8.03883 11.6684C7.44784 11.6684 6.81803 12.0029 6.28902 11.8319C5.76 11.6605 5.4255 10.9994 4.96667 10.6731C4.50747 10.3464 3.79216 10.2296 3.45766 9.77073C3.12315 9.31153 3.24784 8.60406 3.06902 8.05974C2.88982 7.51505 2.33766 7.03308 2.33766 6.44172C2.33766 5.85036 2.85883 5.35308 3.02982 4.82406C3.2008 4.29505 3.08432 3.5719 3.41883 3.11308C3.75334 2.65425 4.46902 2.55308 4.92784 2.21073C5.38667 1.86838 5.66667 1.23073 6.24982 1.0519C6.83334 0.872703 7.40902 1.21505 8 1.21505C8.59099 1.21505 9.2208 0.880543 9.75019 1.0519C10.2788 1.22289 10.6133 1.88406 11.111 2.21073C11.6086 2.5374 12.2855 2.65388 12.62 3.11308C12.9545 3.57228 12.8302 4.27974 13.009 4.82406C13.1878 5.36838 13.6623 5.85073 13.6623 6.44172ZM8 4.10838C7.38111 4.10838 6.78757 4.35423 6.34995 4.79185C5.91233 5.22947 5.66648 5.82301 5.66648 6.4419C5.66648 7.06079 5.91233 7.65433 6.34995 8.09195C6.78757 8.52957 7.38111 8.77542 8 8.77542C8.61884 8.77542 9.21233 8.52959 9.64992 8.092C10.0875 7.65442 10.3333 7.06093 10.3333 6.44209C10.3333 5.82325 10.0875 5.22976 9.64992 4.79217C9.21233 4.35459 8.61884 4.10838 8 4.10838Z" fill="#D9D9D9" stroke="#313D50" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+</span>
+                          <span class="cp-caption">Subscribe and save $27</span>
+                        </li>
+                        <li class="cp-d-flex cp-align-center cp-mt-2">
+                          <span class="cp-icon"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M9.59413 11.9641L11.111 14.9974L12.651 13.4182L15 13.4417L12.8145 9.10171V9.09424M6.40587 11.9641L4.88901 14.9974L3.34901 13.4182L1 13.4417L3.18549 9.10171V9.09424" fill="#D9D9D9"/>
+                                                  <path d="M9.59413 11.9641L11.111 14.9974L12.651 13.4182L15 13.4417L12.8145 9.10171V9.09424M6.40587 11.9641L4.88901 14.9974L3.34901 13.4182L1 13.4417L3.18549 9.10171V9.09424" stroke="#313D50" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M13.6623 6.44172C13.6623 7.03308 13.1412 7.53073 12.9698 8.05974C12.7988 8.58838 12.9157 9.3119 12.5812 9.77073C12.2467 10.2296 11.531 10.3307 11.111 10.6731C10.691 11.0154 10.3333 11.6531 9.78902 11.8319C9.24432 12.0107 8.62982 11.6684 8.03883 11.6684C7.44784 11.6684 6.81803 12.0029 6.28902 11.8319C5.76 11.6605 5.4255 10.9994 4.96667 10.6731C4.50747 10.3464 3.79216 10.2296 3.45766 9.77073C3.12315 9.31153 3.24784 8.60406 3.06902 8.05974C2.88982 7.51505 2.33766 7.03308 2.33766 6.44172C2.33766 5.85036 2.85883 5.35308 3.02982 4.82406C3.2008 4.29505 3.08432 3.5719 3.41883 3.11308C3.75334 2.65425 4.46902 2.55308 4.92784 2.21073C5.38667 1.86838 5.66667 1.23073 6.24982 1.0519C6.83334 0.872703 7.40902 1.21505 8 1.21505C8.59099 1.21505 9.2208 0.880543 9.75019 1.0519C10.2788 1.22289 10.6133 1.88406 11.111 2.21073C11.6086 2.5374 12.2855 2.65388 12.62 3.11308C12.9545 3.57228 12.8302 4.27974 13.009 4.82406C13.1878 5.36838 13.6623 5.85073 13.6623 6.44172ZM8 4.10838C7.38111 4.10838 6.78757 4.35423 6.34995 4.79185C5.91233 5.22947 5.66648 5.82301 5.66648 6.4419C5.66648 7.06079 5.91233 7.65433 6.34995 8.09195C6.78757 8.52957 7.38111 8.77542 8 8.77542C8.61884 8.77542 9.21233 8.52959 9.64992 8.092C10.0875 7.65442 10.3333 7.06093 10.3333 6.44209C10.3333 5.82325 10.0875 5.22976 9.64992 4.79217C9.21233 4.35459 8.61884 4.10838 8 4.10838Z" fill="#D9D9D9" stroke="#313D50" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+</span>
+                          <span class="cp-caption">Earn Mani Reward Points</span>
+                        </li>
+                        <li class="cp-d-flex cp-align-center cp-mt-2">
+                          <span class="cp-icon"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M9.59413 11.9641L11.111 14.9974L12.651 13.4182L15 13.4417L12.8145 9.10171V9.09424M6.40587 11.9641L4.88901 14.9974L3.34901 13.4182L1 13.4417L3.18549 9.10171V9.09424" fill="#D9D9D9"/>
+                                                  <path d="M9.59413 11.9641L11.111 14.9974L12.651 13.4182L15 13.4417L12.8145 9.10171V9.09424M6.40587 11.9641L4.88901 14.9974L3.34901 13.4182L1 13.4417L3.18549 9.10171V9.09424" stroke="#313D50" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M13.6623 6.44172C13.6623 7.03308 13.1412 7.53073 12.9698 8.05974C12.7988 8.58838 12.9157 9.3119 12.5812 9.77073C12.2467 10.2296 11.531 10.3307 11.111 10.6731C10.691 11.0154 10.3333 11.6531 9.78902 11.8319C9.24432 12.0107 8.62982 11.6684 8.03883 11.6684C7.44784 11.6684 6.81803 12.0029 6.28902 11.8319C5.76 11.6605 5.4255 10.9994 4.96667 10.6731C4.50747 10.3464 3.79216 10.2296 3.45766 9.77073C3.12315 9.31153 3.24784 8.60406 3.06902 8.05974C2.88982 7.51505 2.33766 7.03308 2.33766 6.44172C2.33766 5.85036 2.85883 5.35308 3.02982 4.82406C3.2008 4.29505 3.08432 3.5719 3.41883 3.11308C3.75334 2.65425 4.46902 2.55308 4.92784 2.21073C5.38667 1.86838 5.66667 1.23073 6.24982 1.0519C6.83334 0.872703 7.40902 1.21505 8 1.21505C8.59099 1.21505 9.2208 0.880543 9.75019 1.0519C10.2788 1.22289 10.6133 1.88406 11.111 2.21073C11.6086 2.5374 12.2855 2.65388 12.62 3.11308C12.9545 3.57228 12.8302 4.27974 13.009 4.82406C13.1878 5.36838 13.6623 5.85073 13.6623 6.44172ZM8 4.10838C7.38111 4.10838 6.78757 4.35423 6.34995 4.79185C5.91233 5.22947 5.66648 5.82301 5.66648 6.4419C5.66648 7.06079 5.91233 7.65433 6.34995 8.09195C6.78757 8.52957 7.38111 8.77542 8 8.77542C8.61884 8.77542 9.21233 8.52959 9.64992 8.092C10.0875 7.65442 10.3333 7.06093 10.3333 6.44209C10.3333 5.82325 10.0875 5.22976 9.64992 4.79217C9.21233 4.35459 8.61884 4.10838 8 4.10838Z" fill="#D9D9D9" stroke="#313D50" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+</span>
+                          <span class="cp-caption">30-day money-back guarantee</span>
+                        </li>
+                        <li class="cp-d-flex cp-align-center cp-mt-2">
+                          <span class="cp-icon"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                  <path d="M9.59413 11.9641L11.111 14.9974L12.651 13.4182L15 13.4417L12.8145 9.10171V9.09424M6.40587 11.9641L4.88901 14.9974L3.34901 13.4182L1 13.4417L3.18549 9.10171V9.09424" fill="#D9D9D9"/>
+                                                  <path d="M9.59413 11.9641L11.111 14.9974L12.651 13.4182L15 13.4417L12.8145 9.10171V9.09424M6.40587 11.9641L4.88901 14.9974L3.34901 13.4182L1 13.4417L3.18549 9.10171V9.09424" stroke="#313D50" stroke-linecap="round" stroke-linejoin="round"/>
+                                                  <path d="M13.6623 6.44172C13.6623 7.03308 13.1412 7.53073 12.9698 8.05974C12.7988 8.58838 12.9157 9.3119 12.5812 9.77073C12.2467 10.2296 11.531 10.3307 11.111 10.6731C10.691 11.0154 10.3333 11.6531 9.78902 11.8319C9.24432 12.0107 8.62982 11.6684 8.03883 11.6684C7.44784 11.6684 6.81803 12.0029 6.28902 11.8319C5.76 11.6605 5.4255 10.9994 4.96667 10.6731C4.50747 10.3464 3.79216 10.2296 3.45766 9.77073C3.12315 9.31153 3.24784 8.60406 3.06902 8.05974C2.88982 7.51505 2.33766 7.03308 2.33766 6.44172C2.33766 5.85036 2.85883 5.35308 3.02982 4.82406C3.2008 4.29505 3.08432 3.5719 3.41883 3.11308C3.75334 2.65425 4.46902 2.55308 4.92784 2.21073C5.38667 1.86838 5.66667 1.23073 6.24982 1.0519C6.83334 0.872703 7.40902 1.21505 8 1.21505C8.59099 1.21505 9.2208 0.880543 9.75019 1.0519C10.2788 1.22289 10.6133 1.88406 11.111 2.21073C11.6086 2.5374 12.2855 2.65388 12.62 3.11308C12.9545 3.57228 12.8302 4.27974 13.009 4.82406C13.1878 5.36838 13.6623 5.85073 13.6623 6.44172ZM8 4.10838C7.38111 4.10838 6.78757 4.35423 6.34995 4.79185C5.91233 5.22947 5.66648 5.82301 5.66648 6.4419C5.66648 7.06079 5.91233 7.65433 6.34995 8.09195C6.78757 8.52957 7.38111 8.77542 8 8.77542C8.61884 8.77542 9.21233 8.52959 9.64992 8.092C10.0875 7.65442 10.3333 7.06093 10.3333 6.44209C10.3333 5.82325 10.0875 5.22976 9.64992 4.79217C9.21233 4.35459 8.61884 4.10838 8 4.10838Z" fill="#D9D9D9" stroke="#313D50" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+</span>
+                          <span class="cp-caption">Update your subscription anytime</span>
+                        </li>
+                    </ul>
+                  </div>
+                  <div class="cp-one-time-purchase-card cp-default-bg cp-d-flex cp-align-center cp-justify-between cp-mt-3 one-time-purchase-card">
+                    <div class="cp-radio-btn cp-mt-3">
+                      <input
+                        type="radio"
+                        id="one-time"
+                        name="fluid-checkout-subscribe"
+                        value="subscription"
+                      />
+                      <label for="one-time" class="cp-text-black"><span>One-time purchase<span></label>
+                    </div>
+                    <div class="cp-price-section cp-fs-8x cp-fs-xs-10x cp-line-height-1 cp-mt-3">
+                      <span class="cp-fw-semi-bold cp-text-black" id="onetime_order_price">$87.00</span>
+                    </div>
+
+                  </div>
+                <div class="cp-btn-section cp-d-flex cp-pt-5">
+                  <div class="cp-quantity-section">
+                    <div class="cp-quantity-input">
+                      <button id="decrease-btn">-</button>
+                      <input
+                        type="number"
+                        id="quantity"
+                        value="1"
+                        name="fluid-checkout-quantity"
+                      />
+                      <button id="increase-btn">+</button>
+                    </div>
+                  </div>
+                  <div class="cp-add-to-card-btn-section cp-pl-2">
+                    <button class="cp-btn cp-btn-primary-bg cp-w-full" data-fluid-checkout="">
+                      <span class="cp-mr-1 cp-plus-icon cp-position-relative cp-top-1">
+                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.6 9.032V6.856H16.312V9.032H0.6ZM7.192 15.656V0.199999H9.656V15.656H7.192Z" fill="currentColor"/>
+                        </svg>
+                      </span>                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div><!-- .cp-col -->
+
+          </div><!-- .cp-d-flex -->
+        </div><!-- .cp-container -->
+      </div><!-- .cp-product-description-section -->        <div class="cp-feature-section cp-mt-2 cp-xs-mt-8">
+          <div class="cp-container">
+            <div class="cp-row cp-justify-center">
+                <div class="cp-col cp-col-12 cp-col-xs-6 cp-col-md-4">
+                  <div class="cp-product-feature-post cp-border cp-default-bg cp-default-border-color cp-mt-6 cp-default-border-radius cp-text-center">
+                    <div class="cp-icon-section"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30.8 27.3982C28.1001 29.2482 24.8314 32.9075 23.6002 38.5M18.2005 34.8H9.2386C5.12396 34.8 3.06664 34.8 2.27287 33.4403C1.4809 32.0824 2.47447 30.2546 4.45619 26.599L7.02649 21.8593C8.35844 19.408 9.02081 18.1796 10.063 18.15C11.1051 18.1204 11.8359 19.3081 13.2992 21.6835L14.5628 23.7315M12.8007 12.6629L14.5862 9.18676C17.2141 4.06782 18.5298 1.50742 20.526 1.50002C22.5239 1.49262 23.8558 4.04191 26.5161 9.14236L26.9571 9.98596C28.6076 13.1495 29.4338 14.7331 28.7714 15.7173C28.1091 16.7015 26.4855 16.3056 23.2349 15.5138L23.0873 15.4786M25.4002 33.5735C21.1379 23.7204 29.7362 20.3959 36.2789 20.0259C37.0709 19.9815 37.4651 19.9593 37.7477 20.2479C38.0321 20.5347 38.0159 20.9454 37.9817 21.7649C37.7117 28.5803 34.992 37.9579 25.4002 33.5735Z" stroke="#2079FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                    <h3 class="cp-mb-0 cp-mt-4">Eco-Friendly</h3>
+                    <p class="cp-mb-0 cp-mt-4 cp-secondary-text-color">Choose from our collection of wide range of products from moisturiser range for oily skin.</p>
+                  </div>
+                </div>
+                <div class="cp-col cp-col-12 cp-col-xs-6 cp-col-md-4">
+                  <div class="cp-product-feature-post cp-border cp-default-bg cp-default-border-color cp-mt-6 cp-default-border-radius cp-text-center">
+                    <div class="cp-icon-section"><svg width="36" height="40" viewBox="0 0 36 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.21194 15.7595C4.49237 20.7367 7.19323 25.8629 10.3525 29.0222C14.6726 33.3422 18.8661 35.0404 22.4274 35.1782C25.9751 35.3137 29.1254 33.9045 31.4333 31.5921C32.4721 30.5488 33.1405 29.0403 33.4205 27.1659C33.7028 25.2983 33.5899 23.1462 33.1541 20.9173C31.492 12.3924 23.5565 5.61317 13.7602 3.22846C9.41535 2.1716 6.10024 2.34548 4.28912 4.16112C3.27743 5.17733 2.65415 6.77165 2.47575 8.83569C2.30186 10.8862 2.57285 13.2777 3.21194 15.7595ZM0.0594216 8.73633C0.253631 6.45098 0.962721 4.33952 2.4622 2.83327C5.33469 -0.0460021 10.0725 0.154982 14.4761 1.22765C25.0221 3.79528 33.7119 11.1188 35.5456 20.5266C36.0085 22.8978 36.1463 25.2577 35.8256 27.3804C35.5094 29.4942 34.7236 31.4521 33.2579 32.9222C31.8266 34.369 30.1093 35.5015 28.2157 36.2472C26.3221 36.993 24.2938 37.3357 22.2603 37.2535C17.8454 37.0864 13.0918 34.993 8.49624 30.3975C5.02306 26.9243 2.18443 21.4638 0.843034 16.254C0.170076 13.6412 -0.139304 11.0397 0.0594216 8.73633Z" fill="#2079FF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M22.3642 13.4064C23.0259 13.5035 23.4708 14.0387 23.3556 14.6033L22.2016 20.3347L27.644 26.563L31.0698 31.1337L35.6021 37.931C35.934 38.4301 35.7308 39.0646 35.1482 39.3469C34.5655 39.6315 33.8248 39.4576 33.4929 38.9585L28.9922 32.2063L25.9164 28.1076L16.8789 26.9153C16.2173 26.8272 15.7634 26.2965 15.865 25.7319C15.9666 25.1674 16.5876 24.7767 17.2493 24.8648L23.8953 25.7432L19.9953 21.2764L11.143 13.6887C11.0322 13.601 10.9428 13.4894 10.8813 13.3622C10.8199 13.2349 10.7881 13.0955 10.7883 12.9542C10.7885 12.8129 10.8208 12.6736 10.8826 12.5465C10.9444 12.4195 11.0342 12.3082 11.1452 12.2208C11.3887 12.0253 11.6919 11.9191 12.0042 11.92C12.3164 11.9208 12.619 12.0286 12.8615 12.2253L20.1173 18.4446L20.9618 14.2532C21.0748 13.6887 21.7025 13.3093 22.3642 13.4064Z" fill="#2079FF"/></svg></div>
+                    <h3 class="cp-mb-0 cp-mt-4">Vegan</h3>
+                    <p class="cp-mb-0 cp-mt-4 cp-secondary-text-color">Choose from our collection of wide range of products from moisturiser range for oily skin.</p>
+                  </div>
+                </div>
+                <div class="cp-col cp-col-12 cp-col-xs-6 cp-col-md-4">
+                  <div class="cp-product-feature-post cp-border cp-default-bg cp-default-border-color cp-mt-6 cp-default-border-radius cp-text-center">
+                    <div class="cp-icon-section"><svg width="40" height="39" viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26.0724 15.9761C21.1175 22.2066 16.1606 37.5 16.1606 37.5C16.1606 37.5 9.0793 15.9761 2 11.0075" stroke="#2079FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M37.0976 2.76363L37.9522 13.4184C38.5058 20.3306 34.1908 26.484 28.4335 27.1512C22.7845 27.8014 17.6671 22.8449 17.1235 16.0629C16.9934 14.45 17.1294 12.8222 17.5237 11.2725C17.918 9.7228 18.5628 8.28159 19.4213 7.03126C20.2798 5.78093 21.3351 4.74599 22.5269 3.98562C23.7188 3.22525 25.0238 2.75436 26.3673 2.59986L35.8278 1.50644C35.9799 1.48884 36.1334 1.5074 36.2796 1.56106C36.4258 1.61472 36.5617 1.70243 36.6796 1.81918C36.7975 1.93593 36.8952 2.07943 36.9669 2.24148C37.0386 2.40353 37.083 2.58096 37.0976 2.76363Z" stroke="#2079FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                    <h3 class="cp-mb-0 cp-mt-4">Cruetly Free</h3>
+                    <p class="cp-mb-0 cp-mt-4 cp-secondary-text-color">Choose from our collection of wide range of products from moisturiser range for oily skin.</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="cp-video-section cp-page-top-section cp-text-center">
+          <div class="cp-container">
+            <div class="cp-image-section cp-bg-image cp-default-border-radius cp-items-center" style="background-image: url(http://cdn.fluid.app/demo_company/product/video_bg.jpg)">
+              <a href="" class="cp-play-icon cp-m-auto" data-fancybox>
+                <svg width="102" height="102" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M51.0001 102C79.1666 102 102 79.1665 102 51C102 22.8335 79.1666 0 51.0001 0C22.8336 0 0.00012207 22.8335 0.00012207 51C0.00012207 79.1665 22.8336 102 51.0001 102ZM45.9612 36.3531C43.2948 34.8532 40.0001 36.7801 40.0001 39.8394V62.1606C40.0001 65.2199 43.2948 67.1468 45.9612 65.6469L65.8023 54.4863C68.5209 52.9571 68.5209 49.0429 65.8023 47.5137L45.9612 36.3531Z" fill="white"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="cp-trusted-partner-section cp-page-top-section">
+          <h3 class="cp-m-0 cp-text-center">Trusted By</h3>
+          <div class="cp-mt-4 cp-sm-mt-8 cp-bg-white-smoke">
+            <div id="trusted-by-slider" class="splide cp-slider-section">
+              <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                      <div class="cp-image cp-text-center">
+                        <img
+                          src="http://cdn.fluid.app/demo_company/trusted_by/trusted_by1.png"
+                          alt="logo"
+                        />
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="cp-image cp-text-center">
+                        <img
+                          src="http://cdn.fluid.app/demo_company/trusted_by/trusted_by2.png"
+                          alt="logo"
+                        />
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="cp-image cp-text-center">
+                        <img
+                          src="http://cdn.fluid.app/demo_company/trusted_by/trusted_by3.png"
+                          alt="logo"
+                        />
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="cp-image cp-text-center">
+                        <img
+                          src="http://cdn.fluid.app/demo_company/trusted_by/trusted_by4.png"
+                          alt="logo"
+                        />
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="cp-image cp-text-center">
+                        <img
+                          src="http://cdn.fluid.app/demo_company/trusted_by/trusted_by5.png"
+                          alt="logo"
+                        />
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="cp-image cp-text-center">
+                        <img
+                          src="http://cdn.fluid.app/demo_company/trusted_by/trusted_by6.png"
+                          alt="logo"
+                        />
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="cp-image cp-text-center">
+                        <img
+                          src="http://cdn.fluid.app/demo_company/trusted_by/trusted_by7.png"
+                          alt="logo"
+                        />
+                      </div>
+                    </li>
+                </ul>
+              </div>
+            </div><!--#as-seen_slider-->
+          </div>
+        </div>
+        <div class="cp-product-benefits-section cp-page-top-section">
+          <div class="cp-container">
+            <div class="cp-desc-wrapper cp-ml-auto cp-mr-auto cp-max-w-full cp-xs-text-center">
+              <h2 class="cp-m-0  cp-fw-medium">Benefits of using Mani Moisturising Serum</h2>
+              <p class="cp-m-0 cp-pt-3 cp-xs-pt-5 "><strong class="cp-fw-bold">Every woman knows about the inconveniences that cycles and hormone changes can bring into life.</strong> Experience rapid results through our HydraStat™ Nanotechnology. Our nano-sized ingredients, wrapped in water clusters, are small enough to be absorbed fully by the human cell, which is right where you need them!</p>
+            </div>
+            <div class="cp-d-flex cp-sm-pt-8">
+              <div class="cp-col-12 cp-col-md-6">
+                <div class="cp-image-section cp-bg-image cp-mt-6">
+                  <img src="http://cdn.fluid.app/demo_company/product/benefits.jpg" alt="Mani Moisture Hydrating Serum" class="cp-image-cover cp-default-border-radius">
+                </div>
+              </div><!-- .cp-col -->
+              <div class="cp-col-12 cp-col-md-6">
+                <div class="cp-desc cp-items-list cp-pt-3 cp-md-mt-6">
+                    <div class="cp-product-feature-item cp-product-feature-item-style-1 cp-d-flex cp-mt-6 cp-md-mt-12">
+                      <div class="cp-icon-section">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30.8 27.3982C28.1001 29.2482 24.8314 32.9075 23.6002 38.5M18.2005 34.8H9.2386C5.12396 34.8 3.06664 34.8 2.27287 33.4403C1.4809 32.0824 2.47447 30.2546 4.45619 26.599L7.02649 21.8593C8.35844 19.408 9.02081 18.1796 10.063 18.15C11.1051 18.1204 11.8359 19.3081 13.2992 21.6835L14.5628 23.7315M12.8007 12.6629L14.5862 9.18676C17.2141 4.06782 18.5298 1.50742 20.526 1.50002C22.5239 1.49262 23.8558 4.04191 26.5161 9.14236L26.9571 9.98596C28.6076 13.1495 29.4338 14.7331 28.7714 15.7173C28.1091 16.7015 26.4855 16.3056 23.2349 15.5138L23.0873 15.4786M25.4002 33.5735C21.1379 23.7204 29.7362 20.3959 36.2789 20.0259C37.0709 19.9815 37.4651 19.9593 37.7477 20.2479C38.0321 20.5347 38.0159 20.9454 37.9817 21.7649C37.7117 28.5803 34.992 37.9579 25.4002 33.5735Z" stroke="#2079FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </div>
+                      <div class="cp-item-desc">
+                        <h3 class="cp-m-0">Eco-Friendly</h3>
+                        <p class="cp-mt-2 cp-sm-mt-4 cp-mb-0">Choose from our collection of wide range of products from moisturiser range for oily skin.Choose from our collection of wide range of products from moisturiser range for oily skin.</p>
+                      </div>
+                    </div>
+                    <div class="cp-product-feature-item cp-product-feature-item-style-1 cp-d-flex cp-mt-6 cp-md-mt-12">
+                      <div class="cp-icon-section">
+                        <svg width="36" height="40" viewBox="0 0 36 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.21194 15.7595C4.49237 20.7367 7.19323 25.8629 10.3525 29.0222C14.6726 33.3422 18.8661 35.0404 22.4274 35.1782C25.9751 35.3137 29.1254 33.9045 31.4333 31.5921C32.4721 30.5488 33.1405 29.0403 33.4205 27.1659C33.7028 25.2983 33.5899 23.1462 33.1541 20.9173C31.492 12.3924 23.5565 5.61317 13.7602 3.22846C9.41535 2.1716 6.10024 2.34548 4.28912 4.16112C3.27743 5.17733 2.65415 6.77165 2.47575 8.83569C2.30186 10.8862 2.57285 13.2777 3.21194 15.7595ZM0.0594216 8.73633C0.253631 6.45098 0.962721 4.33952 2.4622 2.83327C5.33469 -0.0460021 10.0725 0.154982 14.4761 1.22765C25.0221 3.79528 33.7119 11.1188 35.5456 20.5266C36.0085 22.8978 36.1463 25.2577 35.8256 27.3804C35.5094 29.4942 34.7236 31.4521 33.2579 32.9222C31.8266 34.369 30.1093 35.5015 28.2157 36.2472C26.3221 36.993 24.2938 37.3357 22.2603 37.2535C17.8454 37.0864 13.0918 34.993 8.49624 30.3975C5.02306 26.9243 2.18443 21.4638 0.843034 16.254C0.170076 13.6412 -0.139304 11.0397 0.0594216 8.73633Z" fill="#2079FF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M22.3642 13.4064C23.0259 13.5035 23.4708 14.0387 23.3556 14.6033L22.2016 20.3347L27.644 26.563L31.0698 31.1337L35.6021 37.931C35.934 38.4301 35.7308 39.0646 35.1482 39.3469C34.5655 39.6315 33.8248 39.4576 33.4929 38.9585L28.9922 32.2063L25.9164 28.1076L16.8789 26.9153C16.2173 26.8272 15.7634 26.2965 15.865 25.7319C15.9666 25.1674 16.5876 24.7767 17.2493 24.8648L23.8953 25.7432L19.9953 21.2764L11.143 13.6887C11.0322 13.601 10.9428 13.4894 10.8813 13.3622C10.8199 13.2349 10.7881 13.0955 10.7883 12.9542C10.7885 12.8129 10.8208 12.6736 10.8826 12.5465C10.9444 12.4195 11.0342 12.3082 11.1452 12.2208C11.3887 12.0253 11.6919 11.9191 12.0042 11.92C12.3164 11.9208 12.619 12.0286 12.8615 12.2253L20.1173 18.4446L20.9618 14.2532C21.0748 13.6887 21.7025 13.3093 22.3642 13.4064Z" fill="#2079FF"/></svg>
+                      </div>
+                      <div class="cp-item-desc">
+                        <h3 class="cp-m-0">Vegan</h3>
+                        <p class="cp-mt-2 cp-sm-mt-4 cp-mb-0">Choose from our collection of wide range of products from moisturiser range for oily skin.Choose from our collection of wide range of products from moisturiser range for oily skin.</p>
+                      </div>
+                    </div>
+                    <div class="cp-product-feature-item cp-product-feature-item-style-1 cp-d-flex cp-mt-6 cp-md-mt-12">
+                      <div class="cp-icon-section">
+                        <svg width="40" height="39" viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26.0724 15.9761C21.1175 22.2066 16.1606 37.5 16.1606 37.5C16.1606 37.5 9.0793 15.9761 2 11.0075" stroke="#2079FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M37.0976 2.76363L37.9522 13.4184C38.5058 20.3306 34.1908 26.484 28.4335 27.1512C22.7845 27.8014 17.6671 22.8449 17.1235 16.0629C16.9934 14.45 17.1294 12.8222 17.5237 11.2725C17.918 9.7228 18.5628 8.28159 19.4213 7.03126C20.2798 5.78093 21.3351 4.74599 22.5269 3.98562C23.7188 3.22525 25.0238 2.75436 26.3673 2.59986L35.8278 1.50644C35.9799 1.48884 36.1334 1.5074 36.2796 1.56106C36.4258 1.61472 36.5617 1.70243 36.6796 1.81918C36.7975 1.93593 36.8952 2.07943 36.9669 2.24148C37.0386 2.40353 37.083 2.58096 37.0976 2.76363Z" stroke="#2079FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </div>
+                      <div class="cp-item-desc">
+                        <h3 class="cp-m-0">Cruetly Free</h3>
+                        <p class="cp-mt-2 cp-sm-mt-4 cp-mb-0">Choose from our collection of wide range of products from moisturiser range for oily skin.Choose from our collection of wide range of products from moisturiser range for oily skin.</p>
+                      </div>
+                    </div>
+                  <div class="cp-btn-section cp-mt-6 cp-md-mt-12">
+                    <button class="cp-btn cp-btn-primary-bg cp-w-full"  data-fluid-checkout="">
+                      <span class="cp-mr-1 cp-plus-icon cp-position-relative cp-top-1">
+                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.6 9.032V6.856H16.312V9.032H0.6ZM7.192 15.656V0.199999H9.656V15.656H7.192Z" fill="currentColor"/>
+                        </svg>
+                      </span>                      Add to Cart
+                    </button>
+                  </div> <!-- .cp-btn-section -->
+                </div>
+              </div>
+            </div><!-- .cp-row -->
+          </div><!-- .cp-container -->
+        </div><!-- .cp-feature-post-section -->
+        <div class="cp-review-tab-section cp-page-top-section">
+          <div class="cp-desc-wrapper cp-text-center">
+            <div class="container">
+              <h2 class="cp-m-0">Hear from our clients</h2>
+              <p class="cp-mb-0 cp-mt-4">Choose from our collection of wide range of products.</p>
+            </div>
+          </div>
+          <div class="cp-tab-menu-content-section">
+            <div class="cp-container">
+              <ul class="cp-tab-menu cp-reset-ul cp-page-top-section-md">
+                <li class="active" id="written-review"><span>Written Reviews (3)</span></li>
+                <li id="video-review"><span>Video Reviews (0)</span></li>
+              </ul>
+              <ul class="cp-tab-menu-content cp-reset-ul cp-page-top-section-md">
+                <li class="written-review-content">
+                  <div class="cp-testimonial-section cp-pl-6 cp-xs-pl-8 cp-xs-pr-8 cp-lg-pl-10 cp-sm-pr-10">
+                      <div id="testimonial-slider" class="splide cp-slider-section cp-testimonial-slider-section">
+                        <div class="splide__arrows cp-slider-arrow-section">
+                          <button class="splide__arrow splide__arrow--prev cp-arrow cp-arrow-prev">
+                            <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M0.283405 11.6542L10.4666 21.2504C10.6365 21.4106 10.8623 21.5 11.097 21.5C11.3318 21.5 11.5575 21.4106 11.7274 21.2504L11.7384 21.2396C11.821 21.1619 11.8869 21.0684 11.9318 20.9648C11.9768 20.8612 12 20.7496 12 20.6369C12 20.5241 11.9768 20.4126 11.9318 20.3089C11.8869 20.2053 11.821 20.1119 11.7384 20.0342L2.14902 10.9982L11.7384 1.96581C11.821 1.88815 11.8869 1.79467 11.9318 1.69106C11.9768 1.58745 12 1.47587 12 1.36311C12 1.25035 11.9768 1.13878 11.9318 1.03516C11.8869 0.931552 11.821 0.838071 11.7384 0.76041L11.7274 0.749567C11.5575 0.589368 11.3318 0.5 11.097 0.5C10.8623 0.5 10.6365 0.589368 10.4666 0.749567L0.283405 10.3458C0.193848 10.4302 0.122551 10.5317 0.073835 10.6441C0.0251193 10.7566 -4.64317e-07 10.8777 -4.5897e-07 11C-4.53622e-07 11.1223 0.0251193 11.2434 0.073835 11.3559C0.122551 11.4683 0.193848 11.5698 0.283405 11.6542Z" fill="currentColor"/>
+                            </svg>
+                          </button>
+                          <button class="splide__arrow splide__arrow--next cp-arrow cp-arrow-next">
+                            <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M11.7166 11.6542L1.53337 21.2504C1.36346 21.4106 1.13772 21.5 0.902976 21.5C0.668229 21.5 0.442492 21.4106 0.272579 21.2504L0.261615 21.2396C0.17896 21.1619 0.113143 21.0684 0.0681677 20.9648C0.0231924 20.8612 -9.20875e-07 20.7496 -9.15947e-07 20.6369C-9.11018e-07 20.5241 0.0231925 20.4126 0.0681677 20.3089C0.113143 20.2053 0.17896 20.1118 0.261615 20.0342L9.85098 10.9982L0.261616 1.96581C0.178961 1.88815 0.113144 1.79467 0.0681686 1.69106C0.0231933 1.58745 -7.83917e-08 1.47587 -7.3463e-08 1.36311C-6.85342e-08 1.25035 0.0231933 1.13878 0.0681686 1.03516C0.113144 0.93155 0.178961 0.838071 0.261616 0.76041L0.27258 0.749567C0.442492 0.589368 0.66823 0.5 0.902977 0.5C1.13772 0.5 1.36346 0.589368 1.53338 0.749567L11.7166 10.3458C11.8062 10.4302 11.8774 10.5317 11.9262 10.6441C11.9749 10.7566 12 10.8777 12 11C12 11.1223 11.9749 11.2434 11.9262 11.3559C11.8774 11.4683 11.8062 11.5698 11.7166 11.6542Z" fill="currentColor"/>
+                            </svg>
+                          </button>
+                        </div>                        <div class="splide__track">
+                          <ul class="splide__list">
+                              <li class="splide__slide">
+                                <div class="cp-testimonial-post cp-bg-white-smoke cp-default-border-radius cp-text-center">
+                                  <div class="cp-desc">
+                                    <div class="cp-icon">
+                                      <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.896 18.6C5.70133 18.6 4.61333 18.3013 3.632 17.704C2.69333 17.064 1.94667 16.2107 1.392 15.144C0.837334 14.0347 0.56 12.776 0.56 11.368C0.56 10.2587 0.794667 9.17066 1.264 8.104C1.73333 7.03733 2.37333 6.03466 3.184 5.096C4.03733 4.15733 5.01867 3.32533 6.128 2.6C7.23733 1.87466 8.432 1.32 9.712 0.935997L12.144 3.88C10.48 4.648 9.11467 5.52266 8.048 6.504C6.98133 7.48533 6.448 8.33867 6.448 9.064C6.448 9.61867 6.68267 10.1093 7.152 10.536C7.62133 10.9627 8.048 11.3467 8.432 11.688C9.37067 12.456 9.98933 13.096 10.288 13.608C10.6293 14.12 10.8 14.6533 10.8 15.208C10.8 16.232 10.4373 17.064 9.712 17.704C8.98667 18.3013 8.048 18.6 6.896 18.6ZM20.144 18.6C18.9493 18.6 17.8613 18.3013 16.88 17.704C15.9413 17.064 15.1947 16.2107 14.64 15.144C14.0853 14.0347 13.808 12.776 13.808 11.368C13.808 10.2587 14.0427 9.17066 14.512 8.104C14.9813 7.03733 15.6213 6.03466 16.432 5.096C17.2853 4.15733 18.2667 3.32533 19.376 2.6C20.4853 1.87466 21.68 1.32 22.96 0.935997L25.392 3.88C23.728 4.648 22.3627 5.52266 21.296 6.504C20.2293 7.48533 19.696 8.33867 19.696 9.064C19.696 9.61867 19.9307 10.1093 20.4 10.536C20.8693 10.9627 21.296 11.3467 21.68 11.688C22.6187 12.456 23.2373 13.096 23.536 13.608C23.8773 14.12 24.048 14.6533 24.048 15.208C24.048 16.232 23.6853 17.064 22.96 17.704C22.2347 18.3013 21.296 18.6 20.144 18.6Z" fill="#313D50"/>
+                                      </svg>
+                                    </div>
+                                    <p class="cp-mt-24 cp-sm-mt-40 cp-mb-0">I couldn&#39;t be happier with my purchase! The quality is top-notch, and the customer service was outstanding. I highly recommend this store to anyone looking for great products and excellent support.</p>
+                                    <p class="cp-mt-20 cp-mb-0 cp-d-none"></p>
+                                  </div>
+                                  <div class="cp-author-info cp-mt-24 cp-sm-mt-60">
+                                    <div class="cp-image-section">
+                                      <div class="cp-image cp-bg-image cp-border-radius-rounded cp-m-auto" style="background-image: url(http://cdn.fluid.app/demo_company/product/mia.jpg)"></div>
+                                    </div>
+                                    <div class="cp-fs-8x cp-sm-fs-10x cp-line-height-1 cp-text-black cp-fw-semi-bold cp-mt-5">Mia Ol’ Wallace</div>
+                                    <p class="cp-mt-2 cp-mb-0 cp-line-height-1">Arizona, US</p>
+                                  </div><!-- .cp-author-info -->
+                                </div><!-- .cp-testimonial-post -->
+                              </li>
+                              <li class="splide__slide">
+                                <div class="cp-testimonial-post cp-bg-white-smoke cp-default-border-radius cp-text-center">
+                                  <div class="cp-desc">
+                                    <div class="cp-icon">
+                                      <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.896 18.6C5.70133 18.6 4.61333 18.3013 3.632 17.704C2.69333 17.064 1.94667 16.2107 1.392 15.144C0.837334 14.0347 0.56 12.776 0.56 11.368C0.56 10.2587 0.794667 9.17066 1.264 8.104C1.73333 7.03733 2.37333 6.03466 3.184 5.096C4.03733 4.15733 5.01867 3.32533 6.128 2.6C7.23733 1.87466 8.432 1.32 9.712 0.935997L12.144 3.88C10.48 4.648 9.11467 5.52266 8.048 6.504C6.98133 7.48533 6.448 8.33867 6.448 9.064C6.448 9.61867 6.68267 10.1093 7.152 10.536C7.62133 10.9627 8.048 11.3467 8.432 11.688C9.37067 12.456 9.98933 13.096 10.288 13.608C10.6293 14.12 10.8 14.6533 10.8 15.208C10.8 16.232 10.4373 17.064 9.712 17.704C8.98667 18.3013 8.048 18.6 6.896 18.6ZM20.144 18.6C18.9493 18.6 17.8613 18.3013 16.88 17.704C15.9413 17.064 15.1947 16.2107 14.64 15.144C14.0853 14.0347 13.808 12.776 13.808 11.368C13.808 10.2587 14.0427 9.17066 14.512 8.104C14.9813 7.03733 15.6213 6.03466 16.432 5.096C17.2853 4.15733 18.2667 3.32533 19.376 2.6C20.4853 1.87466 21.68 1.32 22.96 0.935997L25.392 3.88C23.728 4.648 22.3627 5.52266 21.296 6.504C20.2293 7.48533 19.696 8.33867 19.696 9.064C19.696 9.61867 19.9307 10.1093 20.4 10.536C20.8693 10.9627 21.296 11.3467 21.68 11.688C22.6187 12.456 23.2373 13.096 23.536 13.608C23.8773 14.12 24.048 14.6533 24.048 15.208C24.048 16.232 23.6853 17.064 22.96 17.704C22.2347 18.3013 21.296 18.6 20.144 18.6Z" fill="#313D50"/>
+                                      </svg>
+                                    </div>
+                                    <p class="cp-mt-24 cp-sm-mt-40 cp-mb-0">Amazing experience from start to finish! The website was easy to navigate, and my order arrived quickly and in perfect condition.</p>
+                                    <p class="cp-mt-20 cp-mb-0 ">Highly recommend!</p>
+                                  </div>
+                                  <div class="cp-author-info cp-mt-24 cp-sm-mt-60">
+                                    <div class="cp-image-section">
+                                      <div class="cp-image cp-bg-image cp-border-radius-rounded cp-m-auto" style="background-image: url(http://cdn.fluid.app/demo_company/product/leon.jpg)"></div>
+                                    </div>
+                                    <div class="cp-fs-8x cp-sm-fs-10x cp-line-height-1 cp-text-black cp-fw-semi-bold cp-mt-5">Leon Chumsky</div>
+                                    <p class="cp-mt-2 cp-mb-0 cp-line-height-1">Heathrow, UK</p>
+                                  </div><!-- .cp-author-info -->
+                                </div><!-- .cp-testimonial-post -->
+                              </li>
+                              <li class="splide__slide">
+                                <div class="cp-testimonial-post cp-bg-white-smoke cp-default-border-radius cp-text-center">
+                                  <div class="cp-desc">
+                                    <div class="cp-icon">
+                                      <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.896 18.6C5.70133 18.6 4.61333 18.3013 3.632 17.704C2.69333 17.064 1.94667 16.2107 1.392 15.144C0.837334 14.0347 0.56 12.776 0.56 11.368C0.56 10.2587 0.794667 9.17066 1.264 8.104C1.73333 7.03733 2.37333 6.03466 3.184 5.096C4.03733 4.15733 5.01867 3.32533 6.128 2.6C7.23733 1.87466 8.432 1.32 9.712 0.935997L12.144 3.88C10.48 4.648 9.11467 5.52266 8.048 6.504C6.98133 7.48533 6.448 8.33867 6.448 9.064C6.448 9.61867 6.68267 10.1093 7.152 10.536C7.62133 10.9627 8.048 11.3467 8.432 11.688C9.37067 12.456 9.98933 13.096 10.288 13.608C10.6293 14.12 10.8 14.6533 10.8 15.208C10.8 16.232 10.4373 17.064 9.712 17.704C8.98667 18.3013 8.048 18.6 6.896 18.6ZM20.144 18.6C18.9493 18.6 17.8613 18.3013 16.88 17.704C15.9413 17.064 15.1947 16.2107 14.64 15.144C14.0853 14.0347 13.808 12.776 13.808 11.368C13.808 10.2587 14.0427 9.17066 14.512 8.104C14.9813 7.03733 15.6213 6.03466 16.432 5.096C17.2853 4.15733 18.2667 3.32533 19.376 2.6C20.4853 1.87466 21.68 1.32 22.96 0.935997L25.392 3.88C23.728 4.648 22.3627 5.52266 21.296 6.504C20.2293 7.48533 19.696 8.33867 19.696 9.064C19.696 9.61867 19.9307 10.1093 20.4 10.536C20.8693 10.9627 21.296 11.3467 21.68 11.688C22.6187 12.456 23.2373 13.096 23.536 13.608C23.8773 14.12 24.048 14.6533 24.048 15.208C24.048 16.232 23.6853 17.064 22.96 17.704C22.2347 18.3013 21.296 18.6 20.144 18.6Z" fill="#313D50"/>
+                                      </svg>
+                                    </div>
+                                    <p class="cp-mt-24 cp-sm-mt-40 cp-mb-0">Amazing experience from start to finish! The website was easy to navigate, and my order arrived quickly and in perfect condition.</p>
+                                    <p class="cp-mt-20 cp-mb-0 ">Highly recommend!</p>
+                                  </div>
+                                  <div class="cp-author-info cp-mt-24 cp-sm-mt-60">
+                                    <div class="cp-image-section">
+                                      <div class="cp-image cp-bg-image cp-border-radius-rounded cp-m-auto" style="background-image: url(http://cdn.fluid.app/demo_company/product/leon.jpg)"></div>
+                                    </div>
+                                    <div class="cp-fs-8x cp-sm-fs-10x cp-line-height-1 cp-text-black cp-fw-semi-bold cp-mt-5">Ragnar</div>
+                                    <p class="cp-mt-2 cp-mb-0 cp-line-height-1">Arizona, US</p>
+                                  </div><!-- .cp-author-info -->
+                                </div><!-- .cp-testimonial-post -->
+                              </li>
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
+                </li>
+                <li class="video-review-content cp-d-none">
+                  <div class="cp-video-section cp-pl-6 cp-xs-pl-8 cp-xs-pr-8 cp-lg-pl-10 cp-sm-pr-10">
+                    <h3 class="cp-text-center cp-secondary-text-color">Video Review is not available</h3>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cp-ingredients-section cp-page-section">
+          <div class="cp-container">
+            <div class="cp-desc-wrapper cp-text-center cp-pl-4 cp-pr-4 cp-xs-p-0">
+              <h2 class="cp-m-0">The best product for beautiful and healthy skin</h2>
+              <p class="cp-mb-0 cp-mt-4">Experience rapid results through our HydraStat™ Nanotechnology.</p>
+            </div>
+          </div>
+          <div class="cp-tab-menu-content-section">
+            <div class="cp-container">
+              <ul class="cp-tab-menu cp-reset-ul cp-page-top-section-md">
+                <li class="active" id="key-ingredient"><span>Key Ingredients</span></li>
+                <li id="active-ingredient"><span>Active Ingredients</span></li>
+              </ul>
+              <ul class="cp-reset-ul cp-tab-menu-content cp-sm-pt-5 cp-pl-6 cp-pr-6">
+                <li class="key-ingredient-content">
+                  <div class="cp-key-ingredient-section">
+                    <div class="cp-row cp-justify-center">
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/ginger.jpg" alt="ginger" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Ginger</div>
+                          </div>
+                        </div>
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/kakai_root.jpg" alt="kakai root" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Kakai Root</div>
+                          </div>
+                        </div>
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/doncai.jpg" alt="doncai" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Doncai</div>
+                          </div>
+                        </div>
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/aswagandha.jpg" alt="aswagandha" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Aswagandha</div>
+                          </div>
+                        </div>
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/maca_root.jpg" alt="maca root" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Maca Root</div>
+                          </div>
+                        </div>
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/chestberry_extract.jpg" alt="chestberry extract" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Chestberry Extract</div>
+                          </div>
+                        </div>
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/ginger.jpg" alt="ginger" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Ginger</div>
+                          </div>
+                        </div>
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/kakai_root.jpg" alt="kakai root" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Kakai Root</div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="active-ingredient-content cp-d-none">
+                  <div class="cp-active-ingredient-section">
+                    <div class="cp-row cp-justify-center">
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/aswagandha.jpg" alt="aswagandha" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Aswagandha</div>
+                          </div>
+                        </div>
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/maca_root.jpg" alt="maca root" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Maca Root</div>
+                          </div>
+                        </div>
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/ginger.jpg" alt="ginger" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Ginger</div>
+                          </div>
+                        </div>
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/kakai_root.jpg" alt="kakai root" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Kakai Root</div>
+                          </div>
+                        </div>
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/doncai.jpg" alt="doncai" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Doncai</div>
+                          </div>
+                        </div>
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/chestberry_extract.jpg" alt="chestberry extract" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Chestberry Extract</div>
+                          </div>
+                        </div>
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/doncai.jpg" alt="doncai" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Doncai</div>
+                          </div>
+                        </div>
+                        <div class="cp-col cp-col-4 cp-col-xs-3 cp-col-sm-2">
+                          <div class="cp-ingredients-item cp-text-center cp-mt-8">
+                            <div class="cp-image-section">
+                              <img src="http://cdn.fluid.app/demo_company/product/aswagandha.jpg" alt="aswagandha" class="cp-image-cover ">
+                            </div>
+                            <div class="cp-text-black cp-fw-bold cp-fs-xs cp-xs-fs-8x cp-mt-3">Aswagandha</div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="cp-feature-product-post cp-page-section-md cp-bg-white-smoke">
+          <div class="cp-container">
+            <div class="cp-d-flex cp-align-center">
+              <div class="cp-col-12 cp-col-md-6 ">
+                <div class="cp-image-section cp-bg-image cp-default-border-radius">
+                  <img src="http://cdn.fluid.app/demo_company/product/innovative.jpg" alt="Mani Moisture Hydrating Serum" class="cp-image-h-435 cp-image-cover cp-default-border-radius ">
+                </div>
+              </div><!-- .cp-col -->
+              <div class="cp-col-12 cp-col-md-6 ">
+                <div class="cp-desc cp-mt-7 cp-md-mt-0 cp-desc-left">
+                  <h3 class="cp-mt-3 cp-mb-0 cp-fw-medium">Innovative Science</h3>
+                  <p class="cp-mt-4 cp-mb-0 cp-line-height-11x">The molecules in many supplements are too large to be absorbed by the cell, so they get excreted from the body without being used effectively. Neumi uses breakthrough HydraStat Nanotechnology™ to increase the bio.</p>
+                  <div class="cp-btn-section cp-mt-6">
+                    <button class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" data-fluid-checkout="">
+                      Buy Now
+                    </button>
+                  </div> <!-- .cp-btn-section -->
+                </div><!-- .cp-desc -->
+              </div><!-- .cp-col -->
+            </div><!-- .cp-row -->
+          </div><!-- .cp-container -->
+        </div><!-- .cp-product-post -->
+        <div class="cp-feature-product-post cp-page-section-md cp-bg-white">
+          <div class="cp-container">
+            <div class="cp-d-flex cp-align-center">
+              <div class="cp-col-12 cp-col-md-6 cp-md-order-2">
+                <div class="cp-image-section cp-bg-image cp-default-border-radius">
+                  <img src="http://cdn.fluid.app/demo_company/product/nano.jpg" alt="Mani Moisture Hydrating Serum" class="cp-image-h-435 cp-image-cover cp-default-border-radius ">
+                </div>
+              </div><!-- .cp-col -->
+              <div class="cp-col-12 cp-col-md-6 cp-md-order-1">
+                <div class="cp-desc cp-mt-7 cp-md-mt-0 cp-desc-right">
+                  <h3 class="cp-mt-3 cp-mb-0 cp-fw-medium">Nanotechnology</h3>
+                  <p class="cp-mt-4 cp-mb-0 cp-line-height-11x">The molecules in many supplements are too large to be absorbed by the cell, so they get excreted from the body without being used effectively. Neumi uses breakthrough HydraStat Nanotechnology™ to increase the bio.</p>
+                  <div class="cp-btn-section cp-mt-6">
+                    <button class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" data-fluid-checkout="">
+                      Buy Now
+                    </button>
+                  </div> <!-- .cp-btn-section -->
+                </div><!-- .cp-desc -->
+              </div><!-- .cp-col -->
+            </div><!-- .cp-row -->
+          </div><!-- .cp-container -->
+        </div><!-- .cp-product-post -->
+        <div class="cp-feature-product-post cp-page-section-md cp-bg-white-smoke">
+          <div class="cp-container">
+            <div class="cp-d-flex cp-align-center">
+              <div class="cp-col-12 cp-col-md-6 ">
+                <div class="cp-image-section cp-bg-image cp-default-border-radius">
+                  <img src="http://cdn.fluid.app/demo_company/product/quality.jpg" alt="Mani Moisture Hydrating Serum" class="cp-image-h-435 cp-image-cover cp-default-border-radius ">
+                </div>
+              </div><!-- .cp-col -->
+              <div class="cp-col-12 cp-col-md-6 ">
+                <div class="cp-desc cp-mt-7 cp-md-mt-0 cp-desc-left">
+                  <h3 class="cp-mt-3 cp-mb-0 cp-fw-medium">Quality over quantity</h3>
+                  <p class="cp-mt-4 cp-mb-0 cp-line-height-11x">The molecules in many supplements are too large to be absorbed by the cell, so they get excreted from the body without being used effectively. Neumi uses breakthrough HydraStat Nanotechnology™ to increase the bio.</p>
+                  <div class="cp-btn-section cp-mt-6">
+                    <button class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" data-fluid-checkout="">
+                      Buy Now
+                    </button>
+                  </div> <!-- .cp-btn-section -->
+                </div><!-- .cp-desc -->
+              </div><!-- .cp-col -->
+            </div><!-- .cp-row -->
+          </div><!-- .cp-container -->
+        </div><!-- .cp-product-post -->
+        <div class="cp-how-to-use-section cp-page-top-section">
+          <div class="cp-header-section cp-text-center">
+            <div class="cp-container">
+              <h2 class="cp-m-0">How to use</h2>
+              <p class="cp-mb-0 cp-mt-4">Following are the steps to intake the products.</p>
+            </div>
+          </div>
+          <div class="cp-steps-list cp-page-top-section-md">
+              <div class="cp-how-to-use-steps-item">
+                  <div class="cp-container">
+                    <div class="cp-d-flex cp-align-center">
+                      <div class="cp-step-count-section">
+                        <div class="cp-step-count cp-items-center cp-align-center">1</div>
+                      </div>
+                      <div class="cp-step-desc">Measure two (2) teaspoons of product. One capful = teaspoon.</div>
+                    </div>
+                </div>
+              </div>
+              <div class="cp-how-to-use-steps-item">
+                  <div class="cp-container">
+                    <div class="cp-d-flex cp-align-center">
+                      <div class="cp-step-count-section">
+                        <div class="cp-step-count cp-items-center cp-align-center">2</div>
+                      </div>
+                      <div class="cp-step-desc">Swish in your mouth for 30 seconds or more.</div>
+                    </div>
+                </div>
+              </div>
+              <div class="cp-how-to-use-steps-item">
+                  <div class="cp-container">
+                    <div class="cp-d-flex cp-align-center">
+                      <div class="cp-step-count-section">
+                        <div class="cp-step-count cp-items-center cp-align-center">3</div>
+                      </div>
+                      <div class="cp-step-desc">Unlike mouthwash, you can swallow Mani. You can also spit it out, if you prefer.</div>
+                    </div>
+                </div>
+              </div>
+              <div class="cp-how-to-use-steps-item">
+                  <div class="cp-container">
+                    <div class="cp-d-flex cp-align-center">
+                      <div class="cp-step-count-section">
+                        <div class="cp-step-count cp-items-center cp-align-center">4</div>
+                      </div>
+                      <div class="cp-step-desc">Repeat these steps twice a day. Feel free to use Mani more often, if desired.</div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="cp-accordion-section cp-page-section">
+          <div class="cp-container">
+            <h2 class="cp-text-center cp-m-0 cp-pl-5 cp-pr-5 cp-sm-p-0">Frequently Asked Questions</h2>
+            <p class="cp-mt-3 cp-sm-mt-4 cp-mb-0 cp-text-center">Choose from our collection of wide range of products from this range.</p>
+            <div class="cp-accordion-list cp-pt-3 cp-sm-pt-9">
+                  <div class="cp-accordion-item accordion-item cp-bg-white-smoke cp-mt-2 cp-sm-mt-4 active">
+                    <div class="cp-accordion-header accordion-header cp-d-flex">
+                      <div class="cp-title cp-text-black">How much does it cost?</div>
+                      <div class="cp-icon">
+                        <span class="cp-plus">
+                          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.1 9.032V6.856H15.812V9.032H0.1ZM6.692 15.656V0.199999H9.156V15.656H6.692Z" fill="black"/>
+                          </svg>
+                        </span>
+                        <span class="cp-minus">
+                          <svg width="11" height="4" viewBox="0 0 11 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.647813 3.072V0.976H10.3598V3.072H0.647813Z" fill="#313D50"/>
+                          </svg>
+                        </span>
+                      </div><!-- .cp-icon -->
+                    </div><!-- .cp-accordion-header -->
+
+                    <div class="cp-accordion-content accordion-content cp-pt-3 cp-pr-3 cp-sm-pt-3 cp-sm-pr-5 ">
+                      <p class="cp-m-0">We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the there flexibility to grow your business according to your own vision, awhether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings.</p>
+                    </div>
+                  </div>
+                  <div class="cp-accordion-item accordion-item cp-bg-white-smoke cp-mt-2 cp-sm-mt-4 ">
+                    <div class="cp-accordion-header accordion-header cp-d-flex">
+                      <div class="cp-title cp-text-black">Are there any contracts?</div>
+                      <div class="cp-icon">
+                        <span class="cp-plus">
+                          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.1 9.032V6.856H15.812V9.032H0.1ZM6.692 15.656V0.199999H9.156V15.656H6.692Z" fill="black"/>
+                          </svg>
+                        </span>
+                        <span class="cp-minus">
+                          <svg width="11" height="4" viewBox="0 0 11 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.647813 3.072V0.976H10.3598V3.072H0.647813Z" fill="#313D50"/>
+                          </svg>
+                        </span>
+                      </div><!-- .cp-icon -->
+                    </div><!-- .cp-accordion-header -->
+
+                    <div class="cp-accordion-content accordion-content cp-pt-3 cp-pr-3 cp-sm-pt-3 cp-sm-pr-5 cp-d-none">
+                      <p class="cp-m-0">We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the there flexibility to grow your business according to your own vision, awhether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings.</p>
+                    </div>
+                  </div>
+                  <div class="cp-accordion-item accordion-item cp-bg-white-smoke cp-mt-2 cp-sm-mt-4 ">
+                    <div class="cp-accordion-header accordion-header cp-d-flex">
+                      <div class="cp-title cp-text-black">What discounts do I get as an associate?</div>
+                      <div class="cp-icon">
+                        <span class="cp-plus">
+                          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.1 9.032V6.856H15.812V9.032H0.1ZM6.692 15.656V0.199999H9.156V15.656H6.692Z" fill="black"/>
+                          </svg>
+                        </span>
+                        <span class="cp-minus">
+                          <svg width="11" height="4" viewBox="0 0 11 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.647813 3.072V0.976H10.3598V3.072H0.647813Z" fill="#313D50"/>
+                          </svg>
+                        </span>
+                      </div><!-- .cp-icon -->
+                    </div><!-- .cp-accordion-header -->
+
+                    <div class="cp-accordion-content accordion-content cp-pt-3 cp-pr-3 cp-sm-pt-3 cp-sm-pr-5 cp-d-none">
+                      <p class="cp-m-0">We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the there flexibility to grow your business according to your own vision, awhether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings.</p>
+                    </div>
+                  </div>
+                  <div class="cp-accordion-item accordion-item cp-bg-white-smoke cp-mt-2 cp-sm-mt-4 ">
+                    <div class="cp-accordion-header accordion-header cp-d-flex">
+                      <div class="cp-title cp-text-black">Can I cancel anytime?</div>
+                      <div class="cp-icon">
+                        <span class="cp-plus">
+                          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.1 9.032V6.856H15.812V9.032H0.1ZM6.692 15.656V0.199999H9.156V15.656H6.692Z" fill="black"/>
+                          </svg>
+                        </span>
+                        <span class="cp-minus">
+                          <svg width="11" height="4" viewBox="0 0 11 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.647813 3.072V0.976H10.3598V3.072H0.647813Z" fill="#313D50"/>
+                          </svg>
+                        </span>
+                      </div><!-- .cp-icon -->
+                    </div><!-- .cp-accordion-header -->
+
+                    <div class="cp-accordion-content accordion-content cp-pt-3 cp-pr-3 cp-sm-pt-3 cp-sm-pr-5 cp-d-none">
+                      <p class="cp-m-0">We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the there flexibility to grow your business according to your own vision, awhether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings.</p>
+                    </div>
+                  </div>
+                  <div class="cp-accordion-item accordion-item cp-bg-white-smoke cp-mt-2 cp-sm-mt-4 ">
+                    <div class="cp-accordion-header accordion-header cp-d-flex">
+                      <div class="cp-title cp-text-black">What are the incentive programs?</div>
+                      <div class="cp-icon">
+                        <span class="cp-plus">
+                          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.1 9.032V6.856H15.812V9.032H0.1ZM6.692 15.656V0.199999H9.156V15.656H6.692Z" fill="black"/>
+                          </svg>
+                        </span>
+                        <span class="cp-minus">
+                          <svg width="11" height="4" viewBox="0 0 11 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.647813 3.072V0.976H10.3598V3.072H0.647813Z" fill="#313D50"/>
+                          </svg>
+                        </span>
+                      </div><!-- .cp-icon -->
+                    </div><!-- .cp-accordion-header -->
+
+                    <div class="cp-accordion-content accordion-content cp-pt-3 cp-pr-3 cp-sm-pt-3 cp-sm-pr-5 cp-d-none">
+                      <p class="cp-m-0">We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the there flexibility to grow your business according to your own vision, awhether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings.</p>
+                    </div>
+                  </div>
+                  <div class="cp-accordion-item accordion-item cp-bg-white-smoke cp-mt-2 cp-sm-mt-4 ">
+                    <div class="cp-accordion-header accordion-header cp-d-flex">
+                      <div class="cp-title cp-text-black">How do commissions and bonuses work?</div>
+                      <div class="cp-icon">
+                        <span class="cp-plus">
+                          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.1 9.032V6.856H15.812V9.032H0.1ZM6.692 15.656V0.199999H9.156V15.656H6.692Z" fill="black"/>
+                          </svg>
+                        </span>
+                        <span class="cp-minus">
+                          <svg width="11" height="4" viewBox="0 0 11 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.647813 3.072V0.976H10.3598V3.072H0.647813Z" fill="#313D50"/>
+                          </svg>
+                        </span>
+                      </div><!-- .cp-icon -->
+                    </div><!-- .cp-accordion-header -->
+
+                    <div class="cp-accordion-content accordion-content cp-pt-3 cp-pr-3 cp-sm-pt-3 cp-sm-pr-5 cp-d-none">
+                      <p class="cp-m-0">We invite you to explore a world of untapped opportunities through our esteemed partnership program. As a valued partner, you have the there flexibility to grow your business according to your own vision, awhether you seek to diversify your revenue streams, broaden your market presence, or enhance your product offerings.</p>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="cp-cta-section">
+          <div class="cp-container">
+            <div class="cp-bg-image cp-default-border-radius cp-image-overlay" style="background-image: url(http://cdn.fluid.app/demo_company/product/cta.jpg)">
+              <div class="cp-wrapper cp-m-auto cp-position-relative cp-z-index-2">
+                <div class="cp-text-white cp-text-center cp-fs-xxl cp-fw-bold cp-secondary-letter-spacing">Find your next favourite product - shop now</div>
+                <div class="cp-btn-section cp-d-flex cp-justify-center cp-col-gap-3 cp-mt-1 cp-sm-mt-3">
+                  <button class="cp-btn cp-btn-white-border cp-mt-3 cp-w-full cp-xs-w-fit-content" data-fluid-subscription-checkout="">
+                    Purchase One Time
+                    <span class="cp-ml-2">
+                      <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.61597 8.02222L5.43292 4.50906L1.5065 0.73456" stroke="currentColor" stroke-width="1.5"/></svg>
+                    </span>
+                  </button>
+                  <button class="cp-btn cp-btn-primary-bg cp-mt-3  cp-w-full cp-xs-w-fit-content" data-fluid-checkout="">
+                    Add to Subscription 
+                    <span class="cp-ml-2">
+                      <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.61597 8.02222L5.43292 4.50906L1.5065 0.73456" stroke="currentColor" stroke-width="1.5"/></svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="cp-notes-section cp-page-top-section-md">
+        <div class="cp-container">
+          <div class="cp-note cp-line-height-11x">The statements made within this website have not been evaluated by the Food and Drug Administration. These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The statements made within this website have not been evaluated by the Food and Drug Administration. These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease.</div>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script src="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <!-- <script src="../../js/ScriptDemoProductPage.js"></script> -->
+
+    <script defer id='ScriptDemoProductPage'>
+    function productSlider(){
+      const previewSlider = new Splide("#preview-slider", {
+        rewind: true,
+        pagination: false,
+        arrows: false,
+      });
+      const thumbnailsSlider = new Splide("#thumbnail-slider", {
+        start: 0,
+        perPage: 5,
+        gap: 6,
+        rewind: true,
+        pagination: false,
+        isNavigation: true,
+        mediaQuery: "min",
+        breakpoints: {
+          576: {
+            perPage: 5,
+            width: 400,
+          },
+        },
+      });
+
+      previewSlider.sync(thumbnailsSlider);
+      previewSlider.mount();
+      thumbnailsSlider.mount();
+    }
+    function testimonialSlider(){
+      var slider = new Splide("#testimonial-slider",{
+        arrows: false,
+        pagination: false,
+        perPage: 1,
+        cover: false,
+        gap: "20px",
+        padding: {
+          right: "50px"
+        },
+        mediaQuery: "min",
+        rewind: false,
+        breakpoints: {
+          576: {
+            perPage: 2,
+            arrows: true,
+            padding: {
+              right: "0px"
+            },
+          },
+        },
+      });
+      slider.mount();
+    }
+    function trustedBySlider(){
+      var slider = new Splide("#trusted-by-slider", {
+        arrows: false,
+        pagination: false,
+        type: "loop",
+        perPage: 3,
+        autoplay: true,
+        interval: 2000,
+        cover: false,
+        gap: 30,
+        mediaQuery: "min",
+        rewind: true,
+        breakpoints: {
+          1350:{
+            perPage: 7,
+            gap: 40,
+          },
+          1024: {
+            perPage: 5,
+          },
+          768: {
+            perPage: 4,
+          },
+        },
+      });
+      slider.mount();
+    }
+    function subscribe(){
+      $(document).on('click','#subscribe',function(){
+        $('.subscribe-card').addClass('active');
+        $('.one-time-purchase-card').removeClass('active');
+      })
+      $(document).on('click','#one-time',function(){
+        $('.one-time-purchase-card').addClass('active');
+        $('.subscribe-card').removeClass('active');
+      });
+    }
+
+    function quantity(){
+      const quantitySelector = $("#quantity");
+      var value = parseInt(quantitySelector.val());
+
+      $(document).on('click','#increase-btn',function(){
+        value++;
+        quantitySelector.val(value);
+      });
+
+      $(document).on('click','#decrease-btn',function(){
+        if (value === 1) {
+          return;
+        }
+        value--;
+        quantitySelector.val(value);
+      })
+    }
+    function accordion(){
+      $(document).on("click",".accordion-header",function(){
+        $(".accordion-content").not($(this).next()).slideUp();
+        $(".accordion-item").not($(this).parent()).removeClass("active");
+        $(this).next(".accordion-content").slideToggle();
+        $(this).parent(".accordion-item").toggleClass("active");
+      });
+    }
+    function tabMenu(){
+      $(document).on("click", ".cp-tab-menu li", function(e){
+        e.preventDefault();
+        var itemID = $(this).attr('id');
+        var tabContentSelector = $(this).closest('.cp-tab-menu').next('.cp-tab-menu-content');
+        // add active class on tab menu item
+        $(this).siblings('li').removeClass("active");
+        $(this).addClass("active");
+
+        // show/hide tab content
+        tabContentSelector.children('li').css('display','none');
+        tabContentSelector.children('li').removeClass('active');
+        tabContentSelector.children('.' + itemID + '-content').css('display','block');
+        tabContentSelector.children('.' + itemID + '-content').addClass('active');
+
+      })
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+      productSlider();
+      testimonialSlider();
+      trustedBySlider();
+      subscribe();
+      quantity();
+      accordion();
+      tabMenu();
+    });
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+<div class="cp-product-description-section cp-mt-8">
+  <div class="cp-container">
+    <div class="cp-d-flex">
+
+      <div class="cp-col-12 cp-col-md-6">
+        <!-- Preview slider -->
+        <div id="preview-slider" class="splide cp-product-preview-slider">
+          {{#productSlider}}
+            <div class="splide__track">
+              <ul class="splide__list">
+                {{#items}}
+                  <li class="splide__slide">
+                    <img
+                      src="{{image}}"
+                      alt="product"
+                      class="cp-image-cover cp-default-border-radius"
+                    />
+                  </li>
+                {{/items}}
+              </ul>
+            </div>
+          {{/productSlider}}
+        </div>
+        <!-- Thumbnail slider -->
+        <div id="thumbnail-slider" class="splide cp-product-thumbnail-slider cp-slider-section cp-ml-auto cp-mr-auto cp-mt-3">
+          {{>DemoPrevNext}}
+          {{#productSlider}}
+            <div class="splide__track">
+              <ul class="splide__list">
+                {{#items}}
+                  <li class="splide__slide cp-slider-item">
+                    <img
+                      src="{{image}}"
+                      alt="product"
+                    />
+                  </li>
+                {{/items}}
+              </ul>
+            </div>
+          {{/productSlider}}
+        </div>
+
+      </div><!-- .cp-col -->
+
+      <div class="cp-col-12 cp-col-md-6 cp-feature-product-post">
+        <div class="cp-product-desc cp-desc cp-desc-left cp-pt-8 cp-md-pt-0">
+          <h2 class="cp-m-0">{{product_title}}</h2>
+          <div class="cp-rating-section cp-d-flex cp-align-center cp-mt-3 cp-line-height-1">
+            {{>FiveStarRating}}
+            <span class="cp-secondary-text-color cp-pl-3">{{total_reviews}}</span>
+          </div>
+          <p class="cp-mb-0 cp-mt-4">{{product_desc}}</p>
+          {{#subscribe}}
+            <div class="cp-subscribe-card cp-default-bg cp-mt-6 cp-xs-mt-8 cp-text-black subscribe-card active">
+              <div class="cp-title-section cp-d-flex cp-align-center cp-justify-between">
+                <div class="cp-radio-button-section">
+                  <div class="cp-radio-btn cp-mt-3">
+                    <input
+                      type="radio"
+                      id="subscribe"
+                      name="fluid-checkout-subscribe"
+                      value="subscription"
+                      checked
+                    />
+                    <label for="subscribe" class="cp-text-black"><span>{{subscribe_text}}</span></label>
+                  </div>
+                </div>
+                <div class="cp-price-section cp-fs-8x cp-sm-fs-10x cp-line-height-1 cp-d-flex cp-col-gap-3 cp-mt-3">
+                  <span id="crossed_onetime_price" class="cp-is-strike  cp-fw-medium">${{actual_price}}</span>
+                  <span class="cp-fw-semi-bold cp-text-primary" id="subscribe_price">${{subscribed_price}}</span>
+                </div>
+              </div>
+              <ul class="cp-reset-ul cp-items-list cp-pt-2">
+                {{#checklist_items}}
+                  <li class="cp-d-flex cp-align-center cp-mt-2">
+                    <span class="cp-icon">{{>BadgeIcon}}</span>
+                    <span class="cp-caption">{{caption}}</span>
+                  </li>
+                {{/checklist_items}}
+              </ul>
+            </div>
+            <div class="cp-one-time-purchase-card cp-default-bg cp-d-flex cp-align-center cp-justify-between cp-mt-3 one-time-purchase-card">
+              <div class="cp-radio-btn cp-mt-3">
+                <input
+                  type="radio"
+                  id="one-time"
+                  name="fluid-checkout-subscribe"
+                  value="subscription"
+                />
+                <label for="one-time" class="cp-text-black"><span>{{one_time_purchase_text}}<span></label>
+              </div>
+              <div class="cp-price-section cp-fs-8x cp-fs-xs-10x cp-line-height-1 cp-mt-3">
+                <span class="cp-fw-semi-bold cp-text-black" id="onetime_order_price">${{actual_price}}</span>
+              </div>
+
+            </div>
+          {{/subscribe}}
+          <div class="cp-btn-section cp-d-flex cp-pt-5">
+            <div class="cp-quantity-section">
+              <div class="cp-quantity-input">
+                <button id="decrease-btn">-</button>
+                <input
+                  type="number"
+                  id="quantity"
+                  value="1"
+                  name="fluid-checkout-quantity"
+                />
+                <button id="increase-btn">+</button>
+              </div>
+            </div>
+            <div class="cp-add-to-card-btn-section cp-pl-2">
+              <button class="cp-btn cp-btn-primary-bg cp-w-full" data-fluid-checkout="{{product_id}}">
+                {{>PlusIcon}}
+                {{add_to_cart_text}}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div><!-- .cp-col -->
+
+    </div><!-- .cp-d-flex -->
+  </div><!-- .cp-container -->
+</div><!-- .cp-product-description-section -->
