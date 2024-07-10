@@ -50,25 +50,25 @@
             "image": "https://cdn.fluid.app/neumi/landing/images/hers.jpg",
             "product_name": "{{masonary_section.masonary_product_layout1.items.0.product_name}}",
             "url":"https://app.neumi.com/#{affiliate_guid | default:'home'}/page/hers?preview=true",
-            "bg_color":"style=\"background-color:rgba(188,80,176,0.8)\""
+            "bg_color":"style=\"background-color:rgba(188,80,176,0.8)\"",
+            "col_classes": "col-xs-6",
+            "image_position": ""
           },
           {
             "image": "https://cdn.fluid.app/neumi/landing/images/neumi.jpg",
             "product_name": "{{masonary_section.masonary_product_layout1.items.1.product_name}}",
             "url":"https://app.neumi.com/#{affiliate_guid | default:'home'}/page/neumi-skin?preview=true",
-            "bg_color":"style=\"background-color:rgba(41,171,226,0.8)\""
+            "bg_color":"style=\"background-color:rgba(41,171,226,0.8)\"",
+            "col_classes": "col-xs-6",
+            "image_position": ""
           },
           {
             "image":  "https://cdn.fluid.app/neumi/landing/images/nutriswish.png",
             "product_name": "{{masonary_section.masonary_product_layout1.items.2.product_name}}",
             "url":"https://app.neumi.com/#{affiliate_guid | default:'home'}/page/nutriswish?preview=true",
-            "bg_color": "style=\"background-color:rgba(41,77,226,0.8)\""
-          },
-          {
-            "image":  "https://cdn.fluid.app/neumi/landing/images/neuro.png",
-            "product_name": "{{masonary_section.masonary_product_layout1.items.3.product_name}}",
-            "url":"https://app.neumi.com/#{affiliate_guid | default:'home'}/page/neuro?preview=true",
-            "bg_color":"style=\"background-color:rgba(254,152,46,0.8)\""
+            "bg_color": "style=\"background-color:rgba(41,77,226,0.8)\"",
+            "col_classes": "",
+            "image_position": "bg-image-top"
           }
         ],
         "horizontal_image": "https://cdn.fluid.app/neumi/landing/images/horizontal1.png"
