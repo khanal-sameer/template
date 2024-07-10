@@ -57,7 +57,7 @@ function trustedBySlider(){
     autoplay: true,
     interval: 2000,
     cover: false,
-    gap: 30,
+    gap: 60,
     mediaQuery: "min",
     rewind: true,
     breakpoints: {
