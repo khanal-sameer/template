@@ -1,4 +1,10 @@
 $screen_size: xs,sm,md,lg,largeScreen;
+$font_weight_list :(
+  regular: 400,
+  medium: 500,
+  semi-bold: 600,
+  bold: 700,
+);
 body{
   margin: 0;
   font-family: $root_font;
@@ -14,17 +20,10 @@ body{
     font-family: $root_font;
   }
 }
-.#{$prefix}-fw-regular{
-  font-weight: 400;
-}
-.#{$prefix}-fw-medium{
-  font-weight: 500;
-}
-.#{$prefix}-fw-semi-bold{
-  font-weight: 600;
-}
-.#{$prefix}-fw-bold{
-  font-weight: bold;
+@each $font_weight in $font_weight_list{
+  .#{$prefix}-fw-#{nth($font-weight,1)}{
+    font-weight: #{nth($font_weight,2)};
+  }
 }
 .cp-fs-xs{
   font-size: 12px;

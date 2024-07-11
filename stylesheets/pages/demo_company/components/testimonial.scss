@@ -17,11 +17,13 @@
   }
   .#{$prefix}-author-info{
     .#{$prefix}-image{
-      height: 38px;
-      width: 38px;
-      @include media(sm){
-        height: 44px;
-        width: 44px;
+      img{
+        height: 38px;
+        width: 38px;
+        @include media(sm){
+          height: 44px;
+          width: 44px;
+        }
       }
     }
   }

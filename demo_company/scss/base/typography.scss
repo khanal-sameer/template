@@ -1,21 +1,14 @@
 body{
-  margin: 0;
-  font-family: $root_font;
-  font-weight: $root_font_weight;
-  font-size: $root_font_size;
-  letter-spacing: -0.02em;
-  color: $root_text_color;
-  @include media(sm){
-    font-size: $root_font_size_lg_device;
-  }
   h1,h2,h3,h4,h5{
-    letter-spacing: -0.05em;
     margin: 0;
-    font-family: $root_font;
+    letter-spacing: -0.05em;
     color: $heading_text_color;
     .#{$prefix}-text-white{
       color: $white;
     }
+  }
+  .#{$prefix}-heading-text-color{
+    color: $heading_text_color;
   }
   h1,
   .#{$prefix}-fs-xxl{
@@ -26,7 +19,6 @@ body{
       line-height: 44px;
     }
   }
-  .#{$prefix}-fs-xxl,
   .#{$prefix}-secondary-letter-spacing{
     letter-spacing: -0.05em;
   }
@@ -40,8 +32,8 @@ body{
     }
   }
   h3{
-    font-weight: 500;
     font-size: 16px;
+    font-weight: 500;
     @include media(sm){
       font-size: 24px;
     }
@@ -51,19 +43,8 @@ body{
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    @include media(sm){
-      font-size: 1rem;
-    }
-  }
-  a{
-    text-decoration: none;
   }
   p{
     line-height: 20px;
   }
-
-  .#{$prefix}-heading-text-color{
-    color: #000;
-  }
-
 }

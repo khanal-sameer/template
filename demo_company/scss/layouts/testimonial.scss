@@ -2,10 +2,7 @@
   .#{$prefix}-slider-container{
     padding-right: 0;
     @include media(sm){
-      padding: 0 30px;
-    }
-    @include media(largeScreen){
-      padding: 0 15px;
+      padding: 0 24px;
     }
   }
 }
