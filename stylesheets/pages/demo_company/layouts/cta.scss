@@ -1,0 +1,22 @@
+/*
+  .#{$prefix}-cta-section
+    1.Landing page
+    2.Product page
+*/
+.#{$prefix}-cta-section{
+  .#{$prefix}-wrapper{
+    max-width: 100%;
+    padding: 116px 24px 24px;
+    @include media(sm){
+      padding: 200px 0 68px;
+      width: 500px;
+    }
+  }
+  .#{$prefix}-btn-section{
+    .#{$prefix}-btn-wrapper{
+      @include media(sm){
+        flex: auto;
+      }
+    }
+  }
+}
