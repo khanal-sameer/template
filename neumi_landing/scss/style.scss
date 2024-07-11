@@ -29,6 +29,20 @@
       }
     }
   }
+  .hers-bg-image{
+    @include breakpoint-up("xl-phone"){
+      background-position-y: -90px;
+    }
+    @include breakpoint-up("md-tab"){
+      background-position-y: -200px;
+    }
+    @include breakpoint-up("lg-tab"){
+      background-position-y: -135px;
+    }
+    @include breakpoint-up("sm-desktop"){
+      background-position-y: -235px;
+    }
+  }
 }
 .product-style-1 {
   .wrapper{
