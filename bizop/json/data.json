@@ -129,7 +129,7 @@
     "alt_text":"{{enrollment.alt_text}}",
     "preview_slider":[
       {
-        "product_id": "1"
+        "product_id": "13"
       },
       {
         "product_id": "24"
@@ -140,7 +140,7 @@
     ],
     "enrollment_slider":[
       {
-        "product_id": "1",
+        "product_id": "13",
         "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/enrollments/vxNiSag1c2aikwSAamR21nSq?preview=true"
       },
       {
