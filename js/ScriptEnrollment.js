@@ -98,4 +98,20 @@ document.addEventListener("DOMContentLoaded", async function () {
   });
 
   if (hasEnrollments) container.classList.remove("is-hide");
+  
+  const enrollPreviewSlider = new Splide("#enroll-preview-slider ", {
+    pagination: false,
+  });
+
+  const enrollThumbnailsSlider = new Splide("#enroll-pack-nav-slider", {
+    start: 0,
+    perPage: 1,
+    pagination: false,
+    isNavigation: true,
+    rewind: false
+  });
+
+  enrollPreviewSlider.sync(enrollThumbnailsSlider);
+  enrollPreviewSlider.mount();
+  enrollThumbnailsSlider.mount();
 });
