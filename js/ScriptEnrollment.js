@@ -80,8 +80,8 @@ document.addEventListener("DOMContentLoaded", async function () {
     const enroll = container.querySelector(`[data-product="enrollment_${id}"]`);
 
     if (hide) {
-      element.classList.add("is-hide");
-      enroll.classList.add("is-hide");
+      element.remove();
+      enroll.remove();
       return;
     }
 
