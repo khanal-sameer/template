@@ -1,4 +1,4 @@
-.cp-default-border-radius{
+.#{$prefix}-default-border-radius{
   border-radius: 16px;
   &:before{
     border-radius: inherit;

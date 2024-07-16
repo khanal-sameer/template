@@ -29,13 +29,13 @@
       padding-bottom: 60px;
     }
   }
-  .cp-desc{
+  .#{$prefix}-desc{
     @include media(sm){
       width: 320px;
     }
   }
-  .cp-icon-section{
-    .cp-icon-wrapper{
+  .#{$prefix}-icon-section{
+    .#{$prefix}-icon-wrapper{
       width: 34px;
       margin: auto;
       @include media(sm){

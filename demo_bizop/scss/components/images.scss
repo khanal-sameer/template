@@ -1,5 +1,5 @@
 
-.cp-image-h-440{
+.#{$prefix}-image-h-440{
   height: 244px;
   @include media(xs){
     height: 300px;

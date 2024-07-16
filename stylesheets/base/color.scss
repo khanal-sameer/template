@@ -1,9 +1,10 @@
-.cp-text-white{
-  color: white;
-}
-.cp-text-black{
-  color: $black;
-}
-.cp-text-primary{
-  color: $primary;
+$text_color_list:(
+  ("white", $white),
+  ("black", $black),
+  ("primary", $primary),
+);
+@each $text_color in $text_color_list{
+  .#{$prefix}-text-#{nth($text_color,1)}{
+    color: #{nth($text_color,2)};
+  }
 }

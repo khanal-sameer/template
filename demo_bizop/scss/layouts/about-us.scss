@@ -1,15 +1,15 @@
-.cp-about-us-section{
-  .cp-wrapper{
+.#{$prefix}-about-us-section{
+  .#{$prefix}-wrapper{
     width: 1143px;
     margin: auto;
     max-width: 100%;
   }
-  .cp-title-section{
+  .#{$prefix}-title-section{
     @include media(lg){
       @include flex-width(460px);
     }
   }
-  .cp-desc{
+  .#{$prefix}-desc{
     @include media(lg){
       padding-left: 45px;
       @include flex-width(calc(100% - 460px));
@@ -19,7 +19,7 @@
 
     }
   }
-  .cp-image-section {
+  .#{$prefix}-image-section {
     height: 244px;
     @include media(sm){
       height: 300px;

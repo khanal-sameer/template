@@ -1,5 +1,5 @@
-.cp-total-customer-section{
-  .cp-image-section{
+.#{$prefix}-total-customer-section{
+  .#{$prefix}-image-section{
     height: 165px;
     @include media(sm){
       height: 327px;
@@ -12,7 +12,7 @@
       @include font-size(28px,1);
     }
   }
-  .cp-title{
+  .#{$prefix}-title{
     font-size: 24px;
     font-weight: $font_bold;
     @include font-size(24px,1);

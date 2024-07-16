@@ -2,14 +2,14 @@ body{
   h1,h2,h3,h4,h5{
     letter-spacing: -0.05em;
     margin: 0;
-    color: #000;
-    font-weight: 700;
+    color: $heading_text_color;
     .#{$prefix}-text-white{
       color: white;
     }
   }
   h1,
   .#{$prefix}-fs-xxl{
+    font-weight: 700;
     @include font-size(24px);
     @include media(sm){
       @include font-size(38px);
@@ -19,6 +19,7 @@ body{
     letter-spacing: -0.05em;
   }
   h2{
+    font-weight: 700;
     @include font-size(24px);
     @include media(sm){
       @include font-size(42px);
@@ -46,10 +47,10 @@ body{
     line-height: 20px;
   }
 
-  .#{$prefix}-heading-text-color{
-    color: #000;
+  .#{$prefix}-text-heading{
+    color: $heading_text_color;
   }
-  .#{$prefix}-secondary-text-color{
-    color: #627491;
+  .#{$prefix}-text-secondary{
+    color: $secondary_text_color;
   }
 }

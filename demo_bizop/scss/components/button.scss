@@ -31,10 +31,15 @@
   background-color: $primary;
   color: $primary_bg_text_color;
   border-color: $primary;
-
+  &:hover{
+    color: $white;
+  }
 }
 .#{$prefix}-btn-white-text{
   background-color: transparent;
   color: $white;
   border-color: transparent;
+  &:hover{
+    color: $white;
+  }
 }
