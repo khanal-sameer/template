@@ -16,8 +16,10 @@ body{
   @include media(xs){
     font-size: $root_font_size_lg_device;
   }
-  h1,h2,h3,h4,h5{
-    font-family: $root_font;
+  .#{$prefix}-custom-page{
+    h1,h2,h3,h4,h5{
+      font-family: $root_font;
+    }
   }
 }
 @each $font_weight in $font_weight_list{

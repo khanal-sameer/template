@@ -12,6 +12,11 @@ $radio_checked_size_xs: 16px;
     padding-left: 32px;
     line-height: 1;
     cursor: pointer;
+    &::before,
+    &:after{
+      box-sizing: unset;
+      -webkit-box-sizing: unset;
+    }
     &:before {
       content: "";
       position: absolute;

@@ -13,8 +13,19 @@
     <!-- <link rel="stylesheet" href="../css/style.css"> -->
     {{>Style}}
   </head>
-  <body class="cp-demo-custom-page">
-    <div  class='cp-demo-product-page cp-pt-8 cp-page-bottom-section cp-bg-white'>
+  <body>
+    <div  class='cp-demo-product-page cp-custom-page cp-pt-8 cp-page-bottom-section cp-bg-white'>
+      <div class="cp-breadcrumb-section">
+          <div class="cp-container">
+            <ul class="cp-breadcrumb cp-reset-ul cp-d-flex cp-col-gap-2">
+              <li class="cp-secondary-text">
+                <a href="#" class="cp-secondary-text">All product</a>
+                <span class="cp-pl-2">/</span>
+              </li>
+              <li>Skincare</li>
+            </ul>
+          </div>
+      </div>
       {{>DemoProductDescription}}
       {{#product_feature_list}}
         <div class="cp-feature-section cp-mt-3 cp-md-mt-8">
@@ -25,7 +36,7 @@
                   <div class="cp-product-feature-post cp-border cp-default-bg cp-default-border-color cp-mt-2 cp-xs-mt-5 cp-default-border-radius cp-text-center">
                     <div class="cp-icon-section">{{icon}}</div>
                     <h3 class="cp-mb-0 cp-mt-4">{{title}}</h3>
-                    <p class="cp-mb-0 cp-mt-4 cp-secondary-text-color">{{desc}}</p>
+                    <p class="cp-mb-0 cp-mt-4 cp-secondary-text">{{desc}}</p>
                   </div>
                 </div>
               {{/items}}
