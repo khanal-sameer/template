@@ -1,9 +1,4 @@
 .#{$prefix}-custom-page{
-  ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
   a{
     text-decoration: none;
   }
@@ -11,6 +6,8 @@
     font-family: inherit;
   }
   .splide__slide img{
-    object-fit: inherit;
+    &.cp-image-cover{
+      object-fit: cover;
+    }
   }
 }
