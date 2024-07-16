@@ -7,22 +7,6 @@
     padding: 60px 40px;
   }
 }
-.#{$prefix}-product-feature-item-style-1{
-  .#{$prefix}-icon-section{
-    @include flex-width(28px);
-    @include media(sm){
-      @include flex-width(36px);
-    }
-  }
-  .#{$prefix}-item-desc{
-    padding-left: 16px;
-    @include flex-width(calc(100% - 28px));
-    @include media(sm){
-      padding-left: 30px;
-      @include flex-width(calc(100% - 36px));
-    }
-  }
-}
 .cp-product-benefits-section{
   .cp-desc-wrapper{
     width: 1020px;
@@ -35,19 +19,7 @@
       }
       @include media(sm){
         max-height: 680px;
-
       }
-    }
-  }
-  .#{$prefix}-desc{
-    @include media(md){
-      padding-left: 44px;
-    }
-    @include media(lg){
-      padding-left: 60px;
-    }
-    @include media(largeScreen){
-      padding-left: 112px;
     }
   }
 }

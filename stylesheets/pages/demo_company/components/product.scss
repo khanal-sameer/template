@@ -1,3 +1,9 @@
+/***********
+  1.#{$prefix}-product-feature-item-style-1
+    -> product and landing page
+  2.#{$prefix}-feature-product-post
+    -> product and landing page
+*********/
 .#{$prefix}-product-feature-item-style-1{
   .#{$prefix}-icon-section{
     @include flex-width(28px);
@@ -14,21 +20,8 @@
     }
   }
 }
-// .#{$prefix}-product-feature-section,
-// .#{$prefix}-feature-product-post{
-//   .#{$prefix}-desc{
-//     @include media(sm){
-//       padding-left: 44px;
-//     }
-//     @include media(lg){
-//       padding-left: 60px;
-//     }
-//     @include media(largeScreen){
-//       padding-left: 112px;
-//     }
-//   }
-// }
 .#{$prefix}-feature-product-post{
+  // Full width: post;
   .#{$prefix}-desc{
     &.#{$prefix}-desc-left{
       @include media(md){

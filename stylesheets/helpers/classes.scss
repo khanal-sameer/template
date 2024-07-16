@@ -1,4 +1,5 @@
 
+
 a,
 span{
   display: inline-block;
@@ -23,7 +24,8 @@ span{
 .#{$prefix}-transition-ease{
   @include transition(all,0.3s,ease);
 }
-img{
+img,
+.#{$prefix}-v-middle{
   vertical-align: middle;
 }
 img,

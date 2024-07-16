@@ -1,8 +1,8 @@
 $radio_btn_size: 16px;
 $radio_btn_size_xs: 20px;
 $radio_checked_size: 12px;
-$radio_checked_size_xs: 14px;
-.#{$prefix}-radio-btn {
+$radio_checked_size_xs: 16px;
+.#{$prefix}-custom-radio-btn {
   position: relative;
   min-height: 22px;
   label {
@@ -19,7 +19,7 @@ $radio_checked_size_xs: 14px;
       border-radius: 100%;
       @include box-size($radio_btn_size,$radio_btn_size);
       left: 0;
-      top: 1px;
+      top: 0;
       @include border();
       border-color: $black;
       background-color: #fff;
@@ -35,11 +35,10 @@ $radio_checked_size_xs: 14px;
   input {
     position: absolute;
     left: 0;
-    top: 1px;
+    top: 0;
     opacity: 0;
     outline: none;
     z-index: 3;
-    border-radius: 100%;
     padding: 0;
     margin: 0;
     @include box-size($radio_btn_size,$radio_btn_size);
@@ -52,14 +51,12 @@ $radio_checked_size_xs: 14px;
           content: "";
           position: absolute;
           left: 3px;
-          top: 4px;
+          top: 3px;
           @include box-size($radio_checked_size,$radio_checked_size);
           background-color: $primary;
           border-radius: 50%;
           @include media(xs){
             @include box-size($radio_checked_size_xs,$radio_checked_size_xs);
-            // left: 4px;
-            // top: 5px;
           }
         }
         &:before {

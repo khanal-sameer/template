@@ -26,22 +26,26 @@
   button{
     cursor: pointer;
     @extend %quantity-input;
-    font-size: $root_font_size_lg_device;
+    &:hover{
+      color: $primary;
+    }
+    svg{
+      vertical-align: middle;
+    }
   }
   input{
     @extend %quantity-input;
     -webkit-appearance: none;
     font-size: 20px;
+    outline: none;
   }
 }
-/* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* Firefox */
-// input[type=number] {
-//   -moz-appearance: textfield;
-// }
+input[type=number] {
+  -moz-appearance: textfield;
+}

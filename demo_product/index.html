@@ -13,16 +13,16 @@
     <!-- <link rel="stylesheet" href="../css/style.css"> -->
     {{>Style}}
   </head>
-  <body>
+  <body class="cp-demo-custom-page">
     <div  class='cp-demo-product-page cp-pt-8 cp-page-bottom-section cp-bg-white'>
       {{>DemoProductDescription}}
       {{#product_feature_list}}
-        <div class="cp-feature-section cp-mt-2 cp-xs-mt-8">
+        <div class="cp-feature-section cp-mt-3 cp-md-mt-8">
           <div class="cp-container">
             <div class="cp-row cp-justify-center">
               {{#items}}
                 <div class="cp-col cp-col-12 cp-col-xs-6 cp-col-md-4">
-                  <div class="cp-product-feature-post cp-border cp-default-bg cp-default-border-color cp-mt-6 cp-default-border-radius cp-text-center">
+                  <div class="cp-product-feature-post cp-border cp-default-bg cp-default-border-color cp-mt-2 cp-xs-mt-5 cp-default-border-radius cp-text-center">
                     <div class="cp-icon-section">{{icon}}</div>
                     <h3 class="cp-mb-0 cp-mt-4">{{title}}</h3>
                     <p class="cp-mb-0 cp-mt-4 cp-secondary-text-color">{{desc}}</p>
@@ -76,14 +76,14 @@
               <h2 class="cp-m-0  cp-fw-medium">{{title}}</h2>
               <p class="cp-m-0 cp-pt-3 cp-xs-pt-5 ">{{{desc}}}</p>
             </div>
-            <div class="cp-d-flex cp-sm-pt-8">
+            <div class="cp-feature-product-post cp-d-flex cp-sm-pt-8">
               <div class="cp-col-12 cp-col-md-6">
                 <div class="cp-image-section cp-bg-image cp-mt-8 cp-md-mt-6">
                   <img src="{{image}}" alt="{{product_title}}" class="cp-image-cover cp-default-border-radius">
                 </div>
               </div><!-- .cp-col -->
               <div class="cp-col-12 cp-col-md-6">
-                <div class="cp-desc cp-items-list cp-pt-3 cp-md-mt-6">
+                <div class="cp-desc cp-desc-left cp-items-list cp-pt-3 cp-md-mt-6">
                   {{#items}}
                     <div class="cp-product-feature-item cp-product-feature-item-style-1 cp-d-flex cp-mt-6 cp-md-mt-12">
                       <div class="cp-icon-section">
@@ -95,7 +95,7 @@
                       </div>
                     </div>
                   {{/items}}
-                  <div class="cp-btn-section cp-mt-6 cp-md-mt-12">
+                  <div class="cp-btn-section cp-mt-6 cp-md-mt-12 cp-pb-4">
                     <button class="cp-btn cp-btn-primary-bg cp-w-full"  data-fluid-checkout="{{product_id}}">
                       {{>PlusIcon}}
                       {{add_to_cart_text}}
@@ -200,9 +200,9 @@
         </div>
       </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
     <script src="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-    <script src="../../js/ScriptDemoProductPage.js"></script>
+    <!-- <script src="../../js/ScriptDemoProductPage.js"></script> -->
     {{>ScriptDemoProductPage}}
   </body>
 </html>
