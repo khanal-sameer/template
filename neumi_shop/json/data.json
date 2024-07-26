@@ -39,19 +39,19 @@
         "title": "NutriSwish",
         "product_id": "9474",
         "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish.png",
-        "url":"https://app.neumi.com/#{affiliate_guid | default:'home'}/page/nutriswish?preview=true"
+        "url":"https://app.neumi.com/#{affiliate_guid | default:'home'}/page/nutriswish"
       },
       {
         "title": "Neumi Skin",
         "product_id": "9467",
         "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin.png",
-        "url":"https://app.neumi.com/#{affiliate_guid | default:'home'}/page/neumi-skin?preview=true"
+        "url":"https://app.neumi.com/#{affiliate_guid | default:'home'}/page/neumi-skin"
       },
       {
         "title": "Hers",
         "product_id": "9410",
         "image": "https://cdn.fluid.app/neumi/shop/images/hers.png",
-        "url":"https://app.neumi.com/#{affiliate_guid | default:'home'}/page/hers?preview=true"
+        "url":"https://app.neumi.com/#{affiliate_guid | default:'home'}/page/hers"
       }
     ]
   },
@@ -62,30 +62,30 @@
         {
           "title": " NutriSwish Quarterly Pack",
           "product_id": "9450",
-          "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/shop/nutriswish-quarterly-pack-qp_sw6-1?preview=true"
+          "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/shop/nutriswish-quarterly-pack-qp_sw6-1"
         },
         {
           "title": " Neumi Skin Quarterly Pack",
           "product_id": "9449",
-          "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/shop/neumi-skin-quarterly-pack-qp_sk6-1?preview=true"
+          "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/shop/neumi-skin-quarterly-pack-qp_sk6-1"
 
         },
         {
           "title": " Classic Quarterly Pack",
           "product_id": "9445",
-          "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/shop/classic-quarterly-pack-qp_sk2_sw4-1?preview=true"
+          "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/shop/classic-quarterly-pack-qp_sk2_sw4-1"
 
         },
         {
           "title": " Classic Essential Pack",
           "product_id": "9407",
-          "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/shop/classic-essential-pack-ep_sk1_sw1?preview=true"
+          "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/shop/classic-essential-pack-ep_sk1_sw1"
 
         },
         {
           "title": "Mini Bundle Pack",
           "product_id": "9395",
-          "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/shop/mini-bundle-pack-bp_sk3_sw3-1?preview=true"
+          "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/shop/mini-bundle-pack-bp_sk3_sw3-1"
 
         }
       ]
