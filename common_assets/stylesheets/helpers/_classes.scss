@@ -54,3 +54,9 @@ img {
 .trim-2{
   @include trim(2);
 }
+.image-contain{
+  object-position: center;
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
