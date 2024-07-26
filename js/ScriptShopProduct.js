@@ -47,9 +47,9 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (!data) return null;
 
         const {price,subPrice} = getCountryData(data.variants || []) || {}
-        const {image_url, title} = data;
+        const {image_url, title, publish_to_retail_store } = data;
 
-        return { price, subPrice, image_url, title }
+        return { price, subPrice, image_url, title,publish_to_retail_store }
       }
       catch {
         return null
@@ -59,19 +59,19 @@ document.addEventListener('DOMContentLoaded', async function () {
     containers.forEach(async (element)=> {
         const id = extractId    (element.id);
         const data = await fetchVariantsDetail(id) || {}
-        const { price: p, image_url, title} = data;
+        const { price: p, image_url, title, publish_to_retail_store } = data;
 
         if(!p) return ;
 
         const img = element.querySelector('.p-image');
-        const bg_image = element.querySelector('.bg-image')
-        const name = element.querySelector('.p-name')
-        const price = element.querySelector('.p-price')
+        const name = element.querySelector('.p-name');
+        const price = element.querySelector('.p-price');
+
+        if( !publish_to_retail_store ){
+          $(`#product_${id}`).hide();
+        }
         if( img != null){
           img.src = image_url
-        }
-        if(bg_image != null){
-          bg_image.style.backgroundImage = `url(${image_url})`
         }
         name.textContent = title;
         price.textContent = p
