@@ -52,6 +52,12 @@
         "product_id": "9410",
         "image": "https://cdn.fluid.app/neumi/shop/images/hers.png",
         "url":"https://app.neumi.com/#{affiliate_guid | default:'home'}/page/hers"
+      },
+      {
+        "product_name": "Neuro",
+        "product_id": "9783",
+        "image": "https://cdn.fluid.app/neumi/shop/images/neuro.png",
+        "url":"https://app.neumi.com/#{affiliate_guid | default:'home'}/page/neuro"
       }
     ]
   },
