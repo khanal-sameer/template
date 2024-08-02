@@ -29,7 +29,7 @@
       }
     }
   }
-  .hers-bg-image{
+  .bg-image-customize-position{
     @include breakpoint-up("xl-phone"){
       background-position-y: -90px;
     }

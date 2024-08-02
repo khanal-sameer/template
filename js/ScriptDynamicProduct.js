@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     const cookie = extractCookie('country');
     const country = window.country || cookie.country || 'us'
     const selector = '[id^="{{selector}}"]';
+    let neumilandingTotalActiveProduct= 0;
 
 
     const containers = document.querySelectorAll(selector)
@@ -48,34 +49,55 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         const {price,subPrice} = getCountryData(data.variants || []) || {}
         const {image_url, title, publish_to_retail_store } = data;
-
+        if( publish_to_retail_store ){
+          neumilandingTotalActiveProduct+=1;
+        }
         return { price, subPrice, image_url, title,publish_to_retail_store }
       }
       catch {
         return null
       }
+
     }
 
-    containers.forEach(async (element)=> {
-        const id = extractId    (element.id);
-        const data = await fetchVariantsDetail(id) || {}
-        const { price: p, image_url, title, publish_to_retail_store } = data;
 
-        if(!p) return ;
+    const promises = Array.from(containers).map(async (element)=> {
+      const id = extractId    (element.id);
+      const data = await fetchVariantsDetail(id) || {}
+      const { price: p, image_url, title, publish_to_retail_store } = data;
+      if(!p) return ;
 
-        const img = element.querySelector('.p-image');
-        const name = element.querySelector('.p-name');
-        const price = element.querySelector('.p-price');
+      const img = element.querySelector('.p-image');
+      const name = element.querySelector('.p-name');
+      const price = element.querySelector('.p-price');
+      const isNeumiLandingPage = element.classList.contains('neumi-landing-page-product');
 
-        if( !publish_to_retail_store ){
-          $(`#product_${id}`).hide();
-        }
+
+      if( !publish_to_retail_store ){
+        $(`#product_${id}`).hide();
+      }
+
+      if( !isNeumiLandingPage ){
         if( img != null){
           img.src = image_url
         }
         name.textContent = title;
-        price.textContent = p
+        price.textContent = p;
+      }
 
-        element.classList.remove('is-hide')
-    })
+      element.classList.remove('is-hide')
+
+    });
+    await Promise.all(promises);
+
+    if( $('div').hasClass('neumi-landing-page-product') ){
+      if(neumilandingTotalActiveProduct == 3){
+        $('.neumi-landing-page-product:nth-child(3)').removeClass('col-xs-6');
+        $('.neumi-landing-page-product:nth-child(3) .product-image').addClass('bg-image-customize-position asdas');
+      }else if( neumilandingTotalActiveProduct <=2 ){
+        $('.neumi-landing-page-product .product-image').addClass('lg-image').removeClass('sm-image');
+      }else{
+
+      }
+    }
   })
