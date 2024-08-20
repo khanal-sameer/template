@@ -31,6 +31,7 @@ const populateHTML = (
   project,
   style_tmpl,
   partials_tmpl,
+  project_partials
 ) => {
   const data = JSON.parse(readFile(lang));
 
@@ -39,10 +40,10 @@ const populateHTML = (
   const langReplaced = Mustache.render(lang_tmpl, data);
   const replaceData = replaceIterableInt(langReplaced, "rating");
   const parsedData = JSON.parse(replaceData);
-  
+
   parsedData.style = style_tmpl
 
-  const rendered = Mustache.render(tmpl, parsedData, partials_tmpl, { escape });
+  const rendered = Mustache.render(tmpl, parsedData, partials_tmpl, project_partials, { escape });
   const locale_name = path.parse(lang).name;
   const page_name = path.join(pages, `${project}_${locale_name}.html`);
 
@@ -75,20 +76,21 @@ const init = (args) => {
 const populate = (args) => {
   const options = { project: false };
   checkMultiple(args, options);
-  const [locales, page, lang_temp, pages, project, style, partials,scripts] =
+  const [locales, page, lang_temp, pages, project, style, partials,scripts,project_partials] =
     populatePath(args?.project[0]);
 
   const tmpl = readFile(page);
   const lang_tmpl = readFile(lang_temp);
   const style_tmpl = readFile(style);
   const partials_tmpl = readDir(partials);
+  const project_partials_tmpl = readDir(project_partials);
   const scripts_tmpl = readDir(scripts, (key,value) =>`\n<script defer id='${key}'>\n${value}\n</script>\n`)
-  const partial = {...partials_tmpl, ...scripts_tmpl}
+  const partial = {...partials_tmpl, ...scripts_tmpl, ...project_partials_tmpl }
 
  const style_comp  = `<style>
   ${style_tmpl} </style>
   `;
-  
+
   locales.forEach((lang) =>
     populateHTML(
       lang,
@@ -98,6 +100,7 @@ const populate = (args) => {
       project,
       style_comp,
       partial,
+      project_partials_tmpl
     )
   );
 };

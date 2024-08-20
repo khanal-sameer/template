@@ -18,7 +18,7 @@ const rootAbs = [".", "/", "./"];
 
 const createDir = (dest = "") => {
   const dirname = path.dirname(dest);
-  
+
   if (rootAbs.includes(dirname)) return;
 
   fs.mkdirSync(dirname, { recursive: true });
@@ -127,7 +127,8 @@ export const populatePath = (project) => {
   const pages = path.join(project,'pages')
   const style = path.join(project,"css","style.css")
   const partials = path.join('partials')
+  const project_partials = path.join(project,'partials')
   const scripts = path.join('js')
 
-  return [locales, template, data, pages, project,style, partials, scripts]
+  return [locales, template, data, pages, project,style, partials, scripts,project_partials]
 };
