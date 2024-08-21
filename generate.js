@@ -67,26 +67,29 @@ const init = (args) => {
     project: true,
     locale: true,
     base: false,
+    partials: false
   };
+
 
   checkMultiple(args, options);
   return initProject(args);
 };
 
 const populate = (args) => {
-  const options = { project: false };
+  const options = { project: false, partials: false };
   checkMultiple(args, options);
-  const [locales, page, lang_temp, pages, project, style, partials,scripts,project_partials] =
-    populatePath(args?.project[0]);
+  const partial_key = args?.partials[0]
+  const paths = populatePath(args?.project[0], partial_key);
 
+  const [locales, page, lang_temp, pages, project, style, partials,scripts,project_partials,project_scripts_partials] = paths;
   const tmpl = readFile(page);
   const lang_tmpl = readFile(lang_temp);
   const style_tmpl = readFile(style);
   const partials_tmpl = readDir(partials);
   const project_partials_tmpl = readDir(project_partials);
-  const scripts_tmpl = readDir(scripts, (key,value) =>`\n<script defer id='${key}'>\n${value}\n</script>\n`)
-  const partial = {...partials_tmpl, ...scripts_tmpl, ...project_partials_tmpl }
-
+  const project_scripts_tmpl = !partial_key ? {} : readDir(project_scripts_partials, (key,value) =>`\n<script defer id='${key}'>\n${value}\n</script>\n`)
+  const scripts_tmpl = !partial_key ? {} : readDir(scripts, (key,value) =>`\n<script defer id='${key}'>\n${value}\n</script>\n`)
+  const partial = {...partials_tmpl, ...scripts_tmpl, ...project_partials_tmpl, ...project_scripts_tmpl }
  const style_comp  = `<style>
   ${style_tmpl} </style>
   `;
@@ -120,7 +123,7 @@ const generate = () => {
 
     action(args);
   } catch (err) {
-    console.error(err.message);
+    console.error('generate',err.message);
   }
 };
 
