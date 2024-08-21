@@ -11,14 +11,14 @@ export const readFile = (src = "") => {
   try {
     return fs.readFileSync(getPath(src), config);
   } catch (err) {
-    console.log(err.message);
+    console.log('Read File',err.message);
   }
 };
 const rootAbs = [".", "/", "./"];
 
 const createDir = (dest = "") => {
   const dirname = path.dirname(dest);
-  
+
   if (rootAbs.includes(dirname)) return;
 
   fs.mkdirSync(dirname, { recursive: true });
@@ -34,7 +34,7 @@ export const readDir = (src, transform) => {
       return acc;
     }, {});
   } catch (err) {
-    console.log(err.message);
+    console.log('Read Dir',err.message);
   }
 };
 
@@ -43,7 +43,7 @@ export const writeFile = (dest = "", data = "") => {
     createDir(dest);
     fs.writeFileSync(getPath(dest), data, { ...config, flag: "w" });
   } catch (err) {
-    console.log(err.message);
+    console.log('writefile',err.message);
   }
 };
 
@@ -56,7 +56,7 @@ export const createFile = (dest = "", data = "") => {
 
     writeFile(dest, data);
   } catch (err) {
-    console.log(err.message);
+    console.log('create file',err.message);
   }
 };
 
@@ -76,6 +76,7 @@ export const mapArgs = (actions) => {
   if (!action || !actions[action]) {
     throw new Error("First option must be either init or generate");
   }
+
 
   return args.reduce(
     (acc, arg) => {
@@ -119,7 +120,7 @@ export const initProject = (values) => {
   trees.forEach(([tree,value]) => createFile(tree,value || ""));
 };
 
-export const populatePath = (project) => {
+export const populatePath = (project,partial) => {
   const locales = globSync(path.join(project,"locale/*.json"))
 
   const data = path.join(project,"json","data.json")
@@ -127,7 +128,9 @@ export const populatePath = (project) => {
   const pages = path.join(project,'pages')
   const style = path.join(project,"css","style.css")
   const partials = path.join('partials')
+  const project_partials = !partial ? "" : path.join('partials', partial);
+  const scripts_partials = !partial ? "" : path.join('js', partial);
   const scripts = path.join('js')
 
-  return [locales, template, data, pages, project,style, partials, scripts]
+  return [locales, template, data, pages, project,style, partials, scripts, project_partials, scripts_partials]
 };
