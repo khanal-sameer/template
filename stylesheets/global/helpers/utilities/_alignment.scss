@@ -1,0 +1,61 @@
+$text_align: center,left,right;
+$screen_size: xs,sm,md,lg,largeScreen;
+$align_items:( initial initial,start flex-start,center center,end flex-end,base baseline);
+$justify_content:(initial initial,start flex-start,center center,between space-between,end flex-end,around space-around,even space-evenly);
+// Flex Direction
+.#{$prefix}-flex-d-col{
+  flex-direction: column;
+}
+.#{$prefix}-flex-d-row{
+  flex-direction: row;
+}
+// Items Alignment
+.#{$prefix}-items-center{
+  @extend %display-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.#{$prefix}-items-end{
+  @extend %display-flex;
+  justify-content: end;
+  flex-direction: column;
+}
+@each $textAlign in $text_align{// Text align
+  .#{$prefix}-text-#{$textAlign}{
+    text-align: $textAlign;
+  }
+}
+@each $alignItems in $align_items{// Align Items
+  .#{$prefix}-align-#{nth($alignItems,1)}{
+    align-items: nth($alignItems,2);
+  }
+}
+@each $justifyContent in $justify_content{// Justify Content
+  .#{$prefix}-justify-#{nth($justifyContent,1)}{
+    justify-content: nth($justifyContent,2);
+  }
+}
+// Responsive
+@each $screen_size in $screen_size {
+  @each $textAlign in $text_align {// Text align
+    .#{$prefix}-#{$screen_size}-text-#{$textAlign} {
+      @include media($screen_size) {
+        text-align: $textAlign;
+      }
+    }
+  }
+  @each $alignItems in $align_items{ // Align items
+    .#{$prefix}-#{$screen_size}-align-#{nth($alignItems,1)}{
+      @include media($screen_size){
+        align-items: nth($alignItems,2);
+      }
+    }
+  }
+  @each $justifyContent in $justify_content{ // Justify content
+    .#{$prefix}-#{$screen_size}-justify-#{nth($justifyContent,1)}{
+      @include media($screen_size){
+        justify-content: nth($justifyContent,2);
+      }
+    }
+  }
+}

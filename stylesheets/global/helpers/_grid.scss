@@ -1,0 +1,52 @@
+$screen_size: xs,sm,md,lg,largeScreen;
+$columns:(
+  (col:2,width:16.66%),
+  (col:3,width:25%),
+  (col:4,width:33.33%),
+  (col:5,width:41.67%),
+  (col:6,width:50%),
+  (col:8,width:66.67%),
+  (col:9,width:75%),
+  (col:12,width:100%)
+);
+* {
+  box-sizing: border-box;
+}
+.#{$prefix}-w-full {
+  width: 100%;
+}
+.#{$prefix}-max-w-full{
+  max-width: 100%;
+}
+.#{$prefix}-w-auto {
+  width: auto;
+}
+.#{$prefix}-w-fit-content {
+  width: fit-content;
+}
+@each $screenSize in $screen_size{
+  .#{$prefix}-#{$screenSize}-w-fit-content{
+    @include media($screenSize){
+      width: fit-content;
+    }
+  }
+}
+
+.#{$prefix}-row {
+  @extend %display-flex;
+}
+
+@each $col in $columns{
+  .#{$prefix}-col-#{map-get($col,col)}{
+    @include flex-width(#{map-get($col,width)});
+  }
+}
+@each $screenSize in $screen_size{
+  @each $col in $columns{
+    .#{$prefix}-col-#{$screenSize}-#{map-get($col,col)}{
+      @include media($screenSize){
+        @include flex-width(#{map-get($col,width)});
+      }
+    }
+  }
+}

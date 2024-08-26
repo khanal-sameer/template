@@ -1,0 +1,16 @@
+.#{$prefix}-bg-image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.#{$prefix}-bg-image-contain {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.#{$prefix}-bg-white-smoke{
+  background-color: $white_smoke;
+}
+.#{$prefix}-bg-white{
+  background-color: $white;
+}

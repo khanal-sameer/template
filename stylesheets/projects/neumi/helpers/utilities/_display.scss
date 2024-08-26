@@ -1,0 +1,39 @@
+.is-flex {
+  display: flex;
+}
+.is-grid {
+  display: grid;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.is-wrap {
+  flex-wrap: wrap;
+}
+.is-hide {
+  display: none;
+}
+.is-show {
+  display: block;
+}
+.is-relative {
+  position: relative;
+}
+.order-lg-1{
+  @include breakpoint-up("lg-tab") {
+    order: 1;
+  }
+}
+
+.order-lg-2{
+  @include breakpoint-up("lg-tab") {
+    order: 2;
+  }
+}
+.order-lg-3{
+  @include breakpoint-up("lg-tab") {
+    order: 3;
+  }
+}

@@ -1,0 +1,37 @@
+@import 'accordion',
+        'cta',
+        'demo-video',
+        'feature-product-benefits',
+        'how-to-use',
+        'key-ingredients',
+        'product-description',
+        'review',
+        'tab',
+        'banner',
+        'slider/master';
+//section spacing
+.page-section {
+  padding: 4rem 0;
+  @include breakpoint-up("lg-tab") {
+    padding: 100px 0;
+  }
+}
+.page-section-top{
+  padding-top: 4rem;
+  @include breakpoint-up("lg-tab") {
+    padding-top: 100px;
+  }
+}
+.custom-landing-page  {
+  line-height: 1.5;
+  background-color: var(--clr-white);
+  &:not(.no-spacing){
+    padding: 1.5rem 0;
+    @include breakpoint-up("md-tab") {
+      padding: 3rem 0;
+    }
+  }
+}
+.site-content {
+  margin-top: 60px;
+}

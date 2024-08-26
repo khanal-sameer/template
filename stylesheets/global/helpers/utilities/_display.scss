@@ -1,0 +1,37 @@
+$screen_size:xs,sm,md,lg,largeScreen;
+$displayList:none,block,initial,inline-block;
+$flex: flex,initial;
+
+.#{$prefix}-direction-column {
+  flex-direction: column;
+}
+.#{$prefix}-direction-row {
+  flex-direction: row;
+}
+.#{$prefix}-only-d-flex {
+  display: flex;
+}
+.#{$prefix}-d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+@each $display in $displayList{
+  .#{$prefix}-d-#{$display}{
+    display: $display;
+  }
+}
+@each $screenSize in $screen_size{
+  .#{$prefix}-#{$screenSize}-d-flex{
+    @include media($screenSize){
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  @each $display in $displayList{
+    .#{$prefix}-#{$screenSize}-d-#{$display}{
+      @include media($screenSize){
+        display: $display;
+      }
+    }
+  }
+}

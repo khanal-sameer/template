@@ -1,0 +1,13 @@
+@for $i from 1 through 8{
+  .#{$prefix}-gap-#{$i} {
+    gap: $i * 4px;
+  }
+  //row gap
+  .#{$prefix}-row-gap-#{$i} {
+    row-gap: $i * 4px;
+  }
+  //column gap
+  .#{$prefix}-col-gap-#{$i} {
+    column-gap: $i * 4px;
+  }
+}
