@@ -1,4 +1,4 @@
-
+// Author: Sameer and Prem
 document.addEventListener("DOMContentLoaded", function () {
   //Accordion
   const accItem = document.querySelectorAll(".acc-item");

@@ -1,3 +1,4 @@
+// Author: Prem
 document.addEventListener("DOMContentLoaded", function () {
   const wrappers = document.querySelectorAll(
     ".key-ingredients , .innovation, .easy-app, .lasting-benefit"

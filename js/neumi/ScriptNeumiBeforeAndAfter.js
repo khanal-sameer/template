@@ -1,4 +1,5 @@
 
+// Author: Kalpana
 document.addEventListener("DOMContentLoaded", function () {
   // before after slider
   var beforeAfterSlider = new Splide("#before-after-preview-slider", {
