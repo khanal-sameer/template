@@ -1,10 +1,20 @@
+
+// Required Variable names for global
+$prefix: 'cp';
+$primary: #1649D2;
+$primary_bg_text_color: #fff;
 $root_font: "Poppins", sans-serif;
+$root_font_weight: 400;
 $root_font_size: 16px;
+$root_font_size_lg_device: 16px;
+$root_letter_spacing: normal;
 $root_text_color: #4D4F53;
 $heading_text_color: #000;
+$secondary_text_color: #6C757D;
+
+// Required Variable names for projects
 $heading_font_weight: 600;
 
-$primary: #1649D2;
 $clr-primary-900: #1649D2;
 $primary-dark: #1649D2;
 

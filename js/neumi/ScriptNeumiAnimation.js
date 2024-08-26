@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
   const wrappers = document.querySelectorAll(
     ".key-ingredients , .innovation, .easy-app, .lasting-benefit"
@@ -20,8 +19,3 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 });
-$(".medical-advisosry-list-toggle-btn").on("click", function (e) {
-  e.preventDefault();
-  $('.medical-advisory-content').slideToggle();
-  $(".see-all-caption,.hide-all-caption").toggleClass("neumi-d-none");
-})

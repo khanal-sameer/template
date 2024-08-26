@@ -1,0 +1,47 @@
+$screen_size: xs,sm,md,lg,largeScreen;
+$corner:(
+  mt margin-top,
+  ml margin-left,
+  mb margin-bottom,
+  mr margin-right
+);
+
+
+.#{$prefix}-m-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+.#{$prefix}-ml-auto{
+  margin-left: auto;
+}
+.#{$prefix}-mr-auto{
+  margin-right: auto;
+}
+// margin
+.#{$prefix}-m-0{
+  margin: 0;
+}
+
+@each $margin in $corner{
+  @for $i from 0 through 16{
+  .#{$prefix}-#{nth($margin,1)}-#{$i}{
+      #{nth($margin,2)} : $i * 4px;
+    }
+  }
+}
+@each $screenSize in $screen_size{
+  .#{$prefix}-#{$screenSize}-m-0{
+    @include media($screenSize){
+      margin: 0;
+    }
+  }
+  @each $margin in $corner{
+    @for $i from 0 through 16{
+      .#{$prefix}-#{$screenSize}-#{nth($margin,1)}-#{$i}{
+        @include media($screenSize){
+          #{nth($margin,2)} : $i * 4px;
+        }
+      }
+    }
+  }
+}

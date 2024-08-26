@@ -1,0 +1,36 @@
+.feature-product-benefits-section{
+  .feature-section-layout-1{ //hers|
+    padding-top: 24px;
+    @include breakpoint-up("lg-tab") {
+      padding-top: 100px;
+    }
+    .image-section{
+      @include breakpoint-up("lg-tab") {
+        padding-right: 70px;
+      }
+    }
+    .feature-item-list{
+      @include breakpoint-up("lg-tab"){
+       width: 500px;
+       max-width: 100%;
+      }
+    }
+  }
+
+  .feature-section-layout-2{//nutriswish|neuro
+    padding-top: 24px;
+    @include breakpoint-up("lg-tab") {
+      padding-top: 100px;
+    }
+    .product-feature-item-wrapper{
+      @include breakpoint-up("md-tab") {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 40px;
+      }
+    }
+  }
+
+}

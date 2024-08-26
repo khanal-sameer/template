@@ -1,0 +1,57 @@
+
+$breakpoints: (
+  xs: 576px,
+  sm: 768px,
+  md: 992px,
+  lg: 1050px,
+  largeScreen: 1350px,
+  bigScreen: 1430px,
+);
+// Media query mixin using map-get
+@mixin media($screen) {
+  $breakpoint: map-get($breakpoints, $screen);
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+
+$breakpoints-up: (
+  "sm-phone": 280px,
+  "mmd-phone": 375px,
+  "md-phone": 480px,
+  "xl-phone": 576px, //xs
+  "md-tab": 768px,//sm
+  "lg-tab": 991px,//md
+  "xl-tab": 1024px,//lg
+  "sm-desktop": 1200px,
+  "md-desktop": 1280px,
+  "xl-desktop": 1366px, //largeScreen
+  "bigScreen": 1430px,
+);
+
+@mixin breakpoint-up($size) {
+  @media (min-width: map-get($breakpoints-up,$size)) {
+    @content;
+  }
+}
+
+$breakpoints-down: (
+  "sm-phone": 320px,
+  "mmd-phone": 374.98px,
+  "md-phone": 479.98px,
+  "xl-phone": 575.98px,
+  "md-tab": 767.98px,
+  "lg-tab": 991.98px,
+  "xl-tab": 1023.98px,
+  "sm-desktop": 1199.98px,
+  "md-desktop": 1289.98px,
+  "xl-desktop": 1367.98px,
+  "xxl-desktop": 1920px,
+);
+
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($breakpoints-down,$size)) {
+    @content;
+  }
+}

@@ -1,0 +1,8 @@
+
+@mixin transition($value: all 0.3s linear) {
+  -webkit-transition: $value;
+  -moz-transition: $value;
+  -o-transition: $value;
+  -ms-transition: $value;
+  transition: $value;
+}

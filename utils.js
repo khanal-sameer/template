@@ -120,17 +120,22 @@ export const initProject = (values) => {
   trees.forEach(([tree,value]) => createFile(tree,value || ""));
 };
 
-export const populatePath = (project,partial) => {
+const multipleValues=(dir="",arr=[])=>{
+  return arr.map(partial=>path.join(dir, partial))
+}
+
+export const populatePath = (project,partial,js) => {
   const locales = globSync(path.join(project,"locale/*.json"))
 
   const data = path.join(project,"json","data.json")
   const template = path.join(project,"index.html")
   const pages = path.join(project,'pages')
   const style = path.join(project,"css","style.css")
-  const partials = path.join('partials')
-  const project_partials = !partial ? "" : path.join('partials', partial);
-  const scripts_partials = !partial ? "" : path.join('js', partial);
-  const scripts = path.join('js')
+  const partials = multipleValues("partials", partial);
+  partials.push(path.join("partials"))
 
-  return [locales, template, data, pages, project,style, partials, scripts, project_partials, scripts_partials]
+  const scripts = multipleValues("js", js);
+  scripts.push("js")
+
+  return [locales, template, data, pages, project,style, partials, scripts]
 };

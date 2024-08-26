@@ -1,0 +1,13 @@
+.#{$prefix}-custom-page{
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  input,button,textarea{
+    font-family: inherit;
+  }
+}

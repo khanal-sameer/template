@@ -1,0 +1,46 @@
+$screen_size: xs,sm,md,lg,largeScreen;
+body{
+  margin: 0;
+  font-family: $root_font;
+  font-weight: $root_font_weight;
+  font-size: $root_font_size;
+  letter-spacing: $root_letter_spacing;
+  color: $root_text_color;
+  line-height: 1.2;
+  @include media(xs){
+    font-size: $root_font_size_lg_device;
+  }
+  h1,h2,h3,h4,h5{
+    font-family: $root_font;
+  }
+}
+.#{$prefix}-fw-regular{
+  font-weight: 400;
+}
+.#{$prefix}-fw-medium{
+  font-weight: 500;
+}
+.#{$prefix}-fw-semi-bold{
+  font-weight: 600;
+}
+.#{$prefix}-fw-bold{
+  font-weight: bold;
+}
+.#{$prefix}-fs-xs{
+  font-size: 12px;
+}
+@for $i from 7 through 20 {
+  .#{$prefix}-fs-#{$i}x {
+    font-size: $i * 2px;
+  }
+}
+// Responsive
+@each $screenSize in $screen_size{
+  @for $i from 7 through 20 {
+    .#{$prefix}-#{$screenSize}-fs-#{$i}x {
+      @include media($screenSize){
+        font-size: $i * 2px;
+      }
+    }
+  }
+}
