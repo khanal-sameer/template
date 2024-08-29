@@ -1,7 +1,7 @@
-@import 'helpers/master';
+@import 'variables';
 @import '../../../../global/master';
 @import "../../share";
-@import 'base/master';
+@import 'typography';
 
 .masonary-product-section{
   .image-section{
@@ -58,12 +58,6 @@
   }
 }
 
-.page-note-section{
-  .caption{
-    border: 1px solid rgba($primary,0.10);
-    padding: 1rem;
-  }
-}
 .product-before-after-result-section{
   .before-after-preview-slider{
     padding: 0 20px;
