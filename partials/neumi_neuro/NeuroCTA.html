@@ -1,0 +1,48 @@
+{{#cta}}
+  <section class="cta-section cta-layout-1">
+    <div class="container">
+      <div class="cta-banner-wrapper">
+        <div class="cta-banner-content">
+          <h2 class="clr-white">{{title}}</h2>
+          <p class="fs-lg">{{desc}}</p>
+          <div class="btn-section mt-20">
+            <div class="row">
+              <div class="col col-12 col-xs-6">
+                <button
+                  class="btn btn-white btn-rounded  mt-12"
+                  data-fluid-subscription-checkout="{{product_id}}"
+                >
+                {{subscription_text}}
+                </button>
+              </div>
+
+              <div class="col col-12 col-xs-6">
+                <button
+                  class="btn btn-border btn-border_white btn-rounded  mt-12"
+                  data-fluid-checkout="{{product_id}}"
+                >
+                  {{purchase_text}}
+                </button>
+              </div>
+            </div><!-- .row -->
+          </div><!-- .btns-->
+        </div>
+
+        <div class="cta-banner-figure">
+          <img
+            src="{{image}}"
+            alt="cta support"
+          />
+        </div>
+      </div><!-- .cta-banner_wrap -->
+    </div><!-- .container -->
+  </section>
+{{/cta}}
+<!-- NOTE SECTION -->
+<div class="page-note-section pb-32">
+  <div class="container">
+    <div class="caption">
+      <span class="fs-sm">{{note_desc}}</span>
+    </div>
+  </div>
+</div><!-- .page-note-section -->
