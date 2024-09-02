@@ -23,147 +23,19 @@
   </head>
   <body>
     <div  class='custom-landing-page bizops-landing-page' id='bizops-landing-page'>
-      {{>HeroSection}}
-      {{>VideoLayout}}
-
-      <!-- Tab section -->
-      {{>TabLayout}}
-
-      {{#product_post_list}}
-        <section class="product-post product-style-1 is-flex is-wrap overlay-animation">
-          <div class="col-12 col-lg-6 {{image_ordering_class}}">
-            <div class="image-section">
-              <img src="{{image}}" alt="product">
-              <div class="overlay overlay-{{image_position}}"></div>
-            </div>
-          </div>
-
-          <div class="col-12 col-lg-6  desc clr-bg-white-100 {{desc_ordering_class}}">
-            <div class="wrapper">
-              <h2>{{title}}</h2>
-              <p class="mt-32 clr-body">{{{desc}}}</p>
-              <div class="btn-section mt-32">
-                <button
-                  class="btn text-center btn-primary btn-rounded"
-                  data-target="enroll-pack"
-                >
-                {{get_started_btn_text}}
-                </button>
-              </div>
-            </div>
-          </div><!--.desc-->
-        </section>
-      {{/product_post_list}}
-      {{#trip}}
-        <section class="clr-bg-700_bg page-section text-center product-style-two mt-100">
-          <div class="container">
-            <img src="{{image}}" alt="{{alt_text}}"/>
-            <div class="product-style-two-content">
-              <h2>{{title}}</h2>
-              <p>{{desc}}</p>
-            </div>
-          </div>
-        </section>
-      {{/trip}}
-      {{>Enrollment}}
-      <!-- BEFORE AND AFTER SECTION -->
-      <section class="page-section clr-bg-700_bg product-before-after-result-section">
-        <div class="container">
-          {{#before_and_after}}
-          <h2 class="text-center">{{title}}</h2>
-          <div id="before-after-preview-slider" class="splide before-after-preview-slider mt-32">
-            {{>PrevNext}}
-            <div class="splide__track">
-              <ul class="splide__list">
-                {{#image_list}}
-                <li class="splide__slide">
-                  <img src="{{image}}" alt="before after image">
-                </li>
-                {{/image_list}}
-              </ul>
-            </div>
-          </div>
-          {{/before_and_after}}
-
-          {{#medical_advisor_board}}
-          <div class="medical-advisory-board-section page-section-top">
-            <h4 class="text-center">{{title}}</h4>
-            <div class="row">
-              {{#items}}
-              <div class="col col-12 col-xs-6 col-sm-4 col-lg-3">
-                <div class="advisory-board-card mt-32">
-                  <div class="image-section">
-                    <img src="{{image}}" alt="">
-                  </div>
-                  <div class="desc">
-                    <h5 class="line-height-1">{{name}}</h5>
-                    <p class="trim-2 line-height-1-2 fs-sm mt-4">{{university}}</p>
-                  </div>
-                </div>
-              </div>
-
-              {{/items}}
-            </div>
-            <div class="medical-advisory-content neumi-d-none">
-              <div class="row ">
-                {{#hidden_items}}
-                <div class="col col-12 col-xs-6 col-sm-4 col-lg-3">
-                  <div class="advisory-board-card mt-32">
-                    <div class="image-section">
-                      <img src="{{image}}" alt="">
-                    </div>
-                    <div class="desc">
-                      <h5 class="line-height-1">{{name}}</h5>
-                      <p class="trim-2 line-height-1-2 fs-sm mt-4">{{university}}</p>
-                    </div>
-                  </div>
-                </div>
-
-                {{/hidden_items}}
-              </div>
-            </div>
-
-            <div class="btn-section mt-32">
-              <h5 class="clr-primary text-center">
-                <span class="medical-advisosry-list-toggle-btn is-pointer">
-                  <span class="see-all-caption">{{see_all_text}}</span>
-                  <span class="hide-all-caption neumi-d-none">{{hide_all_text}}</span>
-                </span>
-
-              </h5>
-            </div>
-          </div>
-          {{/medical_advisor_board}}
-
-
-
-
-
-        </div><!-- .container -->
-      </section>
-     <!-- Accordion Section -->
-     {{>FaqAccordionLayout}}
-
-     {{#cta}}
-        <section class="cta-banner-two mt-60 clr-bg-700_bg page-section" >
-          <div class="container">
-            <div class="cta-wrapper" style="background-image: url({{image}})">
-              <div class="cta-content">
-                <h2>{{title}}</h2>
-                <button class="btn text-center btn-primary btn-rounded" data-target="enroll-pack">{{get_started_btn_text}}</button>
-              </div>
-            </div>
-          </div>
-        </section>
-      {{/cta}}
-      <div class="page-note-bizops">
-        <div class="container">
-          <div class="page-note-wrapper">{{note_desc}}</div>
-        </div>
-      </div>
-
+      {{>NeumiBizopHeroSection}}
+      {{>NeumiVideo}}
+      {{>NeumiTab}}
+      {{>NeumiBizopProductList}}
+      {{>NeumiBizopTrip}}
+      {{>NeumiBizopEnrollment}}
+      {{>NeumiBeforeAndAfter}}
+      {{>NeumiFaqAccordion}}
+      {{>NeumiBizopCTA}}
+      {{>NeumiBizopFooterNote}}
     </div>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>

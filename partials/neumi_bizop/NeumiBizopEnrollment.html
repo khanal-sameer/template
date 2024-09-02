@@ -1,0 +1,65 @@
+{{#enrollment}}
+  <section class="enroll-pack page-section is-hide" id="enroll-pack">
+    <div class="container">
+      <div class="enroll-pack-row row">
+        <div class="col col-12 col-lg-6">
+          <div id="enroll-preview-slider" class="splide enroll-preview-slider">
+            <div class="splide__track">
+              <ul class="splide__list">
+                {{#preview_slider}}
+                <li data-product="product_{{product_id}}" class="splide__slide">
+                  <img
+                    src="{{image}}"
+                    alt="{{alt_text}}"
+                    class="w-full p-image"
+                  />
+                </li>
+                {{/preview_slider}}
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-lg-6">
+          <div class="is-flex dir-column is-center enroll-pack-content">
+            <div class="enroll-pack-heading">
+              <h2>{{title}}</h2>
+              <p>{{desc}}</p>
+            </div>
+            <div id="enroll-pack-nav-slider" class="splide enroll-pack-nav-slider">
+              <div class="splide__arrows">
+                <button class="splide__arrow splide__arrow--prev">
+                  <img
+                    src="https://cdn.fluid.app/neumi/hers/images/arrow-icon.svg"
+                    alt="nav icon"
+                  />
+                </button>
+                <button class="splide__arrow splide__arrow--next">
+                  <img
+                    src="https://cdn.fluid.app/neumi/hers/images/arrow-icon.svg"
+                    alt="nav icon"
+                  />
+                </button>
+              </div>
+              <div class="splide__track">
+                <ul class="splide__list">
+                  {{#enrollment_slider}}
+                    <li data-product="enrollment_{{product_id}}" class="splide__slide">
+                      <div class="enroll-pack-dsc">
+                        <h3 class="p-title" >{{title}}</h3>
+                        <p class="is-flex gap-4 text-sm p-desc">{{product_count}}</p>
+                        <div class="price fw-600 p-price">
+                          {{price}}
+                        </div>
+                        <a href="{{url}}" class="btn text-center btn-primary btn-rounded">{{purchase_btn_text}}</a>
+                      </div>
+                    </li>
+                  {{/enrollment_slider}}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{/enrollment}}
