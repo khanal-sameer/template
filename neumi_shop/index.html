@@ -21,118 +21,33 @@
   <body>
     <div  class='custom-landing-page neumi-shop-page no-spacing'>
       <!-- HERO SECTION -->
-      {{#hero_section}}
-        <div class="banner-layout-1 bg-image shop-banner">
-          <div class="container">
-            <div class="wrapper clr-white">
-              <h1 class="clr-white">{{title}}</h1>
-              <p class="mt-8">{{desc}}</p>
-              <div class="btn-section is-flex is-wrap col-gap-12">
-                <span class="btn btn-primary btn-rounded mt-24 shop-product-button">{{shop_product_button_text}}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      {{/hero_section}}
+      {{>NeumiShopBanner}}
+
       <!-- Main Product List -->
-      {{#product_list}}
-        <div class="main-product-list page-section-top" id="shop-product">
-          <div class="container">
-            <h2>{{title}}</h2>
-            <div class="product-list mt-2">
-              <div class="row">
-                {{#items}}
-                  <div id="product_{{product_id}}" class="col col-12 col-xs-6 is-hide">
-                    <div class="main-product-item mt-30">
-                      <div class="image-section">
-                        <a href="{{url}}">
-                          <img src="{{image}}" alt="" class="w-full p-image--">
-                        </a>
-                      </div>
-                      <div class="fs-md fw-600 clr-body mt-12">
-                        <a href="{{url}}" class="p-name">{{product_name}}</a>
-                      </div>
-                      <div class="price mt-4 price-color p-price">$<span>{{price}}</span></div>
-
-                    </div>
-                  </div>
-                {{/items}}
-              </div><!--.row---->
-            </div><!-- .product-list -->
-
-          </div><!-- .container -->
-        </div><!-- .main-product-list -->
-      {{/product_list}}
+      {{>NeumiShopProductList}}
 
       <!-- bundle and multiple product-->
-      <div class="page-section">
-        <div class="container">
-          {{#product_bundle}}
-            <div class="product-bundle-section">
-              <h2>{{title}}</h2>
+      {{>NeumiShopBundleProduct}}
 
-              {{#product}}
-                <div class="multiple-product-list">
-                  <div class="row">
-                    {{#items}}
-                      <div id="product_{{product_id}}" class="col col-12 col-xs-6 col-lg-4 is-hide">
-                        <div class="product-item mt-30">
-                          <div class="image-section image-zoom-in-effect">
-                            <a href="{{url}}">
-                              <img src="" class="image-contain p-image"/>
-                            </a>
-                          </div>
-                          <div class="fs-md fw-600 clr-body mt-12">
-                            <a href="{{url}}" class="p-name">{{product_name}}</a>
-                          </div>
-                          <div class="price mt-4 price-color p-price">${{price}}</div>
+      <!-- CTA -->
+      {{>NeumiShopCTA}}
 
-                        </div>
-                      </div>
-                    {{/items}}
-                  </div><!-- .row -->
-                </div><!-- .multiple-product-list -->
-              {{/product}}
-
-            </div>
-          {{/product_bundle}}
-
-        </div>
-      </div>
-
-      {{#cta}}
-        <div class="cta-section cta-layout-2 page-section clr-bg-700_bg">
-          <div class="container">
-            <div class="wrapper bg-image image-section overlay overlay-rounded-8" style="background-image: url({{image}});">
-              <div class="desc-wrapper">
-                <h2 class="clr-white">{{title}}</h2>
-                <div class="btn-section is-flex is-wrap col-gap-12 mt-8">
-                  <span class="btn btn-primary btn-rounded mt-24 shop-product-button">{{shop_product_button_text}}</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      {{/cta}}
-
-      <div class="page-note-section pt-32 pb-32">
-        <div class="container">
-          <div class="caption fs-sm">
-            <span>{{note_desc}}</span>
-          </div>
-        </div>
-      </div>
+      <!-- Note -->
+      {{>NeumiShopFooterNote}}
 
     </div><!-- .neumi-landing-page -->
 
-    {{>Scripts}}
+
+    {{>NeumiScriptLibrary}}
     {{>ScriptFancybox}}
-    {{>ScriptGsap}}
-    {{>ScriptWrapper}}
+    {{>ScriptNeumiImageOverlayAnimation}}
+    {{>ScriptNeumiAnimation}}
 
     {{#dynamic_product}}
-    {{>ScriptShopProduct}}
+    {{>ScriptNeumiDynamicProduct}}
     {{/dynamic_product}}
+
+
     <script>
       $(document).ready(function(){
         $(".shop-product-button").on("click", function () {

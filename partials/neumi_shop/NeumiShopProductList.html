@@ -1,0 +1,28 @@
+{{#product_list}}
+  <div class="main-product-list page-section-top" id="shop-product">
+    <div class="container">
+      <h2>{{title}}</h2>
+      <div class="product-list mt-2">
+        <div class="row">
+          {{#items}}
+            <div id="product_{{product_id}}" class="col col-12 col-xs-6 is-hide">
+              <div class="main-product-item mt-30">
+                <div class="image-section">
+                  <a href="{{url}}">
+                    <img src="{{image}}" alt="" class="w-full p-image--">
+                  </a>
+                </div>
+                <div class="fs-md fw-600 clr-body mt-12">
+                  <a href="{{url}}" class="p-name">{{product_name}}</a>
+                </div>
+                <div class="price mt-4 price-color p-price">$<span>{{price}}</span></div>
+
+              </div>
+            </div>
+          {{/items}}
+        </div><!--.row---->
+      </div><!-- .product-list -->
+
+    </div><!-- .container -->
+  </div><!-- .main-product-list -->
+{{/product_list}}

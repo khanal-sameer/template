@@ -1,0 +1,34 @@
+<div class="page-section">
+  <div class="container">
+    {{#product_bundle}}
+      <div class="product-bundle-section">
+        <h2>{{title}}</h2>
+
+        {{#product}}
+          <div class="multiple-product-list">
+            <div class="row">
+              {{#items}}
+                <div id="product_{{product_id}}" class="col col-12 col-xs-6 col-lg-4 is-hide">
+                  <div class="product-item mt-30">
+                    <div class="image-section image-zoom-in-effect">
+                      <a href="{{url}}">
+                        <img src="" class="image-contain p-image"/>
+                      </a>
+                    </div>
+                    <div class="fs-md fw-600 clr-body mt-12">
+                      <a href="{{url}}" class="p-name">{{product_name}}</a>
+                    </div>
+                    <div class="price mt-4 price-color p-price">${{price}}</div>
+
+                  </div>
+                </div>
+              {{/items}}
+            </div><!-- .row -->
+          </div><!-- .multiple-product-list -->
+        {{/product}}
+
+      </div>
+    {{/product_bundle}}
+
+  </div>
+</div>
