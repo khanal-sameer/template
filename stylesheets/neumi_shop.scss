@@ -1,13 +1,8 @@
-@import 'variables';
-@import "../../common_assets/stylesheets/share";
-@import 'typography';
+@import 'projects/neumi/pages/shop/variables';
+@import 'global/master';
+@import 'projects/neumi/share';
+@import 'projects/neumi/pages/shop/typography';
 
-.page-note-section{
-  .caption{
-    border: 1px solid rgba($primary,0.10);
-    padding: 1rem;
-  }
-}
 .price-color{
   color: #158C2D;
 }
