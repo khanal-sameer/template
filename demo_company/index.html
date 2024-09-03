@@ -16,227 +16,38 @@
   <body>
     <div  class='cp-demo-company cp-page-bottom-section cp-bg-white'>
       <!-- HERO SECTION -->
-      {{#hero_section}}
-        <div class="cp-hero-section cp-bg-image cp-image-overlay" style="background-image: url({{image}})">
-          <div class="cp-container">
-            <div class="cp-wrapper cp-m-auto cp-position-relative cp-z-index-2">
-              <h1 class="cp-text-white cp-text-center">{{title}}</h1>
-              <div class="cp-btn-section cp-d-flex cp-justify-center cp-col-gap-3 cp-pt-1 cp-sm-pt-3">
-                <a class="cp-btn cp-btn-white-border cp-mt-3 cp-w-full cp-xs-w-fit-content" href="{{browse_more_product_url}}">
-                  {{browse_more_product_text}}
-                  <span class="cp-ml-2">
-                    {{chevron_arrow_right_icon}}
-                  </span>
-                </a>
-                <a href="{{sign_up_url}}"
-                class="cp-btn cp-btn-primary-bg cp-mt-3 cp-w-full cp-xs-w-fit-content"
-                target="_blank">
-                  {{sign_up_text}}
-                  <span class="cp-ml-2">
-                    {{chevron_arrow_right_icon}}
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      {{/hero_section}}
+      {{>DemoCompanyHero}}
 
-      {{#trusted_by}}
-        <div class="cp-trusted-partner-section cp-pt-10 cp-sm-pt-16">
-          <h3 class="cp-m-0 cp-text-center">{{title}}</h3>
-          <div class="cp-mt-4 cp-sm-mt-8 cp-bg-white-smoke">
-            <div id="trusted-by-slider" class="splide cp-slider-section">
-              <div class="splide__track">
-                <ul class="splide__list">
-                  {{#items}}
-                    <li class="splide__slide">
-                      <div class="cp-image cp-text-center">
-                        <img
-                          src="{{image}}"
-                          alt="logo"
-                        />
-                      </div>
-                    </li>
-                  {{/items}}
-                </ul>
-              </div>
-            </div><!--#as-seen_slider-->
-          </div>
-        </div>
-      {{/trusted_by}}
+      <!-- Trusted Partner -->
+      {{>DemoCompanyTrustedPartner}}
 
-      {{>DemoMasonaryProduct}}
+      <!-- Masonary Product -->
+      {{>DemoCompanyMasonaryProduct}}
 
-      {{#feature_product_1}}
-        <div class="cp-feature-product-post cp-page-section-md cp-bg-white-smoke">
-          <div class="cp-container">
-            <div class="cp-d-flex cp-align-center">
-              <div class="cp-col-12 cp-col-sm-6">
-                <div class="cp-image-section cp-bg-image cp-default-border-radius cp-image-h-md" style="background-image: url({{image}})">
-                </div>
-              </div><!-- .cp-col -->
+      <!-- Feature product -->
+      {{>DemoCompanyFeatureProduct1}}
 
-              <div class="cp-col-12 cp-col-sm-6">
-                <div class="cp-desc cp-mt-7 cp-sm-mt-0">
-                  <div class="cp-category-section">
-                    <span class="cp-category-tag">{{category}}</span>
-                  </div>
-                  <h3 class="cp-mt-3 cp-mb-0 ">{{title}}</h3>
-                  <p class="cp-mt-3 cp-sm-mt-4 cp-mb-0">{{desc}}</p>
-                  <div class="cp-price cp-mt-4 cp-sm-mt-8 cp-mb-0 cp-fw-medium cp-heading-text-color cp-secondary-letter-spacing cp-fs-10x cp-sm-fs-16x">{{price}}</div>
-                  <div class="cp-btn-section cp-mt-4 cp-sm-mt-5">
-                    <button class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content"  data-fluid-checkout="{{product_id}}">
-                      <span class="cp-mr-1 cp-plus-icon cp-position-relative cp-top-1">
-                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M0.6 9.032V6.856H16.312V9.032H0.6ZM7.192 15.656V0.199999H9.656V15.656H7.192Z" fill="currentColor"/>
-                        </svg>
-                      </span>
+      <!-- Hassle free subscription -->
+      {{>DemoCompanyHassleFreeSubscription}}
 
-                      {{add_to_cart_text}}
-                    </button>
-                  </div> <!-- .cp-btn-section -->
-                </div><!-- .cp-desc -->
-              </div><!-- .cp-col -->
-            </div><!-- .cp-row -->
-          </div><!-- .cp-container -->
-        </div><!-- .cp-product-post -->
-      {{/feature_product_1}}
+      <!-- Product Feature -->
+      {{>DemoCompanyProductFeature}}
 
-      {{#hassle_free_subscription}}
-        <div class="cp-free-subscription-section cp-page-section cp-text-center">
-          <div class="cp-container">
-            <h2 class="cp-m-0 cp-pl-6 cp-pr-6 cp-sm-p-0">{{title}}</h2>
-            <p class="cp-mt-4 cp-sm-mt-8 cp-mb-0 cp-pl-3 cp-pr-3 cp-sm-p-0">{{desc}}</p>
-            <div class="cp-btn-section cp-mt-4 cp-sm-mt-8">
-              <a class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" href="{{sign_up_url}}" target="_blank">
-                {{sign_up_text}}
-                <span class="cp-ml-2">
-                  {{chevron_arrow_right_icon}}
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      {{/hassle_free_subscription}}
+      <!-- Video -->
+      {{>DemoCompanyVideo}}
 
-      {{#product_feature_list}}
-        <div class="cp-product-feature-section cp-page-section-md cp-bg-white-smoke">
-          <div class="cp-container">
-            <div class="cp-d-flex">
-              <div class="cp-col-12 cp-col-sm-6">
-                <div class="cp-image-section cp-bg-image cp-default-border-radius cp-image-h-md" style="background-image: url({{image}})"></div>
-              </div><!-- .cp-col -->
-              <div class="cp-col-12 cp-col-sm-6">
-                <div class="cp-desc cp-items-list cp-sm-pt-7">
-                  {{#items}}
-                    <div class="cp-product-feature-item cp-product-feature-item-style-1 cp-d-flex cp-mt-6 cp-sm-mt-8">
-                      <div class="cp-icon-section">
-                        {{{icon}}}
-                      </div>
-                      <div class="cp-item-desc">
-                        <h3 class="cp-m-0">{{title}}</h3>
-                        <p class="cp-mt-2 cp-sm-mt-4 cp-mb-0">{{desc}}</p>
-                      </div>
-                    </div>
-                  {{/items}}
-                  </div>
-              </div>
-            </div><!-- .cp-row -->
-          </div><!-- .cp-container -->
-        </div><!-- .cp-feature-post-section -->
-      {{/product_feature_list}}
+      <!-- Testimonial -->
+      {{>DemoCompanyTestimonial}}
 
-      {{#video_section}}
-        <div class="cp-video-section cp-page-top-section cp-text-center">
-          <div class="cp-container">
-            <h2 class="cp-m-0">{{title}}</h2>
-            <p class="cp-mt-4 cp-mb-0">{{desc}}</p>
-            <div class="cp-image-section cp-bg-image cp-default-border-radius cp-items-center cp-mt-6 cp-sm-mt-16" style="background-image: url({{image}})">
-              <a href="{{url}}" class="cp-play-icon cp-m-auto" data-fancybox>
-                <svg width="102" height="102" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M51.0001 102C79.1666 102 102 79.1665 102 51C102 22.8335 79.1666 0 51.0001 0C22.8336 0 0.00012207 22.8335 0.00012207 51C0.00012207 79.1665 22.8336 102 51.0001 102ZM45.9612 36.3531C43.2948 34.8532 40.0001 36.7801 40.0001 39.8394V62.1606C40.0001 65.2199 43.2948 67.1468 45.9612 65.6469L65.8023 54.4863C68.5209 52.9571 68.5209 49.0429 65.8023 47.5137L45.9612 36.3531Z" fill="white"/>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      {{/video_section}}
-      {{#testimonials}}
-        <div class="cp-testimonial-section cp-page-section cp-text-center">
-          <div class="cp-container">
-            <h2 class="cp-m-0">{{title}}</h2>
-            <p class="cp-mt-12 cp-sm-mt-16 cp-mb-0">{{desc}}</p>
-          </div>
-          <div class="cp-container cp-slider-container  cp-mt-24 cp-sm-mt-54">
-            {{>DemoTestimonialSlider}}
-          </div>
-        </div>
-      {{/testimonials}}
+      <!-- Feature Product -->
+      {{>DemoCompanyFeatureProduct2}}
 
-      {{#feature_product_2}}
-        <div class="cp-feature-product-post cp-page-section-md cp-bg-white-smoke">
-          <div class="cp-container">
-            <div class="cp-d-flex cp-align-center">
-              <div class="cp-col-12 cp-col-sm-6">
-                <div class="cp-image-section cp-bg-image cp-default-border-radius cp-image-h-md" style="background-image: url({{image}})">
-                </div>
-              </div><!-- .cp-col -->
+      <!-- FAQ -->
+      {{>DemoCompanyFAQ}}
 
-              <div class="cp-col-12 cp-col-sm-6">
-                <div class="cp-desc cp-mt-7 cp-sm-mt-0">
-                  <div class="cp-category-section">
-                    <span class="cp-category-tag">{{category}}</span>
-                  </div>
-                  <h3 class="cp-mt-3 cp-mb-0">{{title}}</h3>
-                  <p class="cp-mt-2 cp-sm-mt-4 cp-mb-0">{{desc}}</p>
-                  <div class="cp-btn-section cp-mt-4 cp-sm-mt-6">
-                    <a class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" hrfe="{{url}}">{{btn_text}}</a>
-                  </div> <!-- .cp-btn-section -->
-                </div><!-- .cp-desc -->
-              </div><!-- .cp-col -->
-            </div><!-- .cp-row -->
-          </div><!-- .cp-container -->
-        </div><!-- .cp-product-post -->
-      {{/feature_product_2}}
+      <!-- CTA -->
+      {{>DemoCompanyCTA}}
 
-      {{#faq}}
-        <div class="cp-accordion-section cp-page-section">
-          <div class="cp-container">
-            <h2 class="cp-text-center cp-m-0 cp-pl-5 cp-pr-5 cp-sm-p-0">{{title}}</h2>
-            <p class="cp-mt-3 cp-sm-mt-4 cp-mb-0 cp-text-center">{{desc}}</p>
-            <div class="cp-accordion-list cp-pt-3 cp-sm-pt-9">
-              {{>DemoAccordion}}
-            </div>
-          </div>
-        </div>
-      {{/faq}}
-
-      {{#cta}}
-        <div class="cp-cta-section">
-          <div class="cp-container">
-            <div class="cp-bg-image cp-default-border-radius cp-image-overlay" style="background-image: url({{image}})">
-              <div class="cp-wrapper cp-m-auto cp-position-relative cp-z-index-2">
-                <div class="cp-text-white cp-text-center cp-fs-xxl cp-fw-bold">{{title}}</div>
-                <div class="cp-btn-section cp-d-flex cp-justify-center cp-col-gap-3 cp-mt-1 cp-sm-mt-3">
-                  <a class="cp-btn cp-btn-white-border cp-mt-3 cp-w-full cp-xs-w-fit-content" href="{{browse_more_product_url}}">
-                    {{browse_more_product_text}}
-                    <span class="cp-ml-8">
-                      {{chevron_arrow_right_icon}}
-                    </span>
-                  </a>
-                  <a class="cp-btn cp-btn-primary-bg cp-mt-3  cp-w-full cp-xs-w-fit-content" href="{{sign_up_url}}" target="_blank">
-                    {{sign_up_text}}
-                    <span class="cp-ml-2">
-                      {{chevron_arrow_right_icon}}
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      {{/cta}}
 
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
