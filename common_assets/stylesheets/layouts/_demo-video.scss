@@ -1,8 +1,0 @@
-.product-demo-video-section{
-  .image-section{
-    height: 200px;
-    @include breakpoint-up("md-tab"){
-      height: 550px;
-    }
-  }
-}
