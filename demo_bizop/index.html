@@ -15,198 +15,32 @@
   </head>
   <body>
     <div  class='cp-demo-bizop-page cp-page-bottom-section cp-bg-white'>
-      {{#about_us}}
-        <div class="cp-about-us-section">
-          <div class="cp-container">
+      <!-- About Us -->
+      {{>DemoBizopAboutUs}}
 
-            <div class="cp-wrapper cp-page-section-md cp-sm-d-flex">
-              <div class="cp-title-section cp-col-sm-6">
-                <h2 class="cp-m-0 cp-pr-4 cp-xs-pr-0">{{{title}}}</h2>
-              </div>
+      <!-- Total Customer -->
+      {{>DemoBizopTotalCustomer}}
 
-              <div class="cp-desc cp-col-sm-6">
-                <p class="cp-mt-4 cp-sm-mt-0 cp-mb-0">{{desc}}</p>
-                <div class="cp-btn-section cp-mt-4 cp-sm-mt-6">
-                  <a class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" href="{{sign_up_url}}">
-                    {{btn_text}}
-                    <span class="cp-ml-2">
-                      {{chevron_arrow_right_icon}}
-                    </span>
-                  </a>
-                </div><!-- .cp-btn-section -->
-              </div><!-- .cp-desc -->
+      <!-- Get Started -->
+      {{>DemoBizopGetStarted}}
 
-            </div><!-- .cp-wrapper -->
-            <div class="cp-image-section cp-bg-image cp-default-border-radius" style="background-image: url({{image}});"></div>
+      <!-- Work Life Balance -->
+      {{>DemoBizopWorkLifeBalance}}
 
-          </div><!-- .cp-container -->
-        </div><!-- .cp-abou-us-section -->
-      {{/about_us}}
-      {{#customer}}
-        <div class="cp-total-customer-section cp-mt-8">
-          <div class="cp-container">
-            <div class="cp-image-section cp-bg-image cp-items-center cp-default-border-radius" style="background-image: url({{image}});">
-              <div class="cp-desc cp-text-center">
-                <p class="cp-m-0">{{title}}</p>
-                <div class="cp-title cp-mt-2 cp-xs-mt-3 cp-sm-mt-4 cp-text-white">{{total_customers}}</div>
-                <p class="cp-mb-0 cp-mt-1 cp-xs-mt-3 cp-sm-mt-4">{{total_countries}}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      {{/customer}}
-      {{#get_started}}
-        <div class="cp-get-started-section cp-mt-8">
-          <div class="cp-container">
-            <div class="cp-image-section cp-bg-image cp-items-end cp-image-overlay-gradient cp-default-border-radius" style="background-image: url({{image}});">
-              <div class="cp-wrapper cp-position-relative cp-z-index-2 cp-md-d-flex cp-align-end">
-                <div class="cp-desc cp-text-white">
-                  <h2 class="cp-text-white cp-m-0">{{title}}</h2>
-                  <p class="cp-mt-3 cp-md-mt-8 cp-mb-0">{{desc}}</p>
-                </div>
-                <div class="cp-btn-section cp-md-text-right cp-mt-4 cp-xs-mt-5 cp-md-m-0">
-                  <a class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" href="{{url}}">
-                    {{btn_text}}
-                    <span class="cp-ml-2">
-                      {{chevron_arrow_right_icon}}
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      {{/get_started}}
-      {{#work_life_balance}}
-        <div class="cp-work-life-balance-section cp-page-section cp-text-center">
-          <div class="cp-container cp-sm">
-            <div class="cp-xs-pl-8 cp-xs-pr-8">
-              <h2 class="cp-m-0 cp-pl-6 cp-pr-6 cp-sm-p-0">{{title}}</h2>
-              <p class="cp-mb-0 cp-mt-4 cp-sm-mt-8">{{desc}}</p>
-              <div class="cp-btn-section cp-mt-4 cp-sm-mt-8">
-                <a class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" href="{{learn_more_url}}">
-                  {{learn_more_text}}
-                  <span class="cp-ml-2">
-                    {{chevron_arrow_right_icon}}
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      {{/work_life_balance}}
-      {{#feature_post}}
-      <div class="cp-feature-post-section cp-section-bg cp-page-section-md">
-        <div class="cp-container cp-sm">
-          <div class="cp-feature-post cp-d-flex cp-align-center">
-            <div class="cp-col-12 cp-col-lg-6">
-              <div class="cp-image-section cp-bg-image cp-default-border-radius cp-image-h-440" style="background-image: url({{image}});"></div>
-            </div>
-            <div class="cp-col-12 cp-col-lg-6">
-              <div class="cp-desc cp-xs-pl-10 cp-xs-10 cp-lg-p-0">
-                <h2 class="cp-mb-0 cp-mt-4">{{{title}}}</h2>
-                <p class="cp-mb-0 cp-mt-4 cp-sm-mt-8 cp-secondary-text-color">{{desc}}</p>
-                <div class="cp-btn-section cp-mt-4 cp-sm-mt-8">
-                  <a class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" href="{{sign_up_url}}">
-                    {{sign_up_text}}
-                    <span class="cp-ml-2">
-                      {{chevron_arrow_right_icon}}
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {{/feature_post}}
+      <!-- Feature Post -->
+      {{>DemoBizopFeaturePost}}
 
-      {{#service_list}}
-        <div class="cp-service-post-section cp-page-top-section">
-          <div class="cp-container">
-            <div class="cp-row">
-              {{#items}}
-                <div class="cp-col cp-col-12 cp-col-xs-6">
-                  <div class="cp-service-post cp-mt-2 cp-xs-mt-4 cp-sm-mt-5">
-                    <div class="cp-image-section cp-image-overlay-gradient cp-bg-image cp-items-end" style="background-image: url({{image}});">
-                      <div class="cp-desc cp-position-relative cp-z-index-2 cp-ml-auto cp-mr-auto cp-max-w-full cp-text-center">
-                        <div class="cp-icon-section">
-                          <div class="cp-icon-wrapper">
-                            {{{icon}}}
-                          </div>
-                        </div>
-                        <h3 class="cp-mb-0 cp-mt-3 cp-xs-mt-4 cp-sm-mt-6 cp-text-white">{{title}}</h3>
-                      </div>
-                    </div><!-- .cp-image-section -->
-                  </div><!-- .cp-service-post -->
-                </div>
-              {{/items}}
-            </div>
-          </div>
-        </div>
-      {{/service_list}}
+      <!-- Service List -->
+      {{>DemoBizopServiceList}}
 
-      {{#faq}}
-        <div class="cp-accordion-section cp-page-section">
-          <div class="cp-container">
-            <div class="cp-wrapper cp-ml-auto cp-mr-auto cp-max-w-full">
-              <h2 class="cp-text-center cp-sm-text-left cp-m-0 cp-pl-5 cp-pr-5 cp-sm-p-0">{{title}}</h2>
-              <div class="cp-accordion-list cp-pt-3 cp-sm-pt-9">
-                {{#items}}
-                  <div class="cp-accordion-item accordion-item cp-bg-white-smoke cp-mt-3 cp-sm-mt-4 {{item_class}}">
-                    <div class="cp-accordion-header accordion-header cp-d-flex">
-                      <div class="cp-title cp-text-black">{{title}}</div>
-                      <div class="cp-icon">
-                        <span class="cp-plus">
-                          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0.1 9.032V6.856H15.812V9.032H0.1ZM6.692 15.656V0.199999H9.156V15.656H6.692Z" fill="black"/>
-                          </svg>
-                        </span>
-                        <span class="cp-minus">
-                          <svg width="11" height="4" viewBox="0 0 11 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0.647813 3.072V0.976H10.3598V3.072H0.647813Z" fill="#313D50"/>
-                          </svg>
-                        </span>
-                      </div><!-- .cp-icon -->
-                    </div><!-- .cp-accordion-header -->
+      <!-- FAQ -->
+      {{>DemoBizopFAQ}}
 
-                    <div class="cp-accordion-content accordion-content cp-pt-3 cp-pr-3 cp-sm-pt-3 cp-sm-pr-5 {{content_class}}">
-                      <p class="cp-m-0">{{desc}}</p>
-                    </div>
-                  </div>
-                {{/items}}
-              </div>
-            </div>
-          </div>
-        </div>
-      {{/faq}}
-      {{#cta}}
-        <div class="cp-cta-section">
-          <div class="cp-container">
-            <div class="cp-image-section cp-bg-image cp-default-border-radius cp-image-overlay cp-items-end" style="background-image: url({{image}})">
-              <div class="cp-wrapper cp-position-relative cp-z-index-2">
-                <div class="cp-text-white cp-text-center cp-fs-xxl cp-secondary-letter-spacing cp-fw-bold">{{title}}</div>
-                <div class="cp-btn-section cp-d-flex cp-justify-center cp-mt-1 cp-sm-mt-3">
-                  <a class="cp-btn cp-btn-white-text  cp-mt-3" href="{{learn_more_url}}">
-                    {{learn_more_text}}
-                    <span class="cp-ml-2">
-                      {{chevron_arrow_right_icon}}
-                    </span>
-                  </a>
-                  <a class="cp-btn cp-btn-primary-bg cp-mt-3 cp-xs-ml-2" href="{{sign_up_url}}" target="_blank">
-                    {{sign_up_text}}
-                    <span class="cp-ml-2">
-                      {{chevron_arrow_right_icon}}
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      {{/cta}}
+      <!-- CTA -->
+      {{>DemoBizopCTA}}
 
     </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
       $(document).ready(function(){
