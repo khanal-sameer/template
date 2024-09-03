@@ -1,0 +1,25 @@
+{{#product_post_list}}
+  <section class="product-post product-style-1 is-flex is-wrap overlay-animation">
+    <div class="col-12 col-lg-6 {{image_ordering_class}}">
+      <div class="image-section">
+        <img src="{{image}}" alt="product">
+        <div class="overlay overlay-{{image_position}}"></div>
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-6  desc clr-bg-white-100 {{desc_ordering_class}}">
+      <div class="wrapper">
+        <h2>{{title}}</h2>
+        <p class="mt-32 clr-body">{{{desc}}}</p>
+        <div class="btn-section mt-32">
+          <button
+            class="btn text-center btn-primary btn-rounded"
+            data-target="enroll-pack"
+          >
+          {{get_started_btn_text}}
+          </button>
+        </div>
+      </div>
+    </div><!--.desc-->
+  </section>
+{{/product_post_list}}
