@@ -1,0 +1,24 @@
+{{#how_to_use}}
+  <div class="cp-how-to-use-section cp-page-top-section">
+    <div class="cp-header-section cp-text-center">
+      <div class="cp-container">
+        <h2 class="cp-m-0">{{title}}</h2>
+        <p class="cp-mb-0 cp-mt-4">{{desc}}</p>
+      </div>
+    </div>
+    <div class="cp-steps-list cp-page-top-section-md">
+      {{#steps}}
+        <div class="cp-how-to-use-steps-item">
+            <div class="cp-container">
+              <div class="cp-d-flex cp-align-center">
+                <div class="cp-step-count-section">
+                  <div class="cp-step-count cp-items-center cp-align-center">{{step_count}}</div>
+                </div>
+                <div class="cp-step-desc">{{step_text}}</div>
+              </div>
+          </div>
+        </div>
+      {{/steps}}
+    </div>
+  </div>
+{{/how_to_use}}

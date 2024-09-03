@@ -1,0 +1,17 @@
+{{#product_feature_list}}
+  <div class="cp-feature-section cp-mt-2 cp-xs-mt-8">
+    <div class="cp-container">
+      <div class="cp-row cp-justify-center">
+        {{#items}}
+          <div class="cp-col cp-col-12 cp-col-xs-6 cp-col-md-4">
+            <div class="cp-product-feature-post cp-border cp-default-bg cp-default-border-color cp-mt-6 cp-default-border-radius cp-text-center">
+              <div class="cp-icon-section">{{{icon}}}</div>
+              <h3 class="cp-mb-0 cp-mt-4">{{title}}</h3>
+              <p class="cp-mb-0 cp-mt-4 cp-secondary-text-color">{{desc}}</p>
+            </div>
+          </div>
+        {{/items}}
+      </div>
+    </div>
+  </div>
+{{/product_feature_list}}
