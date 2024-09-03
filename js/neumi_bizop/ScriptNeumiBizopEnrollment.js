@@ -1,3 +1,4 @@
+// Author: Sameer
 document.addEventListener("DOMContentLoaded", async function () {
   function extractCookie(...keys) {
     return document.cookie
@@ -98,7 +99,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   });
 
   if (hasEnrollments) container.classList.remove("is-hide");
-  
+
   const enrollPreviewSlider = new Splide("#enroll-preview-slider ", {
     pagination: false,
   });
