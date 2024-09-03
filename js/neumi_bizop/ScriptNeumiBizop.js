@@ -1,4 +1,4 @@
-
+// Author: Prem
 document.addEventListener("DOMContentLoaded", function () {
   // Product Slider
   const enrollPreviewSlider = new Splide("#enroll-preview-slider ", {

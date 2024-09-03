@@ -1,4 +1,3 @@
-
 // Author: Prem
 document.addEventListener("DOMContentLoaded", function () {
   // GSAP ScrollTrigger setup

@@ -1,3 +1,4 @@
+// Author: Kalpana
 function productSlider(){
   const previewSlider = new Splide("#preview-slider", {
     rewind: true,
