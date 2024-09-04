@@ -1,0 +1,16 @@
+@import 'projects/demo_company/pages/product/variables';
+@import 'global/master';
+@import 'projects/demo_company/pages/product/helpers/master';
+@import 'projects/demo_company/pages/product/typography';
+
+// Components
+@import 'projects/demo_company/components/product';
+@import 'projects/demo_company/components/slick-arrow';
+@import 'projects/demo_company/components/testimonial';
+@import 'projects/demo_company/components/product/master';
+
+// Layouts
+@import 'projects/demo_company/layouts/accordion';
+@import 'projects/demo_company/layouts/trusted-partner';
+@import 'projects/demo_company/layouts/video';
+@import 'projects/demo_company/layouts/product/master';

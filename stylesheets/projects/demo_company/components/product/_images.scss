@@ -1,0 +1,19 @@
+
+.cp-image-h-440{
+  height: 244px;
+  @include media(xs){
+    height: 300px;
+  }
+  @include media(sm){
+    height: 440px;
+  }
+}
+.cp-image-h-435{
+  max-height: 250px;
+  @include media(xs){
+    max-height: 300px;
+  }
+  @include media(sm){
+    max-height: 435px;
+  }
+}
