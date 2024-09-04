@@ -1,0 +1,35 @@
+.hero-section {
+  height: 400px;
+  display: flex;
+  place-content: center;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  background-position: top center;
+  color: var(--clr-white);
+  @include breakpoint-up("xl-phone") {
+    height: 500px;
+  }
+  @include breakpoint-up("xxl-desktop") {
+    height: 600px;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+  .container {
+    z-index: 2;
+  }
+  .hero-content {
+    width: 500px;
+    max-width: 100%;
+    h1 {
+      color: currentColor;
+      margin-bottom: 12px;
+    }
+  }
+}
