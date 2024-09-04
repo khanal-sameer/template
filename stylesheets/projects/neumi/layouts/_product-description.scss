@@ -83,6 +83,17 @@ ul {
   .thumbnail-slider {
     margin-top: 1.125rem;
     margin-inline: auto;
+    @include breakpoint-up("xl-tab") {
+      display: block;
+      .splide__arrow {
+        &--prev {
+          left: -0.2rem;
+        }
+        &--next {
+          right: -0.2rem;
+        }
+      }
+    }
     .custom-page-slider-arrow-section{
       .splide__arrow{
         &.arrow-prev{

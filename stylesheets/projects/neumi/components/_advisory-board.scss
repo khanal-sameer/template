@@ -1,0 +1,23 @@
+.advisory-board-card{
+  display: flex;
+  flex-wrap: wrap;
+  .image-section{
+    flex: 0 0 54px;
+    max-width: 54px;
+    img{
+      border-radius: 100%;
+    }
+  }
+  .desc{
+    flex: 0 0 calc(100% - 54px);
+    max-width: calc(100% - 54px);
+    padding-left: 8px;
+    cursor: default;
+    p{
+      &:hover{
+        display: block;
+        overflow: visible;
+      }
+    }
+  }
+}

@@ -20,14 +20,14 @@ $breakpoints-up: (
   "sm-phone": 280px,
   "mmd-phone": 375px,
   "md-phone": 480px,
-  "xl-phone": 576px, //xs
-  "md-tab": 768px,//sm
-  "lg-tab": 991px,//md
-  "xl-tab": 1024px,//lg
+  "xl-phone": 576px,
+  "md-tab": 768px,
+  "lg-tab": 991px,
+  "xl-tab": 1024px,
   "sm-desktop": 1200px,
   "md-desktop": 1280px,
-  "xl-desktop": 1366px, //largeScreen
-  "bigScreen": 1430px,
+  "xl-desktop": 1366px,
+  "xxl-desktop": 1536px,
 );
 
 @mixin breakpoint-up($size) {
