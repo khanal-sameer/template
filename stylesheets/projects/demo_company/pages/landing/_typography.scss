@@ -1,13 +1,4 @@
 body{
-  margin: 0;
-  font-family: $root_font;
-  font-weight: $root_font_weight;
-  font-size: $root_font_size;
-  letter-spacing: -0.02em;
-  color: $root_text_color;
-  @include media(sm){
-    font-size: $root_font_size_lg_device;
-  }
   h1,h2,h3,h4,h5{
     letter-spacing: -0.05em;
     margin: 0;
