@@ -1,8 +1,0 @@
-@for $i from 1 through 10 {
-  .#{$prefix}-z-index-#{$i} {
-    z-index: $i;
-  }
-}
-.#{$prefix}-z-index-n-1{
-  z-index: -1;
-}
