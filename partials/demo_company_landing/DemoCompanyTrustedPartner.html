@@ -1,0 +1,23 @@
+{{#trusted_by}}
+  <div class="cp-trusted-partner-section cp-pt-10 cp-sm-pt-16">
+    <h3 class="cp-m-0 cp-text-center">{{title}}</h3>
+    <div class="cp-mt-4 cp-sm-mt-8 cp-bg-white-smoke">
+      <div id="trusted-by-slider" class="splide cp-slider-section">
+        <div class="splide__track">
+          <ul class="splide__list">
+            {{#items}}
+              <li class="splide__slide">
+                <div class="cp-image cp-text-center">
+                  <img
+                    src="{{image}}"
+                    alt="logo"
+                  />
+                </div>
+              </li>
+            {{/items}}
+          </ul>
+        </div>
+      </div><!--#as-seen_slider-->
+    </div>
+  </div>
+{{/trusted_by}}

@@ -1,0 +1,24 @@
+{{#feature_product_list}}
+  <div class="cp-feature-product-post cp-page-section-md {{bg_classes}}">
+    <div class="cp-container">
+      <div class="cp-d-flex cp-align-center">
+        <div class="cp-col-12 cp-col-md-6 {{image_ordering_class}}">
+          <div class="cp-image-section cp-bg-image cp-default-border-radius">
+            <img src="{{image}}" alt="{{product_alt_text}}" class="cp-image-h-435 cp-image-cover cp-default-border-radius ">
+          </div>
+        </div><!-- .cp-col -->
+        <div class="cp-col-12 cp-col-md-6 {{desc_ordering_class}}">
+          <div class="cp-desc cp-mt-7 cp-md-mt-0 {{desc_classes}}">
+            <h3 class="cp-mt-3 cp-mb-0 cp-fw-medium">{{title}}</h3>
+            <p class="cp-mt-4 cp-mb-0 cp-line-height-11x">{{desc}}</p>
+            <div class="cp-btn-section cp-mt-6">
+              <button class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content" data-fluid-checkout="{{product_id}}">
+                {{buy_now_text}}
+              </button>
+            </div> <!-- .cp-btn-section -->
+          </div><!-- .cp-desc -->
+        </div><!-- .cp-col -->
+      </div><!-- .cp-row -->
+    </div><!-- .cp-container -->
+  </div><!-- .cp-product-post -->
+{{/feature_product_list}}

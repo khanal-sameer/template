@@ -1,0 +1,24 @@
+{{#service_list}}
+  <div class="cp-service-post-section cp-page-top-section">
+    <div class="cp-container">
+      <div class="cp-row">
+        {{#items}}
+          <div class="cp-col cp-col-12 cp-col-xs-6">
+            <div class="cp-service-post cp-mt-2 cp-xs-mt-4 cp-sm-mt-5">
+              <div class="cp-image-section cp-image-overlay-gradient cp-bg-image cp-items-end" style="background-image: url({{image}});">
+                <div class="cp-desc cp-position-relative cp-z-index-2 cp-ml-auto cp-mr-auto cp-max-w-full cp-text-center">
+                  <div class="cp-icon-section">
+                    <div class="cp-icon-wrapper">
+                      {{{icon}}}
+                    </div>
+                  </div>
+                  <h3 class="cp-mb-0 cp-mt-3 cp-xs-mt-4 cp-sm-mt-6 cp-text-white">{{title}}</h3>
+                </div>
+              </div><!-- .cp-image-section -->
+            </div><!-- .cp-service-post -->
+          </div>
+        {{/items}}
+      </div>
+    </div>
+  </div>
+{{/service_list}}

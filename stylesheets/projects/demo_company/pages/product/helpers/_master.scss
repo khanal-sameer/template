@@ -1,0 +1,10 @@
+@import 'border',
+        'grid';
+
+
+.#{$prefix}-default-bg{
+  background-color: #F8F8F8;
+}
+.#{$prefix}-is-strike{
+  text-decoration: line-through;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo product</title>
+    <!-- css library import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    {{>Style}}
+  </head>
+  <body>
+    <div  class='cp-demo-product-page cp-pt-8 cp-page-bottom-section cp-bg-white'>
+      <!-- Product Description -->
+      {{>DemoProductDescription}}
+
+      <!-- Product Feature -->
+      {{>DemoProductFeature}}
+
+      <!-- Video -->
+      {{>DemoProductVideo}}
+
+      <!-- Trusted partner -->
+      {{>DemoProductTrustedPartner}}
+
+      <!-- Benefits -->
+      {{>DemoProductBenefits}}
+
+      <!-- Review Tab -->
+      {{>DemoProductReviewTab}}
+
+      <!-- Key Ingredients -->
+      {{>DemoProductKeyIngredientsTab}}
+
+      <!-- Feature Product -->
+      {{>DemoProductFeatureProductPost}}
+
+      <!-- How To Use -->
+      {{>DemoProductHowToUse}}
+
+      <!-- FAQ -->
+      {{>DemoProductFAQ}}
+
+      <!-- CTA -->
+      {{>DemoProductCTA}}
+
+      <!-- Note -->
+      {{>DemoProductFooterNote}}
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    {{>ScriptAccordion}}
+
+    {{>ScriptDemoCompanyPartner}}
+    {{>ScriptDemoCompanyTestimonial}}
+
+    {{>ScriptDemoCompanyProduct}}
+  </body>
+</html>

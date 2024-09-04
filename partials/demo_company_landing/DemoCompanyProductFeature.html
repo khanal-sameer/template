@@ -1,0 +1,26 @@
+{{#product_feature_list}}
+<div class="cp-feature-product-post cp-product-feature-section cp-page-section-md cp-bg-white-smoke">
+  <div class="cp-container">
+    <div class="cp-d-flex">
+      <div class="cp-col-12 cp-col-sm-6">
+        <div class="cp-image-section cp-bg-image cp-default-border-radius cp-image-h-md" style="background-image: url({{image}})"></div>
+      </div><!-- .cp-col -->
+      <div class="cp-col-12 cp-col-sm-6">
+        <div class="cp-desc cp-items-list cp-sm-pt-7 cp-desc-left">
+          {{#items}}
+            <div class="cp-product-feature-item cp-product-feature-item-style-1 cp-d-flex cp-mt-6 cp-sm-mt-8">
+              <div class="cp-icon-section">
+                {{{icon}}}
+              </div>
+              <div class="cp-item-desc">
+                <h3 class="cp-m-0">{{title}}</h3>
+                <p class="cp-mt-2 cp-sm-mt-4 cp-mb-0">{{desc}}</p>
+              </div>
+            </div>
+          {{/items}}
+          </div>
+      </div>
+    </div><!-- .cp-row -->
+  </div><!-- .cp-container -->
+</div><!-- .cp-feature-post-section -->
+{{/product_feature_list}}

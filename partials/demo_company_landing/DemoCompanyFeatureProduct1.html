@@ -1,0 +1,34 @@
+{{#feature_product_1}}
+<div class="cp-feature-product-post cp-page-section-md cp-bg-white-smoke">
+  <div class="cp-container">
+    <div class="cp-d-flex cp-align-center">
+      <div class="cp-col-12 cp-col-sm-6">
+        <div class="cp-image-section cp-bg-image cp-default-border-radius cp-image-h-md" style="background-image: url({{image}})">
+        </div>
+      </div><!-- .cp-col -->
+
+      <div class="cp-col-12 cp-col-sm-6">
+        <div class="cp-desc cp-mt-7 cp-sm-mt-0 cp-desc-left">
+          <div class="cp-category-section">
+            <span class="cp-category-tag">{{category}}</span>
+          </div>
+          <h3 class="cp-mt-3 cp-mb-0 ">{{title}}</h3>
+          <p class="cp-mt-3 cp-sm-mt-4 cp-mb-0">{{desc}}</p>
+          <div class="cp-price cp-mt-4 cp-sm-mt-8 cp-mb-0 cp-fw-medium cp-heading-text-color cp-secondary-letter-spacing cp-fs-10x cp-sm-fs-16x">{{price}}</div>
+          <div class="cp-btn-section cp-mt-4 cp-sm-mt-5">
+            <button class="cp-btn cp-btn-primary-bg cp-w-full cp-xs-w-fit-content"  data-fluid-checkout="{{product_id}}">
+              <span class="cp-mr-1 cp-plus-icon cp-position-relative cp-top-1">
+                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.6 9.032V6.856H16.312V9.032H0.6ZM7.192 15.656V0.199999H9.656V15.656H7.192Z" fill="currentColor"/>
+                </svg>
+              </span>
+
+              {{add_to_cart_text}}
+            </button>
+          </div> <!-- .cp-btn-section -->
+        </div><!-- .cp-desc -->
+      </div><!-- .cp-col -->
+    </div><!-- .cp-row -->
+  </div><!-- .cp-container -->
+</div><!-- .cp-product-post -->
+{{/feature_product_1}}

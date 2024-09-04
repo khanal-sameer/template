@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <!-- css library import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    {{>Style}}
+  <body>
+    <div  class='cp-demo-company cp-page-bottom-section cp-bg-white'>
+      <!-- HERO SECTION -->
+      {{>DemoCompanyHero}}
+
+      <!-- Trusted Partner -->
+      {{>DemoCompanyTrustedPartner}}
+
+      <!-- Masonary Product -->
+      {{>DemoCompanyMasonaryProduct}}
+
+      <!-- Feature product -->
+      {{>DemoCompanyFeatureProduct1}}
+
+      <!-- Hassle free subscription -->
+      {{>DemoCompanyHassleFreeSubscription}}
+
+      <!-- Product Feature -->
+      {{>DemoCompanyProductFeature}}
+
+      <!-- Video -->
+      {{>DemoCompanyVideo}}
+
+      <!-- Testimonial -->
+      {{>DemoCompanyTestimonial}}
+
+      <!-- Feature Product -->
+      {{>DemoCompanyFeatureProduct2}}
+
+      <!-- FAQ -->
+      {{>DemoCompanyFAQ}}
+
+      <!-- CTA -->
+      {{>DemoCompanyCTA}}
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    {{>ScriptAccordion}}
+    {{>ScriptFancybox}}
+    {{>ScriptDemoCompanyPartner}}
+    {{>ScriptDemoCompanyTestimonial}}
+  </body>
+</html>
