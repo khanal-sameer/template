@@ -1,0 +1,23 @@
+.product-before-after-result-section{
+  .before-after-preview-slider{
+    padding: 0 20px;
+    @include breakpoint-up("xl-phone"){
+      padding: 0;
+    }
+    .splide__arrow{
+      background-color: transparent;
+    }
+    .splide__arrow--prev{
+      left: -15px;
+      @include breakpoint-up("xl-phone"){
+        left: -32px;
+      }
+    }
+    .splide__arrow--next{
+      right: -15px;
+      @include breakpoint-up("xl-phone"){
+        right: -32px;
+      }
+    }
+  }
+}
