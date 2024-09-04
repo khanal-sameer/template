@@ -1,0 +1,39 @@
+.#{$prefix}-btn{
+  display: inline-block;
+  padding: 14px 28px 16px;
+  font-weight: 500;
+  line-height: 20px;
+  @include border();
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: inherit;
+  letter-spacing: -0.02em;
+  text-align: center;
+  font-size: 1rem;
+  .#{$prefix}-plus-icon{
+    svg{
+      height:12px;
+      width: 12px;
+    }
+  }
+  &:hover{
+    opacity: 0.9;
+  }
+}
+.#{$prefix}-btn-primary-bg{
+  background-color: $primary;
+  color: $primary_bg_text_color;
+  border-color: $primary;
+  &:hover{
+    color: $white;
+  }
+
+}
+.#{$prefix}-btn-white-border{
+  background-color: transparent;
+  color: $white;
+  border-color: $white;
+  &:hover{
+    color: $white;
+  }
+}

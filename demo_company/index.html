@@ -10,9 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-  </head>
-  </head>
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    {{>Style}}
   <body>
     <div  class='cp-demo-company cp-page-bottom-section cp-bg-white'>
       <!-- HERO SECTION -->
@@ -53,29 +52,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://fastly.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    {{>ScriptAccordion}}
+    {{>ScriptFancybox}}
+    {{>ScriptDemoCompanyPartner}}
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        var trustedBy = new Splide("#trusted-by-slider", {
-          autoWidth: true,
-            arrows: false,
-            pagination: false,
-            type: "loop",
-            perPage: 7,
-            autoplay: true,
-            interval: 2000,
-            cover: false,
-            gap: "4rem",
-            breakpoints: {
-              1024: {
-                perPage: 6,
-                gap: "4rem",
-              },
-              576: {
-                perPage: 7,
-              },
-            },
-        });
-        trustedBy.mount();
         var testimonialSlider = new Splide("#testimonial-slider",{
           arrows: false,
           pagination: false,
@@ -99,21 +81,6 @@
         });
         testimonialSlider.mount();
       });
-
-      $(document).ready(function(){
-        $(document).on("click",".accordion-header",function(){
-          $(".accordion-content").not($(this).next()).slideUp();
-          $(".accordion-item").not($(this).parent()).removeClass("active");
-          $(this).next(".accordion-content").slideToggle();
-          $(this).parent(".accordion-item").toggleClass("active");
-        });
-        $("[data-fancybox]").fancybox({
-          youtube: {
-            controls: 0,
-            modestbranding: 1, // Use modestbranding instead of showinfo
-          },
-        });
-      })
     </script>
 
   </body>

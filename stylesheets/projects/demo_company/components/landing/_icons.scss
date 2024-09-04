@@ -1,0 +1,21 @@
+.#{$prefix}-arrow-icon-box{
+  @include box-size(30px,30px);
+  line-height: 30px;
+  border-radius: 100%;
+  background-color: $primary;
+  color: $primary_bg_text_color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @include media(sm){
+    @include box-size(40px,40px);
+    line-height: 40px;
+  }
+  svg{
+    width: 12px;
+    @include media(sm){
+      width: 14px;
+    }
+  }
+}
