@@ -79,9 +79,7 @@
     }
   }
 }
-.ingredients img {
-  height: 200px;
-}
+
 .feature-section-left {
   order: 3;
   @include breakpoint-up("lg-tab") {
