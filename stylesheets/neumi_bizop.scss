@@ -3,3 +3,10 @@
 @import 'global/master';
 @import 'projects/neumi/share';
 @import 'projects/neumi/pages/bizop/typography';
+.advisory-board-card{
+  .desc{
+    p{
+      color: #4D4F53;
+    }
+  }
+}
