@@ -15,11 +15,11 @@
           <div class="col col-12 col-lg-8">
             <div class="row">
               {{#items}}
-              <div class="col col-12 col-xs-6 mt-30">
-                <div class="image-section bg-image sm-image {{image_position}}" style="background-image: url({{image}});">
+              <div class="col col-12 col-xs-6 mt-30 neumi-landing-page-product" id="product_{{product_id}}">
+                <div class="image-section bg-image sm-image {{image_position}} product-image" style="background-image: url({{image}});">
                   <h4 class="product-title">
                     <a href="{{url}}" {{{bg_color}}}>
-                      <span>{{product_name}}</span>
+                      <span class="product-name">{{product_name}}</span>
                       <div class="icon">{{{arrow}}}</div>
                     </a>
                   </h4>
