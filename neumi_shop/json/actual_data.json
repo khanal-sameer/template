@@ -1,0 +1,120 @@
+{
+  "title": "Neumi Shop page",
+  "shop_product_button_text": "Shop our products",
+  "shop_product_url": "#",
+  "language": "en", "month": "mo",
+  "hero_section":{
+    "title": "Neumi Products",
+    "desc": "Life is better when you look and feel your best.",
+    "image": "https://cdn.fluid.app/neumi/shop/images/banner_bg.jpeg"
+  },
+  "asSeenOn": {
+    "title": "As seen on",
+    "items": [
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_1.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_2.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_3.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_4.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_5.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/newulife/as_seen_6.png"
+      }
+    ]
+  },
+  "product_list":{
+    "title": "Single bottles",
+    "items":[
+      {
+        "product_name": "NutriSwish",
+        "price":"65.00",
+        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish.png",
+        "url":"https://app.neumi.com/{{affiliate_guid | default:'home'}}/page/nutriswish?preview=true",
+        "product_id":"9474"
+      },
+      {
+        "product_name": "Neumi Skin",
+        "price":"65.00",
+        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin.png",
+        "url":"https://app.neumi.com/{{affiliate_guid | default:'home'}}/page/neumi-skin?preview=true",
+        "product_id":"9467"
+      },
+      {
+        "product_name": "Hers",
+        "price":"65.00",
+        "image": "https://cdn.fluid.app/neumi/shop/images/hers.png",
+        "url":"https://app.neumi.com/{{affiliate_guid | default:'home'}}/page/hers?preview=true",
+        "product_id":"9410"
+      },
+      {
+        "product_name": "Neuro",
+        "price":"65.00",
+        "image": "https://cdn.fluid.app/neumi/shop/images/neuro.png",
+        "url":"https://app.neumi.com/{{affiliate_guid | default:'home'}}/page/neuro?preview=true",
+        "product_id":""
+      }
+    ]
+  },
+  "product_bundle":{
+    "title": "Bundles",
+    "product_name": "Neumi OG Pack",
+    "price":"260.00",
+    "image": "https://cdn.fluid.app/neumi/shop/images/bundle.png",
+    "url": ""
+  },
+  "multiple_product":{
+    "items":[
+
+      {
+        "price":"130",
+        "product_name": "Hers Essential Pack w/ Neumi Skin",
+        "image": "https://cdn.fluid.app/neumi/shop/images/hers_neumiskin_essential.png",
+        "url": ""
+      },
+      {
+        "price":"130",
+        "product_name": "Hers Essential Pack w/ NutriSwish",
+        "image": "https://cdn.fluid.app/neumi/shop/images/hers_nutriswish_essential.png",
+        "url": ""
+      },
+      {
+        "price":"130",
+        "product_name": "Neumi Skin Essential Pack",
+        "image": "https://cdn.fluid.app/neumi/shop/images/neumiskin_essential.png",
+        "url": ""
+      },
+      {
+        "price":"130",
+        "product_name": "NutriSwish Essential Pack",
+        "image": "https://cdn.fluid.app/neumi/shop/images/nutriswish_essential.png",
+        "url": ""
+      },
+      {
+        "price":"130",
+        "product_name": "Classic Essential Pack",
+        "image": "https://cdn.fluid.app/neumi/shop/images/classic_essential.png",
+        "url": ""
+      },
+      {
+        "price":"260",
+        "product_name": "Hers Premium Pack",
+        "image": "https://cdn.fluid.app/neumi/shop/images/hers_premium.png",
+        "url": ""
+      }
+    ]
+  },
+  "cta":{
+    "title": "A new you starts with Neumi.",
+    "image": "https://cdn.fluid.app/neumi/shop/images/cta_bg.jpg"
+  },
+  "note_desc": "The statements made within this website have not been evaluated by the Food and Drug Administration. These statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. The views and nutritional advice expressed by Neumi are not intended for the purpose of providing medical advice. Please always consult your health care provider if you are taking any medications or have any medical conditions. Individual results may vary."
+}
