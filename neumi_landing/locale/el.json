@@ -1,0 +1,207 @@
+{
+  "title": "Σελίδα Προορισμού Neumi",
+  "shop_product_button_text": "Αγοράστε τα προϊόντα μας",
+  "become_member_button_text": "Γίνετε μέλος",
+  "see_all_product_button_text": "Δείτε όλα τα προϊόντα",
+  "see_all_text": "Δείτε όλα",
+  "hide_all_text": "Απόκρυψη όλων",
+  "language": "el",
+  "month": "μήνα",
+  "shop_product_url": "https://app.neumi.com/<%={{affiliate_guid | default: 'home'}}=%>/shop",
+  "become_member_url": "https://app.neumi.com/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op",
+  "hero_section": {
+    "title": "Ένας νέος εαυτός ξεκινά με το Neumi",
+    "title_sm": "Η Νανο Εταιρεία",
+    "desc": "Μεταμορφώστε την ευημερία σας με τη δύναμη της Νανοτεχνολογίας HydraStat™ της Neumi."
+  },
+  "asSeenOn": {
+    "title": "Όπως φάνηκε σε"
+  },
+  "masonary_section": {
+    "title": "Η σειρά προϊόντων μας",
+    "desc": "Η ζωή είναι καλύτερη όταν δείχνετε και αισθάνεστε υπέροχα.",
+    "masonary_product_layout1": {
+      "items": [
+        {
+          "product_name": "Hers",
+          "url": "https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+        },
+        {
+          "product_name": "Neumi Skin",
+          "url": "https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+        },
+        {
+          "product_name": "NutriSwish",
+          "url": "https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+        },
+        {
+          "product_name": "Neuro",
+          "url": "https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+        }
+      ]
+    },
+    "masonary_product_layout2": {
+      "items": [
+        {
+          "product_name": "NutriSwish",
+          "url": "https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+        },
+        {
+          "product_name": "Neuro",
+          "url": "https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+        }
+      ]
+    }
+  },
+  "guarantee": {
+    "title": "Η εγγύηση Neumi",
+    "desc": "Ανεξάρτητα από τον τύπο λογαριασμού, θα απολαύσετε:",
+    "alt_text": "προϊόν neumi",
+    "items": [
+      {
+        "title": "Αγαπήστε το, ή είναι δωρεάν",
+        "desc": "Δοκιμάστε τα προϊόντα μας 30 ημέρες χωρίς ρίσκο. Είμαστε σίγουροι ότι θα αγαπήσετε τα προϊόντα μας όσο κι εμείς."
+      },
+      {
+        "title": "Συνδρομές χωρίς κόπο",
+        "desc": "Χρειάζεται να παραλείψετε έναν μήνα ή να ακυρώσετε τη συνδρομή σας; Κανένα πρόβλημα! Επεξεργαστείτε τις προτιμήσεις σας οποιαδήποτε στιγμή και παραγγείλετε με αυτοπεποίθηση."
+      },
+      {
+        "title": "Δωρεάν προϊόν",
+        "desc": "Με παραγγελίες άνω των $300, λαμβάνετε 1 δωρεάν μπουκάλι για να καλύψετε τα έξοδα αποστολής."
+      }
+    ]
+  },
+  "performance": {
+    "title_sm": "Νανοτεχνολογία HydraStat™",
+    "title": "Μικρή παράδοση, μεγάλη απόδοση",
+    "desc": "Τα μόρια σε πολλά συμπληρώματα είναι πολύ μεγάλα για να απορροφηθούν από το κύτταρο, οπότε αποβάλλονται από το σώμα χωρίς να χρησιμοποιούνται αποτελεσματικά. Η Neumi χρησιμοποιεί καινοτόμο Νανοτεχνολογία HydraStat™ για να αυξήσει τη βιοδιαθεσιμότητα και την αποτελεσματικότητα όλων των προϊόντων της διασπώντας μεγάλα μόρια και περιβάλλοντας τα σε υπερκαθαρισμένα συστάδες νερού. Τα συστατικά μας σε νανομέγεθος κυμαίνονται μεταξύ 10-100 νανομέτρων. Είναι αρκετά μικρά ώστε να απορροφηθούν πλήρως από τον ανθρώπινο κύτταρο.",
+    "button_text": "Μάθετε περισσότερα",
+    "url": "https://app.neumi.com/<%={{affiliate_guid | default: 'home'}}=%>/page/neumi-biz-op"
+  },
+  "video": {
+    "title_sm": "Νανοτεχνολογία Hydrastat™",
+    "title": "Η καινοτομία της Neumi"
+  },
+  "before_and_after": {
+    "title": "Δείτε τα πριν και μετά"
+  },
+  "medical_advisor_board": {
+    "title": "Η μη αμειβόμενη ιατρική συμβουλευτική μας επιτροπή",
+    "items": [
+      {
+        "name": "Douglas Harrington, MD",
+        "university": "USC Keck School of Medicine"
+      },
+      {
+        "name": "Gordon Crozier, DO",
+        "university": "DMU College of Osteopathic Medicine"
+      },
+      {
+        "name": "Dr. Zanetor Agyeman-Rawlings, MD",
+        "university": "Royal College of Surgeons in Ireland"
+      },
+      {
+        "name": "Annie Varughese, MD, FAAC",
+        "university": "Medical College of Georgia"
+      },
+      {
+        "name": "Thomas Redner, MD",
+        "university": "Harvard Fellow"
+      },
+      {
+        "name": "Eduardo Sánchez-Osorio Nicolás, MD",
+        "university": "University of Barcelona School of Medicine Traumatology"
+      },
+      {
+        "name": "Ronald D. Friedman, MD",
+        "university": "Harvard Clinical Fellow"
+      },
+      {
+        "name": "Sir José Santillana Yamamoto, MD",
+        "university": "UST Faculty of Medicine and Surgery"
+      }
+    ],
+    "hidden_items": [
+      {
+        "name": "James Jian Ho, MD",
+        "university": "Mayo Fellow"
+      },
+      {
+        "name": "Joseph Kaplan, MD",
+        "university": "University of Alabama School of Medicine"
+      },
+      {
+        "name": "Steven Petrosino, PhD",
+        "university": "LaSalle University"
+      },
+      {
+        "name": "Jim Hayes, MD",
+        "university": "Επείγουσα Ιατρική. Πρώην Πρόεδρος της Ένωσης Επείγοντων Ιατρών"
+      },
+      {
+        "name": "Dean Stubbs, MD",
+        "university": "Αυστραλιανός Ηγέτης στην Ολιστική Ιατρική"
+      },
+      {
+        "name": "Tania Ash, MD",
+        "university": "Ειδικός στην Ολιστική Ιατρική"
+      },
+      {
+        "name": "Kristin Hieshetter, DC",
+        "university": "Δρ Χειροπρακτικής. Μεταβολικός βιοχημικός. Πιστοποιημένος στη Διατροφή. Ειδικός μη επεμβατικών λέιζερ."
+      },
+      {
+        "name": "Luis Miguel Valdes, MD",
+        "university": "Ιατρικός Ειδικός Ωτορινολαρυγγολογίας."
+      },
+      {
+        "name": "Bethany Dixon, DC",
+        "university": "Χειροπράκτης και Πιστοποιημένος Ιατρικός Εξεταστής. Γιατρός και σύμβουλος στη βιομηχανία μεταφορών."
+      },
+      {
+        "name": "Pacilina estrella-Barotil, MD",
+        "university": "Οικογενειακός Ιατρός με Μεταπτυχιακό στην Διοίκηση Νοσοκομείου; Ιδιοκτήτης και Ιατρικός Διευθυντής του Wholeness Family Medical Center, Inc., Silang, Φιλιππίνες."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Συχνές ερωτήσεις",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "Είμαι προτιμώμενος πελάτης. Πώς να παραγγείλω;",
+        "desc": "Ο καλύτερος τρόπος είναι να επισκεφτείτε το <a class='clr-primary' href='https://neumi.com/' target='_blank'>Neumi.com</a> και να κάνετε την παραγγελία σας εκεί."
+      },
+      {
+        "class": "",
+        "header": "Γιατί Γλουταθιόνη;",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "Τι θα έπρεπε να αισθάνομαι;",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "Ποια είναι η καλύτερη ώρα για να πάρω το NutriSwish;",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "Από πού προέρχονται τα συστατικά;",
+        "desc": ""
+      },
+      {
+        "class": "",
+        "header": "Ποιο είναι το καλύτερο χαρακτηριστικό υγείας;",
+        "desc": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ένας νέος εαυτός ξεκινά με το Neumi."
+  },
+  "note_desc": "Οι δηλώσεις που έγιναν σε αυτήν την ιστοσελίδα δεν έχουν αξιολογηθεί από τον Οργανισμό Τροφίμων και Φαρμάκων. Αυτές οι δηλώσεις και τα προϊόντα αυτής της εταιρείας δεν προορίζονται για τη διάγνωση, θεραπεία, θεραπεία ή πρόληψη οποιασδήποτε ασθένειας. Οι απόψεις και οι διατροφικές συμβουλές που εκφράζονται από τη Neumi δεν προορίζονται για σκοπούς παροχής ιατρικών συμβουλών. Παρακαλούμε πάντα να συμβουλεύεστε τον πάροχο υγειονομικής περίθαλψης σας εάν λαμβάνετε οποιαδήποτε φάρμακα ή έχετε οποιαδήποτε ιατρική κατάσταση. Τα ατομικά αποτελέσματα μπορεί να διαφέρουν."
+}
