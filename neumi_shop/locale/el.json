@@ -1,0 +1,71 @@
+{
+  "title": "Σελίδα Καταστήματος Neumi",
+  "shop_product_button_text": "Αγόρασε τα προϊόντα μας",
+  "language": "el",
+  "month": "μ",
+  "hero_section": {
+    "title": "Προϊόντα Neumi",
+    "desc": "Η ζωή είναι καλύτερη όταν δείχνετε και αισθάνεστε το καλύτερό σας."
+  },
+  "asSeenOn": {
+    "title": "Όπως φαίνεται σε"
+  },
+  "product_list": {
+    "title": "Μοναδικές φιάλες",
+    "items": [
+      {
+        "product_name": "NutriSwish",
+        "url": "https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/nutriswish?preview=true"
+      },
+      {
+        "product_name": "Neumi Skin",
+        "url": "https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/neumi-skin?preview=true"
+      },
+      {
+        "product_name": "Hers",
+        "url": "https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/hers?preview=true"
+      },
+      {
+        "product_name": "Neuro",
+        "url": "https://app.neumi.com/<%={{affiliate_guid | default:'home'}}=%>/page/neuro?preview=true"
+      }
+    ]
+  },
+  "product_bundle": {
+    "title": "Πακέτα",
+    "product_name": "Neumi OG Pack",
+    "url": ""
+  },
+  "multiple_product": {
+    "items": [
+      {
+        "product_name": "Hers Essential Pack με Neumi Skin",
+        "url": ""
+      },
+      {
+        "product_name": "Hers Essential Pack με NutriSwish",
+        "url": ""
+      },
+      {
+        "product_name": "Neumi Skin Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "NutriSwish Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "Classic Essential Pack",
+        "url": ""
+      },
+      {
+        "product_name": "Hers Premium Pack",
+        "url": ""
+      }
+    ]
+  },
+  "cta": {
+    "title": "Μια νέα εσύ αρχίζει με το Neumi."
+  },
+  "note_desc": "Οι δηλώσεις που έγιναν σε αυτήν την ιστοσελίδα δεν έχουν αξιολογηθεί από τη Διεύθυνση Τροφίμων και Φαρμάκων. Αυτές οι δηλώσεις και τα προϊόντα αυτής της εταιρείας δεν προορίζονται για τη διάγνωση, θεραπεία, ίαση ή πρόληψη οποιασδήποτε ασθένειας. Οι απόψεις και οι διατροφικές συμβουλές που εκφράζονται από το Neumi δεν προορίζονται για την παροχή ιατρικών συμβουλών. Παρακαλούμε να συμβουλεύεστε πάντα τον πάροχο υγειονομικής περίθαλψης εάν παίρνετε οποιαδήποτε φάρμακα ή έχετε οποιεσδήποτε ιατρικές καταστάσεις. Τα ατομικά αποτελέσματα μπορεί να διαφέρουν."
+}
