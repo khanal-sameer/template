@@ -302,7 +302,7 @@
         "desc": "{{faq.items.2.desc}}"
       },
       {
-        "class": "acc-item_active",
+        "class": "",
         "header": "{{faq.items.3.header}}",
         "desc": "{{faq.items.3.desc}}"
       },
