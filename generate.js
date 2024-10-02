@@ -31,7 +31,6 @@ const populateHTML = (
   project,
   style_tmpl,
   partials_tmpl,
-  project_partials
 ) => {
   const data = JSON.parse(readFile(lang));
 
@@ -43,7 +42,7 @@ const populateHTML = (
 
   parsedData.style = style_tmpl
 
-  const rendered = Mustache.render(tmpl, parsedData, partials_tmpl, project_partials, { escape });
+  const rendered = Mustache.render(tmpl, parsedData, partials_tmpl, { escape });
   const locale_name = path.parse(lang).name;
   const page_name = path.join(pages, `${project}_${locale_name}.html`);
 
