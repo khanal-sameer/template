@@ -132,6 +132,9 @@
         "product_id": "1"
       },
       {
+        "product_id": "45"
+      },
+      {
         "product_id": "24"
       },
       {
@@ -142,6 +145,10 @@
       {
         "product_id": "1",
         "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/enrollments/vxNiSag1c2aikwSAamR21nSq?preview=true"
+      },
+      {
+        "product_id": "45",
+        "url": "https://app.neumi.com/#{affiliate_guid | default:'home'}/enrollments/Z6TogcFcjZTLmPzXEsf5KZa3?preview=true"
       },
       {
         "product_id": "24",
