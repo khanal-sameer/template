@@ -266,83 +266,58 @@
     "items": [
       {
         "class": "acc-item_active",
-        "header": "How much stevia is in one sachet of REDOXMind?",
-        "desc": "Less than 120mg for US and Europe, and less than 80mg in Asia formulas."
+        "header": "{{{faq.items.0.header}}}",
+        "desc": "{{{faq.items.0.desc}}}"
       },
       {
         "class": "",
-        "header": "Why is stevia in REDOXMind?",
-        "desc": "Stevia is derived from the leaves of the plant species Stevia rebaudiana. Stevia is about 200-350 times sweeter than sugar, thus only a small amount is needed to match the sweetness provided by sugar. It also does not contribute to or impact blood glucose levels."
+        "header": "{{{faq.items.1.header}}}",
+        "desc": "{{{faq.items.1.desc}}}"
       },
       {
         "class": "",
-        "header": "What does “natural flavors” mean?",
-        "desc": "The Cell Performance line does not contain any GMO ingredients. All “natural flavors” come from fruit extracts and do not contain MSG."
+        "header": "{{{faq.items.2.header}}}",
+        "desc": "{{{faq.items.2.desc}}}"
       },
       {
         "class": "",
-        "header": "Is citric acid considered natural?",
-        "desc": "Citric acid is sourced naturally from cassava fermentation and is non-GMO."
+        "header": "{{{faq.items.3.header}}}",
+        "desc": "{{{faq.items.3.desc}}}"
       },
       {
         "class": "",
-        "header": "What is the ASEA® Cell Performance category of products?",
-        "desc": "ASEA® Cell Performance is a category of products formulated with your health and wellness in mind. Based on redox principles, these products are easy to use, on-the-go, and deliver a healthy boost Powered by Redox™. With proprietary ingredient blends that help you perform at your best physically and mentally by targeting performance at the cellular level, ASEA’s Cell Performance category is designed to complement and support a healthy lifestyle. These tasty packets are perfect for supporting your daily performance—wherever you go!"
+        "header": "{{{faq.items.4.header}}}",
+        "desc": "{{{faq.items.4.desc}}}"
       },
       {
         "class": "",
-        "header": "What is Red Orange Complex, and what are its benefits?",
-        "desc": "Red Orange Complex is a blend of several types of blood oranges that improves blood levels of antioxidants and leads to improved cognitive function, specifically spatial and recognition memory."
+        "header": "{{{faq.items.5.header}}}",
+        "desc": "{{{faq.items.5.desc}}}"
       },
       {
         "class": "",
-        "header": "What is phosphatidylserine?",
-        "desc": "Your body naturally produces phosphatidylserine, and supplementing it helps facilitate learning, memory, and mood regulation."
+        "header": "{{{faq.items.6.header}}}",
+        "desc": "{{{faq.items.6.desc}}}"
       },
       {
         "class": "",
-        "header": "Is REDOXMind free of allergens?",
-        "desc": "REDOXMind is gluten- and, dairy-free, as well as free from soy allergens, and does not contain sugar."
+        "header": "{{{faq.items.7.header}}}",
+        "desc": "{{{faq.items.7.desc}}}"
       },
       {
         "class": "",
-        "header": "How many Cell Performance products are there?",
-        "desc": "In addition to REDOXMind, there are three other Cell Performance products that provide targeted benefits starting at the cellular level:\n<ul class=\"my-12\">\n  <li>REDOXMood</li>\n  <li>REDOXEnergy</li>\n  <li>REDOXRadiance</li>\n</ul>\n<p>\n  All four products come in packages of 30 stick packs. REDOXMood, REDOXEnergy, and REDOXRadiance also come in a variety pack of 10 stick packs each.\n</p>"
-      },
-      {
-        "class": "",
-        "header": "Are all of the ASEA® Cell Performance products vegan?",
-        "desc": "Yes, all four products are 100% vegan."
-      },
-      {
-        "class": "redoxmind-d-none",
-        "header": "Do I need to consume the entire 8-12oz at once?",
-        "desc": "For best results, we recommend drinking the entire contents of a package in 15 minutes."
-      },
-      {
-        "class": "redoxmind-d-none",
-        "header": "Can REDOXMind and other Cell Performance products be used with ASEA® Redox Cell Signaling Supplement?",
-        "desc": "Yes. We recommend using ASEA® Redox Cell Signaling Supplement before consuming any Cell Performance products. Mixing anything with ASEA Redox Cell Signaling Supplement can deactivate the redox molecules and not allow them to perform at full capacity."
-      },
-      {
-        "class": "redoxmind-d-none",
-        "header": "Can REDOXMind be mixed and consumed together with other ASEA® Cell Performance products?",
-        "desc": "Yes. The products are formulated to work independently but can be used together. We recommend you try each product individually before mixing it together."
-      },
-      {
-        "class": "redoxmind-d-none",
-        "header": "How many calories are in a serving of REDOXMind?",
-        "desc": "Each drink mix contains 5 calories per serving."
+        "header": "{{{faq.items.8.header}}}",
+        "desc": "{{{faq.items.8.desc}}}"
       }
     ],
     "show_more_text": "Show More"
   },
   "cta": {
-    "title": "Give your brain a boost <br />with REDOXMind",
-    "subscription_text": "Add to subscription",
-    "purchase_text": "Add to one-time purchase",
+    "title": "{{{cta.title}}}",
+    "subscription_text": "{{{cta.subscription_text}}}",
+    "purchase_text": "{{{cta.purchase_text}}}",
     "image": "https://cdn.fluid.app/asea/redoxmind/support.png",
     "alt_text": "cta support",
-    "note_desc": "*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    "note_desc": "{{{cta.note_desc}}}"
   }
 }
