@@ -1,0 +1,25 @@
+{{#cta}}
+  <section class="cta-banner mt-56">
+    <div class="cta-banner_container">
+      <div class="cta-banner_wrap">
+        <div class="cta-banner_content">
+          <h2>{{{title}}}</h2>
+          <div class="btns mt-32 is-flex is-start is-align-center gap-16 is-wrap">
+            <button class="btn btn-border btn-border_white" data-fluid-checkout="{{product_id}}">
+              {{purchase_text}}
+            </button>
+            <button class="btn btn-white"  data-fluid-subscription-checkout="{{product_id}}">
+              {{subscription_text}}
+            </button>
+          </div>
+        </div>
+        <div class="cta-banner_figure">
+          <img src="{{image}}" alt="{{alt_text}}"/>
+        </div>
+      </div>
+    </div>
+    <div class="page-note my-32">
+      <div class="cta-banner_container">{{note_desc}}</div>
+    </div>
+  </section>
+{{/cta}}

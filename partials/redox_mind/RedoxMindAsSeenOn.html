@@ -1,0 +1,25 @@
+{{#asSeenOn}}
+  <div class="as-seen page-section">
+    <div class="container">
+      <div class="section-title text-center fw-600 fs-lg mb-24">{{title}}</div>
+
+      <div id="as-seen_slider" class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            {{#items}}
+              <li class="splide__slide">
+                <div class="as-seen_image">
+                  <img
+                    src="{{image}}"
+                    alt="as seen logo"
+                  />
+                </div>
+              </li>
+            {{/items}}
+          </ul>
+        </div>
+      </div><!--#as-seen_slider-->
+
+    </div><!--.container---->
+  </div><!--/as-seen-->
+{{/asSeenOn}}
