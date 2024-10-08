@@ -15,24 +15,21 @@
   "breadcrumb_all_product_text":"{{breadcrumb_all_product_text}}",
   "breadcrumb_all_product_text_url":"https://www.asea.app/{{affiliate_guid}}/shop",
   "productSlider": {
-    "slider_items1_image": "https://cdn.fluid.app/asea/redoxmind/slider_1.png",
-    "video": "https://cdn.fluid.app/asea/redoxmind/slider_video_en.mp4",
+    "slider_items1_image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/slider_1.png",
+    "video": "{{{productSlider.video}}}",
     "alt_text": "{{productSlider.alt_text}}",
     "items": [
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_2.png"
+        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/slider_2.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_3.png"
+        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/slider_3.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_4_en.png"
+        "image": "{{{productSlider.items.2.image}}}"
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_5.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_6.png"
+        "image": "{{{productSlider.items.3.image}}}"
       }
     ]
   },
@@ -102,14 +99,14 @@
     ]
   },
   "soldInfo": {
-    "image": "https://cdn.fluid.app/asea/redoxmind/sold_bg.png",
+    "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/sold_info_bg.png",
     "title": "{{{soldInfo.title}}}",
     "count": "60,000",
     "desc": "{{{soldInfo.desc}}}"
   },
   "collagen_support": {
     "title": "{{{collagen_support.title}}}",
-    "image": "https://cdn.fluid.app/asea/redoxmind/collgen_support.png",
+    "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/making_perfect_skin_possible.png",
     "alt_text": "collagen support",
     "items_left": [
       {
@@ -135,7 +132,7 @@
   "performance": {
     "title": "{{{performance.title}}}",
     "alt_text": "performance",
-    "image": "https://cdn.fluid.app/asea/redoxmind/performance.png",
+    "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/maximize_your_skin.png",
     "desc": "{{{performance.desc}}}",
     "items": [
       {
@@ -153,7 +150,7 @@
   "confidence": {
     "title": "{{{confidence.title}}}",
     "button_text": "Buy now",
-    "image": "https://cdn.fluid.app/asea/redoxmind/confidence.png",
+    "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/confidence.png",
     "alt_text": "confidence",
     "items": [
       {
@@ -169,48 +166,48 @@
   },
   "how_to_use": {
     "title": "{{{how_to_use.title}}}",
-    "image": "https://cdn.fluid.app/asea/redoxmind/houtouse.png",
+    "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/how_to_use.png",
     "video": "{{{how_to_use.video}}}",
     "steps": [
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/empty_bottle.svg",
-        "alt_text": "powder",
+        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/how_to_use_step1.svg",
+        "alt_text": "step 1",
         "caption": "{{{how_to_use.steps.0.caption}}}"
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/pour_bottle.svg",
-        "alt_text": "one stick pack",
+        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/how_to_use_step2.svg",
+        "alt_text": "step 2",
         "caption": "{{{how_to_use.steps.1.caption}}}"
       }
     ]
   },
   "key_ingredients": {
     "title": "{{{key_ingredients.title}}}",
-    "image": "https://cdn.fluid.app/asea/redoxmind/key_ingredient.png",
+    "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/ingredients.png",
     "alt_text": "ingredients",
     "alt_text2": "collagen support",
     "left_items": [
       {
         "title": "{{{key_ingredients.left_items.0.title}}}",
         "desc": "{{{key_ingredients.left_items.0.desc}}}",
-        "image": "https://cdn.fluid.app/asea/redoxmind/sage.png"
+        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/cruelty_free.svg"
       },
       {
         "title": "{{{key_ingredients.left_items.1.title}}}",
         "desc": "{{{key_ingredients.left_items.1.desc}}}",
-        "image": "https://cdn.fluid.app/asea/redoxmind/nicotinamide.png"
+        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/all_skin_types.svg"
       }
     ],
     "right_items": [
       {
         "title": "{{{key_ingredients.right_items.0.title}}}",
         "desc": "{{{key_ingredients.right_items.0.desc}}}",
-        "image": "https://cdn.fluid.app/asea/redoxmind/orange.png"
+        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/pure_and_simple.svg"
       },
       {
         "title": "{{{key_ingredients.right_items.1.title}}}",
         "desc": "{{{key_ingredients.right_items.1.desc}}}",
-        "image": "https://cdn.fluid.app/asea/redoxmind/zinc.png"
+        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/clean_and_beauty.svg"
       }
     ],
     "mobile_items":[
@@ -238,7 +235,7 @@
   },
   "feel_the_difference": {
     "title": "{{{feel_the_difference.title}}}",
-    "image": "https://cdn.fluid.app/asea/redoxmind/itsfree.png",
+    "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/feel_the_difference.png",
     "alt_text": "Its free",
     "desc": "{{{feel_the_difference.desc}}}",
     "items": [
@@ -316,7 +313,7 @@
     "title": "{{{cta.title}}}",
     "subscription_text": "{{{cta.subscription_text}}}",
     "purchase_text": "{{{cta.purchase_text}}}",
-    "image": "https://cdn.fluid.app/asea/redoxmind/support.png",
+    "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/cta.png",
     "alt_text": "cta support",
     "note_desc": "{{{cta.note_desc}}}"
   }

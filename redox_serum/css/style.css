@@ -1728,6 +1728,8 @@ html {
       padding-right: 6.8rem; } }
   #asea-landing_page .page-section.key-ingredients {
     background-color: var(--clr-body-200); }
+    #asea-landing_page .page-section.key-ingredients .content-list h4 {
+      max-width: 200px; }
     #asea-landing_page .page-section.key-ingredients .content-list .content-list_img img {
       max-width: 100px; }
       @media (min-width: 480px) {
@@ -1794,8 +1796,8 @@ html {
         flex-direction: column;
         text-align: right; } }
     #asea-landing_page .three-cols .content-list_img {
-      max-width: 150px;
-      height: 110px; }
+      max-width: 78px;
+      height: 78px; }
       @media (max-width: 767.98px) {
         #asea-landing_page .three-cols .content-list_img {
           margin: auto; }

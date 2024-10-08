@@ -13,24 +13,20 @@
   "breadcrumb_all_product_text":"All products",
   "breadcrumb_all_product_text_url":"https://www.asea.app/{{affiliate_guid}}/shop",
   "productSlider": {
-    "slider_items1_image": "https://cdn.fluid.app/asea/redoxmind/slider_1.png",
     "video": "https://cdn.fluid.app/asea/redoxmind/slider_video_en.mp4",
     "alt_text": "product",
     "items": [
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_2.png"
+        "image": ""
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_3.png"
+        "image": ""
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_4_en.png"
+        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/slider_4_en.png"
       },
       {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_5.png"
-      },
-      {
-        "image": "https://cdn.fluid.app/asea/redoxmind/slider_6.png"
+        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/slider_5_en.png"
       }
     ]
   },
@@ -163,7 +159,7 @@
   },
   "how_to_use": {
     "title": "How to use",
-    "video": "https://cdn.fluid.app/asea/redoxmind/howtouse_video_en.mp4",
+    "video": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/how_to_use_video_en.mp4",
     "steps": [
       {
         "caption": "Cleanse skin first, dry, then apply a pea-sized amount onto the desired area and rub into the skin."

@@ -394,6 +394,9 @@ ul {
   &.key-ingredients {
     background-color: var(--clr-body-200);
     .content-list {
+      h4{
+        max-width: 200px;
+      }
       .content-list_img {
         img {
           max-width: 100px;
@@ -492,9 +495,10 @@ ul {
         text-align: right;
       }
     }
+   
     &_img {
-      max-width: 150px;
-      height: 110px;
+      max-width: 78px;
+      height: 78px;
       @include breakpoint-down("md-tab") {
         margin: auto;
         img {
