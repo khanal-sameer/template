@@ -1,0 +1,429 @@
+{
+  "title": "REDOXMind",
+  "lang": "en",
+  "product_id": "8622",
+  "ratingSvgColor": "#294DE2;",
+  "product_title": "REDOXMind®",
+  "total_product_review": "5 Reviews",
+  "product_desc": "Recharge your mental A-game.",
+  "add_to_cart_text": "Add to cart",
+  "arrow_icon": "https://cdn.fluid.app/asea/arrow_icon.svg",
+  "play_icon": "https://cdn.fluid.app/asea/play.png",
+  "play_alt_text": "play icon",
+  "check_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14.775\" height=\"10.346\" viewBox=\"0 0 14.775 10.346\">\n  <path id=\"Path_4862\" data-name=\"Path 4862\" d=\"M767.9,561l-9.734,9.268L754,566.1\" transform=\"translate(-753.558 -560.547)\" fill=\"none\" stroke=\"rgba(0,0,0,0.8)\" stroke-linejoin=\"round\" stroke-width=\"1.25\" />\n</svg>\n</span>",
+  "select_quantity_text": "Select quantity:",
+  "breadcrumb_all_product_text":"All products",
+  "breadcrumb_all_product_text_url":"https://www.asea.app/{{affiliate_guid}}/shop",
+  "productSlider": {
+    "slider_items1_image": "https://cdn.fluid.app/asea/redoxmind/slider_1.png",
+    "video": "https://cdn.fluid.app/asea/redoxmind/slider_video_en.mp4",
+    "alt_text": "product",
+    "items": [
+      {
+        "image": "https://cdn.fluid.app/asea/redoxmind/slider_2.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redoxmind/slider_3.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redoxmind/slider_4_en.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redoxmind/slider_5.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redoxmind/slider_6.png"
+      }
+    ]
+  },
+  "subscribe": {
+    "subscribe_text": "Subscribe",
+    "actual_price": "62.50",
+    "discounted_price": "50.00/mo",
+    "checklist_items": [
+      {
+        "caption": "Save 20% with wholesale pricing"
+      },
+      {
+        "caption": "30-day money-back guarantee"
+      },
+      {
+        "caption": "Earn Redox Reward Points"
+      },
+      {
+        "caption": "Change your subscription anytime"
+      }
+    ],
+    "one_time_order_text": "One-time order"
+  },
+  "benefits": {
+    "desc": "Experience peak cognitive performance with REDOXMind—your solution to distractions and information overload. Elevate focus, memory, clarity, sharpness, and overall brain health.*",
+    "view_more_text": "View more information",
+    "pdf_url": "https://cdn.fluid.app/asea/redoxmind/cell_performance_en.pdf",
+    "items": [
+      {
+        "caption": "Achieve heightened motivation and stay in your groove."
+      },
+      {
+        "caption": "Combat brain fog by enhancing cognitive clarity."
+      },
+      {
+        "caption": "Support brain health over the long term."
+      },
+      {
+        "caption": "Maintain cohesive thinking even in high-stress situations."
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "As seen on",
+    "items": [
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_1.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_2.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_3.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_4.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_5.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_6.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_7.svg"
+      }
+    ]
+  },
+  "soldInfo": {
+    "image": "https://cdn.fluid.app/asea/redoxmind/sold_bg.png",
+    "title": "Over",
+    "count": "40,000",
+    "desc": "cartons sold worldwide"
+  },
+  "tab": {
+    "video_review_title": "Video reviews <span>(5)</span>",
+    "written_review_title": "Written reviews <span>(7)</span>",
+    "rating_text": "5 Star Rating",
+    "total_written_review": "7 Reviews",
+    "video_list": [
+      {
+        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Darrell.png",
+        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Darrell.mp4"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Eric.png",
+        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Eric.mp4"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Guenther.png",
+        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Guenther.mp4"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Jamie.png",
+        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Jamie.mp4"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Lilliana.png",
+        "video": "https://cdn.fluid.app/asea/redoxmind/REDOXMind_Lilliana.mp4"
+      }
+    ],
+    "review_list": [
+      {
+        "reviewer": "Adela H.",
+        "address": "Tarawa Terrace II, United States",
+        "review_text": "I started using the Redox Mind in April. I tried other collagen brands, but I wasn't impressed and I could not see any results. I love how easy it is to use, on the go and the dosage is smaller than other collagen based products that are on the market, I loved that it's vegan and I can share it with my vegan friends. Now it's August and I can see a huge improvement, my hair, nails and skin feel and look much better."
+      },
+      {
+        "reviewer": "Eric R.",
+        "address": "Tarawa Terrace II, United States",
+        "review_text": "Although I haven’t used REDOX Mind for very long, there is one positive sign it’s actually working. My nails are growing thicker and faster than they ever have before. I’ve also noticed that the slightly sagging skin under my chin has been firming up! With results like this, REDOX Mind is going to be something I’ll be using indefinitely going forward!"
+      },
+      {
+        "reviewer": "Jamie R.",
+        "address": "Tarawa Terrace II, United States",
+        "review_text": "I’ve struggled with collagen supplements in the past because they upset my stomach, but I’ve never had one issue with REDOX Mind. My stomach feels great after taking it but even better, my hair, nails and skin have never looked better. My nails are growing faster and stronger than they ever have and my hair is so shiny and smooth."
+      },
+      {
+        "reviewer": "Chelsi A.",
+        "address": "Tarawa Terrace II, United States",
+        "review_text": "REDOX Mind tastes delicious and is easy to drink. I love that I can drink it in the morning with breakfast or while I'm working at my desk. It's helped my nails feel much stronger and less brittle. I love how my hair feels thicker and healthier, too!"
+      },
+      {
+        "reviewer": "Steve R.",
+        "address": "Tarawa Terrace II, United States",
+        "review_text": "I began using REDOX Mind daily approximately 4 months ago. The biggest differences I have noticed is clearer and softer skin. My skin texture appears smoother and dries out much less. It mixes easily and the flavor is nice."
+      },
+      {
+        "reviewer": "Junko B.",
+        "address": "Tarawa Terrace II, United States",
+        "review_text": "REDOX Mind not only tastes great but also helps my skin feel supple and glow. It dissolves instantly in the water, and it doesn’t feel heavy in my stomach, unlike other collagen support supplements I've tried in the past. It is also conveniently packaged, it can easily fit in my tiny purse. So when I am out and about, I can take it wherever or whenever."
+      },
+      {
+        "reviewer": "Amy S.",
+        "address": "Tarawa Terrace II, United States",
+        "review_text": "I'm thrilled to have found REDOX Mind! As someone who battled hangnails for ages, I'm amazed at the transformation in my skin and nails. This vegan collagen supporter is a game-changer. Not only have my nails become stronger and more resilient, but my skin is also radiating with health. The convenience of the stick packs makes it easy to maintain my routine, and the results speak for themselves. Radiance is my secret to saying goodbye to hangnails for good!"
+      }
+    ]
+  },
+  "collagen_support": {
+    "title": "Discover heightened focus and clarity",
+    "desc": "To maintain optimal levels, frequent and costly IV treatments are required, which can be impractical for many individuals.<span class='fw-600'>In contrast, NutriSwish utilizes nano glutathione, which offers several distinct advantages over IV treatments.</span>",
+    "image": "https://cdn.fluid.app/asea/redoxmind/collgen_support.png",
+    "alt_text": "collagen support",
+    "items_left": [
+      {
+        "title": "Gives you an edge",
+        "desc": "Unparalleled focus empowers you to work with precision."
+      },
+      {
+        "title": "Sharpens memory",
+        "desc": "Heightens spatial and recognition memory, elevating recall, attention, and cognitive prowess."
+      }
+    ],
+    "items_right": [
+      {
+        "title": "Fortifies brain aging",
+        "desc": "Promotes brain health and cognitive function over the long term."
+      },
+      {
+        "title": "Gets you in the zone",
+        "desc": "Alleviates stress-induced interference, while staying in the groove."
+      }
+    ]
+  },
+  "performance": {
+    "title": "The science of clarity behind REDOXMind",
+    "alt_text": "performance",
+    "image": "https://cdn.fluid.app/asea/redoxmind/performance.png",
+    "desc": "Tap into improved cognitive health with nootropics and minerals that defend against oxidative stress and aid in your brain’s overall well-being, keeping your mind sharp.",
+    "items": [
+      {
+        "caption": "86% experienced increased focus on the task at hand."
+      },
+      {
+        "caption": "84% experienced enhanced cognitive performance."
+      },
+      {
+        "caption": "82% experienced increased focus and accomplished more."
+      },
+      {
+        "caption": "80% experienced improved mental clarity."
+      }
+    ],
+    "note": "Three-week consumer study conducted by Kantar Group 2022."
+  },
+  "radiant_confidence": {
+    "title": "Triumph over daily challenges with REDOXMind",
+    "alt_text": "rediance confidence",
+    "image": "https://cdn.fluid.app/asea/redoxmind/video_bg.png",
+    "video": "https://cdn.fluid.app/asea/redoxmind/rediance_confidence_video_en.mp4",
+    "desc": "Collagen is an important, structural protein. However, it decreases as we age. That’s why we designed our easy-to-use collagen support drink mix to promote your natural beauty, by supporting the best building blocks for healthy skin, full-volume hair, and stronger nails. Simply mix, sip, and glow!"
+  },
+  "confidence": {
+    "title": "Checkout with confidence",
+    "button_text": "Buy now",
+    "image": "https://cdn.fluid.app/asea/redoxmind/confidence.png",
+    "alt_text": "confidence",
+    "items": [
+      {
+        "caption": "100% 30-day risk-free <span class=fw-600>money-back guarantee</span>"
+      },
+      {
+        "caption": "<span class=fw-600>Secure and encrypted </span>checkout"
+      },
+      {
+        "caption": "It only takes <span class=fw-600>2 minutes</span>"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "How to use",
+    "image": "https://cdn.fluid.app/asea/redoxmind/houtouse.png",
+    "video": "https://cdn.fluid.app/asea/redoxmind/howtouse_video_en.mp4",
+    "steps": [
+      {
+        "image": "https://cdn.fluid.app/asea/redoxmind/empty_bottle.svg",
+        "alt_text": "powder",
+        "caption": "Our powdered mix is easy to travel with and simple to use"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redoxmind/pour_bottle.svg",
+        "alt_text": "one stick pack",
+        "caption": "Open and add one stick pack to your preferred beverage"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redoxmind/shake_bottle.svg",
+        "alt_text": "shake bottle",
+        "caption": "Shake or stir to incorporate and drink all the contents within 15 minutes."
+      }
+    ]
+  },
+  "key_ingredients": {
+    "title": "Key ingredients",
+    "image": "https://cdn.fluid.app/asea/redoxmind/key_ingredient.png",
+    "alt_text": "ingredients",
+    "alt_text2": "collagen support",
+    "left_items": [
+      {
+        "title": "Garden & Spanish sage",
+        "desc": "Powerful herbal support for improved memory and cognitive function.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/sage.png"
+      },
+      {
+        "title": "Nicotinamide mononucleotide",
+        "desc": "Supports brain health and reduces decline associated with aging.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/nicotinamide.png"
+      }
+    ],
+    "right_items": [
+      {
+        "title": "Red Orange Complex",
+        "desc": "Powerhouse blend that promotes recognition and spatial memory.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/orange.png"
+      },
+      {
+        "title": "Zinc",
+        "desc": "Optimizes brain chemistry to ease mental strain and accelerate response times.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/zinc.png"
+      }
+    ],
+    "mobile_items":[
+      {
+        "title": "Garden & Spanish sage",
+        "desc": "Powerful herbal support for improved memory and cognitive function.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/sage.png"
+      },
+      {
+        "title": "Red Orange Complex",
+        "desc": "Powerhouse blend that promotes recognition and spatial memory.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/orange.png"
+      },
+      {
+        "title": "Nicotinamide mononucleotide",
+        "desc": "Supports brain health and reduces decline associated with aging.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/nicotinamide.png"
+      },
+      {
+        "title": "Zinc",
+        "desc": "Optimizes brain chemistry to ease mental strain and accelerate response times.",
+        "image": "https://cdn.fluid.app/asea/redoxmind/zinc.png"
+      }
+    ]
+  },
+  "feel_the_difference": {
+    "title": "Feel the difference or it’s free",
+    "image": "https://cdn.fluid.app/asea/redoxmind/itsfree.png",
+    "alt_text": "Its free",
+    "desc": "We put our money where our benefits are. That’s how much we believe in the power of redox. And if you’re not into it, totally fine. More for us.",
+    "items": [
+      {
+        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20.352\" height=\"20.046\" viewBox=\"0 0 20.352 20.046\">\n  <g id=\"Delivery_box_icon\" data-name=\"Delivery box icon\" transform=\"translate(-20.145 -6716.5)\">\n    <path id=\"Path_35232\" data-name=\"Path 35232\" d=\"M840.851,1259.233,831,1254.96v10.508l9.851,4.6Z\" transform=\"translate(-810.205 5465.979)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35233\" data-name=\"Path 35233\" d=\"M843.4,1259.233l9.194-4.273v10.508l-9.194,4.6Z\" transform=\"translate(-812.758 5465.979)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35234\" data-name=\"Path 35234\" d=\"M831,1253.94l9.851-3.94,9.194,3.94\" transform=\"translate(-810.205 5467)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35235\" data-name=\"Path 35235\" d=\"M837.9,1252.2l9.132,4.249\" transform=\"translate(-811.625 5466.548)\" fill=\"none\" stroke=\"#000\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35236\" data-name=\"Path 35236\" d=\"M838.905,1261.89l-4.6-1.97v4.273l4.6,1.97Z\" transform=\"translate(-810.887 5464.959)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n  </g>\n</svg>\n",
+        "alt_text": "badge",
+        "caption": "100% 30-day risk-free\n<span class=\"fw-600\">money-back guarantee</span>"
+      },
+      {
+        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19.427\" height=\"19.427\" viewBox=\"0 0 19.427 19.427\">\n  <g id=\"Group_4002\" data-name=\"Group 4002\" transform=\"translate(-20.295 -6744.299)\">\n    <path id=\"Path_35034\" data-name=\"Path 35034\" d=\"M840.213,1303.427a9.213,9.213,0,1,0-9.213-9.213A9.211,9.211,0,0,0,840.213,1303.427Z\" transform=\"translate(-810.205 5459.799)\" fill=\"none\" stroke=\"#231f20\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35035\" data-name=\"Path 35035\" d=\"M842.2,1291.05v4.408l4.724,4.408\" transform=\"translate(-812.51 5458.555)\" fill=\"none\" stroke=\"#231f20\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n  </g>\n</svg>\n",
+        "alt_text": "flexible",
+        "caption": "<span class=\"fw-600\">Flexible</span> delivery dates"
+      },
+      {
+        "icon": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g clip-path=\"url(#clip0_451_82)\">\n    <path d=\"M9.71301 18.926C11.5352 18.926 13.3164 18.3858 14.8315 17.3734C16.3466 16.3611 17.5274 14.9221 18.2247 13.2387C18.922 11.5552 19.1044 9.70282 18.749 7.91567C18.3935 6.12852 17.5161 4.48697 16.2276 3.19851C14.9391 1.91005 13.2975 1.03251 11.5104 0.677024C9.72323 0.321539 7.87077 0.504006 6.18732 1.20132C4.50386 1.89863 3.06501 3.07956 2.05267 4.59463C1.04034 6.1097 0.5 7.89088 0.5 9.71303C0.499737 10.923 0.737841 12.1211 1.20074 13.239C1.66365 14.3569 2.34226 15.3726 3.19782 16.2282C4.05337 17.0837 5.06912 17.7623 6.18701 18.2252C7.3049 18.6881 8.50307 18.9263 9.71301 18.926Z\" stroke=\"#231F20\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    <g clip-path=\"url(#clip1_451_82)\">\n      <path d=\"M14 14L6 6M14 6L6 14\" stroke=\"#231F20\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </g>\n  </g>\n  <defs>\n    <clipPath id=\"clip0_451_82\">\n      <rect width=\"20\" height=\"20\" fill=\"white\"/>\n    </clipPath>\n    <clipPath id=\"clip1_451_82\">\n      <rect width=\"10\" height=\"10\" fill=\"white\" transform=\"translate(5 5)\"/>\n    </clipPath>\n  </defs>\n</svg>\n",
+        "alt_text": "clock",
+        "caption": "Pause or cancel <span class=\"fw-600\">anytime</span>"
+      }
+    ],
+    "button_text": "Subscribe now"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "icon_class": "clr-body",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "How much stevia is in one sachet of REDOXMind?",
+        "desc": "Less than 120mg for US and Europe, and less than 80mg in Asia formulas."
+      },
+      {
+        "class": "",
+        "header": "Why is stevia in REDOXMind?",
+        "desc": "Stevia is derived from the leaves of the plant species Stevia rebaudiana. Stevia is about 200-350 times sweeter than sugar, thus only a small amount is needed to match the sweetness provided by sugar. It also does not contribute to or impact blood glucose levels."
+      },
+      {
+        "class": "",
+        "header": "What does “natural flavors” mean?",
+        "desc": "The Cell Performance line does not contain any GMO ingredients. All “natural flavors” come from fruit extracts and do not contain MSG."
+      },
+      {
+        "class": "",
+        "header": "Is citric acid considered natural?",
+        "desc": "Citric acid is sourced naturally from cassava fermentation and is non-GMO."
+      },
+      {
+        "class": "",
+        "header": "What is the ASEA® Cell Performance category of products?",
+        "desc": "ASEA® Cell Performance is a category of products formulated with your health and wellness in mind. Based on redox principles, these products are easy to use, on-the-go, and deliver a healthy boost Powered by Redox™. With proprietary ingredient blends that help you perform at your best physically and mentally by targeting performance at the cellular level, ASEA’s Cell Performance category is designed to complement and support a healthy lifestyle. These tasty packets are perfect for supporting your daily performance—wherever you go!"
+      },
+      {
+        "class": "",
+        "header": "What is Red Orange Complex, and what are its benefits?",
+        "desc": "Red Orange Complex is a blend of several types of blood oranges that improves blood levels of antioxidants and leads to improved cognitive function, specifically spatial and recognition memory."
+      },
+      {
+        "class": "",
+        "header": "What is phosphatidylserine?",
+        "desc": "Your body naturally produces phosphatidylserine, and supplementing it helps facilitate learning, memory, and mood regulation."
+      },
+      {
+        "class": "",
+        "header": "Is REDOXMind free of allergens?",
+        "desc": "REDOXMind is gluten- and, dairy-free, as well as free from soy allergens, and does not contain sugar."
+      },
+      {
+        "class": "",
+        "header": "How many Cell Performance products are there?",
+        "desc": "In addition to REDOXMind, there are three other Cell Performance products that provide targeted benefits starting at the cellular level:\n<ul class=\"my-12\">\n  <li>REDOXMood</li>\n  <li>REDOXEnergy</li>\n  <li>REDOXRadiance</li>\n</ul>\n<p>\n  All four products come in packages of 30 stick packs. REDOXMood, REDOXEnergy, and REDOXRadiance also come in a variety pack of 10 stick packs each.\n</p>"
+      },
+      {
+        "class": "",
+        "header": "Are all of the ASEA® Cell Performance products vegan?",
+        "desc": "Yes, all four products are 100% vegan."
+      },
+      {
+        "class": "redoxmind-d-none",
+        "header": "Do I need to consume the entire 8-12oz at once?",
+        "desc": "For best results, we recommend drinking the entire contents of a package in 15 minutes."
+      },
+      {
+        "class": "redoxmind-d-none",
+        "header": "Can REDOXMind and other Cell Performance products be used with ASEA® Redox Cell Signaling Supplement?",
+        "desc": "Yes. We recommend using ASEA® Redox Cell Signaling Supplement before consuming any Cell Performance products. Mixing anything with ASEA Redox Cell Signaling Supplement can deactivate the redox molecules and not allow them to perform at full capacity."
+      },
+      {
+        "class": "redoxmind-d-none",
+        "header": "Can REDOXMind be mixed and consumed together with other ASEA® Cell Performance products?",
+        "desc": "Yes. The products are formulated to work independently but can be used together. We recommend you try each product individually before mixing it together."
+      },
+      {
+        "class": "redoxmind-d-none",
+        "header": "How many calories are in a serving of REDOXMind?",
+        "desc": "Each drink mix contains 5 calories per serving."
+      }
+    ],
+    "show_more_text": "Shxow More"
+  },
+  "cta": {
+    "title": "Give your brain a boost <br />with REDOXMind",
+    "subscription_text": "Add to subscription",
+    "purchase_text": "Add to one-time purchase",
+    "image": "https://cdn.fluid.app/asea/redoxmind/support.png",
+    "alt_text": "cta support",
+    "note_desc": "*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+  }
+}
