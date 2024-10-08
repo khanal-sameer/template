@@ -1,0 +1,45 @@
+//Asea color setting
+$clr-body: #000000;
+$clr-body-900: #000000cc;
+$clr-body-800: #323232;
+$clr-body-700: #403e3e;
+$clr-body-600: #807d7c;
+$clr-body-500: #bfbbba;
+$clr-body-400: #ede9e6;
+$clr-body-300: #f7f7f8;
+$clr-body-200: #ededed;
+$clr-body-100: #f4f2f1;
+$primary: #3172E9;
+$clr-primary-900: #2862cb;
+$primary-dark: #9f76c8;
+$white: #ffffff;
+$red: #d80027;
+$orange: #ee815e;
+$blue: #3172e9;
+$white: #ffffff;
+$bg: #f6f7f9;
+$border: #e5e3e4;
+$brown: #bf4a5c;
+
+:root {
+  --clr-body: #{$clr-body};
+  --clr-body-900: #{$clr-body-900};
+  --clr-body-800: #{$clr-body-800};
+  --clr-body-700: #{$clr-body-700};
+  --clr-body-600: #{$clr-body-600};
+  --clr-body-500: #{$clr-body-500};
+  --clr-body-400: #{$clr-body-400};
+  --clr-body-300: #{$clr-body-300};
+  --clr-body-200: #{$clr-body-200};
+  --clr-body-100: #{$clr-body-100};
+  --clr-primary: #{$primary};
+  --clr-primary-900: #{$clr-primary-900};
+  --clr-primary-dark: #{$primary-dark};
+  --clr-red: #{$red};
+  --clr-orange: #{$orange};
+  --clr-white: #{$white};
+  --clr-bg: #{$bg};
+  --clr-border: #{$border};
+  --clr-blue: #{$blue};
+  --transition-speed: 0.3s;
+}
