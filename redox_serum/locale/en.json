@@ -24,10 +24,10 @@
         "image": ""
       },
       {
-        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/slider_4_en.png"
+        "image": "https://cdn.fluid.app/asea/redox_serum/slider_4_en.png"
       },
       {
-        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/slider_5_en.png"
+        "image": "https://cdn.fluid.app/asea/redox_serum/slider_5_en.png"
       }
     ]
   },
@@ -160,7 +160,7 @@
   },
   "how_to_use": {
     "title": "How to use",
-    "video": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/how_to_use_video_en.mp4",
+    "video": "https://cdn.fluid.app/asea/redox_serum/how_to_use_video_en.mp4",
     "steps": [
       {
         "caption": "Cleanse skin first, dry, then apply a pea-sized amount onto the desired area and rub into the skin."
