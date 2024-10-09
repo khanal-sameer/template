@@ -95,13 +95,11 @@
     ]
   },
   "soldInfo": {
-    "image": "https://cdn.fluid.app/asea/redoxmind/sold_bg.png",
     "title": "Over",
     "desc": "sold worldwide"
   },
   "collagen_support": {
     "title": "Making perfect skin possible",
-    "image": "https://cdn.fluid.app/asea/redoxmind/collgen_support.png",
     "alt_text": "collagen support",
     "items_left": [
       {
@@ -127,7 +125,6 @@
   "performance": {
     "title": "Maximize your skin’s potential with ASEA science.",
     "alt_text": "performance",
-    "image": "https://cdn.fluid.app/asea/redoxmind/performance.png",
     "desc": "Skin care science is complex, but it doesn’t have to be complicated.",
     "items": [
       {
