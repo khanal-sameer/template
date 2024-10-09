@@ -14,7 +14,7 @@
   "breadcrumb_all_product_text":"All products",
   "breadcrumb_all_product_text_url":"https://www.asea.app/{{affiliate_guid}}/shop",
   "productSlider": {
-    "video": "https://cdn.fluid.app/asea/redoxmind/slider_video_en.mp4",
+    "video": "https://cdn.fluid.app/asea/redox_serum/how_to_use_video_en.mp4",
     "alt_text": "product",
     "items": [
       {
@@ -52,7 +52,7 @@
   "benefits": {
     "desc": "Discover a concentrated formula for targeted areas with Intensive Redox Serum.*",
     "view_more_text": "View more information",
-    "pdf_url": "https://cdn.fluid.app/asea/redoxmind/cell_performance_en.pdf",
+    "pdf_url": "",
     "items": [
       {
         "caption": "Apply to specific areas of concern to reveal more youthful-looking skin"
