@@ -1,0 +1,32 @@
+{{#collagen_support}}
+  <section class="page-section">
+    <div class="container">
+      <div class="section-title text-center mb-32">
+        <h2 class="clr-body">{{title}}</h2>
+      </div>
+      <div class="is-grid three-cols collagen-grid">
+
+        <div class="col-item order-2">
+          {{#items_left}}
+            <div class="content-list text-align_right">
+              <h4 class="mb-8 clr-body">{{title}}</h4>
+              <p class="fs-lg">{{desc}}</p>
+            </div>
+          {{/items_left}}
+        </div>
+
+        <div class="col-item order-1">
+          <img src="{{image}}" alt="{{alt_text}}" />
+        </div>
+        <div class="col-item order-3">
+          {{#items_right}}
+            <div class="content-list">
+              <h4 class="mb-8 clr-body">{{title}}</h4>
+              <p class="fs-lg">{{desc}}</p>
+            </div>
+          {{/items_right}}
+        </div>
+      </div>
+    </div>
+  </section>
+{{/collagen_support}}

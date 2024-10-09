@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}}</title>
+
+    <!-- css library import -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.css"
+    />
+    {{>Style}}
+   
+  </head>
+
+  <body>
+    <div id="asea-landing_page" style="display: none" data-product="{{product_id}}" data-scroll-container>
+      <div class="container">
+         <!-- Breadcrumb -->
+         <div class="asea-breadcrumb is-flex is-align-center col-gap-12 row-gap-8 pb-24">
+          <a href="{{breadcrumb_all_product_text_url}}">{{breadcrumb_all_product_text}}</a>
+          <svg
+            width="6"
+            height="10"
+            viewBox="0 0 6 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M1 1L5 5L1 9" stroke="#4B4B4B" stroke-linecap="round" />
+         </svg>
+         <span class="clr-body">{{product_title}}</span>
+       </div>
+
+        {{>RedoxMindProductDescriptionLayout}}
+        {{>RedoxMindAsSeenOn}}
+      </div>
+      {{>RedoxMindSoldInfo}}
+      {{>RedoxMindTab}}
+      {{>RedoxMindCollagenSupport}}
+      {{>RedoxMindProductList}}
+      {{>RedoxMindHowToUse}}
+      {{>RedoxMindKeyIngredients}}
+      {{>RedoxMindFeelTheDifference}}
+      {{>RedoxMindAccordion}}
+      {{>RedoxMindCTA}}
+    </div>
+      <!-- Js library import -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+      {{>ScriptFancybox}}
+      {{>ScriptRedoxMind}}
+  </body>
+</html>

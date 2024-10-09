@@ -1,0 +1,34 @@
+{{#faq}}
+  <section class="page-section_accordion">
+    <div class="container">
+      <div class="section-title">
+        <h3 class="clr-body">{{title}}</h3>
+      </div>
+      <div class="acc" id="acc">
+        {{#items}}
+          <div class="acc-item {{class}}">
+            <div class="acc-item_header is-flex is-between col-gap-12">
+              <h4 class="flex-1">{{header}}</h4>
+              <div class="is-flex is-end acc-item_toggle">
+                <img
+                  src="https://cdn.fluid.app/asea/plus_icon.svg"
+                  alt="plus icon"
+                  class="plus-icon"
+                />
+                <img
+                  src="https://cdn.fluid.app/asea/minus_icon.svg"
+                  alt="minus icon"
+                  class="minus-icon"
+                />
+              </div>
+            </div>
+            <div class="acc-item_body">{{{desc}}}</div>
+          </div>
+        {{/items}}
+        <div class="showmore clr-primary is-pointer mt-16" id="showmore">
+          {{show_more_text}}
+        </div>
+      </div>
+    </div>
+  </section>
+{{/faq}}
