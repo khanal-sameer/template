@@ -74,7 +74,7 @@
     ]
   },
   "asSeenOn": {
-    "title": "As seen on",
+    "title": "{{{asSeenOn.title}}}",
     "items": [
       {
         "image": "https://cdn.fluid.app/asea/as_seen_1.svg"
@@ -150,7 +150,7 @@
   },
   "confidence": {
     "title": "{{{confidence.title}}}",
-    "button_text": "Buy now",
+    "button_text": "{{{confidence.button_text}}}",
     "image": "https://cdn.fluid.app/asea/redox_serum/confidence.png",
     "alt_text": "confidence",
     "items": [
@@ -256,10 +256,10 @@
         "caption": "{{{feel_the_difference.items.2.caption}}}"
       }
     ],
-    "button_text": "Subscribe now"
+    "button_text": "{{{feel_the_difference.button_text}}}"
   },
   "faq": {
-    "title": "Frequently asked questions",
+    "title": "{{{faq.title}}}",
     "icon_class": "clr-body",
     "items": [
       {

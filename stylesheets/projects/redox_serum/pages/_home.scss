@@ -403,6 +403,11 @@ ul {
   }
   &.key-ingredients {
     background-color: var(--clr-body-200);
+    .desktop-view{
+      .three-cols{
+        align-items: flex-start;
+      }
+    }
     .content-list {
       h4{
         max-width: 200px;
