@@ -611,7 +611,7 @@ ul {
     }
     @include breakpoint-up("sm-desktop"){
       font-size: var(--fs-h2);
-      width: 800px;
+      width: 700px;
       max-width: 100%;
     }
   }
