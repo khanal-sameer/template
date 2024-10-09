@@ -98,4 +98,9 @@ html {
     line-height: 1.217;
     font-weight: 600;
   }
+  a{
+    &:hover{
+      color: var(--clr-primary)
+    }
+  }
 }

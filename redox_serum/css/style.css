@@ -205,6 +205,8 @@ html {
     font-size: var(--fs-h1);
     line-height: 1.217;
     font-weight: 600; }
+  #asea-landing_page a:hover {
+    color: var(--clr-primary); }
 
 #asea-landing_page {
   /* Mixin

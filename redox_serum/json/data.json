@@ -102,7 +102,7 @@
   "soldInfo": {
     "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/sold_info_bg.png",
     "title": "{{{soldInfo.title}}}",
-    "count": "60,000",
+    "count": "162,519",
     "desc": "{{{soldInfo.desc}}}"
   },
   "collagen_support": {
