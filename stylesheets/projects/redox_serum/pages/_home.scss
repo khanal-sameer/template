@@ -24,7 +24,14 @@ ul {
     }
   }
 }
-
+.product-description-section{
+  .container{
+    @include breakpoint-down("md-phone"){
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
 .product-wrapper {
   max-width: 100%;
   @include breakpoint-up("xl-phone") {
@@ -170,6 +177,10 @@ ul {
 }
 .product-content {
   margin-top: 2rem;
+  @include breakpoint-down("md-phone"){
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
   @include breakpoint-up("xl-tab") {
     margin-top: unset;
   }
@@ -325,7 +336,6 @@ ul {
     background-color: var(--clr-body-100);
   }
   &_confidence {
-    background-color: var(--clr-body-100);
     .content-list {
       width: 100%;
     }
@@ -591,47 +601,49 @@ ul {
     max-width: 1320px;
     margin: 0 auto;
   }
+  h2{
+    font-size: 24px;
+    @include breakpoint-up("xl-phone"){
+      font-size: 28px;
+    }
+    @include breakpoint-up("xl-tab"){
+      font-size: 40px;
+    }
+    @include breakpoint-up("sm-desktop"){
+      font-size: var(--fs-h2);
+      width: 800px;
+      max-width: 100%;
+    }
+  }
   &_wrap {
     background-color: var(--clr-primary);
     display: grid;
     border-radius: 6px;
-    padding: 0 1rem 3rem 1rem;
     position: relative;
     grid-template-rows: 1fr;
-    h2 {
-      font-size: 1.5rem;
-    }
-    @include breakpoint-up("md-tab") {
-      padding: 0 3rem 3rem 3rem;
-      position: relative;
-      h2 {
-        font-size: 2.3rem;
-      }
-    }
     @include breakpoint-up("xl-tab") {
-      padding: 5rem 0px 5rem 3rem;
       grid-template-columns: 1fr 300px;
-      h2 {
-        font-size: var(--fs-h2);
-      }
-    }
-    @include breakpoint-up("sm-desktop") {
-      padding-left: 70px;
     }
   }
   &_figure {
     order: 1;
     position: relative;
     top: -1.5rem;
-    right: -1rem;
+    right: 0;
     img {
       max-height: 450px;
+      margin: auto;
+      @include breakpoint-down("md-phone"){
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: 380px;
+      }
     }
     @include breakpoint-up("xl-tab") {
-      max-width: 430px;
+      max-width: 400px;
       position: absolute;
       bottom: 0;
-      right: 0;
       order: 2;
       top: unset;
     }
@@ -642,8 +654,18 @@ ul {
   }
   &_content {
     order: 2;
+    padding: 0 1rem 2rem 1rem;
+    @include breakpoint-up("xl-phone"){
+      padding: 0 2rem 2rem;
+    }
+    @include breakpoint-up("md-tab") {
+      padding: 4rem 3rem;
+    }
     @include breakpoint-up("xl-tab") {
       order: 1;
+    }
+    @include breakpoint-up('sm-desktop'){
+      padding: 4rem 1rem 4rem 70px;
     }
   }
   .btns {
@@ -653,6 +675,9 @@ ul {
       width: 100%;
       --max-width-btn: 100%;
       max-width: var(--max-width-btn);
+      @include breakpoint-up("xl-phone") {
+        width: calc(50% - 0.5rem);
+      }
       @include breakpoint-up("xl-tab") {
         --max-width-btn: 260px;
         max-width: var(--max-width-btn);
@@ -677,7 +702,7 @@ ul {
       }
     }
     button.btn {
-      @include breakpoint-down("lg-tab") {
+      @include breakpoint-down("xl-phone") {
         &:first-child {
           order: 2;
         }

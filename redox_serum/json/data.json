@@ -215,22 +215,22 @@
       {
         "title": "{{{key_ingredients.mobile_items.0.title}}}",
         "desc":  "{{{key_ingredients.mobile_items.0.desc}}}",
-        "image": "https://cdn.fluid.app/asea/redoxmind/sage.png"
+        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/cruelty_free.svg"
       },
       {
         "title": "{{{key_ingredients.mobile_items.1.title}}}",
         "desc":  "{{{key_ingredients.mobile_items.1.desc}}}",
-        "image": "https://cdn.fluid.app/asea/redoxmind/orange.png"
+        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/all_skin_types.svg"
       },
       {
         "title": "{{{key_ingredients.mobile_items.2.title}}}",
         "desc":  "{{{key_ingredients.mobile_items.2.desc}}}",
-        "image": "https://cdn.fluid.app/asea/redoxmind/nicotinamide.png"
+        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/pure_and_simple.svg"
       },
       {
         "title": "{{{key_ingredients.mobile_items.3.title}}}",
         "desc":  "{{{key_ingredients.mobile_items.3.desc}}}",
-        "image": "https://cdn.fluid.app/asea/redoxmind/zinc.png"
+        "image": "file:///Users/kalpana/Desktop/DanpheProject/template/redox_serum/asea/redox_serum/clean_and_beauty.svg"
       }
     ]
   },

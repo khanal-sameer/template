@@ -29,12 +29,15 @@ html {
 }
 #asea-landing_page {
   font-family: var(--ff-body);
-  font-size: var(--fs-body);
+  font-size: 14px;
   font-weight: 300;
   line-height: 1.75;
   color: var(--clr-body-700);
   padding: 1.5rem 0;
   background-color: var(--clr-white);
+  @include breakpoint-up("xl-phone"){
+    font-size: var(--fs-body);
+  }
   @include breakpoint-up("md-tab") {
     padding: 3rem 0;
   }
@@ -61,21 +64,33 @@ html {
   }
   h4,
   .fs-h4 {
-    font-size: var(--fs-h4);
+    font-size: 18px;
     font-weight: 600;
+    @include breakpoint-up("xl-phone"){
+      font-size: var(--fs-h4);
+    }
   }
   h3,
   .fs-h3 {
-    font-size: var(--fs-h3);
+    font-size: 22px;
     line-height: 1.18;
     font-weight: 600;
+    @include breakpoint-up("xl-phone"){
+      font-size: var(--fs-h3);
+    }
   }
 
   .fs-h2,
   h2 {
-    font-size: var(--fs-h2);
+    font-size: 24px;
     line-height: 1.217;
     font-weight: 600;
+    @include breakpoint-up("xl-phone"){
+      font-size: 28px;
+    }
+    @include breakpoint-up("xl-tab"){
+      font-size: var(--fs-h2);
+    }
   }
   h1,
   .fs-h1 {

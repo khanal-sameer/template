@@ -142,12 +142,15 @@ html {
 
 #asea-landing_page {
   font-family: var(--ff-body);
-  font-size: var(--fs-body);
+  font-size: 14px;
   font-weight: 300;
   line-height: 1.75;
   color: var(--clr-body-700);
   padding: 1.5rem 0;
   background-color: var(--clr-white); }
+  @media (min-width: 576px) {
+    #asea-landing_page {
+      font-size: var(--fs-body); } }
   @media (min-width: 768px) {
     #asea-landing_page {
       padding: 3rem 0; } }
@@ -169,18 +172,34 @@ html {
     line-height: 1.55; }
   #asea-landing_page h4,
   #asea-landing_page .fs-h4 {
-    font-size: var(--fs-h4);
+    font-size: 18px;
     font-weight: 600; }
+    @media (min-width: 576px) {
+      #asea-landing_page h4,
+      #asea-landing_page .fs-h4 {
+        font-size: var(--fs-h4); } }
   #asea-landing_page h3,
   #asea-landing_page .fs-h3 {
-    font-size: var(--fs-h3);
+    font-size: 22px;
     line-height: 1.18;
     font-weight: 600; }
+    @media (min-width: 576px) {
+      #asea-landing_page h3,
+      #asea-landing_page .fs-h3 {
+        font-size: var(--fs-h3); } }
   #asea-landing_page .fs-h2,
   #asea-landing_page h2 {
-    font-size: var(--fs-h2);
+    font-size: 24px;
     line-height: 1.217;
     font-weight: 600; }
+    @media (min-width: 576px) {
+      #asea-landing_page .fs-h2,
+      #asea-landing_page h2 {
+        font-size: 28px; } }
+    @media (min-width: 1024px) {
+      #asea-landing_page .fs-h2,
+      #asea-landing_page h2 {
+        font-size: var(--fs-h2); } }
   #asea-landing_page h1,
   #asea-landing_page .fs-h1 {
     font-size: var(--fs-h1);
@@ -1464,6 +1483,10 @@ html {
       -ms-transform: rotate(180deg);
       -o-transform: rotate(180deg);
       transform: rotate(180deg); }
+  @media (max-width: 479.98px) {
+    #asea-landing_page .product-description-section .container {
+      padding-left: 0;
+      padding-right: 0; } }
   #asea-landing_page .product-wrapper {
     max-width: 100%; }
     @media (min-width: 576px) {
@@ -1568,6 +1591,10 @@ html {
       border-radius: 0 0 6px 6px; }
   #asea-landing_page .product-content {
     margin-top: 2rem; }
+    @media (max-width: 479.98px) {
+      #asea-landing_page .product-content {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem; } }
     @media (min-width: 1024px) {
       #asea-landing_page .product-content {
         margin-top: unset; } }
@@ -1679,10 +1706,8 @@ html {
       margin-top: 0; }
   #asea-landing_page .page-section_performance {
     background-color: var(--clr-body-100); }
-  #asea-landing_page .page-section_confidence {
-    background-color: var(--clr-body-100); }
-    #asea-landing_page .page-section_confidence .content-list {
-      width: 100%; }
+  #asea-landing_page .page-section_confidence .content-list {
+    width: 100%; }
   #asea-landing_page .page-section_cover {
     position: relative;
     padding-top: 0; }
@@ -1861,43 +1886,47 @@ html {
     #asea-landing_page .cta-banner_container {
       max-width: 1320px;
       margin: 0 auto; }
+    #asea-landing_page .cta-banner h2 {
+      font-size: 24px; }
+      @media (min-width: 576px) {
+        #asea-landing_page .cta-banner h2 {
+          font-size: 28px; } }
+      @media (min-width: 1024px) {
+        #asea-landing_page .cta-banner h2 {
+          font-size: 40px; } }
+      @media (min-width: 1200px) {
+        #asea-landing_page .cta-banner h2 {
+          font-size: var(--fs-h2);
+          width: 800px;
+          max-width: 100%; } }
     #asea-landing_page .cta-banner_wrap {
       background-color: var(--clr-primary);
       display: grid;
       border-radius: 6px;
-      padding: 0 1rem 3rem 1rem;
       position: relative;
       grid-template-rows: 1fr; }
-      #asea-landing_page .cta-banner_wrap h2 {
-        font-size: 1.5rem; }
-      @media (min-width: 768px) {
-        #asea-landing_page .cta-banner_wrap {
-          padding: 0 3rem 3rem 3rem;
-          position: relative; }
-          #asea-landing_page .cta-banner_wrap h2 {
-            font-size: 2.3rem; } }
       @media (min-width: 1024px) {
         #asea-landing_page .cta-banner_wrap {
-          padding: 5rem 0px 5rem 3rem;
-          grid-template-columns: 1fr 300px; }
-          #asea-landing_page .cta-banner_wrap h2 {
-            font-size: var(--fs-h2); } }
-      @media (min-width: 1200px) {
-        #asea-landing_page .cta-banner_wrap {
-          padding-left: 70px; } }
+          grid-template-columns: 1fr 300px; } }
     #asea-landing_page .cta-banner_figure {
       order: 1;
       position: relative;
       top: -1.5rem;
-      right: -1rem; }
+      right: 0; }
       #asea-landing_page .cta-banner_figure img {
-        max-height: 450px; }
+        max-height: 450px;
+        margin: auto; }
+        @media (max-width: 479.98px) {
+          #asea-landing_page .cta-banner_figure img {
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            height: 380px; } }
       @media (min-width: 1024px) {
         #asea-landing_page .cta-banner_figure {
-          max-width: 430px;
+          max-width: 400px;
           position: absolute;
           bottom: 0;
-          right: 0;
           order: 2;
           top: unset; } }
       @media (min-width: 1200px) {
@@ -1905,16 +1934,29 @@ html {
           max-width: 450px;
           max-height: 450px; } }
     #asea-landing_page .cta-banner_content {
-      order: 2; }
+      order: 2;
+      padding: 0 1rem 2rem 1rem; }
+      @media (min-width: 576px) {
+        #asea-landing_page .cta-banner_content {
+          padding: 0 2rem 2rem; } }
+      @media (min-width: 768px) {
+        #asea-landing_page .cta-banner_content {
+          padding: 4rem 3rem; } }
       @media (min-width: 1024px) {
         #asea-landing_page .cta-banner_content {
           order: 1; } }
+      @media (min-width: 1200px) {
+        #asea-landing_page .cta-banner_content {
+          padding: 4rem 1rem 4rem 70px; } }
     #asea-landing_page .cta-banner .btns .btn {
       font-weight: 600;
       border-radius: 3px;
       width: 100%;
       --max-width-btn: 100%;
       max-width: var(--max-width-btn); }
+      @media (min-width: 576px) {
+        #asea-landing_page .cta-banner .btns .btn {
+          width: calc(50% - 0.5rem); } }
       @media (min-width: 1024px) {
         #asea-landing_page .cta-banner .btns .btn {
           --max-width-btn: 260px;
@@ -1933,7 +1975,7 @@ html {
             color: var(--clr-primary); }
       #asea-landing_page .cta-banner .btns .btn-white {
         color: var(--clr-primary); }
-    @media (max-width: 991.98px) {
+    @media (max-width: 575.98px) {
       #asea-landing_page .cta-banner .btns button.btn:first-child {
         order: 2; }
       #asea-landing_page .cta-banner .btns button.btn:last-child {

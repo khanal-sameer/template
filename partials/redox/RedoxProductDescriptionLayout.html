@@ -1,156 +1,160 @@
-<div class="product-wrapper">
-    {{#productSlider}}
-      <div class="product-slider">
-        <div id="preview-slider" class="splide preview-slider">
-          {{>PrevNext}}
-          <div class="splide__track">
-            <ul class="splide__list">
-              <li class="splide__slide">
-                <img src="{{slider_items1_image}}" alt="product" />
-                <a data-fancybox="" href="{{video}}" class="play-icon">
-                  <img src="{{play_icon}}" alt="{{play_alt_text}}" />
-                </a>
-              </li>
-              {{#items}}
+<div class="product-description-section">
+  <div class="container">
+    <div class="product-wrapper">
+      {{#productSlider}}
+        <div class="product-slider">
+          <div id="preview-slider" class="splide preview-slider">
+            {{>PrevNext}}
+            <div class="splide__track">
+              <ul class="splide__list">
                 <li class="splide__slide">
-                  <img src="{{image}}" alt="{{alt_text}}" />
+                  <img src="{{slider_items1_image}}" alt="product" />
+                  <a data-fancybox="" href="{{video}}" class="play-icon">
+                    <img src="{{play_icon}}" alt="{{play_alt_text}}" />
+                  </a>
                 </li>
-              {{/items}}
-
-            </ul>
-          </div>
-        </div>
-        <div id="thumbnail-slider" class="splide thumbnail-slider">
-          {{>PrevNext}}
-          <div class="splide__track">
-            <ul class="splide__list">
-              <li class="splide__slide">
-                <img src="{{slider_items1_image}}" alt="{{alt_text}}" />
-              </li>
-              {{#items}}
-                <li class="splide__slide">
-                  <img src="{{image}}" alt="{{alt_text}}" />
-                </li>
-              {{/items}}
-            </ul>
-          </div>
-        </div>
-      </div>
-    {{/productSlider}}
-
-    <div class="product-content" id="en_product_content">
-      <div class="product-content_header">
-        <h3 class="clr-body">{{product_title}}</h3>
-        <p class="fw-600 mt-4">{{product_desc}}</p>
-        <div class="is-flex is-start is-align-center col-gap-12 mt-12">
-          {{>FiveStarRating}}
-          <div class="ratings-count ff-body_graphik clr-body-700">{{total_product_review}}</div>
-        </div>
-      </div>
-
-      <div class="product-conetnt_body" data-fluid-checkout-group="{{product_id}}">
-
-        <div class="select-quantity mt-20 mb-24">
-          <div class="fs-md mb-8">{{select_quantity_text}}</div>
-          <div class="inline-flex is-start is-align-center select-quantity_wrap">
-            <button id="decreaseBtn">-</button>
-            <input type="number" id="quantity" value="1" name="fluid-checkout-quantity" />
-            <button id="increaseBtn">+</button>
-          </div>
-        </div>
-        {{#subscribe}}
-          <div class="total-price mb-8">
-            <h4 id="total_price" class="clr-body">${{discounted_price}}</h4>
-          </div>
-
-          <div class="subscribe-card">
-
-            <div class="subscribe-card_header is-flex is-between is-align-center">
-              <div class="custom-radio inline-flex is-align-center">
-                <input
-                  type="radio"
-                  checked
-                  id="subscribe"
-                  name="fluid-checkout-subscribe"
-                  value="subscription"
-                />
-                <label for="subscribe" class="fs-md clr-body">{{subscribe_text}}</label>
-              </div>
-
-              <div class="is-flex is-end is-align-center col-gap-16">
-                <span class="is-strike clr-body-600" id="subscribe_price_cross">${{actual_price}}</span>
-                <span class="fw-600 clr-primary" id="subscribe_price">{{discounted_price}}/{{month}}</span>
-              </div>
-            </div>
-
-            <div class="subscribe-card_body">
-              <ul class="fs-md subscribe-features check-list">
-                {{#checklist_items}}
-                  <li class="is-flex is-start is-align-start col-gap-12">
-                    <span class="check-icon">
-                      {{{check_icon}}}
-                    </span>
-                    {{caption}}
+                {{#items}}
+                  <li class="splide__slide">
+                    <img src="{{image}}" alt="{{alt_text}}" />
                   </li>
-                {{/checklist_items}}
+                {{/items}}
+
               </ul>
             </div>
-
-            <div class="subscribe-card_footer is-flex is-between is-align-center">
-              <div class="custom-radio inline-flex is-align-center">
-                <input  type="radio" id="onetime_order"  name="fluid-checkout-subscribe" />
-                <label for="onetime_order" class="fs-md clr-body">{{one_time_order_text}}</label>
-              </div>
-
-              <div class="is-flex is-end is-align-center col-gap-16">
-                <span class="fw-600 clr-body" id="onetime_order_price">${{actual_price}}</span>
-              </div>
+          </div>
+          <div id="thumbnail-slider" class="splide thumbnail-slider">
+            {{>PrevNext}}
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="{{slider_items1_image}}" alt="{{alt_text}}" />
+                </li>
+                {{#items}}
+                  <li class="splide__slide">
+                    <img src="{{image}}" alt="{{alt_text}}" />
+                  </li>
+                {{/items}}
+              </ul>
             </div>
           </div>
-        {{/subscribe}}
-
-        <div class="my-20">
-          <button class="btn w-full text-center btn-black fw-600"  data-fluid-checkout-group-id="{{product_id}}">
-            {{add_to_cart_text}}
-          </button>
         </div>
-        {{#benefits}}
-          <div class="product-content_dsc">
-            {{desc}}
-            <ul class="product-content_dsc--list pl-28 mt-8">
-              {{#items}}
-                <li>{{caption}}</li>
-              {{/items}}
-              <li>
-                <a href="{{pdf_url}}" class="clr-blue is-flex is-align-center gap-8 view-more_info" target="_blank">
-                  <span class="clr-blue">{{view_more_text}}</span>
-                  <svg
-                    id="Micro_Icon_Chevron"
-                    data-name="Micro Icon, Chevron"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="12"
-                    height="12"
-                    viewBox="0 0 12 12"
-                    class="mt-2"
-                  >
-                    <rect
-                      id="Bounding"
+      {{/productSlider}}
+
+      <div class="product-content" id="en_product_content">
+        <div class="product-content_header">
+          <h3 class="clr-body">{{product_title}}</h3>
+          <p class="fw-600 mt-4">{{product_desc}}</p>
+          <div class="is-flex is-start is-align-center col-gap-12 mt-12">
+            {{>FiveStarRating}}
+            <div class="ratings-count ff-body_graphik clr-body-700">{{total_product_review}}</div>
+          </div>
+        </div>
+
+        <div class="product-conetnt_body" data-fluid-checkout-group="{{product_id}}">
+
+          <div class="select-quantity mt-20 mb-24">
+            <div class="fs-md mb-8">{{select_quantity_text}}</div>
+            <div class="inline-flex is-start is-align-center select-quantity_wrap">
+              <button id="decreaseBtn">-</button>
+              <input type="number" id="quantity" value="1" name="fluid-checkout-quantity" />
+              <button id="increaseBtn">+</button>
+            </div>
+          </div>
+          {{#subscribe}}
+            <div class="total-price mb-8">
+              <h4 id="total_price" class="clr-body">${{discounted_price}}</h4>
+            </div>
+
+            <div class="subscribe-card">
+
+              <div class="subscribe-card_header is-flex is-between is-align-center">
+                <div class="custom-radio inline-flex is-align-center">
+                  <input
+                    type="radio"
+                    checked
+                    id="subscribe"
+                    name="fluid-checkout-subscribe"
+                    value="subscription"
+                  />
+                  <label for="subscribe" class="fs-md clr-body">{{subscribe_text}}</label>
+                </div>
+
+                <div class="is-flex is-end is-align-center col-gap-16">
+                  <span class="is-strike clr-body-600" id="subscribe_price_cross">${{actual_price}}</span>
+                  <span class="fw-600 clr-primary" id="subscribe_price">{{discounted_price}}/{{month}}</span>
+                </div>
+              </div>
+
+              <div class="subscribe-card_body">
+                <ul class="fs-md subscribe-features check-list">
+                  {{#checklist_items}}
+                    <li class="is-flex is-start is-align-start col-gap-12">
+                      <span class="check-icon">
+                        {{{check_icon}}}
+                      </span>
+                      {{caption}}
+                    </li>
+                  {{/checklist_items}}
+                </ul>
+              </div>
+
+              <div class="subscribe-card_footer is-flex is-between is-align-center">
+                <div class="custom-radio inline-flex is-align-center">
+                  <input  type="radio" id="onetime_order"  name="fluid-checkout-subscribe" />
+                  <label for="onetime_order" class="fs-md clr-body">{{one_time_order_text}}</label>
+                </div>
+
+                <div class="is-flex is-end is-align-center col-gap-16">
+                  <span class="fw-600 clr-body" id="onetime_order_price">${{actual_price}}</span>
+                </div>
+              </div>
+            </div>
+          {{/subscribe}}
+
+          <div class="my-20">
+            <button class="btn w-full text-center btn-black fw-600"  data-fluid-checkout-group-id="{{product_id}}">
+              {{add_to_cart_text}}
+            </button>
+          </div>
+          {{#benefits}}
+            <div class="product-content_dsc">
+              {{desc}}
+              <ul class="product-content_dsc--list pl-28 mt-8">
+                {{#items}}
+                  <li>{{caption}}</li>
+                {{/items}}
+                <li>
+                  <a href="{{pdf_url}}" class="clr-blue is-flex is-align-center gap-8 view-more_info" target="_blank">
+                    <span class="clr-blue">{{view_more_text}}</span>
+                    <svg
+                      id="Micro_Icon_Chevron"
+                      data-name="Micro Icon, Chevron"
+                      xmlns="http://www.w3.org/2000/svg"
                       width="12"
                       height="12"
-                      fill="none"
-                    />
-                    <path
-                      id="Icon"
-                      d="M3.26,3.968a.5.5,0,0,0,.707,0L7.089.847A.5.5,0,0,0,6.382.14L3.614,2.907.848.14A.5.5,0,0,0,.141.847Z"
-                      transform="translate(4 9.229) rotate(-90)"
-                      fill="#3172e9"
-                    />
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        {{/benefits}}
+                      viewBox="0 0 12 12"
+                      class="mt-2"
+                    >
+                      <rect
+                        id="Bounding"
+                        width="12"
+                        height="12"
+                        fill="none"
+                      />
+                      <path
+                        id="Icon"
+                        d="M3.26,3.968a.5.5,0,0,0,.707,0L7.089.847A.5.5,0,0,0,6.382.14L3.614,2.907.848.14A.5.5,0,0,0,.141.847Z"
+                        transform="translate(4 9.229) rotate(-90)"
+                        fill="#3172e9"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          {{/benefits}}
+        </div>
       </div>
     </div>
   </div>
+</div>
