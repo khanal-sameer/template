@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   subPrice =
     subPrice && currency
-      ? currency + subPrice + "/mo"
+      ? currency + subPrice
       : defaultValue.subPrice;
   price = price && currency ? currency + price : defaultValue.price;
 

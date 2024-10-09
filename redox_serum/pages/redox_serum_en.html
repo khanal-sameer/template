@@ -30,7 +30,7 @@
   </head>
 
   <body>
-    <div id="asea-landing_page" style="display: none" data-product="8630" data-scroll-container>
+    <div id="asea-landing_page" style="display: none" data-product="8622" data-scroll-container>
      
       <!-- Breadcrumb -->
       <div class="container">
@@ -133,7 +133,7 @@
                 </div>
               </div>
 
-              <div class="product-conetnt_body" data-fluid-checkout-group="8630">
+              <div class="product-conetnt_body" data-fluid-checkout-group="8622">
 
                 <div class="select-quantity mt-20 mb-24">
                   <div class="fs-md mb-8">Select quantity:</div>
@@ -144,7 +144,7 @@
                   </div>
                 </div>
                   <div class="total-price mb-8">
-                    <h4 id="total_price" class="clr-body">$80.00</h4>
+                    <h4 class="clr-body"><span id="total_price">$80.00</span></h4>
                   </div>
 
                   <div class="subscribe-card">
@@ -163,7 +163,7 @@
 
                       <div class="is-flex is-end is-align-center col-gap-16">
                         <span class="is-strike clr-body-600" id="subscribe_price_cross">$100.00</span>
-                        <span class="fw-600 clr-primary" id="subscribe_price">80.00/mo</span>
+                        <span class="fw-600 clr-primary"><span id="subscribe_price">80.00</span>/mo</span>
                       </div>
                     </div>
 
@@ -221,7 +221,7 @@
                   </div>
 
                 <div class="my-20">
-                  <button class="btn w-full text-center btn-black fw-600"  data-fluid-checkout-group-id="8630">
+                  <button class="btn w-full text-center btn-black fw-600"  data-fluid-checkout-group-id="8622">
                     Add to cart
                   </button>
                 </div>
@@ -452,7 +452,7 @@
                   </ul>
 
                   <div class="my-24">
-                    <button class="btn w-full text-center btn-black fw-600" data-fluid-checkout="8630">
+                    <button class="btn w-full text-center btn-black fw-600" data-fluid-checkout="8622">
                       Buy now
                     </button>
                   </div>
@@ -648,7 +648,7 @@
                   </ul>
 
                   <div class="feature-susbscribe_button mt-32">
-                    <button  class="btn w-full text-center btn-black fw-600"  data-fluid-subscription-checkout="8630">
+                    <button  class="btn w-full text-center btn-black fw-600"  data-fluid-subscription-checkout="8622">
                       Subscribe now
                     </button>
                   </div>
@@ -845,10 +845,10 @@
               <div class="cta-banner_content">
                 <h2>Experience naturally beautiful results</h2>
                 <div class="btns mt-32 is-flex is-start is-align-center gap-16 is-wrap">
-                  <button class="btn btn-border btn-border_white" data-fluid-checkout="8630">
+                  <button class="btn btn-border btn-border_white" data-fluid-checkout="8622">
                     Add to one-time purchase
                   </button>
-                  <button class="btn btn-white"  data-fluid-subscription-checkout="8630">
+                  <button class="btn btn-white"  data-fluid-subscription-checkout="8622">
                     Add to subscription
                   </button>
                 </div>
@@ -1046,7 +1046,7 @@
 
         subPrice =
           subPrice && currency
-            ? currency + subPrice + "/mo"
+            ? currency + subPrice
             : defaultValue.subPrice;
         price = price && currency ? currency + price : defaultValue.price;
 
