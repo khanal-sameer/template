@@ -400,6 +400,9 @@ ul {
         padding-right: 6.8rem;
       }
     }
+    p{
+      margin: 0;
+    }
   }
   &.key-ingredients {
     background-color: var(--clr-body-200);
@@ -453,6 +456,10 @@ ul {
       @include breakpoint-up("lg-tab") {
         display: none;
       }
+    }
+    h4{
+      margin-top: 12px;
+      line-height: 1.3;
     }
     .four-cols {
       img {
