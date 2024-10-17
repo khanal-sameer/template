@@ -229,10 +229,6 @@ ul {
   }
 }
 .sold-info-section {
-  margin-bottom: 4rem;
-  @include breakpoint-up("lg-tab") {
-    margin-bottom: 6.27rem;
-  }
   .container-full {
     @include breakpoint-up("sm-desktop") {
       padding: 0 4rem;
@@ -811,6 +807,13 @@ ul {
       &:not(:last-child) {
         border-bottom: 1px solid var(--clr-border);
       }
+    }
+  }
+}
+.collagen-support-section{
+  .section-title{
+    @include breakpoint-down("md-phone"){
+      margin-bottom: 32px
     }
   }
 }

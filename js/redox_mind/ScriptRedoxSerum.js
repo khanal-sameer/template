@@ -190,19 +190,21 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   //as seen slider
   var asSeen = new Splide("#as-seen_slider", {
-    autoWidth: true,
     arrows: false,
     pagination: false,
     type: "loop",
-    perPage: 1,
+    perPage: 3,
     autoplay: true,
     interval: 2000,
     cover: false,
     gap: "2rem",
+    mediaQuery: "min",
     breakpoints: {
-      1024: {
+      1280: {
         perPage: 7,
-        gap: "3rem",
+      },
+      1024: {
+        perPage: 5,
       },
       576: {
         perPage: 4,
