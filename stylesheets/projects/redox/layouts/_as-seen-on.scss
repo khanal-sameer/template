@@ -1,0 +1,15 @@
+#as-seen_slider {
+  height: 70px;
+  .splide__list {
+    align-items: center;
+  }
+  &_image {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      object-fit: contain;
+    }
+  }
+}

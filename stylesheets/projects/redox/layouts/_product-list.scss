@@ -1,0 +1,166 @@
+.page-section {
+  &_performance {
+    background-color: var(--clr-body-100);
+  }
+  &_confidence {
+    .content-list {
+      width: 100%;
+    }
+  }
+  &_cover {
+    position: relative;
+    padding-top: 0;
+    @include breakpoint-up("lg-tab") {
+      padding: 6.67rem;
+    }
+    .two-cols {
+      @include breakpoint-up("lg-tab") {
+        min-height: 350px;
+      }
+      .col-item {
+        @include breakpoint-up("lg-tab") {
+          padding-left: 90px;
+
+          &:is(.col-item_left) {
+            padding-right: 90px;
+            padding-left: 0;
+          }
+        }
+      }
+    }
+    .background-image {
+      position: relative;
+
+      @include breakpoint-up("lg-tab") {
+        max-height: 375px;
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 50%;
+        max-height: unset;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+        &_right {
+          left: auto;
+          right: 0;
+        }
+      }
+    }
+  }
+}
+
+.three-cols {
+  --min-width: 240px;
+  img {
+    margin: auto;
+  }
+  gap: 2rem;
+  grid-template-rows: 1fr;
+  .order-1 {
+    order: 1;
+  }
+  .order-2 {
+    order: 2;
+  }
+  .order-3 {
+    order: 3;
+  }
+  @include breakpoint-up("lg-tab") {
+    grid-template-columns: repeat(auto-fit, minmax(var(--min-width), 1fr));
+    .order-1 {
+      order: 2;
+    }
+    .order-2 {
+      order: 1;
+    }
+    .order-3 {
+      order: 3;
+    }
+  }
+  @include breakpoint-up("sm-desktop") {
+    grid-template-columns: 1fr 462px 1fr;
+  }
+  align-items: center;
+  .content-list {
+    &:not(:last-child) {
+      margin-bottom: 1.5rem;
+      @include breakpoint-up("lg-tab") {
+        margin-bottom: 4rem;
+      }
+    }
+    &.text-align_right {
+      @include breakpoint-up("lg-tab") {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+        text-align: right;
+      }
+    }
+   
+    &_img {
+      max-width: 78px;
+      height: 78px;
+      @include breakpoint-down("md-tab") {
+        margin: auto;
+        img {
+          margin: auto;
+        }
+      }
+      img {
+        object-fit: contain;
+        object-position: center;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+      }
+    }
+  }
+}
+
+.two-cols {
+  column-gap: 4.2rem;
+  grid-template-rows: 1fr;
+  align-items: center;
+
+  .content-list {
+    padding-top: 2rem;
+  }
+  .order-1 {
+    order: 2;
+  }
+  .order-2 {
+    order: 1;
+  }
+  @include breakpoint-up("lg-tab") {
+    grid-template-columns: 1fr 1fr;
+    .order-1 {
+      order: 1;
+    }
+    .order-2 {
+      order: 2;
+    }
+    .content-list {
+      padding-top: 0;
+    }
+  }
+}
+.four-cols {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  .content-list {
+    text-align: center;
+    h4 {
+      font-size: 13px;
+    }
+    p {
+      font-size: var(--fs-sm);
+    }
+  }
+}

@@ -553,3 +553,15 @@ $weights: 200, 300, 400, 500, 600, 700, 800, 900, bold, normal;
 .redoxmind-d-none{
   display: none;
 }
+.desktop-view {
+  display: none;
+  @include breakpoint-up("md-tab") {
+    display: block;
+  }
+}
+.mobile-view {
+  display: block;
+  @include breakpoint-up("md-tab") {
+    display: none;
+  }
+}

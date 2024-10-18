@@ -1,0 +1,7 @@
+.collagen-support-section{
+  .section-title{
+    @include breakpoint-down("md-phone"){
+      margin-bottom: 32px
+    }
+  }
+}

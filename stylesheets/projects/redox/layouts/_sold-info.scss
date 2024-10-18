@@ -1,0 +1,38 @@
+.sold-info-section {
+  .container-full {
+    @include breakpoint-up("sm-desktop") {
+      padding: 0 4rem;
+    }
+  }
+}
+.sold-info {
+  padding: 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  position: relative;
+  @include breakpoint-up("md-tab") {
+    padding: 4rem 0;
+  }
+  &_content {
+    background-color: var(--clr-white);
+    opacity: 0.9;
+    border-radius: 6px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.29);
+    max-width: 420px;
+    margin: auto;
+    padding: 1.5rem;
+    position: relative;
+    z-index: 2;
+    @include breakpoint-up("xl-phone") {
+      padding: 2rem;
+    }
+  }
+  // &::after {
+  //   position: absolute;
+  //   content: "";
+  //   inset: 0;
+  //   z-index: 1;
+  //   background-color: rgba(255, 255, 255, 0.4);
+  // }
+}

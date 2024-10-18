@@ -50,3 +50,16 @@
     border-top: 1px solid var(--clr-border);
   }
 }
+.page-section_accordion {
+  background-color: var(--clr-white);
+  padding-bottom: 4rem;
+  .section-title {
+    margin-bottom: 2.5rem;
+  }
+  @include breakpoint-up("lg-tab") {
+    padding-bottom: 6.27rem;
+    .section-title {
+      margin-bottom: 4rem;
+    }
+  }
+}
