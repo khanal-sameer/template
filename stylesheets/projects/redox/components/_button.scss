@@ -37,11 +37,12 @@
       opacity: 0.9;
     }
   }
-  &-black { 
-    background-color: var(--clr-primary);
+  
+  &-black {
+    background-color: var(--clr-body);
     color: var(--clr-white);
     &:hover {
-      background-color: var(--clr-primary-900);
+      background-color: var(--clr-body-900);
     }
   }
   &-link {

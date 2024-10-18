@@ -1,1 +1,13 @@
+@import 'projects/redox/pages/redox_serum/variables';
 @import 'projects/redox/master';
+#asea-landing_page {
+  .btn{
+    &-black { 
+      background-color: var(--clr-primary);
+      color: var(--clr-white);
+      &:hover {
+        background-color: var(--clr-primary-900);
+      }
+    }
+  }
+}

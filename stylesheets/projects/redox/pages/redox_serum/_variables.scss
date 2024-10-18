@@ -1,0 +1,9 @@
+
+$primary: #3172E9;
+$clr-primary-900: #2862cb;
+$primary-dark: #9f76c8;
+:root {
+  --clr-primary: #{$primary};
+  --clr-primary-900: #{$clr-primary-900};
+  --clr-primary-dark: #{$primary-dark};
+}
