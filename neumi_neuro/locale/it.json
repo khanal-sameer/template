@@ -2,14 +2,15 @@
   "title": "Neuro",
   "product_title": "Neuro",
   "total_product_review": "7 Recensioni",
-  "product_desc": "Presentiamo Neuro,<span class='fw-600'> la nostra rivoluzionaria formula per il cervello in nano, progettata per ottimizzare la funzione cognitiva, migliorare la concentrazione e sostenere la salute generale del cervello.</span> Utilizzando la stessa Nanotecnologia HydraStat avanzata di NutriSwish, Neuro garantisce la massima assorbimento ed efficacia dei suoi ingredienti accuratamente selezionati.",
+  "product_desc": "Presentiamo Neuro,<span class='fw-600'> la nostra formula cerebrale rivoluzionaria in nano, progettata per ottimizzare la funzione cognitiva, migliorare la concentrazione e supportare la salute generale del cervello.</span> Utilizzando la stessa avanzata HydraStat Nanotechnology di NutriSwish, Neuro assicura il massimo assorbimento ed efficacia dei suoi ingredienti accuratamente selezionati.",
   "add_to_cart_text": "Aggiungi al carrello",
-  "select_quantity_text": "Seleziona la quantità",
+  "select_quantity_text": "Seleziona quantità",
   "all_product_text": "Tutti i prodotti",
-  "language": "it", "month": "mese",
+  "language": "it",
+  "month": "mese",
   "subscribe": {
     "subscribe_text": "Abbonati",
-    "frequency_text": "Seleziona la frequenza",
+    "frequency_text": "Seleziona frequenza",
     "actual_price": "65.00",
     "discounted_price": "50.00",
     "checklist_items": [
@@ -28,15 +29,15 @@
     ],
     "one_time_purchase_text": "Acquisto una tantum"
   },
-  "free_shipping_desc": "Spedizione gratuita negli Stati Uniti per ordini superiori a $200+",
+  "free_shipping_desc": "Spedizione gratuita negli Stati Uniti per ordini superiori a $200",
   "benefits": {
     "title": "Vantaggi",
     "items": [
       {
-        "caption": "Ingredienti chiave per massimizzare l'assorbimento e l'efficacia, quotidianamente."
+        "caption": "Ingredienti chiave per massimizzare l'assorbimento e l'efficacia giornaliera."
       },
       {
-        "caption": "Ogni lotto è sottoposto a rigorosi test da parte di terzi per garantire l'impegno verso la purezza e la sicurezza."
+        "caption": "Ogni lotto è sottoposto a rigorosi test di terze parti per garantire l'impegno per la purezza e la sicurezza."
       },
       {
         "caption": "Offriamo una garanzia di rimborso di 30 giorni, senza domande."
@@ -44,70 +45,70 @@
     ]
   },
   "asSeenOn": {
-    "title": "Visto su"
+    "title": "Come visto su"
   },
   "tab": {
-    "title": "Guarda come Neuro sta cambiando le vite",
-    "video_review_title": "Recensioni Video <span>(5)</span>",
-    "written_review_title": "Recensioni Scritte <span>(2)</span>",
-    "rating_text": "Valutazione di 5 Stelle",
+    "title": "Scopri come Neuro sta cambiando la vita",
+    "video_review_title": "Recensioni video <span>(5)</span>",
+    "written_review_title": "Recensioni scritte <span>(2)</span>",
+    "rating_text": "Valutazione a 5 stelle",
     "review_list": [
       {
         "reviewer": "Aidan D.",
         "address": "Salt Lake City, UT",
         "time": "2 ore fa",
-        "review_text": "Neuro è stato un cambiamento radicale per me! Lo sto usando da qualche mese e ho notato un miglioramento significativo nei miei livelli di energia e vitalità generale. È incredibile come qualcosa di così semplice possa avere effetti così profondi. Altamente raccomandato!"
+        "review_text": "Neuro è stato una svolta per me! Lo uso da qualche mese e ho notato un miglioramento significativo nei miei livelli di energia e nella mia vitalità complessiva. È incredibile come qualcosa di così semplice possa avere effetti così profondi. Lo consiglio vivamente!"
       },
       {
         "reviewer": "Lola P.",
         "address": "Laie, HI",
         "time": "2 ore fa",
-        "review_text": "Ho avuto problemi a mantenere l'equilibrio ormonale per anni, ma Neuro ha fatto una grande differenza. Non solo mi sento più equilibrata ed energica, ma ho anche notato miglioramenti nel tono della pelle e dei muscoli. È davvero notevole!"
+        "review_text": "Ho avuto problemi a mantenere l'equilibrio ormonale per anni, ma Neuro ha fatto una grande differenza. Non solo mi sento più equilibrata ed energica, ma ho anche notato miglioramenti nel tono della pelle e dei muscoli. È davvero straordinario!"
       }
     ]
   },
   "product_benefits": {
-    "title": "Scopri i benefici trasformativi di Neuro",
-    "desc": "Sblocca il tuo potenziale cognitivo e raggiungi le massime prestazioni mentali con la potente miscela di Neuro. Che tu abbia bisogno di <span class='fw-600'>migliorare la concentrazione, aumentare l'energia mentale o sostenere la salute del cervello a lungo termine,</span> Neuro è il tuo alleato definitivo.",
-    "alt_text": "prodotto Neuro",
+    "title": "Sperimenta i benefici trasformativi di Neuro",
+    "desc": "Sblocca il tuo potenziale cognitivo e raggiungi le massime prestazioni mentali con la potente miscela di Neuro. Che tu abbia bisogno di<span class='fw-600'>migliorare la concentrazione, aumentare l'energia mentale o supportare la salute cerebrale a lungo termine,</span> Neuro è il tuo alleato definitivo.",
+    "alt_text": "prodotto neuro",
     "items_left": [
       {
-        "title": "Rilascio sostenuto",
-        "desc": "La somministrazione orale consente un rilascio più costante e sostenuto del glutatione nel flusso sanguigno."
+        "title": "Energia Pulita e Salute Cerebrale Ottimale",
+        "desc": "Sperimenta i benefici superiori di Neuro. La sua formulazione orale offre non solo un'alternativa più salutare e sostenibile alle bevande energetiche tradizionali, ma promuove anche la salute cerebrale a lungo termine. Neuro fornisce energia pulita e costante che migliora la chiarezza mentale e la concentrazione senza effetti negativi."
       },
       {
-        "title": "Miglior biodisponibilità",
-        "desc": "Le particelle di glutatione di dimensioni nano significano che una maggiore proporzione di glutatione viene utilizzata, massimizzando i suoi benefici antiossidanti."
+        "title": "Supporto Cognitivo Ottimizzato",
+        "desc": "Neuro sfrutta il potere di ingredienti avanzati che migliorano le funzioni cognitive, ottimizzati per massime prestazioni cerebrali grazie alla nostra tecnologia HydraStat™."
       }
     ],
     "items_right": [
       {
-        "title": "Comodità",
-        "desc": "Comodità senza pari rispetto ai trattamenti IV più invasivi e che richiedono tempo."
+        "title": "Rilascio Sostenuto",
+        "desc": "La somministrazione orale di Neuro consente un rilascio più coerente e sostenuto di ingredienti attivi, mantenendo livelli efficaci nel flusso sanguigno per tutta la giornata."
       },
       {
-        "title": "Convenienza",
-        "desc": "Un'alternativa più economica ai trattamenti regolari di glutatione IV. Elimina la necessità di visite frequenti alla clinica, riducendo i costi complessivi."
+        "title": "Maggiore Biodisponibilità",
+        "desc": "Grazie alla nostra tecnologia HydraStat™ Nanotechnology, le particelle nano di glutatione in Neuro assicurano che una maggiore proporzione del principio attivo venga utilizzata, massimizzando i suoi benefici antiossidanti."
       }
     ]
   },
   "product_post_list": [
     {
-      "title": "Scienza innovativa",
-      "desc": "Il glutatione è il protettore e il disintossicante della cellula.<span class='fw-600'> È la chiave per la vita, la salute, le prestazioni, la protezione e la longevità di ogni cellula umana.</span>"
+      "title": "Scienza Innovativa",
+      "desc": "Neuro contiene glutatione, il protettore critico e detossinante della cellula.<span class='fw-600'>È essenziale per la vitalità, la salute, le prestazioni, la protezione e la longevità di ogni cellula umana.</span>"
     },
     {
-      "title": "Nanotecnologia HydraStat™",
-      "desc": "<span class='fw-600'>Particelle di dimensioni nano protette da cluster di acqua ultra-pura.</span> I nostri ingredienti di dimensioni nano sono abbastanza piccoli da essere completamente assorbiti dalla cellula umana."
+      "title": "HydraStat™ Nanotechnology",
+      "desc": "<span class='fw-600'>La nostra tecnologia all'avanguardia incapsula gli ingredienti attivi in particelle di dimensioni nano, protette da cluster di acqua ultrapura.</span> Questa dimensione nano garantisce un'assorbimento completo da parte delle cellule umane, migliorando così l'efficacia di Neuro."
     },
     {
-      "title": "Purezza e qualità",
-      "desc": "Neuro è sottoposto a rigorosi test da parte di terzi per garantire che soddisfi i più alti standard di purezza e qualità. Supportiamo il nostro prodotto con una garanzia di rimborso di 30 giorni, fiduciosi nella sua capacità di fornire significativi benefici per la salute."
+      "title": "Purezza e Qualità",
+      "desc": "Neuro è sottoposto a rigorosi test di terze parti per rispettare i più alti standard di purezza e qualità. Siamo così sicuri della capacità di Neuro di offrire benefici significativi per la salute che offriamo una garanzia di rimborso di 30 giorni."
     }
   ],
   "key_ingredients": {
-    "title": "Ingredienti chiave in Neuro",
-    "ingredients": "<span class='fw-600 is-uppercase'>Altri ingredienti chiave:</span> <span class='is-uppercase'>CAFFEINA, GLUCONATO DI MAGNESIO, ALPHA GPC, ACETIL-L-CARNITINA, MSM, PIRIDOXAL 5-FOSFATO. *L'IMMAGINE MOSTRA UNA PIANTA/CIBO IN CUI SI TROVA L'INGREDIENTE ATTIVO E NON NECESSARIAMENTE DA DOVE VIENE ESTRATTO.</span>",
+    "title": "Ingredienti Chiave in Neuro",
+    "ingredients": "<span class='fw-600 is-uppercase'>altri ingredienti chiave:</span> <span class='is-uppercase'>CAFFEINA, GLUCONATO DI MAGNESIO, ALPHA GPC, ACETIL-L-CARNITINA, MSM, PIRIDOXAL 5-FOSFATO. *L'IMMAGINE MOSTRA UNA PIANTA/ALIMENTO DA CUI È PRESENTE L'INGREDIENTE ATTIVO E NON NECESSARIAMENTE DA DOVE VIENE ESTRATTO.</span>",
     "item_list_desktop": [
       {
         "item": [
@@ -178,43 +179,43 @@
     ]
   },
   "how_to_use": {
-    "title": "Istruzioni per l'uso",
-    "desc": "Per sperimentare tutti i benefici, sciacquare la dose raccomandata di Neuro in bocca per 30 secondi prima di deglutire. Questo metodo assicura un'assorbimento ottimale degli ingredienti formulati in nano."
+    "title": "Modalità d'uso",
+    "desc": "Per sperimentare i benefici completi, risciacquare in bocca la dose consigliata di Neuro per 30 secondi prima di ingerirla. Questo metodo assicura l'assorbimento ottimale degli ingredienti formulati in nano."
   },
   "faq": {
     "title": "Benefici del Glutatione",
     "items": [
       {
-        "header": "Sistema immunitario potenziato",
+        "header": "Rafforzamento del Sistema Immunitario",
         "desc": "Il glutatione è in grado di neutralizzare i radicali liberi e proteggere il corpo dai loro effetti dannosi. Aiuta anche a ridurre l'infiammazione e supporta la capacità naturale del corpo di combattere le infezioni. Inoltre, gioca un ruolo nella sintesi di nuove cellule immunitarie, mantenendo il sistema immunitario al meglio."
       },
       {
-        "header": "Aumento di energia",
+        "header": "Aumento di Energia",
         "desc": ""
       },
       {
-        "header": "Miglioramento della resistenza e della durata",
+        "header": "Maggiore Resistenza e Prestazioni",
         "desc": ""
       },
       {
-        "header": "Miglioramento dei tempi di recupero dall'esercizio",
+        "header": "Tempi di Recupero Migliori",
         "desc": ""
       },
       {
-        "header": "Maggiore chiarezza mentale e concentrazione",
+        "header": "Maggiore Chiarezza Mentale e Concentrazione",
         "desc": ""
       },
       {
-        "header": "Miglioramento della qualità e della durata della vita",
+        "header": "Migliore Qualità e Longevità della Vita",
         "desc": ""
       }
     ]
   },
   "cta": {
     "title": "Un nuovo te inizia con Neumi",
-    "desc": "Sblocca le tue capacità cognitive e raggiungi prestazioni mentali ottimali con Neuro, la tua dose giornaliera di salute cerebrale in una bottiglia.",
+    "desc": "Sblocca le tue capacità cognitive e raggiungi prestazioni mentali ottimali con Neuro, la tua dose quotidiana di salute cerebrale in una bottiglia.",
     "subscription_text": "Aggiungi all'abbonamento",
     "purchase_text": "Acquisto una tantum"
   },
-  "note_desc": "Le dichiarazioni fatte su questo sito web non sono state valutate dalla Food and Drug Administration. Queste dichiarazioni e i prodotti di questa azienda non sono destinati a diagnosticare, trattare, curare o prevenire alcuna malattia. Le opinioni e i consigli nutrizionali espressi da Neumi non sono destinati a fornire consigli medici. Consultare sempre il proprio medico se si stanno assumendo farmaci o si hanno condizioni mediche. I risultati individuali possono variare."
+  "note_desc": "Le dichiarazioni fatte su questo sito web non sono state valutate dalla Food and Drug Administration. Queste dichiarazioni e i prodotti di questa azienda non sono destinati a diagnosticare, trattare, curare o prevenire malattie. Le opinioni e i consigli nutrizionali espressi da Neumi non sono destinati a fornire consulenze mediche. Si prega di consultare sempre il proprio fornitore di assistenza sanitaria se si stanno assumendo farmaci o si hanno condizioni mediche. I risultati individuali possono variare."
 }

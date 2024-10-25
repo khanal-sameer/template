@@ -2,13 +2,14 @@
   "title": "Neuro",
   "product_title": "Neuro",
   "total_product_review": "7 Ulasan",
-  "product_desc": "Memperkenalkan Neuro,<span class='fw-600'> formula otak nano terbaru kami, dirancang untuk mengoptimalkan fungsi kognitif, meningkatkan fokus, dan mendukung kesehatan otak secara keseluruhan.</span> Dengan menggunakan teknologi HydraStat Nanotechnology canggih yang sama seperti NutriSwish, Neuro memastikan penyerapan maksimal dan efektivitas bahan-bahan yang dipilih dengan cermat.",
-  "add_to_cart_text": "Tambah ke keranjang",
-  "select_quantity_text": "Pilih Kuantitas",
+  "product_desc": "Memperkenalkan Neuro,<span class='fw-600'> formula nano otak revolusioner kami, dirancang untuk mengoptimalkan fungsi kognitif, meningkatkan fokus, dan mendukung kesehatan otak secara keseluruhan.</span> Menggunakan teknologi HydraStat Nanotechnology yang sama dengan NutriSwish, Neuro memastikan penyerapan dan efektivitas maksimal dari bahan-bahan yang dipilih dengan cermat.",
+  "add_to_cart_text": "Tambah ke Keranjang",
+  "select_quantity_text": "Pilih Jumlah",
   "all_product_text": "Semua Produk",
-  "language": "id", "month": "bulan",
+  "language": "id",
+  "month": "bulan",
   "subscribe": {
-    "subscribe_text": "Berlangganan",
+    "subscribe_text": "Langganan",
     "frequency_text": "Pilih Frekuensi",
     "actual_price": "65.00",
     "discounted_price": "50.00",
@@ -26,20 +27,20 @@
         "caption": "Perbarui langganan Anda kapan saja"
       }
     ],
-    "one_time_purchase_text": "Pembelian satu kali"
+    "one_time_purchase_text": "Pembelian sekali"
   },
-  "free_shipping_desc": "Pengiriman gratis di AS untuk pesanan di atas $200+",
+  "free_shipping_desc": "Pengiriman gratis ke AS untuk pesanan di atas $200",
   "benefits": {
     "title": "Manfaat",
     "items": [
       {
-        "caption": "Bahan utama untuk memaksimalkan penyerapan dan efektivitas setiap hari."
+        "caption": "Bahan utama untuk memaksimalkan penyerapan dan efektivitas harian."
       },
       {
-        "caption": "Setiap batch menjalani pengujian pihak ketiga yang ketat untuk memastikan komitmen terhadap kemurnian dan keamanan."
+        "caption": "Setiap batch menjalani pengujian ketat oleh pihak ketiga untuk memastikan komitmen terhadap kemurnian dan keamanan."
       },
       {
-        "caption": "Kami menawarkan garansi uang kembali 30 hari, tanpa pertanyaan."
+        "caption": "Kami menawarkan garansi uang kembali 30 hari tanpa pertanyaan."
       }
     ]
   },
@@ -53,61 +54,61 @@
     "rating_text": "Peringkat 5 Bintang",
     "review_list": [
       {
-        "reviewer": "Aidan D..",
+        "reviewer": "Aidan D.",
         "address": "Salt Lake City, UT",
         "time": "2 jam yang lalu",
-        "review_text": "Neuro telah mengubah permainan bagi saya! Saya telah menggunakannya selama beberapa bulan sekarang, dan saya melihat peningkatan yang signifikan dalam tingkat energi dan vitalitas saya secara keseluruhan. Sangat menakjubkan bagaimana sesuatu yang sederhana dapat memiliki efek yang begitu mendalam. Sangat merekomendasikan!"
+        "review_text": "Neuro telah mengubah hidup saya! Saya telah menggunakannya selama beberapa bulan sekarang, dan saya merasakan peningkatan signifikan dalam tingkat energi dan vitalitas keseluruhan saya. Sungguh menakjubkan bagaimana sesuatu yang sederhana dapat memiliki efek yang begitu mendalam. Sangat direkomendasikan!"
       },
       {
-        "reviewer": "Lola P..",
+        "reviewer": "Lola P.",
         "address": "Laie, HI",
         "time": "2 jam yang lalu",
-        "review_text": "Saya telah berjuang untuk mempertahankan keseimbangan hormon selama bertahun-tahun, tetapi Neuro telah membuat perbedaan besar. Tidak hanya saya merasa lebih seimbang dan energik, tetapi saya juga melihat peningkatan dalam warna kulit dan nada otot saya. Benar-benar luar biasa!"
+        "review_text": "Saya telah berjuang untuk menjaga keseimbangan hormon selama bertahun-tahun, tetapi Neuro membuat perbedaan besar. Tidak hanya saya merasa lebih seimbang dan bertenaga, tetapi saya juga melihat peningkatan pada warna kulit dan otot saya. Ini benar-benar luar biasa!"
       }
     ]
   },
   "product_benefits": {
-    "title": "Rasakan manfaat transformasi Neuro",
-    "desc": "Maksimalkan potensi kognitif Anda dan capai kinerja mental puncak dengan campuran kuat Neuro. Baik Anda perlu<span class='fw-600'> meningkatkan fokus, meningkatkan energi mental, atau mendukung kesehatan otak jangka panjang,</span> Neuro adalah sekutu terbaik Anda.",
+    "title": "Rasakan Manfaat Transformasional dari Neuro",
+    "desc": "Buka potensi kognitif Anda dan capai kinerja mental maksimal dengan campuran kuat Neuro. Apakah Anda perlu<span class='fw-600'>meningkatkan fokus, meningkatkan energi mental, atau mendukung kesehatan otak jangka panjang,</span> Neuro adalah sekutu utama Anda.",
     "alt_text": "produk neuro",
     "items_left": [
       {
-        "title": "Pelepasan Berkelanjutan",
-        "desc": "Administrasi oral memungkinkan pelepasan glutathione yang lebih konsisten dan berkelanjutan ke dalam aliran darah."
+        "title": "Energi Bersih dan Kesehatan Otak Optimal",
+        "desc": "Rasakan manfaat superior dari Neuro. Formulasi oralnya tidak hanya menawarkan alternatif yang lebih sehat dan berkelanjutan daripada minuman energi tradisional, tetapi juga mendukung kesehatan otak jangka panjang. Neuro memberikan energi bersih dan stabil yang meningkatkan kejernihan mental dan fokus tanpa efek negatif."
       },
       {
-        "title": "Ketersediaan Hayati yang Ditingkatkan",
-        "desc": "Partikel glutathione berukuran nano berarti proporsi glutathione yang lebih besar digunakan, memaksimalkan manfaat antioksidannya."
+        "title": "Dukungan Kognitif yang Dioptimalkan",
+        "desc": "Neuro memanfaatkan kekuatan bahan-bahan peningkat kognitif yang canggih, yang dioptimalkan untuk kinerja otak maksimal melalui teknologi HydraStat™ kami."
       }
     ],
     "items_right": [
       {
-        "title": "Kemudahan",
-        "desc": "Kemudahan yang tak tertandingi dibandingkan dengan perawatan IV yang lebih invasif dan memakan waktu."
+        "title": "Pelepasan Berkelanjutan",
+        "desc": "Pemberian oral Neuro memungkinkan pelepasan bahan aktif yang lebih konsisten dan berkelanjutan, menjaga tingkat efektif di aliran darah sepanjang hari."
       },
       {
-        "title": "Efektivitas Biaya",
-        "desc": "Alternatif yang lebih terjangkau untuk perawatan glutathione IV reguler. Menghilangkan kebutuhan untuk kunjungan klinik yang sering, mengurangi biaya keseluruhan."
+        "title": "Ketersediaan Hayati yang Lebih Tinggi",
+        "desc": "Berkat teknologi HydraStat™ Nanotechnology, partikel glutathione berukuran nano dalam Neuro memastikan bahwa proporsi bahan aktif yang lebih tinggi digunakan, memaksimalkan manfaat antioksidannya."
       }
     ]
   },
   "product_post_list": [
     {
       "title": "Ilmu Inovatif",
-      "desc": "Glutathione adalah pelindung dan detoksifikasi sel.<span class='fw-600'> Ini adalah kunci untuk kehidupan, kesehatan, kinerja, perlindungan, dan umur panjang setiap sel manusia.</span>"
+      "desc": "Neuro mengandung glutathione, pelindung kritis dan detoksifikasi sel.<span class='fw-600'>Ini penting untuk vitalitas, kesehatan, kinerja, perlindungan, dan umur panjang setiap sel manusia.</span>"
     },
     {
-      "title": "Teknologi nanohidrat™",
-      "desc": "<span class='fw-600'>Partikel berukuran nano dilindungi oleh kelompok air ultra-murni.</span> Bahan nanosized kami cukup kecil untuk sepenuhnya diserap ke dalam sel manusia."
+      "title": "HydraStat™ Nanotechnology",
+      "desc": "<span class='fw-600'>Teknologi canggih kami mengenkapsulasi bahan aktif dalam partikel berukuran nano, dilindungi oleh kluster air yang sangat murni.</span> Ukuran nano ini memastikan penyerapan penuh oleh sel manusia, meningkatkan efektivitas Neuro."
     },
     {
-      "title": "Kemurnian dan kualitas",
-      "desc": "Neuro menjalani pengujian pihak ketiga yang ketat untuk memastikan memenuhi standar kemurnian dan kualitas tertinggi. Kami mendukung produk kami dengan garansi uang kembali 30 hari, yakin akan kemampuannya memberikan manfaat kesehatan yang signifikan."
+      "title": "Kemurnian dan Kualitas",
+      "desc": "Neuro menjalani pengujian ketat oleh pihak ketiga untuk memenuhi standar kemurnian dan kualitas tertinggi. Kami sangat yakin dengan kemampuan Neuro untuk memberikan manfaat kesehatan yang substansial sehingga kami menawarkan garansi uang kembali 30 hari."
     }
   ],
   "key_ingredients": {
-    "title": "Bahan utama dalam Neuro",
-    "ingredients": "<span class='fw-600 is-uppercase'>bahan utama lainnya:</span> <span class='is-uppercase'>KAFEIN, MAGNESIUM GLUKONAT, ALPHA GPC, ASETIL-L-KARNITIN, MSM, PIRIDOKSAL 5-FOSFAT. *GAMBAR MENUNJUKKAN TANAMAN/MAKANAN DI MANA BAHAN AKTIF DITEMUKAN DAN TIDAK SELALU DI MANA ITU DIEKSTRAKSI.</span>",
+    "title": "Bahan Utama dalam Neuro",
+    "ingredients": "<span class='fw-600 is-uppercase'>bahan utama lainnya:</span> <span class='is-uppercase'>KAFEIN, MAGNESIUM GLUKONAT, ALPHA GPC, ACETYL-L-CARNITINE, MSM, PYRIDOXAL 5-PHOSPHATE. *GAMBAR MENUNJUKKAN TANAMAN/MAKANAN YANG MENGANDUNG BAHAN AKTIF DAN TIDAK SELALU TEMPAT BAHAN TERSEBUT DIEKSTRAK.</span>",
     "item_list_desktop": [
       {
         "item": [
@@ -122,7 +123,7 @@
       {
         "item": [
           {
-            "item_name": "Fosfatidil Serin*"
+            "item_name": "Phosphatidyl Serine*"
           },
           {
             "item_name": "Kurkumin"
@@ -135,7 +136,7 @@
             "item_name": "L-Theanine*"
           },
           {
-            "item_name": "L-Sistein*"
+            "item_name": "L-Cysteine*"
           }
         ]
       },
@@ -155,7 +156,7 @@
         "item_name": "L-Glutathione*"
       },
       {
-        "item_name": "Fosfatidil Serin*"
+        "item_name": "Phosphatidyl Serine*"
       },
       {
         "item_name": "L-Theanine*"
@@ -170,7 +171,7 @@
         "item_name": "Kurkumin"
       },
       {
-        "item_name": "L-Sistein*"
+        "item_name": "L-Cysteine*"
       },
       {
         "item_name": "Ginkgo Biloba"
@@ -178,15 +179,15 @@
     ]
   },
   "how_to_use": {
-    "title": "Petunjuk penggunaan",
-    "desc": "Untuk merasakan manfaat penuh, kumur dosis yang disarankan dari Neuro di mulut Anda selama 30 detik sebelum menelan. Metode ini memastikan penyerapan optimal dari bahan-bahan yang diformulasikan dengan nano."
+    "title": "Cara Penggunaan",
+    "desc": "Untuk merasakan manfaat penuh, kumur dosis Neuro yang direkomendasikan di mulut selama 30 detik sebelum menelannya. Metode ini memastikan penyerapan optimal dari bahan yang diformulasikan dalam nano."
   },
   "faq": {
     "title": "Manfaat Glutathione",
     "items": [
       {
-        "header": "Sistem Kekebalan yang Kuat",
-        "desc": "Glutathione dapat menetralisir radikal bebas dan melindungi tubuh dari efek berbahaya mereka. Ini juga membantu mengurangi peradangan, dan mendukung kemampuan alami tubuh untuk melawan infeksi. Selain itu, berperan dalam sintesis sel-sel kekebalan baru, menjaga sistem kekebalan tubuh berfungsi dengan baik."
+        "header": "Meningkatkan Sistem Kekebalan Tubuh",
+        "desc": "Glutathione mampu menetralkan radikal bebas dan melindungi tubuh dari efek berbahaya mereka. Ini juga membantu mengurangi peradangan dan mendukung kemampuan alami tubuh untuk melawan infeksi. Selain itu, ini berperan dalam sintesis sel kekebalan baru, menjaga sistem kekebalan tubuh Anda berfungsi dengan baik."
       },
       {
         "header": "Peningkatan Energi",
@@ -197,24 +198,24 @@
         "desc": ""
       },
       {
-        "header": "Waktu Pemulihan Latihan yang Ditingkatkan",
+        "header": "Waktu Pemulihan Latihan yang Lebih Baik",
         "desc": ""
       },
       {
-        "header": "Kejelasan dan Fokus Mental yang Lebih Besar",
+        "header": "Kejernihan dan Fokus Mental yang Lebih Baik",
         "desc": ""
       },
       {
-        "header": "Kualitas dan Panjang Hidup yang Diting katkan",
+        "header": "Kualitas dan Panjang Umur yang Lebih Baik",
         "desc": ""
-}
-]
-},
-"cta": {
-"title": "Anda yang baru dimulai dengan Neumi",
-"desc": "Maksimalkan kemampuan kognitif Anda dan capai kinerja mental puncak dengan Neuro, dosis harian kesehatan otak Anda dalam botol.",
-"subscription_text": "Tambahkan ke langganan",
-"purchase_text": " Pembelian satu kali"
-},
-"note_desc": "Pernyataan yang dibuat di dalam situs web ini belum dievaluasi oleh Food and Drug Administration. Pernyataan ini dan produk dari perusahaan ini tidak dimaksudkan untuk mendiagnosis, mengobati, menyembuhkan atau mencegah penyakit apa pun. Pandangan dan saran gizi yang diungkapkan oleh Neumi tidak dimaksudkan untuk tujuan memberikan nasihat medis. Harap selalu berkonsultasi dengan penyedia layanan kesehatan Anda jika Anda sedang minum obat atau"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Diri Baru Anda Dimulai dengan Neumi",
+    "desc": "Buka kemampuan kognitif Anda dan capai kinerja mental maksimal dengan Neuro, dosis harian kesehatan otak Anda dalam satu botol.",
+    "subscription_text": "Tambahkan ke Langganan",
+    "purchase_text": "Pembelian Sekali"
+  },
+  "note_desc": "Pernyataan yang dibuat di situs web ini belum dievaluasi oleh Food and Drug Administration. Pernyataan ini dan produk perusahaan ini tidak dimaksudkan untuk mendiagnosis, merawat, menyembuhkan, atau mencegah penyakit apa pun. Pendapat dan saran nutrisi yang diungkapkan oleh Neumi tidak dimaksudkan untuk memberikan saran medis. Harap selalu berkonsultasi dengan penyedia layanan kesehatan Anda jika Anda minum obat atau memiliki kondisi medis. Hasil individu mungkin berbeda."
 }

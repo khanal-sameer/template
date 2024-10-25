@@ -1,42 +1,43 @@
 {
   "title": "Neuro",
   "product_title": "Neuro",
-  "total_product_review": "7 Értékelés",
-  "product_desc": "Bemutatjuk a Neuro-t,<span class='fw-600'> áttörő nano agyformulánkat, amelyet a kognitív funkciók optimalizálására, a fókusz javítására és az agy általános egészségének támogatására terveztünk.</span> Ugyanazt az előrehaladott HydraStat Nanotechnológiát használva, mint a NutriSwish, a Neuro biztosítja a maximális felszívódást és hatékonyságot gondosan kiválasztott összetevőinek.",
+  "total_product_review": "7 Vélemény",
+  "product_desc": "Bemutatjuk a Neuro-t,<span class='fw-600'> az áttörést jelentő nano agyi formulánkat, amely a kognitív funkciók optimalizálására, a fókusz javítására és az agy általános egészségének támogatására lett kifejlesztve.</span> A NutriSwish-hez hasonlóan a fejlett HydraStat Nanotechnology-t használva, a Neuro biztosítja a gondosan kiválasztott összetevők maximális felszívódását és hatékonyságát.",
   "add_to_cart_text": "Kosárba",
-  "select_quantity_text": "Mennyiség kiválasztása",
-  "all_product_text": "Minden termék",
-  "language": "hu", "month": "hónap",
+  "select_quantity_text": "Válasszon mennyiséget",
+  "all_product_text": "Összes termék",
+  "language": "hu",
+  "month": "hónap",
   "subscribe": {
     "subscribe_text": "Feliratkozás",
-    "frequency_text": "Gyakoriság kiválasztása",
+    "frequency_text": "Válasszon gyakoriságot",
     "actual_price": "65.00",
     "discounted_price": "50.00",
     "checklist_items": [
       {
-        "caption": "Feliratkozás és megtakarítás <span class='price_container is-hide' id='saving'>$15</span>"
+        "caption": "Iratkozzon fel és spóroljon <span class='price_container is-hide' id='saving'>$15</span>"
       },
       {
-        "caption": "Neumi Reward pontok gyűjtése"
+        "caption": "Gyűjtsön Neumi jutalompontokat"
       },
       {
         "caption": "30 napos pénzvisszafizetési garancia"
       },
       {
-        "caption": "Előfizetés frissítése bármikor"
+        "caption": "Frissítse előfizetését bármikor"
       }
     ],
     "one_time_purchase_text": "Egyszeri vásárlás"
   },
-  "free_shipping_desc": "Ingyenes szállítás az USA-ban $200+ értékű rendelések esetén",
+  "free_shipping_desc": "Ingyenes szállítás az Egyesült Államokban $200 feletti rendelés esetén",
   "benefits": {
     "title": "Előnyök",
     "items": [
       {
-        "caption": "Kulcsfontosságú összetevők a maximális felszívódás és hatékonyság érdekében, naponta."
+        "caption": "Kulcsfontosságú összetevők a napi maximális felszívódás és hatékonyság érdekében."
       },
       {
-        "caption": "Minden tétel szigorú harmadik fél általi tesztelésen megy keresztül a tisztaság és biztonság biztosítása érdekében."
+        "caption": "Minden tétel szigorú harmadik fél általi tesztelésen esik át a tisztaság és biztonság biztosítása érdekében."
       },
       {
         "caption": "30 napos pénzvisszafizetési garanciát kínálunk, kérdések nélkül."
@@ -44,70 +45,70 @@
     ]
   },
   "asSeenOn": {
-    "title": "Látták"
+    "title": "Látták itt"
   },
   "tab": {
     "title": "Nézze meg, hogyan változtatja meg a Neuro az életeket",
-    "video_review_title": "Videó értékelések <span>(5)</span>",
-    "written_review_title": "Írásos értékelések <span>(2)</span>",
+    "video_review_title": "Videó vélemények <span>(5)</span>",
+    "written_review_title": "Írásos vélemények <span>(2)</span>",
     "rating_text": "5 csillagos értékelés",
     "review_list": [
       {
         "reviewer": "Aidan D.",
         "address": "Salt Lake City, UT",
-        "time": "2 órával ezelőtt",
-        "review_text": "A Neuro igazi áttörés volt számomra! Már néhány hónapja használom, és jelentős javulást tapasztaltam az energiaszintemben és az általános vitalitásomban. Csodálatos, hogy valami ilyen egyszerűnek milyen mélyreható hatásai lehetnek. Nagyon ajánlom!"
+        "time": "2 órája",
+        "review_text": "A Neuro megváltoztatta az életemet! Már néhány hónapja használom, és jelentős javulást tapasztaltam az energiaszintemben és az általános vitalitásomban. Hihetetlen, hogy valami ilyen egyszerű milyen mélyreható hatásokat hozhat. Nagyon ajánlom!"
       },
       {
         "reviewer": "Lola P.",
         "address": "Laie, HI",
-        "time": "2 órával ezelőtt",
-        "review_text": "Évek óta küzdöttem a hormonális egyensúly fenntartásával, de a Neuro hatalmas változást hozott. Nemcsak kiegyensúlyozottabbnak és energikusabbnak érzem magam, hanem a bőrtónusom és az izomtónusom is javult. Ez igazán figyelemre méltó!"
+        "time": "2 órája",
+        "review_text": "Évek óta küzdöttem a hormonális egyensúly fenntartásával, de a Neuro óriási változást hozott. Nemcsak kiegyensúlyozottabbnak és energikusabbnak érzem magam, de javulást tapasztaltam a bőröm és izmaim tónusában is. Ez igazán figyelemre méltó!"
       }
     ]
   },
   "product_benefits": {
     "title": "Tapasztalja meg a Neuro átalakító előnyeit",
-    "desc": "Fedezze fel kognitív potenciálját és érje el a csúcsteljesítményt a Neuro erőteljes keverékével. Akár <span class='fw-600'>fókuszának javítására, szellemi energiájának növelésére vagy hosszú távú agyi egészségének támogatására</span> van szüksége, a Neuro az Ön végső szövetségese.",
+    "desc": "Szabadítsa fel kognitív potenciálját és érjen el csúcs mentális teljesítményt a Neuro hatékony keverékével. Akár<span class='fw-600'>a koncentráció javítására, a mentális energia növelésére vagy az agy hosszú távú egészségének támogatására</span> van szüksége, a Neuro az Ön végső szövetségese.",
     "alt_text": "neuro termék",
     "items_left": [
       {
-        "title": "Tartós felszabadulás",
-        "desc": "Az orális beadás egyenletesebb és tartósabb glutation felszabadulást tesz lehetővé a véráramba."
+        "title": "Tiszta energia és optimális agyegészség",
+        "desc": "Tapasztalja meg a Neuro kiváló előnyeit. Szájon át szedhető formulája nemcsak egy egészségesebb, fenntarthatóbb alternatívát kínál a hagyományos energiaitalokhoz képest, hanem elősegíti az agy hosszú távú egészségét is. A Neuro folyamatos, tiszta energiát biztosít, amely javítja a mentális tisztaságot és a koncentrációt negatív hatások nélkül."
       },
       {
-        "title": "Növelt biohasznosulás",
-        "desc": "A nano méretű glutation részecskék azt jelentik, hogy a glutation nagyobb aránya kerül felhasználásra, maximalizálva antioxidáns előnyeit."
+        "title": "Optimalizált kognitív támogatás",
+        "desc": "A Neuro fejlett, kognitív képességeket javító összetevők erejét használja ki, amelyek a HydraStat™ technológiánk révén a maximális agyteljesítmény érdekében optimalizáltak."
       }
     ],
     "items_right": [
       {
-        "title": "Kényelem",
-        "desc": "Páratlan kényelem a több invazív és időigényes IV kezelésekkel szemben."
+        "title": "Folyamatos felszabadulás",
+        "desc": "A Neuro szájon át történő beadása következetesebb és tartósabb hatóanyag-felszabadulást biztosít, fenntartva a véráramban az egész nap folyamán hatékony szinteket."
       },
       {
-        "title": "Költséghatékonyság",
-        "desc": "Kedvezőbb alternatíva a rendszeres IV glutation kezelésekhez képest. Csökkenti a gyakori klinikai látogatások szükségességét, csökkentve az összköltségeket."
+        "title": "Magasabb biohasznosulás",
+        "desc": "A HydraStat™ Nanotechnology révén a Neuro nano méretű glutation részecskéi biztosítják, hogy a hatóanyag nagyobb arányban hasznosuljon, maximalizálva antioxidáns előnyeit."
       }
     ]
   },
   "product_post_list": [
     {
       "title": "Innovatív tudomány",
-      "desc": "A glutation a sejt védője és méregtelenítője.<span class='fw-600'> Ez az élet, az egészség, a teljesítmény, a védelem és minden emberi sejt hosszú életének kulcsa.</span>"
+      "desc": "A Neuro glutationt tartalmaz, amely a sejt kritikus védője és méregtelenítője.<span class='fw-600'>Létfontosságú az egyes emberi sejtek vitalitásához, egészségéhez, teljesítményéhez, védelméhez és hosszú élettartamához.</span>"
     },
     {
-      "title": "HydraStat™ nanotechnológia",
-      "desc": "<span class='fw-600'>Nano méretű részecskék ultratiszta vízklaszterek által védve.</span> Nano méretű összetevőink elég kicsik ahhoz, hogy teljesen felszívódjanak az emberi sejtben."
+      "title": "HydraStat™ Nanotechnology",
+      "desc": "<span class='fw-600'>Fejlett technológiánk az aktív összetevőket nano méretű részecskékbe zárja, amelyeket ultra-tisztított vízklaszterek védenek.</span> Ez a nano méret biztosítja az emberi sejtek általi teljes felszívódást, növelve ezzel a Neuro hatékonyságát."
     },
     {
       "title": "Tisztaság és minőség",
-      "desc": "A Neuro szigorú harmadik fél általi tesztelésen megy keresztül, hogy biztosítsa a legmagasabb tisztasági és minőségi szabványoknak való megfelelést. Termékünket 30 napos pénzvisszafizetési garanciával támogatjuk, bízva abban, hogy jelentős egészségügyi előnyöket nyújt."
+      "desc": "A Neuro szigorú harmadik fél általi tesztelésen megy keresztül, hogy megfeleljen a legmagasabb tisztasági és minőségi szabványoknak. Olyan biztosak vagyunk abban, hogy a Neuro jelentős egészségügyi előnyöket nyújt, hogy 30 napos pénzvisszafizetési garanciát kínálunk."
     }
   ],
   "key_ingredients": {
-    "title": "Kulcsfontosságú összetevők a Neuro-ban",
-    "ingredients": "<span class='fw-600 is-uppercase'>Egyéb kulcsfontosságú összetevők:</span> <span class='is-uppercase'>KOFFEIN, MAGNÉZIUM-GLUKONÁT, ALPHA GPC, ACETIL-L-KARNITIN, MSM, PIRIDOXAL 5-FOSZFÁT. *A KÉP EGY NÖVÉNYT/ÉLELMISZERT MUTAT, AMELYBEN AZ AKTÍV ÖSSZETEVŐ MEGTALÁLHATÓ, ÉS NEM FELTÉTLENÜL AHONNAN KINYERIK.</span>",
+    "title": "Fő összetevők a Neuro-ban",
+    "ingredients": "<span class='fw-600 is-uppercase'>egyéb fő összetevők:</span> <span class='is-uppercase'>KOFFEIN, MAGNÉZIUM-GLÜKONÁT, ALPHA GPC, ACETIL-L-KARNITIN, MSM, PIRIDOXÁL-5-FOSZFÁT. *A KÉP EGY NÖVÉNYT/ÉLELMISZERT MUTAT, AMELYBEN AZ AKTÍV ÖSSZETEVŐ TALÁLHATÓ, ÉS NEM FELTÉTLENÜL AHONNAN KINYERIK.</span>",
     "item_list_desktop": [
       {
         "item": [
@@ -115,24 +116,24 @@
             "item_name": "L-Glutation*"
           },
           {
-            "item_name": "Kalcium-aszkorbát*"
+            "item_name": "Kálcium-aszkorbát*"
           }
         ]
       },
       {
         "item": [
           {
-            "item_name": "Foszfatidil-szerin*"
+            "item_name": "Foszfatidilszerin*"
           },
           {
-            "item_name": "Kurkumín"
+            "item_name": "Kurkumin"
           }
         ]
       },
       {
         "item": [
           {
-            "item_name": "L-Teanin*"
+            "item_name": "L-Theanine*"
           },
           {
             "item_name": "L-Cisztein*"
@@ -155,19 +156,19 @@
         "item_name": "L-Glutation*"
       },
       {
-        "item_name": "Foszfatidil-szerin*"
+        "item_name": "Foszfatidilszerin*"
       },
       {
-        "item_name": "L-Teanin*"
+        "item_name": "L-Theanine*"
       },
       {
         "item_name": "Arginin*"
       },
       {
-        "item_name": "Kalcium-aszkorbát*"
+        "item_name": "Kálcium-aszkorbát*"
       },
       {
-        "item_name": "Kurkumín"
+        "item_name": "Kurkumin"
       },
       {
         "item_name": "L-Cisztein*"
@@ -179,42 +180,42 @@
   },
   "how_to_use": {
     "title": "Használati utasítás",
-    "desc": "A teljes előnyök elérése érdekében öblítse ki a Neuro ajánlott adagját a szájában 30 másodpercig lenyelés előtt. Ez a módszer biztosítja a nano-formulált összetevők optimális felszívódását."
+    "desc": "A maximális hatékonyság elérése érdekében öblítse át a szájában a Neuro ajánlott adagját 30 másodpercig, majd nyelje le. Ez a módszer biztosítja a nano formulázott összetevők optimális felszívódását."
   },
   "faq": {
     "title": "A Glutation előnyei",
     "items": [
       {
-        "header": "Erősített immunrendszer",
-        "desc": "A glutation képes semlegesíteni a szabad gyököket és megvédeni a testet azok káros hatásaitól. Segít továbbá a gyulladás csökkentésében és támogatja a test természetes képességét a fertőzések leküzdésére. Emellett szerepet játszik az új immunsejtek szintézisében, az immunrendszer működésének fenntartásában."
+        "header": "Az immunrendszer megerősítése",
+        "desc": "A glutation képes semlegesíteni a szabad gyököket, és megvédeni a szervezetet azok káros hatásaitól. Segít a gyulladás csökkentésében és támogatja a test természetes képességét a fertőzések leküzdésében. Emellett szerepet játszik az új immunsejtek szintézisében, így biztosítva, hogy az immunrendszere a lehető legjobban működjön."
       },
       {
-        "header": "Növelt energia",
+        "header": "Megnövelt energia",
         "desc": ""
       },
       {
-        "header": "Fokozott állóképesség és kitartás",
+        "header": "Javított állóképesség és teljesítmény",
         "desc": ""
       },
       {
-        "header": "Javított edzés utáni felépülési idők",
+        "header": "Rövidebb felépülési idők a gyakorlatok után",
         "desc": ""
       },
       {
-        "header": "Nagyobb mentális tisztaság és fókusz",
+        "header": "Tisztább gondolkodás és jobb fókusz",
         "desc": ""
       },
       {
-        "header": "Javított életminőség és élettartam",
+        "header": "Jobb életminőség és hosszabb élettartam",
         "desc": ""
       }
     ]
   },
   "cta": {
     "title": "Egy új te kezdődik a Neumi-val",
-    "desc": "Szabadítsa fel kognitív képességeit és érje el a csúcsteljesítményt a Neuro-val, az agy egészségének napi adagjával egy üvegben.",
+    "desc": "Szabadítsa fel kognitív képességeit, és érjen el maximális mentális teljesítményt a Neuro-val, a napi agyegészség adagjával egy üvegben.",
     "subscription_text": "Hozzáadás az előfizetéshez",
     "purchase_text": "Egyszeri vásárlás"
   },
-  "note_desc": "Az ezen a weboldalon tett nyilatkozatokat az Élelmiszer- és Gyógyszerügyi Hivatal nem értékelte. Ezek a nyilatkozatok és a vállalat termékei nem célja betegségek diagnosztizálása, kezelése, gyógyítása vagy megelőzése. A Neumi által kifejtett nézetek és táplálkozási tanácsok nem célja orvosi tanácsadás nyújtása. Mindig konzultáljon egészségügyi szolgáltatójával, ha gyógyszereket szed vagy egészségügyi problémái vannak. Az eredmények egyénileg változhatnak."
+  "note_desc": "Az ezen a webhelyen megadott kijelentéseket nem értékelte az Élelmiszer- és Gyógyszerügyi Hatóság. Ezek a kijelentések és a vállalat termékei nem alkalmasak betegségek diagnosztizálására, kezelésére, gyógyítására vagy megelőzésére. A Neumi által megfogalmazott nézetek és táplálkozási tanácsok nem orvosi tanácsadásnak minősülnek. Mindig konzultáljon egészségügyi szolgáltatójával, ha gyógyszert szed vagy egészségügyi problémái vannak. Az egyéni eredmények eltérhetnek."
 }

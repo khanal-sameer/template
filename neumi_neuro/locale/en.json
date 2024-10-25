@@ -68,42 +68,42 @@
     ]
   },
   "product_benefits": {
-    "title": "Experience the transformative benefits of Neuro",
-    "desc": "Unlock your cognitive potential and achieve peak mental performance with Neuro’s powerful blend. Whether you need to<span class='fw-600'> enhance focus, boost mental energy, or support long-term brain health,</span> Neuro is your ultimate ally.",
+    "title": "Experience the Transformative Benefits of Neuro",
+    "desc": "Unlock your cognitive potential and reach peak mental performance with the powerful blend of Neuro. Whether you need to<span class='fw-600'>improve focus, boost mental energy, or support long-term brain health,</span> Neuro is your ultimate ally.",
     "alt_text": "neuro product",
     "items_left": [
       {
-        "title": "Sustained Release",
-        "desc": "Oral administration allows for a more consistent and sustained release of glutathione into the bloodstream."
+        "title": "Clean Energy and Optimal Brain Health",
+        "desc": "Experience the superior benefits of Neuro. Its oral formulation not only offers a healthier, more sustainable alternative to traditional energy drinks but also promotes long-term brain health. Neuro provides steady, clean energy that enhances mental clarity and focus without the negative effects."
       },
       {
-        "title": "Enhanced Bioavailability",
-        "desc": "Nano-sized glutathione particles mean a greater proportion of glutathione is utilized, maximizing its antioxidant benefits."
+        "title": "Optimized Cognitive Support",
+        "desc": "Neuro harnesses the power of advanced cognitive-enhancing ingredients, optimized for peak brain function through our HydraStat™ technology."
       }
     ],
     "items_right": [
       {
-        "title": "Convenience",
-        "desc": "Unparalleled convenience compared to the more invasive and time-consuming IV treatments."
+        "title": "Sustained Release",
+        "desc": "The oral administration of Neuro allows for a more consistent and sustained release of active ingredients, maintaining effective levels in the bloodstream throughout the day."
       },
       {
-        "title": "Cost-Effectiveness",
-        "desc": "A more affordable alternative to regular IV glutathione treatments. Eliminate the need for frequent clinic visits, reducing overall costs."
+        "title": "Greater Bioavailability",
+        "desc": "Thanks to our HydraStat™ Nanotechnology, the nano-sized glutathione particles in Neuro ensure that a higher proportion of the active ingredient is utilized, maximizing its antioxidant benefits."
       }
     ]
   },
   "product_post_list": [
     {
-      "title": "Innovative science",
-      "desc": "Glutathione is the protector and detoxifier of the cell.<span class='fw-600'> It’s the key to the life, health, performance, protection and longevity of every human cell.</span>"
+      "title": "Innovative Science",
+      "desc": "Neuro features glutathione, the critical protector and detoxifier of the cell.<span class='fw-600'>It is essential for the vitality, health, performance, protection, and longevity of every human cell.</span>"
     },
     {
-      "title": "HydraStat™ nanotechnology",
-      "desc": "<span class='fw-600'>Nano-sized particles protected by ultra-pure water clusters.</span> Our nanosized ingredients are small enough to be fully absorbed into the human cell."
+      "title": "HydraStat™ Nanotechnology",
+      "desc": "<span class='fw-600'>Our cutting-edge technology encapsulates active ingredients in nano-sized particles, protected by ultra-purified water clusters.</span> This nano-sizing ensures complete absorption by human cells, enhancing the efficacy of Neuro."
     },
     {
-      "title": "Purity and quality",
-      "desc": "Neuro undergoes rigorous third-party testing to ensure it meets the highest standards of purity and quality. We stand behind our product with a 30-day money-back guarantee, confident in its ability to deliver significant health benefits."
+      "title": "Purity and Quality",
+      "desc": "Neuro undergoes rigorous third-party testing to meet the highest standards of purity and quality. We are so confident in Neuro’s ability to deliver substantial health benefits that we offer a 30-day money-back guarantee."
     }
   ],
   "key_ingredients": {

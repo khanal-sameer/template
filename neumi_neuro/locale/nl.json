@@ -2,14 +2,15 @@
   "title": "Neuro",
   "product_title": "Neuro",
   "total_product_review": "7 Beoordelingen",
-  "product_desc": "Introductie van Neuro,<span class='fw-600'> onze baanbrekende nanoformule voor de hersenen, ontworpen om de cognitieve functie te optimaliseren, de focus te verbeteren en de algehele hersengezondheid te ondersteunen.</span> Met dezelfde geavanceerde HydraStat Nanotechnologie als NutriSwish, zorgt Neuro voor maximale absorptie en effectiviteit van zijn zorgvuldig geselecteerde ingrediënten.",
-  "add_to_cart_text": "In winkelwagen",
-  "select_quantity_text": "Aantal selecteren",
-  "all_product_text": "Alle Producten",
-  "language": "nl", "month": "maand",
+  "product_desc": "Maak kennis met Neuro,<span class='fw-600'> onze baanbrekende nano hersenformule, ontworpen om de cognitieve functie te optimaliseren, de focus te verbeteren en de algehele gezondheid van de hersenen te ondersteunen.</span> Met behulp van dezelfde geavanceerde HydraStat Nanotechnology als NutriSwish, zorgt Neuro voor maximale opname en effectiviteit van zijn zorgvuldig geselecteerde ingrediënten.",
+  "add_to_cart_text": "Toevoegen aan winkelwagen",
+  "select_quantity_text": "Selecteer hoeveelheid",
+  "all_product_text": "Alle producten",
+  "language": "nl",
+  "month": "maand",
   "subscribe": {
     "subscribe_text": "Abonneren",
-    "frequency_text": "Frequentie selecteren",
+    "frequency_text": "Selecteer frequentie",
     "actual_price": "65.00",
     "discounted_price": "50.00",
     "checklist_items": [
@@ -17,97 +18,97 @@
         "caption": "Abonneer en bespaar <span class='price_container is-hide' id='saving'>$15</span>"
       },
       {
-        "caption": "Verdien Neumi Reward punten"
+        "caption": "Verdien Neumi-beloningspunten"
       },
       {
         "caption": "30 dagen geld-terug-garantie"
       },
       {
-        "caption": "Update je abonnement op elk moment"
+        "caption": "Werk uw abonnement op elk moment bij"
       }
     ],
     "one_time_purchase_text": "Eenmalige aankoop"
   },
-  "free_shipping_desc": "Gratis verzending in de VS voor bestellingen boven de $200+",
+  "free_shipping_desc": "Gratis verzending binnen de VS voor bestellingen boven de $200",
   "benefits": {
     "title": "Voordelen",
     "items": [
       {
-        "caption": "Belangrijke ingrediënten voor maximale absorptie en effectiviteit, dagelijks."
+        "caption": "Belangrijke ingrediënten om dagelijkse opname en effectiviteit te maximaliseren."
       },
       {
-        "caption": "Elke batch ondergaat strenge tests door derden om de zuiverheid en veiligheid te garanderen."
+        "caption": "Elke batch ondergaat strenge tests door derden om zuiverheid en veiligheid te garanderen."
       },
       {
-        "caption": "Wij bieden een geld-terug-garantie van 30 dagen, zonder vragen."
+        "caption": "We bieden een geld-terug-garantie van 30 dagen, zonder vragen."
       }
     ]
   },
   "asSeenOn": {
-    "title": "Gezien op"
+    "title": "Bekend van"
   },
   "tab": {
     "title": "Zie hoe Neuro levens verandert",
     "video_review_title": "Videobeoordelingen <span>(5)</span>",
-    "written_review_title": "Geschreven Beoordelingen <span>(2)</span>",
-    "rating_text": "5 Sterren Beoordeling",
+    "written_review_title": "Schriftelijke beoordelingen <span>(2)</span>",
+    "rating_text": "5-sterren beoordeling",
     "review_list": [
       {
         "reviewer": "Aidan D.",
         "address": "Salt Lake City, UT",
         "time": "2 uur geleden",
-        "review_text": "Neuro heeft mijn leven veranderd! Ik gebruik het nu een paar maanden en ik heb een aanzienlijke verbetering in mijn energieniveaus en algemene vitaliteit opgemerkt. Het is verbazingwekkend hoe iets eenvoudigs zulke diepgaande effecten kan hebben. Sterk aanbevolen!"
+        "review_text": "Neuro heeft mijn leven veranderd! Ik gebruik het nu een paar maanden en ik merk een significante verbetering in mijn energieniveau en algehele vitaliteit. Het is verbazingwekkend hoe iets eenvoudigs zo'n diepgaand effect kan hebben. Sterk aanbevolen!"
       },
       {
         "reviewer": "Lola P.",
         "address": "Laie, HI",
         "time": "2 uur geleden",
-        "review_text": "Ik had jarenlang moeite met het handhaven van mijn hormonale balans, maar Neuro heeft een wereld van verschil gemaakt. Ik voel me niet alleen meer in balans en energiek, maar ik heb ook verbeteringen opgemerkt in mijn huid- en spiertonus. Het is echt opmerkelijk!"
+        "review_text": "Ik heb jarenlang moeite gehad om mijn hormoonbalans te behouden, maar Neuro heeft een wereld van verschil gemaakt. Ik voel me niet alleen meer in balans en energiek, maar ik heb ook verbeteringen opgemerkt in mijn huid- en spiertonus. Het is echt opmerkelijk!"
       }
     ]
   },
   "product_benefits": {
     "title": "Ervaar de transformerende voordelen van Neuro",
-    "desc": "Ontgrendel je cognitieve potentieel en bereik topprestaties met de krachtige mix van Neuro. Of je nu <span class='fw-600'>je focus wilt verbeteren, je mentale energie wilt verhogen of je hersengezondheid op lange termijn wilt ondersteunen,</span> Neuro is je ultieme bondgenoot.",
+    "desc": "Ontgrendel je cognitieve potentieel en bereik optimale mentale prestaties met de krachtige mix van Neuro. Of je nu<span class='fw-600'>de focus wilt verbeteren, de mentale energie wilt verhogen of de langetermijngezondheid van de hersenen wilt ondersteunen,</span> Neuro is jouw ultieme bondgenoot.",
     "alt_text": "neuro product",
     "items_left": [
       {
-        "title": "Geleidelijke afgifte",
-        "desc": "Orale toediening zorgt voor een consistentere en langdurigere afgifte van glutathion in de bloedbaan."
+        "title": "Schone energie en optimale hersengezondheid",
+        "desc": "Ervaar de superieure voordelen van Neuro. De orale formulering biedt niet alleen een gezonder en duurzamer alternatief voor traditionele energiedrankjes, maar bevordert ook de gezondheid van de hersenen op lange termijn. Neuro levert stabiele, schone energie die mentale helderheid en focus verbetert zonder negatieve effecten."
       },
       {
-        "title": "Verhoogde biologische beschikbaarheid",
-        "desc": "Nano-formaat glutathiondeeltjes betekenen dat een groter deel van de glutathion wordt gebruikt, waardoor de antioxidantvoordelen worden gemaximaliseerd."
+        "title": "Geoptimaliseerde cognitieve ondersteuning",
+        "desc": "Neuro benut de kracht van geavanceerde cognitieve verbeterende ingrediënten, geoptimaliseerd voor maximale hersenprestaties dankzij onze HydraStat™-technologie."
       }
     ],
     "items_right": [
       {
-        "title": "Gemak",
-        "desc": "Onovertroffen gemak in vergelijking met meer invasieve en tijdrovende IV-behandelingen."
+        "title": "Geleidelijke afgifte",
+        "desc": "De orale toediening van Neuro zorgt voor een meer consistente en geleidelijke afgifte van actieve ingrediënten, die gedurende de dag effectieve niveaus in de bloedbaan handhaaft."
       },
       {
-        "title": "Kosteneffectiviteit",
-        "desc": "Een betaalbaarder alternatief voor regelmatige IV-glutathionbehandelingen. Vermindert de noodzaak van frequente kliniekbezoeken, waardoor de totale kosten dalen."
+        "title": "Hogere biologische beschikbaarheid",
+        "desc": "Dankzij onze HydraStat™ Nanotechnology zorgen de nano-grootte glutathiondeeltjes in Neuro ervoor dat een groter deel van het actieve ingrediënt wordt gebruikt, waardoor de antioxidante voordelen worden gemaximaliseerd."
       }
     ]
   },
   "product_post_list": [
     {
       "title": "Innovatieve wetenschap",
-      "desc": "Glutathion is de beschermer en ontgifter van de cel.<span class='fw-600'> Het is de sleutel tot het leven, de gezondheid, de prestaties, de bescherming en de levensduur van elke menselijke cel.</span>"
+      "desc": "Neuro bevat glutathion, de kritische beschermer en ontgifter van de cel.<span class='fw-600'>Het is essentieel voor de vitaliteit, gezondheid, prestaties, bescherming en levensduur van elke menselijke cel.</span>"
     },
     {
-      "title": "HydraStat™ nanotechnologie",
-      "desc": "<span class='fw-600'>Nano-formaat deeltjes beschermd door ultra-pure waterclusters.</span> Onze nano-formaat ingrediënten zijn klein genoeg om volledig te worden opgenomen in de menselijke cel."
+      "title": "HydraStat™ Nanotechnology",
+      "desc": "<span class='fw-600'>Onze geavanceerde technologie kapselt actieve ingrediënten in nanogrootte deeltjes, beschermd door ultrazuivere waterclusters.</span> Deze nanogrootte zorgt voor volledige opname door menselijke cellen, waardoor de effectiviteit van Neuro wordt verbeterd."
     },
     {
       "title": "Zuiverheid en kwaliteit",
-      "desc": "Neuro ondergaat strenge tests door derden om ervoor te zorgen dat het voldoet aan de hoogste normen voor zuiverheid en kwaliteit. Wij staan achter ons product met een geld-terug-garantie van 30 dagen, overtuigd van de significante gezondheidsvoordelen."
+      "desc": "Neuro ondergaat strenge testen door derden om te voldoen aan de hoogste normen voor zuiverheid en kwaliteit. We zijn zo zeker van het vermogen van Neuro om aanzienlijke gezondheidsvoordelen te bieden dat we een geld-terug-garantie van 30 dagen bieden."
     }
   ],
   "key_ingredients": {
     "title": "Belangrijke ingrediënten in Neuro",
-    "ingredients": "<span class='fw-600 is-uppercase'>Andere belangrijke ingrediënten:</span> <span class='is-uppercase'>CAFFEÏNE, MAGNESIUMGLUCONAAT, ALPHA GPC, ACETYL-L-CARNITINE, MSM, PYRIDOXAL 5-FOSFAAT. *AFBEELDING TOONT EEN PLANT/VOEDSEL WAARIN HET ACTIEVE INGREDIËNT IS TE VINDEN EN NIET NOODZAKELIJK WAAR HET UIT WORDT GEHAALD.</span>",
+    "ingredients": "<span class='fw-600 is-uppercase'>andere belangrijke ingrediënten:</span> <span class='is-uppercase'>CAFEÏNE, MAGNESIUMGLUCONAAT, ALPHA GPC, ACETYL-L-CARNITINE, MSM, PYRIDOXAL 5-FOSFAAT. *DE AFBEELDING TOONT EEN PLANT/VOEDINGSMIDDEL WAARIN HET ACTIEVE INGREDIËNT VOORKOMT EN NIET NOODZAKELIJK WAAR HET VANDAAN WORDT GEËXTRAEERD.</span>",
     "item_list_desktop": [
       {
         "item": [
@@ -115,7 +116,7 @@
             "item_name": "L-Glutathion*"
           },
           {
-            "item_name": "Calciumascorbaat*"
+            "item_name": "Calcium Ascorbaat*"
           }
         ]
       },
@@ -164,7 +165,7 @@
         "item_name": "Arginine*"
       },
       {
-        "item_name": "Calciumascorbaat*"
+        "item_name": "Calcium Ascorbaat*"
       },
       {
         "item_name": "Curcumine"
@@ -179,42 +180,42 @@
   },
   "how_to_use": {
     "title": "Gebruiksaanwijzing",
-    "desc": "Om volledig te profiteren van de voordelen, spoel de aanbevolen dosis Neuro 30 seconden in je mond voordat je het doorslikt. Deze methode zorgt voor een optimale opname van de nano-geformuleerde ingrediënten."
+    "desc": "Om de volledige voordelen te ervaren, spoel de aanbevolen dosering van Neuro 30 seconden in je mond voordat je het doorslikt. Deze methode zorgt voor een optimale opname van de nano-geformuleerde ingrediënten."
   },
   "faq": {
     "title": "Voordelen van Glutathion",
     "items": [
       {
-        "header": "Versterkt immuunsysteem",
-        "desc": "Glutathion kan vrije radicalen neutraliseren en het lichaam beschermen tegen hun schadelijke effecten. Het helpt ook om ontstekingen te verminderen en ondersteunt het natuurlijke vermogen van het lichaam om infecties te bestrijden. Daarnaast speelt het een rol bij de synthese van nieuwe immuuncellen, waardoor het immuunsysteem optimaal functioneert."
+        "header": "Versterking van het immuunsysteem",
+        "desc": "Glutathion kan vrije radicalen neutraliseren en het lichaam beschermen tegen hun schadelijke effecten. Het helpt ook om ontstekingen te verminderen en ondersteunt het natuurlijke vermogen van het lichaam om infecties te bestrijden. Bovendien speelt het een rol bij de synthese van nieuwe immuuncellen, zodat je immuunsysteem optimaal blijft functioneren."
       },
       {
         "header": "Verhoogde energie",
         "desc": ""
       },
       {
-        "header": "Verbeterd uithoudingsvermogen",
+        "header": "Verbeterde uithoudingsvermogen en prestaties",
         "desc": ""
       },
       {
-        "header": "Verbeterde hersteltijden na het sporten",
+        "header": "Snellere hersteltijden na oefeningen",
         "desc": ""
       },
       {
-        "header": "Grotere mentale helderheid en focus",
+        "header": "Verbeterde mentale helderheid en focus",
         "desc": ""
       },
       {
-        "header": "Verbeterde kwaliteit en duur van het leven",
+        "header": "Verbeterde levenskwaliteit en levensduur",
         "desc": ""
       }
     ]
   },
   "cta": {
-    "title": "Een nieuwe jij begint met Neumi",
-    "desc": "Ontgrendel je cognitieve mogelijkheden en bereik topprestaties met Neuro, je dagelijkse dosis hersengezondheid in een fles.",
+    "title": "Een nieuw jij begint met Neumi",
+    "desc": "Ontgrendel je cognitieve vaardigheden en bereik optimale mentale prestaties met Neuro, jouw dagelijkse dosis hersengezondheid in een fles.",
     "subscription_text": "Toevoegen aan abonnement",
     "purchase_text": "Eenmalige aankoop"
   },
-  "note_desc": "De verklaringen op deze website zijn niet geëvalueerd door de Food and Drug Administration. Deze verklaringen en de producten van dit bedrijf zijn niet bedoeld om een ziekte te diagnosticeren, behandelen, genezen of voorkomen. De meningen en voedingsadviezen van Neumi zijn niet bedoeld om medisch advies te geven. Raadpleeg altijd je zorgverlener als je medicijnen gebruikt of medische aandoeningen hebt. Individuele resultaten kunnen variëren."
+  "note_desc": "De verklaringen op deze website zijn niet geëvalueerd door de Food and Drug Administration. Deze verklaringen en de producten van dit bedrijf zijn niet bedoeld om ziekten te diagnosticeren, behandelen, genezen of voorkomen. De meningen en voedingsadviezen die door Neumi worden geuit, zijn niet bedoeld als medisch advies. Raadpleeg altijd je zorgverlener als je medicijnen gebruikt of gezondheidsproblemen hebt. Individuele resultaten kunnen variëren."
 }

@@ -2,11 +2,12 @@
   "title": "Neuro",
   "product_title": "Neuro",
   "total_product_review": "7 Mga Review",
-  "product_desc": "Ipinapakilala ang Neuro,<span class='fw-600'> ang aming makabagong nano na pormula para sa utak, idinisenyo upang i-optimize ang cognitive function, mapahusay ang focus, at suportahan ang pangkalahatang kalusugan ng utak.</span> Gamit ang parehong advanced HydraStat Nanotechnology tulad ng NutriSwish, tinitiyak ng Neuro ang maximum na pagsipsip at bisa ng mga maingat na piniling sangkap nito.",
-  "add_to_cart_text": "Idagdag sa cart",
+  "product_desc": "Ipinapakilala ang Neuro,<span class='fw-600'> ang aming makabagong nano na pormula para sa utak, na idinisenyo upang i-optimize ang cognitive function, pahusayin ang focus, at suportahan ang pangkalahatang kalusugan ng utak.</span> Sa paggamit ng parehong advanced na HydraStat Nanotechnology ng NutriSwish, tinitiyak ng Neuro ang maximum na pagsipsip at bisa ng maingat na piniling mga sangkap nito.",
+  "add_to_cart_text": "Idagdag sa Cart",
   "select_quantity_text": "Pumili ng Dami",
   "all_product_text": "Lahat ng Produkto",
-   "language": "tl", "month": "buwan",
+  "language": "tl",
+  "month": "buwan",
   "subscribe": {
     "subscribe_text": "Mag-subscribe",
     "frequency_text": "Pumili ng Dalas",
@@ -14,13 +15,13 @@
     "discounted_price": "50.00",
     "checklist_items": [
       {
-        "caption": "Mag-subscribe at makatipid <span class='price_container is-hide' id='saving'>$15</span>"
+        "caption": "Mag-subscribe at makatipid ng <span class='price_container is-hide' id='saving'>$15</span>"
       },
       {
         "caption": "Kumita ng Neumi Reward Points"
       },
       {
-        "caption": "30-araw na garantiyang ibabalik ang pera"
+        "caption": "30-araw na garantiya ng pera pabalik"
       },
       {
         "caption": "I-update ang iyong subscription anumang oras"
@@ -28,86 +29,86 @@
     ],
     "one_time_purchase_text": "Isang beses na pagbili"
   },
-  "free_shipping_desc": "Libreng pagpapadala sa U.S. para sa mga order na higit sa $200+",
+  "free_shipping_desc": "Libreng pagpapadala sa U.S. para sa mga order na higit sa $200",
   "benefits": {
     "title": "Mga Benepisyo",
     "items": [
       {
-        "caption": "Mga pangunahing sangkap para sa pinakamataas na pagsipsip at pagiging epektibo, araw-araw."
+        "caption": "Mga pangunahing sangkap para sa maximum na pagsipsip at bisa sa araw-araw."
       },
       {
-        "caption": "Ang bawat batch ay sumasailalim sa mahigpit na pagsubok ng third-party upang matiyak ang pangako sa kadalisayan at kaligtasan."
+        "caption": "Ang bawat batch ay sumasailalim sa mahigpit na pagsubok ng ikatlong partido upang matiyak ang pangako sa kadalisayan at kaligtasan."
       },
       {
-        "caption": "Nag-aalok kami ng 30-araw na garantiyang ibabalik ang pera, walang tanong."
+        "caption": "Nag-aalok kami ng 30-araw na garantiya ng pera pabalik, walang tanong."
       }
     ]
   },
   "asSeenOn": {
-    "title": "Tulad ng nakikita sa"
+    "title": "Tulad ng nakita sa"
   },
   "tab": {
     "title": "Tingnan kung paano binabago ng Neuro ang mga buhay",
-    "video_review_title": "Mga Review ng Video <span>(5)</span>",
-    "written_review_title": "Mga Sinusulat na Review <span>(2)</span>",
+    "video_review_title": "Mga Review sa Video <span>(5)</span>",
+    "written_review_title": "Mga Nakasulat na Review <span>(2)</span>",
     "rating_text": "5 Star Rating",
     "review_list": [
       {
-        "reviewer": "Aidan D..",
+        "reviewer": "Aidan D.",
         "address": "Salt Lake City, UT",
-        "time": "2 oras ang nakalipas",
-        "review_text": "Ang Neuro ay naging pagbabago sa laro para sa akin! Ginagamit ko ito sa loob ng ilang buwan na ngayon, at napansin ko ang malaking pagpapabuti sa aking antas ng enerhiya at pangkalahatang sigla. Nakakamangha kung paano ang isang simpleng bagay ay maaaring magkaroon ng malalim na epekto. Lubos na inirerekomenda!"
+        "time": "2 oras na ang nakalipas",
+        "review_text": "Binago ng Neuro ang aking buhay! Ginagamit ko ito ng ilang buwan na ngayon, at napansin ko ang makabuluhang pagpapabuti sa aking mga antas ng enerhiya at pangkalahatang kasiglahan. Nakakagulat kung paano ang isang simpleng bagay ay maaaring magkaroon ng ganoong kalalim na epekto. Lubos na inirerekomenda!"
       },
       {
-        "reviewer": "Lola P..",
+        "reviewer": "Lola P.",
         "address": "Laie, HI",
-        "time": "2 oras ang nakalipas",
-        "review_text": "Nahirapan akong mapanatili ang balanse ng hormon sa loob ng maraming taon, ngunit ang Neuro ay gumawa ng malaking pagkakaiba. Hindi lang ako mas balanse at energized, napansin ko rin ang mga pagpapabuti sa aking balat at tono ng kalamnan. Talagang kamangha-mangha!"
+        "time": "2 oras na ang nakalipas",
+        "review_text": "Nakipaglaban ako upang mapanatili ang balanse ng hormone sa loob ng maraming taon, ngunit nagdulot ng malaking pagbabago ang Neuro. Hindi lamang ako mas balanse at may mas mataas na enerhiya, kundi napansin ko rin ang pagpapabuti sa tono ng aking balat at kalamnan. Talagang kahanga-hanga ito!"
       }
     ]
   },
   "product_benefits": {
-    "title": "Maranasan ang mga mapanlikhang benepisyo ng Neuro",
-    "desc": "I-unlock ang iyong cognitive na potensyal at makamit ang pinakamataas na pagganap ng isip sa pamamagitan ng makapangyarihang timpla ng Neuro. Kung kailangan mo<span class='fw-600'> pahusayin ang focus, dagdagan ang mental na enerhiya, o suportahan ang pangmatagalang kalusugan ng utak,</span> ang Neuro ay ang iyong pinakamatibay na kakampi.",
-    "alt_text": "produkto ng neuro",
+    "title": "Maranasan ang mga Pabago-bagong Benepisyo ng Neuro",
+    "desc": "I-unlock ang iyong cognitive potential at maabot ang pinakamataas na pagganap ng isip gamit ang makapangyarihang timpla ng Neuro. Kung kailangan mong<span class='fw-600'>pahusayin ang focus, pataasin ang mental na enerhiya, o suportahan ang pangmatagalang kalusugan ng utak,</span> ang Neuro ang iyong pinakamatibay na kakampi.",
+    "alt_text": "produktong neuro",
     "items_left": [
       {
-        "title": "Pinalawig na Paglabas",
-        "desc": "Ang oral na administrasyon ay nagpapahintulot sa mas pare-pareho at tuloy-tuloy na paglabas ng glutathione sa bloodstream."
+        "title": "Malinis na Enerhiya at Optimal na Kalusugan ng Utak",
+        "desc": "Maranasan ang superyor na mga benepisyo ng Neuro. Ang oral na pormulasyon nito ay hindi lamang nag-aalok ng mas malusog at mas napapanatiling alternatibo sa tradisyunal na mga energy drink, kundi nagsusulong din ng pangmatagalang kalusugan ng utak. Ang Neuro ay nagbibigay ng malinis, matatag na enerhiya na nagpapahusay ng mental na kalinawan at focus nang walang negatibong epekto."
       },
       {
-        "title": "Pinahusay na Bioavailability",
-        "desc": "Ang mga nano-sized na particle ng glutathione ay nangangahulugang mas malaking bahagi ng glutathione ang ginagamit, na nagpapalaki ng mga antioxidant na benepisyo nito."
+        "title": "Optimized na Suporta sa Kognisyon",
+        "desc": "Ginagamit ng Neuro ang kapangyarihan ng mga advanced na sangkap na nagpapahusay ng kognisyon, na-optimize para sa pinakamataas na pagganap ng utak sa pamamagitan ng aming HydraStat™ na teknolohiya."
       }
     ],
     "items_right": [
       {
-        "title": "Kaginhawaan",
-        "desc": "Walang kapantay na kaginhawaan kumpara sa mas invasive at oras na kumokonsumong mga paggamot sa IV."
+        "title": "Sustained Release",
+        "desc": "Ang oral na pangangasiwa ng Neuro ay nagbibigay-daan sa mas pare-pareho at pangmatagalang paglabas ng mga aktibong sangkap, na pinapanatili ang mabisang antas sa daloy ng dugo sa buong araw."
       },
       {
-        "title": "Matipid",
-        "desc": "Isang mas abot-kayang alternatibo sa regular na paggamot ng glutathione sa IV. Alisin ang pangangailangan para sa madalas na pagbisita sa klinika, na binabawasan ang kabuuang gastos."
+        "title": "Mas Mataas na Bioavailability",
+        "desc": "Salamat sa aming HydraStat™ Nanotechnology, ang mga nano-sized na glutathione particle sa Neuro ay tinitiyak na ang mas malaking bahagi ng aktibong sangkap ay nagagamit, na pinapakinabangan ang mga benepisyo nitong antioxidant."
       }
     ]
   },
   "product_post_list": [
     {
-      "title": "Inobatibong agham",
-      "desc": "Ang Glutathione ay ang tagapagtanggol at detoksipikador ng selula.<span class='fw-600'> Ito ang susi sa buhay, kalusugan, pagganap, proteksyon, at mahabang buhay ng bawat selula ng tao.</span>"
+      "title": "Makabagong Agham",
+      "desc": "Ang Neuro ay nagtatampok ng glutathione, ang kritikal na tagapagtanggol at detoxicant ng cell.<span class='fw-600'>Ito ay mahalaga para sa kasiglahan, kalusugan, pagganap, proteksyon, at mahabang buhay ng bawat cell ng tao.</span>"
     },
     {
-      "title": "HydraStat™ nanotechnology",
-      "desc": "<span class='fw-600'>Nano-sized na mga particle na protektado ng ultra-pure na mga kumpol ng tubig.</span> Ang aming mga nano-sized na sangkap ay sapat na maliit upang ganap na ma-absorb sa selula ng tao."
+      "title": "HydraStat™ Nanotechnology",
+      "desc": "<span class='fw-600'>Ang aming makabagong teknolohiya ay nag-eencapsulate ng mga aktibong sangkap sa nano-sized na mga particle, na protektado ng ultra-purified na water clusters.</span> Tinitiyak ng nano-size na ito ang kumpletong pagsipsip ng mga cell ng tao, pinapataas ang bisa ng Neuro."
     },
     {
-      "title": "Kadalisayan at kalidad",
-      "desc": "Ang Neuro ay sumasailalim sa mahigpit na pagsubok ng third-party upang matiyak na natutugunan nito ang pinakamataas na pamantayan ng kadalisayan at kalidad. Sinusuportahan namin ang aming produkto ng 30-araw na garantiyang ibabalik ang pera, na tiwala sa kakayahan nitong maghatid ng makabuluhang benepisyo sa kalusugan."
+      "title": "Kadalisayan at Kalidad",
+      "desc": "Ang Neuro ay sumasailalim sa mahigpit na pagsubok ng ikatlong partido upang matugunan ang pinakamataas na pamantayan ng kadalisayan at kalidad. Kami ay kumpiyansa sa kakayahan ng Neuro na magbigay ng makabuluhang benepisyo sa kalusugan kaya't nag-aalok kami ng 30-araw na garantiya ng pera pabalik."
     }
   ],
   "key_ingredients": {
-    "title": "Mga pangunahing sangkap sa Neuro",
-    "ingredients": "<span class='fw-600 is-uppercase'>ibang pangunahing sangkap:</span> <span class='is-uppercase'>CAFFEINE, MAGNESIUM GLUCONATE, ALPHA GPC, ACETYL-L-CARNITINE, MSM, PYRIDOXAL 5-PHOSPHATE. *LARAWAN AY NAGPAPAKITA NG HALAMAN/PAGKAIN KUNG SAAN MATATAGPUAN ANG AKTIBONG SANGKAP AT HINDI KUNG SAAN ITO KINUHA.</span>",
+    "title": "Mga Pangunahing Sangkap sa Neuro",
+    "ingredients": "<span class='fw-600 is-uppercase'>ibang mga pangunahing sangkap:</span> <span class='is-uppercase'>CAFFEINE, MAGNESIUM GLUCONATE, ALPHA GPC, ACETYL-L-CARNITINE, MSM, PYRIDOXAL 5-PHOSPHATE. *ANG LARAWAN AY NAGPAPAKITA NG HALAMAN/PAGKAIN KUNG SAAN MAKIKITA ANG AKTIBONG SANGKAP AT HINDI KAILANGAN KUNG SAAN ITO KINUKUHA.</span>",
     "item_list_desktop": [
       {
         "item": [
@@ -178,18 +179,18 @@
     ]
   },
   "how_to_use": {
-    "title": "Mga direksyon sa paggamit",
-    "desc": "Upang maranasan ang buong benepisyo, swish ang inirerekomendang dosis ng Neuro sa iyong bibig sa loob ng 30 segundo bago lunukin. Ang pamamaraang ito ay tinitiyak ang pinakamainam na pagsipsip ng nano-formulated na mga sangkap."
+    "title": "Paano Gamitin",
+    "desc": "Upang maranasan ang buong mga benepisyo, i-swish ang inirerekomendang dosis ng Neuro sa iyong bibig nang 30 segundo bago lunukin. Ang paraang ito ay tinitiyak ang pinakamainam na pagsipsip ng mga ingredient na nabuo sa nano."
   },
   "faq": {
     "title": "Mga Benepisyo ng Glutathione",
     "items": [
       {
-        "header": "Pinalakas na Sistema ng Imyunidad",
-        "desc": "Ang Glutathione ay kayang neutralisahin ang mga free radicals at protektahan ang katawan mula sa kanilang mapanganib na mga epekto. Tumutulong din ito sa pagbawas ng pamamaga, at sinusuportahan ang natural na kakayahan ng katawan na labanan ang impeksyon. Bukod pa rito, ito ay gumaganap ng papel sa synthesis ng mga bagong immune cells, na pinapanatili ang paggana ng iyong immune system sa pinakamataas na antas."
+        "header": "Pinahusay na Sistema ng Imyunidad",
+        "desc": "Ang glutathione ay may kakayahang neutralisahin ang mga free radicals at protektahan ang katawan mula sa kanilang nakakasamang epekto. Tinutulungan din nitong bawasan ang pamamaga at sinusuportahan ang natural na kakayahan ng katawan na labanan ang impeksyon. Bukod pa rito, ito ay may papel sa synthesis ng mga bagong cell ng imyunidad, na pinapanatili ang sistema ng imyunidad sa pinakamahusay na kondisyon."
       },
       {
-        "header": "Dagdag na Enerhiya",
+        "header": "Nadagdagang Enerhiya",
         "desc": ""
       },
       {
@@ -197,11 +198,11 @@
         "desc": ""
       },
       {
-        "header": "Pinahusay na Oras ng Pagbawi ng Ehersisyo",
+        "header": "Mas Maikling Panahon ng Pagbawi Pagkatapos ng Ehersisyo",
         "desc": ""
       },
       {
-        "header": "Mas Malinaw na Kaisipan at Pokus",
+        "header": "Mas Mahusay na Kalinawan ng Isip at Pokus",
         "desc": ""
       },
       {
@@ -211,10 +212,10 @@
     ]
   },
   "cta": {
-    "title": "Isang bagong ikaw nagsisimula sa Neumi",
-    "desc": "I-unlock ang iyong mga kakayahang kognitibo at makamit ang pinakamataas na pagganap ng isip gamit ang Neuro, ang iyong pang-araw-araw na dosis ng kalusugan ng utak sa bote.",
+    "title": "Isang bagong ikaw ay nagsisimula sa Neumi",
+    "desc": "I-unlock ang iyong kakayahan sa kognisyon at makamit ang pinakamahusay na pagganap ng isip gamit ang Neuro, ang iyong pang-araw-araw na dosis ng kalusugan ng utak sa isang bote.",
     "subscription_text": "Idagdag sa subscription",
-    "purchase_text": " Isang beses na pagbili"
+    "purchase_text": "Isang beses na pagbili"
   },
-  "note_desc": "Ang mga pahayag na ginawa sa loob ng website na ito ay hindi nasuri ng Food and Drug Administration. Ang mga pahayag na ito at ang mga produkto ng kumpanyang ito ay hindi nilayon upang mag-diagnose, gamutin, magpagaling, o pumigil sa anumang sakit. Ang mga pananaw at payo sa nutrisyon na ipinahayag ng Neumi ay hindi nilayon para sa layunin ng pagbibigay ng medikal na payo. Palaging kumunsulta sa iyong tagapagbigay ng pangangalaga sa kalusugan kung ikaw ay umiinom ng anumang mga gamot o mayroong anumang mga kondisyong medikal. Ang mga resulta ay maaaring mag-iba."
+  "note_desc": "Ang mga pahayag na ginawa sa website na ito ay hindi nasuri ng Food and Drug Administration. Ang mga pahayag na ito at ang mga produkto ng kumpanyang ito ay hindi inilaan upang mag-diagnose, magpagaling, magpagaling o maiwasan ang anumang sakit. Ang mga opinyon at payo sa nutrisyon na ipinahayag ng Neumi ay hindi inilaan upang magbigay ng payong medikal. Mangyaring laging kumonsulta sa iyong tagabigay ng pangangalagang pangkalusugan kung ikaw ay umiinom ng anumang gamot o may anumang kondisyong medikal. Maaaring mag-iba ang mga indibidwal na resulta."
 }
