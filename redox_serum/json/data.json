@@ -102,7 +102,7 @@
   "soldInfo": {
     "image": "https://cdn.fluid.app/asea/redox_serum/sold_info_bg.png",
     "title": "{{{soldInfo.title}}}",
-    "count": "162,519",
+    "count": "160,000",
     "desc": "{{{soldInfo.desc}}}"
   },
   "collagen_support": {
@@ -126,7 +126,7 @@
       },
       {
         "title": "{{{collagen_support.items_right.1.title}}}",
-        "desc": "{{{collagen_support.items_right.0.desc}}}"
+        "desc": "{{{collagen_support.items_right.1.desc}}}"
       }
     ]
   },

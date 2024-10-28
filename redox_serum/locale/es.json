@@ -4,7 +4,7 @@
   "month":"mes",
   "product_title": "El Suero Intensiveo Redox",
   "total_product_review": "22 Reseñas",
-  "product_desc": "cuidado específico con nuestra fórmula Redox más concentrada.",
+  "product_desc": "Cuidado específico con nuestra fórmula Redox más concentrada",
   "add_to_cart_text": "Agregar al carrito",
   "arrow_icon": "https://cdn.fluid.app/asea/arrow_icon.svg",
   "play_icon": "https://cdn.fluid.app/asea/play.png",
@@ -14,7 +14,7 @@
   "breadcrumb_all_product_text":"Todos los Productos",
   "breadcrumb_all_product_text_url":"https://www.asea.app/{{affiliate_guid}}/shop",
   "productSlider": {
-    "video": "https://cdn.fluid.app/asea/redox_serum/how_to_use_video_en.mp4",
+    "video": "https://cdn.fluid.app/asea/redox_serum/carousel_video.mp4",
     "alt_text": "product",
     "items": [
       {
@@ -50,9 +50,10 @@
     "one_time_order_text": "Orden única"
   },
   "benefits": {
-    "desc": "Descubre una formula concentrada para areas específicas con el serum intensivo Redox.",
+    "desc": "Descubre una formula concentrada para areas específicas con el <span class=fw-600>serum intensivo Redox</span>.",
     "view_more_text": "Ver más información",
-    "pdf_url": "",
+    "pdf_url": "https://cdn.fluid.app/asea/redox_serum/view_more_es.pdf",
+
     "items": [
       {
         "caption": "Aplica a las áreas específicas para descubir piel con apariencia mas joven"
@@ -123,7 +124,7 @@
     ]
   },
   "performance": {
-    "title": "Maximiza el potencial de tu piel con la ciencia de ASEA.",
+    "title": "Maximiza el potencial de tu piel con la ciencia de ASEA",
     "alt_text": "performance",
     "desc": "La ciencia del cuidado de la piel es compleja, pero no tiene por qué serlo.",
     "items": [
@@ -186,7 +187,7 @@
         "desc": "Libre de parabenos, colorantes artificiales, sulfatos, ftalatos y propilenglicol."
       },
       {
-        "title": "belleza natural ",
+        "title": "Belleza natural ",
         "desc": "Mezclado con ingredientes limpios para un cuidado específico."
       }
     ],
@@ -204,7 +205,7 @@
         "desc": "Libre de parabenos, colorantes artificiales, sulfatos, ftalatos y propilenglicol."
       },
       {
-        "title": "belleza natural ",
+        "title": "Belleza natural ",
         "desc": "Mezclado con ingredientes limpios para un cuidado específico."
       }
     ]

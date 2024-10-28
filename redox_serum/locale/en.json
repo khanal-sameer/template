@@ -4,7 +4,7 @@
   "month": "mo",
   "product_title": "Intensive Redox Serum",
   "total_product_review": "22 Reviews",
-  "product_desc": "Targeted care with our most concentrated redox formula.",
+  "product_desc": "Targeted care with our most concentrated redox formula",
   "add_to_cart_text": "Add to cart",
   "arrow_icon": "https://cdn.fluid.app/asea/arrow_icon.svg",
   "play_icon": "https://cdn.fluid.app/asea/play.png",
@@ -14,7 +14,7 @@
   "breadcrumb_all_product_text":"All products",
   "breadcrumb_all_product_text_url":"https://www.asea.app/{{affiliate_guid}}/shop",
   "productSlider": {
-    "video": "https://cdn.fluid.app/asea/redox_serum/how_to_use_video_en.mp4",
+    "video": "https://cdn.fluid.app/asea/redox_serum/carousel_video.mp4",
     "alt_text": "product",
     "items": [
       {
@@ -50,9 +50,9 @@
     "one_time_order_text": "One-time order"
   },
   "benefits": {
-    "desc": "Discover a concentrated formula for targeted areas with Intensive Redox Serum.*",
+    "desc": "Discover a concentrated formula for targeted areas with <span class=fw-600>Intensive Redox Serum</span>.*",
     "view_more_text": "View more information",
-    "pdf_url": "",
+    "pdf_url": "https://cdn.fluid.app/asea/redox_serum/view_more_en.pdf",
     "items": [
       {
         "caption": "Apply to specific areas of concern to reveal more youthful-looking skin"
@@ -123,7 +123,7 @@
     ]
   },
   "performance": {
-    "title": "Maximize your skin’s potential with ASEA science.",
+    "title": "Maximize your skin’s potential with ASEA science",
     "alt_text": "performance",
     "desc": "Skin care science is complex, but it doesn’t have to be complicated.",
     "items": [
