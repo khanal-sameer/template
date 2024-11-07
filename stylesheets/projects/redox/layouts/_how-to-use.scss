@@ -1,0 +1,32 @@
+
+.page-section {
+  &_howtouse {
+    .feature-susbscribe_button {
+      @include breakpoint-up("md-tab") {
+        max-width: 325px;
+      }
+    }
+    @include breakpoint-up("xl-tab") {
+      .pr-84 {
+        padding-right: 5.5rem;
+      }
+      .pr-100 {
+        padding-right: 6.8rem;
+      }
+    }
+  }
+}
+.howtouse-list {
+  &_icon {
+    flex: 0 0 50px;
+    text-align: center;
+    img {
+      margin: auto;
+    }
+  }
+  li {
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+}

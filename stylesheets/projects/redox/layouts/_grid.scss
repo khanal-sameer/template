@@ -1,0 +1,54 @@
+.container,
+.container-full,
+.container-md {
+  width: 100%;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  margin-right: auto;
+  margin-left: auto;
+  @include breakpoint-up("md-tab") {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+.container-full {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  @include breakpoint-up("md-tab") {
+    padding: 0 2.5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .container-sm,
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-md,
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-md,
+  .container {
+    max-width: 980px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-md,
+  .container {
+    max-width: 1160px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .container {
+    max-width: 1220px;
+  }
+}

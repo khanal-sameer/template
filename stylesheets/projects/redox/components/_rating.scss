@@ -1,0 +1,10 @@
+.ratings {
+  svg {
+    width: 16px;
+    height: 16px;
+    path,
+    polygon {
+      fill: var(--clr-primary);
+    }
+  }
+}

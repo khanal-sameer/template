@@ -1,0 +1,167 @@
+<div class="product-description-section">
+  <div class="container">
+    <div class="product-wrapper">
+      {{#productSlider}}
+        <div class="product-slider">
+          <div id="preview-slider" class="splide preview-slider">
+            {{>PrevNext}}
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="{{slider_items1_image}}" alt="product" />
+                  <a data-fancybox="" href="{{video}}" class="play-icon">
+                    <img src="{{play_icon}}" alt="{{play_alt_text}}" />
+                  </a>
+                </li>
+                {{#items}}
+                  <li class="splide__slide">
+                    <img src="{{image}}" alt="{{alt_text}}" />
+                  </li>
+                {{/items}}
+
+              </ul>
+            </div>
+          </div>
+          <div id="thumbnail-slider" class="splide thumbnail-slider">
+            {{>PrevNext}}
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="{{slider_items1_image}}" alt="{{alt_text}}" />
+                </li>
+                {{#items}}
+                  <li class="splide__slide">
+                    <img src="{{image}}" alt="{{alt_text}}" />
+                  </li>
+                {{/items}}
+              </ul>
+            </div>
+          </div>
+        </div>
+      {{/productSlider}}
+
+      <div class="product-content" id="en_product_content">
+        <div class="product-content_header">
+          <h3 class="clr-body">{{product_title}}</h3>
+          <p class="fw-600 mt-4">{{product_desc}}</p>
+          <div class="is-flex is-start is-align-center col-gap-12 mt-12 total-product-review">
+            <svg xmlns="http://www.w3.org/2000/svg" width="98" height="29" viewBox="0 0 98 29" fill="none">
+              <path d="M15.977 10.826C15.9517 10.7405 15.9028 10.6638 15.836 10.6047C15.7691 10.5456 15.687 10.5066 15.599 10.492L10.639 9.73601L8.42 5.02401C8.38422 4.94226 8.32539 4.87271 8.25071 4.82387C8.17603 4.77503 8.08873 4.74902 7.9995 4.74902C7.91026 4.74902 7.82296 4.77503 7.74828 4.82387C7.6736 4.87271 7.61477 4.94226 7.579 5.02401L5.361 9.73601L0.399996 10.491C0.311983 10.5056 0.229849 10.5446 0.162998 10.6037C0.0961467 10.6628 0.0472812 10.7395 0.0219962 10.825C-0.00442052 10.9114 -0.00731956 11.0033 0.0135979 11.0912C0.0345153 11.1791 0.0784924 11.2598 0.140996 11.325L3.73 14.993L2.883 20.172C2.86737 20.2615 2.87643 20.3536 2.9092 20.4383C2.94197 20.5231 2.99721 20.5973 3.069 20.653C3.13874 20.7067 3.22268 20.7388 3.31046 20.7454C3.39824 20.752 3.48603 20.7327 3.563 20.69L8 18.248L12.436 20.693C12.513 20.7357 12.6007 20.755 12.6885 20.7484C12.7763 20.7418 12.8603 20.7097 12.93 20.656C13.002 20.6004 13.0574 20.5263 13.0903 20.4415C13.1233 20.3567 13.1325 20.2646 13.117 20.175L12.27 14.996L15.859 11.328C15.9217 11.2625 15.9657 11.1814 15.9864 11.0931C16.0072 11.0048 16.0039 10.9126 15.977 10.826Z" fill="#3172E9"/>
+              <path d="M36.477 10.826C36.4517 10.7405 36.4029 10.6638 36.336 10.6047C36.2692 10.5456 36.187 10.5066 36.099 10.492L31.139 9.73601L28.92 5.02401C28.8842 4.94226 28.8254 4.87271 28.7507 4.82387C28.676 4.77503 28.5887 4.74902 28.4995 4.74902C28.4103 4.74902 28.323 4.77503 28.2483 4.82387C28.1736 4.87271 28.1148 4.94226 28.079 5.02401L25.861 9.73601L20.9 10.491C20.812 10.5056 20.7299 10.5446 20.663 10.6037C20.5962 10.6628 20.5473 10.7395 20.522 10.825C20.4956 10.9114 20.4927 11.0033 20.5136 11.0912C20.5345 11.1791 20.5785 11.2598 20.641 11.325L24.23 14.993L23.383 20.172C23.3674 20.2615 23.3764 20.3536 23.4092 20.4383C23.442 20.5231 23.4972 20.5973 23.569 20.653C23.6388 20.7067 23.7227 20.7388 23.8105 20.7454C23.8982 20.752 23.986 20.7327 24.063 20.69L28.5 18.248L32.936 20.693C33.013 20.7357 33.1008 20.755 33.1885 20.7484C33.2763 20.7418 33.3603 20.7097 33.43 20.656C33.502 20.6004 33.5574 20.5263 33.5904 20.4415C33.6233 20.3567 33.6325 20.2646 33.617 20.175L32.77 14.996L36.359 11.328C36.4217 11.2625 36.4657 11.1814 36.4864 11.0931C36.5072 11.0048 36.5039 10.9126 36.477 10.826Z" fill="#3172E9"/>
+              <path d="M56.977 10.826C56.9517 10.7405 56.9029 10.6638 56.836 10.6047C56.7692 10.5456 56.687 10.5066 56.599 10.492L51.639 9.73601L49.42 5.02401C49.3842 4.94226 49.3254 4.87271 49.2507 4.82387C49.176 4.77503 49.0887 4.74902 48.9995 4.74902C48.9103 4.74902 48.823 4.77503 48.7483 4.82387C48.6736 4.87271 48.6148 4.94226 48.579 5.02401L46.361 9.73601L41.4 10.491C41.312 10.5056 41.2299 10.5446 41.163 10.6037C41.0962 10.6628 41.0473 10.7395 41.022 10.825C40.9956 10.9114 40.9927 11.0033 41.0136 11.0912C41.0345 11.1791 41.0785 11.2598 41.141 11.325L44.73 14.993L43.883 20.172C43.8674 20.2615 43.8764 20.3536 43.9092 20.4383C43.942 20.5231 43.9972 20.5973 44.069 20.653C44.1388 20.7067 44.2227 20.7388 44.3105 20.7454C44.3982 20.752 44.486 20.7327 44.563 20.69L49 18.248L53.436 20.693C53.513 20.7357 53.6008 20.755 53.6885 20.7484C53.7763 20.7418 53.8603 20.7097 53.93 20.656C54.002 20.6004 54.0574 20.5263 54.0904 20.4415C54.1233 20.3567 54.1325 20.2646 54.117 20.175L53.27 14.996L56.859 11.328C56.9217 11.2625 56.9657 11.1814 56.9864 11.0931C57.0072 11.0048 57.0039 10.9126 56.977 10.826Z" fill="#3172E9"/>
+              <path d="M77.477 10.826C77.4517 10.7405 77.4029 10.6638 77.336 10.6047C77.2692 10.5456 77.187 10.5066 77.099 10.492L72.139 9.73601L69.92 5.02401C69.8842 4.94226 69.8254 4.87271 69.7507 4.82387C69.676 4.77503 69.5887 4.74902 69.4995 4.74902C69.4103 4.74902 69.323 4.77503 69.2483 4.82387C69.1736 4.87271 69.1148 4.94226 69.079 5.02401L66.861 9.73601L61.9 10.491C61.812 10.5056 61.7299 10.5446 61.663 10.6037C61.5962 10.6628 61.5473 10.7395 61.522 10.825C61.4956 10.9114 61.4927 11.0033 61.5136 11.0912C61.5345 11.1791 61.5785 11.2598 61.641 11.325L65.23 14.993L64.383 20.172C64.3674 20.2615 64.3764 20.3536 64.4092 20.4383C64.442 20.5231 64.4972 20.5973 64.569 20.653C64.6388 20.7067 64.7227 20.7388 64.8105 20.7454C64.8982 20.752 64.986 20.7327 65.063 20.69L69.5 18.248L73.936 20.693C74.013 20.7357 74.1008 20.755 74.1885 20.7484C74.2763 20.7418 74.3603 20.7097 74.43 20.656C74.502 20.6004 74.5574 20.5263 74.5904 20.4415C74.6233 20.3567 74.6325 20.2646 74.617 20.175L73.77 14.996L77.359 11.328C77.4217 11.2625 77.4657 11.1814 77.4864 11.0931C77.5072 11.0048 77.5039 10.9126 77.477 10.826Z" fill="#3172E9"/>
+              <path d="M97.9765 10.8256C97.9512 10.7401 97.9024 10.6634 97.8355 10.6043C97.7687 10.5453 97.6865 10.5062 97.5985 10.4917L92.6388 9.7357L90.42 5.02399C90.3842 4.94225 90.3254 4.8727 90.2507 4.82387C90.176 4.77503 90.0887 4.74902 89.9995 4.74902C89.9103 4.74902 89.823 4.77503 89.7483 4.82387C89.6736 4.8727 89.6148 4.94225 89.579 5.02399L87.3612 9.7357L82.4005 10.4907C82.3125 10.5052 82.2303 10.5443 82.1635 10.6033C82.0967 10.6624 82.0478 10.7391 82.0225 10.8246C81.9961 10.911 81.9932 11.0029 82.0141 11.0908C82.035 11.1787 82.079 11.2594 82.1415 11.3246L85.7303 14.9924L84.8833 20.171C84.8677 20.2605 84.8768 20.3526 84.9095 20.4374C84.9423 20.5221 84.9975 20.5963 85.0693 20.652C85.1391 20.7057 85.223 20.7378 85.3108 20.7444C85.3985 20.751 85.4863 20.7317 85.5633 20.689L90 18.2472L94.4357 20.692C94.5127 20.7347 94.6005 20.754 94.6882 20.7474C94.776 20.7408 94.86 20.7087 94.9297 20.655C95.0017 20.5994 95.0571 20.5253 95.09 20.4405C95.123 20.3558 95.1322 20.2636 95.1167 20.174L94.2697 14.9954L97.8585 11.3276C97.9212 11.2621 97.9652 11.181 97.9859 11.0927C98.0067 11.0044 98.0034 10.9122 97.9765 10.8256Z" fill="#3172E9"/>
+              <path opacity="0.65" d="M97.9995 4.75098H90V20.75H97.9995V4.75098Z" fill="white"/>
+            </svg>
+            <div class="ratings-count ff-body_graphik clr-body-700">{{total_product_review}}</div>
+          </div>
+        </div>
+
+        <div class="product-conetnt_body" data-fluid-checkout-group="{{product_id}}">
+
+          <div class="select-quantity mt-20 mb-24">
+            <div class="fs-md mb-8">{{select_quantity_text}}</div>
+            <div class="inline-flex is-start is-align-center select-quantity_wrap">
+              <button id="decreaseBtn">-</button>
+              <input type="number" id="quantity" value="1" name="fluid-checkout-quantity" />
+              <button id="increaseBtn">+</button>
+            </div>
+          </div>
+          {{#subscribe}}
+            <div class="total-price mb-8">
+              <h4 class="clr-body"><span id="total_price">${{discounted_price}}</span></h4>
+            </div>
+
+            <div class="subscribe-card">
+
+              <div class="subscribe-card_header is-flex is-between is-align-center">
+                <div class="custom-radio inline-flex is-align-center">
+                  <input
+                    type="radio"
+                    checked
+                    id="subscribe"
+                    name="fluid-checkout-subscribe"
+                    value="subscription"
+                  />
+                  <label for="subscribe" class="fs-md clr-body">{{subscribe_text}}</label>
+                </div>
+
+                <div class="is-flex is-end is-align-center col-gap-16">
+                  <span class="is-strike clr-body-600" id="subscribe_price_cross">${{actual_price}}</span>
+                  <span class="fw-600 clr-primary"><span id="subscribe_price">${{discounted_price}}</span>/{{month}}</span>
+                </div>
+              </div>
+
+              <div class="subscribe-card_body">
+                <ul class="fs-md subscribe-features check-list">
+                  {{#checklist_items}}
+                    <li class="is-flex is-start is-align-start col-gap-12">
+                      <span class="check-icon">
+                        {{{check_icon}}}
+                      </span>
+                      {{caption}}
+                    </li>
+                  {{/checklist_items}}
+                </ul>
+              </div>
+
+              <div class="subscribe-card_footer is-flex is-between is-align-center">
+                <div class="custom-radio inline-flex is-align-center">
+                  <input  type="radio" id="onetime_order"  name="fluid-checkout-subscribe" />
+                  <label for="onetime_order" class="fs-md clr-body">{{one_time_order_text}}</label>
+                </div>
+
+                <div class="is-flex is-end is-align-center col-gap-16">
+                  <span class="fw-600 clr-body" id="onetime_order_price">${{actual_price}}</span>
+                </div>
+              </div>
+            </div>
+          {{/subscribe}}
+
+          <div class="my-20">
+            <button class="btn w-full text-center btn-black fw-600"  data-fluid-checkout-group-id="{{product_id}}">
+              {{add_to_cart_text}}
+            </button>
+          </div>
+          {{#benefits}}
+            <div class="product-content_dsc">
+              {{desc}}
+              <ul class="product-content_dsc--list pl-28 mt-8">
+                {{#items}}
+                  <li>{{caption}}</li>
+                {{/items}}
+                <li>
+                  <a href="{{pdf_url}}" class="clr-blue is-flex is-align-center gap-8 view-more_info" target="_blank">
+                    <span class="clr-blue">{{view_more_text}}</span>
+                    <svg
+                      id="Micro_Icon_Chevron"
+                      data-name="Micro Icon, Chevron"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      class="mt-2"
+                    >
+                      <rect
+                        id="Bounding"
+                        width="12"
+                        height="12"
+                        fill="none"
+                      />
+                      <path
+                        id="Icon"
+                        d="M3.26,3.968a.5.5,0,0,0,.707,0L7.089.847A.5.5,0,0,0,6.382.14L3.614,2.907.848.14A.5.5,0,0,0,.141.847Z"
+                        transform="translate(4 9.229) rotate(-90)"
+                        fill="#3172e9"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          {{/benefits}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

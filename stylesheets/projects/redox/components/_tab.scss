@@ -1,0 +1,111 @@
+ul {
+  &.asea-tabs_nav {
+    overflow-x: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    li {
+      text-align: center;
+      padding: 10px 20px;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.4s ease-in-out;
+      border: 1px solid var(--clr-border);
+      border-bottom: none;
+      white-space: nowrap;
+      min-width: 200px;
+      border-top-left-radius: 0.25rem;
+      border-top-right-radius: 0.25rem;
+      span {
+        position: relative;
+        z-index: 2;
+      }
+      &.active {
+        font-weight: 600;
+        background-color: var(--clr-body-100);
+        border-color: var(--clr-body-100);
+      }
+    }
+  }
+}
+.asea {
+  &-tabs_content {
+    background-color: var(--clr-body-100);
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    @include breakpoint-up("md-tab") {
+      padding: 4rem 0;
+    }
+    .tabs-content_item {
+      display: none;
+      &.active {
+        display: block;
+      }
+    }
+    .tabs-content {
+      padding: 0;
+    }
+  }
+}
+
+.nested-tab {
+  &_nav {
+    overflow-x: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    li {
+      cursor: pointer;
+      white-space: nowrap;
+      &.active {
+        text-decoration: underline;
+        font-weight: 600;
+      }
+    }
+  }
+  &_content {
+    display: none;
+    &.active {
+      display: block;
+    }
+  }
+}
+
+.tab-slider {
+  .splide__list {
+    height: unset;
+    .splide__slide {
+      figure {
+        margin: 0;
+        position: relative;
+        height: 370px;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+  .play-icon{
+    width: 70px;
+  }
+}
+
+.tab-slider_wrap {
+  max-width: 100%;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  @include breakpoint-up("md-tab") {
+    padding: 0 3rem;
+  }
+  &:is(.mobile-view) {
+    margin-top: 0;
+  }
+}

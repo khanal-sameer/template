@@ -1,0 +1,321 @@
+{
+  "title": "{{title}",
+  "lang": "{{lang}}",
+  "month": "{{{month}}}",
+  "product_id": "8630",
+  "ratingSvgColor": "#3172E9;",
+  "product_title": "{{product_title}}",
+  "total_product_review": "{{total_product_review}}",
+  "product_desc": "{{product_desc}}",
+  "add_to_cart_text": "{{add_to_cart_text}}",
+  "arrow_icon": "https://cdn.fluid.app/asea/arrow_icon.svg",
+  "play_icon": "https://cdn.fluid.app/asea/play.png",
+  "play_alt_text": "play icon",
+  "check_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14.775\" height=\"10.346\" viewBox=\"0 0 14.775 10.346\">\n  <path id=\"Path_4862\" data-name=\"Path 4862\" d=\"M767.9,561l-9.734,9.268L754,566.1\" transform=\"translate(-753.558 -560.547)\" fill=\"none\" stroke=\"rgba(0,0,0,0.8)\" stroke-linejoin=\"round\" stroke-width=\"1.25\" />\n</svg>\n</span>",
+  "select_quantity_text": "{{select_quantity_text}}",
+  "breadcrumb_all_product_text":"{{breadcrumb_all_product_text}}",
+  "breadcrumb_all_product_text_url":"https://www.asea.app/{{affiliate_guid}}/shop",
+  "productSlider": {
+    "slider_items1_image": "https://cdn.fluid.app/asea/redox_serum/slider_1.png",
+    "video": "{{{productSlider.video}}}",
+    "alt_text": "{{productSlider.alt_text}}",
+    "items": [
+      {
+        "image": "https://cdn.fluid.app/asea/redox_serum/slider_2.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redox_serum/slider_3.png"
+      },
+      {
+        "image": "{{{productSlider.items.2.image}}}"
+      },
+      {
+        "image": "{{{productSlider.items.3.image}}}"
+      }
+    ]
+  },
+  "subscribe": {
+    "subscribe_text": "{{subscribe.subscribe_text}}",
+    "actual_price": "100.00",
+    "discounted_price": "80.00",
+    "checklist_items": [
+      {
+        "caption": "{{{subscribe.checklist_items.0.caption}}}"
+      },
+      {
+        "caption": "{{{subscribe.checklist_items.1.caption}}}"
+      },
+      {
+        "caption": "{{{subscribe.checklist_items.2.caption}}}"
+      },
+      {
+        "caption": "{{{subscribe.checklist_items.3.caption}}}"
+      }
+    ],
+    "one_time_order_text": "{{{subscribe.one_time_order_text}}}"
+  },
+  "benefits": {
+    "desc": "{{{benefits.desc}}}",
+    "view_more_text": "{{benefits.view_more_text}}",
+    "pdf_url": "{{{benefits.pdf_url}}}",
+    "items": [
+      {
+        "caption": "{{{benefits.items.0.caption}}}"
+      },
+      {
+        "caption": "{{{benefits.items.1.caption}}}"
+      },
+      {
+        "caption": "{{{benefits.items.2.caption}}}"
+      },
+      {
+        "caption": "{{{benefits.items.3.caption}}}"
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "{{{asSeenOn.title}}}",
+    "items": [
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_1.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_2.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_3.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_4.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_5.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_6.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_7.svg"
+      }
+    ]
+  },
+  "soldInfo": {
+    "image": "https://cdn.fluid.app/asea/redox_serum/sold_info_bg.png",
+    "title": "{{{soldInfo.title}}}",
+    "count": "160,000",
+    "desc": "{{{soldInfo.desc}}}"
+  },
+  "collagen_support": {
+    "title": "{{{collagen_support.title}}}",
+    "image": "https://cdn.fluid.app/asea/redox_serum/making_perfect_skin_possible.png",
+    "alt_text": "collagen support",
+    "items_left": [
+      {
+        "title": "{{{collagen_support.items_left.0.title}}}",
+        "desc": "{{{collagen_support.items_left.0.desc}}}"
+      },
+      {
+        "title": "{{{collagen_support.items_left.1.title}}}",
+        "desc": "{{{collagen_support.items_left.1.desc}}}"
+      }
+    ],
+    "items_right": [
+      {
+        "title": "{{{collagen_support.items_right.0.title}}}",
+        "desc": "{{{collagen_support.items_right.0.desc}}}"
+      },
+      {
+        "title": "{{{collagen_support.items_right.1.title}}}",
+        "desc": "{{{collagen_support.items_right.1.desc}}}"
+      }
+    ]
+  },
+  "performance": {
+    "title": "{{{performance.title}}}",
+    "alt_text": "performance",
+    "image": "https://cdn.fluid.app/asea/redox_serum/maximize_your_skin.png",
+    "desc": "{{{performance.desc}}}",
+    "items": [
+      {
+        "caption": "{{{performance.items.0.caption}}}"
+      },
+      {
+        "caption": "{{{performance.items.1.caption}}}"
+      },
+      {
+        "caption": "{{{performance.items.2.caption}}}"
+      }
+    ],
+    "note": "Three-week consumer study conducted by Kantar Group 2022."
+  },
+  "confidence": {
+    "title": "{{{confidence.title}}}",
+    "button_text": "{{{confidence.button_text}}}",
+    "image": "https://cdn.fluid.app/asea/redox_serum/confidence.png",
+    "alt_text": "confidence",
+    "items": [
+      {
+        "caption": "{{{confidence.items.0.caption}}}"
+      },
+      {
+        "caption":  "{{{confidence.items.1.caption}}}"
+      },
+      {
+        "caption": "{{{confidence.items.2.caption}}}"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "{{{how_to_use.title}}}",
+    "image": "https://cdn.fluid.app/asea/redox_serum/how_to_use.png",
+    "video": "{{{how_to_use.video}}}",
+    "steps": [
+      {
+        "image": "https://cdn.fluid.app/asea/redox_serum/how_to_use_step1.svg",
+        "alt_text": "step 1",
+        "caption": "{{{how_to_use.steps.0.caption}}}"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redox_serum/how_to_use_step2.svg",
+        "alt_text": "step 2",
+        "caption": "{{{how_to_use.steps.1.caption}}}"
+      }
+    ]
+  },
+  "key_ingredients": {
+    "title": "{{{key_ingredients.title}}}",
+    "image": "https://cdn.fluid.app/asea/redox_serum/Ingredients.png",
+    "alt_text": "ingredients",
+    "alt_text2": "collagen support",
+    "left_items": [
+      {
+        "title": "{{{key_ingredients.left_items.0.title}}}",
+        "desc": "{{{key_ingredients.left_items.0.desc}}}",
+        "image": "https://cdn.fluid.app/asea/redox_serum/cruelty_free.svg"
+      },
+      {
+        "title": "{{{key_ingredients.left_items.1.title}}}",
+        "desc": "{{{key_ingredients.left_items.1.desc}}}",
+        "image": "https://cdn.fluid.app/asea/redox_serum/all_skin_types.svg"
+      }
+    ],
+    "right_items": [
+      {
+        "title": "{{{key_ingredients.right_items.0.title}}}",
+        "desc": "{{{key_ingredients.right_items.0.desc}}}",
+        "image": "https://cdn.fluid.app/asea/redox_serum/pure_and_simple.svg"
+      },
+      {
+        "title": "{{{key_ingredients.right_items.1.title}}}",
+        "desc": "{{{key_ingredients.right_items.1.desc}}}",
+        "image": "https://cdn.fluid.app/asea/redox_serum/clean_and_beauty.svg"
+      }
+    ],
+    "mobile_items":[
+      {
+        "title": "{{{key_ingredients.mobile_items.0.title}}}",
+        "desc":  "{{{key_ingredients.mobile_items.0.desc}}}",
+        "image": "https://cdn.fluid.app/asea/redox_serum/cruelty_free.svg"
+      },
+      {
+        "title": "{{{key_ingredients.mobile_items.1.title}}}",
+        "desc":  "{{{key_ingredients.mobile_items.1.desc}}}",
+        "image": "https://cdn.fluid.app/asea/redox_serum/all_skin_types.svg"
+      },
+      {
+        "title": "{{{key_ingredients.mobile_items.2.title}}}",
+        "desc":  "{{{key_ingredients.mobile_items.2.desc}}}",
+        "image": "https://cdn.fluid.app/asea/redox_serum/pure_and_simple.svg"
+      },
+      {
+        "title": "{{{key_ingredients.mobile_items.3.title}}}",
+        "desc":  "{{{key_ingredients.mobile_items.3.desc}}}",
+        "image": "https://cdn.fluid.app/asea/redox_serum/clean_and_beauty.svg"
+      }
+    ]
+  },
+  "feel_the_difference": {
+    "title": "{{{feel_the_difference.title}}}",
+    "image": "https://cdn.fluid.app/asea/redox_serum/feel_the_difference.png",
+    "alt_text": "Its free",
+    "desc": "{{{feel_the_difference.desc}}}",
+    "items": [
+      {
+        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20.352\" height=\"20.046\" viewBox=\"0 0 20.352 20.046\">\n  <g id=\"Delivery_box_icon\" data-name=\"Delivery box icon\" transform=\"translate(-20.145 -6716.5)\">\n    <path id=\"Path_35232\" data-name=\"Path 35232\" d=\"M840.851,1259.233,831,1254.96v10.508l9.851,4.6Z\" transform=\"translate(-810.205 5465.979)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35233\" data-name=\"Path 35233\" d=\"M843.4,1259.233l9.194-4.273v10.508l-9.194,4.6Z\" transform=\"translate(-812.758 5465.979)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35234\" data-name=\"Path 35234\" d=\"M831,1253.94l9.851-3.94,9.194,3.94\" transform=\"translate(-810.205 5467)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35235\" data-name=\"Path 35235\" d=\"M837.9,1252.2l9.132,4.249\" transform=\"translate(-811.625 5466.548)\" fill=\"none\" stroke=\"#000\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35236\" data-name=\"Path 35236\" d=\"M838.905,1261.89l-4.6-1.97v4.273l4.6,1.97Z\" transform=\"translate(-810.887 5464.959)\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n  </g>\n</svg>\n",
+        "alt_text": "badge",
+        "caption": "{{{feel_the_difference.items.0.caption}}}"
+      },
+      {
+        "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19.427\" height=\"19.427\" viewBox=\"0 0 19.427 19.427\">\n  <g id=\"Group_4002\" data-name=\"Group 4002\" transform=\"translate(-20.295 -6744.299)\">\n    <path id=\"Path_35034\" data-name=\"Path 35034\" d=\"M840.213,1303.427a9.213,9.213,0,1,0-9.213-9.213A9.211,9.211,0,0,0,840.213,1303.427Z\" transform=\"translate(-810.205 5459.799)\" fill=\"none\" stroke=\"#231f20\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n    <path id=\"Path_35035\" data-name=\"Path 35035\" d=\"M842.2,1291.05v4.408l4.724,4.408\" transform=\"translate(-812.51 5458.555)\" fill=\"none\" stroke=\"#231f20\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\"/>\n  </g>\n</svg>\n",
+        "alt_text": "flexible",
+        "caption": "{{{feel_the_difference.items.1.caption}}}"
+      },
+      {
+        "icon": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <g clip-path=\"url(#clip0_451_82)\">\n    <path d=\"M9.71301 18.926C11.5352 18.926 13.3164 18.3858 14.8315 17.3734C16.3466 16.3611 17.5274 14.9221 18.2247 13.2387C18.922 11.5552 19.1044 9.70282 18.749 7.91567C18.3935 6.12852 17.5161 4.48697 16.2276 3.19851C14.9391 1.91005 13.2975 1.03251 11.5104 0.677024C9.72323 0.321539 7.87077 0.504006 6.18732 1.20132C4.50386 1.89863 3.06501 3.07956 2.05267 4.59463C1.04034 6.1097 0.5 7.89088 0.5 9.71303C0.499737 10.923 0.737841 12.1211 1.20074 13.239C1.66365 14.3569 2.34226 15.3726 3.19782 16.2282C4.05337 17.0837 5.06912 17.7623 6.18701 18.2252C7.3049 18.6881 8.50307 18.9263 9.71301 18.926Z\" stroke=\"#231F20\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    <g clip-path=\"url(#clip1_451_82)\">\n      <path d=\"M14 14L6 6M14 6L6 14\" stroke=\"#231F20\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </g>\n  </g>\n  <defs>\n    <clipPath id=\"clip0_451_82\">\n      <rect width=\"20\" height=\"20\" fill=\"white\"/>\n    </clipPath>\n    <clipPath id=\"clip1_451_82\">\n      <rect width=\"10\" height=\"10\" fill=\"white\" transform=\"translate(5 5)\"/>\n    </clipPath>\n  </defs>\n</svg>\n",
+        "alt_text": "clock",
+        "caption": "{{{feel_the_difference.items.2.caption}}}"
+      }
+    ],
+    "button_text": "{{{feel_the_difference.button_text}}}"
+  },
+  "faq": {
+    "title": "{{{faq.title}}}",
+    "icon_class": "clr-body",
+    "items": [
+      {
+        "class": "acc-item_active",
+        "header": "{{{faq.items.0.header}}}",
+        "desc": "{{{faq.items.0.desc}}}"
+      },
+      {
+        "class": "",
+        "header": "{{{faq.items.1.header}}}",
+        "desc": "{{{faq.items.1.desc}}}"
+      },
+      {
+        "class": "",
+        "header": "{{{faq.items.2.header}}}",
+        "desc": "{{{faq.items.2.desc}}}"
+      },
+      {
+        "class": "",
+        "header": "{{{faq.items.3.header}}}",
+        "desc": "{{{faq.items.3.desc}}}"
+      },
+      {
+        "class": "",
+        "header": "{{{faq.items.4.header}}}",
+        "desc": "{{{faq.items.4.desc}}}"
+      },
+      {
+        "class": "",
+        "header": "{{{faq.items.5.header}}}",
+        "desc": "{{{faq.items.5.desc}}}"
+      },
+      {
+        "class": "",
+        "header": "{{{faq.items.6.header}}}",
+        "desc": "{{{faq.items.6.desc}}}"
+      },
+      {
+        "class": "",
+        "header": "{{{faq.items.7.header}}}",
+        "desc": "{{{faq.items.7.desc}}}"
+      },
+      {
+        "class": "",
+        "header": "{{{faq.items.8.header}}}",
+        "desc": "{{{faq.items.8.desc}}}"
+      }
+    ],
+    "show_more_text": "Show More"
+  },
+  "cta": {
+    "title": "{{{cta.title}}}",
+    "subscription_text": "{{{cta.subscription_text}}}",
+    "purchase_text": "{{{cta.purchase_text}}}",
+    "image": "https://cdn.fluid.app/asea/redox_serum/cta.png",
+    "alt_text": "cta support",
+    "note_desc": "{{{cta.note_desc}}}"
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "title": "El Suero Intensiveo Redox",
+  "lang": "es",
+  "month":"mes",
+  "product_title": "El Suero Intensiveo Redox",
+  "total_product_review": "22 Reseñas",
+  "product_desc": "Cuidado específico con nuestra fórmula Redox más concentrada",
+  "add_to_cart_text": "Agregar al carrito",
+  "arrow_icon": "https://cdn.fluid.app/asea/arrow_icon.svg",
+  "play_icon": "https://cdn.fluid.app/asea/play.png",
+  "play_alt_text": "play icon",
+  "check_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14.775\" height=\"10.346\" viewBox=\"0 0 14.775 10.346\">\n  <path id=\"Path_4862\" data-name=\"Path 4862\" d=\"M767.9,561l-9.734,9.268L754,566.1\" transform=\"translate(-753.558 -560.547)\" fill=\"none\" stroke=\"rgba(0,0,0,0.8)\" stroke-linejoin=\"round\" stroke-width=\"1.25\" />\n</svg>\n</span>",
+  "select_quantity_text": "Seleccionar Cantidad:",
+  "breadcrumb_all_product_text":"Todos los Productos",
+  "breadcrumb_all_product_text_url":"https://www.asea.app/{{affiliate_guid}}/shop",
+  "productSlider": {
+    "video": "https://cdn.fluid.app/asea/redox_serum/carousel_video.mp4",
+    "alt_text": "product",
+    "items": [
+      {
+        "image": ""
+      },
+      {
+        "image": ""
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redox_serum/slider_4_es.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redox_serum/slider_5_es.png"
+      }
+    ]
+  },
+  "subscribe": {
+    "subscribe_text": "Subscrìbete",
+    "checklist_items": [
+      {
+        "caption": "Ahorra 20% con el precio al por mayor"
+      },
+      {
+        "caption": "30 dias de devolución de dinero sin riesgo garantizado"
+      },
+      {
+        "caption": "Gana Redox Rewards para producto gratis"
+      },
+      {
+        "caption": "Cambia tu subscripción a cualquier hora"
+      }
+    ],
+    "one_time_order_text": "Orden única"
+  },
+  "benefits": {
+    "desc": "Descubre una formula concentrada para areas específicas con el <span class=fw-600>serum intensivo Redox</span>.",
+    "view_more_text": "Ver más información",
+    "pdf_url": "https://cdn.fluid.app/asea/redox_serum/view_more_es.pdf",
+
+    "items": [
+      {
+        "caption": "Aplica a las áreas específicas para descubir piel con apariencia mas joven"
+      },
+      {
+        "caption": "Seguro, ingredientes libres de crueldad"
+      },
+      {
+        "caption": "Libre de fragancia, ligero, no graso"
+      },
+      {
+        "caption": "Apto para todo tipo de pieles"
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "Como se ve en",
+    "items": [
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_1.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_2.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_3.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_4.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_5.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_6.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_7.svg"
+      }
+    ]
+  },
+  "soldInfo": {
+    "title": "Más de",
+    "desc": "Vendido en todo el mundo"
+  },
+  "collagen_support": {
+    "title": "Haciendo pieles perfectas posibles ",
+    "alt_text": "collagen support",
+    "items_left": [
+      {
+        "title": "Lucha contra el envejecimiento",
+        "desc": "Mirate mas joven al reducir la apariencia de lineas y arrugas."
+      },
+      {
+        "title": "Alivia",
+        "desc": "Suavece áreas específicas - ideal para la piel sensible o delicada que necesita más cuidado Cuida."
+      }
+    ],
+    "items_right": [
+      {
+        "title": "Ataca las imperfecciones ",
+        "desc": "Dile a dios a las imperfecciones visibles con un tratamiento concentrado."
+      },
+      {
+        "title": "Intensifica",
+        "desc": "Alimenta la salud de piel con nustra formula mas intensiva de señalizacion de celular Redox."
+      }
+    ]
+  },
+  "performance": {
+    "title": "Maximiza el potencial de tu piel con la ciencia de ASEA",
+    "alt_text": "performance",
+    "desc": "La ciencia del cuidado de la piel es compleja, pero no tiene por qué serlo.",
+    "items": [
+      {
+        "caption": "Más de lo que amas para tu piel: moléculas de señalización redox en nuestra versión más concentrada fórmula."
+      },
+      {
+        "caption": "¿Por qué la señalización celular redox? Rejuvenece y regenera la piel para una apariencia más vibrante y juvenil."
+      },
+      {
+        "caption": "Nuestra fórmula sencilla garantiza que tu piel obtenga exactamente lo que necesita para un cutis de aspecto más saludable."
+      }
+    ],
+    "note": "Three-week consumer study conducted by Kantar Group 2022."
+  },
+  "confidence": {
+    "title": "Echa un vistazo con confianza",
+    "button_text": "Comprar ahora",
+    "alt_text": "confidence",
+    "items": [
+      {
+        "caption": "<span class=fw-600>Garantía de devolución de dinero </span> 100% libre de riesgos durante 30 días"
+      },
+
+      {
+        "caption": "Pago <span class=fw-600> seguro y cifrado</span>"
+      },
+      {
+        "caption": " Sólo toma<span class=fw-600> 2 minutos</span>"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "Cómo utilizar",
+    "video": "https://cdn.fluid.app/asea/redox_serum/how_to_use_video_en.mp4",
+    "steps": [
+      {
+        "caption": "Primero limpie la piel, séquela, luego aplique una cantidad del tamaño de un guisante en el área deseada y frote la piel."
+      },
+      {
+        "caption": "Deje que se absorba completamente antes de continuar con el siguiente paso de su rutina de cuidado de la piel."
+      }
+    ]
+  },
+  "key_ingredients": {
+    "title": "Ingredientes con los que te sentirás genial",
+    "left_items": [
+      {
+        "title": "Libre de crueldad",
+        "desc": "No incluye ingredientes de origen animal y no está testado en animales."
+      },
+      {
+        "title": "Apto para todo tipo de piel",
+        "desc": "Dermatólogo y clínicamente probado."
+      }
+    ],
+    "right_items": [
+      {
+        "title": "Puro y simple",
+        "desc": "Libre de parabenos, colorantes artificiales, sulfatos, ftalatos y propilenglicol."
+      },
+      {
+        "title": "Belleza natural ",
+        "desc": "Mezclado con ingredientes limpios para un cuidado específico."
+      }
+    ],
+    "mobile_items":[
+      {
+        "title": "Libre de crueldad",
+        "desc": "No incluye ingredientes de origen animal y no está testado en animales."
+      },
+      {
+        "title": "Apto para todo tipo de piel",
+        "desc": "Dermatólogo y clínicamente probado."
+      },
+      {
+        "title": "Puro y simple",
+        "desc": "Libre de parabenos, colorantes artificiales, sulfatos, ftalatos y propilenglicol."
+      },
+      {
+        "title": "Belleza natural ",
+        "desc": "Mezclado con ingredientes limpios para un cuidado específico."
+      }
+    ]
+  },
+  "feel_the_difference": {
+    "title": "Siente la diferencia o es gratis",
+    "desc": "Ponemos nuestro dinero donde están nuestros beneficios. Eso es lo mucho que creemos en el poder del redox. Y si no te gusta, está bien. Más para nosotros.", 
+    "items": [
+      {
+        "caption": "<span class=fw-600>Garantía de devolución de dinero</span> 100% libre de riesgos durante 30 días"
+      },
+      {
+        "caption": "Fechas de entrega <span class=fw-600>flexibles</span>"
+      },
+      {
+        "caption": "Pausa o cancelar  <span class=fw-600>en cualquier momento</span>"
+      }
+    ],
+    "button_text": "Suscríbete ahora"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "header": "¿Qué hace que ASEA® Intensive Redox Serum sea tan especial? ",
+        "desc": "<p>ASEA fue la primera empresa en replicar las moléculas de señalización redox naturales del cuerpo. ASEA Intensive Redox Serum aprovecha el poder de la tecnología redox de señalización celular en un suero ligero y de rápida absorción.</p> <p>Las moléculas redox ayudan con la elasticidad, firmeza y aparición de la celulitis de la piel. Esta fórmula concentrada actúa para agregar visiblemente suavidad, textura uniforme y revitalizar la apariencia saludable de la piel.</p>"
+      },
+      {
+        "header": "¿Puedo utilizar ASEA® Intensive Redox Serum con otras líneas de cuidado de la piel? ",
+        "desc": "Sí. La fórmula es compatible con cualquier producto para el cuidado de la piel que elija utilizar. Recomendamos combinarlo con nuestro sistema RENUAdvanced® para obtener mejores resultados."
+      },
+      {
+        "header": "¿El suero redox intensivo ASEA® tiene certificación Halal? ",
+        "desc": "Sí. Esta certificación garantiza las características y calidad de los productos según las normas establecidas por el Consejo Islámico."
+      },
+      {
+        "header": "¿El Suero Intensivo Redox ASEA® tiene retinol en su fórmula?",
+        "desc": "No. Aunque el retinol es un ingrediente popular para combatir el envejecimiento, también puede causar irritación de la piel."
+      },
+      {
+        "header": "¿El Suero Intensivo Redox ASEA® contiene alguna fragancia?",
+        "desc": "No. ASEA Intensive Redox Serum no contiene ninguna fragancia."
+      },
+      {
+        "header": "¿Cómo debo almacenar el Suero Redox Intensivo ASEA®?",
+        "desc": "Mantenga el producto alejado de la luz solar directa y de temperaturas extremas. Para obtener mejores resultados, guárdelo en un lugar fresco y seco."
+      },
+      {
+        "header": "¿ASEA® Intensive Redox Serum está libre de parabenos?",
+        "desc": "Sí, ¡ASEA® Intensive Redox Serum no contiene parabenos! Tampoco contiene OGM, sulfatos, ingredientes de origen animal ni colorantes artificiales. Nuestro sistema de cuidado de la piel ha sido probado clínica y dermatológicamente y es adecuado para todo tipo de piel."
+      },
+      {
+        "header": "¿Es ASEA® Intensive Redox Serum vegano?",
+        "desc": "Sí. ASEA® Intensive Redox Serum se produce sin dañar a los animales (sin crueldad) y no contiene ingredientes de origen animal, subproductos animales ni productos derivados de animales."
+      },
+      {
+        "header": "¿A qué edad debo empezar a utilizar ASEA® Intensive Redox Serum?",
+        "desc": "¡A cualquier edad! Lo formulamos para cualquier persona que quiera potenciar el potencial de su piel cuidando su bienestar general, incluidas aquellas con piel seca o sensible."
+      }
+    ],
+    "show_more_text": "Mostrar Más"
+  },
+  "cta": {
+    "title": "Vive la experiencia de resultados naturalmente hermosos",
+    "subscription_text": "Agregar a la suscripción",
+    "purchase_text": "Añadir a una compra única",
+    "note_desc": "*Estas declaraciones no han sido evaluadas por la Administración de Alimentos y Medicamentos. Este producto no está destinado para diagnosticar, tratar, curar o prevenir ninguna enfermedad."
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "title": "Intensive Redox Serum",
+  "lang": "en",
+  "month": "mo",
+  "product_title": "Intensive Redox Serum",
+  "total_product_review": "22 Reviews",
+  "product_desc": "Targeted care with our most concentrated redox formula",
+  "add_to_cart_text": "Add to cart",
+  "arrow_icon": "https://cdn.fluid.app/asea/arrow_icon.svg",
+  "play_icon": "https://cdn.fluid.app/asea/play.png",
+  "play_alt_text": "play icon",
+  "check_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14.775\" height=\"10.346\" viewBox=\"0 0 14.775 10.346\">\n  <path id=\"Path_4862\" data-name=\"Path 4862\" d=\"M767.9,561l-9.734,9.268L754,566.1\" transform=\"translate(-753.558 -560.547)\" fill=\"none\" stroke=\"rgba(0,0,0,0.8)\" stroke-linejoin=\"round\" stroke-width=\"1.25\" />\n</svg>\n</span>",
+  "select_quantity_text": "Select quantity:",
+  "breadcrumb_all_product_text":"All products",
+  "breadcrumb_all_product_text_url":"https://www.asea.app/{{affiliate_guid}}/shop",
+  "productSlider": {
+    "video": "https://cdn.fluid.app/asea/redox_serum/carousel_video.mp4",
+    "alt_text": "product",
+    "items": [
+      {
+        "image": ""
+      },
+      {
+        "image": ""
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redox_serum/slider_4_en.png"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/redox_serum/slider_5_en.png"
+      }
+    ]
+  },
+  "subscribe": {
+    "subscribe_text": "Subscribe",
+    "checklist_items": [
+      {
+        "caption": "Save 20% with wholesale pricing"
+      },
+      {
+        "caption": "30-day risk-free money-back guarantee"
+      },
+      {
+        "caption": "Earn Redox Rewards for free products"
+      },
+      {
+        "caption": "Change your subscription any time"
+      }
+    ],
+    "one_time_order_text": "One-time order"
+  },
+  "benefits": {
+    "desc": "Discover a concentrated formula for targeted areas with <span class=fw-600>Intensive Redox Serum</span>.*",
+    "view_more_text": "View more information",
+    "pdf_url": "https://cdn.fluid.app/asea/redox_serum/view_more_en.pdf",
+    "items": [
+      {
+        "caption": "Apply to specific areas of concern to reveal more youthful-looking skin"
+      },
+      {
+        "caption": "Safe, cruelty-free ingredients"
+      },
+      {
+        "caption": "Scent-free, lightweight, non-greasy"
+      },
+      {
+        "caption": "Suitable for all skin types"
+      }
+    ]
+  },
+  "asSeenOn": {
+    "title": "As seen on",
+    "items": [
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_1.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_2.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_3.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_4.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_5.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_6.svg"
+      },
+      {
+        "image": "https://cdn.fluid.app/asea/as_seen_7.svg"
+      }
+    ]
+  },
+  "soldInfo": {
+    "title": "Over",
+    "desc": "sold worldwide"
+  },
+  "collagen_support": {
+    "title": "Making perfect skin possible",
+    "alt_text": "collagen support",
+    "items_left": [
+      {
+        "title": "Fights aging",
+        "desc": "Look younger by reducing the appearance of fine lines and wrinkles."
+      },
+      {
+        "title": "Relieves",
+        "desc": "Soothes specific areas—ideal for sensitive or delicate skin needing extra care."
+      }
+    ],
+    "items_right": [
+      {
+        "title": "Targets imperfections",
+        "desc": "Say goodbye to visible imperfections and flaws with a concentrated treatment."
+      },
+      {
+        "title": "Intensify",
+        "desc": "Nourish overall skin health with our most intensive redox cell signaling formula."
+      }
+    ]
+  },
+  "performance": {
+    "title": "Maximize your skin’s potential with ASEA science",
+    "alt_text": "performance",
+    "desc": "Skin care science is complex, but it doesn’t have to be complicated.",
+    "items": [
+      {
+        "caption": "More of what you love for your skin—redox signaling molecules in our most concentrated formula."
+      },
+      {
+        "caption": "Why redox cell signaling? It rejuvenates and regenerates skin for a more vibrant and youthful look."
+      },
+      {
+        "caption": "Our simple formula ensures your skin gets exactly what it needs for a healthier-looking complexion."
+      }
+    ],
+    "note": "Three-week consumer study conducted by Kantar Group 2022."
+  },
+  "confidence": {
+    "title": "Checkout with confidence",
+    "button_text": "Buy now",
+    "alt_text": "confidence",
+    "items": [
+      {
+        "caption": "100% 30-day risk-free <span class=fw-600>money-back guarantee</span>"
+      },
+      {
+        "caption": "<span class=fw-600>Secure and encrypted </span>checkout"
+      },
+      {
+        "caption": "It only takes <span class=fw-600>2 minutes</span>"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "How to use",
+    "video": "https://cdn.fluid.app/asea/redox_serum/how_to_use_video_en.mp4",
+    "steps": [
+      {
+        "caption": "Cleanse skin first, dry, then apply a pea-sized amount onto the desired area and rub into the skin."
+      },
+      {
+        "caption": "Allow to fully absorb before proceeding to the next step in your skin care routine."
+      }
+    ]
+  },
+  "key_ingredients": {
+    "title": "Ingredients you’ll feel great about",
+    "left_items": [
+      {
+        "title": "Cruelty-free",
+        "desc": "Does not include animal-based ingredients and is not tested on animals."
+      },
+      {
+        "title": "Suitable for all skin types",
+        "desc": "Dermatologist and clinically tested."
+      }
+    ],
+    "right_items": [
+      {
+        "title": "Pure and simple",
+        "desc": "Free of parabens, artificial colors, sulfates, phthalates, and propylene glycol."
+      },
+      {
+        "title": "Natural beauty",
+        "desc": "Blended with clean ingredients for targeted care."
+      }
+    ],
+    "mobile_items":[
+      {
+        "title": "Cruelty-free",
+        "desc": "Does not include animal-based ingredients and is not tested on animals."
+      },
+      {
+        "title": "Suitable for all skin types",
+        "desc": "Dermatologist and clinically tested."
+      },
+      {
+        "title": "Pure and simple",
+        "desc": "Free of parabens, artificial colors, sulfates, phthalates, and propylene glycol."
+      },
+      {
+        "title": "Natural beauty",
+        "desc": "Blended with clean ingredients for targeted care."
+      }
+    ]
+  },
+  "feel_the_difference": {
+    "title": "Feel the difference or it’s free",
+    "desc": "We put our money where our benefits are. That’s how much we believe in the power of redox. And if you’re not into it, that’s OK. More for us.",
+    "items": [
+      {
+        "caption": "100% 30-day risk-free <span class=fw-600>money-back guarantee</span>"
+      },
+      {
+        "caption": "<span class=fw-600>Flexible</span> delivery dates"
+      },
+      {
+        "caption": "Pause or cancel <span class=fw-600>anytime</span>"
+      }
+    ],
+    "button_text": "Subscribe now"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "header": "What makes ASEA® Intensive Redox Serum so special?",
+        "desc": "<p>ASEA was the first company to replicate the body’s natural redox signaling molecules. ASEA Intensive Redox Serum harnesses the power of cell signaling redox technology in a light, fast-absorbing serum.</p><p>Redox molecules help with skin elasticity, firmness, and the appearance of cellulite. This concentrated formula works to visibly add smoothness, even texture, and revitalize healthy skin appearance.</p>"
+      },
+      {
+        "header": "Can I use ASEA® Intensive Redox Serum with other skin care lines?",
+        "desc": "Yes. The formula is compatible with any skin care products you choose to use. We recommend pairing with our RENUAdvanced® system for best results."
+      },
+      {
+        "header": "Is ASEA® Intensive Redox Serum Halal Certified?",
+        "desc": "Yes. This certification ensures the features and quality of products according to the rules established by the Islamic Council."
+      },
+      {
+        "header": "Does the ASEA® Intensive Redox Serum have retinol in its formula?",
+        "desc": "No. Although retinol is a popular age-fighting ingredient, it can also cause skin irritation."
+      },
+      {
+        "header": "Does the ASEA® Intensive Redox Serum contain any fragrance?",
+        "desc": "No. ASEA Intensive Redox Serum does not contain any fragrance. "
+      },
+      {
+        "header": "How should I store ASEA® Intensive Redox Serum?",
+        "desc": "Keep product out of direct sunlight and extreme temperatures. For best results, store in a cool, dry place."
+      },
+      {
+        "header": "Is ASEA® Intensive Redox Serum paraben-free?",
+        "desc": "Yes, ASEA® Intensive Redox Serum is paraben-free! It is also free from GMOs, sulfates, animal-based ingredients, and artificial colors. Our skin care system has been clinically and dermatologist tested and is suitable for all skin types."
+      },
+      {
+        "header": "Is ASEA® Intensive Redox Serum vegan?",
+        "desc": "Yes. ASEA® Intensive Redox Serum is produced without harming animals (cruelty-free) and doesn’t contain animal-based ingredients, animal by-products, or animal-derived products."
+      },
+      {
+        "header": "At what age should I start using ASEA® Intensive Redox Serum?",
+        "desc": "At any age! We formulated it for anyone who wants to power their skin’s potential by taking care of their overall well-being, including those with dry or sensitive skin."
+      }
+    ],
+    "show_more_text": "Show More"
+  },
+  "cta": {
+    "title": "Experience naturally beautiful results",
+    "subscription_text": "Add to subscription",
+    "purchase_text": "Add to one-time purchase",
+    "note_desc": "*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+  }
+}

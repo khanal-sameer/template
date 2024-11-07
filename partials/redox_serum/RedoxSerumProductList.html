@@ -1,0 +1,62 @@
+<!-- Performance section -->
+{{#performance}}
+  <section class="page-section page-section_cover page-section_performance">
+    <div class="background-image">
+      <img src="{{image}}" alt="{{alt_text}}"/>
+    </div>
+    <div class="container">
+      <div class="is-grid two-cols">
+        <div class="col-item"></div>
+
+        <div class="col-item is-flex is-align-center">
+          <div class="content-list">
+            <h3 class="mb-12 clr-body">{{title}}</h3>
+            <div class="mb-20">{{desc}}</div>
+            <ul class="bullet-list pl-20 clr-body-700">
+              {{#items}}
+                <li>{{caption}}</li>
+              {{/items}}
+            </ul>
+            <div class="product-conetnt_note is-italic fs-sm clr-body-600 mt-12 is-hide"><i>{{note}}</i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{/performance}}
+<!-- Checkout with confidence -->
+{{#confidence}}
+  <section class="page-section page-section_cover page-section_confidence">
+    <div class="background-image  background-image_right">
+      <img src="{{image}}" alt="{{alt_text}}" />
+    </div>
+    <div class="container">
+      <div class="is-grid two-cols">
+        <div class="col-item is-flex is-align-center col-item_left">
+          <div class="content-list">
+            <h3 class="mb-16 clr-body">{{title}}</h3>
+            <ul class="fs-md subscribe-features check-list">
+              {{#items}}
+                <li class="is-flex is-start is-align-start col-gap-12">
+                  <span class="check-icon">
+                    {{{check_icon}}}
+                  </span>
+                  <p>
+                    {{{caption}}}
+                  </p>
+                </li>
+              {{/items}}
+            </ul>
+
+            <div class="my-24">
+              <button class="btn w-full text-center btn-black fw-600" data-fluid-checkout="{{product_id}}">
+                {{button_text}}
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-item"></div>
+      </div>
+    </div>
+  </section>
+{{/confidence}}
